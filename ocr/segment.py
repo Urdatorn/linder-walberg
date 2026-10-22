@@ -221,3 +221,11 @@ def render(grey: Image.Image, strip: Strip, scale: float, max_side: int, pad: in
     factor = min(scale, max_side / max(crop.size))
     size = (max(1, round(crop.width * factor)), max(1, round(crop.height * factor)))
     return crop.resize(size, Image.LANCZOS).convert("RGB")
+
+
+def split_strip(grey: Image.Image, strip: Strip) -> list[Strip]:
+    """Two halves of a strip, cut at the blankest row near its middle."""
+    l, t, r, b = strip.box
+    ink = np.asarray(grey.crop((l, 0, r, grey.height))) < 128
+    cuts = _cut_rows(ink, t, b, 2)
+    return [Strip(strip.kind, strip.section, strip.column, strip.index, (l, cuts[i], r, cuts[i + 1])) for i in range(2)]

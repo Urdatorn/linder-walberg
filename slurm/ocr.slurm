@@ -8,7 +8,8 @@
 #   full run:
 #     sbatch --array=0-3 slurm/ocr.slurm
 #
-# Overrides via --export: PAGES, RUN, BATCH_SIZE, PROMPT, SCALE, EXTRA_ARGS.
+# Overrides via --export: PAGES (join ranges with '+', since --export
+# splits on commas, e.g. PAGES=0005-0009+0028), RUN, BATCH_SIZE, PROMPT, SCALE, EXTRA_ARGS.
 #SBATCH --job-name=lw-ocr
 #SBATCH --account=naiss2026-3-353-gpu
 #SBATCH --partition=gpu

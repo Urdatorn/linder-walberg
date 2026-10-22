@@ -18,11 +18,12 @@ import argparse
 import json
 import os
 import platform
+import re
 import sys
 import time
 from pathlib import Path
 
-from segment import Strip, load_grey, render, segment
+from segment import Strip, load_grey, render, segment, split_strip
 
 # Ported verbatim from the CLLG scanner (src/main/ipc/ocr.ts), which in turn
 # ports it from cllg_pipeline.py; this is the prompt the CLLG models are run with.
@@ -69,12 +70,11 @@ def log(msg: str) -> None:
 
 
 def parse_pages(spec: str | None, available: list[str]) -> list[str]:
-    """'0005-0009,0050' -> page ids present in the image directory."""
+    """'0005-0009,0050' (or '0005-0009+0050') -> page ids present in the image directory."""
     if not spec:
         return available
     wanted: set[str] = set()
-    for part in spec.split(","):
-        part = part.strip()
+    for part in re.split(r"[,+\s]+", spec):   # '+' survives sbatch --export
         if "-" in part:
             a, b = part.split("-")
             wanted.update(f"{n:04d}" for n in range(int(a), int(b) + 1))
@@ -111,6 +111,26 @@ def join_page(strips: list[dict]) -> str:
     return "\n".join(out).strip() + "\n"
 
 
+def find_loop(tokens: list[int], max_period: int = 24, min_reps: int = 8, min_span: int = 32) -> int | None:
+    """Start of a cycle repeating at the end of tokens, if there is one.
+
+    Greedy decoding sometimes falls into "οἷον, οἷον, οἷον, ..." until the
+    token limit; a block of p tokens repeated min_reps times (and at least
+    min_span tokens) at the tail is taken as such a loop.
+    """
+    for p in range(1, max_period + 1):
+        reps = max(min_reps, -(-min_span // p))
+        if len(tokens) < p * reps:
+            continue
+        tail = tokens[-p:]
+        if all(tokens[-(k + 1) * p: len(tokens) - k * p] == tail for k in range(1, reps)):
+            start = len(tokens) - reps * p
+            while start >= p and tokens[start - p:start] == tail:
+                start -= p
+            return start
+    return None
+
+
 class Model:
     def __init__(self, args):
         import torch
@@ -127,6 +147,20 @@ class Model:
         messages = [{"role": "user", "content": [{"type": "image"}, {"type": "text", "text": PROMPTS[args.prompt]}]}]
         self.chat = self.processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
         self.eos = {self.processor.tokenizer.eos_token_id, self.processor.tokenizer.pad_token_id}
+        from transformers import StoppingCriteria, StoppingCriteriaList
+
+        class LoopStop(StoppingCriteria):
+            """Stop each sequence on its own once it starts cycling."""
+            def __init__(self, prompt_len: int):
+                self.prompt_len = prompt_len
+
+            def __call__(self, input_ids, scores, **kwargs):
+                if input_ids.shape[1] - self.prompt_len < 32:
+                    return torch.zeros(input_ids.shape[0], dtype=torch.bool, device=input_ids.device)
+                tails = input_ids[:, -400:].tolist()
+                return torch.tensor([find_loop(row) is not None for row in tails], device=input_ids.device)
+
+        self.stopping = lambda prompt_len: StoppingCriteriaList([LoopStop(prompt_len)])
         log(f"model_loaded seconds={time.time() - t0:.1f} gpu_mem_gb={torch.cuda.memory_allocated() / 2**30:.1f}")
 
     def transcribe(self, images) -> list[dict]:
@@ -135,15 +169,21 @@ class Model:
             text=[self.chat] * len(images), images=images, padding=True, return_tensors="pt"
         ).to("cuda")
         with torch.inference_mode():
-            out = self.model.generate(**inputs, max_new_tokens=self.args.max_new_tokens, do_sample=False)
+            out = self.model.generate(
+                **inputs, max_new_tokens=self.args.max_new_tokens, do_sample=False,
+                stopping_criteria=self.stopping(inputs["input_ids"].shape[1]),
+            )
         new = out[:, inputs["input_ids"].shape[1]:].tolist()
         results = []
         for row in new:
             n = next((i for i, t in enumerate(row) if t in self.eos), len(row))
+            loop = find_loop(row[:n])
+            keep = row[:loop] if loop is not None else row[:n]
             results.append({
-                "text": self.processor.tokenizer.decode(row[:n], skip_special_tokens=True),
+                "text": self.processor.tokenizer.decode(keep, skip_special_tokens=True),
                 "new_tokens": n,
                 "hit_limit": n >= self.args.max_new_tokens,
+                "loop": loop is not None,
             })
         return results
 
@@ -159,7 +199,7 @@ def main() -> int:
     ap.add_argument("--prompt", choices=sorted(PROMPTS), default="cllg")
     ap.add_argument("--scale", type=float, default=0.5, help="scan pixels to model pixels")
     ap.add_argument("--max-side", type=int, default=1024, help="longest side of a strip image")
-    ap.add_argument("--max-new-tokens", type=int, default=3072)
+    ap.add_argument("--max-new-tokens", type=int, default=2048, help="a strip needs about 500-900")
     ap.add_argument("--batch-size", type=int, default=16, help="strips per generate() call")
     ap.add_argument("--front-matter", default="0001-0004", help="pages read as one column")
     ap.add_argument("--ocr-heads", action="store_true", help="also transcribe running heads")
@@ -215,25 +255,50 @@ def main() -> int:
             (out / "pages" / f"{page}.json").write_text(json.dumps(payload, ensure_ascii=False, indent=1))
             text = join_page([s for s in strips if s["kind"] != "head"])
             (out / "pages" / f"{page}.txt").write_text(text)
-            limits = [s["n"] for s in strips if s.get("hit_limit")]
+            limits = [s["n"] for s in strips if s.get("hit_limit") or s.get("loop")]
             log(f"page_done {page} strips={len(strips)} chars={len(text)} "
                 f"tokens={sum(s.get('new_tokens', 0) for s in strips)}"
-                + (f" WARNING hit_limit strips={limits}" if limits else ""))
+                + (f" retried={[s['n'] for s in strips if s.get('retried')]}" if any(s.get("retried") for s in strips) else "")
+                + (f" WARNING looping strips={limits}" if limits else ""))
 
     def run_batch():
         if not queue:
             return
         t0 = time.time()
-        results = model.transcribe([q[3] for q in queue]) if model else [{"text": "", "new_tokens": 0, "hit_limit": False}] * len(queue)
+        results = model.transcribe([q[3] for q in queue]) if model else [
+            {"text": "", "new_tokens": 0, "hit_limit": False, "loop": False} for _ in queue]
         dt = time.time() - t0
         n_tok = sum(r["new_tokens"] for r in results)
+        retry = [(q, r) for q, r in zip(queue, results) if r["loop"] or r["hit_limit"]]
+        if retry:
+            # A strip that loops is read again as two halves; a smaller image
+            # usually decodes cleanly. Halves that loop again keep their text
+            # up to the loop, and the strip stays flagged.
+            halves, owners = [], []
+            for (page, n, strip, _), r in retry:
+                for half in split_strip(pending[page]["grey"], strip):
+                    halves.append(render(pending[page]["grey"], half, args.scale, args.max_side))
+                    owners.append(r)
+            t_retry = time.time()
+            half_results = model.transcribe(halves)
+            for r in {id(r): r for r in owners}.values():
+                parts = [h for o, h in zip(owners, half_results) if o is r]
+                r["first_try"] = {"text": r["text"], "new_tokens": r["new_tokens"]}
+                r["text"] = "\n".join(h["text"].strip() for h in parts)
+                r["new_tokens"] = sum(h["new_tokens"] for h in parts)
+                r["loop"] = any(h["loop"] or h["hit_limit"] for h in parts)
+                r["hit_limit"] = False
+                r["retried"] = True
+            n_tok += sum(h["new_tokens"] for h in half_results)
+            log(f"retry strips={len(retry)} halves={len(halves)} seconds={time.time() - t_retry:.1f} "
+                f"still_looping={sum(r['loop'] for _, r in retry)}")
         for (page, n, strip, image), r in zip(queue, results):
             rec = pending[page]
             rec["strips"][n].update(r)
             rec["left"] -= 1
         totals["strips"] += len(queue)
         totals["tokens"] += n_tok
-        totals["hit_limit"] += sum(r["hit_limit"] for r in results)
+        totals["hit_limit"] += sum(r["hit_limit"] or r["loop"] for r in results)
         queue.clear()
         flush_pages()
         elapsed = time.time() - t_start
@@ -244,11 +309,11 @@ def main() -> int:
             mem = f" gpu_peak_gb={model.torch.cuda.max_memory_allocated() / 2**30:.1f}"
         log(f"progress pages={totals['pages']}/{len(todo)} strips={totals['strips']} batch_s={dt:.1f} "
             f"batch_tok_s={n_tok / dt if dt else 0:.0f} total_tokens={totals['tokens']} "
-            f"hit_limit={totals['hit_limit']} elapsed_min={elapsed / 60:.1f} eta_min={eta / 60:.1f}{mem}")
+            f"looping={totals['hit_limit']} elapsed_min={elapsed / 60:.1f} eta_min={eta / 60:.1f}{mem}")
 
     for page in todo:
         grey, strips = page_strips(args, page, front)
-        pending[page] = {"t0": time.time(), "left": len(strips), "strips": []}
+        pending[page] = {"t0": time.time(), "left": len(strips), "strips": [], "grey": grey}
         for n, strip in enumerate(strips):
             image = render(grey, strip, args.scale, args.max_side)
             pending[page]["strips"].append({"n": n, **strip.as_dict(), "size": list(image.size)})
@@ -263,7 +328,7 @@ def main() -> int:
     run_batch()
 
     log(f"job_complete pages={totals['pages']} strips={totals['strips']} tokens={totals['tokens']} "
-        f"hit_limit={totals['hit_limit']} minutes={(time.time() - t_start) / 60:.1f}")
+        f"looping={totals['hit_limit']} minutes={(time.time() - t_start) / 60:.1f}")
     return 0
 
 
