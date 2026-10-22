@@ -50,6 +50,8 @@ def normalise(text: str, prediction: bool) -> str:
     text = unicodedata.normalize("NFKC", text)
     text = re.sub(r"[`´‘’ʼʹ]", "'", text)
     text = re.sub(r"[‐‑‒–−]", "-", text)
+    # Hyphens the model kept at a line break, as CLLG's patch_output joins them.
+    text = re.sub(r"(?<=\w)-\s+(?=[^\W\d_])", "", text)
     return re.sub(r"\s+", " ", text).strip()
 
 
