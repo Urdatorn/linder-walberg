@@ -2,6 +2,8 @@
 
 Pages 0005-0009 (the start of letter A) were corrected by hand on Runeberg
 and are close to perfect, so they serve as a diagnostic for the new OCR.
+The correction stops partway down 0009: from "Afknappa" on, that page is the
+raw 2013 OCR ("άπεφ&ος", "ix" for ἐκ), so both texts are cut there (--cut).
 Both sides are reduced to running text before scoring: tags and pseudo-
 Markdown removed, line-break hyphens joined, apostrophes and hyphens unified,
 NFKC applied and whitespace collapsed, as in the CLLG paper's plain-text CER.
@@ -93,9 +95,12 @@ def main() -> None:
     ap.add_argument("--pred", required=True, help="directory of NNNN.txt OCR output")
     ap.add_argument("--ref", required=True, help="Runeberg Pages/ directory")
     ap.add_argument("--pages", default="0005-0009")
+    ap.add_argument("--cut", default="0009:Afknappa",
+                    help="PAGE:WORD,... score each page only up to WORD (where proofreading stops)")
     ap.add_argument("--show", type=int, default=0, help="print this many characters of each normalised pair")
     args = ap.parse_args()
 
+    cuts = dict(c.split(":", 1) for c in args.cut.split(",") if c)
     totals: dict[str, list[int]] = {}
     keys = ["cer", "cer_no_diacritics", "cer_greek", "cer_latin", "wer"]
     print(f"{'page':6}" + "".join(f"{k:>19}" for k in keys))
@@ -106,6 +111,10 @@ def main() -> None:
             continue
         pred = normalise(pf.read_text(encoding="utf-8"), prediction=True)
         ref = normalise(rf.read_text(encoding="utf-8"), prediction=False)
+        if page in cuts:
+            if cuts[page] not in pred:
+                print(f"{page:6} cut word {cuts[page]!r} not found in the prediction; scoring the whole page")
+            ref, pred = (s[:s.find(cuts[page])] if cuts[page] in s else s for s in (ref, pred))
         r = rates(pred, ref)
         print(f"{page:6}" + "".join(f"{100 * e / max(n, 1):18.2f}%" for e, n in (r[k] for k in keys)))
         for k in keys:
