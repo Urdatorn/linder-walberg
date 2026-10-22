@@ -38,6 +38,9 @@ class Strip:
     index: int             # strip number within its column of the section
     box: tuple[int, int, int, int]   # left, top, right, bottom in the scan
 
+    def __post_init__(self):
+        self.box = tuple(int(v) for v in self.box)   # numpy ints are not JSON
+
     def as_dict(self) -> dict:
         return asdict(self)
 
