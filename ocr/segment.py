@@ -215,9 +215,15 @@ def _two_column(ink, section, left, right, top, bottom, gutter, scale, max_side)
 
 
 def render(grey: Image.Image, strip: Strip, scale: float, max_side: int, pad: int = 12) -> Image.Image:
-    """Crop a strip with a white margin, scale it, and cap its longest side."""
+    """Crop a strip, add a white margin, scale it, and cap its longest side.
+
+    The margin is blank paper, not more of the scan: cropping wider pulled the
+    descenders of the line above a cut into the strip, and the model read
+    those slivers as an extra line ("Fr. m. v. = fr. m. v." on 0008).
+    """
     l, t, r, b = strip.box
-    crop = grey.crop((max(l - pad, 0), max(t - pad, 0), min(r + pad, grey.width), min(b + pad, grey.height)))
+    crop = Image.new("L", (r - l + 2 * pad, b - t + 2 * pad), 255)
+    crop.paste(grey.crop((l, t, r, b)), (pad, pad))
     factor = min(scale, max_side / max(crop.size))
     size = (max(1, round(crop.width * factor)), max(1, round(crop.height * factor)))
     return crop.resize(size, Image.LANCZOS).convert("RGB")
