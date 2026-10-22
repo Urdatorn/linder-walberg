@@ -62,7 +62,16 @@ PAPER_PROMPT = (
     "Output only the transcription."
 )
 
-PROMPTS = {"cllg": CLLG_PROMPT, "paper": PAPER_PROMPT}
+# The paper's prompt plus what this book is. Without it the model, trained on
+# Greek and Latin only, writes many Swedish headwords in Greek letters
+# ("Σκρίφβαρε" for Skrifvare, "Κατεχεσ" for Katekes), most often under K, M, N, S.
+SWEDISH_NOTE = (
+    "\nThis page is from a Swedish–Ancient Greek dictionary. The Swedish words (headwords, "
+    "explanations, abbreviations such as ngt, ngn, t. ex., l.) are in the Latin alphabet with å, ä, ö: "
+    "always transcribe them in Latin letters, never in Greek letters. Only the Greek equivalents are in Greek."
+)
+
+PROMPTS = {"cllg": CLLG_PROMPT, "paper": PAPER_PROMPT, "paper_sv": PAPER_PROMPT + SWEDISH_NOTE}
 
 
 def log(msg: str) -> None:
@@ -281,7 +290,7 @@ def main() -> int:
             # made the model hallucinate. The first clean reading is kept; if
             # none is clean, the longest text before a loop is, flagged.
             t_retry = time.time()
-            other = next(p for p in PROMPTS if p != args.prompt)
+            other = "cllg" if args.prompt != "cllg" else "paper"
             for r in (r for _, r in retry):
                 r["first_try"] = {"text": r["text"], "new_tokens": r["new_tokens"]}
                 r["attempts"] = []
