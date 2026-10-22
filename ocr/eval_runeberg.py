@@ -2,13 +2,16 @@
 
 Pages 0005-0009 (the start of letter A) were corrected by hand on Runeberg
 and are close to perfect, so they serve as a diagnostic for the new OCR.
-The correction stops partway down 0009: from "Afknappa" on, that page is the
-raw 2013 OCR ("άπεφ&ος", "ix" for ἐκ), so both texts are cut there (--cut).
+Runeberg's correction stops partway down 0009 (from "Afknappa" on it is the
+raw 2013 OCR) and leaves errors elsewhere, so the default reference is
+reference/: the same pages checked line by line against the scans, with the
+rest of 0009 transcribed afresh. --ref runeberg_txt/Pages --cut 0009:Afknappa
+scores against Runeberg's own text instead.
 Both sides are reduced to running text before scoring: tags and pseudo-
 Markdown removed, line-break hyphens joined, apostrophes and hyphens unified,
 NFKC applied and whitespace collapsed, as in the CLLG paper's plain-text CER.
 
-    python eval_runeberg.py --pred <run>/pages --ref ../runeberg_txt/Pages --pages 0005-0009
+    python eval_runeberg.py --pred <run>/pages
 """
 
 from __future__ import annotations
@@ -93,9 +96,10 @@ def parse_pages(spec: str) -> list[str]:
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--pred", required=True, help="directory of NNNN.txt OCR output")
-    ap.add_argument("--ref", required=True, help="Runeberg Pages/ directory")
+    ap.add_argument("--ref", default=str(Path(__file__).resolve().parent.parent / "reference"),
+                    help="directory of reference NNNN.txt (default: the proofread reference/)")
     ap.add_argument("--pages", default="0005-0009")
-    ap.add_argument("--cut", default="0009:Afknappa",
+    ap.add_argument("--cut", default="",
                     help="PAGE:WORD,... score each page only up to WORD (where proofreading stops)")
     ap.add_argument("--show", type=int, default=0, help="print this many characters of each normalised pair")
     args = ap.parse_args()
