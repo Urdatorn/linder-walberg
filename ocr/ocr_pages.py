@@ -200,7 +200,7 @@ def main() -> int:
     ap.add_argument("--pages", help="e.g. 0005-0009,0050; default all")
     ap.add_argument("--shard", type=int, default=0)
     ap.add_argument("--num-shards", type=int, default=1)
-    ap.add_argument("--prompt", choices=sorted(PROMPTS), default="cllg")
+    ap.add_argument("--prompt", choices=sorted(PROMPTS), default="paper")
     ap.add_argument("--scale", type=float, default=0.5, help="scan pixels to model pixels")
     ap.add_argument("--max-side", type=int, default=1024, help="longest side of a strip image")
     ap.add_argument("--max-new-tokens", type=int, default=2048, help="a strip needs about 500-900")

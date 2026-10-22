@@ -62,14 +62,14 @@ trap 'kill "$smi_pid" 2>/dev/null || true' EXIT
     --model CLLG/Qwen3VL-8B-synth_real \
     --shard "$shard" --num-shards "$num_shards" \
     --batch-size "${BATCH_SIZE:-16}" \
-    --prompt "${PROMPT:-cllg}" \
+    --prompt "${PROMPT:-paper}" \
     --scale "${SCALE:-0.5}" \
     ${PAGES:+--pages "$PAGES"} \
     ${EXTRA_ARGS:-}
 
 # Score the proofread start of A whenever this run has those pages.
 if compgen -G "$out_dir/pages/000[5-9].txt" > /dev/null; then
-    printf '[%s] eval against Runeberg proofread pages 0005-0009\n' "$(date --iso-8601=seconds)"
-    "$python" ocr/eval_runeberg.py --pred "$out_dir/pages" --ref runeberg_txt/Pages --pages 0005-0009 --show 400
+    printf '[%s] eval against the proofread reference pages 0005-0009\n' "$(date --iso-8601=seconds)"
+    "$python" ocr/eval_runeberg.py --pred "$out_dir/pages" --pages 0005-0009 --show 400
 fi
 printf '[%s] job_complete\n' "$(date --iso-8601=seconds)"
