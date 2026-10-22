@@ -23,7 +23,7 @@ import sys
 import time
 from pathlib import Path
 
-from segment import Strip, load_grey, render, segment, split_strip
+from segment import Strip, load_grey, render, segment
 
 # Ported verbatim from the CLLG scanner (src/main/ipc/ocr.ts), which in turn
 # ports it from cllg_pipeline.py; this is the prompt the CLLG models are run with.
@@ -144,8 +144,12 @@ class Model:
         self.model = Qwen3VLForConditionalGeneration.from_pretrained(
             args.model, dtype=torch.bfloat16, attn_implementation="sdpa"
         ).to("cuda").eval()
-        messages = [{"role": "user", "content": [{"type": "image"}, {"type": "text", "text": PROMPTS[args.prompt]}]}]
-        self.chat = self.processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+        self.chats = {
+            name: self.processor.apply_chat_template(
+                [{"role": "user", "content": [{"type": "image"}, {"type": "text", "text": text}]}],
+                tokenize=False, add_generation_prompt=True)
+            for name, text in PROMPTS.items()
+        }
         self.eos = {self.processor.tokenizer.eos_token_id, self.processor.tokenizer.pad_token_id}
         from transformers import StoppingCriteria, StoppingCriteriaList
 
@@ -163,10 +167,10 @@ class Model:
         self.stopping = lambda prompt_len: StoppingCriteriaList([LoopStop(prompt_len)])
         log(f"model_loaded seconds={time.time() - t0:.1f} gpu_mem_gb={torch.cuda.memory_allocated() / 2**30:.1f}")
 
-    def transcribe(self, images) -> list[dict]:
+    def transcribe(self, images, prompt: str | None = None) -> list[dict]:
         torch = self.torch
         inputs = self.processor(
-            text=[self.chat] * len(images), images=images, padding=True, return_tensors="pt"
+            text=[self.chats[prompt or self.args.prompt]] * len(images), images=images, padding=True, return_tensors="pt"
         ).to("cuda")
         with torch.inference_mode():
             out = self.model.generate(
@@ -271,27 +275,41 @@ def main() -> int:
         n_tok = sum(r["new_tokens"] for r in results)
         retry = [(q, r) for q, r in zip(queue, results) if r["loop"] or r["hit_limit"]]
         if retry:
-            # A strip that loops is read again as two halves; a smaller image
-            # usually decodes cleanly. Halves that loop again keep their text
-            # up to the loop, and the strip stays flagged.
-            halves, owners = [], []
-            for (page, n, strip, _), r in retry:
-                for half in split_strip(pending[page]["grey"], strip):
-                    halves.append(render(pending[page]["grey"], half, args.scale, args.max_side))
-                    owners.append(r)
+            # A strip that loops is read again, whole, at other scales and with
+            # the other prompt: in tests a looping strip read cleanly at a
+            # neighbouring scale or under the other prompt, while halving it
+            # made the model hallucinate. The first clean reading is kept; if
+            # none is clean, the longest text before a loop is, flagged.
             t_retry = time.time()
-            half_results = model.transcribe(halves)
-            for r in {id(r): r for r in owners}.values():
-                parts = [h for o, h in zip(owners, half_results) if o is r]
+            other = next(p for p in PROMPTS if p != args.prompt)
+            for r in (r for _, r in retry):
                 r["first_try"] = {"text": r["text"], "new_tokens": r["new_tokens"]}
-                r["text"] = "\n".join(h["text"].strip() for h in parts)
-                r["new_tokens"] = sum(h["new_tokens"] for h in parts)
-                r["loop"] = any(h["loop"] or h["hit_limit"] for h in parts)
-                r["hit_limit"] = False
+                r["attempts"] = []
                 r["retried"] = True
-            n_tok += sum(h["new_tokens"] for h in half_results)
-            log(f"retry strips={len(retry)} halves={len(halves)} seconds={time.time() - t_retry:.1f} "
-                f"still_looping={sum(r['loop'] for _, r in retry)}")
+            left = list(retry)
+            for prompt, scale in [(other, 0.55), (args.prompt, 0.6), (other, 0.45), (args.prompt, 0.4)]:
+                if not left:
+                    break
+                images = [render(pending[page]["grey"], strip, scale, args.max_side) for (page, _, strip, _), _ in left]
+                outs = model.transcribe(images, prompt)
+                n_tok += sum(o["new_tokens"] for o in outs)
+                still = []
+                for (q, r), o in zip(left, outs):
+                    bad = o["loop"] or o["hit_limit"]
+                    r["attempts"].append({"prompt": prompt, "scale": scale, "new_tokens": o["new_tokens"],
+                                          "loop": bad, "text": o["text"]})
+                    if bad:
+                        still.append((q, r))
+                    else:
+                        r.update(text=o["text"], new_tokens=o["new_tokens"], loop=False, hit_limit=False,
+                                 prompt=prompt, scale=scale)
+                left = still
+            for _, r in left:
+                best = max(r["attempts"] + [{**r["first_try"], "prompt": args.prompt, "scale": args.scale}],
+                           key=lambda a: len(a["text"]))
+                r.update(text=best["text"], prompt=best["prompt"], scale=best["scale"], loop=True, hit_limit=False)
+            log(f"retry strips={len(retry)} seconds={time.time() - t_retry:.1f} still_looping={len(left)} "
+                + " ".join(f"{q[0]}:{q[1]}->{r.get('prompt')}@{r.get('scale')}" for q, r in retry))
         for (page, n, strip, image), r in zip(queue, results):
             rec = pending[page]
             rec["strips"][n].update(r)
