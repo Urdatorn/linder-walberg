@@ -1,0 +1,54 @@
+{
+ "page": "0116",
+ "strips_done": 6,
+ "corrections": 58,
+ "misprints": [
+  {
+   "strip": "0116_03",
+   "printed": "πράττη",
+   "probably_meant": "πράττῃ",
+   "note": "In the quoted verse 'ἵν' ἂν πράττη τις εὖ' the subjunctive has no iota subscript in the print."
+  },
+  {
+   "strip": "0116_04",
+   "printed": "Fäktbana, παλαίστρα, ἡ,",
+   "probably_meant": "Fäktbana, παλαίστρα, ἡ.",
+   "note": "The entry ends with a comma instead of a full stop."
+  },
+  {
+   "strip": "0116_05",
+   "printed": "ὑπάγεσθαί τινα,:",
+   "probably_meant": "ὑπάγεσθαί τινα.:",
+   "note": "A comma is printed before the colon where the book normally has '.:'."
+  },
+  {
+   "strip": "0116_01",
+   "printed": "ποιμνίον",
+   "probably_meant": "ποίμνιον",
+   "note": "The accent is printed on the iota."
+  },
+  {
+   "strip": "0116_01",
+   "printed": "έως o. προβατευτής",
+   "probably_meant": "έως, ὁ. προβατευτής",
+   "note": "Roman 'o.' (och) is printed where the article ὁ would be expected. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0116_00",
+   "text": "ἄδεσμος φυλακή.:",
+   "note": "The punctuation is damaged and looks like '.!:'. Read as '.:'."
+  },
+  {
+   "strip": "0116_00",
+   "text": "εἱρκτοφύλαξ, εἱργμοφύλαξ",
+   "note": "The breathings are small. They look like the rough breathing on ὁ nearby, so they are read as rough."
+  },
+  {
+   "strip": "0116_01",
+   "text": "βλιτομάμας, ου, ὁ.",
+   "note": "The mark after ου could be a comma or a full stop."
+  }
+ ]
+}

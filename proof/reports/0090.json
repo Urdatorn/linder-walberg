@@ -1,0 +1,48 @@
+{
+ "page": "0090",
+ "strips_done": 6,
+ "corrections": 60,
+ "misprints": [
+  {
+   "strip": "0090_05",
+   "printed": "κατὰ τῆν χώραν",
+   "probably_meant": "κατὰ τὴν χώραν",
+   "note": "Circumflex printed on the article; zoom confirms it."
+  },
+  {
+   "strip": "0090_03",
+   "printed": "καταληψις",
+   "probably_meant": "κατάληψις",
+   "note": "Printed with no accent; zoom confirms it."
+  },
+  {
+   "strip": "0090_03",
+   "printed": "vara af sma värde",
+   "probably_meant": "vara af samma värde",
+   "note": "The print clearly reads 'sma'. It may be a contraction or a dropped letter; kept as printed."
+  },
+  {
+   "strip": "0090_00",
+   "printed": "m. part. !. ὅτι",
+   "probably_meant": "m. part. l. ὅτι",
+   "note": "Broken type looks like '!'; transcribed as 'l.' because that is clearly the intended letter."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0090_02",
+   "text": "ἀντικαθιστάναι τινὰ",
+   "note": "The last word is cut off at the right edge of the strip. Its accent is not visible; grave assumed because the line continues 'ἀντί τινος' in strip 03."
+  },
+  {
+   "strip": "0090_05",
+   "text": "αἰθήρ, έρος, ὁ",
+   "note": "The genitive ending is printed with an acute only and no breathing; kept as printed."
+  },
+  {
+   "strip": "0090_01",
+   "text": "ἀρχιερεύς, έως, ὁ",
+   "note": "The genitive ending appears to have an acute only and no breathing; transcribed as 'έως'."
+  }
+ ]
+}

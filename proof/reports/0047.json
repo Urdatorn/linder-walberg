@@ -1,0 +1,70 @@
+{
+ "page": "0047",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0047_01",
+   "printed": "ἐχοντά",
+   "probably_meant": "ἔχοντά",
+   "note": "Smooth breathing only, no accent on epsilon, at the line-break ἐχον-τά."
+  },
+  {
+   "strip": "0047_01",
+   "printed": "βιβλιοθήκη. ἡ.",
+   "probably_meant": "βιβλιοθήκη, ἡ.",
+   "note": "The print has a full stop before the article, where the book normally has a comma."
+  },
+  {
+   "strip": "0047_02",
+   "printed": "ἐράνον φέρειν",
+   "probably_meant": "ἔρανον φέρειν",
+   "note": "Printed with smooth breathing and an acute on alpha."
+  },
+  {
+   "strip": "0047_02",
+   "printed": "ὥστι",
+   "probably_meant": "ὥστε",
+   "note": "συμπράττειν ὥστι m. inf."
+  },
+  {
+   "strip": "0047_02",
+   "printed": "εὐδοκίμησις. ἡ.",
+   "probably_meant": "εὐδοκίμησις, ἡ.",
+   "note": "The print has a full stop before the article."
+  },
+  {
+   "strip": "0047_05",
+   "printed": "föreuing",
+   "probably_meant": "förening",
+   "note": "The n is printed as an inverted u."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0047_00",
+   "text": "b. m. gräs, ποιώδης",
+   "note": "The punctuation after gräs is cut off at the right margin. A comma is the most likely reading; it might be a full stop."
+  },
+  {
+   "strip": "0047_00",
+   "text": "κομῶν, ῶσα, ῶν",
+   "note": "The punctuation after κομῶν is cut off at the right margin. A comma is assumed."
+  },
+  {
+   "strip": "0047_04",
+   "text": "~ μάτων, ἡ.",
+   "note": "The type is worn: the acute on α is only a faint dot and η shows no breathing. Read as ἁμαρτημάτων, ἡ."
+  },
+  {
+   "strip": "0047_05",
+   "text": "ἀγαλματοποιΐα, ἀνδριαντοποιΐα",
+   "note": "The mark after the first ἀγαλματοποιΐα is small: either a comma or a full stop. A comma is assumed."
+  },
+  {
+   "strip": "0047_05",
+   "text": "~ ma, ποιεῖν.",
+   "note": "The ending of ποιεῖν is broken in the print, but the reading is clear."
+  }
+ ]
+}

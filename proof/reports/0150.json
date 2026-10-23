@@ -1,0 +1,30 @@
+{
+ "page": "0150",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0150_05",
+   "printed": "παρατρώγειν. τινός",
+   "probably_meant": "παρατρώγειν τινός",
+   "note": "Full stop between the verb and its genitive object, as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0150_05",
+   "text": "att g. ngt, λήθην",
+   "note": "The mark after ngt is small and could be a comma or a full stop; I read it as a comma."
+  },
+  {
+   "strip": "0150_00",
+   "text": "se Följ.",
+   "note": "The right margin is cut off in the scan after Följ; the full stop is supplied."
+  },
+  {
+   "strip": "0150_00",
+   "text": "πρός τινα",
+   "note": "The final ς of πρός is cut off at the margin of the scan."
+  }
+ ]
+}

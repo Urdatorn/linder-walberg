@@ -1,0 +1,64 @@
+{
+ "page": "0094",
+ "strips_done": 7,
+ "corrections": 60,
+ "misprints": [
+  {
+   "strip": "0094_03",
+   "printed": "χαιρετω τι",
+   "probably_meant": "χαιρέτω τι",
+   "note": "The print has no accent on χαιρετω."
+  },
+  {
+   "strip": "0094_06",
+   "printed": "τροσπεφυκέναι",
+   "probably_meant": "προσπεφυκέναι",
+   "note": "The first letter is clearly printed as τ (a wrong letter or broken π)."
+  },
+  {
+   "strip": "0094_06",
+   "printed": "(vid ugt)",
+   "probably_meant": "(vid ngt)",
+   "note": "The n is printed upside down, so it reads u."
+  },
+  {
+   "strip": "0094_03",
+   "printed": "γοργός. 3.",
+   "probably_meant": "γοργός, 3.",
+   "note": "A full stop is printed where a comma is expected before the termination number."
+  },
+  {
+   "strip": "0094_02",
+   "printed": "πρόγονος ὁ.",
+   "probably_meant": "πρόγονος, ὁ.",
+   "note": "The comma before the article is missing in the print."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0094_04",
+   "text": "i eg. bet. s. fig.",
+   "note": "The letter between b and t is broken in the print. Most likely e (bet. = betydelse), not o."
+  },
+  {
+   "strip": "0094_06",
+   "text": "ἐμπεφυκέναι",
+   "note": "The φ at the start of the line is broken and looks like ρ. The reading is taken as φ."
+  },
+  {
+   "strip": "0094_01",
+   "text": "(ἁμάξαις)",
+   "note": "The breathing on the alpha is small. It is read as rough."
+  },
+  {
+   "strip": "0094_03",
+   "text": "(ὑπερ)εκπλήττεσθαι",
+   "note": "No breathing is visible on the ε after the parenthesis, so the word is kept without one."
+  },
+  {
+   "strip": "0094_05",
+   "text": "en plats’",
+   "note": "An apostrophe is printed after plats (1862 genitive), so it is kept."
+  }
+ ]
+}

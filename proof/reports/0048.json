@@ -1,0 +1,70 @@
+{
+ "page": "0048",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0048_00",
+   "printed": "μεταμοραῖς",
+   "probably_meant": "μεταφοραῖς",
+   "note": "The φ is missing in the print."
+  },
+  {
+   "strip": "0048_01",
+   "printed": "ἀγαλτογλύφος",
+   "probably_meant": "ἀγαλματογλύφος",
+   "note": "Printed ἀγαλ-τογλύφος across the line break; the syllable μα is missing."
+  },
+  {
+   "strip": "0048_01",
+   "printed": "ἑρμογυφική",
+   "probably_meant": "ἑρμογλυφική",
+   "note": "The λ is missing in the print."
+  },
+  {
+   "strip": "0048_01",
+   "printed": "ιδάριον",
+   "probably_meant": "-ιδάριον",
+   "note": "A suffix variant after βιβλίον, -ίδιον, printed without a hyphen and without a breathing."
+  },
+  {
+   "strip": "0048_04",
+   "printed": "πράγμα ἐλάττονος ἄξιον",
+   "probably_meant": "πρᾶγμα",
+   "note": "Printed with an acute here, though πρᾶγμα (circumflex) appears just before it."
+  },
+  {
+   "strip": "0048_05",
+   "printed": "παρεργον.",
+   "probably_meant": "παρέργου",
+   "note": "Continues 'ἐκ' from strip 04. It has no accent and ends in -ον."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0048_01",
+   "text": "εἰκόνισμα",
+   "note": "The type is broken at the end of the word (μα)."
+  },
+  {
+   "strip": "0048_02",
+   "text": "δικαιοῦν",
+   "note": "The type is broken in the middle of the word, and the reading comes from context."
+  },
+  {
+   "strip": "0048_02",
+   "text": "ὡς, οἷον εἰκός",
+   "note": "Too small to tell whether ὡς has a rough breathing only or also an accent, or whether οἷον has a rough or smooth breathing."
+  },
+  {
+   "strip": "0048_04",
+   "text": "ἀναδέσμη",
+   "note": "The mark on the initial α looks a bit like a grave accent; read as a smooth breathing."
+  },
+  {
+   "strip": "0048_00",
+   "text": "αἱ",
+   "note": "Read as a rough breathing only; there is no clear accent."
+  }
+ ]
+}

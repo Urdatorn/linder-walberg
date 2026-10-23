@@ -1,0 +1,42 @@
+{
+ "page": "0026",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0026_02",
+   "printed": "ἀστεῖος. 3.",
+   "probably_meant": "ἀστεῖος, 3.",
+   "note": "Full stop printed where a comma is expected before the termination number."
+  },
+  {
+   "strip": "0026_05",
+   "printed": "αὐτῶ",
+   "probably_meant": "αὐτῷ",
+   "note": "No iota subscript is visible in the print (ἐπέτρεψαν αὐτῶ τοὺς παῖδας)."
+  },
+  {
+   "strip": "0026_04",
+   "printed": "ἐπεθύμησεν ἄρχων γενέσθαι",
+   "probably_meant": "ἐπεθύμησεν ἄρχων γενέσθαι",
+   "note": "Kept as printed. Only listed so the reading is checked; not a clear error."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0026_02",
+   "text": "εὔχαρις, 2.",
+   "note": "The print has a raised dot after 2 (2·), probably a displaced full stop. Transcribed as '2.'."
+  },
+  {
+   "strip": "0026_00",
+   "text": "πρόσοδοι, αἱ.",
+   "note": "The breathing glyph on αἱ looks like the rough breathing on ὁ/ἡ and was read as αἱ, not αἵ."
+  },
+  {
+   "strip": "0026_03",
+   "text": "κερκίς, ίδος, ἡ.",
+   "note": "The genitive ending shows an acute only and no breathing. Transcribed as ίδος."
+  }
+ ]
+}

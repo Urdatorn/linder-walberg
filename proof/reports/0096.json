@@ -1,0 +1,42 @@
+{
+ "page": "0096",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0096_05",
+   "printed": "πτερωμα",
+   "probably_meant": "πτέρωμα",
+   "note": "Printed without an accent (hyphenated πτε-ρωμα); kept as printed."
+  },
+  {
+   "strip": "0096_04",
+   "printed": "πεντηκοστής",
+   "probably_meant": "πεντηκοστήρ",
+   "note": "The 'anförare för f. man' sense is πεντηκοστήρ (cf. πεντηκοντήρ); the print has -ής for both forms. Kept as printed."
+  },
+  {
+   "strip": "0096_03",
+   "printed": "πεντακοσιοστός, 2.",
+   "probably_meant": "πεντακοσιοστός, 3.",
+   "note": "An ordinal adjective normally has three terminations; the print gives 2. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0096_04",
+   "text": "πεντηκοντάκις",
+   "note": "The τ before -άκις is short and looks like ι (broken type or a misprint πεντηκονιάκις). I transcribed it as τ."
+  },
+  {
+   "strip": "0096_00",
+   "text": "εἰς, περί τινα / εἰς o. περί",
+   "note": "The mark over ι looks like a slightly blurred smooth breathing (the OCR had read it as εἷς). I took it as εἰς."
+  },
+  {
+   "strip": "0096_03",
+   "text": "~ tidrymd ... skeende hrt femte år",
+   "note": "The left edge of the strip image is clipped. I read 'tidrymd' and 'hrt' (=hvart) from the full-page scan svegrek/0096.tif."
+  }
+ ]
+}

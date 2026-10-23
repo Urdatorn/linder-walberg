@@ -1,0 +1,31 @@
+{
+ "page": "0085",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0085_01",
+   "printed": "λιγνύς, ὺος, ἡ",
+   "probably_meant": "λιγνύς, ύος, ἡ",
+   "note": "Genitive ending printed with a grave accent instead of an acute."
+  },
+  {
+   "strip": "0085_03",
+   "printed": "οἱ τὸ πύρ σεβόμενοι",
+   "probably_meant": "οἱ τὸ πῦρ σεβόμενοι",
+   "note": "πῦρ printed with an acute instead of a circumflex; elsewhere on the page it has the circumflex."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0085_03",
+   "text": "ὀξύς, εῖα, ύ.",
+   "note": "The circumflex sits over the ι of εια, so it is written εῖα. The ending ύ has an acute and no breathing."
+  },
+  {
+   "strip": "0085_01",
+   "text": "äfv. oeg.",
+   "note": "Printed 'o-' at the end of a line and 'eg.' on the next. Written 'oeg.' to match the book's usual form, treating the hyphen as a line-break hyphen."
+  }
+ ]
+}

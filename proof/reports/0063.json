@@ -1,0 +1,72 @@
+{
+ "page": "0063",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0063_00",
+   "printed": "ὀγκώδης., 2.",
+   "probably_meant": "ὀγκώδης, 2.",
+   "note": "stray full stop before the comma"
+  },
+  {
+   "strip": "0063_00",
+   "printed": "upphöjuing",
+   "probably_meant": "upphöjning",
+   "note": "turned n, printed as u"
+  },
+  {
+   "strip": "0063_00",
+   "printed": "förvirriug",
+   "probably_meant": "förvirring",
+   "note": "turned n, printed as u"
+  },
+  {
+   "strip": "0063_00",
+   "printed": "ὀρκώδης",
+   "probably_meant": "ὀγκώδης",
+   "note": "Bulig: ρ for γ, probably"
+  },
+  {
+   "strip": "0063_00",
+   "printed": "Εὐρυκλῆς, έους",
+   "probably_meant": "Εὐρυκλῆς, έους (genitive ending, no breathing)",
+   "note": "kept as printed. The old OCR's ἑους was wrong."
+  },
+  {
+   "strip": "0063_03",
+   "printed": "Byinnnevånare",
+   "probably_meant": "Byinnevånare",
+   "note": "three n's printed in the headword"
+  },
+  {
+   "strip": "0063_04",
+   "printed": "οἰκοδόμημα, τὸ.",
+   "probably_meant": "οἰκοδόμημα, τό.",
+   "note": "grave accent on the article before a full stop"
+  },
+  {
+   "strip": "0063_04",
+   "printed": "2) ss pers.",
+   "probably_meant": "2) ss. pers.",
+   "note": "abbreviation has no full stop"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0063_05",
+   "text": "κονίᾳ",
+   "note": "the first letter is broken type (looks like z.), so κ is read from context. The iota subscript under α is visible."
+  },
+  {
+   "strip": "0063_01",
+   "text": "o. vv.",
+   "note": "printed in the italic face, which looks like υυ. Transcribed as vv., as on other pages."
+  },
+  {
+   "strip": "0063_05",
+   "text": "(ἀντ)αμείβειν",
+   "note": "the line breaks after '(ἀντ)-'. Treated as a word hyphen and joined, as other strips do with (παρ)αιτεῖσθαι."
+  }
+ ]
+}

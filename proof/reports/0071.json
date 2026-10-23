@@ -1,0 +1,40 @@
+{
+ "page": "0071",
+ "strips_done": 6,
+ "corrections": 58,
+ "misprints": [
+  {
+   "strip": "0071_05",
+   "printed": "20 l. d., ὥς εἴκοσιν",
+   "probably_meant": "ὡς εἴκοσιν",
+   "note": "The breathing appears to carry an accent stroke. The proclitic ὡς should have none."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0071_03",
+   "text": "dagen d., τῇ ὑστεραίᾳ",
+   "note": "The print shows 'd ,' with a gap where the full stop should be. The type probably failed to ink, so I wrote 'd.,'."
+  },
+  {
+   "strip": "0071_01",
+   "text": "ἐκεινοιί ἔρχονται",
+   "note": "The ending of the deictic form is hard to read: the accent may sit on the second-last ι. I read it as ἐκεινοιί."
+  },
+  {
+   "strip": "0071_05",
+   "text": "ὥς εἴκοσιν",
+   "note": "There may be an acute under the rough breathing, or it may be ὡς with a damaged mark. I wrote ὥς as it appears."
+  },
+  {
+   "strip": "0071_03",
+   "text": "δ’ αὖ",
+   "note": "The print sets it with almost no space ('δ’αὖ'). I wrote it with the usual space."
+  },
+  {
+   "strip": "0071_01",
+   "text": "Der, 1) dem.",
+   "note": "The numeral looks like a capital I with serifs. I read it as the digit 1 in this typeface."
+  }
+ ]
+}

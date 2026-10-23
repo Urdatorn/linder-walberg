@@ -1,0 +1,37 @@
+{
+ "page": "0087",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0087_00",
+   "printed": "πιριφανής",
+   "probably_meant": "περιφανής",
+   "note": "Eminent entry; print clearly reads πιρι-."
+  },
+  {
+   "strip": "0087_01",
+   "printed": "ἀνταλλάττεσθαί τί τινος",
+   "probably_meant": "ἀνταλλάττεσθαί τι τινος",
+   "note": "Enclitic τι printed with an acute."
+  },
+  {
+   "strip": "0087_03",
+   "printed": "εἷς, 3. ἕτερος, 3.",
+   "probably_meant": "εἷς, ἕτερος, 3. (or ὁ ἕτερος)",
+   "note": "The termination number 3. after εἷς looks spurious, but it is clearly printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0087_05",
+   "text": "ἠλιθιότης, ἡ.",
+   "note": "The ἡ after ἠλιθιότης is broken type, but it is almost certainly ἡ."
+  },
+  {
+   "strip": "0087_04",
+   "text": "en mska,",
+   "note": "The print reads 'mska' (abbreviation of människa), not 'msk.'. Kept as printed."
+  }
+ ]
+}

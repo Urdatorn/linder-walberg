@@ -1,0 +1,44 @@
+{
+ "page": "0130",
+ "strips_done": 6,
+ "corrections": 32,
+ "misprints": [
+  {
+   "strip": "0130_00",
+   "printed": "ὑπομνημα",
+   "probably_meant": "ὑπόμνημα",
+   "note": "No accent printed on ὑπομνημα, τό."
+  },
+  {
+   "strip": "0130_03",
+   "printed": "(προ)σημαίνεεν",
+   "probably_meant": "(προ)σημαίνειν",
+   "note": "Printed with -εεν."
+  },
+  {
+   "strip": "0130_03",
+   "printed": "κῆρυξ, υκος, ο.",
+   "probably_meant": "κῆρυξ, υκος, ὁ.",
+   "note": "The article is printed as a bare ο, with no breathing."
+  },
+  {
+   "strip": "0130_03",
+   "printed": "προφήτης, ου, ὁ.",
+   "probably_meant": "προφήτης, ου, ὁ.",
+   "note": "A stray rough breathing is printed below the line before ου. I kept the plain text."
+  },
+  {
+   "strip": "0130_01",
+   "printed": "(ἐπ)αυξάνεσθαι",
+   "probably_meant": "(ἐπ)αὐξάνεσθαι",
+   "note": "With the prefix in parentheses, αυ is printed without a breathing. The same happens in (ἐπ)αύξησις, -αύξη in 0130_02."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0130_00",
+   "text": "(δι)ορισμός",
+   "note": "The closing parenthesis is broken in the print and looks like a comma or apostrophe. I read it as a parenthesis, with no breathing on ο."
+  }
+ ]
+}

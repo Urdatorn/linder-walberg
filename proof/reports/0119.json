@@ -1,0 +1,70 @@
+{
+ "page": "0119",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0119_00",
+   "printed": "ἐπιών, οὖσα, όν",
+   "probably_meant": "ὄν",
+   "note": "neuter ending printed with acute only, no smooth breathing"
+  },
+  {
+   "strip": "0119_01",
+   "printed": "återgifvcs",
+   "probably_meant": "återgifves",
+   "note": "c for e in Swedish"
+  },
+  {
+   "strip": "0119_01",
+   "printed": "ἐχρῆσατο",
+   "probably_meant": "ἐχρήσατο",
+   "note": "circumflex printed over η"
+  },
+  {
+   "strip": "0119_02",
+   "printed": "οἱ ἐπόμενοι",
+   "probably_meant": "οἱ ἑπόμενοι",
+   "note": "smooth breathing printed instead of rough"
+  },
+  {
+   "strip": "0119_04",
+   "printed": "ἐπί γε χρὸνον τινά",
+   "probably_meant": "χρόνον",
+   "note": "grave printed for acute"
+  },
+  {
+   "strip": "0119_05",
+   "printed": "ἀλλάττεσθαι,,",
+   "probably_meant": "ἀλλάττεσθαι,",
+   "note": "double comma in print"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0119_00",
+   "text": "l. ἐπί τινι. / εἶναι ἐπί τινι.",
+   "note": "both ἐπι stand at the right edge of the line, where the scan is cropped, so the accent cannot be seen; I assumed ἐπί"
+  },
+  {
+   "strip": "0119_02",
+   "text": "Följeslagare, ἀκόλουθος, ὁ.",
+   "note": "the breathing over α looks like a small ring and could be rough; I transcribed it as smooth"
+  },
+  {
+   "strip": "0119_02",
+   "text": "Fönster, θυρίς, ίδος, ἡ.",
+   "note": "the print is faint here and the breathing on ἡ is barely visible"
+  },
+  {
+   "strip": "0119_03",
+   "text": "ἑνδέκατον μῆνα",
+   "note": "the circumflex on μῆνα is faint at high zoom"
+  },
+  {
+   "strip": "0119_04",
+   "text": "οἷόν",
+   "note": "I could not tell rough from smooth breathing over the circumflex"
+  }
+ ]
+}

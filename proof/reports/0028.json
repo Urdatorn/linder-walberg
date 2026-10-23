@@ -1,0 +1,49 @@
+{
+ "page": "0028",
+ "strips_done": 7,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0028_03",
+   "printed": "μαινάς, άδος. ἡ.",
+   "probably_meant": "μαινάς, άδος, ἡ.",
+   "note": "A full stop where a comma is expected after the genitive ending; the mark could also be a damaged comma."
+  },
+  {
+   "strip": "0028_04",
+   "printed": "ἀρτοποιια",
+   "probably_meant": "ἀρτοποιΐα",
+   "note": "Bageri: printed with no accent and no diaeresis."
+  },
+  {
+   "strip": "0028_04",
+   "printed": "ἀρτοκοπεῖον, τό",
+   "probably_meant": "ἀρτοκοπεῖον, τό.",
+   "note": "Bagarstuga: the full stop at the end of the entry is missing."
+  },
+  {
+   "strip": "0028_05",
+   "printed": "ὀπίσθιος πούς ὁ.",
+   "probably_meant": "ὀπίσθιος πούς, ὁ.",
+   "note": "Bakben: the comma before the article is missing."
+  },
+  {
+   "strip": "0028_06",
+   "printed": "ἐνέδρον ποιεῖν",
+   "probably_meant": "ἐνέδραν ποιεῖν",
+   "note": "Bakhåll: the wrong ending, clearly printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0028_04",
+   "text": "ἀρτοποιΐα",
+   "note": "Bak entry: the type is heavily inked, but the diaeresis and accent on ΐ seem visible."
+  },
+  {
+   "strip": "0028_03",
+   "text": "B, Β, β",
+   "note": "The second letter is an italic Greek capital beta, transcribed as U+0392."
+  }
+ ]
+}

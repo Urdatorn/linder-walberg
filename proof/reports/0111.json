@@ -1,0 +1,48 @@
+{
+ "page": "0111",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0111_00",
+   "printed": "(häftig f,).",
+   "probably_meant": "(häftig f.).",
+   "note": "comma printed instead of full stop before the closing parenthesis"
+  },
+  {
+   "strip": "0111_03",
+   "printed": "γυνακωνῖτις",
+   "probably_meant": "γυναικωνῖτις",
+   "note": "iota left out of the printed word"
+  },
+  {
+   "strip": "0111_03",
+   "printed": "ῶνος, ὁ γυνακωνῖτις",
+   "probably_meant": "ῶνος, ὁ. γυναικωνῖτις",
+   "note": "no full stop printed after ὁ"
+  },
+  {
+   "strip": "0111_02",
+   "printed": "ἐσθής, ἡ",
+   "probably_meant": "ἐσθής, ἡ.",
+   "note": "no full stop at the end of the entry, which ends the column"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0111_01",
+   "text": "Fruktbarhet, ... ett lands, ἀρετή",
+   "note": "the marks after 'Fruktbarhet' and 'lands' look like dots, but are probably commas with broken tails; I kept the commas"
+  },
+  {
+   "strip": "0111_02",
+   "text": "μηλών, ῶνος",
+   "note": "I could see no breathing on ῶνος, so I wrote it without one; the same applies to ῶνος in 0111_03 and ῶσα, ῶν in 0111_05"
+  },
+  {
+   "strip": "0111_04",
+   "text": "\"kommer aldrig i f.\"",
+   "note": "the opening quote is printed as two apostrophes (''); I wrote straight double quotes"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "page": "0036",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0036_01",
+   "printed": "τοῖς τελεσί τινος",
+   "probably_meant": "τοῖς τέλεσί τινος",
+   "note": "Accent printed on the penult of τελεσί; the dative plural of τέλος is τέλεσι (cf. τέλεσιν later in the same entry)."
+  },
+  {
+   "strip": "0036_04",
+   "printed": "ἀτακτως",
+   "probably_meant": "ἀτάκτως",
+   "note": "Printed with no accent (word divided ἀ-τακτως across lines)."
+  },
+  {
+   "strip": "0036_00",
+   "printed": "(κατ)ολοφύρεσθαι",
+   "probably_meant": "(κατ)ολοφύρεσθαι / ὀλοφύρεσθαι",
+   "note": "No breathing is printed on ολοφύρεσθαι after the bracketed prefix. This is probably deliberate because of the bracket, but I kept it as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0036_00",
+   "text": "οἰκεῖοι, οἱ.",
+   "note": "The article at the end of the line is small; I read a rough breathing only, with no accent (the OCR had οἵ)."
+  },
+  {
+   "strip": "0036_00",
+   "text": "ὅ l. ὥς μὴ ὤφελε",
+   "note": "Under zoom both words show rough breathing plus acute: ὅ and ὥς."
+  }
+ ]
+}

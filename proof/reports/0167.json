@@ -1,0 +1,55 @@
+{
+ "page": "0167",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0167_01",
+   "printed": "δασύπους, ποδος, ὁ",
+   "probably_meant": "δασύπους, ποδός, ὁ",
+   "note": "Genitive printed without accent."
+  },
+  {
+   "strip": "0167_03",
+   "printed": "ψάλτρια, η.",
+   "probably_meant": "ψάλτρια, ἡ.",
+   "note": "Article printed without rough breathing."
+  },
+  {
+   "strip": "0167_03",
+   "printed": "ἅρπη, ὁ.",
+   "probably_meant": "ἅρπη, ἡ.",
+   "note": "Feminine noun given masculine article."
+  },
+  {
+   "strip": "0167_03",
+   "printed": "ἐνδύεσθαι..:",
+   "probably_meant": "ἐνδύεσθαι.:",
+   "note": "Doubled full stop before colon."
+  },
+  {
+   "strip": "0167_04/0167_05",
+   "printed": "προάγειν τι- | τὰ εἰς μῖσός τινος",
+   "probably_meant": "προάγειν τινὰ εἰς μῖσός τινος",
+   "note": "Word broken across lines (and strips) as 'τι-' + 'τὰ'. Kept as printed: strip 04 ends 'τι-' and strip 05 starts '~ τὰ'."
+  },
+  {
+   "strip": "0167_05",
+   "printed": "hundskiunsmössa",
+   "probably_meant": "hundskinnsmössa",
+   "note": "Turned n (reads as u) in the print."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0167_03",
+   "text": "ἅρπη",
+   "note": "The breathing and accent mark is partly broken. Read as rough breathing plus acute."
+  },
+  {
+   "strip": "0167_05",
+   "text": "hundskiunsmössa",
+   "note": "The second n looks like a u, probably a turned n. Transcribed as it reads; it may be just broken type for 'skinns'."
+  }
+ ]
+}

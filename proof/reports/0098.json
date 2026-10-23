@@ -1,0 +1,58 @@
+{
+ "page": "0098",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0098_03",
+   "printed": "ἐχθυοπωλία",
+   "probably_meant": "ἰχθυοπωλία",
+   "note": "Under Fiskhandel the print has epsilon with breathing instead of iota."
+  },
+  {
+   "strip": "0098_04",
+   "printed": "ἐχθυόκολλα",
+   "probably_meant": "ἰχθυόκολλα",
+   "note": "Under Fisklim the print has epsilon instead of iota. The other ἰχθυ- forms in this strip are printed correctly."
+  },
+  {
+   "strip": "0098_01",
+   "printed": "(s. lätt finner utvägar. jfr Fintlig.",
+   "probably_meant": "(s. lätt finner utvägar). jfr Fintlig.",
+   "note": "The print never closes this parenthesis."
+  },
+  {
+   "strip": "0098_05",
+   "printed": "Fjerma, se Aflägsna.",
+   "probably_meant": "Fjerma (possibly an old spelling of fjerma)",
+   "note": "Kept as printed. It is probably not a misprint: Fjermare follows it."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0098_00",
+   "text": "befinna,",
+   "note": "The print shows an apostrophe-like mark after befinna, which looks like stray type. I left it out."
+  },
+  {
+   "strip": "0098_01",
+   "text": "οὒ l. χαλεπῶς",
+   "note": "There appears to be a grave accent beside the smooth breathing on οὐ. I transcribed it as οὒ, but it may be plain οὐ."
+  },
+  {
+   "strip": "0098_05",
+   "text": "~ ἀστήρ, ὁ.",
+   "note": "In this strip's image the line has no diacritics. They appear at the bottom edge of strip 0098_04's image, so I restored ἀστήρ, ὁ."
+  },
+  {
+   "strip": "0098_05",
+   "text": "ἑκάς",
+   "note": "I can't tell from the print whether the breathing is rough or smooth. I kept the standard rough form."
+  },
+  {
+   "strip": "0098_02",
+   "text": "ἴονθος",
+   "note": "The breathing and accent mark is slightly ambiguous. I read it as smooth with acute."
+  }
+ ]
+}

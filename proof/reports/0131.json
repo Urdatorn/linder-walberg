@@ -1,0 +1,67 @@
+{
+ "page": "0131",
+ "strips_done": 6,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0131_00",
+   "printed": "sdnt var sakens f.",
+   "probably_meant": "sådant var sakens f.",
+   "note": "Clearly printed 'sdnt'; letters missing."
+  },
+  {
+   "strip": "0131_01",
+   "printed": "αἶμα ἐκχεῖν",
+   "probably_meant": "αἷμα ἐκχεῖν",
+   "note": "Breathing under the circumflex is a thin stroke, not the c-shaped rough breathing used elsewhere on the page."
+  },
+  {
+   "strip": "0131_02",
+   "printed": "ὁ κάπνος",
+   "probably_meant": "ὁ καπνός",
+   "note": "Accent printed on the first syllable."
+  },
+  {
+   "strip": "0131_03",
+   "printed": "μαιευτική (τέχνη), η.",
+   "probably_meant": "μαιευτική (τέχνη), ἡ.",
+   "note": "The article is printed without a breathing."
+  },
+  {
+   "strip": "0131_03",
+   "printed": "καταγιγνώσκεν",
+   "probably_meant": "καταγιγνώσκειν",
+   "note": "Iota missing in the ending."
+  },
+  {
+   "strip": "0131_03",
+   "printed": "βλᾶπτεσθαι",
+   "probably_meant": "βλάπτεσθαι",
+   "note": "Circumflex printed on the short alpha (βλᾶ-|πτεσθαι across a line break)."
+  },
+  {
+   "strip": "0131_05",
+   "printed": "ἐπελαθομην",
+   "probably_meant": "ἐπελαθόμην",
+   "note": "Printed without an accent."
+  },
+  {
+   "strip": "0131_05",
+   "printed": "b inga i f.",
+   "probably_meant": "bringa i f.",
+   "note": "The r is missing in the print and a gap is left."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0131_01",
+   "text": "αἶμα",
+   "note": "The breathing on alpha-iota is hard to tell apart at this size. I kept the smooth breathing that the scan seems to show."
+  },
+  {
+   "strip": "0131_00",
+   "text": "ὧδε",
+   "note": "The breathing under the circumflex looks c-shaped (rough), so I changed the OCR's ὥδε to ὧδε."
+  }
+ ]
+}

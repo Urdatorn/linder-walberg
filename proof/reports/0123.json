@@ -1,0 +1,54 @@
+{
+ "page": "0123",
+ "strips_done": 7,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0123_03",
+   "printed": "αγαθός",
+   "probably_meant": "ἀγαθός",
+   "note": "Printed without smooth breathing in the Fördelaktig entry."
+  },
+  {
+   "strip": "0123_05",
+   "printed": "ἰρθὴν",
+   "probably_meant": "ὀρθὴν",
+   "note": "In 'δόξαν οὐκ ἰρθὴν ἑλέσθαι' the first letter prints as ι with a smooth breathing; it may be a wrong or damaged letter for ὀ."
+  },
+  {
+   "strip": "0123_05",
+   "printed": "σημβόλαιον",
+   "probably_meant": "συμβόλαιον",
+   "note": "η printed for υ in the Fördrag entry."
+  },
+  {
+   "strip": "0123_06",
+   "printed": "χρῆσθμι",
+   "probably_meant": "χρῆσθαι",
+   "note": "In 'ἐπιεικείᾳ χρῆσθμι.' (Fördragsam), clearly printed μι."
+  },
+  {
+   "strip": "0123_06",
+   "printed": "kslor",
+   "probably_meant": "kval",
+   "note": "In 'f. smärtor o. kslor i allmht' (Fördrifva), the Swedish word is garbled in print."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0123_01",
+   "text": "utfärda ett f.",
+   "note": "The right edge of the scan cuts off just after 'utfärd(a)'. Any punctuation after it can't be seen. I removed the OCR's ';' because the phrase reads as 'utfärda ett f.'."
+  },
+  {
+   "strip": "0123_05",
+   "text": "ἰρθὴν",
+   "note": "The first glyph could be broken type for ὀ. I kept it as printed (ἰ)."
+  },
+  {
+   "strip": "0123_06",
+   "text": "ἐξαναγκάζειν",
+   "note": "The ε before ιν is damaged (a blob), but the reading is clear."
+  }
+ ]
+}

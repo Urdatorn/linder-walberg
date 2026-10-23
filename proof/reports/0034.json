@@ -1,0 +1,38 @@
+{
+ "page": "0034",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0034_03",
+   "printed": "αἴτησας",
+   "probably_meant": "αἴτησις",
+   "note": "Begäran 1) ss. handling; clearly printed -ας"
+  },
+  {
+   "strip": "0034_03",
+   "printed": "ὕπως βούλει",
+   "probably_meant": "ὅπως βούλει",
+   "note": "Behag b) efter ditt b.; upsilon with rough breathing in print"
+  },
+  {
+   "strip": "0034_05",
+   "printed": "ἀρισκευτικός",
+   "probably_meant": "ἀρεσκευτικός",
+   "note": "Behagsjuk"
+  },
+  {
+   "strip": "0034_00",
+   "printed": "Begrafning, Begrafningsplats, Begrafva",
+   "probably_meant": "Begräfning, Begräfningsplats, Begräfva",
+   "note": "Headwords printed with plain a (no umlaut) in all three; elsewhere the book has Begräfva. May be a period variant rather than an error; kept as printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0034_03",
+   "text": "χάρις, ιτος",
+   "note": "Genitive ending printed with no visible breathing or accent; same in 0034_04 and 0034_05 (ιτος)"
+  }
+ ]
+}

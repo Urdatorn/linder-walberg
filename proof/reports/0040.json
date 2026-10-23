@@ -1,0 +1,42 @@
+{
+ "page": "0040",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0040_00",
+   "printed": "ἐπιβλέπεεν",
+   "probably_meant": "ἐπιβλέπειν",
+   "note": "Bese entry; the print clearly has -εεν."
+  },
+  {
+   "strip": "0040_04",
+   "printed": "ὥς l. ὅπως ἔχει τι",
+   "probably_meant": "ὡς l. ὅπως ἔχει τι",
+   "note": "ω carries a rough breathing and an acute in the print."
+  },
+  {
+   "strip": "0040_04",
+   "printed": "m. hm",
+   "probably_meant": "m. hm (honom)",
+   "note": "Kept as printed; possibly an abbreviation rather than an error."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0040_02",
+   "text": "καταστρέφεσθαι",
+   "note": "The τ looks broken and reads like ι (κατασιρέφεσθαι); taken as broken type."
+  },
+  {
+   "strip": "0040_02",
+   "text": "ἡ o. gm vv.",
+   "note": "The italic 'vv' looks like Greek υυ; read as the Swedish abbreviation vv. The space after 'o.' is tight."
+  },
+  {
+   "strip": "0040_04",
+   "text": "πρᾷος, εῖα, ον",
+   "note": "The ending εῖα has no visible breathing. The dot under α is read as an iota subscript."
+  }
+ ]
+}

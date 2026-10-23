@@ -1,0 +1,30 @@
+{
+ "page": "0080",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0080_00",
+   "printed": "hand la",
+   "probably_meant": "hand-la",
+   "note": "handla is broken across lines with no visible hyphen; written whole as 'handla'"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0080_02",
+   "text": "(φόβῳ)",
+   "note": "broken type: the first letter looks like ῥ/'ρ; read as φόβῳ from sense"
+  },
+  {
+   "strip": "0080_05",
+   "text": "τοὺς νεκροὺς κρύπτων",
+   "note": "the accents sit just above the strip cut and show only at the bottom edge of 0080_04_1 (grave, grave, acute); I transcribed them with these accents"
+  },
+  {
+   "strip": "0080_05",
+   "text": "πελιτνός",
+   "note": "τ as printed (an attested variant of πελιδνός); kept"
+  }
+ ]
+}

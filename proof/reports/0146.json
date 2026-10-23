@@ -1,0 +1,53 @@
+{
+ "page": "0146",
+ "strips_done": 6,
+ "corrections": 43,
+ "misprints": [
+  {
+   "strip": "0146_00",
+   "printed": "διαποπορεύεσθαι",
+   "probably_meant": "διαπορεύεσθαι",
+   "note": "Printed 'διαπο-' at the end of the line and 'πορεύεσθαι' at the start of the next, so the syllable 'πο' is set twice."
+  },
+  {
+   "strip": "0146_02",
+   "printed": "kslor",
+   "probably_meant": "kulor",
+   "note": "'om kslor, διάττειν' is printed this way and is not a Swedish word."
+  },
+  {
+   "strip": "0146_05",
+   "printed": "διατοξεύνειν",
+   "probably_meant": "διατοξεύειν",
+   "note": "There is a stray ν in the print."
+  },
+  {
+   "strip": "0146_01",
+   "printed": "κοινῆ",
+   "probably_meant": "κοινῇ",
+   "note": "No iota subscript can be seen under the η in the scan."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0146_01",
+   "text": "κοινῆ",
+   "note": "The iota subscript is either missing or too faint to see. I transcribed it without one."
+  },
+  {
+   "strip": "0146_00",
+   "text": "ἀπο-",
+   "note": "The mark over the α in 'ἐκ-, ἀπο-, συντελεῖν' might be a smooth breathing with an acute (ἄπο-). I kept ἀπο-."
+  },
+  {
+   "strip": "0146_00",
+   "text": "(δι)εξηγεῖσθαι",
+   "note": "Printed '(δι)-' at the end of the line, then 'εξηγεῖσθαι' with no breathing. I joined them as one word with no hyphen."
+  },
+  {
+   "strip": "0146_04",
+   "text": "ἐξητριάζειν",
+   "note": "The print clearly reads ἐξη-|τριάζειν, but the form is not attested. I kept it as printed."
+  }
+ ]
+}

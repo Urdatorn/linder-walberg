@@ -1,0 +1,69 @@
+{
+ "page": "0016",
+ "strips_done": 6,
+ "corrections": 62,
+ "misprints": [
+  {
+   "strip": "0016_01",
+   "printed": "οὐκ ἐστιν ἀνδροφόνος",
+   "probably_meant": "οὐκ ἔστιν ἀνδροφόνος",
+   "note": "ἐστιν is printed with a smooth breathing and no accent."
+  },
+  {
+   "strip": "0016_01",
+   "printed": "dödade hm",
+   "probably_meant": "dödade hn (honom)",
+   "note": "Printed as 'hm'. It may be an abbreviation the book uses; kept as printed."
+  },
+  {
+   "strip": "0016_03",
+   "printed": "Allesammans(s)",
+   "probably_meant": "Allesamman(s)",
+   "note": "The headword is printed with both 'ns' and '(s)'."
+  },
+  {
+   "strip": "0016_04",
+   "printed": "ἀπάντων",
+   "probably_meant": "ἁπάντων",
+   "note": "Printed with a smooth breathing."
+  },
+  {
+   "strip": "0016_02",
+   "printed": "ὁ, ἡ, τὸ τυχών, οῦσα, όν",
+   "probably_meant": "οὖσα, ὄν",
+   "note": "The ending forms are printed without breathings. οῦσα, οῦν in Allrådande (0016_05) are printed the same way."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0016_02",
+   "text": "ποικίλος, 3.: ... παντοδαπὸν γίγνεσθαι",
+   "note": "Both words are smudged or blotted in the scan. Read from context; the OCR had παμμῖος and χιμερεσθαι."
+  },
+  {
+   "strip": "0016_03",
+   "text": "Allhet, ὅλον, τό",
+   "note": "The first letter looks like δ with a mark (δ'λον). Probably ὅλον with the breathing and accent merged, or a broken sort."
+  },
+  {
+   "strip": "0016_01",
+   "text": "ὅς ἄν (m. conj.)",
+   "note": "The accent on ἄν is small. It could be grave (ἂν) rather than acute."
+  },
+  {
+   "strip": "0016_01",
+   "text": "alla dagar",
+   "note": "The letters 'ga' in dagar are broken type, printed like 'dag:r'."
+  },
+  {
+   "strip": "0016_00",
+   "text": "οὐ(δε)πώποτε, μη(δε)πώποτε",
+   "note": "No accent is visible on δε inside the parentheses, so it is written without one."
+  },
+  {
+   "strip": "0016_00",
+   "text": "~ 2 (om pers.).",
+   "note": "Read as the termination number 2 of the previous page's adjective, with no ')' after it."
+  }
+ ]
+}

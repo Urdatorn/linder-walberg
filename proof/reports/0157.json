@@ -1,0 +1,13 @@
+{
+ "page": "0157",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [],
+ "uncertain": [
+  {
+   "strip": "0157_02",
+   "text": "χρυσοτέκτων",
+   "note": "The second τ (after κ) is printed without a clear crossbar and looks almost like ι (χρυσοτέκιων). Probably a broken τ, so I transcribed χρυσοτέκτων."
+  }
+ ]
+}

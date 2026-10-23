@@ -1,0 +1,48 @@
+{
+ "page": "0089",
+ "strips_done": 6,
+ "corrections": 62,
+ "misprints": [
+  {
+   "strip": "0089_00",
+   "printed": "ὥς πᾶσι δοκεῖ",
+   "probably_meant": "ὡς πᾶσι δοκεῖ",
+   "note": "Proclitic ὡς printed with rough breathing plus acute."
+  },
+  {
+   "strip": "0089_04",
+   "printed": "-pera, se Utrusta",
+   "probably_meant": "-pera (Equipera)",
+   "note": "Not a misprint. Printed '-pera' (Equipera); the cleaner had wrongly shortened it to '-era'. Restored."
+  },
+  {
+   "strip": "0089_05",
+   "printed": "ἤσθημαι",
+   "probably_meant": "ᾔσθημαι",
+   "note": "No iota subscript visible under the initial eta."
+  },
+  {
+   "strip": "0089_03",
+   "printed": "ἐπιδήμιος / ἐπιδημεῖν / ἐπιδημία",
+   "probably_meant": "same",
+   "note": "Not a misprint. The print has δ; the OCR's θ forms were wrong and are corrected."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0089_05",
+   "text": "πείρᾳ εἰδότα: gm e. lära känna",
+   "note": "The print shows a spaced colon ' :' with no visible full stop. It could be '.:' with a faint stop."
+  },
+  {
+   "strip": "0089_01",
+   "text": "ἔνθεον ποιεῖν. -ast",
+   "note": "The stop after ποιεῖν sits at mid-height (it may be a raised dot). Transcribed as '.'."
+  },
+  {
+   "strip": "0089_02",
+   "text": "αὐτοκράτωρ, ορος, ὁ, ἡ.:",
+   "note": "The first letter of αὐτοκράτωρ (in Envåldsherre) and the ὁ in Enväldig are faint or broken in the type. Read from context."
+  }
+ ]
+}

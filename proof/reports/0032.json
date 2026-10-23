@@ -1,0 +1,53 @@
+{
+ "page": "0032",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0032_02",
+   "printed": "παραγγελλειν",
+   "probably_meant": "παραγγέλλειν",
+   "note": "Printed with no accent (the word is hyphenated παραγ-γελλειν)."
+  },
+  {
+   "strip": "0032_05",
+   "printed": "vara b., a) om pers., ... 2) om saker",
+   "probably_meant": "1) om pers., ... 2) om saker",
+   "note": "Under 'befogad' the first sense is lettered a) but the second is numbered 2)."
+  },
+  {
+   "strip": "0032_05",
+   "printed": "δίκαιον εἶναι :",
+   "probably_meant": "δίκαιον εἶναι.:",
+   "note": "Printed with only a spaced colon, where the book's usual separator is '.:'. Transcribed as 'εἶναι:'."
+  },
+  {
+   "strip": "0032_05",
+   "printed": "μολυσμός, ὁ (Sedn).",
+   "probably_meant": "μολυσμός, ὁ (Sedn.).",
+   "note": "The abbreviation has no full stop here, unlike the later '(Sedn.)'."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0032_04",
+   "text": "ἐξετάζειν",
+   "note": "The second ε is broken type and looks like 's'. Read as ἐξετάζειν."
+  },
+  {
+   "strip": "0032_01",
+   "text": "ἐκπλαγείς, εῖσα, έν.",
+   "note": "Endings printed without breathings: εῖσα with a circumflex and έν with an acute. The OCR had εἶσα and ἑν."
+  },
+  {
+   "strip": "0032_03",
+   "text": "ἁμαξεύειν ... ἁμαξιτός",
+   "note": "The breathings look rough in the scan, but they are small."
+  },
+  {
+   "strip": "0032_00",
+   "text": "ἐπί τινι. ἀλγεῖν τινι.",
+   "note": "Several Greek stops sit at mid height (they could be ano teleia '·'). Transcribed as '.' following the book-wide convention."
+  }
+ ]
+}

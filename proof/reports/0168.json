@@ -1,0 +1,49 @@
+{
+ "page": "0168",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0168_02",
+   "printed": "φρόνημα. το.",
+   "probably_meant": "φρόνημα, τό.",
+   "note": "Article printed without an accent, and with a full stop after φρόνημα."
+  },
+  {
+   "strip": "0168_02",
+   "printed": "πίστις, εως, ἡ.",
+   "probably_meant": "πίστις, εως, ἡ.",
+   "note": "The genitive ending is printed without a breathing, which is normal for an ending. Kept as printed and listed for information only."
+  },
+  {
+   "strip": "0168_04",
+   "printed": "πάσῃ προθυμία.",
+   "probably_meant": "πάσῃ προθυμίᾳ.",
+   "note": "The iota subscript is missing from the dative προθυμία, though πάσῃ has one."
+  },
+  {
+   "strip": "0168_04",
+   "printed": "ἄρτιος, 3, ἄπηρος",
+   "probably_meant": "ἄρτιος, 3. ἄπηρος",
+   "note": "Comma printed after the termination number where a full stop is expected."
+  },
+  {
+   "strip": "0168_05",
+   "printed": "δίκαι. ον",
+   "probably_meant": "δίκαιον",
+   "note": "Line break printed with a full stop instead of a hyphen. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0168_00",
+   "text": "δόξα (καλὴ), ἡ.",
+   "note": "The accent on καλη looks grave in the scan, so it is kept as grave."
+  },
+  {
+   "strip": "0168_05",
+   "text": "τὸ ἄθικτον",
+   "note": "The grave on the second τὸ is faint."
+  }
+ ]
+}

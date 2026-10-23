@@ -1,0 +1,36 @@
+{
+ "page": "0074",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0074_01",
+   "printed": "ἡ ἐν τοῖς νεωρίοις λίμνη",
+   "probably_meant": "λίμνῃ",
+   "note": "Dative, but printed with no iota subscript."
+  },
+  {
+   "strip": "0074_03",
+   "printed": "~ η. μάχαιρα",
+   "probably_meant": "ἡ.",
+   "note": "The article that ends the Dolk entry (κοπίς, ίδος, η.) is printed with no rough breathing."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0074_04",
+   "text": "Donation, se Gåfva.: göra",
+   "note": "The stop before the colon is damaged and looks almost like a comma. I took it as the book's usual \".:\"."
+  },
+  {
+   "strip": "0074_01",
+   "text": "δ’ οὔ.",
+   "note": "The mark over υ is a combined curved glyph. It reads best as smooth breathing with an acute, but it could be a circumflex."
+  },
+  {
+   "strip": "0074_00",
+   "text": "ἀγωνιζόμενος.",
+   "note": "The final stop sits slightly raised, like a Greek ano teleia. I wrote a full stop, as elsewhere in the book."
+  }
+ ]
+}

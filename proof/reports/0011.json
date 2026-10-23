@@ -1,0 +1,47 @@
+{
+ "page": "0011",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0011_03",
+   "printed": "σοβεῖν τῆν κόνιν",
+   "probably_meant": "σοβεῖν τὴν κόνιν",
+   "note": "The article is printed with a circumflex, clear in the zoomed scan."
+  },
+  {
+   "strip": "0011_03",
+   "printed": "ἑκών, οὖσα, όν",
+   "probably_meant": "ἑκών, οὖσα, ὄν",
+   "note": "Only an acute is visible on όν, with no breathing."
+  },
+  {
+   "strip": "0011_05",
+   "printed": "ἀπο- δια-, περιφράττειν",
+   "probably_meant": "ἀπο-, δια-, περιφράττειν",
+   "note": "The comma after ἀπο- is missing at the line end."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0011_03",
+   "text": "όν",
+   "note": "A breathing may be merged into the acute; it is not visible at 450 dpi."
+  },
+  {
+   "strip": "0011_05",
+   "text": "ἀπο- δια-,",
+   "note": "The line ends at 'ἀπο-' with no comma. It is kept as a prefix hyphen (not joined as 'ἀποδια-'), and no comma was added."
+  },
+  {
+   "strip": "0011_01",
+   "text": "πῄ, πώς (enkl.)",
+   "note": "Both accents look acute here, against the grave in 'πῂ μέν — πῂ δέ'. The marks are small."
+  },
+  {
+   "strip": "0011_00",
+   "text": "εἴς τινα l. τὶ.",
+   "note": "τὶ looks like it carries a grave accent."
+  }
+ ]
+}

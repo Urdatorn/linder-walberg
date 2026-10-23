@@ -1,0 +1,37 @@
+{
+ "page": "0093",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0093_00",
+   "printed": "θυρα",
+   "probably_meant": "θύρα",
+   "note": "Printed without an accent in 'ἐπιρρακτὴ θυρα, ἡ'."
+  },
+  {
+   "strip": "0093_01",
+   "printed": "ἐξήεσαν",
+   "probably_meant": "ἐξῄεσαν",
+   "note": "Printed with no iota subscript visible."
+  },
+  {
+   "strip": "0093_04",
+   "printed": "περί τῆς ψυχῆς",
+   "probably_meant": "περὶ τῆς ψυχῆς",
+   "note": "Printed with an acute where a grave belongs, since no enclitic follows."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0093_05",
+   "text": "ἀφίστασθαί τινος.",
+   "note": "The type is broken at the end of 'τινος' ('τινο:.'), so the final ς and the punctuation are unclear. I read it as 'τινος.'."
+  },
+  {
+   "strip": "0093_05",
+   "text": "(t. ex. καιρόν)",
+   "note": "The print sets 't.ex.' tightly in this line. I kept the usual spacing 't. ex.'."
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "page": "0067",
+ "strips_done": 7,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0067_01",
+   "printed": "m. till ch.. πρᾷος",
+   "probably_meant": "m. till ch., πρᾷος",
+   "note": "Two full stops after 'ch' where a comma is expected"
+  },
+  {
+   "strip": "0067_05",
+   "printed": "Cirkelskifva. κύκλος",
+   "probably_meant": "Cirkelskifva, κύκλος",
+   "note": "Headword followed by a full stop instead of a comma"
+  },
+  {
+   "strip": "0067_06",
+   "printed": "om skrifter o. d, διαπέμπεσθαι",
+   "probably_meant": "om skrifter o. d., διαπέμπεσθαι",
+   "note": "Comma where 'o. d.' should end in a full stop"
+  },
+  {
+   "strip": "0067_02",
+   "printed": "ἀνδρία. ἡ.",
+   "probably_meant": "ἀνδρία, ἡ.",
+   "note": "Full stop before the article where a comma is normal"
+  },
+  {
+   "strip": "0067_02",
+   "printed": "τιμή. ἡ.",
+   "probably_meant": "τιμή, ἡ.",
+   "note": "Full stop before the article where a comma is normal"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0067_03",
+   "text": "Χίμαιρα, ἡ)",
+   "note": "The mark after Χίμαιρα could be a comma or a semicolon; I wrote a comma"
+  },
+  {
+   "strip": "0067_06",
+   "text": "χρῆσις, εως",
+   "note": "There is a stray dot above the comma after χρῆσις, probably dust; I wrote a comma"
+  },
+  {
+   "strip": "0067_01",
+   "text": "πρᾷος",
+   "note": "The iota subscript under the α is faint but appears to be there"
+  }
+ ]
+}

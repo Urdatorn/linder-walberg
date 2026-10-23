@@ -1,0 +1,43 @@
+{
+ "page": "0137",
+ "strips_done": 6,
+ "corrections": 37,
+ "misprints": [
+  {
+   "strip": "0137_00",
+   "printed": "ἀγνισμός",
+   "probably_meant": "ἁγνισμός",
+   "note": "The breathing is printed smooth instead of rough."
+  },
+  {
+   "strip": "0137_05",
+   "printed": "ἐννοιεῖν",
+   "probably_meant": "ἐννοεῖν",
+   "note": "There is an extra iota in the print."
+  },
+  {
+   "strip": "0137_04",
+   "printed": "ἀφωνίζειν",
+   "probably_meant": "ἀφωνεῖν / ἀφωνίζειν (rare)",
+   "note": "The form is clearly printed. It is unattested in the corpus, but it may be the book's own coinage."
+  },
+  {
+   "strip": "0137_04",
+   "printed": "af mga göromål",
+   "probably_meant": "af många göromål",
+   "note": "The abbreviation 'mga' is printed as shown and is kept."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0137_00",
+   "text": "πραΰς",
+   "note": "The accent above the diaeresis is unclear (acute or grave) where the word is split across lines as πρα-ΰς. I chose acute."
+  },
+  {
+   "strip": "0137_02",
+   "text": "εἷς ὁ πρῶτος",
+   "note": "The accent above the rough breathing on εἷς is faint. I read it as a circumflex."
+  }
+ ]
+}

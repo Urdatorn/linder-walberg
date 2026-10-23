@@ -1,0 +1,23 @@
+{
+ "page": "0086",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [],
+ "uncertain": [
+  {
+   "strip": "0086_04",
+   "text": "i mots. mot ὡς, s. framställer",
+   "note": "The mark over ω looks like a rough breathing, possibly with an acute beside it (ὥς). I kept ὡς because this face's rough breathing often has a tail."
+  },
+  {
+   "strip": "0086_05",
+   "text": "oss e. sagdt, ὡς ἐν αὐτοῖς",
+   "note": "The mark over ω could be a rough breathing with a grave. I kept ὡς."
+  },
+  {
+   "strip": "0086_01",
+   "text": "ss. siffra, ιαʹ.:",
+   "note": "The numeral sign after ια is printed as a small apostrophe-like stroke. I kept ʹ (keraia)."
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "page": "0023",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0023_02",
+   "printed": "ὥς ἀπιόντα",
+   "probably_meant": "ὡς ἀπιόντα",
+   "note": "Acute printed on the particle ὡς"
+  },
+  {
+   "strip": "0023_02",
+   "printed": "inrättniug",
+   "probably_meant": "inrättning",
+   "note": "Turned n printed as u"
+  },
+  {
+   "strip": "0023_04",
+   "printed": "κοτμιότης",
+   "probably_meant": "κοσμιότης",
+   "note": "τ printed for σ (Anständig)"
+  },
+  {
+   "strip": "0023_04",
+   "printed": "λύπεῖσθαι",
+   "probably_meant": "λυπεῖσθαι",
+   "note": "Extra acute on λύ- at the line break"
+  },
+  {
+   "strip": "0023_04",
+   "printed": "οῦς",
+   "probably_meant": "οῦς / οὖς",
+   "note": "Genitive ending of αἰδώς printed with circumflex and no breathing; kept as printed"
+  },
+  {
+   "strip": "0023_05",
+   "printed": "tillegua",
+   "probably_meant": "tillegna",
+   "note": "Turned n printed as u"
+  },
+  {
+   "strip": "0023_03",
+   "printed": "δυσχερής, 2 3) uppskjutas",
+   "probably_meant": "δυσχερής, 2. 3)",
+   "note": "No full stop after the termination number"
+  },
+  {
+   "strip": "0023_03",
+   "printed": "(Ordspr., πάντα κάλων ... κινεῖν.",
+   "probably_meant": "closing parenthesis",
+   "note": "The parenthesis opened before Ordspr. is never closed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0023_00",
+   "text": "προστίθεσθαί τινι",
+   "note": "The word sits at the right edge of the image and no accent shows on the final -αι. The acute may be cropped off, so the expected form is kept."
+  },
+  {
+   "strip": "0023_00",
+   "text": "συνωρίς, ἰδος",
+   "note": "The mark over the ι looks like a bare smooth breathing, with no accent visible."
+  }
+ ]
+}

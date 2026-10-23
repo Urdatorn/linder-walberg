@@ -1,0 +1,59 @@
+{
+ "page": "0154",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0154_00",
+   "printed": "λόγοι ἀγροικοι",
+   "probably_meant": "λόγοι ἄγροικοι",
+   "note": "The word is split across lines as ἀγροι-κοι. It has a smooth breathing and no accent."
+  },
+  {
+   "strip": "0154_02",
+   "printed": "φροτιστής",
+   "probably_meant": "φροντιστής",
+   "note": "The ν is missing in the print."
+  },
+  {
+   "strip": "0154_04",
+   "printed": "ὀρθῶς λέγεσθαι,:",
+   "probably_meant": "ὀρθῶς λέγεσθαι.:",
+   "note": "Printed as a comma followed by a colon."
+  },
+  {
+   "strip": "0154_04",
+   "printed": "τεκμήριον, τό..",
+   "probably_meant": "τεκμήριον, τό.",
+   "note": "The full stop is doubled in the print."
+  },
+  {
+   "strip": "0154_05",
+   "printed": "Grundegenskap. φύσις",
+   "probably_meant": "Grundegenskap, φύσις",
+   "note": "The headword is followed by a full stop instead of a comma."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0154_00",
+   "text": "ἁδρός / ἁδρομερής",
+   "note": "The breathing on α is small. I read it as rough, which is the standard form."
+  },
+  {
+   "strip": "0154_05",
+   "text": "(säker, viss).. δίκαιος",
+   "note": "There seem to be two baseline dots after the parenthesis. They may be one full stop plus a speck."
+  },
+  {
+   "strip": "0154_05",
+   "text": "vanl. gm vv.",
+   "note": "Printed in italic, where it looks like Greek υυ. Taken as the Swedish abbreviation vv."
+  },
+  {
+   "strip": "0154_05",
+   "text": "φύσις, ἡ.",
+   "note": "The mark after φύσις could be a comma or a full stop."
+  }
+ ]
+}

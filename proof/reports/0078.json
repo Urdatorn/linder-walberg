@@ -1,0 +1,37 @@
+{
+ "page": "0078",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0078_05",
+   "printed": "ἀσκεῖν ἀρετῆν.:",
+   "probably_meant": "ἀσκεῖν ἀρετήν",
+   "note": "Circumflex printed on the final syllable of ἀρετήν under Dygdig; kept as printed."
+  },
+  {
+   "strip": "0078_05",
+   "printed": "διαφέρων εἰς ἀρετὴν.",
+   "probably_meant": "ἀρετήν.",
+   "note": "Grave accent printed before a full stop under Dygdemönster; kept as printed."
+  },
+  {
+   "strip": "0078_04",
+   "printed": "b) djurs,",
+   "probably_meant": "a) ... b) djurs",
+   "note": "Under Dvala the print has b) with no preceding a); kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0078_04",
+   "text": "ἀποπληξία",
+   "note": "Under Dvala the breathing on the initial α looks a little like a grave accent. I read it as a smooth breathing."
+  },
+  {
+   "strip": "0078_00",
+   "text": "οἷον δεῖ l. χρή",
+   "note": "The diacritic on οἷον is small. I read it as a rough breathing with a circumflex."
+  }
+ ]
+}

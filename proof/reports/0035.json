@@ -1,0 +1,36 @@
+{
+ "page": "0035",
+ "strips_done": 6,
+ "corrections": 46,
+ "misprints": [
+  {
+   "strip": "0035_00",
+   "printed": "öfvermodig b,, ὕβρις",
+   "probably_meant": "öfvermodig b., ὕβρις",
+   "note": "The print has a doubled comma after 'b'."
+  },
+  {
+   "strip": "0035_05",
+   "printed": "vara b. m ngn,",
+   "probably_meant": "vara b. m. ngn,",
+   "note": "The full stop after the abbreviation 'm' is missing in the print."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0035_00",
+   "text": "κύριον εἶναι,· oinskränkt",
+   "note": "After the comma there is a raised dot. It could be a stray mark or a broken semicolon. I kept it as ',·'."
+  },
+  {
+   "strip": "0035_04",
+   "text": "(ὅν, οἷον, ὅσον, ὥς)",
+   "note": "The diacritics on οἷον and ὥς are small and hard to tell apart (rough breathing with circumflex or acute, against a plain accent). I kept the earlier reading."
+  },
+  {
+   "strip": "0035_00",
+   "text": "ταὐτὰ πάσχειν",
+   "note": "The breathing on ταὐτὰ is faint. It looks smooth (crasis), so I kept it as ταὐτὰ."
+  }
+ ]
+}

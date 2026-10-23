@@ -1,0 +1,42 @@
+{
+ "page": "0075",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0075_00",
+   "printed": "πνεῦματος",
+   "probably_meant": "πνεύματος",
+   "note": "Printed with a circumflex at the line break (πνεῦ-ματος)."
+  },
+  {
+   "strip": "0075_02",
+   "printed": "φυχῆς",
+   "probably_meant": "ψυχῆς",
+   "note": "Printed with φ in ἑλκτικός l. ὁλκός τῆς φυχῆς."
+  },
+  {
+   "strip": "0075_00",
+   "printed": "συμβάλλειν τινί l.",
+   "probably_meant": "τινὶ",
+   "note": "Printed with an acute before l."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0075_00",
+   "text": "κατάποσις, ἡ.",
+   "note": "The breathing on η is barely visible in the scan. I transcribed it as ἡ."
+  },
+  {
+   "strip": "0075_00",
+   "text": "ἀμυστὶ πίνειν",
+   "note": "The breathing on the first alpha is small. I read it as smooth."
+  },
+  {
+   "strip": "0075_02",
+   "text": "ἑλκτικός",
+   "note": "I read the breathing as rough. It is hard to tell from smooth in this face."
+  }
+ ]
+}

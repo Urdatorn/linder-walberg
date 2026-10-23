@@ -1,0 +1,48 @@
+{
+ "page": "0061",
+ "strips_done": 6,
+ "corrections": 50,
+ "misprints": [
+  {
+   "strip": "0061_00",
+   "printed": "τὴν φυχήν τινος",
+   "probably_meant": "τὴν ψυχήν τινος",
+   "note": "The print clearly has φ, with a closed loop like the one in φωνή, not ψ."
+  },
+  {
+   "strip": "0061_01",
+   "printed": "ἀπαλλάττεσθαί. τινος.",
+   "probably_meant": "ἀπαλλάττεσθαί τινος.",
+   "note": "The print has a stray full stop after ἀπαλλάττεσθαί."
+  },
+  {
+   "strip": "0061_01",
+   "printed": "se Fram‐, Genombryta,",
+   "probably_meant": "se Fram‐, Genombryta.",
+   "note": "The entry ends with a comma in the print."
+  },
+  {
+   "strip": "0061_02",
+   "printed": "βαραθρον",
+   "probably_meant": "βάραθρον",
+   "note": "The word is split across lines as βα-ραθρον. There is no accent on either part; I checked by zooming in."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0061_05",
+   "text": "οἷος καίεσθαι",
+   "note": "The mark over ι is an ink blob, so I cannot tell rough breathing (οἷος) from smooth (οἶος). I chose οἷος because the sense needs it."
+  },
+  {
+   "strip": "0061_05",
+   "text": "Brännbar",
+   "note": "The type for 'nn' in the headword is broken (it looks like 'Bränıı bar'). I read it as Brännbar."
+  },
+  {
+   "strip": "0061_03",
+   "text": "ἀπρονόητος",
+   "note": "The line break comes after 'ἀπρο' and shows a faint dot instead of a clear hyphen. I wrote the word whole."
+  }
+ ]
+}

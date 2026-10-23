@@ -1,0 +1,37 @@
+{
+ "page": "0113",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0113_01",
+   "printed": "παντα τὰ ὀφειλόμενα",
+   "probably_meant": "πάντα τὰ ὀφειλόμενα",
+   "note": "no accent on παντα in print"
+  },
+  {
+   "strip": "0113_02",
+   "printed": "αντέχεσθαι",
+   "probably_meant": "ἀντέχεσθαι",
+   "note": "breathing missing in print"
+  },
+  {
+   "strip": "0113_05",
+   "printed": "αἴσθάνεσθαι",
+   "probably_meant": "αἰσθάνεσθαι",
+   "note": "print has acute on both αἴ and ά (zoom confirms)"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0113_02",
+   "text": "ἧττον",
+   "note": "breathing on the first letter is small in the scan; read as rough (standard form)"
+  },
+  {
+   "strip": "0113_01",
+   "text": "οἱ.:",
+   "note": "read as rough breathing with no accent; the mark is small"
+  }
+ ]
+}

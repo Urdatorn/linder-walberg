@@ -1,0 +1,36 @@
+{
+ "page": "0076",
+ "strips_done": 6,
+ "corrections": 34,
+ "misprints": [
+  {
+   "strip": "0076_03",
+   "printed": "ἐπί l. εἰς τοῦτο L τοσοῦτο",
+   "probably_meant": "ἐπί l. εἰς τοῦτο l. τοσοῦτο",
+   "note": "Capital L with no full stop, where the abbreviation l. (eller) is meant."
+  },
+  {
+   "strip": "0076_04",
+   "printed": "οἰνόφλυξ, γος",
+   "probably_meant": "οἰνόφλυξ, υγος",
+   "note": "The genitive ending is printed as γος in both Drinkare and Drinkerska; it is kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0076_01",
+   "text": "ἐλατήρ, ῆρος",
+   "note": "The circumflex on the genitive ending is clear, but there seems to be no breathing; I wrote ῆρος, not ἦρος."
+  },
+  {
+   "strip": "0076_05",
+   "text": "κωθωνιστής, οῦ",
+   "note": "The ending shows a circumflex and no breathing that I can see, so I wrote οῦ, not οὖ."
+  },
+  {
+   "strip": "0076_00",
+   "text": "μεθύων, ουσα, ον",
+   "note": "There is no breathing on ουσα in the print, so it was kept unaccented."
+  }
+ ]
+}

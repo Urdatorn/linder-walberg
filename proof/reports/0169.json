@@ -1,0 +1,18 @@
+{
+ "page": "0169",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [],
+ "uncertain": [
+  {
+   "strip": "0169_02",
+   "text": "ἥδιστον ἂν μοι εἴη",
+   "note": "Small accent on ἂν; it reads as grave, like the ἂν before it, but it is hard to tell from acute at this size."
+  },
+  {
+   "strip": "0169_03",
+   "text": "οἴκαδε ὡς ἐμέ",
+   "note": "The mark over ω looks like a rough breathing alone; it could also be rough breathing plus acute (ὥς)."
+  }
+ ]
+}

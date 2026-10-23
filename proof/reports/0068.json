@@ -1,0 +1,48 @@
+{
+ "page": "0068",
+ "strips_done": 7,
+ "corrections": 64,
+ "misprints": [
+  {
+   "strip": "0068_04",
+   "printed": "hrannan d.",
+   "probably_meant": "hvarannan d. (or h:rannan)",
+   "note": "Print clearly reads 'hrannan'; kept as printed."
+  },
+  {
+   "strip": "0068_04",
+   "printed": "återkomma på sma dag",
+   "probably_meant": "samma dag",
+   "note": "Print reads 'sma'; may be an abbreviation, kept."
+  },
+  {
+   "strip": "0068_05",
+   "printed": "πρεσβύτης ὢν.",
+   "probably_meant": "πρεσβύτης ὤν.",
+   "note": "The print has a grave accent with smooth breathing before a full stop."
+  },
+  {
+   "strip": "0068_06",
+   "printed": "φῶς, τός, ὁ.",
+   "probably_meant": "φῶς, τός, τό.",
+   "note": "The article printed in the Dager entry is masculine; φῶς is neuter (cf. τό in the Dag entry)."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0068_04",
+   "text": "τῆς νυκτὸς καὶ τῆς ἡμέρας",
+   "note": "The second τῆς looks like ιῆς in the print, probably broken type; transcribed as τῆς."
+  },
+  {
+   "strip": "0068_05",
+   "text": "ταυτηνί",
+   "note": "The second τ looks broken (ταυιηνί); transcribed as ταυτηνί."
+  },
+  {
+   "strip": "0068_00",
+   "text": "ἡ. κίτριον",
+   "note": "The point after ἡ sits fairly high; transcribed as a full stop, not a ano teleia, to match the rest of the book."
+  }
+ ]
+}

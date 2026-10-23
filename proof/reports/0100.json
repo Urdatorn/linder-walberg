@@ -1,0 +1,41 @@
+{
+ "page": "0100",
+ "strips_done": 6,
+ "corrections": 50,
+ "misprints": [
+  {
+   "strip": "0100_03",
+   "printed": "κατάγειν (τατὰ τὸν ποταμόν)",
+   "probably_meant": "κατὰ τὸν ποταμόν",
+   "note": "Initial τ for κ in τατὰ; kept as printed."
+  },
+  {
+   "strip": "0100_02",
+   "printed": "Ναΐς, ἴδος, ἡ",
+   "probably_meant": "Ναΐς, ΐδος / ίδος",
+   "note": "The genitive ending carries a breathing plus an acute, which looks wrong for an ending."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0100_02",
+   "text": "ἴλη, ἡ / κατ’ ἴλας / ἰλαδὸν",
+   "note": "Breathings read as smooth from the scan. The OCR had ἶλας (circumflex) and ἱλαδὸν (rough)."
+  },
+  {
+   "strip": "0100_02",
+   "text": "Ναΐς, ἴδος",
+   "note": "The mark over the ι of ἴδος is unclear. It could be a smooth breathing with an acute, or a diaeresis."
+  },
+  {
+   "strip": "0100_03",
+   "text": "(πιμελῆ, ἐλαίῳ)",
+   "note": "No iota subscript is visible under πιμελῆ, but the type is small."
+  },
+  {
+   "strip": "0100_03",
+   "text": "κανθαρίς, ίδος, ἡ.",
+   "note": "The final period after ἡ is faint."
+  }
+ ]
+}

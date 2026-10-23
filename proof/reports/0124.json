@@ -1,0 +1,30 @@
+{
+ "page": "0124",
+ "strips_done": 6,
+ "corrections": 26,
+ "misprints": [
+  {
+   "strip": "0124_03",
+   "printed": "προσημασία",
+   "probably_meant": "προσημασία (correct as a noun; flagged only by the corpus check)",
+   "note": "Kept as printed. It is the headword's translation, not a dative, so there is no error."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0124_05",
+   "text": "ἤ τι",
+   "note": "The breathing on η is hard to read (smooth or rough with acute). I wrote smooth ἤ, as the sense 'than' requires."
+  },
+  {
+   "strip": "0124_05",
+   "text": "Föredrag",
+   "note": "The headword's ö is printed broken and looks like õ. I transcribed it as ö."
+  },
+  {
+   "strip": "0124_01",
+   "text": "ὀλοίμην, εἰ μή",
+   "note": "Read the breathings as smooth, from the same shape as the apostrophe in κάκιστ᾿. The OCR had ὁλοίμην, εἶ."
+  }
+ ]
+}

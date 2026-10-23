@@ -1,0 +1,30 @@
+{
+ "page": "0015",
+ "strips_done": 7,
+ "corrections": 50,
+ "misprints": [
+  {
+   "strip": "0015_02",
+   "printed": "σταθμῶ στήσαντα",
+   "probably_meant": "σταθμῷ στήσαντα",
+   "note": "No iota subscript under ω in the print (Afväga)."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0015_04",
+   "text": "Ah, βαβαί. αἰβοῖ. — ἆ. φεῦ. — ἰώ.",
+   "note": "The mark over the interjection α is small and unclear. It reads as breathing plus circumflex (ἆ), but it could be ἇ. The older OCR had ἄ."
+  },
+  {
+   "strip": "0015_00",
+   "text": "Afvikelse — Aktningsvärd. 11",
+   "note": "Running head, written in print order with page number 11 last and no parenthesis. Other unproofed header strips use a '11) X — Y.' form, so the convention may need to be made the same across pages."
+  },
+  {
+   "strip": "0015_01",
+   "text": "Afvikelse / Afvinna",
+   "note": "What looks like a ring over the A is the descender from the line above (the iota subscript of ἀπᾴδειν and the tail of ρ in φορά), so the A is plain, not Å."
+  }
+ ]
+}

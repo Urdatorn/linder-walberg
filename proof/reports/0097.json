@@ -1,0 +1,47 @@
+{
+ "page": "0097",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0097_05",
+   "printed": "φηλαφᾶν",
+   "probably_meant": "ψηλαφᾶν",
+   "note": "The first letter has the shape of the φ in λεπτόφυλλος, not the ψ in μύωψ."
+  },
+  {
+   "strip": "0097_05",
+   "printed": "ἀντίχειρ, ἡ.",
+   "probably_meant": "ἀντίχειρ, ὁ.",
+   "note": "ἀντίχειρ is masculine, but the print has the article ἡ."
+  },
+  {
+   "strip": "0097_03",
+   "printed": "ἀφυλίζειν",
+   "probably_meant": "ἀπυλίζειν / ἀποϋλίζειν (?)",
+   "note": "Kept as printed. The form is doubtful."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0097_00",
+   "text": "2) fig., λιπαρός",
+   "note": "The punctuation after 'fig' is blurred, a dot with a comma-like mark under it. Transcribed as 'fig.,'."
+  },
+  {
+   "strip": "0097_00",
+   "text": "παχύς, εῖα, ύ.",
+   "note": "The mark over the final υ reads as an acute; the OCR had ὑ."
+  },
+  {
+   "strip": "0097_02",
+   "text": "ἰσχάς, άδος,",
+   "note": "The accent on the genitive ending looks like a bare acute. There may also be a smooth breathing (ἄδος)."
+  },
+  {
+   "strip": "0097_05",
+   "text": "δακτύλους.:",
+   "note": "The print has a raised dot followed by a colon ('·:'). Transcribed as the book's usual '.:'."
+  }
+ ]
+}

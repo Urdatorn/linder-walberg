@@ -1,0 +1,61 @@
+{
+ "page": "0084",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0084_00",
+   "printed": "ἐν ἤθει πρέποντι",
+   "probably_meant": "ἐν ἦθει πρέποντι",
+   "note": "Printed with smooth breathing + acute; ἦθος has a circumflex"
+  },
+  {
+   "strip": "0084_02",
+   "printed": "= s. man sf äger",
+   "probably_meant": "= s. man sj. äger (sjelf)",
+   "note": "Printed 'sf' with no period"
+  },
+  {
+   "strip": "0084_02",
+   "printed": "Ägare o s. v.",
+   "probably_meant": "Ägare o. s. v.",
+   "note": "Printed with no period after 'o'"
+  },
+  {
+   "strip": "0084_03",
+   "printed": "χωρίον τό.",
+   "probably_meant": "χωρίον, τό.",
+   "note": "Printed with no comma"
+  },
+  {
+   "strip": "0084_03",
+   "printed": "ἐξουσιαστικός, 3, αὐτεξούσιος, 2 (Sedn).:",
+   "probably_meant": "ἐξουσιαστικός, 3. αὐτεξούσιος, 2 (Sedn.).:",
+   "note": "Comma after 3; 'Sedn' printed with no period"
+  },
+  {
+   "strip": "0084_04",
+   "printed": "πλεονέκτης, ου. ὁ.",
+   "probably_meant": "πλεονέκτης, ου, ὁ.",
+   "note": "Period printed after ου"
+  },
+  {
+   "strip": "0084_05",
+   "printed": "sådane egenskaper",
+   "probably_meant": "sådana egenskaper",
+   "note": "Kept as printed; this may be an archaic form rather than an error"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0084_00",
+   "text": "φροντίς, ίδος",
+   "note": "The genitive ending is printed with an acute only and no breathing; transcribed as printed"
+  },
+  {
+   "strip": "0084_04",
+   "text": "ἕξις, ἡ,",
+   "note": "The strip ends with a comma after ἡ; strip 0084_05 continues the entry with ποιότης"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "page": "0065",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0065_01",
+   "printed": "ὥς ἐπίνομεν",
+   "probably_meant": "ὡς ἐπίνομεν",
+   "note": "Conjunction printed with rough breathing and acute accent."
+  },
+  {
+   "strip": "0065_01",
+   "printed": "τὸ συμφέρον,:",
+   "probably_meant": "τὸ συμφέρον.:",
+   "note": "The mark before the colon looks like a comma, where the book's usual pattern is a full stop. Kept as printed, but it may be a damaged full stop."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0065_00",
+   "text": "~ μεθα.:",
+   "note": "The strip opens on the end of an entry from the previous page. 'μεθα' shows no visible accent."
+  },
+  {
+   "strip": "0065_00",
+   "text": "οἴχεσθαι. ἀφορμᾶν",
+   "note": "A stray broken piece of type sits between the two words. Read as an ordinary full stop."
+  },
+  {
+   "strip": "0065_01",
+   "text": "ὥς ἐπίνομεν",
+   "note": "The marks above the omega look like a rough breathing plus an acute. A plain ὡς is also possible."
+  }
+ ]
+}

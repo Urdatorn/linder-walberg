@@ -1,0 +1,37 @@
+{
+ "page": "0162",
+ "strips_done": 7,
+ "corrections": 38,
+ "misprints": [
+  {
+   "strip": "0162_01",
+   "printed": "οἰκ ἔστι χρῆσθαί τινι",
+   "probably_meant": "οὐκ ἔστι χρῆσθαί τινι",
+   "note": "Print clearly has iota with smooth breathing, not upsilon"
+  },
+  {
+   "strip": "0162_02",
+   "printed": "οὐδὲν ἀλλ’ ἢ ψεύδει",
+   "probably_meant": "οὐδὲν ἄλλ’ ἢ ψεύδει",
+   "note": "Accent missing on ἀλλ’; the same phrase two lines earlier has ἄλλ’"
+  },
+  {
+   "strip": "0162_03",
+   "printed": "Göra, se Sysselssättning.",
+   "probably_meant": "Sysselsättning",
+   "note": "Doubled s in the cross-reference"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0162_01",
+   "text": "πολλὰ πράγματα ἔχειν.: man har",
+   "note": "The print shows a raised dot and a colon after ἔχειν (ἔχειν˙:), probably a displaced full stop. I wrote it as .:"
+  },
+  {
+   "strip": "0162_02",
+   "text": "τί ἄλλο ἢ l. ἄλλο τι ἢ, ... οὐδὲν ἄλλ’ ἢ (οὐδὲν ἄλλο ἢ)",
+   "note": "At this resolution I can't tell grave from acute on these etas. I kept the grave ἢ."
+  }
+ ]
+}

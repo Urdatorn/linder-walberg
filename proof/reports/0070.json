@@ -1,0 +1,41 @@
+{
+ "page": "0070",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0070_03",
+   "printed": "μετέχων, ουσα, ον",
+   "probably_meant": "μετέχων, ουσα, ον (OCR had οὐσά; print has no accents, which is how the book writes endings)",
+   "note": "Kept unaccented as printed."
+  },
+  {
+   "strip": "0070_04",
+   "printed": "δελφίς, ῖνος, ὁ",
+   "probably_meant": "δελφίς, ῖνος (ending, circumflex as printed)",
+   "note": "Printed with a circumflex on the ending; kept."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0070_00",
+   "text": "σκηνογράφος, ὁ.",
+   "note": "Printed 'φος, ο.' with no visible breathing; a stray rough-breathing mark sits displaced below 'sak' on the line above. Transcribed as ὁ."
+  },
+  {
+   "strip": "0070_04",
+   "text": "2) oeg., a)",
+   "note": "Printed looks like 'oeg..', probably a comma with a broken tail; compare 'oeg., a)' in strip 0070_02."
+  },
+  {
+   "strip": "0070_04",
+   "text": "τά τ’ ἄλλα-καί",
+   "note": "Spacing between τ’ and ἄλλα is narrow; a space was written."
+  },
+  {
+   "strip": "0070_00",
+   "text": "μερίς, ίδος, ἡ",
+   "note": "The ending is printed with an acute and no breathing (ίδος). The OCR had ἰδος."
+  }
+ ]
+}

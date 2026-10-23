@@ -1,0 +1,31 @@
+{
+ "page": "0069",
+ "strips_done": 6,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0069_04",
+   "printed": "παραγάφειν",
+   "probably_meant": "παραγράφειν",
+   "note": "Datera entry; the rho is missing in the print"
+  },
+  {
+   "strip": "0069_04",
+   "printed": "ἀγών ῶνος",
+   "probably_meant": "ἀγών, ῶνος",
+   "note": "Debatt entry; there is no comma between the headword form and the genitive ending"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0069_03",
+   "text": "ῥᾳθυμοῦντα",
+   "note": "The OCR had ὀρθυμοῦντα. The scan shows rho with rough breathing, and a mark under the alpha that looks like an iota subscript."
+  },
+  {
+   "strip": "0069_02",
+   "text": "γυνή, αικός",
+   "note": "The ending is printed with no breathing visible; transcribed as αικός"
+  }
+ ]
+}

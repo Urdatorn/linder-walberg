@@ -1,0 +1,59 @@
+{
+ "page": "0159",
+ "strips_done": 6,
+ "corrections": 58,
+ "misprints": [
+  {
+   "strip": "0159_03",
+   "printed": "ἰλλιγγιῶ",
+   "probably_meant": "ἰλιγγιῶ",
+   "note": "Double lambda clearly printed."
+  },
+  {
+   "strip": "0159_04",
+   "printed": "τρέπεπεσθαι",
+   "probably_meant": "τρέπεσθαι",
+   "note": "Syllable doubled across the line break (τρέπε-|πεσθαι)."
+  },
+  {
+   "strip": "0159_04",
+   "printed": "upprätt g.. πορεία ὀρθή",
+   "probably_meant": "upprätt g., πορεία ὀρθή",
+   "note": "Two full stops printed after g."
+  },
+  {
+   "strip": "0159_02",
+   "printed": "(συν)έπεσθαί τινι",
+   "probably_meant": "(συν)ἕπεσθαί τινι",
+   "note": "No breathing printed on έπεσθαί; kept as printed."
+  },
+  {
+   "strip": "0159_05",
+   "printed": "spiralformig",
+   "probably_meant": "spiralförmig",
+   "note": "No umlaut printed; kept."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0159_00",
+   "text": "ἀποβαίνειν.: g. väl",
+   "note": "The full stop sits raised, like a middle dot, before the colon; I transcribed it as the usual \".:\"."
+  },
+  {
+   "strip": "0159_02",
+   "text": "γίγνεσθαι (ske)",
+   "note": "The line-end hyphen in γίγνε-σθαι prints as a mid-dot. I took it as a hyphen and wrote the word whole."
+  },
+  {
+   "strip": "0159_04",
+   "text": "τὴν αὑτοῦ βαδίζειν",
+   "note": "The breathing on υ is small; it reads as rough (αὑτοῦ), though smooth (αὐτοῦ) is possible."
+  },
+  {
+   "strip": "0159_00",
+   "text": "χωρεῖν φέρεσθαι / g till segels",
+   "note": "There is no punctuation after χωρεῖν or after g at the line ends; it may have dropped out in printing. I kept it as printed."
+  }
+ ]
+}

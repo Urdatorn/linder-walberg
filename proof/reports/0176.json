@@ -1,0 +1,57 @@
+{
+ "page": "0176",
+ "strips_done": 6,
+ "corrections": 60,
+ "misprints": [
+  {
+   "strip": "0176_02",
+   "printed": "κατακόψαντα τους πολε-",
+   "probably_meant": "τοὺς",
+   "note": "article printed without grave accent"
+  },
+  {
+   "strip": "0176_04",
+   "printed": "φιλοφροσύνη, ἡ φιλοστοργία",
+   "probably_meant": "φιλοφροσύνη, ἡ. φιλοστοργία",
+   "note": "no full stop after the article in the print"
+  },
+  {
+   "strip": "0176_01",
+   "printed": "κεφαλαλγία, ἡ καρηβαρία",
+   "probably_meant": "κεφαλαλγία, ἡ. καρηβαρία",
+   "note": "no full stop after the article in the print"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0176_01",
+   "text": "(i gramm. bet).",
+   "note": "print shows 'bet )' with a gap where a full stop may have dropped out"
+  },
+  {
+   "strip": "0176_01",
+   "text": "κεφάλαιον. τό, ὑπόθεσις. ἡ",
+   "note": "the comma or full stop after κεφάλαιον and ὑπόθεσις is unclear in the scan"
+  },
+  {
+   "strip": "0176_03",
+   "text": "Huggning ... ἡ o. vv.",
+   "note": "the final abbreviation is read as 'vv.' (italic); OCR had 'uu.'"
+  },
+  {
+   "strip": "0176_03",
+   "text": "h. väg gm en skog. τέμνειν",
+   "note": "the mark after 'skog' could be a comma"
+  },
+  {
+   "strip": "0176_05",
+   "text": "κύων εὔρις",
+   "note": "the breathing and accent on εὔρις are small; read as smooth breathing with acute"
+  },
+  {
+   "strip": "0176_00",
+   "text": "spela h.. πρωταγωνιστεῖν",
+   "note": "the print seems to have two full stops after h; kept as printed"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "page": "0103",
+ "strips_done": 7,
+ "corrections": 30,
+ "misprints": [
+  {
+   "strip": "0103_02",
+   "printed": "ἀμαξιαῖον",
+   "probably_meant": "ἁμαξιαῖον",
+   "note": "Smooth breathing is clearly printed, though ἅμαξα in the same line has a rough one."
+  },
+  {
+   "strip": "0103_06",
+   "printed": "μή παύεσθαι",
+   "probably_meant": "μὴ παύεσθαι",
+   "note": "Acute is printed on μή before another word. The preceding μὴ ἐξίστασθαι has a grave."
+  },
+  {
+   "strip": "0103_01",
+   "printed": "διαφθείρων, ουσα, ον",
+   "probably_meant": "διαφθείρουσα, ον (οῦσα)",
+   "note": "Termination ουσα is printed without an accent."
+  },
+  {
+   "strip": "0103_03",
+   "printed": "τὰ νομιζόμενα, ποιεῖν",
+   "probably_meant": "τὰ νομιζόμενα ποιεῖν",
+   "note": "There is a comma after νομιζόμενα in the print. It was kept."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0103_05",
+   "text": "ὡς l. ᾗ (δυνατόν l. δύναταί τις)",
+   "note": "The breathing and circumflex merge into one mark over η. Read as rough breathing with iota subscript (ᾗ); the earlier OCR had ᾖ."
+  },
+  {
+   "strip": "0103_01",
+   "text": "ὀλέθριος",
+   "note": "The breathing looks smooth, but at this size it is hard to tell from rough."
+  },
+  {
+   "strip": "0103_00",
+   "text": "Folktalare — Fortfara. 99",
+   "note": "I wrote the running head in the form used on already proofread header strips, with the page number after the title and no ')'."
+  }
+ ]
+}

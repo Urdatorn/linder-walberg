@@ -1,0 +1,52 @@
+{
+ "page": "0049",
+ "strips_done": 6,
+ "corrections": 38,
+ "misprints": [
+  {
+   "strip": "0049_00",
+   "printed": "ὀλιγόν τι",
+   "probably_meant": "ὀλίγον τι",
+   "note": "accent printed on the final syllable"
+  },
+  {
+   "strip": "0049_01",
+   "printed": "(συν)επαινεῖν",
+   "probably_meant": "(συν)επαινεῖν / συνεπαινεῖν",
+   "note": "no breathing on ε after the bracketed prefix; probably deliberate because of the prefix, kept as printed"
+  },
+  {
+   "strip": "0049_03",
+   "printed": "ἀρκτύλος",
+   "probably_meant": "ἀρκτύλος",
+   "note": "form not in the corpus but clearly printed; kept"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0049_01",
+   "text": "~ ἀκαρῆ.",
+   "note": "The strip's first line shows 'ακαρη.' without diacritics. A breathing and a circumflex appear detached at the bottom of strip 0049_00's last band, so the cut almost certainly separated them from this line. I restored ἀκαρῆ."
+  },
+  {
+   "strip": "0049_02",
+   "text": "~ ορος, ὁ.",
+   "note": "The line shows 'ορος, ο.' without a breathing on the article. The breathing was probably cut off at the strip boundary, so I restored ὁ."
+  },
+  {
+   "strip": "0049_05",
+   "text": "τό. κρᾶμα, σύγκραμα, τό.",
+   "note": "The top line of band 1 shows no accents. Detached accent marks sit at the bottom of band 0, so I restored the standard accents."
+  },
+  {
+   "strip": "0049_00",
+   "text": "τινός.: gifva",
+   "note": "Shows a small dot before the colon; read as '.:'."
+  },
+  {
+   "strip": "0049_04",
+   "text": "σελίς, ίδος, ἡ.: = pappersblad ... χαρτίον, -ίδιον, τό.:",
+   "note": "Small dot before each colon; read as '.:'."
+  }
+ ]
+}

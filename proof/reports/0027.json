@@ -1,0 +1,52 @@
+{
+ "page": "0027",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0027_03",
+   "printed": "Grekiskau",
+   "probably_meant": "Grekiskan",
+   "note": "The last letter is printed as u, probably a turned n."
+  },
+  {
+   "strip": "0027_03",
+   "printed": "τῆν παλαιὰν",
+   "probably_meant": "τὴν παλαιὰν",
+   "note": "The article is printed with a circumflex."
+  },
+  {
+   "strip": "0027_02",
+   "printed": "θνητὸς ὢν.:",
+   "probably_meant": "θνητὸς ὤν.:",
+   "note": "The accent looks grave even though punctuation follows."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0027_02",
+   "text": "ὢν",
+   "note": "The accent on omega is small and could be an acute rather than a grave."
+  },
+  {
+   "strip": "0027_02",
+   "text": "τῇ μονῇ.",
+   "note": "The iota subscripts are faint or broken in the print. I kept them."
+  },
+  {
+   "strip": "0027_02",
+   "text": "dta. ὁμολογῶ",
+   "note": "The mark after dta is a heavy dot. It could be a comma."
+  },
+  {
+   "strip": "0027_04",
+   "text": "åhörarne",
+   "note": "The umlaut on ö is broken and looks like a tilde."
+  },
+  {
+   "strip": "0027_03",
+   "text": "αὑτῶν",
+   "note": "The breathing over υ is small. I read it as rough."
+  }
+ ]
+}

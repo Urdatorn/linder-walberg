@@ -1,0 +1,31 @@
+{
+ "page": "0045",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0045_05",
+   "printed": "sinnesstämniug",
+   "probably_meant": "sinnesstämning",
+   "note": "Turned n printed as u at the end; the scan clearly shows 'stämniug'. The earlier OCR had 'stämmiug'."
+  },
+  {
+   "strip": "0045_04",
+   "printed": "tilllägg",
+   "probably_meant": "tillägg",
+   "note": "Printed 'till-' at a line end and 'lägg' on the next line, so it is joined here as 'tilllägg'. This may be the period's spelling and not a misprint."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0045_00",
+   "text": "εἴς τι",
+   "note": "Small type: the accent and breathing over the iota look like smooth breathing with acute. Transcribed as εἴς."
+  },
+  {
+   "strip": "0045_02",
+   "text": "τί δρᾶ τὸ ποτήριον",
+   "note": "No iota subscript is visible under the α of δρᾶ. Kept without it."
+  }
+ ]
+}

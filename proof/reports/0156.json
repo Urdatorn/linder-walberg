@@ -1,0 +1,66 @@
+{
+ "page": "0156",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0156_03",
+   "printed": "λαχανισμός, ὁ,",
+   "probably_meant": "λαχανισμός, ὁ.",
+   "note": "Comma instead of full stop at the end of the Grönsaker entry"
+  },
+  {
+   "strip": "0156_04",
+   "printed": "πρεσβύτης, ου, ὁ,:",
+   "probably_meant": "πρεσβύτης, ου, ὁ.:",
+   "note": "Comma before the colon"
+  },
+  {
+   "strip": "0156_04",
+   "printed": "θεός. ὁ.",
+   "probably_meant": "θεός, ὁ.",
+   "note": "Full stop instead of comma between the word and its article"
+  },
+  {
+   "strip": "0156_04",
+   "printed": "(ᾦ)",
+   "probably_meant": "(ὦ)",
+   "note": "Interjection printed with an iota subscript. The accent above is partly broken"
+  },
+  {
+   "strip": "0156_04",
+   "printed": "ὁ μὴ γένοιτο",
+   "probably_meant": "ὃ μὴ γένοιτο",
+   "note": "Relative pronoun appears with rough breathing only"
+  },
+  {
+   "strip": "0156_05",
+   "printed": "θεία τις ἡδονή ἡ.",
+   "probably_meant": "θεία τις ἡδονή, ἡ.",
+   "note": "No comma before the article"
+  },
+  {
+   "strip": "0156_05",
+   "printed": "θεῖος. 3.",
+   "probably_meant": "θεῖος, 3.",
+   "note": "Full stop instead of comma before the termination number"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0156_04",
+   "text": "(ᾦ) πρὸς (τοῦ) Διός",
+   "note": "The diacritic above the omega is broken, so I can't tell whether it is breathing plus circumflex or plus acute. The iota subscript is clear"
+  },
+  {
+   "strip": "0156_04",
+   "text": "ὁ μὴ γένοιτο",
+   "note": "The mark could be rough plus grave fused. I read it as a plain rough breathing"
+  },
+  {
+   "strip": "0156_02",
+   "text": "~ ηφαγεῖν.",
+   "note": "The circumflex sits above the line and was cut into the previous strip's image, where it shows as a mark under πο-"
+  }
+ ]
+}

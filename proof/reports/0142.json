@@ -1,0 +1,59 @@
+{
+ "page": "0142",
+ "strips_done": 6,
+ "corrections": 52,
+ "misprints": [
+  {
+   "strip": "0142_00",
+   "printed": "πολυπράγμονεῖν",
+   "probably_meant": "πολυπραγμονεῖν",
+   "note": "Printed with acute on ά (πολυπράγμο-νεῖν) as well as the circumflex; double accent kept."
+  },
+  {
+   "strip": "0142_01",
+   "printed": "ἐκβάλλειν ἐξορίζειν.",
+   "probably_meant": "ἐκβάλλειν. ἐξορίζειν.",
+   "note": "No punctuation printed after ἐκβάλλειν."
+  },
+  {
+   "strip": "0142_02",
+   "printed": "προστρέπειν τινά τινι",
+   "probably_meant": "προτρέπειν / προςτρέπειν",
+   "note": "Printed clearly as προστρέπειν; kept."
+  },
+  {
+   "strip": "0142_04",
+   "printed": "ἀγριώδης",
+   "probably_meant": "ἀγριώδης (rare form)",
+   "note": "Strip 0142_01 (Förvilda) has it clearly printed. It is a rare form, not a misprint."
+  },
+  {
+   "strip": "0142_05",
+   "printed": "κοῦφος, 3:: föränderlig",
+   "probably_meant": "κοῦφος, 3.: föränderlig",
+   "note": "Two colons are printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0142_00",
+   "text": "ἁπαλύνειν",
+   "note": "Breathing mark is ambiguous at this resolution. Its shape differs from the smooth breathing on ἀπο- just below, so I read it as rough. The same applies to ἁλίσκεσθαι, ἁψίκορος and ἁψικορία in 0142_05."
+  },
+  {
+   "strip": "0142_05",
+   "text": "ἐρῶν, ῶσα, ῶν",
+   "note": "The endings show only a circumflex and no breathing. I transcribed them as printed (the OCR had ὦσα, ὤν)."
+  },
+  {
+   "strip": "0142_05",
+   "text": "pass. af dsa vv.",
+   "note": "The f of 'af' is broken type and looks like 'aï'. I read it as 'af'."
+  },
+  {
+   "strip": "0142_03",
+   "text": "ἐργασία, ἡ.",
+   "note": "The line wraps across the band boundary, and the accents sit at the bottom of the band above. I read them as ἐργασία, ἡ."
+  }
+ ]
+}

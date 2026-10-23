@@ -1,0 +1,71 @@
+{
+ "page": "0148",
+ "strips_done": 7,
+ "corrections": 30,
+ "misprints": [
+  {
+   "strip": "0148_01",
+   "printed": "αἴξ",
+   "probably_meant": "αἶξ",
+   "note": "Printed with an acute instead of a circumflex"
+  },
+  {
+   "strip": "0148_01",
+   "printed": "αἴγεος",
+   "probably_meant": "αἴγειος",
+   "note": "Adjective for 'goat's'; the usual form is αἴγειος"
+  },
+  {
+   "strip": "0148_02",
+   "printed": "αἴγεον",
+   "probably_meant": "αἴγειον",
+   "note": "Same stem as αἴγεος"
+  },
+  {
+   "strip": "0148_01",
+   "printed": "af ful g, ἄμορφος",
+   "probably_meant": "af ful g., ἄμορφος",
+   "note": "No full stop is printed after the abbreviation g (compare 'af skön g.,')"
+  },
+  {
+   "strip": "0148_05",
+   "printed": "ἑαυτόν χρήσασθαι",
+   "probably_meant": "ἑαυτὸν χρήσασθαι",
+   "note": "Acute printed where a grave belongs inside the phrase"
+  },
+  {
+   "strip": "0148_04",
+   "printed": "ἔχων, ουσα",
+   "probably_meant": "ἔχων, οὖσα",
+   "note": "The ending is printed with no breathing or accent; the same happens in ὑπάρχων, ουσα, ον (0148_05)"
+  },
+  {
+   "strip": "0148_06",
+   "printed": "ἀρθρῖτις, ιδος",
+   "probably_meant": "ἀρθρῖτις, ἰδος",
+   "note": "The genitive ending is printed with no breathing, unlike other 'ἰδος' on the page"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0148_02",
+   "text": "αἵ.:",
+   "note": "The article after τρίχες seems to carry a rough breathing and an acute; it could be a plain αἱ"
+  },
+  {
+   "strip": "0148_03",
+   "text": "οἵ.:",
+   "note": "Same mark as αἵ: rough breathing plus what looks like an acute after γάμου; the old OCR read οἷ"
+  },
+  {
+   "strip": "0148_03",
+   "text": "Giftoman",
+   "note": "Letterspaced headword; I see no word gap, so it is written as one word"
+  },
+  {
+   "strip": "0148_00",
+   "text": "144 Gestalta — Gillra.",
+   "note": "Running head; I removed the ')' after the page number, which is not printed"
+  }
+ ]
+}

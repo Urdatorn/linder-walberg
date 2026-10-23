@@ -1,0 +1,47 @@
+{
+ "page": "0112",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0112_01",
+   "printed": "ἐρήμη δίκη κατέγνωσαν",
+   "probably_meant": "ἐρήμῃ δίκῃ κατέγνωσαν",
+   "note": "Dative printed without iota subscripts."
+  },
+  {
+   "strip": "0112_05",
+   "printed": "ὗγρασμα",
+   "probably_meant": "ὕγρασμα",
+   "note": "Printed with a rough breathing and circumflex instead of a rough breathing and acute."
+  },
+  {
+   "strip": "0112_05",
+   "printed": "νοτίς, ίδος",
+   "probably_meant": "νοτίς, ίδος (genitive ending, acceptable)",
+   "note": "Genitive ending printed with an accent only; kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0112_02",
+   "text": "ἀλλόφυλος, ὁ (af",
+   "note": "The last letter at the column edge is cut off or faint. The reading 'af' fits the continuation '~ annat folk)' in strip 0112_03."
+  },
+  {
+   "strip": "0112_03",
+   "text": "ἀλλότριος, 3.:",
+   "note": "A stray mark (dust or broken type) sits between the full stop and the colon. Read as '.:'."
+  },
+  {
+   "strip": "0112_04",
+   "text": "πρωτεύειν.:",
+   "note": "The colon is broken (it looks like a damaged glyph). Read as '.:'."
+  },
+  {
+   "strip": "0112_00",
+   "text": "ἀφηρέθη",
+   "note": "No iota subscript is visible under η. Kept as printed."
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "page": "0095",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0095_00",
+   "printed": "ποτάνιον",
+   "probably_meant": "πατάνιον",
+   "note": "Diminutive of πατάνη, which is printed just before it; the print clearly has ο in the first syllable."
+  },
+  {
+   "strip": "0095_00",
+   "printed": "κοπάδιον",
+   "probably_meant": "λοπάδιον",
+   "note": "Diminutive of λοπάς; the initial letter is clearly κ in the print."
+  },
+  {
+   "strip": "0095_01",
+   "printed": "λαμβάνεν",
+   "probably_meant": "λαμβάνειν",
+   "note": "The print has no ι before ν."
+  },
+  {
+   "strip": "0095_03",
+   "printed": "ἔλθουσα",
+   "probably_meant": "ἐλθοῦσα",
+   "note": "The accent is printed on the first syllable and there is no circumflex on ου."
+  },
+  {
+   "strip": "0095_03",
+   "printed": "πενικρός",
+   "probably_meant": "πενιχρός",
+   "note": "The letter is κ: it has no descender."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0095_00",
+   "text": "ίδος",
+   "note": "The mark over ι in 'παροψίς, ίδος' looks like a plain acute, not a breathing."
+  },
+  {
+   "strip": "0095_03",
+   "text": "τινός.",
+   "note": "There is a stray dot above the punctuation after σπανίζειν τινός, probably dust. I transcribed it as an ordinary stop."
+  },
+  {
+   "strip": "0095_02",
+   "text": "\"att jag\"",
+   "note": "The print uses '' '' quotation marks. I kept them as straight double quotes."
+  }
+ ]
+}

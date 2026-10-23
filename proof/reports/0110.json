@@ -1,0 +1,25 @@
+{
+ "page": "0110",
+ "strips_done": 6,
+ "corrections": 30,
+ "misprints": [
+  {
+   "strip": "0110_05",
+   "printed": "μορμολύττεσθαί τι",
+   "probably_meant": "μορμολύττεσθαί τι (enclitic accent, correct as printed)",
+   "note": "Kept as printed; the corpus flag comes from the enclitic accent."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0110_02",
+   "text": "πραΰς, εῖα, ύ.",
+   "note": "The endings εῖα and ύ have no breathing in the print; the accent on ύ is small and could not be fully confirmed."
+  },
+  {
+   "strip": "0110_00",
+   "text": "οὖσα, όν",
+   "note": "όν has no clear breathing in the print, so it is copied as όν."
+  }
+ ]
+}

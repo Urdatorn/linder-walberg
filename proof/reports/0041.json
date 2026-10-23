@@ -1,0 +1,43 @@
+{
+ "page": "0041",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0041_04",
+   "printed": "ἐγχρέμπεσθαί τινι",
+   "probably_meant": "ἐγχρέμπτεσθαί τινι",
+   "note": "τ missing in the stem; compare καταχρέμπτεσθαί in the same entry"
+  },
+  {
+   "strip": "0041_04",
+   "printed": "θηριώδης, 2 ἄγριος, 3.",
+   "probably_meant": "θηριώδης, 2. ἄγριος, 3.",
+   "note": "no full stop after the termination number 2"
+  },
+  {
+   "strip": "0041_04",
+   "printed": "ἐπιβατεύειν,: låta b.",
+   "probably_meant": "ἐπιβατεύειν.: låta b.",
+   "note": "comma printed before the colon instead of a full stop"
+  },
+  {
+   "strip": "0041_03",
+   "printed": "bespa / rat (line break with no hyphen)",
+   "probably_meant": "besparat",
+   "note": "the hyphen is missing at the line break; transcribed as 'besparat'"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0041_02",
+   "text": "ἀναγκαῖος, 3. ... γένει. ... ὁ.:",
+   "note": "the right margin is clipped in the scan; the full stops after '3' and 'γένει' and the final 'ὁ.:' are the most likely readings"
+  },
+  {
+   "strip": "0041_00",
+   "text": "κηδεμών, όνος. ὁ.",
+   "note": "the mark after όνος could be a full stop or a raised dot; transcribed as a full stop"
+  }
+ ]
+}

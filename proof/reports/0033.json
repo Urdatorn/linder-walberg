@@ -1,0 +1,42 @@
+{
+ "page": "0033",
+ "strips_done": 6,
+ "corrections": 58,
+ "misprints": [
+  {
+   "strip": "0033_03",
+   "printed": "kna",
+   "probably_meant": "kunna",
+   "note": "'sätta i skick att kna hålla stånd' — Swedish misprint, kept"
+  },
+  {
+   "strip": "0033_05",
+   "printed": "πιλόνεικος",
+   "probably_meant": "φιλόνεικος",
+   "note": "Clearly π in print (πιλόνει-κος across the line break); the list is φίλοινος, φιλόνεικος, φιλοκερδής"
+  },
+  {
+   "strip": "0033_00",
+   "printed": "b till straff",
+   "probably_meant": "b. till straff",
+   "note": "No full stop visible after the abbreviation b"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0033_02",
+   "text": "vara b., μαίνεσθαι",
+   "note": "The letter looks like 'h' because the bowl is broken; read as b."
+  },
+  {
+   "strip": "0033_00",
+   "text": "(κατ)οίκισις",
+   "note": "Only an acute shows on ι, with no breathing (it reads as the κατ- compound); kept as printed"
+  },
+  {
+   "strip": "0033_02",
+   "text": "μανείς, εῖσα έν.",
+   "note": "Endings printed with no breathing (εῖσα with circumflex, έν with acute); transcribed as printed"
+  }
+ ]
+}

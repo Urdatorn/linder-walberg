@@ -1,0 +1,42 @@
+{
+ "page": "0062",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0062_03",
+   "printed": "πομφόλυξ, γος, ἡ.",
+   "probably_meant": "πομφόλυξ, υγος, ἡ.",
+   "note": "The genitive ending is printed as 'γος' without the υ."
+  },
+  {
+   "strip": "0062_04",
+   "printed": "ἀγγελλίαν φέρειν",
+   "probably_meant": "ἀγγελίαν φέρειν",
+   "note": "The print has a double λ."
+  },
+  {
+   "strip": "0062_05",
+   "printed": "γαστήρ, στρός, ἡ.",
+   "probably_meant": "γαστήρ, τρός, ἡ.",
+   "note": "The genitive ending is printed with an extra σ. This could also be the book's own abbreviation of γαστρός."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0062_00",
+   "text": "καυτήριον, τό.",
+   "note": "The line is cut off at the right edge of the scan, so the final full stop is not visible. I added it, assuming it is there like at every other entry end. I also split off Brännmärka as its own entry."
+  },
+  {
+   "strip": "0062_05",
+   "text": "κολποῦν: 2) intr.",
+   "note": "The mark after κολποῦν is broken and partly cut at the margin. It looks like a colon, but it could be '.' or '.:'."
+  },
+  {
+   "strip": "0062_01",
+   "text": "ἀρτοφόριον(σκεῦος)",
+   "note": "Possibly there is a thin space before the parenthesis. I kept it without a space."
+  }
+ ]
+}

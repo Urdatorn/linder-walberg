@@ -1,0 +1,48 @@
+{
+ "page": "0139",
+ "strips_done": 6,
+ "corrections": 42,
+ "misprints": [
+  {
+   "strip": "0139_00",
+   "printed": "αμύνεσθαι",
+   "probably_meant": "ἀμύνεσθαι",
+   "note": "The smooth breathing is missing in the print."
+  },
+  {
+   "strip": "0139_00",
+   "printed": "απαράσκευος",
+   "probably_meant": "ἀπαράσκευος",
+   "note": "The smooth breathing is missing in the print."
+  },
+  {
+   "strip": "0139_03",
+   "printed": "Försänkuing",
+   "probably_meant": "Försänkning",
+   "note": "The headword is printed with an inverted n, which reads as u."
+  },
+  {
+   "strip": "0139_04",
+   "printed": "ἔν τινι,: göra f.",
+   "probably_meant": "ἔν τινι.: göra f.",
+   "note": "The print has a comma and then a colon."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0139_04",
+   "text": "πειρᾶσθαι",
+   "note": "The first occurrence (after 'sätta på prof') has broken type at the ρ; I read it as πειρᾶσθαι."
+  },
+  {
+   "strip": "0139_05",
+   "text": "ἀποφαίνειν",
+   "note": "The φ at the start of the line ('ἀπο-|φαίνειν') is damaged; φ is the most likely reading."
+  },
+  {
+   "strip": "0139_03",
+   "text": "ἐμβάλλειν τινὰ εἴς τι",
+   "note": "The accent on εἴς is small in both places in this strip. I read it as acute before the enclitic τι."
+  }
+ ]
+}

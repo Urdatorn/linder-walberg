@@ -1,0 +1,54 @@
+{
+ "page": "0054",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0054_00",
+   "printed": "πογήρευμα",
+   "probably_meant": "πονήρευμα",
+   "note": "γ printed for ν"
+  },
+  {
+   "strip": "0054_00",
+   "printed": "κάκιστος, ὁ..",
+   "probably_meant": "κάκιστος, ὁ.",
+   "note": "two dots at the baseline after ὁ, at the end of the line"
+  },
+  {
+   "strip": "0054_03",
+   "printed": "Boktyckare",
+   "probably_meant": "Boktryckare",
+   "note": "r is missing from the headword"
+  },
+  {
+   "strip": "0054_03",
+   "printed": "skicklig b..",
+   "probably_meant": "skicklig b.,",
+   "note": "double full stop printed"
+  },
+  {
+   "strip": "0054_04",
+   "printed": "παραφέφειν",
+   "probably_meant": "παραφέρειν",
+   "note": "φ printed for ρ"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0054_00",
+   "text": "καπηλίς, ίδος",
+   "note": "The mark over ι looks like an acute, not a breathing; I read it as ίδος"
+  },
+  {
+   "strip": "0054_03",
+   "text": "tillbaka, ἀντικόπτειν",
+   "note": "A tiny dot after the comma (\"tillbaka,.\") is probably dust; I left it out"
+  },
+  {
+   "strip": "0054_00",
+   "text": "κάκιστος, ὁ..",
+   "note": "The second dot could be a damaged colon (\".:\"); I kept two dots as printed"
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "page": "0037",
+ "strips_done": 7,
+ "corrections": 50,
+ "misprints": [
+  {
+   "strip": "0037_01",
+   "printed": "καταχαλκοῦν,:",
+   "probably_meant": "καταχαλκοῦν.:",
+   "note": "Comma followed by colon is printed where the book normally has '.:'."
+  },
+  {
+   "strip": "0037_04",
+   "printed": "οὖ νῦν δή ἐπεμνήσθην",
+   "probably_meant": "οὗ νῦν δὴ ἐπεμνήσθην",
+   "note": "The breathing on ου looks smooth, and δή is printed with an acute before another word."
+  },
+  {
+   "strip": "0037_05",
+   "printed": "anmärkninger",
+   "probably_meant": "anmärkningar",
+   "note": "Swedish misprint, kept as printed."
+  },
+  {
+   "strip": "0037_05",
+   "printed": "mot en pars.",
+   "probably_meant": "mot en pers.",
+   "note": "Swedish misprint, kept as printed."
+  },
+  {
+   "strip": "0037_06",
+   "printed": "ἠσκημμένη",
+   "probably_meant": "ἠσκημένη",
+   "note": "Printed with a double μ."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0037_00",
+   "text": "Belägen — Benhud. 33",
+   "note": "Running head. The mark under g in 'Beläg'en' is dust. The page number 33 is printed without ')', so the OCR's leading '33)' was replaced by a trailing '33'."
+  },
+  {
+   "strip": "0037_01",
+   "text": "ἐν τῷ τείχει",
+   "note": "Broken τ in τῷ that looks like ι."
+  },
+  {
+   "strip": "0037_01",
+   "text": "ὢν, οὖσα, ὄν",
+   "note": "The accent on ὢν looks like a grave, not an acute."
+  },
+  {
+   "strip": "0037_01",
+   "text": "προςκαθῆσθαι, προςεδρεύειν",
+   "note": "Both words are broken at line end as 'προς-' with final ς, so they are written with ς as printed."
+  },
+  {
+   "strip": "0037_02",
+   "text": "προςφέρειν",
+   "note": "Broken at line end as 'προς-' with final ς."
+  },
+  {
+   "strip": "0037_03",
+   "text": "εἴς τι",
+   "note": "Breathing plus acute is visible here, unlike the plain εἰς elsewhere on the page."
+  },
+  {
+   "strip": "0037_06",
+   "text": "ἐπανορθοῦσθαι",
+   "note": "The ink of the second and third letters is very faint. The scan most likely reads ἐπαν-, while the OCR had ἐπιν-."
+  },
+  {
+   "strip": "0037_06",
+   "text": "Benhud, περιόστεον, τό.",
+   "note": "The signature mark '5' at the foot of the column was left out."
+  }
+ ]
+}

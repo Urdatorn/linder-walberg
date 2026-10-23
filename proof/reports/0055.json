@@ -1,0 +1,50 @@
+{
+ "page": "0055",
+ "strips_done": 6,
+ "corrections": 42,
+ "misprints": [
+  {
+   "strip": "0055_00",
+   "printed": "δειποῦντα",
+   "probably_meant": "δειπνοῦντα",
+   "note": "ν missing in print (δειποῦν-τα)"
+  },
+  {
+   "strip": "0055_00",
+   "printed": "παρὰ δείπνον",
+   "probably_meant": "παρὰ δεῖπνον",
+   "note": "acute printed instead of circumflex"
+  },
+  {
+   "strip": "0055_02",
+   "printed": "(vaul. pl.)",
+   "probably_meant": "(vanl. pl.)",
+   "note": "turned n"
+  },
+  {
+   "strip": "0055_02",
+   "printed": "ἀδοδίδοσθαι",
+   "probably_meant": "ἀποδίδοσθαι",
+   "note": "δ for π"
+  },
+  {
+   "strip": "0055_03",
+   "printed": "ἐγγυασθαί",
+   "probably_meant": "ἐγγυᾶσθαί",
+   "note": "no circumflex printed on α (line-end ἐγγυα-σθαί)"
+  },
+  {
+   "strip": "0055_05",
+   "printed": "παδιᾷ",
+   "probably_meant": "παιδιᾷ",
+   "note": "ι missing after α"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0055_00",
+   "text": "παρὰ δείπνον",
+   "note": "accent at line end looks acute; small type"
+  }
+ ]
+}

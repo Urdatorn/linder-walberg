@@ -1,0 +1,49 @@
+{
+ "page": "0128",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0128_00",
+   "printed": "πρύγονοι",
+   "probably_meant": "πρόγονοι",
+   "note": "Förfäder: the third letter is clearly υ with an acute accent, checked on the full-resolution TIFF."
+  },
+  {
+   "strip": "0128_02",
+   "printed": "ἐπαγαγὸν γελᾶν",
+   "probably_meant": "ἐπαγωγὸν γελᾶν",
+   "note": "Förförisk: the print has α where ω should be."
+  },
+  {
+   "strip": "0128_02",
+   "printed": "ληφθῆναι τινος",
+   "probably_meant": "ληφθῆναί τινος",
+   "note": "Förgapa sig: the enclitic accent on -αι is missing in the print."
+  },
+  {
+   "strip": "0128_03",
+   "printed": "βίαιος, 3 o. 2,",
+   "probably_meant": "βίαιος, 3 o. 2.",
+   "note": "Förgriplig: the entry ends with a comma instead of a full stop."
+  },
+  {
+   "strip": "0128_05",
+   "printed": "ἀξιόμίσητος",
+   "probably_meant": "ἀξιομίσητος",
+   "note": "Förhatlig: the word is printed with two acutes (ἀξιό-μίσητος, split across a line break)."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0128_03",
+   "text": "~ χειρεῖν",
+   "note": "The strip image cuts off the first letter of column 2's first line. 'χειρεῖν' (completing ἐπι-χειρεῖν from strip 02) was read from the page TIFF; the old OCR had 'ἱερεῖν'."
+  },
+  {
+   "strip": "0128_02",
+   "text": "gm vv.",
+   "note": "Printed in italic Latin, which looks like υυ. Transcribed as the abbreviation 'vv.'."
+  }
+ ]
+}

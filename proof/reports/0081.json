@@ -1,0 +1,30 @@
+{
+ "page": "0081",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0081_05",
+   "printed": "ὀδός",
+   "probably_meant": "οὐδός",
+   "note": "Threshold; the print clearly shows ὀδός (it could be read as the epic/Ionic form). Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0081_00",
+   "text": "χοαί, ῶν, αἱ",
+   "note": "The genitive ending shows a circumflex with a small blob. Read as ῶν with no breathing; the older OCR had ὧν."
+  },
+  {
+   "strip": "0081_02",
+   "text": "vanl. m. υυ",
+   "note": "Printed as two italic upsilons (also 'vanl. gm υυ' in 0081_03). Probably a book-internal sign meaning a verb paraphrase. Kept as printed."
+  },
+  {
+   "strip": "0081_02",
+   "text": "2) oeg., κατάπαυσις",
+   "note": "The mark after oeg. looks like a full stop followed by a comma. Transcribed as 'oeg.,'."
+  }
+ ]
+}

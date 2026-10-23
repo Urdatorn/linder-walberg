@@ -1,0 +1,72 @@
+{
+ "page": "0165",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0165_01",
+   "printed": "κροτεῖν τῆ σφύρᾳ",
+   "probably_meant": "κροτεῖν τῇ σφύρᾳ",
+   "note": "No iota subscript under the article, though σφύρᾳ has one"
+  },
+  {
+   "strip": "0165_01",
+   "printed": "λιμήν, ένος",
+   "probably_meant": "λιμήν, ένος (ok) – no breathing on genitive ending",
+   "note": "Kept as printed; noted only to explain why there is no breathing"
+  },
+  {
+   "strip": "0165_02",
+   "printed": "räcka hrandra händerna",
+   "probably_meant": "hvarandra",
+   "note": "Swedish misprint, kept"
+  },
+  {
+   "strip": "0165_02",
+   "printed": "välkomnande",
+   "probably_meant": "välkommande / välkomnande",
+   "note": "Printed as välkomnande; the OCR's välkommande was wrong"
+  },
+  {
+   "strip": "0165_03",
+   "printed": "σανεπιλαμβάνεσθαι",
+   "probably_meant": "συνεπιλαμβάνεσθαι",
+   "note": "Printer's error, kept"
+  },
+  {
+   "strip": "0165_04",
+   "printed": "χειρουγία",
+   "probably_meant": "χειρουργία",
+   "note": "Missing ρ in the print"
+  },
+  {
+   "strip": "0165_04",
+   "printed": "χειρώναξ",
+   "probably_meant": "χειρῶναξ",
+   "note": "Printed with an acute"
+  },
+  {
+   "strip": "0165_04",
+   "printed": "χειροπέδη, η.",
+   "probably_meant": "χειροπέδη, ἡ.",
+   "note": "The article has no rough breathing in the print"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0165_02",
+   "text": "προϊέσθαί τινα",
+   "note": "There is a diaeresis on the ι, and a mark over the ε that could be an accent or a breathing. The expected form is προΐεσθαι."
+  },
+  {
+   "strip": "0165_04",
+   "text": "ἰδίᾳ. ἰδία γνώμη.",
+   "note": "The first ἰδίᾳ clearly has an iota subscript. I could not see one under the second ἰδία or under γνώμη (faint ink?), so they are written without."
+  },
+  {
+   "strip": "0165_01",
+   "text": "ἀλίμενος",
+   "note": "I read the breathing as smooth; the OCR had a rough one"
+  }
+ ]
+}

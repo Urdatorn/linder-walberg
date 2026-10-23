@@ -1,0 +1,53 @@
+{
+ "page": "0050",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0050_00",
+   "printed": "λευκόφλεγματία",
+   "probably_meant": "λευκοφλεγματία",
+   "note": "Stray acute on the second omicron of the headword's Greek equivalent, beside the regular accent on -τία."
+  },
+  {
+   "strip": "0050_05",
+   "printed": "μέλλων, ουσα, ον",
+   "probably_meant": "μέλλων, ουσα, ον (ending -ουσα written without an accent)",
+   "note": "The termination ουσα carries no accent here, while ἐπιών, οῦσα, όν on the same line does."
+  },
+  {
+   "strip": "0050_05",
+   "printed": "τιτυφλῶσθαι",
+   "probably_meant": "τετυφλῶσθαι",
+   "note": "Perfect passive of τυφλοῦν. The print seems to read τι-, not τε-."
+  },
+  {
+   "strip": "0050_01",
+   "printed": "ὄψις",
+   "probably_meant": "ὄψις",
+   "note": "A piece of broken or stray type sits after the ς. It is not transcribed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0050_05",
+   "text": "τιτυφλῶσθαι",
+   "note": "The first letter is either τ or π (the old OCR had πιτυφλῶσθαι). On close inspection it looks more like τ."
+  },
+  {
+   "strip": "0050_05",
+   "text": "ἔξω αὑτοῦ",
+   "note": "The breathing on υ is small. I read it as rough (αὑτοῦ), not smooth."
+  },
+  {
+   "strip": "0050_04",
+   "text": "ἐ-",
+   "note": "A word is split across strips (ἐ-ξίστασθαι). I read the breathing on ἐ as smooth, as in ἐξίστασθαι."
+  },
+  {
+   "strip": "0050_01",
+   "text": "πρᾷος, εῖα, ον",
+   "note": "The circumflex on εῖα is faint in the scan."
+  }
+ ]
+}

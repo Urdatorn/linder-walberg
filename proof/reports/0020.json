@@ -1,0 +1,43 @@
+{
+ "page": "0020",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0020_03",
+   "printed": "ἐπ ἀγκυρῶν",
+   "probably_meant": "ἐπ' ἀγκυρῶν",
+   "note": "First occurrence, line 1: there is no apostrophe after ἐπ, but the same phrase on the next line has one."
+  },
+  {
+   "strip": "0020_03",
+   "printed": "σαλεύειν l ἀποσαλεύειν",
+   "probably_meant": "σαλεύειν l. ἀποσαλεύειν",
+   "note": "The 'l' at the end of the line has no stop; it may have dropped out at the margin."
+  },
+  {
+   "strip": "0020_05",
+   "printed": "ἀκραβόλιον",
+   "probably_meant": "ἀκροβόλιον (cf. Ankarplats on the same page), or perhaps ἀγκυροβόλιον",
+   "note": "Ankring: printed with α in the middle, where Ankarplats in the same column has ἀκροβόλιον."
+  },
+  {
+   "strip": "0020_01",
+   "printed": "(ankommande)",
+   "probably_meant": "(angående)?",
+   "note": "Gloss after 'angående ... m. gen.'; it is clearly printed 'ankommande' and kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0020_02",
+   "text": "μεῖν τινος.",
+   "note": "The circumflex of μεῖν sits at the bottom edge of strip 0020_01's image, not in this strip; the reading μεῖν (ἐπιθυμεῖν) is reconstructed."
+  },
+  {
+   "strip": "0020_02",
+   "text": "ἐλπίς, ιδος",
+   "note": "In the low-resolution view ιδος appeared to have an accent; at higher zoom it shows none, so it is written as plain ιδος."
+  }
+ ]
+}

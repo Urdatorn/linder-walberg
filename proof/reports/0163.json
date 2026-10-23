@@ -1,0 +1,37 @@
+{
+ "page": "0163",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0163_02",
+   "printed": "ἐπῇσαν",
+   "probably_meant": "ἐπῆσαν",
+   "note": "An iota subscript is clearly printed under the η in 'τύρσεις ἐπῇσαν'."
+  },
+  {
+   "strip": "0163_05",
+   "printed": "ἀρκιστρωτός",
+   "probably_meant": "ἀγκιστρωτός",
+   "note": "The scan clearly shows ρ for γ in the Hake entry ('försedd m. h.')."
+  },
+  {
+   "strip": "0163_05",
+   "printed": "ὄνυξ, χος, ὁ.",
+   "probably_meant": "ὄνυξ, υχος, ὁ.",
+   "note": "The genitive ending is printed as just 'χος'. This may be a deliberate abbreviation, so it was kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0163_00",
+   "text": "πλεῖν τὴν θάλατταν",
+   "note": "The first τ of θάλατταν has no crossbar on the scan, so it looks like ι ('θάλαιταν'). I read it as broken type and wrote θάλατταν. It could also be a wrong letter set by the printer."
+  },
+  {
+   "strip": "0163_03",
+   "text": "παράκειταί τί τινι",
+   "note": "The accent on τί is small and could be grave rather than acute. I wrote it as acute, matching 'ἔστι τί τινι' earlier in the same strip."
+  }
+ ]
+}

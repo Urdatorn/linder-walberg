@@ -1,0 +1,76 @@
+{
+ "page": "0127",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0127_02",
+   "printed": "δικαιοσυνη, ἡ.",
+   "probably_meant": "δικαιοσύνη, ἡ.",
+   "note": "Printed with no accent, in a heavier face."
+  },
+  {
+   "strip": "0127_05",
+   "printed": "ἀποσήπεσθαι ὑπὸ φύχους",
+   "probably_meant": "ὑπὸ ψύχους",
+   "note": "φ for ψ."
+  },
+  {
+   "strip": "0127_05",
+   "printed": "hos ngu om ngt",
+   "probably_meant": "hos ngn",
+   "note": "Probably an inverted n."
+  },
+  {
+   "strip": "0127_05",
+   "printed": "ἀνερέσθαι τινὰ περι τινος",
+   "probably_meant": "περὶ τινος",
+   "note": "No accent on περι at the line end."
+  },
+  {
+   "strip": "0127_05",
+   "printed": "ἐρωτημα τό.",
+   "probably_meant": "ἐρώτημα",
+   "note": "Accent missing."
+  },
+  {
+   "strip": "0127_05",
+   "printed": "-ψυξις",
+   "probably_meant": "-ψύξις",
+   "note": "Accent missing."
+  },
+  {
+   "strip": "0127_05",
+   "printed": "o. gm υυ.",
+   "probably_meant": "o. gm vv.",
+   "note": "The italic looks like Greek υυ; it probably stands for 'vv.' (verben)."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0127_00",
+   "text": "ἀνα-, ἀπο-, ἐπιδεικνύναι",
+   "note": "There is a gap after ἀνα and the hyphen is faint or missing. I wrote ἀνα- to match the parallel ἀνά- in Förevisning."
+  },
+  {
+   "strip": "0127_03",
+   "text": "κατασκευή, ἡ.",
+   "note": "The breathing on ἡ is worn and looks like a grave tick. I read it as a rough breathing."
+  },
+  {
+   "strip": "0127_03",
+   "text": "ἡμέρωσις, ἡ (bl. ss.",
+   "note": "Same here: the breathing on ἡ is worn and looks grave-like. I read it as a rough breathing."
+  },
+  {
+   "strip": "0127_05",
+   "text": "o. gm υυ.",
+   "note": "I could not tell whether the type is Greek υυ or italic Latin vv. I copied it as Greek υυ."
+  },
+  {
+   "strip": "0127_05",
+   "text": "på mga förfröso",
+   "note": "Printed 'mga', probably an abbreviation for många. I kept it as printed."
+  }
+ ]
+}
