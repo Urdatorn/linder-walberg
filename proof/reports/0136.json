@@ -1,0 +1,23 @@
+{
+ "page": "0136",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [],
+ "uncertain": [
+  {
+   "strip": "0136_05",
+   "text": "νοσφισμός, ὁ.",
+   "note": "The accent and breathing fall on the band boundary. Faint marks at the foot of band 0 look like an acute and a rough breathing, so I wrote νοσφισμός, ὁ."
+  },
+  {
+   "strip": "0136_00",
+   "text": "ἀρραβών, ῶνος",
+   "note": "The genitive ending shows a circumflex with no breathing that I could see. I wrote ῶνος."
+  },
+  {
+   "strip": "0136_00",
+   "text": "f. öfr. vv.",
+   "note": "The italic v's look like Greek υυ. I read them as the Swedish abbreviation vv."
+  }
+ ]
+}

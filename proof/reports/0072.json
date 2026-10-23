@@ -1,0 +1,28 @@
+{
+ "page": "0072",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [],
+ "uncertain": [
+  {
+   "strip": "0072_00",
+   "text": "ὄν",
+   "note": "Neuter in 'παρών, οὖσα, ὄν'. The breathing over omicron is small, and it could be read as an acute alone."
+  },
+  {
+   "strip": "0072_01",
+   "text": "ίδος",
+   "note": "In 'τυραννίς, ίδος' (twice), the mark over iota reads as an acute but might be a smooth breathing."
+  },
+  {
+   "strip": "0072_04",
+   "text": "o. vv.",
+   "note": "Printed in italics, so it looks like 'υυ'. Read as the abbreviation 'vv.'"
+  },
+  {
+   "strip": "0072_05",
+   "text": "σός, ή, όν. σεαυτοῦ, ῆς",
+   "note": "The endings are printed without breathings, and the transcription follows the print."
+  }
+ ]
+}

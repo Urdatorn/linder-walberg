@@ -1,0 +1,37 @@
+{
+ "page": "0025",
+ "strips_done": 6,
+ "corrections": 33,
+ "misprints": [
+  {
+   "strip": "0025_02",
+   "printed": "παραδίδοσθαι τοῖς αεὶ ἐπιγιγνομένοις",
+   "probably_meant": "τοῖς ἀεὶ",
+   "note": "No smooth breathing on αεὶ in the print; kept as printed."
+  },
+  {
+   "strip": "0025_04",
+   "printed": "κακία. ἡ.",
+   "probably_meant": "κακία, ἡ.",
+   "note": "A full stop where a comma would be expected before the article; kept."
+  },
+  {
+   "strip": "0025_04",
+   "printed": "ἀριστοκρατία ἡ.",
+   "probably_meant": "ἀριστοκρατία, ἡ.",
+   "note": "No comma before the article; kept."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0025_02",
+   "text": "παρειλημμένη. / ... κλήρου, ἡ.",
+   "note": "The accent of κλήρου and the breathing of ἡ fall on the cut between the two images (the marks show at the bottom of image 0). Read as κλήρου, ἡ."
+  },
+  {
+   "strip": "0025_05",
+   "text": "(= hjelpa)",
+   "note": "The print may have no space between = and hjelpa. Kept the OCR spacing."
+  }
+ ]
+}

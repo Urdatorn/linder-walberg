@@ -1,0 +1,52 @@
+{
+ "page": "0160",
+ "strips_done": 6,
+ "corrections": 62,
+ "misprints": [
+  {
+   "strip": "0160_00",
+   "printed": "εἰσκοσάκις",
+   "probably_meant": "εἰκοσάκις",
+   "note": "An extra σ is clearly printed."
+  },
+  {
+   "strip": "0160_00",
+   "printed": "ὅσακις",
+   "probably_meant": "ὁσάκις",
+   "note": "The acute is printed on the omicron beside the breathing, and the alpha has no accent."
+  },
+  {
+   "strip": "0160_02",
+   "printed": "χηνίον, τύ.:",
+   "probably_meant": "χηνίον, τό.:",
+   "note": "The article is printed with an upsilon."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0160_05",
+   "text": "ἀνὴρ εἶναι χρηστός",
+   "note": "A stray accent- or apostrophe-like mark follows εἶναι, probably broken type or dust. I left it out. The older OCR had read it as '·'."
+  },
+  {
+   "strip": "0160_04",
+   "text": "(ἐξ)-απάτη",
+   "note": "απάτη has no visible breathing after the line-end hyphen of the prefix '(ἐξ)-'. I copied it as printed, without a breathing."
+  },
+  {
+   "strip": "0160_04",
+   "text": "προσίεσθαί τι",
+   "note": "There is a small mark over the iota that could be a breathing plus an acute or only an acute. I read it as an acute."
+  },
+  {
+   "strip": "0160_00",
+   "text": "βασιλεύων.: hrje g. som",
+   "note": "There is a dust smudge after the colon. The older OCR read it as a stray 'σ', which I left out."
+  },
+  {
+   "strip": "0160_00",
+   "text": "tal-adv.",
+   "note": "Printed 'tal-' and 'adv.' with spaces around the hyphen, as in 'tids- adv.' in 0160_01. I wrote both as 'tal-adv.' and 'tids-adv.'."
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "page": "0099",
+ "strips_done": 6,
+ "corrections": 60,
+ "misprints": [
+  {
+   "strip": "0099_04",
+   "printed": "ραπεμπειν",
+   "probably_meant": "παραπέμπειν",
+   "note": "The word continues from the previous column as πα-|ραπεμπειν and is printed with no accent."
+  },
+  {
+   "strip": "0099_00",
+   "printed": "ἔνος",
+   "probably_meant": "ἕνος",
+   "note": "The breathing looks smooth in the scan. The word 'last year's' has a rough breathing."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0099_00",
+   "text": "ἔνος",
+   "note": "The breathing is small and could be rough; I transcribed it as smooth."
+  },
+  {
+   "strip": "0099_01",
+   "text": "Fjäderkudde,",
+   "note": "After the headword there is only a square dot at the baseline, probably a broken comma. I transcribed it as a comma."
+  },
+  {
+   "strip": "0099_03",
+   "text": "ἀβέβαιος",
+   "note": "The first β is damaged and looks odd. I read it as ἀβέβαιος, not ἀμέβαιος."
+  },
+  {
+   "strip": "0099_04",
+   "text": "(ἐξ)ελέγχειν",
+   "note": "Between ξ and ε there is only a small mark. I read it as a broken closing parenthesis, so ε has no breathing. It could instead be (ἐξ ἐλέγχειν, with a breathing and the parenthesis missing."
+  },
+  {
+   "strip": "0099_04",
+   "text": "κατηφής / κατήφεια",
+   "note": "The φ is damaged in both words, but the reading is clear from context."
+  }
+ ]
+}

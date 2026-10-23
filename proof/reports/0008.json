@@ -1,0 +1,53 @@
+{
+ "page": "0008",
+ "strips_done": 6,
+ "corrections": 42,
+ "misprints": [
+  {
+   "strip": "0008_01",
+   "printed": "χρημτίζεσθαι",
+   "probably_meant": "χρηματίζεσθαι",
+   "note": "alpha omitted in print (Affär, 'göra affärer på ngt')"
+  },
+  {
+   "strip": "0008_01",
+   "printed": "ἐργάζεσθαί τινι,:",
+   "probably_meant": "ἐργάζεσθαί τινι.:",
+   "note": "comma before colon as printed"
+  },
+  {
+   "strip": "0008_04",
+   "printed": "τοῦ βίον",
+   "probably_meant": "τοῦ βίου",
+   "note": "Afgång: final letter looks like ν, not υ, at enlarged view"
+  },
+  {
+   "strip": "0008_05",
+   "printed": "(παρ)έχων, ουσα, ον.",
+   "probably_meant": "(παρ)έχων, ουσα, ον (accent-less termination); compare οὖσα, οὖν just before",
+   "note": "termination printed without breathing/accent, kept as printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0008_02",
+   "text": "φόρον τελεῖν",
+   "note": "first letter is broken type (looks like γ with a gap); φόρον is the only sensible reading"
+  },
+  {
+   "strip": "0008_00",
+   "text": "b) se Tillgifvenhet",
+   "note": "faint speck after b) looks like dust, not a stop (consistent with the reference note)"
+  },
+  {
+   "strip": "0008_04",
+   "text": "(N.T.).: -dyrkare",
+   "note": "first N.T. appears printed without a space, the others as 'N. T.'; spacing difference is marginal"
+  },
+  {
+   "strip": "0008_03",
+   "text": "Afgrund",
+   "note": "the r of the headword is broken in print"
+  }
+ ]
+}

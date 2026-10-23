@@ -1,0 +1,59 @@
+{
+ "page": "0125",
+ "strips_done": 6,
+ "corrections": 44,
+ "misprints": [
+  {
+   "strip": "0125_01",
+   "printed": "ransakuing",
+   "probably_meant": "ransakning",
+   "note": "Turned n in the print ('efter föregången ransakuing')."
+  },
+  {
+   "strip": "0125_01",
+   "printed": "προϋπάρχων, ουσα, ον",
+   "probably_meant": "προϋπάρχων, οῦσα, ον",
+   "note": "The ending is printed without breathing or accent; the next form has 'οὖσα'."
+  },
+  {
+   "strip": "0125_04",
+   "printed": "(smnblanda)",
+   "probably_meant": "(sammanblanda)",
+   "note": "Printed this way after (συμ)μιγνύναι."
+  },
+  {
+   "strip": "0125_04",
+   "printed": "συνάγειν (εἰς ταυτόν)",
+   "probably_meant": "εἰς ταὐτόν",
+   "note": "Printed without the coronis, which the later 'εἰς ταὐτόν' in the same entry has."
+  },
+  {
+   "strip": "0125_04",
+   "printed": "ἔρως, ωτος, ὁ",
+   "probably_meant": "ἔρως, ωτος (genitive ending)",
+   "note": "The ending is printed bare. Kept as printed. Probably not an error."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0125_05",
+   "text": "(δι)ορίζειν",
+   "note": "Printed '(δι)-' at the line end, then 'ορίζειν', with a stray accent or breathing mark below the ο. Written without a breathing."
+  },
+  {
+   "strip": "0125_05",
+   "text": "γραφειν.",
+   "note": "No accent is visible over the α in the print (the line starts the second band). It could be a broken or missing accent, so it is written unaccented as printed."
+  },
+  {
+   "strip": "0125_00",
+   "text": "Jfr Förevända",
+   "note": "The f of 'Jfr' is badly formed and reads almost like 'Jir'. Kept as Jfr."
+  },
+  {
+   "strip": "0125_00",
+   "text": "Efterdöme",
+   "note": "The ö in 'Efterdöme' is a broken or blotted glyph. Read as ö."
+  }
+ ]
+}

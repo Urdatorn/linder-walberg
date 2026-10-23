@@ -1,0 +1,48 @@
+{
+ "page": "0109",
+ "strips_done": 6,
+ "corrections": 64,
+ "misprints": [
+  {
+   "strip": "0109_03",
+   "printed": "μάχη ἡ ὑπερ τῆς ἐλευθερίας",
+   "probably_meant": "ὑπὲρ",
+   "note": "No grave accent on ὑπερ; only the rough breathing is printed"
+  },
+  {
+   "strip": "0109_03",
+   "printed": "ελευθεριότης",
+   "probably_meant": "ἐλευθεριότης",
+   "note": "No smooth breathing on the initial ε (checked at 5x zoom)"
+  },
+  {
+   "strip": "0109_04",
+   "printed": "παλλακις",
+   "probably_meant": "παλλακίς",
+   "note": "No accent visible on παλλακις in the parenthesis under Frilla"
+  },
+  {
+   "strip": "0109_05",
+   "printed": "ὑγιείᾳ χρῆθαι",
+   "probably_meant": "χρῆσθαι",
+   "note": "The σ is missing from χρῆσθαι"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0109_00",
+   "text": "icke hafva ngn f.",
+   "note": "The print looks like 'haïva': the f seems broken, leaving a stroke with two dots. Transcribed as hafva on the assumption that the type is damaged"
+  },
+  {
+   "strip": "0109_04",
+   "text": "(παλλακις, ίδος, πάλλαξ",
+   "note": "The mark over the ι of ίδος is small and could be a smooth breathing (ἰδος). Read as acute, as in ίδος on 0109_00"
+  },
+  {
+   "strip": "0109_04",
+   "text": "παρρησιαστής, οῦ, ὁ.:",
+   "note": "The breathing on the article ὁ is faint and partly clipped. Read as rough breathing"
+  }
+ ]
+}

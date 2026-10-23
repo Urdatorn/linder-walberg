@@ -1,0 +1,43 @@
+{
+ "page": "0172",
+ "strips_done": 6,
+ "corrections": 28,
+ "misprints": [
+  {
+   "strip": "0172_01",
+   "printed": "smnsättniug",
+   "probably_meant": "smnsättning",
+   "note": "turned n printed as u in 'smnsättning'"
+  },
+  {
+   "strip": "0172_03",
+   "printed": "Helpmedel",
+   "probably_meant": "Hjelpmedel",
+   "note": "headword missing j; sits alphabetically among the Hjelp- entries"
+  },
+  {
+   "strip": "0172_04",
+   "printed": "ἀριστεύς, έως",
+   "probably_meant": "ἀριστεύς, έως (genitive ending, no breathing)",
+   "note": "genitive ending printed with acute only and no breathing, the book's usual style for endings; kept as printed"
+  },
+  {
+   "strip": "0172_05",
+   "printed": "μῆνιγξ, ιγγος",
+   "probably_meant": "μῆνιγξ, ιγγος",
+   "note": "genitive ending printed without accent; kept as printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0172_01",
+   "text": "οὐδὲν προὔργου ποιεῖ τι",
+   "note": "The mark over υ looks like smooth breathing plus acute (ὔ). The OCR had ῦ."
+  },
+  {
+   "strip": "0172_01",
+   "text": "så sant Gud mig hjelpe",
+   "note": "The m in 'mig' is broken and looks a little like 'nig'. Read as 'mig'."
+  }
+ ]
+}

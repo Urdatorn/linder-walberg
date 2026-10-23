@@ -1,0 +1,41 @@
+{
+ "page": "0104",
+ "strips_done": 6,
+ "corrections": 33,
+ "misprints": [
+  {
+   "strip": "0104_01",
+   "printed": "παραδεδέγμεθαι",
+   "probably_meant": "παραδεδέγμεθα",
+   "note": "The scan clearly reads -μεθαι. It is the perfect 1st plural of παραδέχεσθαι, so the final ι is the printer's error."
+  },
+  {
+   "strip": "0104_05",
+   "printed": "σφυρόν τό.",
+   "probably_meant": "σφυρόν, τό.",
+   "note": "There is no comma before the article, unlike every other entry."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0104_00",
+   "text": "gm vv.",
+   "note": "The abbreviation is set in a face that looks like italic Greek υυ. I transcribed it as Swedish 'vv.' (verb), as the book's abbreviations require. The same applies to 'nämnda vv.' in 0104_01 and 'gm vv.' in 0104_02."
+  },
+  {
+   "strip": "0104_03",
+   "text": "ἡ πατρὶς γῆ. 2) se",
+   "note": "After γῆ there is only a faint, broken dot. I read it as a full stop."
+  },
+  {
+   "strip": "0104_05",
+   "text": "ποδονιπτήρ, ῆρος, ὁ.",
+   "note": "The mark after ῆρος is small and broken. It looks more like a comma than a full stop."
+  },
+  {
+   "strip": "0104_02",
+   "text": "ἐχόμενος",
+   "note": "The breathing is small. It looks smooth, unlike the rough breathing on ἑξῆς beside it."
+  }
+ ]
+}

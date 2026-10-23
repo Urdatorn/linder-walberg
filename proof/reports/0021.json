@@ -1,0 +1,64 @@
+{
+ "page": "0021",
+ "strips_done": 6,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0021_01",
+   "printed": "ὁμίχλη καλύπτεσθαι",
+   "probably_meant": "ὁμίχλῃ καλύπτεσθαι",
+   "note": "Dative without iota subscript in print (δρόμῳ on the same line has it)."
+  },
+  {
+   "strip": "0021_01",
+   "printed": "ἀξιοῦν λογου τυχεῖν",
+   "probably_meant": "ἀξιοῦν λόγου τυχεῖν",
+   "note": "λογου printed without accent (hyphenated λο-γου)."
+  },
+  {
+   "strip": "0021_02",
+   "printed": "ἀγγελία, ἀπ-, ἐις-, ἐπαγγελία",
+   "probably_meant": "εἰς-",
+   "note": "Breathing printed on epsilon instead of iota."
+  },
+  {
+   "strip": "0021_02",
+   "printed": "ρῆμα τό",
+   "probably_meant": "ῥῆμα, τό",
+   "note": "No rough breathing visible on rho; also no comma before τό."
+  },
+  {
+   "strip": "0021_05",
+   "printed": "efter d a.",
+   "probably_meant": "efter d. a.",
+   "note": "Full stop after d missing in print."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0021_01",
+   "text": "ὁμίχλη",
+   "note": "An iota subscript may be missing because of faint ink rather than a misprint. None is visible."
+  },
+  {
+   "strip": "0021_02",
+   "text": "ρῆμα",
+   "note": "The rho breathing may be faint or broken rather than missing."
+  },
+  {
+   "strip": "0021_03",
+   "text": "ἀναγραφαί, αἱ.",
+   "note": "The mark over ι reads as rough breathing alone. It could also be rough breathing with an acute (αἵ)."
+  },
+  {
+   "strip": "0021_05",
+   "text": "hvad annat än?",
+   "note": "The question mark has a damaged or odd extra mark before it in the print."
+  },
+  {
+   "strip": "0021_05",
+   "text": "utom dta, i, för öfrigt",
+   "note": "The lone 'i,' is copied as printed. It may be a printing slip."
+  }
+ ]
+}

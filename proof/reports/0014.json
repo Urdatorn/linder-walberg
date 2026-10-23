@@ -1,0 +1,37 @@
+{
+ "page": "0014",
+ "strips_done": 6,
+ "corrections": 73,
+ "misprints": [
+  {
+   "strip": "0014_00",
+   "printed": "γραφῆ ἀπεικάζειν",
+   "probably_meant": "γραφῇ ἀπεικάζειν",
+   "note": "No iota subscript is visible under the dative γραφῆ."
+  },
+  {
+   "strip": "0014_00",
+   "printed": "βαθεία ἑσπέρα",
+   "probably_meant": "βαθεῖα ἑσπέρα",
+   "note": "Printed with an acute accent instead of a circumflex."
+  },
+  {
+   "strip": "0014_05",
+   "printed": "ὑπτία χείρ. ἡ.",
+   "probably_meant": "ὑπτία χείρ, ἡ.",
+   "note": "A full stop is printed before the article where a comma is expected."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0014_03",
+   "text": "ἐπίφθονον εἶναι",
+   "note": "εἶναι is blotted in the scan (heavy ink). The reading follows the context."
+  },
+  {
+   "strip": "0014_03",
+   "text": "ἐκτακείς, εῖσα, έν",
+   "note": "The termination endings are printed without breathings (εῖσα, έν). They are copied that way."
+  }
+ ]
+}

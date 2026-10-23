@@ -1,0 +1,20 @@
+{
+ "page": "0129",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0129_02",
+   "printed": "ὅπερ καὶ σοί,: under sdne fhden",
+   "probably_meant": "ὅπερ καὶ σοί.: under sdne fhden",
+   "note": "Comma followed by colon where the book's usual separator is \".:\"; kept as printed."
+  },
+  {
+   "strip": "0129_01",
+   "printed": "εἶναί ἔν τινι",
+   "probably_meant": "εἶναι ἔν τινι",
+   "note": "Enclitic-style accent on εἶναί before ἔν, as printed; kept."
+  }
+ ],
+ "uncertain": []
+}

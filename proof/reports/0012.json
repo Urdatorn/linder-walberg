@@ -1,0 +1,71 @@
+{
+ "page": "0012",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0012_01",
+   "printed": "βδελυρός, 3 αἰσχρός, 3.",
+   "probably_meant": "βδελυρός, 3. αἰσχρός, 3.",
+   "note": "No stop after the termination number 3 at line end"
+  },
+  {
+   "strip": "0012_01",
+   "printed": "ἀποτρόπαιος. 2.",
+   "probably_meant": "ἀποτρόπαιος, 2.",
+   "note": "Stop instead of comma before the termination number"
+  },
+  {
+   "strip": "0012_00",
+   "printed": "ἐξωλέστατος. 3.",
+   "probably_meant": "ἐξωλέστατος, 3.",
+   "note": "Stop instead of comma before the termination number (could be a broken comma)"
+  },
+  {
+   "strip": "0012_01",
+   "printed": "(en del fr det hela)",
+   "probably_meant": "(en del fr. det hela)",
+   "note": "Abbreviation stop missing at line end"
+  },
+  {
+   "strip": "0012_03",
+   "printed": "ἀπαράσσειν ἀποτέμνειν",
+   "probably_meant": "ἀπαράσσειν. ἀποτέμνειν",
+   "note": "No separating stop between the verbs"
+  },
+  {
+   "strip": "0012_05",
+   "printed": "Jfr Ned-, Bortspringa 2) se Brista.",
+   "probably_meant": "Jfr Ned-, Bortspringa. 2) se Brista.",
+   "note": "No stop before sense number 2)"
+  },
+  {
+   "strip": "0012_01",
+   "printed": "Afsky, ἀποστροφή, ἡ. βδελυγμία, ἡ. b) afskydt föremål",
+   "probably_meant": "a) ... b) afskydt föremål",
+   "note": "b) with no preceding a); kept as printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0012_03",
+   "text": "2) slita itu. διασπᾶν.",
+   "note": "A detached dot sits below the line after 'itu'; read as a displaced full stop, but it could be dust or a broken comma"
+  },
+  {
+   "strip": "0012_05",
+   "text": "ὡς l. οἷον",
+   "note": "Breathing and accent on ὡς are blurred; rough breathing visible, the accent mark is unclear"
+  },
+  {
+   "strip": "0012_02",
+   "text": "περιλείχειν",
+   "note": "The ε is broken and looks like σ in the scan"
+  },
+  {
+   "strip": "0012_02",
+   "text": "ngn en förhoppning",
+   "note": "'en' looks like 'eu' because the type is broken"
+  }
+ ]
+}

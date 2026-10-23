@@ -1,0 +1,65 @@
+{
+ "page": "0092",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0092_02",
+   "printed": "liten f,,",
+   "probably_meant": "liten f.,",
+   "note": "Printed with two commas after the abbreviation f"
+  },
+  {
+   "strip": "0092_03",
+   "printed": "i hrje f.",
+   "probably_meant": "i hvarje f.",
+   "note": "Abbreviation or dropped letters in hvarje; kept as printed"
+  },
+  {
+   "strip": "0092_04",
+   "printed": "betydenhet o, d,,",
+   "probably_meant": "betydenhet o. d.,",
+   "note": "Commas printed in place of the full stops of o. d."
+  },
+  {
+   "strip": "0092_00",
+   "printed": "γονεύς, έως",
+   "probably_meant": "γονεύς, έως (termination; no breathing needed)",
+   "note": "Termination printed with acute only. The OCR's ἑως was wrong."
+  },
+  {
+   "strip": "0092_00",
+   "printed": "πατρώζειν",
+   "probably_meant": "πατρῴζειν",
+   "note": "No iota subscript in the print"
+  },
+  {
+   "strip": "0092_01",
+   "printed": "προνοεῖν τινος ὥσπερ πατέρα",
+   "probably_meant": "ὥσπερ πατήρ",
+   "note": "Case as printed; kept"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0092_04",
+   "text": "= sjunka, ὑπο-",
+   "note": "There is a stray raised dot between sjunka and the comma, probably dust or a broken full stop. I transcribed it as a comma."
+  },
+  {
+   "strip": "0092_04",
+   "text": "ἐλαττοῦσθαι, μειοῦσθαι",
+   "note": "There is a small stray stroke above or after the final ι of ἐλαττοῦσθαι, which may be a broken accent or an apostrophe. I left it out."
+  },
+  {
+   "strip": "0092_05",
+   "text": "ἐπιμιμνήσκομαί τινος : det",
+   "note": "Printed with a space and a bare colon before det. I kept the space as printed."
+  },
+  {
+   "strip": "0092_00",
+   "text": "δᾳδουργεῖν / δᾳδουχεῖν / δᾳδοφορεῖν",
+   "note": "The δ/θ confusion is fixed. The iota subscripts under α are small but appear to be present."
+  }
+ ]
+}

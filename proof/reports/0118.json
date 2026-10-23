@@ -1,0 +1,52 @@
+{
+ "page": "0118",
+ "strips_done": 6,
+ "corrections": 62,
+ "misprints": [
+  {
+   "strip": "0118_01",
+   "printed": "νεβρός",
+   "probably_meant": "νεαρός",
+   "note": "Färsk, νεβρός, 3. — clearly printed with β; νεβρός means 'fawn'."
+  },
+  {
+   "strip": "0118_03",
+   "printed": "fältberre",
+   "probably_meant": "fältherre",
+   "note": "'han är f. fältberre' — b clearly printed instead of h; kept as printed (cleaner had changed it to fältherre)."
+  },
+  {
+   "strip": "0118_05",
+   "printed": "ὀλίγωρεῖν",
+   "probably_meant": "ὀλιγωρεῖν",
+   "note": "Line-end 'ὀλί-' appears to carry an acute on the iota besides the circumflex on -εῖν."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0118_00",
+   "text": "μιαίνειν l. μολύνειν ... se d. oo.",
+   "note": "The scan is cut off at the right margin. I supplied the final period of 'l.' and 'oo.' from the book's usual abbreviations ('se d. oo.' occurs 24 times elsewhere)."
+  },
+  {
+   "strip": "0118_01",
+   "text": "ἁλῶναι",
+   "note": "The breathing on the alpha is small. It looks rough, which is also the correct form, but it could be smooth."
+  },
+  {
+   "strip": "0118_02",
+   "text": "φρούριον",
+   "note": "The φ is broken type with its upper loop missing, which is why the old OCR read γρούριον. φ is the certain reading."
+  },
+  {
+   "strip": "0118_02",
+   "text": "κρηπίς, ῖδος",
+   "note": "The acute on κρηπίς is faint. The circumflex on ῖδος is clear."
+  },
+  {
+   "strip": "0118_05",
+   "text": "ὀλίγωρεῖν",
+   "note": "The mark on the iota at the line end is small. It may be the top of the italic iota rather than an acute."
+  }
+ ]
+}

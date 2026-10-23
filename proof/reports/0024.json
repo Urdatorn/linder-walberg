@@ -1,0 +1,67 @@
+{
+ "page": "0024",
+ "strips_done": 6,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0024_00",
+   "printed": "a. sig ngu",
+   "probably_meant": "a. sig ngn",
+   "note": "u for n in the abbreviation ngn"
+  },
+  {
+   "strip": "0024_00",
+   "printed": "ἄρεστός",
+   "probably_meant": "ἀρεστός",
+   "note": "smooth breathing with an extra acute on the initial alpha"
+  },
+  {
+   "strip": "0024_02",
+   "printed": "lemna invisning",
+   "probably_meant": "lemna anvisning",
+   "note": "the entry is Anvisa, so 'invisning' looks like a slip for 'anvisning'"
+  },
+  {
+   "strip": "0024_03",
+   "printed": "till dela",
+   "probably_meant": "tilldela",
+   "note": "compound split at the line end without a hyphen; copied as two words"
+  },
+  {
+   "strip": "0024_04",
+   "printed": "hs konst",
+   "probably_meant": "hs konst (hans konst)",
+   "note": "kept as printed; may be an abbreviation rather than an error"
+  },
+  {
+   "strip": "0024_05",
+   "printed": "καμνειν",
+   "probably_meant": "κάμνειν",
+   "note": "no accent printed"
+  },
+  {
+   "strip": "0024_05",
+   "printed": "μυχανᾶσθαι",
+   "probably_meant": "μηχανᾶσθαι",
+   "note": "υ printed for η"
+  },
+  {
+   "strip": "0024_05",
+   "printed": "a sig upp",
+   "probably_meant": "a. sig upp",
+   "note": "the stop after the abbreviation a is missing"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0024_02",
+   "text": "(κατα)δεικνύναι τινί τι",
+   "note": "the final iota of τινι is cut off at the right margin of the scan, so the accent can't be seen; τινί chosen because the enclitic τι follows"
+  },
+  {
+   "strip": "0024_00",
+   "text": "F. öfr. vv.",
+   "note": "printed in italics; it reads as Latin 'vv.' (not Greek υυ), with a full stop"
+  }
+ ]
+}

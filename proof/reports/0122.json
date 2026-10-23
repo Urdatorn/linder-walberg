@@ -1,0 +1,48 @@
+{
+ "page": "0122",
+ "strips_done": 7,
+ "corrections": 30,
+ "misprints": [
+  {
+   "strip": "0122_02",
+   "printed": "(om lag o, d.)",
+   "probably_meant": "(om lag o. d.)",
+   "note": "comma instead of period in the abbreviation o. d."
+  },
+  {
+   "strip": "0122_03",
+   "printed": "träda i f. m ngn",
+   "probably_meant": "träda i f. m. ngn",
+   "note": "period missing after m"
+  },
+  {
+   "strip": "0122_04",
+   "printed": "χάρις, ἡ. εὐεργεσία, ἡ εὐεργέτημα",
+   "probably_meant": "εὐεργεσία, ἡ. εὐεργέτημα",
+   "note": "period missing after ἡ"
+  },
+  {
+   "strip": "0122_03",
+   "printed": "δέον, οντος",
+   "probably_meant": "δέοντος / δέον, -οντος",
+   "note": "genitive ending printed bare, without breathing or accent; kept"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0122_01",
+   "text": "ὃ παριών τῷ λόγῳ",
+   "note": "accent on ὃ is small and hard to read: grave assumed (it could be acute)"
+  },
+  {
+   "strip": "0122_01",
+   "text": "o. gm vv.",
+   "note": "italic abbreviation looks like Greek υυ/νυ; transcribed as Swedish vv. (verb)"
+  },
+  {
+   "strip": "0122_03",
+   "text": "αἱμύλος",
+   "note": "breathing on ι read as rough (OCR had αἴμύλος)"
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "page": "0017",
+ "strips_done": 6,
+ "corrections": 58,
+ "misprints": [
+  {
+   "strip": "0017_00",
+   "printed": "οἱ δεὶ πειθόμενοι",
+   "probably_meant": "οἱ ἀεὶ πειθόμενοι",
+   "note": "Clearly a delta, with no breathing."
+  },
+  {
+   "strip": "0017_01",
+   "printed": "ἢ καιά",
+   "probably_meant": "ἢ κατά",
+   "note": "The print has ι where τ belongs."
+  },
+  {
+   "strip": "0017_02",
+   "printed": "περιεκτώτατατος",
+   "probably_meant": "περιεκτικώτατος",
+   "note": "The syllable 'τα' is repeated across the line break (περιεκτώτα-τατος)."
+  },
+  {
+   "strip": "0017_02",
+   "printed": "περιέχων, ουσα, ον",
+   "probably_meant": "περιέχων, ουσα, ον (ending)",
+   "note": "Kept without breathing, as printed. The same happens with σπουδάζων, ουσα in 0017_03. It may be the book's normal style for endings, not an error."
+  },
+  {
+   "strip": "0017_04",
+   "printed": "πλελέϊνος",
+   "probably_meant": "πτελέϊνος",
+   "note": "Printed λ where τ belongs. The headword just before it is πτελέα."
+  },
+  {
+   "strip": "0017_05",
+   "printed": "κατα στοιχεῖον",
+   "probably_meant": "κατὰ στοιχεῖον",
+   "note": "The first κατα has no accent. On the next line it has one: κατὰ."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0017_03",
+   "text": "på a, σπουδαίως",
+   "note": "The print shows 'a ,' with no visible full stop. It was probably 'a.,' with the stop missing."
+  },
+  {
+   "strip": "0017_05",
+   "text": "ἐν τῆ χώρᾳ",
+   "note": "No iota subscript can be seen under τῆ, although χώρᾳ clearly has one. I wrote it as printed. It may be a misprint for τῇ, or the subscript may just be faint."
+  },
+  {
+   "strip": "0017_00",
+   "text": "ᾗ",
+   "note": "The η has a breathing, a circumflex and a mark below. I read it as ᾗ, but it is small."
+  },
+  {
+   "strip": "0017_05",
+   "text": "θἄτερον ... θἀτέρου",
+   "note": "I read the mark on the α as a coronis: an acute on θἄτερον and none on θἀτέρου. The OCR had θᾶτερον and θάτέρου."
+  }
+ ]
+}

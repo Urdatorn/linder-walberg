@@ -1,0 +1,48 @@
+{
+ "page": "0145",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0145_02",
+   "printed": "κάθυργος",
+   "probably_meant": "κάθυγρος",
+   "note": "Genomblöt: ρ and γ transposed in the print."
+  },
+  {
+   "strip": "0145_05",
+   "printed": "ἰσχορῶς",
+   "probably_meant": "ἰσχυρῶς",
+   "note": "Genomfrysa: the print has ο where υ belongs."
+  },
+  {
+   "strip": "0145_05",
+   "printed": "kslor",
+   "probably_meant": "kulor (or another word)",
+   "note": "Genomfara, διάττειν (äfv. om kslor): the print clearly reads kslor, which is not a Swedish word."
+  },
+  {
+   "strip": "0145_00",
+   "printed": "(ἀντ)αμείβεσθαι",
+   "probably_meant": "(ἀντ)αμείβεσθαι / ἀμείβεσθαι",
+   "note": "There is no breathing on α after the bracket. This is probably intended because of the bracketed prefix, so it is kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0145_02",
+   "text": "ἀκριβῶς).: om själsarbeten",
+   "note": "The full stop before the colon is a broken or dropped piece of type below the line. It is read as '.:'."
+  },
+  {
+   "strip": "0145_02",
+   "text": "διηνεμοῦσθαι: g. ett",
+   "note": "There is a space before the colon in the print and no visible full stop, so it is written as a plain colon."
+  },
+  {
+   "strip": "0145_04",
+   "text": "~ τρεῖν.",
+   "note": "The circumflex sits at the bottom edge of the previous strip's image and is taken to belong to this word."
+  }
+ ]
+}

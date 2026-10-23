@@ -1,0 +1,65 @@
+{
+ "page": "0151",
+ "strips_done": 6,
+ "corrections": 53,
+ "misprints": [
+  {
+   "strip": "0151_00",
+   "printed": "κιμβεια",
+   "probably_meant": "κιμβεία",
+   "note": "No accent visible in print"
+  },
+  {
+   "strip": "0151_00",
+   "printed": "ῆρος",
+   "probably_meant": "ῆρος (genitive ending, no breathing expected)",
+   "note": "Printed with circumflex only; OCR had added smooth breathing"
+  },
+  {
+   "strip": "0151_01",
+   "printed": "κτύπος, ὀ.",
+   "probably_meant": "κτύπος, ὁ.",
+   "note": "Article printed with smooth breathing"
+  },
+  {
+   "strip": "0151_02",
+   "printed": "μωγμα, το.",
+   "probably_meant": "μωγμα, τό.",
+   "note": "Article printed without accent"
+  },
+  {
+   "strip": "0151_03",
+   "printed": "ἶσον",
+   "probably_meant": "ἴσον",
+   "note": "Printed with a circumflex"
+  },
+  {
+   "strip": "0151_05",
+   "printed": "φιλάνθρωπος, 2, ἤπιος, 3, εὔνους, φιλόφρων, 2, (m. tillagdt",
+   "probably_meant": "2. ... 3. ... 2 (m. tillagdt",
+   "note": "Commas after the termination numbers where the book usually prints full stops; kept as printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0151_00",
+   "text": "τινι l. ἐπιλαμβάνεσθαί; g. på styfvern",
+   "note": "The right edge of the scan cuts off 'l.' and 'på'; I supplied them from the visible fragments"
+  },
+  {
+   "strip": "0151_03",
+   "text": "se Öfverflöd",
+   "note": "Printed as 'Öfver' at the end of a line and 'flöd' on the next, with no hyphen; I joined it into one word"
+  },
+  {
+   "strip": "0151_03",
+   "text": "πρᾷος",
+   "note": "The mark under the α looks like an iota subscript"
+  },
+  {
+   "strip": "0151_05",
+   "text": "= nåd",
+   "note": "The gap after the = sign is very narrow; spacing uncertain"
+  }
+ ]
+}

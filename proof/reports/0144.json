@@ -1,0 +1,73 @@
+{
+ "page": "0144",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0144_01",
+   "printed": "ἑψθός",
+   "probably_meant": "ἑφθός",
+   "note": "The print clearly shows ψ, not φ."
+  },
+  {
+   "strip": "0144_02",
+   "printed": "βυρδοδέψιον",
+   "probably_meant": "βυρσοδέψιον",
+   "note": "The print has δ where σ is expected."
+  },
+  {
+   "strip": "0144_04",
+   "printed": "hrandra",
+   "probably_meant": "hvarandra",
+   "note": "In 'stå i g. m. hrandra'."
+  },
+  {
+   "strip": "0144_05",
+   "printed": "οἱ αμφί l. περὶ",
+   "probably_meant": "οἱ ἀμφί l. περὶ",
+   "note": "ἀμφί is printed without a breathing."
+  },
+  {
+   "strip": "0144_05",
+   "printed": "οὖσα l. προφασιζόμενος, 3.",
+   "note": "'οὖσα' is clearly printed but makes no sense in 'οὐδὲν ἐπισχών, οὖσα l. προφασιζόμενος'. The intended word is unclear. The '3.' after the participle is also odd."
+  },
+  {
+   "strip": "0144_01",
+   "printed": "ἐσθής, ῆτος, ἡ.",
+   "note": "The ending ῆτος is printed with a circumflex and no breathing. This is an ending, so it is fine as printed. I kept it."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0144_00",
+   "text": "πεντήκοντα.",
+   "note": "In the print this word, at the top of band 1, has no accent, but a stray acute sits displaced in the line space above it. I took it as this word's accent and wrote πεντήκοντα."
+  },
+  {
+   "strip": "0144_04",
+   "text": "κοινοπραγεῖν.",
+   "note": "In the print this word, at the top of band 1, has no circumflex, but a stray circumflex sits displaced in the line space above it. I read it as κοινοπραγεῖν."
+  },
+  {
+   "strip": "0144_01",
+   "text": "βυρσοδεψικός",
+   "note": "The ψ is broken and looks like ιψ ('βυρσοδειψικός'). I read it as broken type."
+  },
+  {
+   "strip": "0144_02",
+   "text": "ᾆσμα τὸ ἐκ τριόδου,",
+   "note": "The entry ends with what looks like a comma, possibly a damaged full stop. I kept the comma."
+  },
+  {
+   "strip": "0144_05",
+   "text": "περιεκτικός, 3,",
+   "note": "The page ends with what looks like a comma, possibly a damaged full stop. I kept the comma."
+  },
+  {
+   "strip": "0144_04",
+   "text": "ὁ δῆμος",
+   "note": "A stray tilde-like mark sits between ὁ and δῆμος. I ignored it."
+  }
+ ]
+}

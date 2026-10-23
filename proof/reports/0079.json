@@ -1,0 +1,41 @@
+{
+ "page": "0079",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0079_05",
+   "printed": "d. väg.,",
+   "probably_meant": "d. väg,",
+   "note": "Stray full stop after 'väg' before the comma in the Dålig entry."
+  },
+  {
+   "strip": "0079_01",
+   "printed": "πόσου;",
+   "probably_meant": "πόσου;",
+   "note": "Kept as printed; the Greek question mark after a Swedish question is correct, so this is not an error. It is listed only for completeness."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0079_00",
+   "text": "τοιόσδε, άδε, όνδε.:",
+   "note": "The right edge of the strip cuts off a comma after 'άδε' at the line end. I added it because the series pattern calls for one."
+  },
+  {
+   "strip": "0079_00",
+   "text": "αύτη, οῦτο(ν)",
+   "note": "Abbreviated endings with a small accent mark: I read an acute on υ and a circumflex on ου, with no breathings."
+  },
+  {
+   "strip": "0079_05",
+   "text": "ὁδός",
+   "note": "The rough breathing on ο is faint or broken; only part of the mark is visible."
+  },
+  {
+   "strip": "0079_00",
+   "text": "Dyna, ... κνέφαλον, τό. στρῶμα",
+   "note": "The full stop after 'τό' at the line end is cut off by the strip edge. I supplied it."
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "page": "0077",
+ "strips_done": 6,
+ "corrections": 43,
+ "misprints": [
+  {
+   "strip": "0077_01",
+   "printed": "χρηστότατος, 3., θεῖος",
+   "probably_meant": "χρηστότατος, 3. θεῖος",
+   "note": "Stray comma after '3.' in print; kept."
+  },
+  {
+   "strip": "0077_03",
+   "printed": "νωθρός, 3, νωθής, 2 (sömnaktig)",
+   "probably_meant": "νωθρός, 3. νωθής, 2. (sömnaktig)",
+   "note": "Comma for full stop after 3, and no full stop after 2; kept as printed."
+  },
+  {
+   "strip": "0077_04",
+   "printed": "Drönare, νωθρός, 3. σχολαστής, οῦ, ὁ. b) = vattenbi",
+   "probably_meant": "Drönare, a) νωθρός ...",
+   "note": "The print has sense b) but no a)."
+  },
+  {
+   "strip": "0077_04",
+   "printed": "διπλασία τιμή",
+   "note": "Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0077_02",
+   "text": "ὀψὲ ἧκεν",
+   "note": "The breathing on ἧκεν looks much like the smooth one on ἦν in the line above. Kept as rough."
+  },
+  {
+   "strip": "0077_05",
+   "text": "δις-, δι-",
+   "note": "No accent is visible on δις-; the curl of δ may hide one. The older OCR had δὶς-."
+  },
+  {
+   "strip": "0077_05",
+   "text": "διπλοΐς, ίδος",
+   "note": "The ι of ίδος seems to carry an acute, but the earlier 'δικλίς (θύρα), ιδος' does not. Transcribed as each appears."
+  },
+  {
+   "strip": "0077_04",
+   "text": "dub-",
+   "note": "Changed the U+2010 hyphen to an ASCII hyphen at the strip break. Other strips mix both forms."
+  }
+ ]
+}

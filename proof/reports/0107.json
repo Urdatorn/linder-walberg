@@ -1,0 +1,48 @@
+{
+ "page": "0107",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0107_01",
+   "printed": "κρυφῆ",
+   "probably_meant": "κρυφῇ",
+   "note": "Framsmyga: no iota subscript visible under the eta"
+  },
+  {
+   "strip": "0107_01",
+   "printed": "προΐεναι",
+   "probably_meant": "προϊέναι",
+   "note": "Framsmyga: the accent sits on the iota with the diaeresis; Framsläppa just above has the correct προϊέναι"
+  },
+  {
+   "strip": "0107_04",
+   "printed": "ὁ μελλων",
+   "probably_meant": "ὁ μέλλων",
+   "note": "Framtid: the line-broken μελ-λων has no accent"
+  },
+  {
+   "strip": "0107_04",
+   "printed": "ἐξάγειν —",
+   "probably_meant": "ἐξάγειν. —",
+   "note": "Framtaga: no full stop before the dash"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0107_03",
+   "text": "παράστασις",
+   "note": "The print looks like παράσιασις; probably a τ with a broken crossbar, so I wrote παράστασις"
+  },
+  {
+   "strip": "0107_04",
+   "text": "τὸ μετὰ τοῦτο",
+   "note": "The grave on the first το is very faint or missing in the scan; I wrote τὸ"
+  },
+  {
+   "strip": "0107_05",
+   "text": "(\"Fram\" uttryckes",
+   "note": "Quotation marks written as straight double quotes; the printed glyph shape is unclear"
+  }
+ ]
+}

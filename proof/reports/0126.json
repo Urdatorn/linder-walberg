@@ -1,0 +1,41 @@
+{
+ "page": "0126",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0126_03",
+   "printed": "προχειρίζεσθαί τί.",
+   "probably_meant": "προχειρίζεσθαί τι.",
+   "note": "Enclitic printed with an acute accent"
+  },
+  {
+   "strip": "0126_05",
+   "printed": "ἐν τῆ ἀρχῆ",
+   "probably_meant": "ἐν τῇ ἀρχῇ",
+   "note": "There seems to be no iota subscript under either word in the scan"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0126_05",
+   "text": "τῆ ἀρχῆ",
+   "note": "The iota subscript may be missing from the print or may just be too faint to see"
+  },
+  {
+   "strip": "0126_05",
+   "text": "οὗτος",
+   "note": "The breathing on οὗτος is hard to make out in the scan; kept as the rough breathing"
+  },
+  {
+   "strip": "0126_00",
+   "text": "äfv. bl.",
+   "note": "The full stop after bl is cut off at the right edge of the image; reading supplied"
+  },
+  {
+   "strip": "0126_03",
+   "text": "gm vv.",
+   "note": "Printed in italics that look like Greek υυ; transcribed as the Swedish abbreviation vv."
+  }
+ ]
+}

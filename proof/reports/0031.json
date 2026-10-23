@@ -1,0 +1,20 @@
+{
+ "page": "0031",
+ "strips_done": 6,
+ "corrections": 38,
+ "misprints": [
+  {
+   "strip": "0031_05",
+   "printed": "ανιᾶν",
+   "probably_meant": "ἀνιᾶν",
+   "note": "Bedröfva: no smooth breathing is printed on the initial alpha. I checked this on the full-page TIFF as well. The same word has its breathing in ἀνιαρός two lines above."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0031_04",
+   "text": "εὐεξαπάτητος, 2.:",
+   "note": "Only a faint speck shows where the full stop would sit after '2', and the print has a gap before the colon ('2 :'). I read it as a broken '.:'. It could also be '2:' or '2 :'."
+  }
+ ]
+}

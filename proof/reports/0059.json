@@ -1,0 +1,64 @@
+{
+ "page": "0059",
+ "strips_done": 6,
+ "corrections": 60,
+ "misprints": [
+  {
+   "strip": "0059_02",
+   "printed": "αναδύεσθαι",
+   "probably_meant": "ἀναδύεσθαι",
+   "note": "No smooth breathing is printed on the initial alpha."
+  },
+  {
+   "strip": "0059_02",
+   "printed": "inskränkandc",
+   "probably_meant": "inskränkande",
+   "note": "The final letter looks like a c, probably broken or wrong-font type. I transcribed it as 'inskränkande' and also listed it under uncertain."
+  },
+  {
+   "strip": "0059_03",
+   "printed": "be / loppet",
+   "probably_meant": "be-loppet",
+   "note": "The word is split across two lines with no hyphen printed. I wrote it whole as 'beloppet'."
+  },
+  {
+   "strip": "0059_03",
+   "printed": "ἀναρρήγνυσθαι. καταρρήγνυσθαι",
+   "note": "No breathings are printed on the double rho. I kept it as printed."
+  },
+  {
+   "strip": "0059_04",
+   "printed": "γεφ ραν",
+   "probably_meant": "γέφυραν",
+   "note": "The upsilon is missing from the print (dropped type) and there is no accent on the epsilon. I wrote 'γεφυραν'."
+  },
+  {
+   "strip": "0059_05",
+   "printed": "ποικιλόθριξ, χος",
+   "probably_meant": "ποικιλόθριξ, τριχος",
+   "note": "The genitive ending is printed as just 'χος'. I kept it as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0059_02",
+   "text": "inskränkande",
+   "note": "The print shows 'inskränkandc'. It is unclear whether this is a broken e or a wrong-font c."
+  },
+  {
+   "strip": "0059_04",
+   "text": "γεφυραν",
+   "note": "The printed text is 'γεφ ραν' with a letter missing. I supplied υ without an accent, but the missing piece of type might have carried an accent."
+  },
+  {
+   "strip": "0059_04",
+   "text": "ἄκραν",
+   "note": "The mark over the alpha is ambiguous and could be read as ἆ. I read it as smooth breathing plus acute."
+  },
+  {
+   "strip": "0059_00",
+   "text": "vv.",
+   "note": "Printed in italics that look like Greek υυ. I wrote the Swedish abbreviation 'vv.' in Latin letters."
+  }
+ ]
+}

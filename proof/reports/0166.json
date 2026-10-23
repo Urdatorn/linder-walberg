@@ -1,0 +1,60 @@
+{
+ "page": "0166",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0166_01",
+   "printed": "πυγμῆ",
+   "probably_meant": "πυγμῇ",
+   "note": "ἡ τῆς πυγμῆ l. συστάδην χειρονομία: no iota subscript visible in print"
+  },
+  {
+   "strip": "0166_02",
+   "printed": "sa Handboja",
+   "probably_meant": "se Handboja",
+   "note": "Handklofve entry"
+  },
+  {
+   "strip": "0166_02",
+   "printed": "ἁπλοϊζεσθαι",
+   "probably_meant": "ἁπλοΐζεσθαι",
+   "note": "print shows diaeresis but no acute on the iota"
+  },
+  {
+   "strip": "0166_04",
+   "printed": "συμβολον",
+   "probably_meant": "σύμβολον",
+   "note": "no accent printed (hyphenated συμ-βολον)"
+  },
+  {
+   "strip": "0166_05",
+   "printed": "hrandra",
+   "probably_meant": "hvarandra",
+   "note": "gifva hrandra h."
+  },
+  {
+   "strip": "0166_05",
+   "printed": "på svärd, åror, m. m., κώπη",
+   "probably_meant": "på svärd, åror m. m., κώπη",
+   "note": "kept as printed; åror is odd after svärd but κώπη covers both hilt and oar handle"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0166_03",
+   "text": "godt h., δεξιότης",
+   "note": "print shows an extra comma-like mark after 'h.,' (h.„); probably broken type or dust, transcribed as 'h.,'"
+  },
+  {
+   "strip": "0166_00",
+   "text": "ἐπιμιξίας. σύμβολα",
+   "note": "the stop after ἐπιμιξίας sits a little high, possibly a raised dot; transcribed as '.'"
+  },
+  {
+   "strip": "0166_05",
+   "text": "låta gifva sig h., δεξιὰν λαβεῖν",
+   "note": "a stray mark after 'h.,' taken to be dust and left out"
+  }
+ ]
+}

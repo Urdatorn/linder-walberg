@@ -1,0 +1,77 @@
+{
+ "page": "0018",
+ "strips_done": 6,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0018_00",
+   "printed": "Ἀμαξών",
+   "probably_meant": "Ἀμαζών",
+   "note": "Printed with ξ. The next form, Ἀμαζονίς, has ζ."
+  },
+  {
+   "strip": "0018_00",
+   "printed": "ἀμβροσίοδμος",
+   "probably_meant": "ἀμβροσιόδμος",
+   "note": "The accent is printed on the ί, not on the ό."
+  },
+  {
+   "strip": "0018_00",
+   "printed": "Amethist",
+   "probably_meant": "Amethyst",
+   "note": "The headword is printed with i."
+  },
+  {
+   "strip": "0018_03",
+   "printed": "ἀπαπνεῖν",
+   "probably_meant": "ἀναπνεῖν",
+   "note": "Printed with π twice. The entry glosses it as breathing in (in)."
+  },
+  {
+   "strip": "0018_03",
+   "printed": "φυχή",
+   "probably_meant": "ψυχή",
+   "note": "Printed with φ: the letter has the same shape as the φ in φρένες on the same strip."
+  },
+  {
+   "strip": "0018_04",
+   "printed": "ψηχή",
+   "probably_meant": "ψυχή",
+   "note": "Printed with η for υ."
+  },
+  {
+   "strip": "0018_05",
+   "printed": "Suillrik",
+   "probably_meant": "Snillrik",
+   "note": "The n is printed turned, so it reads as u."
+  },
+  {
+   "strip": "0018_02",
+   "printed": "vid dna a. flydde alla",
+   "probably_meant": "vid dna a., flydde alla",
+   "note": "Printed with no comma after 'a.'. The abbreviation 'dna' (denna) is as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0018_05",
+   "text": "ἀφυΐα",
+   "note": "The diaeresis on the ι is hard to see. The glyph shows a tall stroke above it."
+  },
+  {
+   "strip": "0018_04",
+   "text": "(ἅγιον)",
+   "note": "The breathing could be rough or smooth. I wrote rough; the OCR had ἄγιον."
+  },
+  {
+   "strip": "0018_00",
+   "text": "χαλκῖτις, ιδος. ἡ. / φοινικίς, ιδος, ἡ.",
+   "note": "I see no accent on ιδος in either place, while other ίδος forms on the page have one. I copied ιδος as printed."
+  },
+  {
+   "strip": "0018_01",
+   "text": "ἀμάρτημα τό περὶ χρόνον",
+   "note": "τό is printed with an acute where a grave is expected. I kept it as printed."
+  }
+ ]
+}

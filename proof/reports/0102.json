@@ -1,0 +1,31 @@
+{
+ "page": "0102",
+ "strips_done": 6,
+ "corrections": 74,
+ "misprints": [
+  {
+   "strip": "0102_01",
+   "printed": "εὐκ εἰκότως",
+   "probably_meant": "οὐκ εἰκότως",
+   "note": "Under Fog 1), 'utan f., οὐ δικαίως. εὐκ εἰκότως': the print clearly has ε, not ο, for the negation."
+  },
+  {
+   "strip": "0102_03",
+   "printed": "Folkande",
+   "probably_meant": "Folkanda",
+   "note": "The headword is printed 'Folkande', glossed διάνοια ἡ κοινή. Kept as printed. It may be a misprint for Folkanda."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0102_03",
+   "text": "en f. hålles",
+   "note": "After 'f.' there is a small raised dot that looks like a speck, not a colon. I transcribed it as 'f.' rather than 'f.:'."
+  },
+  {
+   "strip": "0102_01",
+   "text": "gm vv.",
+   "note": "Small italic 'vv.' (verb). The OCR had read it as Greek νυ."
+  }
+ ]
+}

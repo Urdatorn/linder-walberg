@@ -1,0 +1,54 @@
+{
+ "page": "0147",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0147_00",
+   "printed": "σκεωρεῖσθαι",
+   "probably_meant": "σκευωρεῖσθαι",
+   "note": "υ missing in print; the same word is printed correctly as σκευωρεῖσθαι under Genomsöka"
+  },
+  {
+   "strip": "0147_00",
+   "printed": "διαχωριῖν",
+   "probably_meant": "διαχωρεῖν",
+   "note": "print shows ιῖ where ε is expected, probably damaged or wrong type"
+  },
+  {
+   "strip": "0147_01",
+   "printed": "Genomströmmma",
+   "probably_meant": "Genomströmma",
+   "note": "headword is printed with three m's"
+  },
+  {
+   "strip": "0147_04",
+   "printed": "γεογράφος",
+   "probably_meant": "γεωγράφος",
+   "note": "ο for ω; the derived forms on the same line have γεω-"
+  },
+  {
+   "strip": "0147_04",
+   "printed": "ἡ. — phisk",
+   "probably_meant": "ἡ. -phisk",
+   "note": "a dash is printed where the parallel -phi and -tri entries have a hyphen"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0147_00",
+   "text": "διαχωριῖν",
+   "note": "The letters after ρ look like ι plus ῖ. It could be a broken ε, so I kept what is visible."
+  },
+  {
+   "strip": "0147_04",
+   "text": "εἰ (ἐάν)",
+   "note": "The breathing on ει has an odd shape and might be smooth breathing plus grave. I wrote εἰ."
+  },
+  {
+   "strip": "0147_05",
+   "text": "ὡς ἐπὶ τὸ πολύ",
+   "note": "The mark over ω looks like a rough breathing and might also include an acute. I kept ὡς."
+  }
+ ]
+}

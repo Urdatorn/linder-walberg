@@ -1,0 +1,36 @@
+{
+ "page": "0133",
+ "strips_done": 6,
+ "corrections": 42,
+ "misprints": [
+  {
+   "strip": "0133_00",
+   "printed": "soleus",
+   "probably_meant": "solens",
+   "note": "Turned n in the print ('soleus l. månans'). The transcription keeps it as printed and undoes the cleaner's change."
+  },
+  {
+   "strip": "0133_04",
+   "printed": "χαιρειν τινί l. ἐπί τινι",
+   "probably_meant": "χαίρειν",
+   "note": "The second χαίρειν, under 'vara f.', has no accent in the print. The first one, under Förnöja, does."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0133_01",
+   "text": "συνετός. 3,",
+   "note": "After συνετός the mark looks like a full stop, while the marks next to it are commas. It may be a comma with a broken tail."
+  },
+  {
+   "strip": "0133_03",
+   "text": "antaga sdne",
+   "note": "The print reads 'sdne' clearly. It is kept as printed; it may be an abbreviation or a misprint."
+  },
+  {
+   "strip": "0133_05",
+   "text": "(sig sf nog)",
+   "note": "The print reads 'sf' clearly, probably an abbreviation of sjelf. It is kept as printed."
+  }
+ ]
+}

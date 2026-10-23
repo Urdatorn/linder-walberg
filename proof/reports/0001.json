@@ -1,0 +1,13 @@
+{
+ "page": "0001",
+ "strips_done": 2,
+ "corrections": 3,
+ "misprints": [],
+ "uncertain": [
+  {
+   "strip": "0001_01",
+   "text": "Prof. vid Lunds Universitet. Adj. vid Upsala Universitet.",
+   "note": "The two affiliations are printed on one line, under LINDER (left) and WALBERG (right). I kept them as one paragraph because the print has them on a single line. They could instead be split into two paragraphs, one per author."
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "page": "0043",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0043_00",
+   "printed": "ταῦτῃ",
+   "probably_meant": "ταύτῃ",
+   "note": "Print has a circumflex on the upsilon in 'ᾗ ἂν τάξῃ ὁ δαίμων, ταῦτῃ πορεύεσθαι'."
+  },
+  {
+   "strip": "0043_04",
+   "printed": "ὁ καλοῦσιν",
+   "probably_meant": "ὃ καλοῦσιν",
+   "note": "The relative pronoun is printed with a rough breathing and no grave accent."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0043_00",
+   "text": "ἐφ’ ὃν",
+   "note": "At the right edge of the line 'ἐφ' shows no apostrophe. It may be cropped or may never have printed. I kept the elision mark."
+  },
+  {
+   "strip": "0043_04",
+   "text": "δυσχέρεια, ἡ.",
+   "note": "The article is damaged type that looks like a bare 'η' with no clear breathing. I read it as ἡ."
+  },
+  {
+   "strip": "0043_03",
+   "text": "ἄχθεσθαι (τινί l. ὑπό τινι)",
+   "note": "A stray vertical mark after the opening parenthesis looks like a printing artefact. I left it out."
+  }
+ ]
+}

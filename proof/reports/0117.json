@@ -1,0 +1,53 @@
+{
+ "page": "0117",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0117_00",
+   "printed": "κρινειν",
+   "probably_meant": "κρίνειν",
+   "note": "No accent printed."
+  },
+  {
+   "strip": "0117_01",
+   "printed": "στατηγιᾶν",
+   "probably_meant": "στρατηγιᾶν",
+   "note": "The ρ is missing in the print."
+  },
+  {
+   "strip": "0117_03",
+   "printed": "kasta i f, εἰς",
+   "probably_meant": "kasta i f., εἰς",
+   "note": "The full stop after the abbreviation f is missing in the print (printed 'i f ,')."
+  },
+  {
+   "strip": "0117_03",
+   "printed": "δέσμευσες",
+   "probably_meant": "δέσμευσις",
+   "note": "Wrong ending in the print."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0117_02",
+   "text": "γοῦ ἀρετή, ἡ.",
+   "note": "The diacritics on this first line fall at the bottom of the 0117_01 band, so they were read from there."
+  },
+  {
+   "strip": "0117_03",
+   "text": "εἵργειν",
+   "note": "Small breathing mark; read as rough plus acute, but it could be smooth (εἴργειν)."
+  },
+  {
+   "strip": "0117_03",
+   "text": "δεσμωτήριον, τό.",
+   "note": "The mark after δεσμωτήριον looks more like a comma than a full stop."
+  },
+  {
+   "strip": "0117_00",
+   "text": "καταρράκτης",
+   "note": "Could not tell whether breathings are printed on ρρ; written without them."
+  }
+ ]
+}

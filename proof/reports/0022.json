@@ -1,0 +1,53 @@
+{
+ "page": "0022",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0022_01",
+   "printed": "ἀνωμαλία, ἡ. τό ἀνώμαλον",
+   "probably_meant": "τὸ ἀνώμαλον",
+   "note": "acute instead of grave on the article before a following word"
+  },
+  {
+   "strip": "0022_03",
+   "printed": "Anrättning, a) ss handling ... 2) det anrättade",
+   "probably_meant": "1) ss handling",
+   "note": "sense numbering mixes a) and 2)"
+  },
+  {
+   "strip": "0022_03",
+   "printed": "-σθαί τί τι l. ἔν τινι",
+   "probably_meant": "ἐν τινι",
+   "note": "preposition printed with an acute accent"
+  },
+  {
+   "strip": "0022_05",
+   "printed": "πορισμός. ὁ.",
+   "probably_meant": "πορισμός, ὁ.",
+   "note": "full stop where a comma is expected before the article"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0022_02",
+   "text": "συντιθέναι",
+   "note": "the τ after συν- is cramped in the print; συντιθέναι is the expected word and is the most likely reading"
+  },
+  {
+   "strip": "0022_00",
+   "text": "εἰ δὲ μή· ἦν δὲ μή·",
+   "note": "I read both stops after μή as raised dots (ano teleia), not full stops"
+  },
+  {
+   "strip": "0022_01",
+   "text": "οὐδὲ γὰρ ἂν οὕτω",
+   "note": "the accent on ἂν is small; I kept the grave from the OCR"
+  },
+  {
+   "strip": "0022_02",
+   "text": "vanl. m. vv.",
+   "note": "I read the italic 'υυ' as Latin vv. (verba), as also in 0022_03 'part. af vv.'"
+  }
+ ]
+}

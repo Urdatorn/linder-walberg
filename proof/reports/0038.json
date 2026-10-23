@@ -1,0 +1,66 @@
+{
+ "page": "0038",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0038_00",
+   "printed": "ἀφίεναι",
+   "probably_meant": "ἀφιέναι",
+   "note": "accent printed on iota"
+  },
+  {
+   "strip": "0038_03",
+   "printed": "ἔδοξεν m. inf,",
+   "probably_meant": "ἔδοξεν m. inf.",
+   "note": "comma instead of full stop at end of entry Berama"
+  },
+  {
+   "strip": "0038_03",
+   "printed": "κατασκευάζεεν",
+   "probably_meant": "κατασκευάζειν",
+   "note": "misprint in the print"
+  },
+  {
+   "strip": "0038_03",
+   "printed": "ἑαυτῶ",
+   "probably_meant": "ἑαυτῷ",
+   "note": "no iota subscript visible in print"
+  },
+  {
+   "strip": "0038_03",
+   "printed": "ῥαστώνη",
+   "probably_meant": "ῥᾳστώνη",
+   "note": "no iota subscript in print"
+  },
+  {
+   "strip": "0038_05",
+   "printed": "ὀρεινή χώρα",
+   "probably_meant": "ὀρεινὴ χώρα",
+   "note": "acute where grave expected"
+  },
+  {
+   "strip": "0038_05",
+   "printed": "Ut komst",
+   "probably_meant": "Utkomst",
+   "note": "line-break hyphen missing in print; written as Utkomst"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0038_05",
+   "text": "οἷός",
+   "note": "accent on iota is a worn flat mark; read as circumflex with rough breathing"
+  },
+  {
+   "strip": "0038_00",
+   "text": "ίδος",
+   "note": "genitive endings in Benpipa and Benskena look like acute without breathing; transcribed ίδος rather than ἰδος"
+  },
+  {
+   "strip": "0038_03",
+   "text": "(\"se\") / (\"sibi\")",
+   "note": "quote marks look like doubled straight apostrophes; written as straight double quotes, the way other pages do it"
+  }
+ ]
+}

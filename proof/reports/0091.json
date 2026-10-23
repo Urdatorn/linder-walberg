@@ -1,0 +1,43 @@
+{
+ "page": "0091",
+ "strips_done": 7,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0091_00",
+   "printed": "Everldelig",
+   "probably_meant": "Everdelig / Verldslig",
+   "note": "Headword printed 'Everldelig, se Evig.'; kept as printed"
+  },
+  {
+   "strip": "0091_00",
+   "printed": "ὁ ἐκεὶ βίος",
+   "probably_meant": "ὁ ἐκεῖ βίος",
+   "note": "Accent on ἐκεὶ looks grave in the print, though ἐκεῖ takes a circumflex"
+  },
+  {
+   "strip": "0091_06",
+   "printed": "κέφαλαιον",
+   "probably_meant": "κεφάλαιον",
+   "note": "Accent on the wrong syllable in the print"
+  },
+  {
+   "strip": "0091_06",
+   "printed": "δᾴς, δός",
+   "probably_meant": "δᾴς, δᾳδός",
+   "note": "Genitive printed as 'δός'; probably a truncated ending (cf. λαμπάς, άδος)"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0091_02",
+   "text": "(υῖα, ός)",
+   "note": "Small italic type; read as circumflex on υῖα and acute on ός without breathings"
+  },
+  {
+   "strip": "0091_06",
+   "text": "δᾴς",
+   "note": "The iota subscript and acute on δᾴς are small; read as printed"
+  }
+ ]
+}

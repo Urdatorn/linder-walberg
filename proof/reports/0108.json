@@ -1,0 +1,31 @@
+{
+ "page": "0108",
+ "strips_done": 6,
+ "corrections": 62,
+ "misprints": [
+  {
+   "strip": "0108_01",
+   "printed": "εἰρημέμενα",
+   "probably_meant": "εἰρημένα",
+   "note": "Fredsartikel: printed εἰρημέ-|μενα across the line break; duplicated syllable"
+  },
+  {
+   "strip": "0108_01",
+   "printed": "σπονδαί αἱ.",
+   "probably_meant": "σπονδαὶ αἱ.",
+   "note": "Fredsfördrag: acute instead of grave before the article"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0108_03",
+   "text": "ἐφ’ οἷς μέλλουσιν",
+   "note": "Fredsvilkor: only the circumflex is clearly visible on οἷς; the rough breathing may be broken or missing in the print"
+  },
+  {
+   "strip": "0108_00",
+   "text": "εἰρήνη, ἡ. σπονδαί",
+   "note": "The dot after ἡ sits slightly high and could be a raised dot. Transcribed as a full stop, as elsewhere in the book"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "page": "0006",
+ "strips_done": 6,
+ "corrections": 35,
+ "misprints": [
+  {
+   "strip": "0006_01",
+   "printed": "οἵ παρὰ βασιλέως πεμφθέντες",
+   "probably_meant": "οἱ παρὰ βασιλέως πεμφθέντες",
+   "note": "The article has a rough breathing plus an acute in the print. It is clearly different from the plain οἱ in 0006_00 and 0006_04. I kept οἵ."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0006_02",
+   "text": "2 i höjd",
+   "note": "The type is broken or blotted after the h, but the word is clearly höjd."
+  },
+  {
+   "strip": "0006_01",
+   "text": "φοβούμενος τοῦτο ἔπραξα",
+   "note": "The second τ is damaged in the print and looks like 'τοῦ ιο'. I read it as τοῦτο."
+  },
+  {
+   "strip": "0006_04",
+   "text": "en skrift af ngn. συγγραφή τινος",
+   "note": "The mark after ngn looks like a full stop, though a comma might have been intended. I kept the full stop. Separately, 'πολιορκία :' is printed with a space before the plain colon. I wrote 'πολιορκία:'."
+  },
+  {
+   "strip": "0006_05",
+   "text": "ἀπείκα-",
+   "note": "This word breaks across the page: page 0007 opens with '~ σμα', which gives ἀπείκασμα. I kept the hyphenated fragment so the strip stays within its own lines. I also changed the U+2010 hyphens on this page to ASCII '-'."
+  }
+ ]
+}

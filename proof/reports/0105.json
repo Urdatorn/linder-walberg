@@ -1,0 +1,55 @@
+{
+ "page": "0105",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0105_00",
+   "printed": "ουδ’ ἀκαρῆ",
+   "probably_meant": "οὐδ’ ἀκαρῆ",
+   "note": "The second ουδ’ is printed without a breathing."
+  },
+  {
+   "strip": "0105_00",
+   "printed": "ὑποθεμα",
+   "probably_meant": "ὑπόθεμα",
+   "note": "Printed without an accent (hyphenated ὑπο-θεμα)."
+  },
+  {
+   "strip": "0105_00",
+   "printed": "δάπις, ιδος ... δαπίδιον",
+   "probably_meant": "δάπις / δαπίδιον (variant of τάπις)",
+   "note": "The δ is clear in the print; kept it."
+  },
+  {
+   "strip": "0105_01",
+   "printed": "ἀγωγῆς, τα.",
+   "probably_meant": "ἀγωγῆς, τά.",
+   "note": "The article is printed without an accent."
+  },
+  {
+   "strip": "0105_01",
+   "printed": "ναυαρχεῖν",
+   "probably_meant": "ναυαρχεῖν / ναυλοχεῖν?",
+   "note": "Printed clearly as ναυαρχεῖν; kept it."
+  },
+  {
+   "strip": "0105_05",
+   "printed": "ἐπιπέτισθαι",
+   "probably_meant": "ἐπιπέτεσθαι",
+   "note": "Printed ἐπιπέτι-σθαι across the line break."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0105_00",
+   "text": "ταρσὸς ποδός, ὁ.",
+   "note": "The mark over the article looks like a thin acute (ό), probably a broken rough breathing; written as ὁ."
+  },
+  {
+   "strip": "0105_04",
+   "text": "πρῷρα, ἡ. πρόσωπον",
+   "note": "The stop after ἡ sits at mid height, like a raised dot; written as a full stop."
+  }
+ ]
+}

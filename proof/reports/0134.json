@@ -1,0 +1,53 @@
+{
+ "page": "0134",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0134_02",
+   "printed": "vännerua",
+   "probably_meant": "vännerna",
+   "note": "Turned n printed as u in 'de f. vännerua'."
+  },
+  {
+   "strip": "0134_02",
+   "printed": "χάραξ, ακος, ὁ.",
+   "probably_meant": "χάραξ, ακος, ὁ (genitive ending as printed, no accent)",
+   "note": "Ending printed without an accent. Kept as printed. Probably normal for an ending."
+  },
+  {
+   "strip": "0134_05",
+   "printed": "(ἐξ)ελέγχειν",
+   "probably_meant": "(ἐξ)ελέγχειν / ἐλέγχειν",
+   "note": "No breathing is printed after the parenthesised prefix. Kept as printed."
+  },
+  {
+   "strip": "0134_00",
+   "printed": "πρός-, ἐπί-, ταγμα, τό παράγγελμα",
+   "probably_meant": "πρόσ-, ἐπίταγμα, τό. παράγγελμα",
+   "note": "There is no stop after τό, and the comma before ταγμα is odd. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0134_02",
+   "text": "ἕνος,",
+   "note": "The breathing on ε at the end of the strip is small. I read it as rough (ἕνος), but it could be smooth (ἔνος)."
+  },
+  {
+   "strip": "0134_02",
+   "text": "ἔμπροσθεν. πρότερον",
+   "note": "The mark after ἔμπροσθεν is faint. It could be a period or a broken comma. I wrote a period."
+  },
+  {
+   "strip": "0134_02",
+   "text": "Förqväfva, se Qväfva.",
+   "note": "The final stop is printed raised, like a middle dot. I wrote a period."
+  },
+  {
+   "strip": "0134_00",
+   "text": "ἐπι-, προςτάττειν",
+   "note": "The word is split at the line end as 'προς-' / 'τάττειν', with final ς. I joined it as προςτάττειν."
+  }
+ ]
+}

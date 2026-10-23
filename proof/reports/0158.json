@@ -1,0 +1,26 @@
+{
+ "page": "0158",
+ "strips_done": 7,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0158_01",
+   "printed": "αναγαργαρίζεσθαι",
+   "probably_meant": "ἀναγαργαρίζεσθαι",
+   "note": "The α- at the line end has no smooth breathing in the print."
+  },
+  {
+   "strip": "0158_01",
+   "printed": "χάρις, ιτος",
+   "probably_meant": "χάρις, ιτος (correct genitive ending; no breathing needed)",
+   "note": "Kept as printed; the hint ἴτος was wrong."
+  },
+  {
+   "strip": "0158_02",
+   "printed": "γέλως, ωτος",
+   "probably_meant": "γέλως, ωτος",
+   "note": "The genitive ending is printed without an accent; the OCR had ὦτος."
+  }
+ ],
+ "uncertain": []
+}

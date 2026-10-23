@@ -1,0 +1,43 @@
+{
+ "page": "0138",
+ "strips_done": 6,
+ "corrections": 42,
+ "misprints": [
+  {
+   "strip": "0138_05",
+   "printed": "πολέμος",
+   "probably_meant": "πόλεμος",
+   "note": "Accent misplaced in print (Försvarskrig)."
+  },
+  {
+   "strip": "0138_05",
+   "printed": "f. ngu för rätta",
+   "probably_meant": "f. ngn för rätta",
+   "note": "Print shows 'ngu', likely a turned n."
+  },
+  {
+   "strip": "0138_03",
+   "printed": "ῥᾴθυμεῖν",
+   "probably_meant": "ῥᾳθυμεῖν",
+   "note": "Print appears to carry an acute on ᾳ as well as the circumflex."
+  },
+  {
+   "strip": "0138_00",
+   "printed": "fhde",
+   "probably_meant": "förhållande (abbrev.)",
+   "note": "Printed as 'c) fhde till'; kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0138_03",
+   "text": "ῥᾴθυμεῖν",
+   "note": "Small type: hard to tell whether the mark over ᾳ is an acute or just part of the breathing/iota glyph."
+  },
+  {
+   "strip": "0138_05",
+   "text": "ngu",
+   "note": "Could be a broken n rather than a printed u."
+  }
+ ]
+}

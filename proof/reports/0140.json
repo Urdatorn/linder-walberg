@@ -1,0 +1,37 @@
+{
+ "page": "0140",
+ "strips_done": 6,
+ "corrections": 38,
+ "misprints": [
+  {
+   "strip": "0140_04",
+   "printed": "ὑπερφυως.",
+   "probably_meant": "ὑπερφυῶς.",
+   "note": "No circumflex visible on the omega in the print (line-initial 'περφυως.' after the break ὑ-)."
+  },
+  {
+   "strip": "0140_04",
+   "printed": "Förtrytelse, -sam, Harm, -sen.",
+   "probably_meant": "Förtrytelse, -sam, se Harm, -sen.",
+   "note": "Cross-reference printed without 'se'."
+  },
+  {
+   "strip": "0140_05",
+   "printed": "öfverlemna sig åt f, πρὸς",
+   "probably_meant": "åt f., πρὸς",
+   "note": "Abbreviation f printed without its full stop."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0140_00",
+   "text": "— förtjent: a)",
+   "note": "The punctuation after letterspaced 'förtjent' is damaged (a blob with faint dots above it). It could be ':' or ';'. I kept ':'."
+  },
+  {
+   "strip": "0140_02",
+   "text": "ἀπομαρανθείς, εῖσα, έν.",
+   "note": "The print seems to show εῖσα (circumflex only) and έν (acute, no breathing). I copied that, but the small diacritics are hard to tell apart."
+  }
+ ]
+}

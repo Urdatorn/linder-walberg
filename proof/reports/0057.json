@@ -1,0 +1,36 @@
+{
+ "page": "0057",
+ "strips_done": 6,
+ "corrections": 42,
+ "misprints": [
+  {
+   "strip": "0057_00",
+   "printed": "utsigteu",
+   "probably_meant": "utsigten",
+   "note": "turned n printed as u in 'b. utsigteu f. ngn'"
+  },
+  {
+   "strip": "0057_02",
+   "printed": "Bortställa, ἀφιστάναι, ἀποτάττειν",
+   "probably_meant": "",
+   "note": "no misprint; listed only to note the OCR had ἀριστάναι, now corrected to the printed ἀφιστάναι"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0057_03",
+   "text": "ἀφαιρεῖν, αἱρεῖν.",
+   "note": "the mark after ἀφαιρεῖν at line end looks like a comma, not a full stop; breathing on αἱρεῖν (both instances) read as rough"
+  },
+  {
+   "strip": "0057_03",
+   "text": "μισθώσειν, ἀποδώσεσθαι",
+   "note": "the mark after μισθώσειν looks like a comma, but could be a full stop"
+  },
+  {
+   "strip": "0057_05",
+   "text": "προβατοπώλης, ου, ὁ.",
+   "note": "small mark after ου, read as a comma (the OCR had a full stop)"
+  }
+ ]
+}

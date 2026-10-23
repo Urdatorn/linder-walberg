@@ -1,0 +1,72 @@
+{
+ "page": "0060",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0060_00",
+   "printed": "χαλκός (κεκραμένος), ὁ,: af b.",
+   "probably_meant": "ὁ.: af b.",
+   "note": "comma+colon printed after ὁ"
+  },
+  {
+   "strip": "0060_01",
+   "printed": "παλαίστρα. ἡ.",
+   "probably_meant": "παλαίστρα, ἡ.",
+   "note": "full stop for comma before article"
+  },
+  {
+   "strip": "0060_02",
+   "printed": "γαμήλιον. τό.",
+   "probably_meant": "γαμήλιον, τό.",
+   "note": "full stop for comma"
+  },
+  {
+   "strip": "0060_02",
+   "printed": "θάλαμος. ὁ.",
+   "probably_meant": "θάλαμος, ὁ.",
+   "note": "full stop for comma"
+  },
+  {
+   "strip": "0060_02",
+   "printed": "νυμφική l. γαμήλιος εὐνή",
+   "probably_meant": "νυμφικὴ l. γαμήλιος εὐνή",
+   "note": "acute where grave expected"
+  },
+  {
+   "strip": "0060_03",
+   "printed": "ἐργάτης, ου, ὁ.",
+   "probably_meant": "ἐργάτης, ου, ὁ. (genitive ending normally unaccented here, kept)",
+   "note": "kept as printed; genitive ending without accent"
+  },
+  {
+   "strip": "0060_04",
+   "printed": "ἐν συνηθείᾳ ὢν, οὖσα, ὄν",
+   "probably_meant": "ὤν",
+   "note": "grave before comma"
+  },
+  {
+   "strip": "0060_04",
+   "printed": "Brunusmästare",
+   "probably_meant": "Brunnsmästare",
+   "note": "turned n (u) in headword; kept as printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0060_03",
+   "text": "det brukas, νομίζεται",
+   "note": "the mark after 'brukas' is small and could be a comma or a broken full stop; read as comma"
+  },
+  {
+   "strip": "0060_04",
+   "text": "ὢν",
+   "note": "the accent over omega looks like smooth breathing + grave but the type is small; could be acute"
+  },
+  {
+   "strip": "0060_04",
+   "text": "Brunusmästare",
+   "note": "the fifth letter looks like u, not n (turned type); could be a damaged n"
+  }
+ ]
+}

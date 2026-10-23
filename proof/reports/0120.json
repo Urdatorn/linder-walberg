@@ -1,0 +1,74 @@
+{
+ "page": "0120",
+ "strips_done": 6,
+ "corrections": 58,
+ "misprints": [
+  {
+   "strip": "0120_00",
+   "printed": "δισχιλιους",
+   "probably_meant": "δισχιλίους",
+   "note": "No accent on the ι in the print; kept as printed."
+  },
+  {
+   "strip": "0120_01",
+   "printed": "upppställde",
+   "probably_meant": "uppställde",
+   "note": "Three p's in the print."
+  },
+  {
+   "strip": "0120_01",
+   "printed": "ἀπεδείκνυσεν",
+   "probably_meant": "ἀπεδείκνυεν",
+   "note": "The scan clearly reads ἀπεδείκνυσεν."
+  },
+  {
+   "strip": "0120_02",
+   "printed": "f. ngu",
+   "probably_meant": "f. ngn",
+   "note": "In 'hysa vänskap f. ngu'. The n is turned."
+  },
+  {
+   "strip": "0120_04",
+   "printed": "sdut",
+   "probably_meant": "sdnt",
+   "note": "In 'talet förer oss på sdut'. The n is turned."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0120_01",
+   "text": "ὥς ἐξ ὀλίγου; ὥς Λακεδαιμόνιος",
+   "note": "The mark over ω shows rough breathing plus acute, the same as in ὥστε, so I transcribed ὥς. It is probably the printer's habit for ὡς."
+  },
+  {
+   "strip": "0120_02",
+   "text": "m. ὥς, ὥσπερ; νόμισμα ὥς l.",
+   "note": "Same rough-plus-acute mark over ω; transcribed as ὥς."
+  },
+  {
+   "strip": "0120_02",
+   "text": "(ὤν, οὖσα, ὄν)",
+   "note": "The marks over ὤν and ὄν are small and look alike. I read both as smooth breathing plus acute."
+  },
+  {
+   "strip": "0120_03",
+   "text": "För (adj). se Stark",
+   "note": "A low dot follows ')' where a comma is expected. It could be a broken comma. There is no full stop inside after 'adj'."
+  },
+  {
+   "strip": "0120_05",
+   "text": "innehafva",
+   "note": "The print looks like 'innehaiva': the f is broken, or a dotless i stands in its place. I transcribed innehafva."
+  },
+  {
+   "strip": "0120_05",
+   "text": "ἐν οὐδενὶ λόγῳ ποιεῖσθαί",
+   "note": "There is a small speck after λόγῳ, which the OCR read as a comma. I took it for dust and dropped it."
+  },
+  {
+   "strip": "0120_03",
+   "text": "Förakta.",
+   "note": "Removed this column running head (the catchword at the top of column 2), consistent with the other pages, which leave running heads out."
+  }
+ ]
+}

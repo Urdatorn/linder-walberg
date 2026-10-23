@@ -1,0 +1,20 @@
+{
+ "page": "0066",
+ "strips_done": 8,
+ "corrections": 30,
+ "misprints": [
+  {
+   "strip": "0066_06",
+   "printed": "ὁ τών μοναχῶν",
+   "probably_meant": "ὁ τῶν μοναχῶν",
+   "note": "Article printed with an acute instead of a circumflex. The other two instances of τῶν in the same line have the circumflex."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0066_01",
+   "text": "κυαμών, ῶνος",
+   "note": "There is a small stray vertical mark between α and μ that could be read as an iota (κυαιμών). I took it for part of the μ or for a type flaw and wrote κυαμών."
+  }
+ ]
+}

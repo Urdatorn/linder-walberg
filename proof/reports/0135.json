@@ -1,0 +1,25 @@
+{
+ "page": "0135",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0135_05",
+   "printed": "τὴν οὐσίαν διασκευάσασθαι",
+   "probably_meant": "τὴν οὐσίαν διασκεδάσασθαι",
+   "note": "Under Förskingra: the print clearly reads διασκευάσασθαι, but the sense ('squander one's fortune') calls for διασκεδάσασθαι, which fits διασκεδαννύναι earlier in the same entry."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0135_01",
+   "text": "τὶ ἔν τινι",
+   "note": "The marks over ε are small. They read as a smooth breathing and an acute, so I wrote ἔν, not ἕν or ἒν."
+  },
+  {
+   "strip": "0135_02",
+   "text": "ἔχων, ουσα, ον",
+   "note": "No breathing or accent is visible on the ending ουσα, so I wrote it unaccented as printed."
+  }
+ ]
+}

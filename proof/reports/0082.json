@@ -1,0 +1,54 @@
+{
+ "page": "0082",
+ "strips_done": 7,
+ "corrections": 60,
+ "misprints": [
+  {
+   "strip": "0082_02",
+   "printed": "ἐπιορκεῖν,:",
+   "probably_meant": "ἐπιορκεῖν.:",
+   "note": "Comma followed by colon is printed clearly."
+  },
+  {
+   "strip": "0082_04",
+   "printed": "μετὰ τὴν μάχην μιᾷ ἡμέρα ὕστερον",
+   "probably_meant": "ἡμέρᾳ",
+   "note": "The iota subscript is missing on the second ἡμέρα; the first one in the same entry has it."
+  },
+  {
+   "strip": "0082_05",
+   "printed": "τούτῳ τῷ λόγω",
+   "probably_meant": "λόγῳ",
+   "note": "No iota subscript under λόγω."
+  },
+  {
+   "strip": "0082_05",
+   "printed": "ὑπό m gen.",
+   "probably_meant": "m. gen.",
+   "note": "The full stop after the abbreviation m is missing."
+  },
+  {
+   "strip": "0082_06",
+   "printed": "compp..",
+   "probably_meant": "compp.",
+   "note": "Doubled full stop before the dash."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0082_01",
+   "text": "E, Ἐ, ἐ. ἔ ψιλόν",
+   "note": "After ἐ the print looks like a full stop rather than a comma. The accent on ἔ (acute or grave, i.e. ἒ ψιλόν) is too small to tell; I read it as acute."
+  },
+  {
+   "strip": "0082_02",
+   "text": "ἦ μήν",
+   "note": "I read the mark over η as smooth breathing plus circumflex. The OCR had ἢ μὴν, but the scan shows an acute on μήν."
+  },
+  {
+   "strip": "0082_06",
+   "text": "compp..",
+   "note": "The second mark could be a comma (compp.,), but it looks like a full stop."
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "page": "0039",
+ "strips_done": 6,
+ "corrections": 42,
+ "misprints": [
+  {
+   "strip": "0039_01",
+   "printed": "κωδωνίζεσθαι",
+   "probably_meant": "κωθωνίζεσθαι",
+   "note": "Berusa: the print clearly has δ; the usual verb is κωθωνίζεσθαι."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0039_00",
+   "text": "τὸ ἄκρον τοῦ ὄρους",
+   "note": "Bergspets: the word sits at the right edge of the scan and reads as 'τοί', probably 'τοῦ' cut off by the scan margin. I wrote τοῦ."
+  },
+  {
+   "strip": "0039_04",
+   "text": "εὐδοκιμῶ ἐπί τινι",
+   "note": "Beröm: an ink blot covers the middle of the word after ἐπί, so only 'τ…ι' is visible. The width fits τινι; the old OCR read τῳ."
+  },
+  {
+   "strip": "0039_01",
+   "text": "bättre m. vv.",
+   "note": "Also in 0039_03. The abbreviation is set in italic and looks like Greek υυ; I wrote it as the Swedish abbreviation 'vv.'."
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "page": "0132",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0132_05",
+   "printed": "κτῆσασθαι",
+   "probably_meant": "κτήσασθαι",
+   "note": "Aorist infinitive printed with a circumflex on η."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0132_04",
+   "text": "ἐκ τῶν δυνατῶν",
+   "note": "In the print the τ of δυνατῶν looks like a broken τ without its crossbar, so it could also be read as ι (δυναιῶν). I transcribed it as δυνατῶν."
+  },
+  {
+   "strip": "0132_05",
+   "text": "se Förmåga. 2)",
+   "note": "The full stop after Förmåga is very faint."
+  },
+  {
+   "strip": "0132_02",
+   "text": "ὡς εἰκάσαι",
+   "note": "The mark over ω could be rough breathing plus acute (ὥς). I transcribed it as ὡς."
+  }
+ ]
+}

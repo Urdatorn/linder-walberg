@@ -1,0 +1,48 @@
+{
+ "page": "0171",
+ "strips_done": 6,
+ "corrections": 52,
+ "misprints": [
+  {
+   "strip": "0171_02",
+   "printed": "αἰθήρ, έρος, ὁ",
+   "probably_meant": "αἰθήρ, ἔρος, ὁ",
+   "note": "The genitive ending is printed with an acute and no breathing. That matches the book's usual way of printing endings, so it may not be an error at all."
+  },
+  {
+   "strip": "0171_01",
+   "printed": "λύγξ, γγός, ἡ",
+   "probably_meant": "λύγξ, λυγγός, ἡ",
+   "note": "The genitive is printed in shortened form as 'γγός'. I kept it as printed."
+  },
+  {
+   "strip": "0171_05",
+   "printed": "ἱστόριον, τό,:",
+   "probably_meant": "ἱστόριον, τό.:",
+   "note": "The print has a comma before the colon. I kept it."
+  },
+  {
+   "strip": "0171_04",
+   "printed": "εἴς τι",
+   "probably_meant": "εἴς τι / εἰς",
+   "note": "The print has an acute on εἴς before the enclitic τι. That is correct accentuation, so I'm only noting it."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0171_00",
+   "text": "stridens h., ἡ τῆς μάχης ἀκμή",
+   "note": "After 'h.' there is a stray raised mark that looks like an apostrophe; it is probably broken type or dust. I wrote 'h.,'."
+  },
+  {
+   "strip": "0171_00",
+   "text": "(ish. hos kroppar). πυρετός",
+   "note": "The full stop after 'par)' is slightly raised and faint. I read it as '.'."
+  },
+  {
+   "strip": "0171_05",
+   "text": "ἀληθής, 2 (sann).:",
+   "note": "The full stop after '(sann)' is faint. I read it as '.:'."
+  }
+ ]
+}

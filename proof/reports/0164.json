@@ -1,0 +1,37 @@
+{
+ "page": "0164",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0164_00",
+   "printed": "hraf",
+   "probably_meant": "hvaraf",
+   "note": "Half: '(hraf hälften fattas, är förtärd)'; the print clearly shows 'hraf'"
+  },
+  {
+   "strip": "0164_05",
+   "printed": "τραχηλοπεῖν",
+   "probably_meant": "τραχηλοκοπεῖν",
+   "note": "Halshugga: the syllable κο is missing at the line break (τραχη-λοπεῖν); compare τραχηλοκοπεῖν under Hals"
+  },
+  {
+   "strip": "0164_05",
+   "printed": "ὁρμός",
+   "probably_meant": "ὅρμος",
+   "note": "Halsband: the accent is printed on the last syllable"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0164_03",
+   "text": "s. sker hrt h.",
+   "note": "The print shows 'hrt', probably an abbreviation of 'hvart'; kept as printed"
+  },
+  {
+   "strip": "0164_05",
+   "text": "Vanl. gm vv.",
+   "note": "Printed in italics as 'vv.' (the verbs); the OCR had Greek 'νυ'. I read it as the Latin-letter abbreviation vv."
+  }
+ ]
+}

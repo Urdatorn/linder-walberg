@@ -1,0 +1,43 @@
+{
+ "page": "0009",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0009_00",
+   "printed": "ἅμάρτημα",
+   "probably_meant": "ἁμάρτημα",
+   "note": "Rough breathing with an acute on the initial alpha, plus the correct acute on the second alpha."
+  },
+  {
+   "strip": "0009_04",
+   "printed": "ἔξαγωγή",
+   "probably_meant": "ἐξαγωγή",
+   "note": "Afledning: there is a stray acute on the initial epsilon, alongside the final acute."
+  },
+  {
+   "strip": "0009_04",
+   "printed": "σύλληψις, ἡ..",
+   "probably_meant": "σύλληψις, ἡ.",
+   "note": "Aflelse: the full stop is doubled in the print."
+  },
+  {
+   "strip": "0009_03",
+   "printed": "ἀποζεῖν",
+   "probably_meant": "ἀποζεῖν (as printed; the usual verb is ἀποζέω/ἀφέψω)",
+   "note": "Printed clearly as ἀποζεῖν. Kept; this is only a note for the formal checks."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0009_01",
+   "text": "Afhämta,",
+   "note": "After the headword the print shows a raised mark, like a comma set high or an apostrophe. I read it as the comma before μετιέναι."
+  },
+  {
+   "strip": "0009_03",
+   "text": "(γεγονότες, υῖαι, ότα)",
+   "note": "The endings are printed without breathings: υῖαι with a circumflex and ότα with an acute. They are transcribed as printed."
+  }
+ ]
+}

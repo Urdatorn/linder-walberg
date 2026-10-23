@@ -1,0 +1,75 @@
+{
+ "page": "0051",
+ "strips_done": 6,
+ "corrections": 70,
+ "misprints": [
+  {
+   "strip": "0051_00",
+   "printed": "σκαρδαμυπτικός",
+   "probably_meant": "σκαρδαμυκτικός",
+   "note": "πτ for κτ in the print"
+  },
+  {
+   "strip": "0051_01",
+   "printed": "ὁ κεραυνός l σκηπτὸς",
+   "probably_meant": "ὁ κεραυνός l. σκηπτὸς",
+   "note": "no full stop after 'l' in the print"
+  },
+  {
+   "strip": "0051_02",
+   "printed": "b. en hamu",
+   "probably_meant": "b. en hamn",
+   "note": "turned n"
+  },
+  {
+   "strip": "0051_05",
+   "printed": "af läkare aubragt",
+   "probably_meant": "af läkare anbragt",
+   "note": "turned n (could also be a damaged n)"
+  },
+  {
+   "strip": "0051_05",
+   "printed": "strö blomor",
+   "probably_meant": "strö blommor",
+   "note": "the same entry prints 'blommor' just before"
+  },
+  {
+   "strip": "0051_01",
+   "printed": "(ἐν)ηλύσιον",
+   "probably_meant": "(ἐν)ηλύσιον / ἠλύσιον",
+   "note": "no breathing on η, which fits the bracketed prefix; kept as printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0051_01",
+   "text": "κεραυνός, σκηπτός, ὁ. πρηστήρ, ῆρος",
+   "note": "in Blixtstråle the marks after κεραυνός and πρηστήρ look like broken commas or full stops; I read them as commas"
+  },
+  {
+   "strip": "0051_00",
+   "text": "εἰκῆ",
+   "note": "I can't tell whether there is an iota subscript under η"
+  },
+  {
+   "strip": "0051_01",
+   "text": "κεραυνωθείς, εῖσα, έν",
+   "note": "the endings seem to have accents and no breathings"
+  },
+  {
+   "strip": "0051_04",
+   "text": "domstol, ἄγριον; ὅμαιμος, ὁμαίμων; τιμωρός, ὁ.",
+   "note": "the punctuation looks like broken commas; I read them as commas"
+  },
+  {
+   "strip": "0051_03",
+   "text": "ἀναιμία, -μότης, ἡ.",
+   "note": "the accents and breathing sit out of place, on the line above; I put them back on their letters"
+  },
+  {
+   "strip": "0051_03",
+   "text": "ἡμαγμένος",
+   "note": "the breathing looks rough in the print"
+  }
+ ]
+}

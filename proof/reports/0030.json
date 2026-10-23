@@ -1,0 +1,54 @@
+{
+ "page": "0030",
+ "strips_done": 6,
+ "corrections": 26,
+ "misprints": [
+  {
+   "strip": "0030_00",
+   "printed": "γυμνόπους, ποδος",
+   "probably_meant": "ποδός",
+   "note": "No accent on ποδος in the print"
+  },
+  {
+   "strip": "0030_01",
+   "printed": "βυρσοδεφικόν ... βυρσοδεφικός",
+   "probably_meant": "βυρσοδεψικόν ... βυρσοδεψικός",
+   "note": "Printed φ for ψ in both forms"
+  },
+  {
+   "strip": "0030_03",
+   "printed": "μαευτική",
+   "probably_meant": "μαιευτική",
+   "note": "Hyphenated μαευ-τική in the print"
+  },
+  {
+   "strip": "0030_03",
+   "printed": "μαιήτωρ",
+   "probably_meant": "μαιευτήρ",
+   "note": "May be the printer's form; kept as printed"
+  },
+  {
+   "strip": "0030_03",
+   "printed": "φιλόπαις, 3. παιδόφιλος, 3.",
+   "probably_meant": "2.",
+   "note": "Termination numbers look wrong for these adjectives; kept as printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0030_05",
+   "text": "πικρός ... προσφέρεσθαί",
+   "note": "The left edge of the image cuts off the first letters of these lines; the readings come from the visible parts"
+  },
+  {
+   "strip": "0030_00",
+   "text": "hålla m. b.:",
+   "note": "The right edge of the image cuts off the punctuation after b.; I kept .:"
+  },
+  {
+   "strip": "0030_01",
+   "text": "οἱ (en moders)",
+   "note": "The mark over οι looks like a rough breathing only, with no accent"
+  }
+ ]
+}

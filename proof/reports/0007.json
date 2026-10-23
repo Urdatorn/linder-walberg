@@ -1,0 +1,23 @@
+{
+ "page": "0007",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [],
+ "uncertain": [
+  {
+   "strip": "0007_04",
+   "text": "διαγνώμην, διάγνωσιν, διάκρισιν ποιεῖσθαι",
+   "note": "The print breaks the line as 'δια- / γνώμην' with no comma after 'δια-', so I wrote it as one word, 'διαγνώμην', which is not a Greek word. It may be meant as a prefix 'δια-' set before 'γνώμην' and missing its comma. Worth checking by eye."
+  },
+  {
+   "strip": "0007_04",
+   "text": "διαιτᾶν; ἀποφαίνεσθαι",
+   "note": "The type is broken or smudged in both words (the ι and τ of διαιτᾶν, the ε of ἀποφαίνεσθαι). I wrote the most likely reading."
+  },
+  {
+   "strip": "0007_02",
+   "text": "ἀπό-",
+   "note": "The strip ends 'ἀπό-', a word broken at the end of the column that continues as 'δοσις' (ἀπόδοσις) at the top of strip 0007_03. I kept the hyphen at the end of 0007_02 to match the earlier strips (for example 0006_05 ending 'ἀπείκα-')."
+  }
+ ]
+}

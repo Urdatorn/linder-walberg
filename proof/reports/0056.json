@@ -1,0 +1,26 @@
+{
+ "page": "0056",
+ "strips_done": 6,
+ "corrections": 43,
+ "misprints": [
+  {
+   "strip": "0056_00",
+   "printed": "2) intr.. ἀνέμῳ",
+   "probably_meant": "2) intr., ἀνέμῳ",
+   "note": "Double full stop after intr. in the print where a comma is expected."
+  },
+  {
+   "strip": "0056_02",
+   "printed": "διακρύοντα",
+   "probably_meant": "δακρύοντα",
+   "note": "Bortgråta: the print clearly has δια-κρύοντα."
+  },
+  {
+   "strip": "0056_03",
+   "printed": "ἀπαλλαγή τοῦ βίου",
+   "probably_meant": "ἀπαλλαγὴ τοῦ βίου",
+   "note": "Acute where a grave is expected before a following word."
+  }
+ ],
+ "uncertain": []
+}

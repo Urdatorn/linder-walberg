@@ -1,0 +1,40 @@
+{
+ "page": "0046",
+ "strips_done": 7,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0046_04",
+   "printed": "ἐπιδεινύναι",
+   "probably_meant": "ἐπιδεικνύναι",
+   "note": "κ is missing in the print (checked at higher magnification). Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0046_00",
+   "text": "42 Betänksam — Beväpna.",
+   "note": "Running head. I removed the OCR's leading '~' and the ')' after 42 to match the print. How headers are formatted varies across the strips."
+  },
+  {
+   "strip": "0046_01",
+   "text": "o. m. vv.",
+   "note": "The italic abbreviation looks like υυ/νυ. I wrote it as Swedish 'vv.' (also in 0046_04, 'o. gm vv.'). Other pages are not consistent here."
+  },
+  {
+   "strip": "0046_03",
+   "text": "κατακλῶν, ὦσα, ὦν",
+   "note": "The ending accents are small. I read a breathing plus a circumflex, which matches how endings are printed elsewhere in the book, but it could be ῶσα, ῶν."
+  },
+  {
+   "strip": "0046_05",
+   "text": "ἀπὸ τῆς αὐτοῦ γνώμης",
+   "note": "The breathing on υ is ambiguous; it could be the rough breathing (αὑτοῦ). It looks smooth to me."
+  },
+  {
+   "strip": "0046_04",
+   "text": "ἀπόδειξις. ἡ.",
+   "note": "The mark after ἀπόδειξις is faint. It is a full stop, possibly a comma."
+  }
+ ]
+}

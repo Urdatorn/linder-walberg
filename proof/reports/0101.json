@@ -1,0 +1,18 @@
+{
+ "page": "0101",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [],
+ "uncertain": [
+  {
+   "strip": "0101_03",
+   "text": "ταχυτής, ἡ. σφοδρότης καὶ ταραχή. κίγκλισις",
+   "note": "The stops after ἡ and ταραχή sit slightly high and could be a raised dot (ano teleia). I have written them as ordinary full stops, matching how the rest of the book is handled."
+  },
+  {
+   "strip": "0101_00",
+   "text": "παραρρεῖν",
+   "note": "The double rho looks unmarked, but breathings on ρρ would be very small at this resolution."
+  }
+ ]
+}

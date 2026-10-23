@@ -1,0 +1,48 @@
+{
+ "page": "0042",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0042_00",
+   "printed": "κολαζειν",
+   "probably_meant": "κολάζειν",
+   "note": "The word is broken across lines as κο-λαζειν and the print has no accent on it."
+  },
+  {
+   "strip": "0042_01",
+   "printed": "förvaltniug",
+   "probably_meant": "förvaltning",
+   "note": "Turned n (it prints as u). I put back the printed form after the cleaner had changed it."
+  },
+  {
+   "strip": "0042_03",
+   "printed": "beställniugar",
+   "probably_meant": "beställningar",
+   "note": "Turned n (it prints as u), the same fault as förvaltniug in strip 0042_01."
+  },
+  {
+   "strip": "0042_04",
+   "printed": "κσθιστάναι",
+   "probably_meant": "καθιστάναι",
+   "note": "σ is printed where α belongs, in the first sense of Bestämma."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0042_02",
+   "text": "ha kort b., ὀλιγοχρόνιον",
+   "note": "The full stop after b. hardly shows; the print reads 'b ,'. I kept b. as the most likely reading."
+  },
+  {
+   "strip": "0042_04",
+   "text": "b. ngt öfver ngn",
+   "note": "The b at the end of the line is broken and faint, so it looks like h; I read it as b."
+  },
+  {
+   "strip": "0042_01",
+   "text": "τὰ αὑτοῦ",
+   "note": "I could not tell rough from smooth breathing on the υ for certain; I kept the rough breathing (αὑτοῦ)."
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "page": "0170",
+ "strips_done": 9,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0170_03",
+   "printed": "ss. ksla",
+   "probably_meant": "ss. känsla",
+   "note": "Printed 'ksla' at the start of the line, with a bold-looking k; it looks like letters dropped out of 'känsla'."
+  },
+  {
+   "strip": "0170_07",
+   "printed": "ἐπεθυμῶν",
+   "probably_meant": "ἐπιθυμῶν",
+   "note": "The scan clearly shows ε after π."
+  },
+  {
+   "strip": "0170_08",
+   "printed": "för draget (line break, no hyphen)",
+   "probably_meant": "fördraget",
+   "note": "The word breaks across a line with no hyphen. I joined it as 'fördraget'."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0170_02",
+   "text": "whole strip",
+   "note": "Labelled full width, but it actually holds the two columns side by side. I transcribed the left column (μενα…, Hemsjuka) first, then the right column (Herregunst, Herregård), each as its own paragraph."
+  },
+  {
+   "strip": "0170_01",
+   "text": "οὐδενὸς ὤν",
+   "note": "The accent on ω could be acute or grave (ὢν). I chose acute because it matches the mark on ὄν."
+  },
+  {
+   "strip": "0170_03",
+   "text": "οὖσα, όν",
+   "note": "Read as ό, not ὑ; the glyph is a closed ο with an acute."
+  }
+ ]
+}

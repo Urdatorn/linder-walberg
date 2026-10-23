@@ -1,0 +1,59 @@
+{
+ "page": "0155",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0155_01",
+   "printed": "ὁ πρῶτσς νόμος",
+   "probably_meant": "ὁ πρῶτος νόμος",
+   "note": "Grundregel: sigma printed for omicron"
+  },
+  {
+   "strip": "0155_01",
+   "printed": "πρωτότυπος γλῶττα, ὁ.",
+   "probably_meant": "πρωτότυπος γλῶττα, ἡ.",
+   "note": "Grundspråk: wrong article for feminine γλῶττα"
+  },
+  {
+   "strip": "0155_02",
+   "printed": "συμπλεγμα",
+   "probably_meant": "σύμπλεγμα",
+   "note": "Grupp: accent missing in print"
+  },
+  {
+   "strip": "0155_04",
+   "printed": "κλαθμονή",
+   "probably_meant": "κλαυθμονή",
+   "note": "Gråt: upsilon dropped at line break"
+  },
+  {
+   "strip": "0155_04",
+   "printed": "καθιστάναι l. l. καθίζειν",
+   "probably_meant": "καθιστάναι l. καθίζειν",
+   "note": "Gråta: 'l.' printed at both end of one line and start of the next"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0155_03",
+   "text": "g. färg, πολιότης",
+   "note": "Grå: first 'färg' has broken type (looks like 'fürg'); read as färg"
+  },
+  {
+   "strip": "0155_03",
+   "text": "ἅμα τῇ ἕῳ / πρώτη ἕως",
+   "note": "breathing on ε of ἕῳ/ἕως small; read as rough"
+  },
+  {
+   "strip": "0155_00",
+   "text": "κρηπίς, ῖδος",
+   "note": "mark over ι of ῖδος read as circumflex"
+  },
+  {
+   "strip": "0155_05",
+   "text": "vanl. gm vv.",
+   "note": "italic vv. resembles Greek υυ; read as Swedish abbreviation vv."
+  }
+ ]
+}

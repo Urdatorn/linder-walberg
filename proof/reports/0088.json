@@ -1,0 +1,41 @@
+{
+ "page": "0088",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0088_01",
+   "printed": "Ofverensstämmelse",
+   "probably_meant": "Öfverensstämmelse",
+   "note": "The scan shows no umlaut dots on the capital O in the spaced cross-reference. Kept as printed."
+  },
+  {
+   "strip": "0088_01",
+   "printed": "συντιθεσθαί τι",
+   "probably_meant": "συντίθεσθαί τι",
+   "note": "No acute is visible on the first ι, only a small dot, which may be a broken accent."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0088_01",
+   "text": "man är e.",
+   "note": "The 'n' of 'man' is damaged and looks like 'mau'. Read as 'man'."
+  },
+  {
+   "strip": "0088_01",
+   "text": "συντιθεσθαί",
+   "note": "The accent on the ι of the stem may be lost to broken type. Transcribed without it."
+  },
+  {
+   "strip": "0088_04",
+   "text": "καθ’ αὑτόν",
+   "note": "Rough and smooth breathing are hard to tell apart at this size. Read as rough, which is what καθ’ requires."
+  },
+  {
+   "strip": "0088_04",
+   "text": "ἐφ’ ἑαυτῶν",
+   "note": "The breathing on ε is small. Read as rough."
+  }
+ ]
+}

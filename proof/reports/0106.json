@@ -1,0 +1,44 @@
+{
+ "page": "0106",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0106_00",
+   "printed": "tillryggalaggda",
+   "probably_meant": "tillryggalagda",
+   "note": "Printed 'tillrygga-laggda' across a line break, with a doubled g."
+  },
+  {
+   "strip": "0106_02",
+   "printed": "ἔμπροσθιν",
+   "probably_meant": "ἔμπροσθεν",
+   "note": "Printed 'ἐκ τοῦ ἔμπροσθιν.' The ι is clear when zoomed."
+  },
+  {
+   "strip": "0106_04",
+   "printed": "πορρω",
+   "probably_meant": "πόρρω",
+   "note": "The print shows no accent."
+  },
+  {
+   "strip": "0106_04",
+   "printed": "τίς ἐστιν ὁ τοῦτο δράσας",
+   "probably_meant": "τίς ἐστιν ὁ τοῦτο δράσας",
+   "note": "Printed correctly. The OCR had θράσας; corrected to δράσας as printed."
+  },
+  {
+   "strip": "0106_03",
+   "printed": "φανερόν ἔστιν",
+   "probably_meant": "φανερόν ἐστιν",
+   "note": "Printed with an accent on ἔστιν; kept."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0106_02",
+   "text": "~ ἡ. καρτερία, ἡ.",
+   "note": "The breathings and the accent of this first line show only at the bottom of strip 0106_01's image. They were read from there."
+  }
+ ]
+}

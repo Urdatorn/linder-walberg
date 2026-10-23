@@ -1,0 +1,72 @@
+{
+ "page": "0121",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0121_01",
+   "printed": "gmdrifva",
+   "probably_meant": "genomdrifva",
+   "note": "Printed as one word with the gm abbreviation; kept."
+  },
+  {
+   "strip": "0121_00",
+   "printed": "I öfr m. vv.",
+   "probably_meant": "I öfr. m. vv.",
+   "note": "There is no full stop after öfr."
+  },
+  {
+   "strip": "0121_03",
+   "printed": "1) eg., ... b) ogudaktiga svordomar ... 2) plågoris",
+   "probably_meant": "a) ... b) or 1) ... 2)",
+   "note": "In Förbannelse a 'b)' follows '1) eg.' with no 'a)' before it; kept as printed."
+  },
+  {
+   "strip": "0121_04",
+   "printed": "göra hd han behagar",
+   "probably_meant": "göra hvad han behagar",
+   "note": "'hd' as printed."
+  },
+  {
+   "strip": "0121_04",
+   "printed": "τό κρυψίνουν",
+   "probably_meant": "τὸ κρυψίνουν",
+   "note": "Acute instead of grave on the article inside a phrase."
+  },
+  {
+   "strip": "0121_05",
+   "printed": "(προ)διοίκησες",
+   "probably_meant": "(προ)διοίκησις",
+   "note": "The ending is printed -ες."
+  },
+  {
+   "strip": "0121_05",
+   "printed": "παρά τι,: simma f,,",
+   "probably_meant": "παρά τι.: simma f.,",
+   "note": "Comma for full stop in both places."
+  },
+  {
+   "strip": "0121_00",
+   "printed": "καταφρονητικός, ὑβριστικός, ὑπεροπτικός, ὁ.",
+   "probably_meant": "no article after adjectives",
+   "note": "An article 'ὁ.' ends the list of adjectives under Föraktare; kept."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0121_05",
+   "text": "smnsättningar",
+   "note": "The n looks like a u ('smusättningar'), probably a broken or turned n. Written as smnsättningar."
+  },
+  {
+   "strip": "0121_02",
+   "text": "ὡς",
+   "note": "In '(äfv. εἰ, ὡς, ὅτι)' the mark above ω may be a rough breathing plus a grave (ὣς). Read as ὡς."
+  },
+  {
+   "strip": "0121_05",
+   "text": "-τρέχειν",
+   "note": "There may be a small space after the hyphen ('- τρέχειν'). Written without one."
+  }
+ ]
+}

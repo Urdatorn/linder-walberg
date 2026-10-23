@@ -1,0 +1,48 @@
+{
+ "page": "0141",
+ "strips_done": 6,
+ "corrections": 31,
+ "misprints": [
+  {
+   "strip": "0141_04",
+   "printed": "ἐπιπροπεία",
+   "probably_meant": "ἐπιτροπεία",
+   "note": "Förvaltning entry; π for τ in the print"
+  },
+  {
+   "strip": "0141_05",
+   "printed": "htill",
+   "probably_meant": "hvartill",
+   "note": "'som uttrycka det, htill förvandlingen sker'"
+  },
+  {
+   "strip": "0141_03",
+   "printed": "Förutsägelse.",
+   "probably_meant": "Förutsägelse,",
+   "note": "headword followed by a full stop instead of a comma"
+  },
+  {
+   "strip": "0141_02",
+   "printed": "t. e.",
+   "probably_meant": "t. ex.",
+   "note": "'t. e. de kommo f.'; kept as printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0141_04",
+   "text": "ἐπὶ τούτοις",
+   "note": "first τ of τούτοις is damaged and looks like ι; read as τ"
+  },
+  {
+   "strip": "0141_05",
+   "text": "(παρα)κατατίθεσθαί",
+   "note": "the σ is malformed and looks somewhat like δ; read as σ"
+  },
+  {
+   "strip": "0141_01",
+   "text": "δίψῃ",
+   "note": "iota subscript is faint but appears to be there"
+  }
+ ]
+}

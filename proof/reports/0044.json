@@ -1,0 +1,47 @@
+{
+ "page": "0044",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0044_02",
+   "printed": "sma mynt",
+   "probably_meant": "små mynt",
+   "note": "No ring is visible over the a, even at high zoom. Kept as printed."
+  },
+  {
+   "strip": "0044_05",
+   "printed": "ἐπίσκεφις",
+   "probably_meant": "ἐπίσκεψις",
+   "note": "φ is clearly printed. The σκέψις just before it has ψ."
+  },
+  {
+   "strip": "0044_05",
+   "printed": "Betraktande, I)",
+   "probably_meant": "Betraktande, 1)",
+   "note": "The sense number looks like a capital I with serifs on both sides, not the flagged 1 used elsewhere. It may be a wrong-font sort. Kept as I)."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0044_03",
+   "text": "ἐπινομία, ἡ.:",
+   "note": "The article after ἐπινομία is broken type: only the rough breathing and a fragment are visible. Read as ἡ."
+  },
+  {
+   "strip": "0044_02",
+   "text": "~ fruktan",
+   "note": "An ink blot covers the r. The reading is clear from context."
+  },
+  {
+   "strip": "0044_05",
+   "text": "beskådande",
+   "note": "The final e is broken type and looks like ə. Read as e."
+  },
+  {
+   "strip": "0044_03",
+   "text": "ἐξάγειν l. ἐξελαύνειν",
+   "note": "Smooth breathing in the print. The OCR had rough breathing."
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "page": "0013",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0013_00",
+   "printed": "låta a.. ἀπο-",
+   "probably_meant": "låta a., ἀπο-",
+   "note": "Double full stop after the abbreviation a. where a comma is expected."
+  },
+  {
+   "strip": "0013_01",
+   "printed": "huru låugt a.",
+   "probably_meant": "huru långt a.",
+   "note": "Turned n printed as u."
+  },
+  {
+   "strip": "0013_02",
+   "printed": "Afstänguing",
+   "probably_meant": "Afstängning",
+   "note": "The second n of the headword is printed as u (turned or wrong-fount n)."
+  },
+  {
+   "strip": "0013_02",
+   "printed": "handliug",
+   "probably_meant": "handling",
+   "note": "Turned n printed as u."
+  },
+  {
+   "strip": "0013_02",
+   "printed": "kriug",
+   "probably_meant": "kring",
+   "note": "Turned n printed as u."
+  },
+  {
+   "strip": "0013_02",
+   "printed": "afsagd (fienende)",
+   "probably_meant": "afsagd (fiende)",
+   "note": "Printed fien- / ende across the line break, which gives an extra syllable."
+  },
+  {
+   "strip": "0013_02",
+   "printed": "μή ἅψεσθαί",
+   "probably_meant": "μὴ ἅψεσθαί",
+   "note": "μή printed with an acute accent before the following word."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0013_02",
+   "text": "ἅψεσθαί",
+   "note": "The breathing is small, and I read it as rough. Kept as ἅψεσθαί."
+  },
+  {
+   "strip": "0013_05",
+   "text": "κοινολογεῖσθαί",
+   "note": "The σ is broken in the print and looks like ϋ. I transcribed σ."
+  }
+ ]
+}

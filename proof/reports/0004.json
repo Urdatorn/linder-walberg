@@ -1,0 +1,18 @@
+{
+ "page": "0004",
+ "strips_done": 2,
+ "corrections": 1,
+ "misprints": [],
+ "uncertain": [
+  {
+   "strip": "0004_01",
+   "text": "föreliggande",
+   "note": "The second e looks like a c (\"förcliggande\"). This is most likely a damaged e, so I kept \"föreliggande\"."
+  },
+  {
+   "strip": "0004_01",
+   "text": "X—Ö",
+   "note": "The capital Ö has two slanted strokes above it that look like a double acute (Ő). This is the period form of the capital umlaut, so I wrote Ö."
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "page": "0029",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0029_00",
+   "printed": "ἀναπάλλεοθαι",
+   "probably_meant": "ἀναπάλλεσθαι",
+   "note": "Bakslag: the print clearly shows ο where σ belongs, before θ."
+  },
+  {
+   "strip": "0029_00",
+   "printed": "τῶ",
+   "probably_meant": "τῷ",
+   "note": "Bakslag 'ἐν τῶ': no iota subscript is visible under ω."
+  },
+  {
+   "strip": "0029_03",
+   "printed": "b..",
+   "probably_meant": "b.,",
+   "note": "Bandage: 'anlägga ett b..' is printed with a double full stop."
+  },
+  {
+   "strip": "0029_04",
+   "printed": "αυθέντης",
+   "probably_meant": "αὐθέντης",
+   "note": "Baneman: there is no breathing on αυ- at the line break."
+  },
+  {
+   "strip": "0029_05",
+   "printed": "ἀπογορεύειν",
+   "probably_meant": "ἀπαγορεύειν",
+   "note": "Bann: the line above prints ἀπαγόρευσις correctly."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0029_02",
+   "text": "δρύφακτος",
+   "note": "Balkon: the δ is damaged and its ascender is broken. The same word under Balustrad confirms δ."
+  },
+  {
+   "strip": "0029_03",
+   "text": "δολοφόνος",
+   "note": "Bandit: the first letter is blotted. δ is the most likely reading."
+  },
+  {
+   "strip": "0029_03",
+   "text": "ἐπίδεσις, ἡ. ἐπίδεσμος, ὁ",
+   "note": "Bandage: the breathings on ἡ and ὁ are faint or odd-looking. I kept the normal article forms."
+  },
+  {
+   "strip": "0029_04",
+   "text": "ἐπὶ τῇ τούτου",
+   "note": "The iota subscript under τῇ is faint."
+  }
+ ]
+}

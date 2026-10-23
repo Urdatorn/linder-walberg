@@ -1,0 +1,49 @@
+{
+ "page": "0115",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0115_01",
+   "printed": "λοιπὸν γιγνεταί τινί τι",
+   "probably_meant": "λοιπὸν γίγνεταί τινί τι",
+   "note": "accent printed on the final syllable"
+  },
+  {
+   "strip": "0115_02",
+   "printed": "οὐδείς, μία, ἑν",
+   "probably_meant": "οὐδείς, μία, ἕν",
+   "note": "rough breathing only, no accent"
+  },
+  {
+   "strip": "0115_02",
+   "printed": "εἰκῆ",
+   "probably_meant": "εἰκῇ",
+   "note": "no iota subscript printed"
+  },
+  {
+   "strip": "0115_05",
+   "printed": "ἁλούς, οὖσα, όν",
+   "probably_meant": "ἁλούς, οῦσα, όν",
+   "note": "stray smooth breathing on the ending οὖσα"
+  },
+  {
+   "strip": "0115_05",
+   "printed": "ἡρημένος",
+   "probably_meant": "ᾑρημένος",
+   "note": "no iota subscript printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0115_05",
+   "text": "ἐν φυλακῇ",
+   "note": "Twice in this strip; the iota subscript is hard to tell apart from the descender of η, so I kept ῇ"
+  },
+  {
+   "strip": "0115_03",
+   "text": "ἐπικηρυχθείς, εῖσα, έν",
+   "note": "The ending έν appears to carry only an acute; the faint breathing mark is unclear"
+  }
+ ]
+}

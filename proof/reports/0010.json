@@ -1,0 +1,52 @@
+{
+ "page": "0010",
+ "strips_done": 6,
+ "corrections": 62,
+ "misprints": [
+  {
+   "strip": "0010_04",
+   "printed": "ὑφαιρεῖν της τιμῆς",
+   "probably_meant": "ὑφαιρεῖν τῆς τιμῆς",
+   "note": "The first article is printed without its circumflex; the next τῆς τιμῆς on the same line has it."
+  },
+  {
+   "strip": "0010_04",
+   "printed": "χαρίζεσθαι l προΐεσθαί",
+   "probably_meant": "χαρίζεσθαι l. προΐεσθαί",
+   "note": "The abbreviation 'l' is printed without its full stop."
+  },
+  {
+   "strip": "0010_01",
+   "printed": "ἀποπλανᾶσθαί τινος",
+   "probably_meant": "ἀποπλανᾶσθαί τινος (enclitic accent, correct as printed)",
+   "note": "This is not a printer's error. The acute on -αί comes from the enclitic τινος that follows. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0010_01",
+   "text": "2) få utgång",
+   "note": "The ring on å is broken in the print and looks like 'fä'. I read it as 'få'."
+  },
+  {
+   "strip": "0010_03",
+   "text": "σταθμᾶσθαι, ngt eft. ngt",
+   "note": "The punctuation at the right margin after σταθμᾶσθαι is faint. It looks more like a comma than a stop."
+  },
+  {
+   "strip": "0010_04",
+   "text": "ἀπό-, ἔκπλους",
+   "note": "There is a stray vertical mark (a lead or broken type) between 'ἀπό-,' and 'ἔκπλους'. I left it out."
+  },
+  {
+   "strip": "0010_05",
+   "text": "(qvistar, blad, o. d.)",
+   "note": "After 'blad' there is a mark like an apostrophe, probably dust or displaced type. I left it out."
+  },
+  {
+   "strip": "0010_05",
+   "text": "οὐκ ἐᾶν τι. ἀποσπεύδειν",
+   "note": "There is a stray tilde-like mark between 'τι.' and 'ἀποσπεύδειν'. I treated it as dust and read the punctuation as a full stop only."
+  }
+ ]
+}

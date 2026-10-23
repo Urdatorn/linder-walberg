@@ -1,0 +1,43 @@
+{
+ "page": "0153",
+ "strips_done": 6,
+ "corrections": 88,
+ "misprints": [
+  {
+   "strip": "0153_03",
+   "printed": "ἀποσχίς, ίδος, ἡ,:",
+   "probably_meant": "ἀποσχίς, ίδος, ἡ.:",
+   "note": "Comma before the colon instead of a full stop"
+  },
+  {
+   "strip": "0153_03",
+   "printed": "på en mska",
+   "probably_meant": "på en maska",
+   "note": "Swedish word is missing a letter"
+  },
+  {
+   "strip": "0153_03",
+   "printed": "τάφος, ὁ..",
+   "probably_meant": "τάφος, ὁ.",
+   "note": "Double full stop at the end of the entry Grift"
+  },
+  {
+   "strip": "0153_04",
+   "printed": "(om kropps- o. själstillstånd)",
+   "probably_meant": "",
+   "note": "Not a misprint, kept as printed; listed only to show the suspended compound hyphen is real"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0153_04",
+   "text": "ἀλλόκοτον",
+   "note": "There is a faint dot and stroke above the last omicron (τον). It could be a broken accent or dust; the older OCR read it as an acute (ἀλλόκοτόν). I transcribed it without a second accent."
+  },
+  {
+   "strip": "0153_02",
+   "text": "ὄζος",
+   "note": "The accent on the omicron is printed close to the breathing. I read it as smooth breathing with acute."
+  }
+ ]
+}

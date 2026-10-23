@@ -1,0 +1,47 @@
+{
+ "page": "0152",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0152_05",
+   "printed": "Ἀιθιωπικὸς",
+   "probably_meant": "Αἰθιοπικὸς",
+   "note": "Breathing printed before the capital alpha, not on the iota; the o/ω spelling is also nonstandard. Kept as printed."
+  },
+  {
+   "strip": "0152_05",
+   "printed": "ῥοών, ῶνος",
+   "probably_meant": "ῥοών, ῶνος (accent shift in genitive is fine) or ῥοῶν",
+   "note": "Kept as printed. The kit's suggested ῥοῶν is not what the scan shows."
+  },
+  {
+   "strip": "0152_02",
+   "printed": "πῄ (enkl.)",
+   "probably_meant": "πῃ",
+   "note": "An enclitic printed with an acute accent and iota subscript. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0152_01",
+   "text": "σανίς, ίδος, ἡ.",
+   "note": "The breathing mark on ἡ is damaged and looks like a grave-like hook; read as ἡ. The genitive endings ίδος here and in Golfmatta show only an acute, with no breathing."
+  },
+  {
+   "strip": "0152_01",
+   "text": "ἑκών γε εἶναι",
+   "note": "Rough and smooth breathing on epsilon are hard to tell apart in this face; read as rough."
+  },
+  {
+   "strip": "0152_01",
+   "text": "σανίδες, αἱ. σανίδωμα",
+   "note": "The full stop after αἱ sits low and looks faint."
+  },
+  {
+   "strip": "0152_03",
+   "text": "πλεῖστον",
+   "note": "The first letter is cut off at the strip's left edge; read as π."
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "page": "0052",
+ "strips_done": 6,
+ "corrections": 34,
+ "misprints": [
+  {
+   "strip": "0052_02",
+   "printed": "ξανθόθριξ, τριχος",
+   "probably_meant": "τριχός",
+   "note": "genitive printed without accent"
+  },
+  {
+   "strip": "0052_02",
+   "printed": "af sma slag",
+   "probably_meant": "af samma slag",
+   "note": "Swedish word truncated in print"
+  },
+  {
+   "strip": "0052_02",
+   "printed": "μόνην τὴν κεφαλήν εἶδον",
+   "probably_meant": "κεφαλὴν",
+   "note": "acute instead of grave before a following word, clearly acute in the scan"
+  },
+  {
+   "strip": "0052_04",
+   "printed": "βολυβδοκόπος",
+   "probably_meant": "μολυβδοκόπος",
+   "note": "β for μ at the start of the word"
+  },
+  {
+   "strip": "0052_05",
+   "printed": "hröfver",
+   "probably_meant": "hvaröfver",
+   "note": "Swedish word garbled in print"
+  },
+  {
+   "strip": "0052_05",
+   "printed": "λιθάγυρος",
+   "probably_meant": "λιθάργυρος",
+   "note": "ρ dropped"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0052_00",
+   "text": "ἄνθης ὥρα. ἡ.",
+   "note": "the mark after ὥρα is small and could be a comma, but it reads as a full stop"
+  },
+  {
+   "strip": "0052_00",
+   "text": "τῆς ἡλικίας",
+   "note": "the τ is damaged and looks like ι, read as τῆς"
+  },
+  {
+   "strip": "0052_04",
+   "text": "μολυβδόχρους. 2.",
+   "note": "the mark after μολυβδόχρους looks like a full stop and not a comma"
+  },
+  {
+   "strip": "0052_02",
+   "text": "οὐκ ἑώρακα",
+   "note": "the breathing on ε is small, read as rough"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "page": "0173",
+ "strips_done": 6,
+ "corrections": 46,
+ "misprints": [
+  {
+   "strip": "0173_00",
+   "printed": "τίνός",
+   "probably_meant": "τινός",
+   "note": "Printed with an acute on both syllables, hyphenated τί-νός across lines (φροντίζω τίνός)."
+  },
+  {
+   "strip": "0173_05",
+   "printed": "βασιλικη",
+   "probably_meant": "βασιλικὴ",
+   "note": "No accent is visible on the final η in 'Hofstat, βασιλικη μεγαλοπρέπεια'."
+  },
+  {
+   "strip": "0173_03",
+   "printed": "σῦριγξ, ιγγος. ἡ.",
+   "probably_meant": "σῦριγξ, ιγγος, ἡ.",
+   "note": "The print has a full stop where a comma is expected before the article."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0173_03",
+   "text": "νεβρίς, ίδος, ἡ.",
+   "note": "The diacritic on the ι of ίδος is cut off at the image's left edge. I wrote an acute (gen. νεβρίδος); the old OCR had a smooth breathing."
+  },
+  {
+   "strip": "0173_02",
+   "text": "ἱπποφόρβιον",
+   "note": "The word is broken across lines as ἱππο-φόρβιον, and the hyphen is faint. I read the breathing as rough."
+  }
+ ]
+}

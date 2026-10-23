@@ -1,0 +1,42 @@
+{
+ "page": "0083",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0083_01",
+   "printed": "ἀπήχημα., τό.:",
+   "probably_meant": "ἀπήχημα, τό.:",
+   "note": "There is a stray full stop after ἀπήχημα. I kept it."
+  },
+  {
+   "strip": "0083_05",
+   "printed": "νομιζει",
+   "probably_meant": "νομίζει",
+   "note": "Printed without an accent. I kept it as printed."
+  },
+  {
+   "strip": "0083_02",
+   "printed": "(ἀν)ερωτᾶν",
+   "probably_meant": "(ἀν)ερωτᾶν / ἀνερωτᾶν",
+   "note": "This is in strip 0083_00, not 0083_02. ερωτᾶν has no breathing because it follows the bracketed prefix. This is the book's usual convention, not an error."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0083_05",
+   "text": "τἆλλα",
+   "note": "The mark over the alpha (a coronis with a circumflex) is small and hard to make out. It could also be τἄλλα."
+  },
+  {
+   "strip": "0083_04",
+   "text": "ὅπῃ",
+   "note": "The iota subscript under the eta is faint."
+  },
+  {
+   "strip": "0083_00",
+   "text": "(ἐφ)έπεσθαί",
+   "note": "The scan shows an acute on αι (an enclitic accent before τινι), and the έ seems to have no breathing. I copied it as printed."
+  }
+ ]
+}

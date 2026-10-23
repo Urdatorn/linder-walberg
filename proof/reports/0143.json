@@ -1,0 +1,54 @@
+{
+ "page": "0143",
+ "strips_done": 7,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0143_05",
+   "printed": "κιγλίδα περιβάλλειν χωρίῳ",
+   "probably_meant": "κιγκλίδα",
+   "note": "the κ is missing in print, though the same entry has κιγκλίς"
+  },
+  {
+   "strip": "0143_06",
+   "printed": "κράσπεδον (κρυσοῦν, ἀργυροῦν)",
+   "probably_meant": "χρυσοῦν",
+   "note": "clearly printed with κ"
+  },
+  {
+   "strip": "0143_06",
+   "printed": "Gam, γύψ, πός, ὁ.",
+   "probably_meant": "γυπός",
+   "note": "the genitive is printed as a truncated πός"
+  },
+  {
+   "strip": "0143_03",
+   "printed": "στῆριγξ, -γγος",
+   "probably_meant": "στήριγξ",
+   "note": "printed with a circumflex"
+  },
+  {
+   "strip": "0143_01",
+   "printed": "πράττειν τι εἴς τινα",
+   "probably_meant": "εἴς / εἰς",
+   "note": "the print has an acute on εἴς; kept"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0143_06",
+   "text": "γηραιός, γεραιός",
+   "note": "a small raised mark that looks like a superscript '1' is printed after the comma of γηραιός; probably a raised quad or a stray sort, so I left it out"
+  },
+  {
+   "strip": "0143_05",
+   "text": "παστάς, άδος",
+   "note": "the mark on άδος looks like an acute, not a breathing; transcribed as άδος"
+  },
+  {
+   "strip": "0143_06",
+   "text": "ἡλικίας ὢν",
+   "note": "the mark on ὢν reads as smooth breathing plus grave; it could be a worn circumflex"
+  }
+ ]
+}

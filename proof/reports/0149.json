@@ -1,0 +1,26 @@
+{
+ "page": "0149",
+ "strips_done": 6,
+ "corrections": 62,
+ "misprints": [
+  {
+   "strip": "0149_03",
+   "printed": "ἀγαπητον εἰ.",
+   "probably_meant": "ἀγαπητόν ἐστι / ἀγαπητὸν εἰ",
+   "note": "ἀγαπητον is printed without an accent."
+  },
+  {
+   "strip": "0149_02",
+   "printed": "ἱμάς, ᾶντος",
+   "probably_meant": "ἱμάς, άντος",
+   "note": "The genitive ending is printed with a circumflex, which seems odd beside ἱμάντος. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0149_04",
+   "text": "χρῶμα ὑαλῶδες",
+   "note": "The ε of ὑαλῶδες is partly obscured by a speck. Read as ε."
+  }
+ ]
+}

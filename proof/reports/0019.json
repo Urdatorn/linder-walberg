@@ -1,0 +1,53 @@
+{
+ "page": "0019",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0019_00",
+   "printed": "ståndsbeuämning",
+   "probably_meant": "ståndsbenämning",
+   "note": "turned n printed as u"
+  },
+  {
+   "strip": "0019_03",
+   "printed": "ἀπαίτησις., ἡ.",
+   "probably_meant": "ἀπαίτησις, ἡ.",
+   "note": "stray full stop before the comma"
+  },
+  {
+   "strip": "0019_04",
+   "printed": "öfverlemua",
+   "probably_meant": "öfverlemna",
+   "note": "turned n printed as u"
+  },
+  {
+   "strip": "0019_05",
+   "printed": "ὑφηγείσθαι",
+   "probably_meant": "ὑφηγεῖσθαι",
+   "note": "acute instead of circumflex (the word is hyphenated ὑφηγεί-σθαι in print)"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0019_01",
+   "text": "a. af en feber",
+   "note": "the e of feber is broken in the print ('f.ber'); feber is the obvious reading"
+  },
+  {
+   "strip": "0019_01",
+   "text": "själstillstånds",
+   "note": "the print reads själstillstånds with ä, not the 1862 spelling sjel-; copied as printed"
+  },
+  {
+   "strip": "0019_03",
+   "text": "(i följd gmgå).",
+   "note": "a small speck after å may be a stop (gmgå.); probably dust"
+  },
+  {
+   "strip": "0019_00",
+   "text": "τῇ ψυχῇ",
+   "note": "iota subscripts under τῇ/ψυχῇ are faint or missing in the scan; kept as subscript like the clear εὐκλείᾳ, καταλόγῳ on the same strip"
+  }
+ ]
+}

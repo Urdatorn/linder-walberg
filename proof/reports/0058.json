@@ -1,0 +1,63 @@
+{
+ "page": "0058",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0058_02",
+   "printed": "πατάγος",
+   "probably_meant": "πάταγος",
+   "note": "Accent printed on the second syllable."
+  },
+  {
+   "strip": "0058_02",
+   "printed": "κιύπος",
+   "probably_meant": "κτύπος",
+   "note": "The print shows ι where τ belongs; compare κτυπεῖν under Braka."
+  },
+  {
+   "strip": "0058_03",
+   "printed": "σφακελισμός, ο.",
+   "probably_meant": "σφακελισμός, ὁ.",
+   "note": "No rough breathing on the article in the print."
+  },
+  {
+   "strip": "0058_05",
+   "printed": "ὦμους",
+   "probably_meant": "ὤμους",
+   "note": "Circumflex printed where the accusative plural takes an acute."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0058_01",
+   "text": "(ἐξ)ἀκριβοῦν",
+   "note": "The line breaks after '(ἐξ)-'. I took the hyphen as a line-end break and joined the word without it, but it may be a real prefix hyphen ('(ἐξ)-ἀκριβοῦν')."
+  },
+  {
+   "strip": "0058_01",
+   "text": "(ὡς) ἀληθῶς",
+   "note": "There is a small mark over the omega that may be an acute next to the rough breathing (ὥς). I chose ὡς."
+  },
+  {
+   "strip": "0058_02",
+   "text": "ἀραγμός, ὁ.",
+   "note": "In the print the accent and breathing of 'ραγμος, ο.' have slipped down to sit under the line above. I restored them in place."
+  },
+  {
+   "strip": "0058_02",
+   "text": "φλέγεσθαι:",
+   "note": "Only a colon is visible, at the end of the line with a space before it. The usual '.:' may have lost its full stop."
+  },
+  {
+   "strip": "0058_02",
+   "text": "ödelägga",
+   "note": "The 'ä' is blotted or broken type in the scan."
+  },
+  {
+   "strip": "0058_03",
+   "text": "διὰ τὸ πῦρ.",
+   "note": "In the print 'το πυρ.' has its grave and circumflex displaced to the line above. I restored them in place."
+  }
+ ]
+}

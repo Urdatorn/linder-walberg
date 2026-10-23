@@ -1,0 +1,41 @@
+{
+ "page": "0161",
+ "strips_done": 6,
+ "corrections": 41,
+ "misprints": [
+  {
+   "strip": "0161_02",
+   "printed": "ξενίζειν τινά,: mottagandet",
+   "probably_meant": "ξενίζειν τινά.: mottagandet",
+   "note": "The print has a comma followed by a colon where the book's usual separator is \".:\"."
+  },
+  {
+   "strip": "0161_02",
+   "printed": "(gäst / vänlighet)",
+   "probably_meant": "(gäst-vänlighet)",
+   "note": "The word is broken across a line end with no hyphen printed. I transcribed it as the single word \"gästvänlighet\"."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0161_00",
+   "text": "ἦν ἡμῖν",
+   "note": "The breathing on ἦν is small and blurred, and the scan could also show rough breathing. Smooth (ἦν) is the expected form."
+  },
+  {
+   "strip": "0161_00",
+   "text": "ἕρκος",
+   "note": "The breathing on ἕρκος (two places) looks rough under magnification, but the type is heavy."
+  },
+  {
+   "strip": "0161_02",
+   "text": "gästvänlighet",
+   "note": "Printed as \"(gäst\" at the end of one line and \"vänlighet)\" on the next, with no hyphen. I joined it as one word."
+  },
+  {
+   "strip": "0161_04",
+   "text": "(κατ)ελεῶ",
+   "note": "No breathing is visible on ε after the parenthesis, so I kept it as printed."
+  }
+ ]
+}

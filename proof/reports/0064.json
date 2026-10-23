@@ -1,0 +1,59 @@
+{
+ "page": "0064",
+ "strips_done": 6,
+ "corrections": 72,
+ "misprints": [
+  {
+   "strip": "0064_01",
+   "printed": "(ἐν)τείνειν τὸν τόξον",
+   "probably_meant": "(ἐν)τείνειν τὸ τόξον",
+   "note": "τόξον is neuter; the article is printed as masculine."
+  },
+  {
+   "strip": "0064_02",
+   "printed": "θώραξ, ακος, ὁ.",
+   "probably_meant": "θώραξ, ακος, ὁ. (the genitive ending is printed with no breathing, which is correct for an ending)",
+   "note": "Kept as printed, with no breathing on the ending. The OCR had added one (ἀκός)."
+  },
+  {
+   "strip": "0064_02",
+   "printed": "ἐπιτιθέναι ἐπὶ τὴν πυράν,: antända",
+   "probably_meant": "ἐπιτιθέναι ἐπὶ τὴν πυράν.: antända",
+   "note": "Printed as a comma followed by a colon, not the usual '.:'."
+  },
+  {
+   "strip": "0064_04",
+   "printed": "καστόριον, τό,: lukta b.",
+   "probably_meant": "καστόριον, τό.: lukta b.",
+   "note": "Printed as a comma followed by a colon, not the usual '.:'."
+  },
+  {
+   "strip": "0064_02",
+   "printed": "(συν)νεῖν",
+   "probably_meant": "(συν)νεῖν (from νέω, 'heap up')",
+   "note": "Kept as printed. It is probably correct and is noted only because it looks odd."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0064_04",
+   "text": "ἐπὶ τῇ κεφαλῇ",
+   "note": "The iota subscripts under τῇ and κεφαλῇ sit at the band edge and are faint, but they appear to be there."
+  },
+  {
+   "strip": "0064_02",
+   "text": "εἱρκτή",
+   "note": "The mark over the ι looks like a rough breathing; it might also be read as εἵρκτή. Wrote the standard form."
+  },
+  {
+   "strip": "0064_01",
+   "text": "ἐκ τόξου ῥύματος",
+   "note": "The ending of τόξου could be read as τόξον; τόξου fits the syntax."
+  },
+  {
+   "strip": "0064_00",
+   "text": "ἡ τῶν φορτίων ἀμοιβή",
+   "note": "The breathing and accent mark on the article ἡ is a little unclear. Took it as plain ἡ."
+  }
+ ]
+}

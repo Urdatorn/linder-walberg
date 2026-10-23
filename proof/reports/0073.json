@@ -1,0 +1,49 @@
+{
+ "page": "0073",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0073_00",
+   "printed": "διαζευτικός",
+   "probably_meant": "διαζευκτικός",
+   "note": "κ missing in print; the adverb in the same entry is διαζευκτικῶς"
+  },
+  {
+   "strip": "0073_02",
+   "printed": "προτον.",
+   "probably_meant": "προτοῦ.",
+   "note": "printed without an accent, in Dittills"
+  },
+  {
+   "strip": "0073_05",
+   "printed": "βάθὺς τὴν γνώμην",
+   "probably_meant": "βαθὺς τὴν γνώμην",
+   "note": "printed with an acute on α and a grave on υ, in Djupsinnig"
+  },
+  {
+   "strip": "0073_05",
+   "printed": "τὸ τὴς γνώμης",
+   "probably_meant": "τὸ τῆς γνώμης",
+   "note": "printed with a grave instead of a circumflex, in Djupsinnighet"
+  },
+  {
+   "strip": "0073_05",
+   "printed": "(l. ούς)",
+   "probably_meant": "(l. -ούς)",
+   "note": "no hyphen, unlike the parallel '(l. -ους)'"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0073_01",
+   "text": "o. gm υυ.",
+   "note": "Both italic letters look round-bottomed, so υ. The meaning is unclear (could be meant as νυ or νν). Transcribed as printed."
+  },
+  {
+   "strip": "0073_05",
+   "text": "βαθυτέρμων",
+   "note": "Clearly printed so. The form is unattested, but it is kept as printed."
+  }
+ ]
+}

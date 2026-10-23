@@ -1,0 +1,53 @@
+{
+ "page": "0053",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0053_00",
+   "printed": "μολιβδίτης",
+   "probably_meant": "μολυβδίτης",
+   "note": "Printed with iota instead of upsilon in the second syllable."
+  },
+  {
+   "strip": "0053_02",
+   "printed": "σήμαίνειν",
+   "probably_meant": "σημαίνειν",
+   "note": "Broken across a line as 'σή-μαίνειν', with an acute on both η and αι."
+  },
+  {
+   "strip": "0053_02",
+   "printed": "πρεύματι",
+   "probably_meant": "πνεύματι",
+   "note": "ρ printed for ν."
+  },
+  {
+   "strip": "0053_02",
+   "printed": "φυσητήρ, ῆρος, ὁ ῥιπίς",
+   "probably_meant": "φυσητήρ, ῆρος, ὁ. ῥιπίς",
+   "note": "No punctuation is printed after ὁ."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0053_04",
+   "text": "οἴκησις",
+   "note": "Broken type: the middle letters (η) are mostly missing in the scan, so this reading is inferred."
+  },
+  {
+   "strip": "0053_02",
+   "text": "ῆρος, ὁ ῥιπίς, ιδος",
+   "note": "The marks after ῆρος and ῥιπίς look like faint, broken commas (they could be full stops)."
+  },
+  {
+   "strip": "0053_05",
+   "text": "Bocklukt",
+   "note": "The u is broken type and prints like 'Bocklnkt'."
+  },
+  {
+   "strip": "0053_02",
+   "text": "τῇ σάλπιγγι l. τῷ κέρατι; ἀνέμῳ; θυέλλῃ",
+   "note": "Iota subscripts are faint. They are clear under ω but uncertain under η."
+  }
+ ]
+}

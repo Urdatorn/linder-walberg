@@ -1,0 +1,48 @@
+{
+ "page": "0005",
+ "strips_done": 7,
+ "corrections": 42,
+ "misprints": [
+  {
+   "strip": "0005_02",
+   "printed": "ἀνυπόθετος. 2.",
+   "probably_meant": "ἀνυπόθετος, 2.",
+   "note": "Full stop instead of comma before the termination number."
+  },
+  {
+   "strip": "0005_02",
+   "printed": "θεωρεῖν τι αὐτό καθ’ αὑτό",
+   "probably_meant": "αὐτὸ καθ’ αὑτό",
+   "note": "Acute instead of grave on αὐτό before another word (in Abstraktion). The Abstrakt entry just above prints αὐτὸ correctly."
+  },
+  {
+   "strip": "0005_04",
+   "printed": "(εἴθε, εἰ γάρ, ὥς) ὤφελον",
+   "probably_meant": "ὡς",
+   "note": "The print shows an acute and a rough breathing on ω. The usual form in εἰ γὰρ ὡς ὤφελον is ὡς, unaccented. The two marks are also set in an odd order (acute left, breathing right)."
+  },
+  {
+   "strip": "0005_04",
+   "printed": "ss. siffra, ιή.",
+   "probably_meant": "ιη΄",
+   "note": "The numeral 18 is printed with an acute on η, not a numeral keraia. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0005_04",
+   "text": "ὥς",
+   "note": "The two marks over ω are small. They read as acute plus rough breathing, but they might be a broken rough breathing alone (ὡς)."
+  },
+  {
+   "strip": "0005_05",
+   "text": "bref utan a.",
+   "note": "The t of utan is broken in print and looks like 'ucan'. Transcribed as utan."
+  },
+  {
+   "strip": "0005_05",
+   "text": "a. ngn till ngn",
+   "note": "In this roman fount n often looks like u at 450 dpi (also 'f. ngn' in 0005_06). Read as ngn, but the first and last letters here look closed at the bottom, so turned sorts ('ugu', 'ngu') cannot be ruled out."
+  }
+ ]
+}

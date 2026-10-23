@@ -1,0 +1,63 @@
+{
+ "page": "0114",
+ "strips_done": 7,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0114_01",
+   "printed": "Furstinnna",
+   "probably_meant": "Furstinna",
+   "note": "Headword printed with three n's."
+  },
+  {
+   "strip": "0114_03",
+   "printed": "(mycket f,)",
+   "probably_meant": "(mycket f.)",
+   "note": "Comma for full stop after the abbreviation f."
+  },
+  {
+   "strip": "0114_03",
+   "printed": "(oeg.)::",
+   "probably_meant": "(oeg.).:",
+   "note": "Two colons printed after the parenthesis."
+  },
+  {
+   "strip": "0114_06",
+   "printed": "gen. ποδος.:",
+   "probably_meant": "gen. -ποδος",
+   "note": "The Fyrfotad entry has no hyphen or accent; Fyrbent has '-ποδος.' Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0114_02",
+   "text": "ὢ",
+   "note": "Fy: the accent on ω looks like smooth breathing plus grave (ὢ). It could be ὦ or ὤ."
+  },
+  {
+   "strip": "0114_01",
+   "text": "ἐρινυώδης",
+   "note": "The breathing on the first letter is faint; read as smooth."
+  },
+  {
+   "strip": "0114_01",
+   "text": "αἱ",
+   "note": "The breathing over ι is small; read as rough."
+  },
+  {
+   "strip": "0114_05",
+   "text": "τετταρακοντάς",
+   "note": "The letter after ν is poorly formed and looks partly like ι, but the word must be τετταρακοντάς."
+  },
+  {
+   "strip": "0114_04",
+   "text": "μηχαναῖς",
+   "note": "The first letter is clipped at the column edge."
+  },
+  {
+   "strip": "0114_05",
+   "text": "͵μ / ͵δ",
+   "note": "Printed as thousands numerals with a low-left stroke, transcribed with U+0375. Prime numerals written as U+02B9 (δʹ, υʹ, μʹ)."
+  }
+ ]
+}
