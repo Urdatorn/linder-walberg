@@ -96,7 +96,7 @@ def settings_of(args) -> dict:
     return {
         "model": args.model, "prompt": args.prompt, "scale": args.scale, "max_side": args.max_side,
         "max_new_tokens": args.max_new_tokens, "ocr_heads": args.ocr_heads,
-        "front_matter": args.front_matter, "latin_heads": args.latin_heads,
+        "front_matter": args.front_matter, "latin_heads": args.latin_heads and "marker_or_blank",
     }
 
 
@@ -141,14 +141,23 @@ def find_loop(tokens: list[int], max_period: int = 64, min_reps: int = 8, min_sp
     return None
 
 
-# An entry line as the model writes it: "<tab/> " (indented entry) or "# "
-# (bold heading) and then the headword, which ends at the first comma.
-HEADWORD_OPEN = re.compile(r"^\s*(?:<tab/>|#+)\s*[^,\n]{0,40}$")
+# An entry as the model writes it: a paragraph opening "<tab/> " (indented
+# entry) or "# " (bold heading), or with no marker after a blank line, and
+# then the headword, which ends at the first comma.
+HEADWORD_OPEN = re.compile(r"^\s*(?:(<tab/>|#+)\s*)?[^,\n]{0,40}$")
 
 
 def in_headword(tail: str) -> bool:
-    """Whether generation is inside a Swedish headword, given the text so far."""
-    return bool(HEADWORD_OPEN.match(tail.rsplit("\n", 1)[-1])) and "\n" in tail
+    """Whether generation is inside a Swedish headword, given the text so far.
+
+    A strip's first line counts only with a marker: without one it is usually
+    Greek carried over from the previous column.
+    """
+    if "\n" not in tail:
+        return False
+    before, line = tail.rsplit("\n", 1)
+    m = HEADWORD_OPEN.match(line)
+    return bool(m) and (m.group(1) is not None or before.rstrip(" \t").endswith("\n"))
 
 
 def greek_token_ids(tokenizer) -> list[int]:
@@ -166,6 +175,15 @@ def greek_token_ids(tokenizer) -> list[int]:
         if tok and any(to_byte.get(c) in (0xCD, 0xCE, 0xCF, 0xE1) for c in tok):
             ids.append(i)
     return ids
+
+
+def too_short(strip: Strip, image, text: str, min_density: float = 0.25) -> bool:
+    """A column strip with far less text than its height holds.
+
+    Column strips average 1.3 characters per pixel of height (at scale 0.5)
+    and 99.5% have more than 0.9; under 0.25 the model has stopped early.
+    """
+    return strip.kind == "col" and image.size[1] > 300 and len(text) < min_density * image.size[1]
 
 
 class Model:
@@ -219,11 +237,11 @@ class Model:
                 self.prompt_len = prompt_len
 
             def __call__(self, input_ids, scores):
-                start = max(self.prompt_len, input_ids.shape[1] - 24)
+                start = max(self.prompt_len, input_ids.shape[1] - 32)
                 for b, row in enumerate(input_ids[:, start:].tolist()):
                     nl = max((i for i, t in enumerate(row) if t in newline_ids), default=None)
                     if nl is not None:
-                        tail = tokenizer.decode(row[nl:])
+                        tail = tokenizer.decode(row[max(nl - 1, 0):])     # with the line before's end
                     elif start == self.prompt_len:          # the strip's first line
                         tail = "\n" + tokenizer.decode(row)
                     else:
@@ -237,7 +255,7 @@ class Model:
         log(f"latin_heads={args.latin_heads} greek_tokens={len(greek)} newline_tokens={len(newline_ids)}")
         log(f"model_loaded seconds={time.time() - t0:.1f} gpu_mem_gb={torch.cuda.memory_allocated() / 2**30:.1f}")
 
-    def transcribe(self, images, prompt: str | None = None) -> list[dict]:
+    def transcribe(self, images, prompt: str | None = None, latin: bool = True) -> list[dict]:
         torch = self.torch
         inputs = self.processor(
             text=[self.chats[prompt or self.args.prompt]] * len(images), images=images, padding=True, return_tensors="pt"
@@ -246,7 +264,7 @@ class Model:
             out = self.model.generate(
                 **inputs, max_new_tokens=self.args.max_new_tokens, do_sample=False,
                 stopping_criteria=self.stopping(inputs["input_ids"].shape[1]),
-                logits_processor=self.processors(inputs["input_ids"].shape[1]),
+                logits_processor=self.processors(inputs["input_ids"].shape[1]) if latin else None,
             )
         new = out[:, inputs["input_ids"].shape[1]:].tolist()
         results = []
@@ -346,7 +364,9 @@ def main() -> int:
             {"text": "", "new_tokens": 0, "hit_limit": False, "loop": False} for _ in queue]
         dt = time.time() - t0
         n_tok = sum(r["new_tokens"] for r in results)
-        retry = [(q, r) for q, r in zip(queue, results) if r["loop"] or r["hit_limit"]]
+        for q, r in zip(queue, results):
+            r["short"] = too_short(q[2], q[3], r["text"])
+        retry = [(q, r) for q, r in zip(queue, results) if model and (r["loop"] or r["hit_limit"] or r["short"])]
         if retry:
             # A strip that loops is read again, whole, at other scales and with
             # the other prompt: in tests a looping strip read cleanly at a
@@ -355,36 +375,47 @@ def main() -> int:
             # none is clean, the longest text before a loop is, flagged, but
             # never one that ran to the token limit when another did not:
             # those are invented text the loop guard could not see as a cycle.
+            # A strip that came back far too short is retried too, and last
+            # without the headword constraint: a column that opens with Greek
+            # carried over under a "#" line ("# Förakta.\n\nτό γε παρόν")
+            # cannot be read with Greek forbidden there.
             t_retry = time.time()
             other = "cllg" if args.prompt != "cllg" else "paper"
+            ladder = [(other, 0.55, True), (args.prompt, 0.6, True), (other, 0.45, True), (args.prompt, 0.4, True)]
+            if args.latin_heads:
+                ladder += [(args.prompt, args.scale, False), ("paper", args.scale, False)]
             for r in (r for _, r in retry):
-                r["first_try"] = {"text": r["text"], "new_tokens": r["new_tokens"]}
+                r["first_try"] = {"text": r["text"], "new_tokens": r["new_tokens"], "short": r["short"]}
                 r["attempts"] = []
                 r["retried"] = True
             left = list(retry)
-            for prompt, scale in [(other, 0.55), (args.prompt, 0.6), (other, 0.45), (args.prompt, 0.4)]:
+            for prompt, scale, latin in ladder:
                 if not left:
                     break
                 images = [render(pending[page]["grey"], strip, scale, args.max_side) for (page, _, strip, _), _ in left]
-                outs = model.transcribe(images, prompt)
+                outs = model.transcribe(images, prompt, latin)
                 n_tok += sum(o["new_tokens"] for o in outs)
                 still = []
                 for (q, r), o in zip(left, outs):
-                    bad = o["loop"] or o["hit_limit"]
-                    r["attempts"].append({"prompt": prompt, "scale": scale, "new_tokens": o["new_tokens"],
-                                          "loop": bad, "text": o["text"]})
+                    short = too_short(q[2], q[3], o["text"])
+                    bad = o["loop"] or o["hit_limit"] or short
+                    r["attempts"].append({"prompt": prompt, "scale": scale, "latin_heads": latin,
+                                          "new_tokens": o["new_tokens"], "loop": bad, "short": short, "text": o["text"]})
                     if bad:
                         still.append((q, r))
                     else:
                         r.update(text=o["text"], new_tokens=o["new_tokens"], loop=False, hit_limit=False,
-                                 prompt=prompt, scale=scale)
+                                 short=False, prompt=prompt, scale=scale, latin_heads=latin)
                 left = still
             for _, r in left:
-                tries = r["attempts"] + [{**r["first_try"], "prompt": args.prompt, "scale": args.scale}]
-                best = max(tries, key=lambda a: (a["new_tokens"] < args.max_new_tokens, len(a["text"])))
-                r.update(text=best["text"], prompt=best["prompt"], scale=best["scale"], loop=True, hit_limit=False)
-            log(f"retry strips={len(retry)} seconds={time.time() - t_retry:.1f} still_looping={len(left)} "
-                + " ".join(f"{q[0]}:{q[1]}->{r.get('prompt')}@{r.get('scale')}" for q, r in retry))
+                tries = r["attempts"] + [{**r["first_try"], "prompt": args.prompt, "scale": args.scale,
+                                          "latin_heads": args.latin_heads}]
+                best = max(tries, key=lambda a: (a["new_tokens"] < args.max_new_tokens, not a["short"], len(a["text"])))
+                r.update(text=best["text"], prompt=best["prompt"], scale=best["scale"],
+                         latin_heads=best["latin_heads"], short=best["short"], loop=True, hit_limit=False)
+            log(f"retry strips={len(retry)} seconds={time.time() - t_retry:.1f} still_failing={len(left)} "
+                + " ".join(f"{q[0]}:{q[1]}->{r.get('prompt')}@{r.get('scale')}"
+                           + ("" if r.get("latin_heads", True) else "/free") for q, r in retry))
         for (page, n, strip, image), r in zip(queue, results):
             rec = pending[page]
             rec["strips"][n].update(r)
