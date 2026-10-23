@@ -96,7 +96,7 @@ def settings_of(args) -> dict:
     return {
         "model": args.model, "prompt": args.prompt, "scale": args.scale, "max_side": args.max_side,
         "max_new_tokens": args.max_new_tokens, "ocr_heads": args.ocr_heads,
-        "front_matter": args.front_matter,
+        "front_matter": args.front_matter, "latin_heads": args.latin_heads,
     }
 
 
@@ -120,15 +120,16 @@ def join_page(strips: list[dict]) -> str:
     return "\n".join(out).strip() + "\n"
 
 
-def find_loop(tokens: list[int], max_period: int = 24, min_reps: int = 8, min_span: int = 32) -> int | None:
+def find_loop(tokens: list[int], max_period: int = 64, min_reps: int = 8, min_span: int = 32) -> int | None:
     """Start of a cycle repeating at the end of tokens, if there is one.
 
     Greedy decoding sometimes falls into "οἷον, οἷον, οἷον, ..." until the
     token limit; a block of p tokens repeated min_reps times (and at least
-    min_span tokens) at the tail is taken as such a loop.
+    min_span tokens) at the tail is taken as such a loop. Blocks longer than
+    24 tokens ("Φορνίδιον, οἷον φορνίδιον ἐν τῷ φορνίδιον.") need only 4.
     """
     for p in range(1, max_period + 1):
-        reps = max(min_reps, -(-min_span // p))
+        reps = max(min_reps if p <= 24 else 4, -(-min_span // p))
         if len(tokens) < p * reps:
             continue
         tail = tokens[-p:]
@@ -138,6 +139,33 @@ def find_loop(tokens: list[int], max_period: int = 24, min_reps: int = 8, min_sp
                 start -= p
             return start
     return None
+
+
+# An entry line as the model writes it: "<tab/> " (indented entry) or "# "
+# (bold heading) and then the headword, which ends at the first comma.
+HEADWORD_OPEN = re.compile(r"^\s*(?:<tab/>|#+)\s*[^,\n]{0,40}$")
+
+
+def in_headword(tail: str) -> bool:
+    """Whether generation is inside a Swedish headword, given the text so far."""
+    return bool(HEADWORD_OPEN.match(tail.rsplit("\n", 1)[-1])) and "\n" in tail
+
+
+def greek_token_ids(tokenizer) -> list[int]:
+    """Tokens whose bytes can start or contain a Greek letter.
+
+    The tokenizer is byte-level, so a Greek letter may be split across
+    tokens; any token holding a lead byte of the Greek blocks (0xCD-0xCF for
+    U+0340-03FF, 0xE1 for U+1F00-1FFF) is counted, which costs no Swedish
+    letter (å ä ö é ü are 0xC3).
+    """
+    from transformers.models.gpt2.tokenization_gpt2 import bytes_to_unicode
+    to_byte = {c: b for b, c in bytes_to_unicode().items()}
+    ids = []
+    for i, tok in enumerate(tokenizer.convert_ids_to_tokens(list(range(len(tokenizer))))):
+        if tok and any(to_byte.get(c) in (0xCD, 0xCE, 0xCF, 0xE1) for c in tok):
+            ids.append(i)
+    return ids
 
 
 class Model:
@@ -174,6 +202,39 @@ class Model:
                 return torch.tensor([find_loop(row) is not None for row in tails], device=input_ids.device)
 
         self.stopping = lambda prompt_len: StoppingCriteriaList([LoopStop(prompt_len)])
+
+        from transformers import LogitsProcessor, LogitsProcessorList
+        tokenizer = self.processor.tokenizer
+        newline_ids = {i for i, t in enumerate(tokenizer.convert_ids_to_tokens(list(range(len(tokenizer)))))
+                       if t and "\u010a" in t}           # byte-level "\n"
+        greek = torch.tensor(greek_token_ids(tokenizer), device="cuda")
+
+        class LatinHeadwords(LogitsProcessor):
+            """Forbid Greek letters between an entry marker and the first comma.
+
+            Every headword in the dictionary is Swedish, but on some pages the
+            bold headword face is read as Greek ("Ηάρφιν" for Hårfin).
+            """
+            def __init__(self, prompt_len: int):
+                self.prompt_len = prompt_len
+
+            def __call__(self, input_ids, scores):
+                start = max(self.prompt_len, input_ids.shape[1] - 24)
+                for b, row in enumerate(input_ids[:, start:].tolist()):
+                    nl = max((i for i, t in enumerate(row) if t in newline_ids), default=None)
+                    if nl is not None:
+                        tail = tokenizer.decode(row[nl:])
+                    elif start == self.prompt_len:          # the strip's first line
+                        tail = "\n" + tokenizer.decode(row)
+                    else:
+                        continue
+                    if in_headword(tail):
+                        scores[b, greek] = -float("inf")
+                return scores
+
+        self.processors = (lambda prompt_len: LogitsProcessorList([LatinHeadwords(prompt_len)])) \
+            if args.latin_heads else (lambda prompt_len: None)
+        log(f"latin_heads={args.latin_heads} greek_tokens={len(greek)} newline_tokens={len(newline_ids)}")
         log(f"model_loaded seconds={time.time() - t0:.1f} gpu_mem_gb={torch.cuda.memory_allocated() / 2**30:.1f}")
 
     def transcribe(self, images, prompt: str | None = None) -> list[dict]:
@@ -185,6 +246,7 @@ class Model:
             out = self.model.generate(
                 **inputs, max_new_tokens=self.args.max_new_tokens, do_sample=False,
                 stopping_criteria=self.stopping(inputs["input_ids"].shape[1]),
+                logits_processor=self.processors(inputs["input_ids"].shape[1]),
             )
         new = out[:, inputs["input_ids"].shape[1]:].tolist()
         results = []
@@ -209,13 +271,15 @@ def main() -> int:
     ap.add_argument("--pages", help="e.g. 0005-0009,0050; default all")
     ap.add_argument("--shard", type=int, default=0)
     ap.add_argument("--num-shards", type=int, default=1)
-    ap.add_argument("--prompt", choices=sorted(PROMPTS), default="paper")
+    ap.add_argument("--prompt", choices=sorted(PROMPTS), default="paper_sv")
     ap.add_argument("--scale", type=float, default=0.5, help="scan pixels to model pixels")
     ap.add_argument("--max-side", type=int, default=1024, help="longest side of a strip image")
     ap.add_argument("--max-new-tokens", type=int, default=2048, help="a strip needs about 500-900")
     ap.add_argument("--batch-size", type=int, default=16, help="strips per generate() call")
     ap.add_argument("--front-matter", default="0001-0004", help="pages read as one column")
     ap.add_argument("--ocr-heads", action="store_true", help="also transcribe running heads")
+    ap.add_argument("--latin-heads", action=argparse.BooleanOptionalAction, default=True,
+                    help="forbid Greek letters in headwords (after <tab/> or # up to the first comma)")
     ap.add_argument("--save-strips", action="store_true")
     ap.add_argument("--overwrite", action="store_true")
     ap.add_argument("--dry-run", action="store_true", help="segment and render only")
@@ -288,7 +352,9 @@ def main() -> int:
             # the other prompt: in tests a looping strip read cleanly at a
             # neighbouring scale or under the other prompt, while halving it
             # made the model hallucinate. The first clean reading is kept; if
-            # none is clean, the longest text before a loop is, flagged.
+            # none is clean, the longest text before a loop is, flagged, but
+            # never one that ran to the token limit when another did not:
+            # those are invented text the loop guard could not see as a cycle.
             t_retry = time.time()
             other = "cllg" if args.prompt != "cllg" else "paper"
             for r in (r for _, r in retry):
@@ -314,8 +380,8 @@ def main() -> int:
                                  prompt=prompt, scale=scale)
                 left = still
             for _, r in left:
-                best = max(r["attempts"] + [{**r["first_try"], "prompt": args.prompt, "scale": args.scale}],
-                           key=lambda a: len(a["text"]))
+                tries = r["attempts"] + [{**r["first_try"], "prompt": args.prompt, "scale": args.scale}]
+                best = max(tries, key=lambda a: (a["new_tokens"] < args.max_new_tokens, len(a["text"])))
                 r.update(text=best["text"], prompt=best["prompt"], scale=best["scale"], loop=True, hit_limit=False)
             log(f"retry strips={len(retry)} seconds={time.time() - t_retry:.1f} still_looping={len(left)} "
                 + " ".join(f"{q[0]}:{q[1]}->{r.get('prompt')}@{r.get('scale')}" for q, r in retry))

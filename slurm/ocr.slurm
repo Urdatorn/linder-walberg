@@ -62,7 +62,7 @@ trap 'kill "$smi_pid" 2>/dev/null || true' EXIT
     --model CLLG/Qwen3VL-8B-synth_real \
     --shard "$shard" --num-shards "$num_shards" \
     --batch-size "${BATCH_SIZE:-16}" \
-    --prompt "${PROMPT:-paper}" \
+    --prompt "${PROMPT:-paper_sv}" \
     --scale "${SCALE:-0.5}" \
     ${PAGES:+--pages "$PAGES"} \
     ${EXTRA_ARGS:-}
