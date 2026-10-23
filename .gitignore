@@ -3,3 +3,4 @@ runeberg_txt/
 ocr_runs/
 .logs/
 __pycache__/
+.venv-x86/

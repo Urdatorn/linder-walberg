@@ -1,0 +1,22 @@
+page	printed_page	column	line	entry	printed	corrected	source	status	note
+0007	3	1	29	Afbryta	se Bryta 2)	se Bryta 1) a)	tryckfel	accepted	Tryckfel: står 2, läs 1) a)
+0030	26	1	27-8	Bark	βυρσοδεφικόν. φλοιὸς βυρσοδεφικός	βυρσοδεψικόν. φλοιὸς βυρσοδεψικός	tryckfel	accepted	Tryckfel: står βυρσοδεφικον -ός, läs βυρσοδεψικόν- ός
+0031	27	2	21	Bedja	αἰτεῖσθαί τινός τι	αἰτεῖσθαί τινά τι	tryckfel	accepted	Tryckfel: står τινός, läs τινά
+0034	30	2	48-9	Behagfull	ἐπαφροδίσιος	ἐπαφρόδιτος	tryckfel	accepted	Tryckfel: står ἐπαφροδίσιος, läs ἐπαφρόδιτος
+0055	51	2	51	Bort	παδιᾷ ἐκπλήττειν	παιδιᾷ ἐκπλήττειν	tryckfel	accepted	Tryckfel: står παδιᾷ, läs παιδιᾷ
+0062	58	2	33	Bud	Jfr Bjuda 3)	Jfr Bjuda 4)	tryckfel	accepted	Tryckfel: står 3), läs 4); Bjuda 4) is 'i handel'
+0067	63	2	44	Cirklad	κομψώδης, 2	κομψός, 3	tryckfel	accepted	Tryckfel: står κομψώδης, 2, läs κομψός, 3
+0150	146	2	24	Glöd	kollektivt, se Glödhög.	kollektivt, ἀνθρακιά, ἡ.	tryckfel	accepted	Tryckfel: står se Glödhög., läs ἀνθρακιά, ἡ.
+0155	151	2	31	Gråta	δακρυχοεῖν	δακρυρροεῖν	tryckfel	accepted	Tryckfel: står δακρυχοεῖν, läs δακρυρροεῖν
+0170	166	1	28	Herbergera	ξεινίζειν	ξενίζειν	tryckfel	accepted	Tryckfel: står ξεινίζειν, läs ξενίζειν
+0251	247	1	66	Likstämmig	σόμφωνος	σύμφωνος	tryckfel	accepted	Tryckfel: står σόμφωνος, läs σύμφωνος
+0296	292	1	49	Nedanför(e)	ὑπό m. gen.:	ὑπό m. dat.:	tryckfel	accepted	Tryckfel: står ὑπό m gen., läs ὑπό m. dat.; the first ὑπό m. gen. in the entry is right
+0341	337	2	66	Ponton	σχειδία	σχεδία	tryckfel	accepted	Tryckfel: står σχειδία, läs σχεδία
+0524	520	2	25	Ypperlig	smnsättning m. ε-υ	smnsättning m. ευ-	tryckfel	accepted	Tryckfel: står ε-υ, läs ευ-
+0006	2			Af	ἐνὸς πλέθρου	ἑνὸς πλέθρου	proofreading	accepted	missing rough breathing
+0006	2			Af	οἵ παρὰ βασιλέως	οἱ παρὰ βασιλέως	proofreading	accepted	article printed with accent
+0008	4			Affär	χρημτίζεσθαι	χρηματίζεσθαι	proofreading	accepted	letter dropped
+0008	4			Afgång	τοῦ βίον	τοῦ βίου	proofreading	accepted	checked in a physical copy: βίον as printed
+0009	5			Afledning	ἔξαγωγή	ἐξαγωγή	proofreading	accepted	checked in a physical copy: rough breathing as printed
+0009	5			Aflelse	σύλληψις, ἡ..	σύλληψις, ἡ.	proofreading	accepted	double stop
+0009	5			Aflysa	νόμον. ψήφισμα	νόμον, ψήφισμα	proofreading	ambiguous	full stop between list items where a comma is expected; the book also separates alternatives with full stops
