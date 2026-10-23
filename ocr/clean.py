@@ -109,7 +109,7 @@ def convert_ref(m: re.Match) -> str:
         if x in ("2", "3") and prev and script(prev.group(1)) == "greek":
             return x
         return x if after.startswith(")") else x + ")"
-    if re.fullmatch(r"[a-dA-D]|[α-δ]|[IVX]+", x):
+    if re.fullmatch(r"[a-d]|[α-δ]|[IVX]+", x):      # letter headings ("A") stay bare
         return x if after.startswith(")") else x + ")"
     if x == "l":
         return "l." if not after.startswith(".") else "l"
