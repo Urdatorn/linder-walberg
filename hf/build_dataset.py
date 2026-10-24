@@ -9,7 +9,7 @@ Four configurations from the same transcription:
                section, a heading): its box on the page, the crop, and its
                diplomatic and corrected text. Strips are the unit the text was
                proofread in, so image and text match exactly.
-  entries      one row per dictionary entry (pages 5-538), diplomatic and corrected
+  entries      one row per dictionary entry (pages 5-539), diplomatic and corrected
   corrections  every finding of the proofreading and the formal checks, with the
                decision taken and where it was applied
 
