@@ -1,0 +1,74 @@
+{
+ "page": "0483",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0483_00",
+   "printed": "broblem",
+   "probably_meant": "problem",
+   "note": "Printed 'bro-|blem' across the line break."
+  },
+  {
+   "strip": "0483_00",
+   "printed": "ὁρισμός. διορισμός, ὁ.",
+   "probably_meant": "ὁρισμός, διορισμός, ὁ.",
+   "note": "There is a full stop where a comma is expected."
+  },
+  {
+   "strip": "0483_05",
+   "printed": "Upphänga. ἀναρτᾶν",
+   "probably_meant": "Upphänga, ἀναρτᾶν",
+   "note": "There is a full stop after the headword instead of a comma."
+  },
+  {
+   "strip": "0483_05",
+   "printed": "ἀνάστημα. τό.",
+   "probably_meant": "ἀνάστημα, τό.",
+   "note": "There is a full stop before the article."
+  },
+  {
+   "strip": "0483_02",
+   "printed": "Upphandla, se Uppköpa,",
+   "probably_meant": "Upphandla, se Uppköpa.",
+   "note": "The entry ends with a comma."
+  },
+  {
+   "strip": "0483_01",
+   "printed": "Uppgrunda, se Upptänka.",
+   "note": "This headword is the same as the one before it (κατιλύειν). Probably intended, since it is the homonym meaning 'to think out'. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0483_00",
+   "text": "enl. u, λόγῳ",
+   "note": "Printed 'u ,' with a gap. A full stop after u may be lost."
+  },
+  {
+   "strip": "0483_00",
+   "text": "förteckning, ἀνα-",
+   "note": "The mark after 'förteckning' could be a comma or a full stop."
+  },
+  {
+   "strip": "0483_00",
+   "text": "ὡς ἔργον οὐδὲν ὄν",
+   "note": "The diacritic over ω looks heavy and might be ὥς. Kept as ὡς."
+  },
+  {
+   "strip": "0483_01",
+   "text": "προΐεσθαι",
+   "note": "This word is hyphenated at the line end (προϊε-|σθαι), and the diacritics over the ι are unclear."
+  },
+  {
+   "strip": "0483_04",
+   "text": "αὐτὸν καθιστάναι",
+   "note": "The breathing on υ looks smooth. It might be αὑτόν (rough)."
+  },
+  {
+   "strip": "0483_05",
+   "text": "anseende o.d.,",
+   "note": "Printed without a space, 'o.d.'."
+  }
+ ]
+}

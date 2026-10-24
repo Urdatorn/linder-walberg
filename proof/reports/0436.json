@@ -1,0 +1,42 @@
+{
+ "page": "0436",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0436_01",
+   "printed": "ὄπεας, ατος, τό",
+   "probably_meant": "ὀπέας, ατος, τό",
+   "note": "Breathing and accent as printed (rough-looking smooth breathing plus acute on the first syllable)."
+  },
+  {
+   "strip": "0436_03",
+   "printed": "Synbarhet τὸ φανερόν",
+   "probably_meant": "Synbarhet, τὸ φανερόν",
+   "note": "The comma after the headword is missing in the print."
+  },
+  {
+   "strip": "0436_05",
+   "printed": "ἀνθρωπίνῃ γνώμῃ οὐχ αἱρετός",
+   "probably_meant": "ἀνθρωπίνῃ γνώμῃ οὐχ αἱρετός (perhaps ληπτός/καταληπτός intended)",
+   "note": "Kept as printed; the meaning 'not to be grasped' fits αἱρετός only loosely."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0436_00",
+   "text": "μανείς, έντος, ὁ",
+   "note": "The mark over ε in the abbreviated genitive looks like an acute only, with no breathing."
+  },
+  {
+   "strip": "0436_01",
+   "text": "αἰνίττεσθαι εἰς, πρός τινα",
+   "note": "The mark over ι looks like a smooth breathing only. The other two εἴς in this entry clearly have breathing plus acute."
+  },
+  {
+   "strip": "0436_05",
+   "text": "ἄλλως τε καὶ εἰ.",
+   "note": "The mark over ι looks like a smooth breathing only, not a circumflex."
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "page": "0473",
+ "strips_done": 6,
+ "corrections": 42,
+ "misprints": [
+  {
+   "strip": "0473_02",
+   "printed": "περί τιτος",
+   "probably_meant": "περί τινος",
+   "note": "Täflan: τι-τος broken across line, τ for ν"
+  },
+  {
+   "strip": "0473_03",
+   "printed": "ξοΐς, ίδος, ἡ σμίλη, ἡ.",
+   "probably_meant": "ξοΐς, ίδος, ἡ. σμίλη, ἡ.",
+   "note": "Täljknif: no full stop after ἡ; ίδος has no breathing"
+  },
+  {
+   "strip": "0473_04",
+   "printed": "(ἐξ)ημεροῦν",
+   "probably_meant": "(ἐξ)ημεροῦν with ἡ- (ἡμεροῦν)",
+   "note": "Tämja: the bracketed prefix leaves ημεροῦν without its breathing"
+  },
+  {
+   "strip": "0473_00",
+   "printed": "αἰγίλωψ, ωπος, ὁ",
+   "probably_meant": "αἰγίλωψ, ωπος",
+   "note": "Tårfistel: the genitive ending has no accent, as elsewhere; it is kept as printed"
+  },
+  {
+   "strip": "0473_02",
+   "printed": "hungrande drickande",
+   "probably_meant": "hungrande, drickande",
+   "note": "comma missing between items in list"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0473_01",
+   "text": "ἔν τινι",
+   "note": "Täfla: the breathing on ἐν is small; I read smooth plus acute (the OCR had ἕν)"
+  },
+  {
+   "strip": "0473_01",
+   "text": "ἁμιλλᾶσθαι / ἁρμάμαξα",
+   "note": "I read the breathings as rough, against the OCR's smooth"
+  },
+  {
+   "strip": "0473_02",
+   "text": "Täflingskamp, -lek.",
+   "note": "after -lek the mark could be a full stop or a comma; I read a full stop"
+  },
+  {
+   "strip": "0473_01",
+   "text": "o. gm vv.",
+   "note": "the italic Latin vv looks like υυ; I followed the house transcription 'vv' (also used in 0473_04)"
+  }
+ ]
+}

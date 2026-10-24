@@ -1,0 +1,42 @@
+{
+ "page": "0380",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0380_01",
+   "printed": "ψάμμινος. 3.",
+   "probably_meant": "ψάμμινος, 3.",
+   "note": "A full stop is printed where the book normally has a comma before the termination number."
+  },
+  {
+   "strip": "0380_00",
+   "printed": "εὐσεβής 2 (from)",
+   "probably_meant": "εὐσεβής, 2 (from)",
+   "note": "No comma before the termination number. The ε of εὐσεβής is broken type."
+  },
+  {
+   "strip": "0380_05",
+   "printed": "φιλάληθες, ους, τό / φιλαλήθης, ους, ὁ",
+   "probably_meant": "οῦς",
+   "note": "The genitive endings are printed without an accent, unlike ἀληθές, οῦς on the same page."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0380_04",
+   "text": "ζητεῖν l. διώκειν, εὑρίσκειν",
+   "note": "The mark after διώκειν is faint and could be a full stop or a comma. I read it as a comma."
+  },
+  {
+   "strip": "0380_04",
+   "text": "πιστός, 3.",
+   "note": "There is a very faint full stop at the end of the Sanningsenlig entry."
+  },
+  {
+   "strip": "0380_03",
+   "text": "Sankhet, τελματώδης",
+   "note": "The τ is broken and looks like ι. I read it as τελματώδης."
+  }
+ ]
+}

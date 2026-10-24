@@ -1,0 +1,60 @@
+{
+ "page": "0444",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0444_03",
+   "printed": "βλασμημεῖν",
+   "probably_meant": "βλασφημεῖν",
+   "note": "Printed βλασμη-μεῖν across a line break; φ is missing."
+  },
+  {
+   "strip": "0444_05",
+   "printed": "εὖ περυκέναι πρός τι",
+   "probably_meant": "εὖ πεφυκέναι πρός τι",
+   "note": "The print clearly has ρ where φ belongs."
+  },
+  {
+   "strip": "0444_05",
+   "printed": "stor, lycklig t,,",
+   "probably_meant": "stor, lycklig t.,",
+   "note": "Two commas in the print."
+  },
+  {
+   "strip": "0444_05",
+   "printed": "λόγων δύναμις, ἡ ἡ τοῦ λέγειν δύναμις l. δεινότης,",
+   "probably_meant": "λόγων δύναμις, ἡ. ἡ τοῦ λέγειν δύναμις l. δεινότης.",
+   "note": "There is no stop after the first ἡ, and the Talegåfva entry ends with a comma."
+  },
+  {
+   "strip": "0444_02",
+   "printed": "εὔπειστον εἶναι,: s. låter",
+   "probably_meant": "εὔπειστον εἶναι.: s. låter",
+   "note": "The print has a comma followed by a colon."
+  },
+  {
+   "strip": "0444_02",
+   "printed": "ἀπολογεῖσθαι ὑπέρ τινος: t. m. ngn",
+   "probably_meant": "ἀπολογεῖσθαι ὑπέρ τινος.: t. m. ngn",
+   "note": "Only a colon is printed, with no full stop."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0444_02",
+   "text": "εὐπρόσοδος",
+   "note": "The type is damaged in the middle of the word. The likely reading is εὐπρόσοδος; the kit's guess εὐπρόσωθος is not supported by the scan."
+  },
+  {
+   "strip": "0444_05",
+   "text": "εὐφυΐα",
+   "note": "The mark over the ι is broken and looks like an apostrophe. I read it as a diaeresis with an acute (ΐ)."
+  },
+  {
+   "strip": "0444_00",
+   "text": "αἰσχροὶ λόγοι οἱ / σεμνοὶ λόγοι. οἱ",
+   "note": "I read the article as οἱ with a rough breathing and no accent; the OCR had οἵ. The stop after the second λόγοι looks like a period, though it may be a raised dot."
+  }
+ ]
+}

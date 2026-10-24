@@ -1,0 +1,41 @@
+{
+ "page": "0435",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0435_00",
+   "printed": "υός",
+   "probably_meant": "ὑός",
+   "note": "In the Svin entry the genitive is printed without its rough breathing. In Svinborst it is printed ὑός."
+  },
+  {
+   "strip": "0435_05",
+   "printed": "ποιεῖθαι",
+   "probably_meant": "ποιεῖσθαι",
+   "note": "The word is split across lines as ποιεῖ- / θαι, and the σ is missing."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0435_05",
+   "text": "gm vv.",
+   "note": "The abbreviation is set in italic letters that look like Greek υυ. I wrote vv. (verben), as in most strips elsewhere in the book."
+  },
+  {
+   "strip": "0435_05",
+   "text": "ἦ μήν / ἦ μὴν",
+   "note": "The breathing on ἦ is small and hard to read. I read it as smooth with a circumflex and no iota subscript."
+  },
+  {
+   "strip": "0435_03",
+   "text": "γάλως, ω, ἡ",
+   "note": "No accent is visible on the ω of the genitive ending."
+  },
+  {
+   "strip": "0435_00",
+   "text": "ὑεία θρίξ",
+   "note": "Printed with the breathing on υ and the acute on ί. I kept the accents as they appear in the print."
+  }
+ ]
+}

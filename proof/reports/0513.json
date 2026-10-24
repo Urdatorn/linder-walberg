@@ -1,0 +1,47 @@
+{
+ "page": "0513",
+ "strips_done": 6,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0513_00",
+   "printed": "hd kan du vinna derpå?",
+   "probably_meant": "hvad kan du vinna derpå?",
+   "note": "Print clearly shows 'hd'; probably a misprint or an unusual abbreviation of 'hvad'."
+  },
+  {
+   "strip": "0513_05",
+   "printed": "= ämua",
+   "probably_meant": "= ämna",
+   "note": "In 'ämua' the n looks like a turned letter, read as u."
+  },
+  {
+   "strip": "0513_05",
+   "printed": "χειμερεία",
+   "probably_meant": "χειμερία",
+   "note": "Printed this way, and kept."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0513_03",
+   "text": "ἀποκείμενος χόρτος",
+   "note": "The ο of χόρτος is broken or missing: the print shows χ, then an accent over a thin stroke, then ρτος. I wrote χόρτος."
+  },
+  {
+   "strip": "0513_03",
+   "text": "vild v., ἀγρία ἄμπελος",
+   "note": "No full stop shows after 'v' (printed 'v ,'), so the type probably failed to print. I wrote 'v.,'."
+  },
+  {
+   "strip": "0513_02",
+   "text": "κερδαλέως.:",
+   "note": "The final mark looks a little like '.;'. I read it as the usual '.:' with a heavy lower dot."
+  },
+  {
+   "strip": "0513_02",
+   "text": "εὕρημα",
+   "note": "The breathing on εὕρημα (here and at the start of 0513_03) is small and hard to make out. I read it as rough."
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "page": "0426",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0426_00",
+   "printed": "måttbestämniugar",
+   "probably_meant": "måttbestämningar",
+   "note": "turned n printed as u"
+  },
+  {
+   "strip": "0426_00",
+   "printed": "μέγας, γάλη, γα",
+   "probably_meant": "μέγας, μεγάλη, μέγα",
+   "note": "abbreviated feminine/neuter endings as printed; kept"
+  },
+  {
+   "strip": "0426_05",
+   "printed": "ὑποτιμᾶσθαί τινι",
+   "probably_meant": "ὑποτιμᾶσθαι",
+   "note": "enclitic accent on -σθαί before τινι as printed; kept"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0426_00",
+   "text": "ἁδρός",
+   "note": "breathing on alpha is small; it looks rough, which matches the standard form, but it is hard to tell from smooth"
+  },
+  {
+   "strip": "0426_00",
+   "text": "ἠπητήριον l. ἠπήτριον",
+   "note": "both breathings read as smooth"
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "page": "0490",
+ "strips_done": 6,
+ "corrections": 58,
+ "misprints": [
+  {
+   "strip": "0490_00",
+   "printed": "μαρτυριον, το.",
+   "probably_meant": "μαρτύριον, τό.",
+   "note": "Both accents are missing in the print (the word is broken across lines as μαρ-|τυριον)."
+  },
+  {
+   "strip": "0490_02",
+   "printed": "εἰσα",
+   "probably_meant": "εῖσα",
+   "note": "γεννηθείς, εἰσα, έν: the feminine ending is printed with a breathing or acute on ι instead of a circumflex."
+  },
+  {
+   "strip": "0490_04",
+   "printed": "ταλαίπωρας",
+   "probably_meant": "ταλαίπωρος",
+   "note": "In the Usel entry the scan clearly shows -ωρας."
+  },
+  {
+   "strip": "0490_04",
+   "printed": "(ἒκ τινος)",
+   "probably_meant": "(ἔκ τινος) or (ἐκ τινος)",
+   "note": "Printed with a smooth breathing plus a grave accent."
+  },
+  {
+   "strip": "0490_00",
+   "printed": "(t ex. ἀλουρήν)",
+   "probably_meant": "(t. ex. ἁλουργήν)",
+   "note": "\"t ex.\" has no full stop after t. The Greek word looks garbled in the print."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0490_00",
+   "text": "ἀλουρήν",
+   "note": "The letter after ου is damaged or odd-looking (it could be a broken γ or φ). I kept ἀλουρήν."
+  },
+  {
+   "strip": "0490_00",
+   "text": "ῆρος",
+   "note": "Only a circumflex is visible over η (gen. of οὐρητήρ), with no breathing, so I wrote ῆρος, not ἦρος."
+  },
+  {
+   "strip": "0490_00",
+   "text": "δυσουρία",
+   "note": "The print breaks it as δυς-|ουρία, with final ς at the line break. I joined it with σ, as δυσουρεῖν is printed mid-line in the same entry."
+  },
+  {
+   "strip": "0490_02",
+   "text": "εἰσα",
+   "note": "The mark over ι is small and could be a breathing or an acute."
+  },
+  {
+   "strip": "0490_01",
+   "text": "ὑδρία",
+   "note": "The mark over υ looks like a rough breathing, perhaps with an acute. I wrote ὑδρία."
+  }
+ ]
+}

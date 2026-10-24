@@ -1,0 +1,48 @@
+{
+ "page": "0430",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0430_01",
+   "printed": "δεακεῖσθαι",
+   "probably_meant": "διακεῖσθαι",
+   "note": "φιλικῶς δεακεῖσθαι πρός τινα; the same line has διακεῖσθαι spelled correctly"
+  },
+  {
+   "strip": "0430_03",
+   "printed": "hålla s,,",
+   "probably_meant": "hålla s.,",
+   "note": "The print has two commas after the abbreviation s."
+  },
+  {
+   "strip": "0430_05",
+   "printed": "ταύτη, τῆδε",
+   "probably_meant": "ταύτῃ, τῇδε",
+   "note": "No iota subscript is visible under either η"
+  },
+  {
+   "strip": "0430_00",
+   "printed": "θἀτέρῳ",
+   "probably_meant": "θατέρῳ",
+   "note": "The print has a coronis (smooth-breathing mark) over the alpha; copied as θἀτέρῳ"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0430_01",
+   "text": "(ha goda inkomster).:",
+   "note": "The print shows two dots low on the line (\"..\"), probably a colon set badly; written as \".:\""
+  },
+  {
+   "strip": "0430_05",
+   "text": "ἕδρα",
+   "note": "The diacritic over ε is a blot of ink; read as rough breathing with acute"
+  },
+  {
+   "strip": "0430_05",
+   "text": "ὧδε",
+   "note": "The diacritic over ω is hard to read; read as rough breathing with circumflex"
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "page": "0390",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0390_00",
+   "printed": "gen. ποδος",
+   "probably_meant": "gen. ποδός",
+   "note": "The accent is missing in the print."
+  },
+  {
+   "strip": "0390_00",
+   "printed": "ἑπταμηνιαῖος. 3",
+   "probably_meant": "ἑπταμηνιαῖος, 3",
+   "note": "A full stop where a comma is expected before the termination number."
+  },
+  {
+   "strip": "0390_02",
+   "printed": "Sjukdomsdiaguostik",
+   "probably_meant": "Sjukdomsdiagnostik",
+   "note": "The headword is printed with a turned n (u)."
+  },
+  {
+   "strip": "0390_02",
+   "printed": "(der smnhanget gör begr. tydligt)",
+   "probably_meant": "sammanhanget",
+   "note": "Kept as printed. It may be an abbreviation."
+  },
+  {
+   "strip": "0390_03",
+   "printed": "τὰ νοσακερόν, ἐπίνοσον, νοσερόν",
+   "probably_meant": "τὸ νοσακερόν",
+   "note": "The article does not agree with the neuter singular forms."
+  },
+  {
+   "strip": "0390_05",
+   "printed": "διακεῖσθαι,: s. i vanmakt",
+   "probably_meant": "διακεῖσθαι.: s. i vanmakt",
+   "note": "A comma and colon are printed where the usual separator is a full stop and colon."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0390_02",
+   "text": "ἡ νοσογνώμονική",
+   "note": "A stray acute-like mark stands over the ν of γνω. I placed it on ω. Strip 03 prints the word without it (νοσογνωμονική)."
+  },
+  {
+   "strip": "0390_02",
+   "text": "νόσανσις",
+   "note": "The print clearly reads νόσανσις, but the word is unattested and may be a misprint."
+  },
+  {
+   "strip": "0390_05",
+   "text": "εἷς τῶν ἑπτὰ καταδαρθόντων",
+   "note": "The diacritic over the ι is damaged and shows as a single stroke. I read it as εἷς."
+  },
+  {
+   "strip": "0390_03",
+   "text": "ὅ, ἡ νοσοῦντας θεραπεύων",
+   "note": "The second article has an odd mark, either a broken rough breathing or rough breathing plus an accent. I wrote ὁ."
+  }
+ ]
+}

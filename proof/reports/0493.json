@@ -1,0 +1,48 @@
+{
+ "page": "0493",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0493_01",
+   "printed": "διεξοιδικός",
+   "probably_meant": "διεξοδικός",
+   "note": "Extra ι is clearly printed"
+  },
+  {
+   "strip": "0493_03",
+   "printed": "ὑπόθεσει",
+   "probably_meant": "ὑποθέσει",
+   "note": "Accent printed on the wrong syllable"
+  },
+  {
+   "strip": "0493_04",
+   "printed": "ἀποδε-δίσθαι",
+   "probably_meant": "ἀποδεδόσθαι",
+   "note": "Word is split across strips 0493_03 and 0493_04; the print has ι where ο is expected"
+  },
+  {
+   "strip": "0493_04",
+   "printed": "hrtannat",
+   "probably_meant": "hvartannat",
+   "note": "Swedish word is printed with letters missing"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0493_04",
+   "text": "u:s af",
+   "note": "The s is blotted; the OCR read it as Greek 'u:α αἱ'"
+  },
+  {
+   "strip": "0493_01",
+   "text": "διάδοσις, ἡ",
+   "note": "An ink blot between the comma and ἡ; nothing is transcribed for it"
+  },
+  {
+   "strip": "0493_02",
+   "text": "etc..:",
+   "note": "The print appears to show two dots before the colon after etc"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "page": "0396",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0396_03",
+   "printed": "3) s. sig, a) se Bete 2).: = uppföra sig väl",
+   "probably_meant": "3) s. sig, a) se Bete 2).: b) uppföra sig väl",
+   "note": "The print has a double-line '=' where the sense letter b) would go; a), c) and d) follow it. Kept '=' as printed."
+  },
+  {
+   "strip": "0396_02",
+   "printed": "Skeppsvarfsfogde, νεωρός. ὁ.",
+   "probably_meant": "νεωρός, ὁ.",
+   "note": "There is a full stop before the article where a comma is expected."
+  },
+  {
+   "strip": "0396_05",
+   "printed": "συμφοραί. αἱ.",
+   "probably_meant": "συμφοραί, αἱ.",
+   "note": "There is a full stop before the article where a comma is expected."
+  },
+  {
+   "strip": "0396_04",
+   "printed": "Skicklighet, δεξιότης, ἡ. ... 2) ἐπιτηδειότης",
+   "probably_meant": "Skicklighet, 1) δεξιότης",
+   "note": "Sense number 1) is missing although 2) and 3) follow."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0396_02",
+   "text": "utan s., ἀπαίδευτος, 2.",
+   "note": "The print looks like 's..' (the second mark is a dot, perhaps a broken comma). I transcribed it as 's.,'."
+  },
+  {
+   "strip": "0396_05",
+   "text": "Skiffer, σχιστὸς λίθος, ὁ.",
+   "note": "The article is a filled ink blot carrying a rough breathing. I read it as ὁ."
+  },
+  {
+   "strip": "0396_04",
+   "text": "εὐφυΐα",
+   "note": "The ι carries a diaeresis with an accent-like mark, which is hard to separate at this resolution."
+  }
+ ]
+}

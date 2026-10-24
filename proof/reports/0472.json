@@ -1,0 +1,75 @@
+{
+ "page": "0472",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0472_00",
+   "printed": "δισποτεία",
+   "probably_meant": "δεσποτεία",
+   "note": "Clearly printed with ι in the first syllable."
+  },
+  {
+   "strip": "0472_01",
+   "printed": "(ᾖ μήν)",
+   "probably_meant": "(ἦ μήν)",
+   "note": "The η has an iota subscript and breathing plus circumflex. The standard oath particle is ἦ."
+  },
+  {
+   "strip": "0472_02",
+   "printed": "iskttaga",
+   "probably_meant": "iakttaga",
+   "note": "Under Tystlåtenhet. The Tystnad entry has 'iakttaga' spelled correctly."
+  },
+  {
+   "strip": "0472_02",
+   "printed": "ἀντελέγειν",
+   "probably_meant": "ἀντιλέγειν",
+   "note": "Printed with ε after ἀντ-."
+  },
+  {
+   "strip": "0472_05",
+   "printed": "τὸ μὴ δακρύειν,:",
+   "probably_meant": "τὸ μὴ δακρύειν.:",
+   "note": "The print has a comma followed by a colon."
+  },
+  {
+   "strip": "0472_03",
+   "printed": "ἴς, νός, ἡ.",
+   "probably_meant": "ἴς, ἰνός, ἡ.",
+   "note": "The genitive is printed in shortened form, 'νός'. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0472_00",
+   "text": "χαλεπός",
+   "note": "The π in 'χαλεπός, ὠμὸς τύραννος' is broken and looks like τ. Read as damaged type for π."
+  },
+  {
+   "strip": "0472_00",
+   "text": "τύραννος, δεσπότης",
+   "note": "Faint mark after τύραννος. It could be a comma or a full stop; kept as a comma."
+  },
+  {
+   "strip": "0472_01",
+   "text": "ᾖ",
+   "note": "The breathing on this glyph is blurred. It might be rough, giving ᾗ."
+  },
+  {
+   "strip": "0472_02",
+   "text": "t. hrm.",
+   "note": "Broken type. The book uses 'hrm.' elsewhere, so it is read that way."
+  },
+  {
+   "strip": "0472_05",
+   "text": "δακρύων, ουσα, ον.:",
+   "note": "After 'ον' only a dot and a raised dot are visible. Read as '.:' with the lower point damaged."
+  },
+  {
+   "strip": "0472_04",
+   "text": "ῥᾳδίως",
+   "note": "Faint mark under the α, read as an iota subscript."
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "page": "0443",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0443_02",
+   "printed": "äfv igelns",
+   "probably_meant": "äfv. igelns",
+   "note": "No full stop after the abbreviation äfv in the Tagg entry"
+  },
+  {
+   "strip": "0443_04",
+   "printed": "στρωτήρ, ἦρος. ὁ.:",
+   "probably_meant": "στρωτήρ, ἦρος, ὁ.:",
+   "note": "Full stop where a comma is expected between the genitive ending and the article"
+  },
+  {
+   "strip": "0443_04",
+   "printed": "Takt. 1) eg., ... b) ss. musik.",
+   "probably_meant": "1) a) eg., ... b) ss. musik.",
+   "note": "Sense b) has no matching a); kept as printed"
+  },
+  {
+   "strip": "0443_05",
+   "printed": "ἄρρυθμία",
+   "probably_meant": "ἀρρυθμία",
+   "note": "Taktlöshet: acute on the initial alpha as well as on ί, so the word has two accents"
+  },
+  {
+   "strip": "0443_05",
+   "printed": "ἀκαιρία, ἡ,",
+   "probably_meant": "ἀκαιρία, ἡ.",
+   "note": "The entry ends with a comma"
+  },
+  {
+   "strip": "0443_05",
+   "printed": "Tal, 1) antal, ... b) räknetal",
+   "probably_meant": "1) a) antal ... b) räknetal",
+   "note": "Sense b) has no matching a)"
+  },
+  {
+   "strip": "0443_02",
+   "printed": "κέντρον ἔχων, ουσα, ον",
+   "probably_meant": "κέντρον ἔχων, ουσα, ον (unaccented endings)",
+   "note": "Kept as printed without breathing or accent; the OCR had οὐσα"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0443_00",
+   "text": "ὥσπερ εἰ.",
+   "note": "The diacritic over ει is small; I read smooth breathing with no circumflex (the OCR had εἶ)"
+  },
+  {
+   "strip": "0443_01",
+   "text": "ῥαΐζειν",
+   "note": "The diacritics over ι at the line break are cramped; I read a diaeresis with an acute"
+  },
+  {
+   "strip": "0443_03",
+   "text": "hjerta. ὑποκνίζειν",
+   "note": "The mark after hjerta is probably a full stop, though a comma is possible"
+  }
+ ]
+}

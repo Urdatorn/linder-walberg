@@ -1,0 +1,49 @@
+{
+ "page": "0395",
+ "strips_done": 6,
+ "corrections": 62,
+ "misprints": [
+  {
+   "strip": "0395_01",
+   "printed": "περιοδος, ἡ (i tiden)",
+   "probably_meant": "περίοδος",
+   "note": "Printed without an accent."
+  },
+  {
+   "strip": "0395_03",
+   "printed": "εὐπρεπής. 2.",
+   "probably_meant": "εὐπρεπής, 2.",
+   "note": "There is a full stop before the termination number where a comma is expected."
+  },
+  {
+   "strip": "0395_03",
+   "printed": "κνημίς, ῖδος, ἡ",
+   "probably_meant": "κνημίς, ῖδος (genitive κνημῖδος)",
+   "note": "The circumflex is printed. It is kept as printed and may be correct."
+  },
+  {
+   "strip": "0395_04",
+   "printed": "κενή l. προσποίητος",
+   "probably_meant": "κενὴ",
+   "note": "An acute is printed where a grave is expected before the next word."
+  },
+  {
+   "strip": "0395_02",
+   "printed": "(Sedn)",
+   "probably_meant": "(Sedn.)",
+   "note": "The abbreviation has no full stop in the print."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0395_04",
+   "text": "προσποιούμενος, ένη",
+   "note": "I could not tell from the scan whether the ending has a breathing as well as the acute. I wrote ένη, with no breathing."
+  },
+  {
+   "strip": "0395_01",
+   "text": "ἐγ-, ἐπικάρσιος",
+   "note": "I used an ASCII hyphen for the suspended prefix. The earlier text had U+2010."
+  }
+ ]
+}

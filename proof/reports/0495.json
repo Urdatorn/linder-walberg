@@ -1,0 +1,48 @@
+{
+ "page": "0495",
+ "strips_done": 6,
+ "corrections": 60,
+ "misprints": [
+  {
+   "strip": "0495_00",
+   "printed": "ἀντ(επ)ανάγεσθοι",
+   "probably_meant": "ἀντ(επ)ανάγεσθαι",
+   "note": "Wrong ending in the print."
+  },
+  {
+   "strip": "0495_02",
+   "printed": "διαφέρων, ουσα, ον",
+   "probably_meant": "διαφέρων, οῦσα, ον",
+   "note": "ουσα is printed with no breathing or accent. The same thing happens twice in 0495_03, after διαφέρων and after ὑπερβάλλων."
+  },
+  {
+   "strip": "0495_03",
+   "printed": "hrigm",
+   "probably_meant": "hvarigm",
+   "note": "Swedish abbreviation for 'hvarigenom', printed garbled."
+  },
+  {
+   "strip": "0495_03",
+   "printed": "Utomordentlig, a) eg., ... 2) öfverträffande",
+   "probably_meant": "1) eg.",
+   "note": "The first sense is numbered a) and the second 2)."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0495_01",
+   "text": "(ἀπο)κάμνειν.",
+   "note": "The print shows '(ἀπο' followed by a small dot and then 'κάμνειν', with no clear closing parenthesis. I read the dot as a broken ')'."
+  },
+  {
+   "strip": "0495_00",
+   "text": "ἀκριβοῦν.",
+   "note": "The punctuation at the right margin after ἀκριβοῦν is cut off at the edge of the scan. Read as a full stop."
+  },
+  {
+   "strip": "0495_02",
+   "text": "ἑκτὸς αὑτοῦ ... ἐκστῆναι αὑτοῦ",
+   "note": "The breathings on αὑτοῦ are small and hard to make out. Read as rough."
+  }
+ ]
+}

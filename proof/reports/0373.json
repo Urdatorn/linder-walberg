@@ -1,0 +1,58 @@
+{
+ "page": "0373",
+ "strips_done": 7,
+ "corrections": 42,
+ "misprints": [
+  {
+   "strip": "0373_00",
+   "printed": "ἐπαγεῖν",
+   "probably_meant": "ἐπάγειν",
+   "note": "Circumflex printed on the ending, in 'låta ngn r., ἐπαγεῖν τινι τὴν ψῆφον'."
+  },
+  {
+   "strip": "0373_04",
+   "printed": "ἡνιοποιεῖον, τί.",
+   "probably_meant": "ἡνιοποιεῖον, τό.",
+   "note": "Article printed as τί."
+  },
+  {
+   "strip": "0373_05",
+   "printed": "utan s. o. mnst",
+   "probably_meant": "utan s. o. must",
+   "note": "Swedish 'must' printed with n."
+  },
+  {
+   "strip": "0373_05",
+   "printed": "μυθολόγημα, τύ.",
+   "probably_meant": "μυθολόγημα, τό.",
+   "note": "The letter is shaped like υ. It could also be a damaged ο."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0373_04",
+   "text": "ἐπ’ ἀστράβης ὀχεῖσθαι",
+   "note": "The first letter of ὀχεῖσθαι is broken: only a faint ο-shape and a breathing are visible. The OCR read ἰχεῖσθαι."
+  },
+  {
+   "strip": "0373_00",
+   "text": "καταψηφίζεσθαί, ὁμόψηφον",
+   "note": "The ψ is broken and looks like ιψ. I read it as plain ψ."
+  },
+  {
+   "strip": "0373_06",
+   "text": "κόϊξ, ικος, ὁ",
+   "note": "A stray mark (breathing or accent?) sits between the comma and ικος. I treated it as displaced type or dust and left the ending without an accent."
+  },
+  {
+   "strip": "0373_06",
+   "text": "Sagoålder",
+   "note": "There is a solid dot above the first a of the headword, unlike the ring of å. I took it for dust and kept 'Sago'."
+  },
+  {
+   "strip": "0373_06",
+   "text": "en sådan s, τοιοῦτόν τι",
+   "note": "Printed as 's ,' with a gap. The full stop after s may not have inked. I left it as 's,'."
+  }
+ ]
+}

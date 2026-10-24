@@ -1,0 +1,65 @@
+{
+ "page": "0442",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0442_00",
+   "printed": "hafva att att t. ngn",
+   "probably_meant": "hafva att t. ngn",
+   "note": "'att' repeated across a line break"
+  },
+  {
+   "strip": "0442_00",
+   "printed": "ἀνήνοτα",
+   "probably_meant": "ἀνήνυτα",
+   "note": "ο for υ"
+  },
+  {
+   "strip": "0442_00",
+   "printed": "Tacknämlig, χαρίεις, εσσα, εν. ἀχάριστος, 2.",
+   "probably_meant": "εὐχάριστος",
+   "note": "ἀχάριστος ('unpleasant') does not fit the headword 'Tacknämlig'"
+  },
+  {
+   "strip": "0442_01",
+   "printed": "κατηγόρημα, τί.",
+   "probably_meant": "κατηγόρημα, τό.",
+   "note": "wrong article"
+  },
+  {
+   "strip": "0442_03",
+   "printed": "(hrje platt kropp)",
+   "probably_meant": "(hvarje platt kropp)",
+   "note": "Swedish word has letters missing"
+  },
+  {
+   "strip": "0442_04",
+   "printed": "t. f. hm",
+   "probably_meant": "t. f. honom (hm.)",
+   "note": "abbreviation without its full stop, or a misprint"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0442_00",
+   "text": "οἶς (θήλεια), ός, ἡ",
+   "note": "The ending after the parenthesis looks like ο with a tall acute (genitive ending ός); it could also be read as δς."
+  },
+  {
+   "strip": "0442_01",
+   "text": "om saker, lönande",
+   "note": "The mark after 'saker' could be a comma or a full stop; I wrote a comma."
+  },
+  {
+   "strip": "0442_02",
+   "text": "φιλολοιδορία, ἡ. ψόγου",
+   "note": "A stray vertical bar follows 'ἡ.' in the print; I treated it as a printing artefact and left it out."
+  },
+  {
+   "strip": "0442_04",
+   "text": "ἐκ τούτου",
+   "note": "The first τ is broken and looks almost like ι; I read it as τ."
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "page": "0488",
+ "strips_done": 6,
+ "corrections": 36,
+ "misprints": [
+  {
+   "strip": "0488_03",
+   "printed": "5) återtaga",
+   "probably_meant": "7) återtaga",
+   "note": "Sense number repeats 5) between 6) and 8)."
+  },
+  {
+   "strip": "0488_03",
+   "printed": "u. lugnt vänligt, πράως",
+   "probably_meant": "u. lugnt, vänligt, πράως",
+   "note": "Comma missing between lugnt and vänligt."
+  },
+  {
+   "strip": "0488_05",
+   "printed": "Upptukta. se Tukta",
+   "probably_meant": "Upptukta, se Tukta",
+   "note": "A full stop is printed after the headword where a comma is expected (it may be a broken comma)."
+  },
+  {
+   "strip": "0488_05",
+   "printed": "Upptvätta. 1) se Aftvå",
+   "probably_meant": "Upptvätta, 1) se Aftvå",
+   "note": "A full stop is printed after the headword where a comma is expected."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0488_00",
+   "text": "ὀξυρεγμιώδης",
+   "note": "The type is broken in the middle (μι..δης). It is read as ὀξυρεγμιώδης by analogy with ἐρυγματώδης."
+  },
+  {
+   "strip": "0488_02",
+   "text": "ὀρύττειν 3) u. lån, δανείζεσθαι 4)",
+   "note": "No full stop is visible after ὀρύττειν or δανείζεσθαι, so none is written. One may have been printed faintly."
+  },
+  {
+   "strip": "0488_02",
+   "text": "ἀνα-. ἐγγράφειν",
+   "note": "The mark after ἀνα- at the end of the line looks like a full stop, though a comma would be expected."
+  },
+  {
+   "strip": "0488_03",
+   "text": "ὥσπερ εἰ.:",
+   "note": "The mark above ι is small. It is read as a smooth breathing (εἰ), not a circumflex (εἶ)."
+  },
+  {
+   "strip": "0488_05",
+   "text": "σκῶμμα. τό",
+   "note": "The mark after σκῶμμα is smudged. It could be a comma."
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "page": "0366",
+ "strips_done": 6,
+ "corrections": 62,
+ "misprints": [
+  {
+   "strip": "0366_02",
+   "printed": "framkalla r,,",
+   "probably_meant": "framkalla r.,",
+   "note": "double comma after the abbreviation r."
+  },
+  {
+   "strip": "0366_02",
+   "printed": "fiskning m. r.. κυρτεία",
+   "probably_meant": "fiskning m. r., κυρτεία",
+   "note": "double full stop where a comma is expected"
+  },
+  {
+   "strip": "0366_04",
+   "printed": "(δι)απορεῖν",
+   "probably_meant": "(δι)απορεῖν / ἀπορεῖν",
+   "note": "no breathing on α after the parenthesised prefix; kept as printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0366_05",
+   "text": "εὐπορία, ἡ.",
+   "note": "the article's breathing mark is damaged and looks like a smooth breathing; read as ἡ"
+  },
+  {
+   "strip": "0366_00",
+   "text": "ἀκοῇ",
+   "note": "the iota subscript under η is faint; kept ἀκοῇ"
+  }
+ ]
+}

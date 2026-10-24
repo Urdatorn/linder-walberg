@@ -1,0 +1,36 @@
+{
+ "page": "0467",
+ "strips_done": 6,
+ "corrections": 30,
+ "misprints": [
+  {
+   "strip": "0467_02",
+   "printed": "ὀδός",
+   "probably_meant": "οὐδός",
+   "note": "Tröskel: the print has ὀδός for the threshold word."
+  },
+  {
+   "strip": "0467_00",
+   "printed": "θρίψ, πός",
+   "probably_meant": "θρίψ, ιπός",
+   "note": "The genitive ending is printed as πός. This may be an intended abbreviation."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0467_03",
+   "text": "κλαύσει, οἰμώξει, εἶ.",
+   "note": "The diacritic on the ending alternative is hard to read. It looks like a circumflex with breathing (εἶ), but it might be εἰ."
+  },
+  {
+   "strip": "0467_02",
+   "text": "χιτωνίσκος, ὁ. χιτώνιον",
+   "note": "The punctuation after ὁ is a broken dot. I read it as a full stop."
+  },
+  {
+   "strip": "0467_02",
+   "text": "ἁλωνεύεσθαι",
+   "note": "The breathing looks rough in the scan. I transcribed it as printed."
+  }
+ ]
+}

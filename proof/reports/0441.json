@@ -1,0 +1,47 @@
+{
+ "page": "0441",
+ "strips_done": 7,
+ "corrections": 30,
+ "misprints": [
+  {
+   "strip": "0441_01",
+   "printed": "ἀνα-, δια-, κατα- ἀποτήκειν",
+   "probably_meant": "ἀνα-, δια-, κατα-, ἀποτήκειν (comma missing after κατα-; κατα- ends a printed line)",
+   "note": "Kept the prefix hyphen and wrote no comma, as printed."
+  },
+  {
+   "strip": "0441_05",
+   "printed": "χάρις, τος, ἡ",
+   "probably_meant": "χάρις, ιτος, ἡ",
+   "note": "The genitive ending is printed as 'τος'."
+  },
+  {
+   "strip": "0441_05",
+   "printed": "πίναξ, κος, ὁ",
+   "probably_meant": "πίναξ, ακος, ὁ",
+   "note": "The genitive ending is printed short."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0441_05",
+   "text": "διάγραμμα, τό",
+   "note": "The mark after γραμμα looks like ';' but its dot is faint, probably dust on a comma. I wrote ','."
+  },
+  {
+   "strip": "0441_05",
+   "text": "ἀποδέχε-",
+   "note": "The first letter is battered and looks almost like ὑ. ἀ fits ἀποδέχεσθαι, so I kept it."
+  },
+  {
+   "strip": "0441_02",
+   "text": "διάλυσις, ἡ.",
+   "note": "The breathing or accent on the last ἡ looks grave-like (broken type). I kept ἡ."
+  },
+  {
+   "strip": "0441_06",
+   "text": "ἀχαρίστως",
+   "note": "The breathing on the initial α is broken. I read it as smooth."
+  }
+ ]
+}

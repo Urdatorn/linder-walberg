@@ -1,0 +1,65 @@
+{
+ "page": "0379",
+ "strips_done": 6,
+ "corrections": 37,
+ "misprints": [
+  {
+   "strip": "0379_01",
+   "printed": "ἐπι , παρα-, συντυγχάνειν",
+   "probably_meant": "ἐπι-, παρα-, συντυγχάνειν",
+   "note": "The hyphen after the prefix ἐπι is missing in the print. Transcribed as 'ἐπι,'."
+  },
+  {
+   "strip": "0379_02",
+   "printed": "συμπεφυρμενον",
+   "probably_meant": "συμπεφυρμένον",
+   "note": "The print has no accent."
+  },
+  {
+   "strip": "0379_02",
+   "printed": "συμβασιλεύς, έως",
+   "probably_meant": "συμβασιλεύς, έως (ending with no breathing)",
+   "note": "The ending is printed with an acute and no breathing. Kept as printed."
+  },
+  {
+   "strip": "0379_03",
+   "printed": "σόμβουλον",
+   "probably_meant": "σύμβουλον",
+   "note": "The vowel is printed as ό."
+  },
+  {
+   "strip": "0379_04",
+   "printed": "ἐντυγχάνειν νινὶ διὰ λόγων",
+   "probably_meant": "τινὶ",
+   "note": "The print has ν instead of τ."
+  },
+  {
+   "strip": "0379_04",
+   "printed": "en an / nans",
+   "probably_meant": "annans",
+   "note": "The word breaks across lines with no hyphen printed. Written whole as 'annans'."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0379_05",
+   "text": "τἀληθῆ",
+   "note": "The mark over α could be a coronis or a grave accent. The OCR had ταληθῆ."
+  },
+  {
+   "strip": "0379_05",
+   "text": "γνώμῃ τῇ δικαιοτάτῃ",
+   "note": "The iota subscripts are faint or not visible in the scan. Kept as written."
+  },
+  {
+   "strip": "0379_02",
+   "text": "αὐτοῦ ταύτῃ",
+   "note": "The iota subscript under the η is barely visible."
+  },
+  {
+   "strip": "0379_04",
+   "text": "λόγων ἰέναι",
+   "note": "The breathing is hard to make out. It looks smooth, so it was kept as ἰέναι."
+  }
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "page": "0508",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0508_00",
+   "printed": "omvexlande hrannan v.",
+   "probably_meant": "omvexlande hvarannan v.",
+   "note": "Letters dropped in print; kept as printed."
+  },
+  {
+   "strip": "0508_01",
+   "printed": "ἐν μέτρω πεποιημένος",
+   "probably_meant": "ἐν μέτρῳ πεποιημένος",
+   "note": "No iota subscript is visible."
+  },
+  {
+   "strip": "0508_01",
+   "printed": "ἴκτις, δος, ἡ",
+   "probably_meant": "ἴκτις, ιδος, ἡ",
+   "note": "The genitive ending is printed without its initial ι."
+  },
+  {
+   "strip": "0508_01",
+   "printed": "πρός ἑσπέραν (om ngt, τινός)",
+   "probably_meant": "πρὸς ἑσπέραν",
+   "note": "Printed with an acute accent before the following word."
+  },
+  {
+   "strip": "0508_02",
+   "printed": "τί κακον οὐχί;",
+   "probably_meant": "τί κακὸν οὐχί;",
+   "note": "κακον has no accent in the print."
+  },
+  {
+   "strip": "0508_03",
+   "printed": "λαθων τοὺς ἄλλους ἔφυγεν",
+   "probably_meant": "λαθὼν",
+   "note": "The first λαθων has no accent."
+  },
+  {
+   "strip": "0508_03",
+   "printed": "ἑαυτόν λαθὼν",
+   "probably_meant": "ἑαυτὸν λαθὼν",
+   "note": "Printed with an acute accent before the following word."
+  },
+  {
+   "strip": "0508_04",
+   "printed": "τὰ μαθηματα",
+   "probably_meant": "τὰ μαθήματα",
+   "note": "No accent in the print."
+  },
+  {
+   "strip": "0508_04",
+   "printed": "τὸ περὶ τὰ γραμματα",
+   "probably_meant": "τὰ γράμματα",
+   "note": "No accent in the print."
+  },
+  {
+   "strip": "0508_05",
+   "printed": "σωφρονέστερός ἐστι l ἄμεινον",
+   "probably_meant": "ἐστι l. ἄμεινον",
+   "note": "The abbreviation l has no full stop."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0508_01",
+   "text": "γαλῆ, ἡ.",
+   "note": "There is a small mark under η that could be an iota subscript (γαλῇ) or a broken descender. I read it as γαλῆ."
+  },
+  {
+   "strip": "0508_01",
+   "text": "στιχήρης. 2.",
+   "note": "The mark after στιχήρης looks like a full stop, not a comma."
+  },
+  {
+   "strip": "0508_02",
+   "text": "ὁπωσδήποτε",
+   "note": "The breathing on the initial ο is a small blob and could be smooth or rough. I kept rough."
+  },
+  {
+   "strip": "0508_03",
+   "text": "(önska få kännedom)",
+   "note": "The left edge of the strip is cropped, so the start of the line reads 'lom'. I read it as kännedom (d cut off)."
+  },
+  {
+   "strip": "0508_03",
+   "text": "ἔλαθεν ἑαυτὸν ἀποκτείνας",
+   "note": "The accent on the second ἑαυτὸν is faint; it could be acute or grave."
+  },
+  {
+   "strip": "0508_03",
+   "text": "τέχνη, ἡ.",
+   "note": "The broken mark after τέχνη could be a comma or a full stop."
+  },
+  {
+   "strip": "0508_04",
+   "text": "ὁ, ἡ, τὸ κατὰ τὴν ἐπιστήμην",
+   "note": "Only a dot shows above το, so the accent may be broken. I wrote τὸ."
+  },
+  {
+   "strip": "0508_04",
+   "text": "παίδευμα, τό",
+   "note": "The ε is partly broken but readable."
+  },
+  {
+   "strip": "0508_05",
+   "text": "συγγραφή, ἡ: utfärda",
+   "note": "Only a colon is visible after ἡ, so a period may have dropped out."
+  },
+  {
+   "strip": "0508_05",
+   "text": "θρᾳ l. κρύφα",
+   "note": "A mark under α in θρᾳ reads as an iota subscript. There is none under κρύφα."
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "page": "0384",
+ "strips_done": 6,
+ "corrections": 110,
+ "misprints": [
+  {
+   "strip": "0384_00",
+   "printed": "σίγκλητος",
+   "probably_meant": "σύγκλητος",
+   "note": "Senat entry; the same entry later prints σύγκλητον correctly"
+  },
+  {
+   "strip": "0384_03",
+   "printed": "ἐκτὸν ἔτος ἄγων",
+   "probably_meant": "ἕκτον ἔτος ἄγων",
+   "note": "smooth breathing and grave accent on the wrong syllable"
+  },
+  {
+   "strip": "0384_03",
+   "printed": "ἑξαπλοῦς, ῆ, οῦν",
+   "probably_meant": "ἑξαπλοῦς, ῆ, οῦν",
+   "note": "kept as printed, ending ῆ with no breathing (the old OCR had ἢ)"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0384_02",
+   "text": "χειρόμακτρον, τό. ἐκμαγεῖον, τό (handduk).",
+   "note": "There is a broken type or blot between τό. and ἐκμαγεῖον. It could be an 'l.' or a stray quad. I wrote nothing there."
+  },
+  {
+   "strip": "0384_02",
+   "text": "ἐρωτοπαίγνιον ἑσπερινόν",
+   "note": "The breathing on ἑσπερινόν is faint. I took it as rough."
+  },
+  {
+   "strip": "0384_01",
+   "text": "(ἀπορ)ρᾳθυμεῖν",
+   "note": "I can see no breathing on the second ρ"
+  },
+  {
+   "strip": "0384_05",
+   "text": "om kläder o. d.",
+   "note": "The first point may be printed as a comma ('o, d.')"
+  },
+  {
+   "strip": "0384_03",
+   "text": "ϛʹ / ιϛʹ / ͵ϛ",
+   "note": "Numeral sign marks transcribed with keraia U+0374 and lower keraia U+0375. The book uses an apostrophe-like mark (elsewhere written χ' or ξ')."
+  }
+ ]
+}

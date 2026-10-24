@@ -1,0 +1,18 @@
+{
+ "page": "0512",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [],
+ "uncertain": [
+  {
+   "strip": "0512_03",
+   "text": "κοχλίας, ου, ὁ",
+   "note": "In Vindeltrappa, the first letter of 'ου' at the start of the line is broken type (it looks like 'ɔυ'). I read it as ου."
+  },
+  {
+   "strip": "0512_00",
+   "text": "(ἐξ)απατᾶν",
+   "note": "There is no breathing on α after the bracketed prefix. I copied it as printed."
+  }
+ ]
+}

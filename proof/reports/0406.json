@@ -1,0 +1,25 @@
+{
+ "page": "0406",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0406_01",
+   "printed": "s. hd man ej sått",
+   "probably_meant": "s. hvad man ej sått",
+   "note": "'hd' as printed; probably a misprint or odd abbreviation for 'hvad'"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0406_02",
+   "text": "(ὑπ)έκκαυμα",
+   "note": "The mark over ε looks like an acute (from ὑπέκκαυμα) rather than a breathing. Kept as an acute."
+  },
+  {
+   "strip": "0406_03",
+   "text": "vara s., δουλεύειν",
+   "note": "The full stop after 's' is faint or missing in the scan ('s ,'). Kept as 's.,'."
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "page": "0405",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0405_01",
+   "printed": "κατατέμνεεν",
+   "probably_meant": "κατατέμνειν",
+   "note": "s. i stycken, συν-, κατατέμνεεν; print clearly shows -εεν"
+  },
+  {
+   "strip": "0405_01",
+   "printed": "eg.. a)",
+   "probably_meant": "eg., a)",
+   "note": "double full stop after eg. in Skära 1)"
+  },
+  {
+   "strip": "0405_02",
+   "printed": "σπέπη",
+   "probably_meant": "σκέπη",
+   "note": "Skärm; π printed for κ"
+  },
+  {
+   "strip": "0405_02",
+   "printed": "σκὲπασμα",
+   "probably_meant": "σκέπασμα",
+   "note": "accent on ε looks grave in the scan"
+  },
+  {
+   "strip": "0405_03",
+   "printed": "ἀποστέγειν, -στεγάζειν",
+   "note": "kept as printed (comma between forms)"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0405_02",
+   "text": "σκὲπασμα",
+   "note": "accent on ε is small and could be a damaged acute"
+  },
+  {
+   "strip": "0405_03",
+   "text": "ἁλμυρότης",
+   "note": "breathing on initial α is hard to make out; it could be smooth plus acute. I wrote rough breathing"
+  },
+  {
+   "strip": "0405_03",
+   "text": "ἀψιμαχία",
+   "note": "mark on initial α looks like smooth plus acute, probably broken type. I wrote smooth breathing only"
+  },
+  {
+   "strip": "0405_05",
+   "text": "πόρπαξ, ακος",
+   "note": "genitive ending looks unaccented in the print"
+  }
+ ]
+}

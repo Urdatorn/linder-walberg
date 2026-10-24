@@ -1,0 +1,42 @@
+{
+ "page": "0519",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0519_00",
+   "printed": "ψύλαξ",
+   "probably_meant": "φύλαξ",
+   "note": "Under Väktare the print clearly has ψ. The same word under Väktarinna and φύλακα have φ."
+  },
+  {
+   "strip": "0519_05",
+   "printed": "ψηψίζε-",
+   "probably_meant": "ψηφίζε-",
+   "note": "Under Välja, at the end of the strip, the second letter ψ is clearly printed. The word continues on the next page."
+  },
+  {
+   "strip": "0519_01",
+   "printed": "hd v.",
+   "probably_meant": "hvad v.",
+   "note": "The abbreviation is printed as hd. 'hm' (hvem) follows in the same way."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0519_00",
+   "text": "φυλακίς, ίδος",
+   "note": "The mark on the iota of ίδος could be an acute or a smooth breathing. I chose the acute, since the genitive is φυλακίδος."
+  },
+  {
+   "strip": "0519_01",
+   "text": "ἆρα. ἆρ’ οὖν.",
+   "note": "The accent on the first ἆρα is read as a circumflex like the one on ἆρ’, but it could be ἄρα."
+  },
+  {
+   "strip": "0519_00",
+   "text": "(behagligt) :",
+   "note": "The print shows a space before the colon, so I kept it. The same applies to 'σωτηρία, ἡ :' in 0519_02."
+  }
+ ]
+}

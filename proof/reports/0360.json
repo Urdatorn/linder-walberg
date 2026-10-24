@@ -1,0 +1,41 @@
+{
+ "page": "0360",
+ "strips_done": 6,
+ "corrections": 65,
+ "misprints": [
+  {
+   "strip": "0360_04",
+   "printed": "κνῆσις. ἡ (kliande)",
+   "probably_meant": "κνῆσις, ἡ (kliande)",
+   "note": "A full stop is printed where a comma is expected before the article."
+  },
+  {
+   "strip": "0360_05",
+   "printed": "mycket r,, βαθύπλουτος",
+   "probably_meant": "mycket r., βαθύπλουτος",
+   "note": "A comma is printed in place of the abbreviation full stop after r."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0360_04",
+   "text": "τρῖψις, ἡ o. τριμμός",
+   "note": "The breathing on this ἡ looks smooth (ἠ) in the scan, possibly from worn type. I transcribed it as ἡ."
+  },
+  {
+   "strip": "0360_05",
+   "text": "δαψιλὴς δωρεά.:",
+   "note": "The colon after the full stop may be a semicolon in the italic setting. I kept the book's usual '.:'."
+  },
+  {
+   "strip": "0360_02",
+   "text": "-boid',",
+   "note": "A small raised mark after 'boid' looks like a stress mark or apostrophe. I kept it as an apostrophe."
+  },
+  {
+   "strip": "0360_03",
+   "text": "ἱππάς, άδος, ἡ",
+   "note": "The genitive is split across lines as 'ά-δος'. The ά shows only an acute and no breathing."
+  }
+ ]
+}

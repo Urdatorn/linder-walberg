@@ -1,0 +1,71 @@
+{
+ "page": "0458",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0458_00",
+   "printed": "σκίλυμος",
+   "probably_meant": "σκόλυμος",
+   "note": "Clearly printed with ι."
+  },
+  {
+   "strip": "0458_01",
+   "printed": "προσαγορεύεν",
+   "probably_meant": "προσαγορεύειν",
+   "note": "Under Titulera."
+  },
+  {
+   "strip": "0458_01",
+   "printed": "Tjena, a) göra tjenst",
+   "probably_meant": "Tjena, 1) göra tjenst",
+   "note": "The second sense is numbered 2), so a) is probably wrong."
+  },
+  {
+   "strip": "0458_02",
+   "printed": "hrtill t:r det?",
+   "probably_meant": "hvartill t:r det?",
+   "note": "Under Tjena."
+  },
+  {
+   "strip": "0458_03",
+   "printed": "5) smfattning",
+   "probably_meant": "3) sammanfattning",
+   "note": "Comes after 1) and 2) under Tjenst. smfattning may be an intended abbreviation."
+  },
+  {
+   "strip": "0458_03",
+   "printed": "tjeusteåligganden",
+   "probably_meant": "tjensteåligganden",
+   "note": "Looks like a turned n."
+  },
+  {
+   "strip": "0458_05",
+   "printed": "Tjerua",
+   "probably_meant": "Tjerna",
+   "note": "Second Tjerna headword (the noun), with a turned n."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0458_01",
+   "text": "εἴς τι",
+   "note": "The accent mark over ει is unclear; it could be read as a grave."
+  },
+  {
+   "strip": "0458_03",
+   "text": "χρῆσθαι: bevisa",
+   "note": "Printed as a colon with a space before it and no visible full stop. It may be a broken '.:'."
+  },
+  {
+   "strip": "0458_03",
+   "text": "tjeusteåligganden",
+   "note": "Unclear whether this is a turned n or broken type."
+  },
+  {
+   "strip": "0458_05",
+   "text": "Tjenstgöra, -ing, se Tjena",
+   "note": "The e of 'se' is broken; read as se."
+  }
+ ]
+}

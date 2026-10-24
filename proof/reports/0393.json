@@ -1,0 +1,59 @@
+{
+ "page": "0393",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0393_00",
+   "printed": "θλάσις, ἥ",
+   "probably_meant": "θλάσις, ἡ",
+   "note": "Article printed with a rough breathing plus an acute"
+  },
+  {
+   "strip": "0393_03",
+   "printed": "ζῷα ὀστρακηρά, τό",
+   "probably_meant": "ζῷα ὀστρακηρά, τά",
+   "note": "Wrong article for a neuter plural"
+  },
+  {
+   "strip": "0393_03",
+   "printed": "ἦχημα, τί.",
+   "probably_meant": "ἤχημα, τό.",
+   "note": "Circumflex instead of acute, and τί instead of τό; ἦχημα also occurs in the Skalla entry"
+  },
+  {
+   "strip": "0393_05",
+   "printed": "δυσωπηθεῖς, εῖσα",
+   "probably_meant": "δυσωπηθείς, εῖσα",
+   "note": "Circumflex printed on the masculine participle ending"
+  },
+  {
+   "strip": "0393_05",
+   "printed": "αἰσχύνειν περιποιεῖν",
+   "probably_meant": "αἰσχύνην περιποιεῖν",
+   "note": "In Skamfläck the noun αἰσχύνην seems to be meant; the print has the verb form"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0393_00",
+   "text": "ngt på halsen",
+   "note": "The t is broken type; ngt is read from the context"
+  },
+  {
+   "strip": "0393_00",
+   "text": "θλάσις, ἥ",
+   "note": "The mark over the eta looks like a rough breathing plus an acute; it could be a damaged plain ἡ"
+  },
+  {
+   "strip": "0393_01",
+   "text": "τοὺς πόδας l.d.",
+   "note": "The line is set tight and shows no space in l.d.; I kept it that way"
+  },
+  {
+   "strip": "0393_05",
+   "text": "ὀφλισκάνει.:",
+   "note": "The full stop before the colon is very faint"
+  }
+ ]
+}

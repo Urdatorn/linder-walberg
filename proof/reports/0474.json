@@ -1,0 +1,47 @@
+{
+ "page": "0474",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0474_00",
+   "printed": "γνώσκω",
+   "probably_meant": "γιγνώσκω",
+   "note": "Continuation from the previous page. Only the part on this page is transcribed, as printed."
+  },
+  {
+   "strip": "0474_02",
+   "printed": "στέγων, ουσα, ον",
+   "probably_meant": "στέγων, ουσα, ον (unaccented ending)",
+   "note": "The feminine ending is printed without breathing or accent. Kept as printed."
+  },
+  {
+   "strip": "0474_05",
+   "printed": "Törst. δίψα",
+   "probably_meant": "Törst, δίψα",
+   "note": "The headword appears to be followed by a full stop, not a comma."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0474_02",
+   "text": "στεγνός",
+   "note": "The omicron is broken in the print and looks like 'στεγνίς'. Read as στεγνός."
+  },
+  {
+   "strip": "0474_04",
+   "text": "t. ngt öfver ngn",
+   "note": "The print looks like 'ngu', probably a damaged n. Written as ngn."
+  },
+  {
+   "strip": "0474_05",
+   "text": "βάτινος, 3.:",
+   "note": "The full stop before the colon is faint ('3 :')."
+  },
+  {
+   "strip": "0474_05",
+   "text": "ἀκανθοπλήξ, ῆγος",
+   "note": "The breathing on ῆγος cannot be seen. Written as circumflex only."
+  }
+ ]
+}

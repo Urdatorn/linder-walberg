@@ -1,14 +1,14 @@
-Statsarkiv, τὸ σημόσιον.
+Statsarchiv, τὸ δημόσιον.
 
-Statsbank, τὸ σημόσιον. σημόσια 1) κοινά (χρήματα), τά.
+Statsbank, τὸ δημόσιον. δημόσια l. κοινά (χρήματα), τά.
 
-Statsbehof, σημοσία χρεία, ἡ.
+Statsbehof, δημοσία χρεία, ἡ.
 
 Statsbidrag, εἰσφορά, ἡ. λειτουργία, ἡ (se Lex.).
 
 Statsborgare, πολίτης, ου, ὁ.
 
-Statsbrist, τὸ ἐλλεῖπον τῶν σημοσίων l. d. .
+Statsbrist, τὸ ἐλλεῖπον τῶν δημοσίων l. d.
 
 Statsbrott, se Statsförbrytelse.
 
@@ -16,8 +16,8 @@ Statsembete, τέλος, τό (i allmht). ἀρχή, ἡ (högre). ἐπιμέλ
 
 Statsform, πολιτεία, ἡ.
 
-Statsfånge, ὁ σημοσίᾳ φυλαττόμενος. ὁ ἐν σημοσίᾳ φυλαχῇ ὤν.
+Statsfånge, ὁ δημοσίᾳ φυλαττόμενος. ὁ ἐν δημοσίᾳ φυλακῇ ὤν.
 
-Statsfängelse, σημόσιον l. κοινὸν δεσμωτήριον, τό. σημόσιον, τό.
+Statsfängelse, δημόσιον l. κοινὸν δεσμωτήριον, τό. δημόσιον, τό.
 
 Statsförbrytare, ὁ ἀδικῶν τὴν πόλιν. ἄδι-

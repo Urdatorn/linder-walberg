@@ -1,0 +1,48 @@
+{
+ "page": "0410",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0410_01",
+   "printed": "ἀναγκαιίτης",
+   "probably_meant": "ἀναγκαιότης",
+   "note": "Slägtskap 1): the scan shows ι with acute where ό is expected (possibly broken type)"
+  },
+  {
+   "strip": "0410_02",
+   "printed": "τρίμμα, τύ.",
+   "probably_meant": "τρίμμα, τό.",
+   "note": "Slänga: article printed τύ"
+  },
+  {
+   "strip": "0410_04",
+   "printed": "ἀμβλύτης, ἡ (eg. o. eg.)",
+   "probably_meant": "(eg. o. oeg.)",
+   "note": "Slöhet: second 'eg.' should be 'oeg.'"
+  },
+  {
+   "strip": "0410_04",
+   "printed": "ἀγυρτικόν πλῆθος",
+   "probably_meant": "ἀγυρτικὸν πλῆθος",
+   "note": "Slödder: acute instead of grave before another word"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0410_01",
+   "text": "ἀναγκαιίτης",
+   "note": "The letter after αι looks like ί; it could be a damaged ό. Kept as printed."
+  },
+  {
+   "strip": "0410_02",
+   "text": "δακτύλων.:",
+   "note": "The punctuation after δακτύλων looks like '..' or '.:'; written as '.:'"
+  },
+  {
+   "strip": "0410_05",
+   "text": "på ngn",
+   "note": "The last letter looks like u (broken n); read as ngn"
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "page": "0420",
+ "strips_done": 6,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0420_00",
+   "printed": "mageu",
+   "probably_meant": "magen",
+   "note": "turned n in the print; the cleaner had changed it to magen"
+  },
+  {
+   "strip": "0420_00",
+   "printed": "ἐντεροπονὼ",
+   "probably_meant": "ἐντεροπονῶ",
+   "note": "printed with a grave accent"
+  },
+  {
+   "strip": "0420_02",
+   "printed": "Sqvalp. πάταγος",
+   "probably_meant": "Sqvalp, πάταγος",
+   "note": "full stop after the headword instead of a comma"
+  },
+  {
+   "strip": "0420_03",
+   "printed": "Stadigvaraude",
+   "probably_meant": "Stadigvarande",
+   "note": "turned n in the headword"
+  },
+  {
+   "strip": "0420_04",
+   "printed": "Stadshns",
+   "probably_meant": "Stadshus",
+   "note": "turned u"
+  },
+  {
+   "strip": "0420_04",
+   "printed": "ένέσπαρται",
+   "probably_meant": "ἐνέσπαρται",
+   "note": "the first epsilon has an acute and no breathing"
+  },
+  {
+   "strip": "0420_05",
+   "printed": "hrenda",
+   "probably_meant": "hvarenda",
+   "note": "printed hr-/enda across a line break"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0420_01",
+   "text": "εἴδωλον, τό. ... στωμυλία, ἡ. βασκανία, ἡ",
+   "note": "the small marks before τό and ἡ could be commas or full stops; read as commas"
+  },
+  {
+   "strip": "0420_03",
+   "text": "Stadigvaraude",
+   "note": "the n is damaged or turned and looks like a u; kept as u"
+  }
+ ]
+}

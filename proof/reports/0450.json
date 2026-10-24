@@ -1,0 +1,41 @@
+{
+ "page": "0450",
+ "strips_done": 6,
+ "corrections": 44,
+ "misprints": [
+  {
+   "strip": "0450_02",
+   "printed": "πρὸς ᾧ προσθεν εἶχεν",
+   "probably_meant": "πρὸς ᾧ πρόσθεν εἶχεν",
+   "note": "πρόσθεν printed without accent"
+  },
+  {
+   "strip": "0450_05",
+   "printed": "ἀποκρούεσθαι..",
+   "probably_meant": "ἀποκρούεσθαι.",
+   "note": "double full stop in print"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0450_00",
+   "text": "εἰς, πρός, ἐπὶ m. acc.",
+   "note": "print shows a stray vertical bar after εἰς (εἰς|,); taken as a type or scan artefact and left out"
+  },
+  {
+   "strip": "0450_00",
+   "text": "t. o. med 30 år",
+   "note": "the stop after the first t. is faint or missing in the scan; written t."
+  },
+  {
+   "strip": "0450_04",
+   "text": "προλείπειν. προδιδόναι",
+   "note": "the mark after προλείπειν looks like a full stop, not a comma"
+  },
+  {
+   "strip": "0450_05",
+   "text": "ἀπομάχεσθαι. τρέψασθαι",
+   "note": "the stop after ἀπομάχεσθαι sits slightly high and may be a raised dot; written as ."
+  }
+ ]
+}

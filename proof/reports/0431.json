@@ -1,0 +1,66 @@
+{
+ "page": "0431",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0431_02",
+   "printed": "I) eg., ort",
+   "probably_meant": "1) eg., ort",
+   "note": "A Roman capital I is printed instead of the digit 1 for the first sense number of Ställe."
+  },
+  {
+   "strip": "0431_02",
+   "printed": "κατὸ χώραν",
+   "probably_meant": "κατὰ χώραν",
+   "note": "Omicron with grave accent is printed for alpha."
+  },
+  {
+   "strip": "0431_02",
+   "printed": "ἧ. ὅπου",
+   "probably_meant": "ᾗ. ὅπου",
+   "note": "Rough breathing with circumflex is printed, and no iota subscript is visible."
+  },
+  {
+   "strip": "0431_04",
+   "printed": "πορεσκευάσθαι",
+   "probably_meant": "παρεσκευάσθαι",
+   "note": "The word is printed with ο for α."
+  },
+  {
+   "strip": "0431_03",
+   "printed": "καλὰ πράγματα..:",
+   "probably_meant": "καλὰ πράγματα.:",
+   "note": "A doubled full stop is printed before the colon."
+  },
+  {
+   "strip": "0431_00",
+   "printed": "ἀμολγεύς, ἐως",
+   "probably_meant": "ἀμολγεύς, έως",
+   "note": "The genitive ending carries a smooth breathing instead of a plain acute."
+  },
+  {
+   "strip": "0431_04",
+   "printed": "ngn till glädje, ἐμποιεῖν l. παρέχειν τινὶ λύπην",
+   "probably_meant": "ngn till sorg",
+   "note": "The Swedish says 'glädje' (joy) but the Greek means grief. Possibly an editorial slip; kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0431_02",
+   "text": "ἄλλοθι.: på hkt s.",
+   "note": "The punctuation is a full stop followed by a single raised dot, perhaps a broken colon. Transcribed as '.:'."
+  },
+  {
+   "strip": "0431_01",
+   "text": "m. ὡς o. part.",
+   "note": "The mark over ω could be a rough breathing alone or a rough breathing with acute. Transcribed as ὡς. The same applies to 'οὐχ ὡς' in 0431_04."
+  },
+  {
+   "strip": "0431_02",
+   "text": "ὧδε",
+   "note": "The breathing over ω is small and hard to tell apart. Read as rough with circumflex."
+  }
+ ]
+}

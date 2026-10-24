@@ -1,0 +1,47 @@
+{
+ "page": "0403",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0403_03",
+   "printed": "Skyhög, οὐρανομήκης. 2.",
+   "probably_meant": "οὐρανομήκης, 2.",
+   "note": "Full stop where the termination number normally follows a comma."
+  },
+  {
+   "strip": "0403_00",
+   "printed": "Skurande. ἀποσπογγισμός",
+   "probably_meant": "Skurande, ἀποσπογγισμός",
+   "note": "Full stop after the headword where a comma is normal."
+  },
+  {
+   "strip": "0403_03",
+   "printed": "δανεισάμενος, 3",
+   "probably_meant": "δανεισάμενος, η, ον",
+   "note": "Kept as printed; this termination number on a participle is unusual."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0403_00",
+   "text": "ἀμαυροὺς ὀφθαλμοὺς",
+   "note": "The grave on ἀμαυροὺς is broken into a dot; I read it as a grave."
+  },
+  {
+   "strip": "0403_00",
+   "text": "Skulptera, (ἀνα)γλύφειν.",
+   "note": "The breathing on ἀνα is faint, and the closing parenthesis is broken."
+  },
+  {
+   "strip": "0403_00",
+   "text": "förvandla till s.,",
+   "note": "The full stop after s is very faint."
+  },
+  {
+   "strip": "0403_03",
+   "text": "σωρὸς ἀμαλλῶν",
+   "note": "The grave on σωρὸς is faint."
+  }
+ ]
+}

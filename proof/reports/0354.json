@@ -1,53 +1,26 @@
 {
  "page": "0354",
  "strips_done": 6,
- "corrections": 32,
+ "corrections": 0,
  "misprints": [
+  {
+   "strip": "0354_00",
+   "printed": "s. har sdu",
+   "probably_meant": "s. har sdn",
+   "note": "Turned n in the print; 'ha sdn' follows on the next line."
+  },
   {
    "strip": "0354_00",
    "printed": "σκαλεύεν",
    "probably_meant": "σκαλεύειν",
-   "note": "Raka 2): the infinitive ending is missing a letter in the print."
-  },
-  {
-   "strip": "0354_00",
-   "printed": "s. har sdu,",
-   "probably_meant": "s. har sdn,",
-   "note": "The print shows 'sdu', apparently a turned n. Later on the same strip it is 'sdn'."
+   "note": "Under Raka 2) 'kol o. d.'; the iota is missing from the infinitive ending."
   },
   {
    "strip": "0354_04",
    "printed": "färsätta ngn i r.",
    "probably_meant": "försätta ngn i r.",
-   "note": "Raseri: the print clearly reads 'färsätta'."
-  },
-  {
-   "strip": "0354_03",
-   "printed": "ἔρυξις",
-   "probably_meant": "ἔρυξις (uncommon form; printed as is)",
-   "note": "Rapning: the print clearly shows ἔρυξις and ἔρυγμα. Both kept."
+   "note": "Under Raseri; the print clearly has ä."
   }
  ],
- "uncertain": [
-  {
-   "strip": "0354_02",
-   "text": "Ranglig, se Gänglig.",
-   "note": "The mark after 'Ranglig' could be a full stop or a broken comma. Kept as a comma."
-  },
-  {
-   "strip": "0354_02",
-   "text": "Rangera,",
-   "note": "There is a stray dot between 'Rangera' and the comma, probably dust. Transcribed as 'Rangera,'."
-  },
-  {
-   "strip": "0354_04",
-   "text": "νεανικός, 3.",
-   "note": "The punctuation after νεανικός is faint. Read as a comma."
-  },
-  {
-   "strip": "0354_03",
-   "text": "ἀπαγγελία. ἡ.",
-   "note": "The punctuation after ἀπαγγελία looks like a full stop, though a comma would be expected. Kept as a full stop."
-  }
- ]
+ "uncertain": []
 }

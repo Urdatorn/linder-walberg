@@ -1,0 +1,53 @@
+{
+ "page": "0437",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0437_00",
+   "printed": "πλοίτῳ",
+   "probably_meant": "πλούτῳ",
+   "note": "ου διαφέρει πλοίτῳ; πλούτῳ is spelled correctly in the next phrase"
+  },
+  {
+   "strip": "0437_02",
+   "printed": "κατὰ καὐτά",
+   "probably_meant": "κατὰ ταὐτά",
+   "note": "The initial κ is clearly printed"
+  },
+  {
+   "strip": "0437_05",
+   "printed": "πλόκανον, τύ",
+   "probably_meant": "πλόκανον, τό",
+   "note": "The article is printed with υ"
+  },
+  {
+   "strip": "0437_05",
+   "printed": "ὠδή, ἡ (under Sång 1)",
+   "probably_meant": "ᾠδή",
+   "note": "No iota subscript is visible here; the second ᾠδή on the same line has one"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0437_04",
+   "text": "gestalt",
+   "note": "Printed 'ge' at the end of a line and 'stalt' on the next, with no visible hyphen. Transcribed as the whole word 'gestalt'."
+  },
+  {
+   "strip": "0437_00",
+   "text": "ἔποπτον",
+   "note": "Breathing is small. It reads as smooth (ἔ), not rough (ἕ)."
+  },
+  {
+   "strip": "0437_00",
+   "text": "ὅμαιμοι",
+   "note": "Breathing is small. It reads as rough, the same as in ὁμομήτριοί below it."
+  },
+  {
+   "strip": "0437_02",
+   "text": "ταύτῃ, τῇδε / ταύτῃ l. τῇδέ πῃ",
+   "note": "Iota subscripts are faint. Standard forms used."
+  }
+ ]
+}

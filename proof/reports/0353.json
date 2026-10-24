@@ -1,0 +1,58 @@
+{
+ "page": "0353",
+ "strips_done": 7,
+ "corrections": 7,
+ "misprints": [
+  {
+   "strip": "0353_03",
+   "printed": "hrandra",
+   "probably_meant": "hvarandra",
+   "note": "Rad: 'kedja af tätt till hrandra slutna föremål'"
+  },
+  {
+   "strip": "0353_04",
+   "printed": "smnhängande",
+   "probably_meant": "sammanhängande",
+   "note": "Rad continuation"
+  },
+  {
+   "strip": "0353_04",
+   "printed": "hrandra",
+   "probably_meant": "hvarandra",
+   "note": "twice: '(bredvid hrandra)', '(efter hrandra)'"
+  },
+  {
+   "strip": "0353_05",
+   "printed": "λάχνη. ἡ.",
+   "probably_meant": "λάχνη, ἡ.",
+   "note": "Ragg: period instead of comma before the article"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0353_06",
+   "text": "(ὁδός), (ὁδόν)",
+   "note": "The breathing is small and blurred and looks close to the smooth breathing on ὀρθοῦν. I wrote the rough breathing."
+  },
+  {
+   "strip": "0353_06",
+   "text": "(κατ)ευθύνειν.",
+   "note": "The closing parenthesis after κατ is only a broken fragment, and εὐ shows no breathing."
+  },
+  {
+   "strip": "0353_06",
+   "text": "riktning). ὀρθός",
+   "note": "The full stop after ')' is very faint."
+  },
+  {
+   "strip": "0353_04",
+   "text": "(δια)στοιχίζειν",
+   "note": "The closing parenthesis is broken in the print."
+  },
+  {
+   "strip": "0353_03",
+   "text": "ὁρμαθός",
+   "note": "The breathing on the ο is damaged."
+  }
+ ]
+}

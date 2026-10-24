@@ -1,0 +1,65 @@
+{
+ "page": "0484",
+ "strips_done": 6,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0484_01",
+   "printed": "ἀναδύεσθοι",
+   "probably_meant": "ἀναδύεσθαι",
+   "note": "Ending -οι printed clearly"
+  },
+  {
+   "strip": "0484_03",
+   "printed": "ταραχή, η.",
+   "probably_meant": "ταραχή, ἡ.",
+   "note": "Article printed without rough breathing"
+  },
+  {
+   "strip": "0484_04",
+   "printed": "παδιεύειν",
+   "probably_meant": "παιδεύειν",
+   "note": "Hyphenated πα-|διεύειν, letters transposed"
+  },
+  {
+   "strip": "0484_04",
+   "printed": "διασαφηνίζεν",
+   "probably_meant": "διασαφηνίζειν",
+   "note": "Iota missing in ending"
+  },
+  {
+   "strip": "0484_04",
+   "printed": "ὥς δηλῶν",
+   "probably_meant": "ὡς δηλῶν",
+   "note": "Printed with rough breathing and acute"
+  },
+  {
+   "strip": "0484_02",
+   "printed": "(ἐξ)εμεῖν",
+   "probably_meant": "(ἐξ)εμεῖν / ἐξεμεῖν",
+   "note": "No breathing on ε after the bracket, as is printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0484_01",
+   "text": "~ προφέρειν.",
+   "note": "Broken type: a dot or colon between φ and ε, with no clear accent; probably the remains of the acute"
+  },
+  {
+   "strip": "0484_05",
+   "text": "προΐεσθαι",
+   "note": "Broken marks over the ι; read as diaeresis plus acute on ι, with no accent on ε"
+  },
+  {
+   "strip": "0484_03",
+   "text": "εἴς τι",
+   "note": "The mark looks like smooth breathing plus acute (εἴς), not plain εἰς"
+  },
+  {
+   "strip": "0484_03",
+   "text": "Upplossa",
+   "note": "Printed without umlaut. Kept as printed: Upplösa appears separately in 0484_05"
+  }
+ ]
+}

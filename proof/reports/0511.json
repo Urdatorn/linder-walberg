@@ -1,0 +1,47 @@
+{
+ "page": "0511",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0511_03",
+   "printed": "γίγνωσκω",
+   "probably_meant": "γιγνώσκω",
+   "note": "accent on the wrong syllable in the print; kept as printed"
+  },
+  {
+   "strip": "0511_04",
+   "printed": "ὑπηρετητικός",
+   "probably_meant": "ὑπηρετικός",
+   "note": "the print has an extra syllable -τη-; kept"
+  },
+  {
+   "strip": "0511_05",
+   "printed": "ἐπὶ ῥητοῖς.;",
+   "probably_meant": "ἐπὶ ῥητοῖς.:",
+   "note": "the last mark on the page looks like a semicolon where the book's usual \".:\" would be expected; kept as \".;\""
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0511_02",
+   "text": "ὧδ’",
+   "note": "the breathing and circumflex over ω are blurred together; read as rough breathing with circumflex"
+  },
+  {
+   "strip": "0511_02",
+   "text": "ᾖ",
+   "note": "the breathing on ᾖ is blurred together with the circumflex; read as smooth breathing"
+  },
+  {
+   "strip": "0511_04",
+   "text": "ἀπροφάσιστος",
+   "note": "the breathing on the first α is faint; read as smooth"
+  },
+  {
+   "strip": "0511_01",
+   "text": "ἀβουλεῖν",
+   "note": "the breathing is damaged; read as smooth"
+  }
+ ]
+}

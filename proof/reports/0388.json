@@ -1,0 +1,52 @@
+{
+ "page": "0388",
+ "strips_done": 6,
+ "corrections": 38,
+ "misprints": [
+  {
+   "strip": "0388_04",
+   "printed": "εἰς τοὺς ἀνθρώπους,: s. öfver ngt",
+   "probably_meant": "εἰς τοὺς ἀνθρώπους.: s. öfver ngt",
+   "note": "comma before colon instead of full stop"
+  },
+  {
+   "strip": "0388_05",
+   "printed": "(ἐφ)αρμόζειν",
+   "probably_meant": "(ἐφ)ἁρμόζειν",
+   "note": "no rough breathing on the simplex after the bracketed prefix; kept as printed"
+  },
+  {
+   "strip": "0388_05",
+   "printed": "σαυτοῦ, αὐτοῦ",
+   "probably_meant": "σαυτοῦ, αὑτοῦ",
+   "note": "reflexive printed with what looks like smooth breathing"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0388_04",
+   "text": "λεγόμενος, 3, εἰρημένος",
+   "note": "the mark after λεγόμενος looks like a full stop; probably a comma with a faint tail"
+  },
+  {
+   "strip": "0388_04",
+   "text": "nämnd",
+   "note": "printed form looks like 'nämud'; read as a broken n"
+  },
+  {
+   "strip": "0388_01",
+   "text": "vara af annat s.",
+   "note": "printed form looks like 'anuat'; read as a broken n"
+  },
+  {
+   "strip": "0388_04",
+   "text": "ἑδώλιον",
+   "note": "breathing on the initial epsilon is small; read as rough"
+  },
+  {
+   "strip": "0388_05",
+   "text": "αὐτός, ή, ό.:",
+   "note": "accents on ή and ό are small; read as acute, not breathings"
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "page": "0446",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0446_01",
+   "printed": "ἐπιστόμιον, τύ",
+   "probably_meant": "ἐπιστόμιον, τό",
+   "note": "The article clearly shows υ, not ο."
+  },
+  {
+   "strip": "0446_02",
+   "printed": "ἀλκή, η.",
+   "probably_meant": "ἀλκή, ἡ.",
+   "note": "No breathing is visible on the article."
+  },
+  {
+   "strip": "0446_04",
+   "printed": "φιθύρισμα",
+   "probably_meant": "ψιθύρισμα",
+   "note": "Printed with φ, next to ψιθυρισμός."
+  },
+  {
+   "strip": "0446_04",
+   "printed": "χείρ, ρός",
+   "probably_meant": "χείρ, ῥός",
+   "note": "No rough breathing on ρ."
+  },
+  {
+   "strip": "0446_04",
+   "printed": "γνωστής, ὁ",
+   "probably_meant": "γνώστης",
+   "note": "Kept as printed; the accent may be wrong."
+  },
+  {
+   "strip": "0446_05",
+   "printed": "ἔμπροσθειν",
+   "probably_meant": "ἔμπροσθεν",
+   "note": "Has an extra ι."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0446_00",
+   "text": "διανοίας l. ψυχῆς",
+   "note": "Mark under α of the first διανοίας looks like dust, not iota subscript; transcribed διανοίας."
+  },
+  {
+   "strip": "0446_01",
+   "text": "γόμφος, ὁ / βάλανος, ἡ / στρόβιλος, ὁ",
+   "note": "Breathings on these articles look grave-like (worn type); transcribed as rough breathing ὁ/ἡ."
+  },
+  {
+   "strip": "0446_01",
+   "text": "ἰδος",
+   "note": "The mark on ι in genitive ἰδος (Tant, Tapet, Tapp, Taskbok) could be a smooth breathing or an acute; kept ἰδος to match the book's usual practice."
+  }
+ ]
+}

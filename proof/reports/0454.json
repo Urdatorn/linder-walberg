@@ -1,0 +1,32 @@
+{
+ "page": "0454",
+ "strips_done": 6,
+ "corrections": 24,
+ "misprints": [
+  {
+   "strip": "0454_03",
+   "printed": "νουτέθησις",
+   "probably_meant": "νουθέτησις",
+   "note": "Tillrättavisning: the letters are transposed in the print. The next word, νουθέτημα, is printed correctly."
+  },
+  {
+   "strip": "0454_03",
+   "printed": "εἴς τινα τόπον",
+   "probably_meant": "εἰς τινα τόπον",
+   "note": "The preposition is printed with an accent, smooth breathing plus acute."
+  },
+  {
+   "strip": "0454_05",
+   "printed": "t. sig sf skulden för",
+   "probably_meant": "t. sig af skulden för",
+   "note": "Swedish 'sf' where 'af' was meant."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0454_00",
+   "text": "αἴρεσθαι",
+   "note": "The breathing and accent on the alpha-iota of νίκην νικᾶν l. αἴρεσθαι are small. I read smooth breathing with acute and kept it."
+  }
+ ]
+}

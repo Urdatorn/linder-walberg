@@ -1,0 +1,71 @@
+{
+ "page": "0418",
+ "strips_done": 6,
+ "corrections": 62,
+ "misprints": [
+  {
+   "strip": "0418_04",
+   "printed": "σφαδᾴζειν",
+   "probably_meant": "σφαδάζειν",
+   "note": "iota subscript printed under alpha; also in 0418_05 (Spritta)"
+  },
+  {
+   "strip": "0418_04",
+   "printed": "σφαδᾳσμός",
+   "probably_meant": "σφαδασμός",
+   "note": "iota subscript printed under alpha; also in 0418_05 (Sprittning)"
+  },
+  {
+   "strip": "0418_05",
+   "printed": "ἀνᾴττειν",
+   "probably_meant": "ἀνάττειν / ἀνᾴττειν",
+   "note": "printed with iota subscript, kept as printed"
+  },
+  {
+   "strip": "0418_02",
+   "printed": "διάσπασις, η (oeg.)",
+   "probably_meant": "διάσπασις, ἡ (oeg.).",
+   "note": "article printed without breathing/accent and no closing full stop"
+  },
+  {
+   "strip": "0418_02",
+   "printed": "διασπᾶσθαι Jfr Krossa.",
+   "probably_meant": "διασπᾶσθαι. Jfr Krossa.",
+   "note": "no full stop before Jfr"
+  },
+  {
+   "strip": "0418_03",
+   "printed": "μύωψ, ωπος",
+   "probably_meant": "μύωψ, ωπος (ending without accent is normal)",
+   "note": "kept"
+  },
+  {
+   "strip": "0418_05",
+   "printed": "(διαρ)ρήγνυσθαι",
+   "probably_meant": "(διαρ)ῥήγνυσθαι",
+   "note": "rho printed without rough breathing"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0418_04",
+   "text": "Sprickning",
+   "note": "print shows 'Spri-kning' with broken/missing c and a hyphen-like mark; transcribed as Sprickning"
+  },
+  {
+   "strip": "0418_05",
+   "text": "fara upp",
+   "note": "broken type, 'f.ra' in the scan; most likely 'fara'"
+  },
+  {
+   "strip": "0418_00",
+   "text": "νῆσις, ἡ.",
+   "note": "punctuation after νῆσις is a faint comma-like mark; read as comma"
+  },
+  {
+   "strip": "0418_01",
+   "text": "ἔν τινος",
+   "note": "printed with smooth breathing plus acute on ἔν, kept as printed"
+  }
+ ]
+}

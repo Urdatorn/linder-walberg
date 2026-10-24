@@ -1,6 +1,6 @@
-Statsmakter, θννάμεις 1) ἀρχαὶ αἱ ἐν τῇ πόλει 1) τῆς πόλεως.
+Statsmakter, δυνάμεις l. ἀρχαὶ αἱ ἐν τῇ πόλει l. τῆς πόλεως.
 
-Statsman, πολιτικός (ἀνήρ), ὁ (i allmht). ὁ ἐν τοῖς πράγμασιν (ὧν), ὁ τὰ δημόσια 1) τὰ κοινὰ πράττων, ὁ τῶν κοινῶν ἐπιμελούμενος (som verkar ss. s.).
+Statsman, πολιτικός (ἀνήρ), ὁ (i allmht). ὁ ἐν τοῖς πράγμασιν (ὤν), ὁ τὰ δημόσια l. τὰ κοινὰ πράττων, ὁ τῶν κοινῶν ἐπιμελούμενος (som verkar ss. s.).
 
 Statsmaxim, se Statsgrundsats.
 
@@ -16,12 +16,12 @@ Statsrevolution, se Statshvälfning.
 
 Statsroder, μεγίστη ἀρχή, ἡ.: stå vid s:t, κυβερνᾶν τὴν πόλιν. ἄρχειν τῆς πόλεως.
 
-Statsråd, 1) ss. collegium, βουλὴ ἡ μεγίστη 1) ἡ ἄνω. 2) ss. medlem, βουλευτής, οὗ, ὁ. ὁ μετέχων τῆς μεγίστης βουλῆς.
+Statsråd, 1) ss. kollegium, βουλὴ ἡ μεγίστη l. ἡ ἄνω. 2) ss. medlem, βουλευτής, οῦ, ὁ. ὁ μετέχων τῆς μεγίστης βουλῆς.
 
 Statsrätt, δίκαια δημόσια, τά.
 
-Statssak, 1) se Statsangelägenhet. 2) se Statsförbrytelse. ἄν. διάλυσις τοῦ δήμου, ἡ.
+Statssak, 1) se Statsangelägenhet. 2) se Statsförbrytelse. äfv. διάλυσις τοῦ δήμου, ἡ.
 
-Statskuld, δημόσιον χρέος, τό.
+Statsskuld, δημόσιον χρέος, τό.
 
 Statsstreck, se Statskupp.

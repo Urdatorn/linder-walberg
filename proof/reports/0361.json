@@ -1,0 +1,46 @@
+{
+ "page": "0361",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0361_05",
+   "printed": "han har eu koppar-r. dragen",
+   "probably_meant": "han har en koppar-r. dragen",
+   "note": "turned n printed as u"
+  },
+  {
+   "strip": "0361_05",
+   "printed": "ἀλωή",
+   "probably_meant": "ἁλωή",
+   "note": "smooth breathing printed, though ἅλως right before it has rough breathing (ἀλωή is also a valid epic form)"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0361_03",
+   "text": "ἀκρίβεια, ἡ.: det har",
+   "note": "the full stop before the colon is very faint, so it may be only ':'"
+  },
+  {
+   "strip": "0361_03",
+   "text": "ὀρθῶς λέγεις.: ἀληθῆ",
+   "note": "the punctuation after λέγεις is smudged. Read as '.:'"
+  },
+  {
+   "strip": "0361_02",
+   "text": "ὤν, οὖσα, ὄν",
+   "note": "the accent on ων is blurred into its breathing. Could be ὢν"
+  },
+  {
+   "strip": "0361_05",
+   "text": "οὐχ οἷός τ’",
+   "note": "the breathing on οἷός is hard to see. The circumflex is visible"
+  },
+  {
+   "strip": "0361_02",
+   "text": "εἰς, ἐπί, πρός",
+   "note": "the breathing on εἰς is faint"
+  }
+ ]
+}

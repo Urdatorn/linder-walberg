@@ -1,0 +1,71 @@
+{
+ "page": "0528",
+ "strips_done": 7,
+ "corrections": 120,
+ "misprints": [
+  {
+   "strip": "0528_01",
+   "printed": "ἀνα , ἀπολαμβάνειν",
+   "probably_meant": "ἀνα-, ἀπολαμβάνειν",
+   "note": "Hyphen missing after the prefix; a space appears before the comma instead."
+  },
+  {
+   "strip": "0528_04",
+   "printed": "παλλιλογία",
+   "probably_meant": "παλιλλογία",
+   "note": "The double lambda is in the wrong place, compare παλιλλογεῖν in the same column."
+  },
+  {
+   "strip": "0528_04",
+   "printed": "tillstånd o. d.. αὖθις",
+   "probably_meant": "o. d.: αὖθις",
+   "note": "Double full stop printed where '.:' or ':' is expected."
+  },
+  {
+   "strip": "0528_04",
+   "printed": "å en fiende",
+   "probably_meant": "å. en fiende",
+   "note": "Abbreviation point missing after å."
+  },
+  {
+   "strip": "0528_05",
+   "printed": "ηχώ, οὖς",
+   "probably_meant": "ἠχώ, οῦς",
+   "note": "Genitive ending printed with a breathing plus circumflex. Transcribed as οὖς."
+  },
+  {
+   "strip": "0528_05",
+   "printed": "Aterlösa",
+   "probably_meant": "Återlösa",
+   "note": "Headword printed with no ring on the A (the ring may be broken type)."
+  },
+  {
+   "strip": "0528_06",
+   "printed": "Aterspegla",
+   "probably_meant": "Återspegla",
+   "note": "Headword printed with no ring on the A (the ring may be broken type)."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0528_05",
+   "text": "σωτήρ, ῆρος, ὁ. λυτήρ, ῆρος, ὁ",
+   "note": "Could be ἦρος with a breathing. Only a circumflex is visible, so it is transcribed as ῆρος."
+  },
+  {
+   "strip": "0528_03",
+   "text": "ἀπο-, ἐκλυτροῦσθαι",
+   "note": "Read as κ because no χ descender is visible. The OCR had ἐλλυτροῦσθαι."
+  },
+  {
+   "strip": "0528_04",
+   "text": "m. hrandra",
+   "note": "Printed as 'hrandra' (probably an abbreviation of hvarandra). Kept as printed."
+  },
+  {
+   "strip": "0528_00",
+   "text": "524 Återforsla — Återstå.",
+   "note": "Running header, written in the format of the other pages ('522 Åkdon — Årstid.'). No continuation marker."
+  }
+ ]
+}

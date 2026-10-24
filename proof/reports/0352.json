@@ -1,0 +1,49 @@
+{
+ "page": "0352",
+ "strips_done": 6,
+ "corrections": 5,
+ "misprints": [
+  {
+   "strip": "0352_01",
+   "printed": "σταθμοδότης, ου, ὸ.",
+   "probably_meant": "σταθμοδότης, ου, ὁ.",
+   "note": "article printed with what looks like a grave accent instead of rough breathing"
+  },
+  {
+   "strip": "0352_02",
+   "printed": "ἀναζωπορεῖσθαι",
+   "probably_meant": "ἀναζωπυρεῖσθαι",
+   "note": "ο for υ; the next word is correctly ἀναζωπυρεῖν"
+  },
+  {
+   "strip": "0352_03",
+   "printed": "θυλυπρεπής",
+   "probably_meant": "θηλυπρεπής",
+   "note": "υ for η"
+  },
+  {
+   "strip": "0352_03",
+   "printed": "κατὰ θυλυγονίαν",
+   "probably_meant": "κατὰ θηλυγονίαν",
+   "note": "υ for η; spelled correctly under Qvinnolinie"
+  },
+  {
+   "strip": "0352_04",
+   "printed": "προςωπον",
+   "probably_meant": "πρόσωπον",
+   "note": "split across lines as προς-/ωπον with no accent"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0352_01",
+   "text": "κατασκηνοῦν, -ᾶσθαι.: gå",
+   "note": "there is only a faint speck before the colon; I read it as a broken full stop (.:), but it may be plain ':'"
+  },
+  {
+   "strip": "0352_05",
+   "text": "φιλόγυνος, -γύνης, ου",
+   "note": "a stray broken-type mark follows the ς of -γύνης; I treated it as a blemish and wrote nothing for it"
+  }
+ ]
+}

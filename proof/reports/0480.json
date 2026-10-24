@@ -1,0 +1,48 @@
+{
+ "page": "0480",
+ "strips_done": 6,
+ "corrections": 38,
+ "misprints": [
+  {
+   "strip": "0480_00",
+   "printed": "ἐποίησειν",
+   "probably_meant": "ἐποίησεν",
+   "note": "Ungdomsförsök: 'ὅ τις νέος ὢν ἐποίησειν' as printed."
+  },
+  {
+   "strip": "0480_00",
+   "printed": "νιανικὴ",
+   "probably_meant": "νεανικὴ",
+   "note": "Ungdomshetta: print clearly reads νιανικὴ."
+  },
+  {
+   "strip": "0480_02",
+   "printed": "μέλιστα",
+   "probably_meant": "μάλιστα",
+   "note": "Ungefärlig: 'l. ὡς l. μέ-λιστα διακόσιοι'; the print has ε."
+  },
+  {
+   "strip": "0480_00",
+   "printed": "ἡβῶν",
+   "probably_meant": "ἡβῶν",
+   "note": "The breathing on ἡβῶν looks rough in the print, though ἡβάω takes a smooth breathing. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0480_00",
+   "text": "ἡβῶν",
+   "note": "The breathing is small. It looks rough, like the ἡ article nearby, but smooth (ἡβῶν) is also possible."
+  },
+  {
+   "strip": "0480_02",
+   "text": "νέοι, οἵ / νεόγαμοι, οἵ",
+   "note": "The article is printed with breathing and accent; I read rough + acute (οἵ) and kept the OCR."
+  },
+  {
+   "strip": "0480_05",
+   "text": "vv.",
+   "note": "Italic Latin 'vv.' (verben) looks like υυ in this face. Kept as the Swedish abbreviation vv."
+  }
+ ]
+}

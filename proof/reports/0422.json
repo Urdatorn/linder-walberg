@@ -1,0 +1,20 @@
+{
+ "page": "0422",
+ "strips_done": 6,
+ "corrections": 52,
+ "misprints": [
+  {
+   "strip": "0422_04",
+   "printed": "Statsminster, se Minister.",
+   "probably_meant": "Statsminister",
+   "note": "Headword is printed without the second i, so it was kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0422_02",
+   "text": "αἱ",
+   "note": "The breathing mark over ι in 'πόλεις, αἱ.' and 'ἀναγραφαί, αἱ.' has a hooked tail that could pass for an accent. I read it as a plain rough breathing, as on the pages already proofread. The same reading is used for αἱ in strips 03, 04 and 05."
+  }
+ ]
+}

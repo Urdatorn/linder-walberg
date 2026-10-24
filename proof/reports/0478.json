@@ -1,0 +1,80 @@
+{
+ "page": "0478",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0478_02",
+   "printed": "το ἐλλεῖπον",
+   "probably_meant": "τὸ ἐλλεῖπον",
+   "note": "article printed without accent"
+  },
+  {
+   "strip": "0478_03",
+   "printed": "θαυμάζων, ουσα, ον.",
+   "probably_meant": "θαυμάζων, -ουσα, -ον",
+   "note": "feminine/neuter endings printed without accents or hyphens"
+  },
+  {
+   "strip": "0478_04",
+   "printed": "ὑφογράφειν",
+   "probably_meant": "ὑπογράφειν",
+   "note": "φ printed for π"
+  },
+  {
+   "strip": "0478_04",
+   "printed": "understuecken",
+   "probably_meant": "understucken",
+   "note": "printed understue-ken across the line break"
+  },
+  {
+   "strip": "0478_04",
+   "printed": "ὑποστρωννόναι",
+   "probably_meant": "ὑποστρωννύναι",
+   "note": "ό printed for ύ"
+  },
+  {
+   "strip": "0478_05",
+   "printed": "b) fig.",
+   "probably_meant": "2) fig.",
+   "note": "sense numbering in Understödja runs 1) eg. ... b) fig."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0478_00",
+   "text": "ἐχόμενος. 3.",
+   "note": "the mark after ἐχόμενος looks like a full stop; it could be a comma"
+  },
+  {
+   "strip": "0478_01",
+   "text": "ἐλλείπειν",
+   "note": "first letter is broken type and looks like ἰ; read as ἐ"
+  },
+  {
+   "strip": "0478_01",
+   "text": "ngn ngt, ὑποτάττειν",
+   "note": "the mark after ngt is a misshapen dot; read as a comma"
+  },
+  {
+   "strip": "0478_01",
+   "text": "εἶναί (3x)",
+   "note": "only one mark is visible over ει; I used εἶναί, as the proofread pages do"
+  },
+  {
+   "strip": "0478_02",
+   "text": "δικαστήριον. μικρόν ... δικάζον, τό",
+   "note": "the punctuation after δικαστήριον and δικάζον is small and unclear (full stop or comma)"
+  },
+  {
+   "strip": "0478_03",
+   "text": "ἀκοῇ",
+   "note": "no iota subscript is clearly visible under ῆ"
+  },
+  {
+   "strip": "0478_03",
+   "text": "Underrättelse, ... ἄγγελμα, τό.",
+   "note": "the commas after Underrättelse and ἄγγελμα are faint and could be full stops"
+  }
+ ]
+}

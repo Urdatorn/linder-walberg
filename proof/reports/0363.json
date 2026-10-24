@@ -1,0 +1,100 @@
+{
+ "page": "0363",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0363_00",
+   "printed": "ληστρικός",
+   "probably_meant": "λῃστρικός",
+   "note": "No iota subscript in the second form, though the preceding λῃστικός has one"
+  },
+  {
+   "strip": "0363_00",
+   "printed": "οὖσα, ουν",
+   "probably_meant": "οὖσα, οὖν",
+   "note": "The ending ουν is printed without a circumflex"
+  },
+  {
+   "strip": "0363_00",
+   "printed": "ἐπιχαρις",
+   "probably_meant": "ἐπίχαρις",
+   "note": "Printed without an accent (it is hyphenated ἐπιχα-ρις)"
+  },
+  {
+   "strip": "0363_01",
+   "printed": "τα πρὼτα",
+   "probably_meant": "τὰ πρῶτα",
+   "note": "τα has no accent, and πρὼτα shows a grave where a circumflex belongs"
+  },
+  {
+   "strip": "0363_02",
+   "printed": "ουσα (in παίζων, ουσα, ον, strip 0363_01)",
+   "probably_meant": "οῦσα",
+   "note": "Printed without an accent"
+  },
+  {
+   "strip": "0363_04",
+   "printed": "ῥοδύχρους",
+   "probably_meant": "ῥοδόχρους",
+   "note": "υ is clearly printed in place of ο"
+  },
+  {
+   "strip": "0363_04",
+   "printed": "ῥύδεον",
+   "probably_meant": "ῥόδεον",
+   "note": "The second letter looks like υ, so it was kept as printed"
+  },
+  {
+   "strip": "0363_05",
+   "printed": "τύ.",
+   "probably_meant": "τό.",
+   "note": "In the Rosenvatten entry, υ is printed for ο"
+  },
+  {
+   "strip": "0363_05",
+   "printed": "Rost, 1) anfrätas af rost.",
+   "probably_meant": "Rosta, 1) ...",
+   "note": "The verb headword is printed as Rost, the same as the noun before it"
+  },
+  {
+   "strip": "0363_05",
+   "printed": "φώζειν",
+   "probably_meant": "φῴζειν",
+   "note": "No iota subscript"
+  },
+  {
+   "strip": "0363_03",
+   "printed": "doftande af r,",
+   "probably_meant": "doftande af r.,",
+   "note": "No full stop after the abbreviation r"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0363_00",
+   "text": "ἁρπακτικός, 3 (Rofgirig)",
+   "note": "The breathing on α looks like a grave or a broken rough breathing; written as rough, like every other ἁρπ- form"
+  },
+  {
+   "strip": "0363_01",
+   "text": "πρόσωπον (Roll, a)",
+   "note": "The type is broken and the print shows something like πρισωπον; read as a damaged ό"
+  },
+  {
+   "strip": "0363_01",
+   "text": "πρὼτα",
+   "note": "The mark could be a worn circumflex, but it looks like a grave"
+  },
+  {
+   "strip": "0363_04",
+   "text": "ῥύδεον",
+   "note": "This could be a worn ό, so the υ reading is not certain"
+  },
+  {
+   "strip": "0363_02",
+   "text": "καθ’ αὑτόν l. τὰ αὑτοῦ",
+   "note": "The rough breathing on υ is small; read as rough"
+  }
+ ]
+}

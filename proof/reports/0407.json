@@ -1,0 +1,52 @@
+{
+ "page": "0407",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0407_01",
+   "printed": "παγίς, ίδος",
+   "probably_meant": "παγίς, ῖδος",
+   "note": "Ending printed with acute, no breathing; kept as printed"
+  },
+  {
+   "strip": "0407_03",
+   "printed": "χαῦνος, 3 (vårdslös)",
+   "probably_meant": "χαῦνος, 3. (vårdslös)",
+   "note": "No full stop after the termination number; kept"
+  },
+  {
+   "strip": "0407_05",
+   "printed": "μύξα ἡ.",
+   "probably_meant": "μύξα, ἡ.",
+   "note": "Comma missing before the article; kept"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0407_00",
+   "text": "af godt s.",
+   "note": "The line ends in 'a' at the very edge of the scan crop. Other lines on this edge are clipped too (slag, αύτη, mskr), so I read it as 'af' with the f cut off"
+  },
+  {
+   "strip": "0407_00",
+   "text": "af sdnt s., τοιοῦτος",
+   "note": "The scan shows 's ,' with no visible full stop, probably faint or broken type; written as 's.,'"
+  },
+  {
+   "strip": "0407_00",
+   "text": "αύτη, οῦτο.:",
+   "note": "A stray grave-like mark sits over the ο of οῦτο, probably dust; transcribed as οῦτο. αύτη is printed with an acute and no breathing"
+  },
+  {
+   "strip": "0407_00",
+   "text": "ἑλιγμοί",
+   "note": "Breathing is small and blurred; read as rough (ἑλιγμός)"
+  },
+  {
+   "strip": "0407_05",
+   "text": "ἔθος πεπλυμένον",
+   "note": "The letter after πεπλ is an ink blot; read as υ, as the OCR had it"
+  }
+ ]
+}

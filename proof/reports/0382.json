@@ -1,0 +1,77 @@
+{
+ "page": "0382",
+ "strips_done": 6,
+ "corrections": 70,
+ "misprints": [
+  {
+   "strip": "0382_00",
+   "printed": "εξιέναι",
+   "probably_meant": "ἐξιέναι",
+   "note": "The initial epsilon has no breathing in the print."
+  },
+  {
+   "strip": "0382_01",
+   "printed": "φθονερα βλέπειν",
+   "probably_meant": "φθονερὰ βλέπειν",
+   "note": "No accent is printed on φθονερα."
+  },
+  {
+   "strip": "0382_03",
+   "printed": "πονηρια, η.",
+   "probably_meant": "πονηρία, ἡ.",
+   "note": "Neither the accent nor the breathing is printed."
+  },
+  {
+   "strip": "0382_04",
+   "printed": "ἀκρασία, ἡ ἀσχημοσύνη, ἡ.",
+   "probably_meant": "ἀκρασία, ἡ. ἀσχημοσύνη, ἡ.",
+   "note": "The full stop after ἡ is missing."
+  },
+  {
+   "strip": "0382_04",
+   "printed": "ἥμερος, 2, εὐπειθής",
+   "probably_meant": "ἥμερος, 2. εὐπειθής",
+   "note": "A comma is printed where a full stop is expected."
+  },
+  {
+   "strip": "0382_05",
+   "printed": "καλὸς (3) τοὺς τρόπρος",
+   "probably_meant": "καλὸς (3) τοὺς τρόπους",
+   "note": "The printer misspelled τρόπους as τρόπρος."
+  },
+  {
+   "strip": "0382_05",
+   "printed": "δύο ἡμέραις ὕστερον,:",
+   "probably_meant": "δύο ἡμέραις ὕστερον.:",
+   "note": "The print has a comma with the colon instead of a full stop."
+  },
+  {
+   "strip": "0382_05",
+   "printed": "καλοὶ τρόποι, οἱ, καλοκἀγαθία",
+   "probably_meant": "καλοὶ τρόποι, οἱ. καλοκἀγαθία",
+   "note": "A comma is printed where a full stop is expected."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0382_04",
+   "text": "κἆτα",
+   "note": "The mark over the alpha looks like a smooth breathing with a circumflex. No iota subscript is visible, so I did not write κᾆτα."
+  },
+  {
+   "strip": "0382_04",
+   "text": "πραΰς, εῖα, ΰ",
+   "note": "The neuter ending is printed as upsilon with a diaeresis and an accent above it. I transcribed it as ΰ."
+  },
+  {
+   "strip": "0382_00",
+   "text": "τοὐμφανὲς",
+   "note": "The mark over the upsilon reads as a smooth breathing (coronis), but it could also be a circumflex."
+  },
+  {
+   "strip": "0382_01",
+   "text": "φθονερα βλέπειν.:",
+   "note": "The full stop before the colon is faint and set apart from the word."
+  }
+ ]
+}

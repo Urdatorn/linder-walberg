@@ -1,0 +1,47 @@
+{
+ "page": "0362",
+ "strips_done": 6,
+ "corrections": 25,
+ "misprints": [
+  {
+   "strip": "0362_00",
+   "printed": "καδωνίζοντα",
+   "probably_meant": "κωδωνίζοντα",
+   "note": "Line-broken 'κα-δωνίζοντα'; the print has α in the first syllable."
+  },
+  {
+   "strip": "0362_02",
+   "printed": "κεντεῖν.. r. sig",
+   "probably_meant": "κεντεῖν.: r. sig",
+   "note": "The print has two full stops in a row."
+  },
+  {
+   "strip": "0362_04",
+   "printed": "περί ἀμφί, τι",
+   "probably_meant": "περί l. ἀμφί τι",
+   "note": "There is no 'l.' between the prepositions, and περί takes an acute accent before ἀμφί."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0362_00",
+   "text": "ἐλάχιστος, 3.",
+   "note": "The mark after ἐλάχιστος has a small tail, so I read it as a comma, not a full stop. Changed from '.'."
+  },
+  {
+   "strip": "0362_00",
+   "text": "αἱ ἀκοαί",
+   "note": "The accent on αἱ is small. It could be αἵ; I kept αἱ."
+  },
+  {
+   "strip": "0362_05",
+   "text": "ὑπηρεσίαι, αἵ",
+   "note": "It could be αἱ. I kept the OCR's αἵ."
+  },
+  {
+   "strip": "0362_02",
+   "text": "τὸ ἀπὸ τῆς ὀρύζης",
+   "note": "The τ of τῆς is broken in the type and looks like ι. I read it as τῆς."
+  }
+ ]
+}

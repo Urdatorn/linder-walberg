@@ -1,0 +1,62 @@
+{
+ "page": "0457",
+ "strips_done": 6,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0457_02",
+   "printed": "Timmmerflotte",
+   "probably_meant": "Timmerflotte",
+   "note": "headword printed with three m's"
+  },
+  {
+   "strip": "0457_02",
+   "printed": "τεκτονεία",
+   "probably_meant": "τεκτονία",
+   "note": "kept as printed"
+  },
+  {
+   "strip": "0457_03",
+   "printed": "τὰ νεούμενα",
+   "probably_meant": "τὰ νοούμενα",
+   "note": "opposite of τὰ αἰσθητά"
+  },
+  {
+   "strip": "0457_04",
+   "printed": "δικαστήριον, τύ.",
+   "probably_meant": "τό",
+   "note": "under Tingsplats; the glyph looks like υ with an acute, possibly a broken ο"
+  },
+  {
+   "strip": "0457_04",
+   "printed": "δικάπηχυς",
+   "probably_meant": "δεκάπηχυς",
+   "note": ""
+  },
+  {
+   "strip": "0457_04",
+   "printed": "gen. ποδος",
+   "probably_meant": "ποδός",
+   "note": "no accent printed"
+  },
+  {
+   "strip": "0457_05",
+   "printed": "τις, ιδος, ἡ.",
+   "probably_meant": "ίδος",
+   "note": "no accent printed on the genitive ending of δεκέτις"
+  },
+  {
+   "strip": "0457_05",
+   "printed": "eu t. tidrymd",
+   "probably_meant": "en t. tidrymd",
+   "note": "the n is printed upside down, so it reads as u"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0457_04",
+   "text": "τύ.",
+   "note": "Tingsplats entry: could be a damaged τό; transcribed as it appears"
+  }
+ ]
+}

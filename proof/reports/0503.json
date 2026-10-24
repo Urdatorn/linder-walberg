@@ -1,0 +1,126 @@
+{
+ "page": "0503",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0503_00",
+   "printed": "την μορφήν",
+   "probably_meant": "τὴν μορφήν",
+   "note": "no grave accent printed on the article"
+  },
+  {
+   "strip": "0503_00",
+   "printed": "ψευδης δόξα",
+   "probably_meant": "ψευδὴς δόξα",
+   "note": "no accent printed on ψευδης"
+  },
+  {
+   "strip": "0503_00",
+   "printed": "ψευδῆ δόξαν ἔχων, ουσα, ον",
+   "probably_meant": "οὖσα, ον",
+   "note": "no accent printed on the ending ουσα"
+  },
+  {
+   "strip": "0503_01",
+   "printed": "αἰσχρά δόξα",
+   "probably_meant": "αἰσχρὰ δόξα",
+   "note": "the accent looks acute, not grave"
+  },
+  {
+   "strip": "0503_01",
+   "printed": "κτὰσθαι",
+   "probably_meant": "κτᾶσθαι",
+   "note": "grave printed where a circumflex is expected"
+  },
+  {
+   "strip": "0503_01",
+   "printed": "παγαγγέλλειν",
+   "probably_meant": "παραγγέλλειν",
+   "note": "printed clearly with γ"
+  },
+  {
+   "strip": "0503_01",
+   "printed": "ὅπλοις χρῆσθαι ὅπλα ἔχειν",
+   "probably_meant": "ὅπλοις χρῆσθαι. ὅπλα ἔχειν",
+   "note": "no punctuation printed between the two phrases"
+  },
+  {
+   "strip": "0503_02",
+   "printed": "(ἀνα λαμβάνειν",
+   "probably_meant": "(ἀνα)λαμβάνειν",
+   "note": "the closing parenthesis is missing; a space is printed instead"
+  },
+  {
+   "strip": "0503_03",
+   "printed": "ἔνοπλον παίγνιον τό.:",
+   "probably_meant": "ἔνοπλον παίγνιον, τό.:",
+   "note": "no comma before the article"
+  },
+  {
+   "strip": "0503_03",
+   "printed": "κατορθοῦν τον πόλεμον",
+   "probably_meant": "κατορθοῦν τὸν πόλεμον",
+   "note": "no accent printed on the article"
+  },
+  {
+   "strip": "0503_04",
+   "printed": "ἀσφαλής. 2.",
+   "probably_meant": "ἀσφαλής, 2.",
+   "note": "a full stop is printed where the rest of the series has commas"
+  },
+  {
+   "strip": "0503_05",
+   "printed": "Vargfärgad. λυκόχρους",
+   "probably_meant": "Vargfärgad, λυκόχρους",
+   "note": "a full stop is printed after the headword"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0503_00",
+   "text": "(τὸ εἶδος, την μορφήν) ... ett v. ansigte, πρόσωπον",
+   "note": "the punctuation at the right margin is cut off in the scan; I read it as a comma in both places"
+  },
+  {
+   "strip": "0503_00",
+   "text": "Vante",
+   "note": "the final letter is broken type (looks like э); read as e"
+  },
+  {
+   "strip": "0503_00",
+   "text": "se Vansinne, -nig",
+   "note": "the mark after Vansinne could be a full stop or a comma"
+  },
+  {
+   "strip": "0503_01",
+   "text": "(κατ)αισχύνειν",
+   "note": "no apostrophe is visible after κατ; there may be a broken one"
+  },
+  {
+   "strip": "0503_01",
+   "text": "σκεύη, ῶν, τά",
+   "note": "the mark after σκεύη is small (comma or full stop); ῶν shows no breathing"
+  },
+  {
+   "strip": "0503_02",
+   "text": "ἀνοχαί, αἱ",
+   "note": "the mark after ἀνοχαί could be a comma or a full stop"
+  },
+  {
+   "strip": "0503_03",
+   "text": "χλαμύς, ύδος, ἡ. — χιτών, ῶνος, ὁ.",
+   "note": "the marks after χλαμύς and ῶνος look like dots; written as commas"
+  },
+  {
+   "strip": "0503_05",
+   "text": "hörande till v., λύκειος",
+   "note": "a gap is printed after v with no visible full stop; probably broken type"
+  },
+  {
+   "strip": "0503_05",
+   "text": "biten, rifven af v:ar, λυκόβρωτος",
+   "note": "the marks after biten and v:ar look like dots; written as commas"
+  }
+ ]
+}

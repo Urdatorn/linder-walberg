@@ -1,0 +1,66 @@
+{
+ "page": "0521",
+ "strips_done": 6,
+ "corrections": 70,
+ "misprints": [
+  {
+   "strip": "0521_00",
+   "printed": "väuskap",
+   "probably_meant": "vänskap",
+   "note": "turned n printed as u"
+  },
+  {
+   "strip": "0521_00",
+   "printed": "illamående",
+   "probably_meant": "illamående",
+   "note": "the second e is printed as a turned/reversed e (looks like ə); transcribed as e"
+  },
+  {
+   "strip": "0521_02",
+   "printed": "uct.",
+   "probably_meant": "act.",
+   "note": "italic a printed as/looks like u"
+  },
+  {
+   "strip": "0521_03",
+   "printed": "ῥοπή, η.",
+   "probably_meant": "ῥοπή, ἡ.",
+   "note": "article printed without rough breathing"
+  },
+  {
+   "strip": "0521_04",
+   "printed": "ἐν τῆ φιλία",
+   "probably_meant": "ἐν τῇ φιλίᾳ",
+   "note": "no iota subscripts visible in print, whereas they are visible elsewhere on the page"
+  },
+  {
+   "strip": "0521_04",
+   "printed": "ngu vid ngt",
+   "probably_meant": "ngn vid ngt",
+   "note": "turned n printed as u"
+  },
+  {
+   "strip": "0521_04",
+   "printed": "ὥς m. part. fut.",
+   "probably_meant": "ὡς",
+   "note": "printed with rough breathing plus acute"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0521_01",
+   "text": "vara en v. af ngt, ἀγαπᾶν τι",
+   "note": "punctuation after ngt is a blotted mark; could be a full stop, but a comma is more likely"
+  },
+  {
+   "strip": "0521_00",
+   "text": "illamående",
+   "note": "the second e is a reversed/turned glyph; transcribed as plain e"
+  },
+  {
+   "strip": "0521_03",
+   "text": "(μετ)αλλάττεσθαι",
+   "note": "the hyphen after (μετ) at the line end was treated as a line-break hyphen and dropped"
+  }
+ ]
+}

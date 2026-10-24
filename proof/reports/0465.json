@@ -1,0 +1,42 @@
+{
+ "page": "0465",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0465_02",
+   "printed": "σκοθρωπάζειν",
+   "probably_meant": "σκυθρωπάζειν",
+   "note": "Trumpna: the print has ο for υ."
+  },
+  {
+   "strip": "0465_01",
+   "printed": "ἀπο σάλπιγγος",
+   "probably_meant": "ἀπὸ σάλπιγγος",
+   "note": "Trumpetsignal: no grave accent is printed on ἀπο."
+  },
+  {
+   "strip": "0465_04",
+   "printed": "ἴς, νός, ἡ",
+   "probably_meant": "ἴς, ἰνός, ἡ",
+   "note": "Tråd: the genitive is printed as νός, without the initial ἰ."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0465_01",
+   "text": "τῇ σάλπιγγι",
+   "note": "Because of the η's descender, I can't tell whether there is an iota subscript. I kept τῇ."
+  },
+  {
+   "strip": "0465_04",
+   "text": "ἴς",
+   "note": "The breathing on ἴς is small and could be either smooth or rough. I read it as smooth."
+  },
+  {
+   "strip": "0465_05",
+   "text": "gmgångar",
+   "note": "The print breaks it across lines as 'gm-gångar'. I joined it as an ordinary line-end hyphen."
+  }
+ ]
+}

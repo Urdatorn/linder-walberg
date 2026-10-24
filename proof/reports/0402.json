@@ -1,0 +1,48 @@
+{
+ "page": "0402",
+ "strips_done": 6,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0402_02",
+   "printed": "σκιερός, 3 ἐπί-, κατά , σύσκιος, 2.",
+   "probably_meant": "σκιερός, 3. ἐπί-, κατά-, σύσκιος, 2.",
+   "note": "The hyphen after κατά is missing and a space stands before the comma. The full stop after 3 is also missing. Transcribed as 'κατά,' with no hyphen."
+  },
+  {
+   "strip": "0402_02",
+   "printed": "ἀδεὲς δέος δ.:",
+   "probably_meant": "ἀδεὲς δέος, τό.: (or similar)",
+   "note": "A stray 'δ.' follows the phrase. It is probably a damaged or wrong sort."
+  },
+  {
+   "strip": "0402_03",
+   "printed": "1) hd man är ngn skyldig",
+   "probably_meant": "hvad man är ngn skyldig",
+   "note": "'hd' is printed as is. It may be a contraction of hvad."
+  },
+  {
+   "strip": "0402_04",
+   "printed": "(ἐπ)αιτιᾶσθαί",
+   "probably_meant": "(ἐπ)αἰτιᾶσθαί",
+   "note": "There is no breathing on αι after the bracketed prefix. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0402_00",
+   "text": "ῥαχιστής, οῦ, ὁ (Sedn.).",
+   "note": "The article ὁ before (Sedn.) is broken type. I read it as ὁ, with the full stop after the parenthesis."
+  },
+  {
+   "strip": "0402_02",
+   "text": "ἀδεὲς δέος δ.:",
+   "note": "The glyph after δέος looks like δ, but the reading is unclear."
+  },
+  {
+   "strip": "0402_03",
+   "text": "ταύτῃ κακόν ἐστί τι.",
+   "note": "The iota subscript under η is very faint."
+  }
+ ]
+}

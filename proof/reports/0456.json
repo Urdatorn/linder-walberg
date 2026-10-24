@@ -1,0 +1,60 @@
+{
+ "page": "0456",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0456_00",
+   "printed": "προχωρεῖν ἐπὶ τὸ πλέον.. efter hand",
+   "probably_meant": "πλέον.: efter hand",
+   "note": "Two baseline dots printed where the book's usual '.:' separator is expected."
+  },
+  {
+   "strip": "0456_01",
+   "printed": "sfbeherrskning",
+   "probably_meant": "sjelfbeherrskning",
+   "note": "Swedish word printed in a garbled form."
+  },
+  {
+   "strip": "0456_02",
+   "printed": "παραλαβεῖν τὴν αρχην.",
+   "probably_meant": "ἀρχήν",
+   "note": "Printed with no breathing and no accent at the start of the line."
+  },
+  {
+   "strip": "0456_05",
+   "printed": "utan ngns t., ακοντος τινος.",
+   "probably_meant": "ἄκοντός τινος",
+   "note": "Printed with no breathing and no accents."
+  },
+  {
+   "strip": "0456_04",
+   "printed": "προσήκων, ουσα, ον.",
+   "probably_meant": "οὖσα",
+   "note": "Feminine ending printed with no breathing and no accent."
+  },
+  {
+   "strip": "0456_04",
+   "printed": "προστρέπειν",
+   "probably_meant": "προτρέπειν or προςτρέπειν",
+   "note": "Kept as printed. It may be a real form."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0456_05",
+   "text": "ἐξόν",
+   "note": "The print shows 'ἐξίν': the vowel under the acute looks like a broken ο. I transcribed it as ἐξόν."
+  },
+  {
+   "strip": "0456_00",
+   "text": "πλέον..",
+   "note": "This may be '.:' with the top dot of the colon missing, but the scan clearly shows two dots side by side on the baseline."
+  },
+  {
+   "strip": "0456_02",
+   "text": "εἰςιέναι",
+   "note": "The word is split across a line ('εἰς-' / 'ιέναι'). I took it as a hyphenated line break and kept the ς that is printed at the prefix boundary."
+  }
+ ]
+}

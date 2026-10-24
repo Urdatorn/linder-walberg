@@ -1,0 +1,69 @@
+{
+ "page": "0505",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0505_01",
+   "printed": "Vattensur",
+   "probably_meant": "Vattenur",
+   "note": "Headword printed with an extra s (water clock, κλεψύδρα)."
+  },
+  {
+   "strip": "0505_01",
+   "printed": "ὑδρευσις",
+   "probably_meant": "ὕδρευσις",
+   "note": "Printed with breathing only and no accent (ὑ- at line end)."
+  },
+  {
+   "strip": "0505_00",
+   "printed": "ὑδερίασις, ἡ ὑδερικὸν",
+   "probably_meant": "ὑδερίασις, ἡ. ὑδερικὸν",
+   "note": "No punctuation after ἡ in the print."
+  },
+  {
+   "strip": "0505_02",
+   "printed": "πτυκτός, 3",
+   "probably_meant": "πτυκτός, 3.",
+   "note": "There is no full stop after 3 at the end of the column; the margin is blank."
+  },
+  {
+   "strip": "0505_05",
+   "printed": "δίκη. ἡ.",
+   "probably_meant": "δίκη, ἡ.",
+   "note": "Vedergällningsrätt: a full stop where a comma would be expected."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0505_00",
+   "text": "αὐλός",
+   "note": "Broken type: the second letter looks like ι with a breathing. Read as αὐλός."
+  },
+  {
+   "strip": "0505_00",
+   "text": "ὑδρωπιώδης",
+   "note": "Broken type in the middle of the word (ὑδρωπι.΄δης). The most likely reading is ὑδρωπιώδης."
+  },
+  {
+   "strip": "0505_03",
+   "text": "ἐοικέναι",
+   "note": "The letter after κ at the end of the line is blotted: ε or ί. Read as ἐοικέναι."
+  },
+  {
+   "strip": "0505_03",
+   "text": "ὡς (τὸ) εἰκός",
+   "note": "The breathing or accent on ὡς is unclear and may be ὥς."
+  },
+  {
+   "strip": "0505_05",
+   "text": "o. d.)",
+   "note": "The full stop after d is not visible, only a gap (\"o. d ).:\"). It was written as o. d.)."
+  },
+  {
+   "strip": "0505_02",
+   "text": "αἶ (vanl. upprepadt, αἶ αἶ)",
+   "note": "The diacritic on ι is small and unclear: circumflex with breathing assumed."
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "page": "0464",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0464_00",
+   "printed": "ὁ, ἡ, τὸ τυχών, οὖσα, όν",
+   "probably_meant": "ὄν",
+   "note": "The neuter participle is printed with an acute and no breathing."
+  },
+  {
+   "strip": "0464_01",
+   "printed": "ἐγκαρτερεῖν τῷ ἦθει",
+   "probably_meant": "ἤθει",
+   "note": "Printed with a smooth breathing and circumflex. The dative of ἦθος should take an acute."
+  },
+  {
+   "strip": "0464_01",
+   "printed": "τροχαιικός",
+   "probably_meant": "τροχαϊκός (a doublet)",
+   "note": "The print clearly reads τρο-χαιικός, so it was kept. It may be an intentional variant form."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0464_03",
+   "text": "ὥς (τὸ) εἰκός",
+   "note": "The opening parenthesis before τὸ is broken and faint in the scan. Read as \"(\"."
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "page": "0499",
+ "strips_done": 6,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0499_01",
+   "printed": "πιθανίς, 3",
+   "probably_meant": "πιθανός, 3",
+   "note": "The print clearly shows ν-ί-ς after the line break (πιθα-νίς). Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0499_05",
+   "text": "προφέρειν",
+   "note": "The φ is the broken φ glyph found in this face. I see no ς before it, so I did not read it as προςφέρειν."
+  },
+  {
+   "strip": "0499_03",
+   "text": "ἀπ-, ἐξ- μετοικεῖν",
+   "note": "No comma is printed after ἐξ- and there is a space before μετοικεῖν. Kept as printed."
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "page": "0445",
+ "strips_done": 6,
+ "corrections": 42,
+ "misprints": [
+  {
+   "strip": "0445_03",
+   "printed": "Tändkött",
+   "probably_meant": "Tandkött",
+   "note": "Headword printed with ä; its alphabetical place between Tandfällning and Tandlös requires Tandkött"
+  },
+  {
+   "strip": "0445_00",
+   "printed": "Talförmåga, φωνή, ἡ. τὸ φραστικόν.: ... b) se Talegåfva.",
+   "probably_meant": "a sense number a) before φωνή",
+   "note": "Entry has b) but no a) in the print"
+  },
+  {
+   "strip": "0445_05",
+   "printed": "icke af sma t. s. du",
+   "probably_meant": "samma",
+   "note": "Possibly an abbreviation or a dropped letter; kept as printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0445_01",
+   "text": "πολύλογος",
+   "note": "Broken type: the accent and letter after πολ- are damaged, read as ύ"
+  },
+  {
+   "strip": "0445_01",
+   "text": "πρᾷος",
+   "note": "Iota subscript under the α is faint"
+  },
+  {
+   "strip": "0445_02",
+   "text": "(δια)πρίειν",
+   "note": "The hyphen after '(δια)' at line end was treated as a line-break hyphen and the word joined"
+  },
+  {
+   "strip": "0445_05",
+   "text": "-ᾳ βαδίζειν",
+   "note": "No accent visible on the ending -ᾳ; written with iota subscript only"
+  }
+ ]
+}

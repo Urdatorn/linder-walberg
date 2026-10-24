@@ -1,0 +1,53 @@
+{
+ "page": "0479",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0479_03",
+   "printed": "φεύγειν, ἀπο , ἐκ-, διαφεύγειν",
+   "probably_meant": "ἀπο-, ἐκ-, διαφεύγειν",
+   "note": "Prefix printed without its hyphen (a space before the comma). Transcribed as 'ἀπο, ἐκ-'."
+  },
+  {
+   "strip": "0479_03",
+   "printed": "2) ss sak",
+   "probably_meant": "2) ss. sak",
+   "note": "The period after the abbreviation 'ss' is missing; compare '1) ss. handling'."
+  },
+  {
+   "strip": "0479_05",
+   "printed": "t ex. μόσχος",
+   "probably_meant": "t. ex. μόσχος",
+   "note": "The period after 't' is missing."
+  },
+  {
+   "strip": "0479_05",
+   "printed": "τέταρσι γενεαῖς νεώτεροι",
+   "probably_meant": "τέτρασι γενεαῖς νεώτεροι",
+   "note": "Dative of τέτταρες printed with the letters transposed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0479_05",
+   "text": "ἡλικία, ἡ ο. ἀκμὴ τῆς ἡλικίας, ἡ",
+   "note": "Spacing material shows as ink between the words around ἀκμὴ τῆς. I read the letters as ἀκμὴ τῆς ἡλικίας. There is also a stray mark after ἡλικία."
+  },
+  {
+   "strip": "0479_04",
+   "text": "3. ὁ, ἡ, τὸ κατωτέρω",
+   "note": "The broken mark after ὁ could be a comma or a period. I took it as a comma."
+  },
+  {
+   "strip": "0479_01",
+   "text": "κόλασις, ἡ. ... καταστροφή, ἡ.",
+   "note": "The marks after κόλασις and καταστροφή are small. I read both as commas."
+  },
+  {
+   "strip": "0479_00",
+   "text": "Undersätsig. μικρός τε καὶ παχύς. 3.",
+   "note": "I read the marks after the headword and after παχύς as periods, not commas."
+  }
+ ]
+}

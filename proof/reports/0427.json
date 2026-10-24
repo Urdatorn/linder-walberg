@@ -1,0 +1,20 @@
+{
+ "page": "0427",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0427_02",
+   "printed": "ἀντιλέγων, ουσα",
+   "probably_meant": "ἀντιλέγων, οὖσα",
+   "note": "Feminine ending printed without breathing or accent, unlike the preceding ἀμφισβητῶν, οὖσα."
+  },
+  {
+   "strip": "0427_01",
+   "printed": "m. μή o. inf..",
+   "probably_meant": "m. μή o. inf.",
+   "note": "Double full stop at the end of the Streta entry (italic stop plus roman stop); kept as printed."
+  }
+ ],
+ "uncertain": []
+}

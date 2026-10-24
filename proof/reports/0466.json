@@ -1,0 +1,47 @@
+{
+ "page": "0466",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0466_02",
+   "printed": "Träda, ἀργὸν ἐᾶν. νεᾶν (upptaga).",
+   "note": "Headword printed 'Träda' (and 'Träde', 'Påträda'); kept as printed. The fallow-land sense is normally spelled 'Träda/Träde', so this is probably not an error."
+  },
+  {
+   "strip": "0466_04",
+   "printed": "b) fig.",
+   "probably_meant": "b) fig. (with an a) before it)",
+   "note": "Sense 1) of Träffa has 'b) fig.' but no 'a)' anywhere before it."
+  },
+  {
+   "strip": "0466_05",
+   "printed": "ἐμ / πίπτειν (line break with no hyphen)",
+   "probably_meant": "ἐμ-πίπτειν",
+   "note": "The word is split across a line end without a hyphen. Written whole as ἐμπίπτειν."
+  },
+  {
+   "strip": "0466_05",
+   "printed": "ἦν τι πάθω. ἦν τί μοι συμβῇ. ἦν τι γένηται",
+   "probably_meant": "ἢν",
+   "note": "The conditional ἤν/ἐάν is printed with what looks like a circumflex. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0466_01",
+   "text": "σκώρ, ατός, τό",
+   "note": "The accent looks like an acute (the standard form is σκῶρ). Transcribed as an acute, as it appears in the scan."
+  },
+  {
+   "strip": "0466_04",
+   "text": "μανθάνεις l. γιγνώσκεις",
+   "note": "After the 'l' the scan shows something like a comma ('l,'), probably a broken full stop. Transcribed as 'l.'."
+  },
+  {
+   "strip": "0466_05",
+   "text": "ἐμπίπτειν",
+   "note": "The first part 'ἐμ' could carry a smooth breathing with grave or acute. The word was joined across the unhyphenated line break."
+  }
+ ]
+}

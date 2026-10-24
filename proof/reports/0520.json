@@ -1,0 +1,60 @@
+{
+ "page": "0520",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0520_00",
+   "printed": "v. hrandra",
+   "probably_meant": "v. hvarandra",
+   "note": "Swedish word printed 'hrandra'"
+  },
+  {
+   "strip": "0520_00",
+   "printed": "helsa v , se Följ.",
+   "probably_meant": "helsa v., se Följ.",
+   "note": "no full stop visible after the abbreviation v"
+  },
+  {
+   "strip": "0520_01",
+   "printed": "δουλεύειν τῆ ἡδονῇ",
+   "probably_meant": "δουλεύειν τῇ ἡδονῇ",
+   "note": "the article has no iota subscript in the print, while ἡδονῇ has one"
+  },
+  {
+   "strip": "0520_02",
+   "printed": "ἀκμάζων, ουσα, ον",
+   "probably_meant": "ἀκμάζων, ουσα, ον (οῦσα)",
+   "note": "the termination ουσα is printed with no accent"
+  },
+  {
+   "strip": "0520_02",
+   "printed": "ἡδύς, 3, ἀφροδίσιος",
+   "probably_meant": "ἡδύς, 3. ἀφροδίσιος",
+   "note": "comma instead of the usual full stop after the termination number"
+  },
+  {
+   "strip": "0520_05",
+   "printed": "χάρις, ιτος, ἡ",
+   "probably_meant": "χάρις, ιτος, ἡ (normal for a genitive ending)",
+   "note": "the genitive ending is printed with no accent; kept as printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0520_05",
+   "text": "τινός l. εἰς, πρός τινα",
+   "note": "the mark over ει could be a smooth breathing with a grave accent (εἲς); I read it as εἰς"
+  },
+  {
+   "strip": "0520_00",
+   "text": "εῖα, ύ",
+   "note": "the termination of ἡδύς is printed εῖα with no visible breathing; I copied it as printed"
+  },
+  {
+   "strip": "0520_02",
+   "text": "ῥᾴδιον",
+   "note": "the iota subscript under α is faint but appears to be there"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "page": "0434",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0434_03",
+   "printed": "αἴγειρος, η.",
+   "probably_meant": "αἴγειρος, ἡ.",
+   "note": "Article printed without rough breathing"
+  },
+  {
+   "strip": "0434_03",
+   "printed": "hrandra",
+   "probably_meant": "hvarandra",
+   "note": "Swedish abbreviation/typo as printed"
+  },
+  {
+   "strip": "0434_03",
+   "printed": "τραγικεύσθαι",
+   "probably_meant": "τραγικεύεσθαι",
+   "note": "Missing ε in infinitive"
+  },
+  {
+   "strip": "0434_03",
+   "printed": "ἀφεύεν",
+   "probably_meant": "ἀφεύειν",
+   "note": "Infinitive printed without ι"
+  },
+  {
+   "strip": "0434_01",
+   "printed": "(ἀντ)αποκρίνεσθαι",
+   "probably_meant": "(ἀντ)αποκρίνεσθαι / ἀποκρίνεσθαι",
+   "note": "No breathing on α after the parenthesised prefix; kept as printed"
+  },
+  {
+   "strip": "0434_02",
+   "printed": "τριχος",
+   "probably_meant": "τριχός",
+   "note": "Genitive ending printed without accent"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0434_00",
+   "text": "μύκης, ου o. ητος",
+   "note": "The τ in ητος is damaged and looks like κ; read as ητος (the genitive of μύκης)"
+  },
+  {
+   "strip": "0434_03",
+   "text": "ἠΐθεος",
+   "note": "The ι carries a smudged mark; read as a diaeresis"
+  },
+  {
+   "strip": "0434_04",
+   "text": "ἱδρώς, ῶτος",
+   "note": "The mark over the ω merges with ink from the line above; read as a plain circumflex with no breathing"
+  },
+  {
+   "strip": "0434_04",
+   "text": "ἱδρῶτι ῥεῖν",
+   "note": "The breathing on the line-broken ἱ- is blotted; read as rough"
+  },
+  {
+   "strip": "0434_05",
+   "text": "ἀπορεῖν.",
+   "note": "The diacritics fall on the cut between the two bands, so only fragments show; read as ἀπορεῖν"
+  },
+  {
+   "strip": "0434_05",
+   "text": "o. gm vv.",
+   "note": "Italic 'vv' looks like Greek υυ; the final full stop is partly cut off"
+  }
+ ]
+}

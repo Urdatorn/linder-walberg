@@ -1,0 +1,36 @@
+{
+ "page": "0421",
+ "strips_done": 6,
+ "corrections": 50,
+ "misprints": [
+  {
+   "strip": "0421_00",
+   "printed": "Stall, 1) ... 3) på stränginstrument",
+   "probably_meant": "2) på stränginstrument",
+   "note": "Sense number jumps from 1) to 3); kept as printed."
+  },
+  {
+   "strip": "0421_02",
+   "printed": "(συν)-τρίβειν",
+   "probably_meant": "(συν)τρίβειν",
+   "note": "Line-break hyphen after the parenthesis; written whole as (συν)τρίβειν."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0421_04",
+   "text": "δριμεῖα ὀσμή",
+   "note": "The mark over the omicron looks like a grave or a reversed-comma rough breathing, not a clear smooth breathing. Transcribed as ὀσμή; the print may actually read ὸσμή or ὁσμή."
+  },
+  {
+   "strip": "0421_05",
+   "text": "πολιτεία, ἡ.: monarkisk",
+   "note": "The breathing on ἡ is a stroke shaped like a grave, probably a damaged rough breathing. Kept as ἡ."
+  },
+  {
+   "strip": "0421_00",
+   "text": "ἔθνος, τό",
+   "note": "The omicron of τό is broken and looks like υ. Read as τό."
+  }
+ ]
+}

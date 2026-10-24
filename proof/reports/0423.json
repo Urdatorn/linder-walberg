@@ -1,0 +1,59 @@
+{
+ "page": "0423",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0423_00",
+   "printed": "προσκινεῖν,:",
+   "probably_meant": "προσκινεῖν.:",
+   "note": "Comma plus colon printed after προσκινεῖν; kept as printed."
+  },
+  {
+   "strip": "0423_01",
+   "printed": "a) eg.. ὀπτᾶσθαι",
+   "probably_meant": "a) eg., ὀπτᾶσθαι",
+   "note": "Double full stop after eg."
+  },
+  {
+   "strip": "0423_03",
+   "printed": "κάκληξ",
+   "probably_meant": "κάχληξ",
+   "note": "Both letters are clearly κ in the print, with no χ descender."
+  },
+  {
+   "strip": "0423_04",
+   "printed": "πος, ο.",
+   "probably_meant": "πος, ὁ.",
+   "note": "The article after λιθοκόπος is printed with no breathing or accent."
+  },
+  {
+   "strip": "0423_04",
+   "printed": "λαξευ τήριον; ἀδαμάν τινος",
+   "probably_meant": "λαξευτήριον; ἀδαμάντινος",
+   "note": "These words are broken across lines without a hyphen. They are written whole."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0423_00",
+   "text": "οἷς τις ἐπιχειρεῖ",
+   "note": "The word is cut off at the right edge of the strip. Only οἷ plus part of the next letter can be seen."
+  },
+  {
+   "strip": "0423_00",
+   "text": "σκάλα τῆς σέλλας l.",
+   "note": "There is a faint dot after σέλλας. I took it for dust and removed the old ·."
+  },
+  {
+   "strip": "0423_00",
+   "text": "ἀκαλανθίς, ἀκανθυλλίς,",
+   "note": "There are broken marks before and after ἀκανθυλλίς, possibly brackets or dust. I left them out."
+  },
+  {
+   "strip": "0423_05",
+   "text": "πυελίς, ίδος",
+   "note": "The second letter looks like υ, not ν. The ending is printed with an acute and no breathing."
+  }
+ ]
+}

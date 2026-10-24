@@ -1,0 +1,25 @@
+{
+ "page": "0494",
+ "strips_done": 6,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0494_02",
+   "printed": "εἴσπαξις",
+   "probably_meant": "εἴσπραξις",
+   "note": "Under Utkräfning the ρ is clearly missing in the print. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0494_04",
+   "text": "νῖα, ὸς ὑπὸ γήρως",
+   "note": "Under Utlefvad the mark over the ending -ος is small. I read it as a grave accent, not a breathing."
+  },
+  {
+   "strip": "0494_01",
+   "text": "ἐπῳάζειν",
+   "note": "The iota subscript under ω is faint but probably there."
+  }
+ ]
+}

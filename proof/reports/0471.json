@@ -1,0 +1,105 @@
+{
+ "page": "0471",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0471_00",
+   "printed": "πλαγία πραμμή",
+   "probably_meant": "πλαγία γραμμή",
+   "note": "π printed for γ"
+  },
+  {
+   "strip": "0471_00",
+   "printed": "t. emot hd han tänker",
+   "probably_meant": "hvad",
+   "note": "printed 'hd'"
+  },
+  {
+   "strip": "0471_02",
+   "printed": "ἔρως, τος, ὁ",
+   "probably_meant": "ἔρως, ωτος, ὁ",
+   "note": "genitive ending printed as 'τος'"
+  },
+  {
+   "strip": "0471_02",
+   "printed": "b) t. om.",
+   "probably_meant": "b) without a preceding a)",
+   "note": "sense b) has no a) in Tycka 1)"
+  },
+  {
+   "strip": "0471_04",
+   "printed": "ἀν, ἀφ-, ἐφιέναι",
+   "probably_meant": "ἀν-, ἀφ-, ἐφιέναι",
+   "note": "hyphen after ἀν missing in the print (gap visible)"
+  },
+  {
+   "strip": "0471_04",
+   "printed": "(vanl. pl..)",
+   "probably_meant": "(vanl. pl.)",
+   "note": "double full stop"
+  },
+  {
+   "strip": "0471_04",
+   "printed": "gjort dta",
+   "probably_meant": "detta",
+   "note": "kept as printed"
+  },
+  {
+   "strip": "0471_05",
+   "printed": "βαρύτης, ὁ",
+   "probably_meant": "βαρύτης, ἡ",
+   "note": "wrong article"
+  },
+  {
+   "strip": "0471_05",
+   "printed": "δεινότης, ὁ",
+   "probably_meant": "δεινότης, ἡ",
+   "note": "wrong article"
+  },
+  {
+   "strip": "0471_05",
+   "printed": "hålla i t,",
+   "probably_meant": "hålla i t.,",
+   "note": "abbreviation dot missing"
+  },
+  {
+   "strip": "0471_01",
+   "printed": "πλύσις, ἡ,: vara i t.",
+   "probably_meant": "πλύσις, ἡ.: vara i t.",
+   "note": "comma where '.:' expected"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0471_00",
+   "text": "παρὰ τοὺς νόμους, τὸ εἰωθός",
+   "note": "article cut off at right edge of the scan; only 'τ' visible, 'τὸ' assumed"
+  },
+  {
+   "strip": "0471_03",
+   "text": "χάρις, ιτος",
+   "note": "mark after χάρις looks like a full stop; written as a comma"
+  },
+  {
+   "strip": "0471_03",
+   "text": "Tydlig, σαφής ... φανερός, 3. ... om ljud, röst",
+   "note": "the marks after Tydlig, φανερός and ljud look like full stops (probably broken commas); written as commas"
+  },
+  {
+   "strip": "0471_04",
+   "text": "Tyg, 1)",
+   "note": "mark after the headword may be a full stop"
+  },
+  {
+   "strip": "0471_05",
+   "text": "ῥοπή, ἡ.",
+   "note": "mark after ῥοπή in Tyngdkraft may be a full stop"
+  },
+  {
+   "strip": "0471_02",
+   "text": "få t. f. ngn. ngt, εἰς",
+   "note": "the punctuation after ngn and ngt is faint"
+  }
+ ]
+}

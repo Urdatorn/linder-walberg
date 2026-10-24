@@ -1,0 +1,43 @@
+{
+ "page": "0383",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0383_00",
+   "printed": "παράσκειον",
+   "probably_meant": "παράσειον",
+   "note": "Toppsegel; the print clearly has κ."
+  },
+  {
+   "strip": "0383_02",
+   "printed": "ἐπειθεῖναι",
+   "probably_meant": "ἐπιθεῖναι",
+   "note": "Segerpalm entry; the print clearly has ει."
+  },
+  {
+   "strip": "0383_03",
+   "printed": "ναῦς, εώς",
+   "probably_meant": "ναῦς, νεώς",
+   "note": "Genitive ending printed as εώς."
+  },
+  {
+   "strip": "0383_05",
+   "printed": "ὀψέ τῆς ημέρας",
+   "probably_meant": "ὀψέ τῆς ἡμέρας",
+   "note": "No breathing visible on ημέρας in the scan."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0383_03",
+   "text": "εὖ πλέων, ουσα, ον: dålig s.",
+   "note": "The print shows 'ον :' with a space and no visible full stop before the colon. I transcribed it as 'ον:'."
+  },
+  {
+   "strip": "0383_04",
+   "text": "ἑκατονταετηρίς, ίδος",
+   "note": "The ending ίδος looks like it has only an acute and no breathing, but the scan is small."
+  }
+ ]
+}

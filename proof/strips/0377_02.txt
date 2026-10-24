@@ -1,8 +1,8 @@
 Sammangadda sig, συνίστασθαι. συστρέφεσθαι (ἐπί τινα). στασιάζειν. συνομνύναι (ἐπί τινα). s:d hop, συστροφή, ἡ. σύστρεμμα, τό.
 
-Sammangadding, σύστασις, ἡ. συλλογή, ἡ. συγκρότησις, ἡ. συνωμοσία, ἡ (smnsvärjning).
+Sammangaddning, σύστασις, ἡ. συλλογή, ἡ. συγκρότησις, ἡ. συνωμοσία, ἡ (smnsvärjning).
 
-Sammangjuta, συγχεῖν. συγχεραννύναι.
+Sammangjuta, συγχεῖν. συγκεραννύναι.
 
 Sammangjutande, -ning, σύγχυσις, εως, ἡ.
 
@@ -10,6 +10,6 @@ Sammangyttra, σαναγείρειν. συσσωρεύειν (Sedn.). äfv. συ
 
 Sammangyttring, σώρευσις, ἡ (Sedn., ss. handling). σώρευμα, τό (ss. åstadkommet).
 
-Sammanhang, συνέχεια, συνάφεια, συναφή, ἡ (i phys. o. metaphor. bet.). ἀλληλουχία, ἡ. κοινωνία, ἡ.: s. m. ngt, συναφὴ (καὶ κατάμιξις) πρός τι.: s. i tal, ἀκολουθία ἡ τοῦ λόγου. Jfr äfv. Kontext 2).: i s. m. dta, ἑχομένως τούτων.: stå i s. m., se Sammanhänga.: ej ha ngt s. m. hrandra, κοινὸν οὐδὲν ἔχειν ἀλλήλων.: berätta s:et af en sak, δηλοῦν πᾶν τὸ πρᾶγμα. λέγειν τὸ πρᾶγμα ὡς ἐγένετο. καθ’ ἓν ἕκαστον διελθεῖν (τοῦ πράγματος).
+Sammanhang, συνέχεια, συνάφεια, συναφή, ἡ (i phys. o. metaphor. bet.). ἀλληλουχία, ἡ. κοινωνία, ἡ.: s. m. ngt, συναφὴ (καὶ κατάμιξις) πρός τι.: s. i tal, ἀκολουθία ἡ τοῦ λόγου. Jfr äfv. Kontext 2).: i s. m. dta, ἐχομένως τούτων.: stå i s. m., se Sammanhänga.: ej ha ngt s. m. hrandra, κοινὸν οὐδὲν ἔχειν ἀλλήλων.: berätta s:et af en sak, δηλοῦν πᾶν τὸ πρᾶγμα. λέγειν τὸ πρᾶγμα ὡς ἐγένετο. καθ’ ἓν ἕκαστον διελθεῖν (τοῦ πράγματος).
 
 Sammanhopa, (συν)αθροίζειν. συναγείρειν. συννεῖν.

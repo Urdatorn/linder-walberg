@@ -1,0 +1,42 @@
+{
+ "page": "0522",
+ "strips_done": 6,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0522_03",
+   "printed": "ἰστότιμος",
+   "probably_meant": "ἰσότιμος",
+   "note": "Extra τ in the print; kept as printed."
+  },
+  {
+   "strip": "0522_04",
+   "printed": "Värdi",
+   "probably_meant": "Värde (or Värdi = valuation)",
+   "note": "Headword 'Värdi, τακτὴ τιμή' printed so; kept."
+  },
+  {
+   "strip": "0522_00",
+   "printed": "ιτος",
+   "probably_meant": "ιτος (ending of χάρις)",
+   "note": "Genitive ending printed without accent; kept bare as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0522_05",
+   "text": "καπηλίς, ίδος",
+   "note": "Mark over the ι of the genitive ending looks like an acute but is small; could be bare ιδος."
+  },
+  {
+   "strip": "0522_04",
+   "text": "τιμητής, οῦ, ὁ",
+   "note": "Accent on οῦ read as circumflex."
+  },
+  {
+   "strip": "0522_03",
+   "text": "ἰστότιμος",
+   "note": "Breathing read as smooth."
+  }
+ ]
+}
