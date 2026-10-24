@@ -60,7 +60,7 @@ critical and lexicographic printing, with two layers of text for every page:
 |---|---|---|
 | `pages` (default) | 540 | scanned page: image, raw OCR, diplomatic and corrected text |
 | `strips` | 3,267 | strip (a column section or heading) with its box and crop |
-| `entries` | 26,237 | dictionary entry (pages 5–539), diplomatic and corrected |
+| `entries` | 26,214 | dictionary entry (pages 5–539), diplomatic and corrected |
 | `corrections` | 9,791 | finding from proofreading and the formal checks, with its decision |
 
 `pages`: `page` (scan number, `0001`–`0540`), `printed_page` (scan − 4 for the
