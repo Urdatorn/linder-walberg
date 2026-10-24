@@ -32,7 +32,7 @@ Sats, 1) a) se Beståndsdel. b) bottensats, ὑπόστασις, ἡ. ὑποσ�
 
 Satt, undersätsig, ἁδρός, 3. παχύς, εῖα, ύ (robust). ῥωμαλέος, 3. καρτερός, 3.
 
-Satyr, Σάτυρος, ὁ. -artad, σατυρώδης, 2. -spel, σάτυρος, ὁ (äfv. pl.). σατυρική, ἡ, σατυρικὸν δρᾶμα, τό.: skådespelare i s:et, σατυριστὴς, οῦ, ὁ.
+Satyr, Σάτυρος, ὁ. -artad, σατυρώδης, 2. -spel, σάτυρος, ὁ (äfv. pl.). σατυρική, ἡ, σατυρικὸν δρᾶμα, τό.: skådespelare i s:et, σατυριστής, οῦ, ὁ.
 
 Sax, ψαλίς, ίδος, ἡ.
 
@@ -62,7 +62,7 @@ Schackrande, -ring, καπηλεία, ἡ.
 
 Schackrare, κάπηλος, ὁ. ὁ καπηλεύων, οντος.
 
-Schakal, θώς, θωός.
+Schakal, θώς, θωός, ὁ, ἡ.
 
 Schakt, σῆραγξ, αγγος, ἡ. σῦριγξ, ιγγος, ἡ.
 
@@ -90,4 +90,4 @@ Schåare, se Lastdragare 3).
 
 Schäferi, ungef. ποίμνη, ἡ.
 
-Se, 1) eg., ὁρᾶν, βλέπειν (ha synförmåga, m. synförmåga iakttaga), θεᾶσθαι (ngt) l. εἰς, πρός τι (på ngt). διὰ τῶν ὀφθαλμῶν αἰσθάνεσθαι.: se f. sig, långt, προορᾶν. ἐπὶ πολὺ ἐξικνεῖσθαι τοῖς ὀφθαλμοῖς.: man kan knappt s. f. sig, ἄπορόν ἐστιν ἰδεῖν τὰ πρὸ αὑτοῦ.: s. längre, s. bättre på långt håll, τηλαυγέστερον ὁρᾶν.: så långt jag kan s., ἐφ’ ὅσον ἐξ- l. ἐφικνεῖται τὰ ὄμματα (μου).: jag s:r många stadier bortåt, ἐπὶ πολλὰ στάδια ἐξικνεῖται τὰ ὄμματά μου.: s. med spänd blick, ἀτενίζειν εἰς l. πρός τι. äfv. ἐνατενίζειν τι. ἀτενέσι l. ἄσκαρδαμύκτοις τοῖς ὀφθαλμοῖς ὁρᾶν τι. ἀσκαρδαμυκτὶ βλέπειν εἴς τι. τὴν ὄψιν εἰς τὸ ἀτενὲς ἀπερείδεσθαι εἴς τι. διατελεῖν ἐνορῶντά τι.: s. ned l. opp ifrån, καθορᾶν.: s. in i, ἐγκύπτειν κατά l. εἴς τι.: s. i, ἐνορᾶν τινί τι.: s. dervid, ἐνορᾶν τι.: s. upp, ἀναβλέπειν.: s. igenom, διορᾶν (äfv. oeg.).: s. efter, ἀποβλέπειν πρός l. εἴς τι. ἐπισκοπεῖν τι (äfv. betrakta).: s. ngn i ansigtet, ἀντιβλέπειν τινί, äfv. εἰς l. πρός τινα.: s. m. egna ögon, ἐν ὀφθαλμοῖς ὁρᾶν τι. αὐτόπτην εἶναί τινος.: ej kunna s. ngt, ἀθέατον εἶναί τινος.: s. under lugg på ngt, ὑφορᾶν τι. — är objektet en att-sats, brukas participial-konstr. t. ex. jag s:r att fienderna rycka fram emot oss, ὁρῶ ἐπελθόντας ἡμῖν τοὺς πολεμίους. att jag gått vilse, ὁρῶ ἁμαρτὼν τῆς ὁδοῦ.: s. ngn dö, ὁρᾶν τινα ἀποθνήσκοντα.: man s:r att de vilja åt oss, φανεροί l. δῆλοί εἰσιν l. φαίνονται ἐπιβουλεύοντες ἡμῖν. äfv. ὅτι l. ὡς, då att-satsen framstår ss. en sjelfständig företeelse, t. ex. s:r du ej, att du felat? ὁρᾷς (= beträffande det, att du felat, s:r du ej det?).; — Med fröjd, lust s.
+Se, 1) eg., ὁρᾶν, βλέπειν (ha synförmåga, m. synförmåga iakttaga), θεᾶσθαι (betrakta) τι (ngt) l. εἰς, πρός τι (på ngt). διὰ τῶν ὀφθαλμῶν αἰσθάνεσθαι.: se f. sig, långt, προορᾶν. ἐπὶ πολὺ ἐξικνεῖσθαι τοῖς ὀφθαλμοῖς.: man kan knappt s. f. sig, ἄπορόν ἐστιν ἰδεῖν τὰ πρὸ αὑτοῦ.: s. längre, s. bättre på långt håll, τηλαυγέστερον ὁρᾶν.: så långt jag kan s., ἐφ’ ὅσον ἐξ- l. ἐφικνεῖται τὰ ὄμματα (μου).: jag s:r många stadier bortåt, ἐπὶ πολλὰ στάδια ἐξικνεῖται τὰ ὄμματά μου.: s. med spänd blick, ἀτενίζειν εἰς l. πρός τι. äfv. ἐνατενίζειν τι. ἀτενέσι l. ἄσκαρδαμύκτοις τοῖς ὀφθαλμοῖς ὁρᾶν τι. ἀσκαρδαμυκτὶ βλέπειν εἴς τι. τὴν ὄψιν εἰς τὸ ἀτενὲς ἀπερείδεσθαι εἴς τι. διατελεῖν ἐνορῶντά τι.: s. ned l. opp ifrån, καθορᾶν.: s. in i, ἐγκύπτειν κατά l. εἴς τι.: s. i, ἐνορᾶν τινί τι.: s. dervid, ἐνορᾶν τι.: s. upp, ἀναβλέπειν.: s. igenom, διορᾶν (äfv. oeg.).: s. efter, ἀποβλέπειν πρός l. εἴς τι. ἐπισκοπεῖν τι (äfv. betrakta).: s. ngn i ansigtet, ἀντιβλέπειν τινί, äfv. εἰς l. πρός τινα.: s. m. egna ögon, ἐν ὀφθαλμοῖς ὁρᾶν τι. αὐτόπτην εἶναί τινος.: ej kunna s. ngt, ἀθέατον εἶναί τινος.: s. under lugg på ngt, ὑφορᾶν τι. — är objektet en att-sats, brukas participial-konstr. t. ex. jag s:r att fienderna rycka fram emot oss, ὁρῶ ἐπελθόντας ἡμῖν τοὺς πολεμίους. att jag gått vilse, ὁρῶ ἁμαρτὼν τῆς ὁδοῦ.: s. ngn dö, ὁρᾶν τινα ἀποθνήσκοντα.: man s:r att de vilja åt oss, φανεροί l. δῆλοί εἰσιν l. φαίνονται ἐπιβουλεύοντες ἡμῖν. äfv. ὅτι l. ὡς, då att-satsen framstår ss. en sjelfständig företeelse, t. ex. s:r du ej, att du felat? οὐχ ὁρᾷς ὅτι ἥμαρτες (= beträffande det, att du felat, s:r du ej det?).; — Med fröjd, lust s.

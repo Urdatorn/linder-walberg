@@ -23,7 +23,8 @@ The print's conventions become typography:
   references     "se X", "Jfr X", "Se vidare X" link to the entry X
 
 Greek words given as equivalents are indexed too, so looking up a Greek word
-finds the Swedish entries that render it.
+finds the Swedish entries that render it, and so are the headwords' modern
+Swedish spellings (dict/modern_spelling.tsv), so "avbryta" finds Afbryta.
 
     python3 dict/build_xml.py
 """
@@ -78,7 +79,9 @@ ABBR_RE = re.compile(r"(?<![\w.])(" + "|".join(re.escape(a) for a in sorted(ABBR
 
 def headword_of(text: str) -> tuple[str, str]:
     """The headword and the rest of the entry."""
-    m = re.match(r"([^,;:(]+?(?:\([^)]{1,4}\)[^,;:(]*)?)(,\s*|\s+(?=se\s)|\s*(?=\()|$)", text)
+    # the headword ends at its comma, or at a stop the printer set in its place
+    # before the Greek ("Hufvudsats. ἡ πρώτη θέσις")
+    m = re.match(rf"([^,;:(]+?(?:\([^)]{{1,4}}\)[^,;:(]*)?)(,\s*|\.\s+(?=[{GREEK}(])|\s+(?=se\s)|\s*(?=\()|$)", text)
     if not m:
         return text.split(" ", 1)[0], text.split(" ", 1)[1] if " " in text else ""
     return m.group(1).strip(), text[m.end():]
@@ -96,6 +99,19 @@ def index_forms(head: str, rest: str) -> list[str]:
                     default=None)
             forms.append(stem[:k] + suffix if k else stem + suffix)
     return list(dict.fromkeys(f.strip() for f in forms if f.strip()))
+
+
+def load_modern() -> dict[str, list[str]]:
+    """Modern Swedish spellings of the 1862 headwords (dict/modern_spelling.tsv),
+    keyed by the headword's index forms joined with " | "."""
+    path = HERE / "modern_spelling.tsv"
+    if not path.exists():
+        return {}
+    out = {}
+    for line in path.read_text(encoding="utf-8").splitlines()[1:]:
+        key, modern = line.split("\t")
+        out[key] = [m for m in modern.split(" | ") if m]
+    return out
 
 
 def entry_id(n: int) -> str:
@@ -278,6 +294,7 @@ def main() -> None:
         for f in index_forms(head, rest):
             heads.setdefault(f.lower(), entry_id(n))
     r = Renderer(heads)
+    modern = load_modern()
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
     with open(args.out, "w", encoding="utf-8") as out:
@@ -287,8 +304,13 @@ def main() -> None:
         for eid, head, rest, e in parsed:
             title = html.escape(re.sub(r"\(([^)]*)\)", "", head), quote=True)
             out.write(f'<d:entry id="{eid}" d:title="{title}">\n')
-            for f in index_forms(head, rest):
+            forms = index_forms(head, rest)
+            for f in forms:
                 out.write(f'<d:index d:value="{html.escape(f, quote=True)}" d:title="{html.escape(f, quote=True)}"/>\n')
+            # the same word in modern spelling (Avbryta for Afbryta) finds it too
+            for m in modern.get(" | ".join(forms), []):
+                if m not in forms:
+                    out.write(f'<d:index d:value="{html.escape(m, quote=True)}" d:title="{title}"/>\n')
             if not args.no_greek_index:
                 for w in greek_index(rest):
                     out.write(f'<d:index d:value="{html.escape(w, quote=True)}" d:title="{html.escape(w, quote=True)} → {title}" d:priority="2"/>\n')

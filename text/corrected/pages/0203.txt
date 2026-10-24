@@ -14,7 +14,7 @@ Jemnförelse, παραβολή, ἡ. (ἀπ)εικασία, ἡ.: anställa en j
 
 Jemnförelsevis, ἐκ παραβολῆς. πρὸς (παρ’) ἄλλους.
 
-Jemnförlig, 1) παραβλητὸς, συμβλητός, 3. ἐοικώς, υῖα, ός. παραπλήσιος, 3 (liknande). 2) jemngod, jemnstor, se d. oo.
+Jemnförlig, 1) παραβλητός, συμβλητός, 3. ἐοικώς, υῖα, ός. παραπλήσιος, 3 (liknande). 2) jemngod, jemnstor, se d. oo.
 
 Jemnföttes, συμβάδην.
 
@@ -24,7 +24,7 @@ Jemngående, 1) jemn i gången, ἰσορρόπως πορευόμενος, 3. 2
 
 Jemnhet, ὁμαλότης, ἡ. ὁμαλόν, ἴσον, τό.: j. i lynne o. charakter, ἀταραξία, ἡ. εὐκολία, ἡ.
 
-Jemnhög, ἰσοϋψὴς, 2. ἴσος (3) τὸ ὕψος.
+Jemnhög, ἰσοϋψής, 2. ἴσος (3) τὸ ὕψος.
 
 Jemnka, 1) göra jemn, lika, ἴσον ποιεῖν. (ἐξ)ισοῦν, ὁμοιοῦν. 2) passa, (ἐν-, ἐφ-, προς-)ἁρμόττειν τί τινι.: j. lotterna så, att de bli lika, ἴσα αὐτὰ καθ’ αὑτὰ διαιρεῖν τὰ μέρη. 3) behörigt inrätta, (δια)κοσμεῖν. διατιθέναι. εὐθετεῖν. 4) moderera, minska, μετριάζειν. συστέλλειν. μειοῦν. ἐλαττοῦν.: j. sig efter omständigheterna, τοῖς παροῦσιν (ὑπ)είκειν. τὰ παρόντα ὑποφέρειν, ὑπομένειν.: j. sig efter ngn, ἐφαρμόζειν ἑαυτόν τινι. ἐπακολουθεῖν, πείθεσθαι, συμπεριφέρεσθαί τινι.
 
@@ -42,7 +42,7 @@ Jemnlångs, εἰς ταὐτὸ μήκους.
 
 Jemnmulen, συννεφής, 2. συννέφελος, 2.
 
-Jemns, 1) eg., εἰς ἴσον τινὸς. ἐν ἴσῳ τινός παρά m. acc. 2) jemnsides, långs, ἀνά m. acc. παρά m. acc.
+Jemns, 1) eg., εἰς ἴσον τινός. ἐν ἴσῳ τινός παρά m. acc. 2) jemnsides, långs, ἀνά m. acc. παρά m. acc.
 
 Jemnsidig, se Jemngående 2).
 
@@ -66,7 +66,7 @@ Jemra sig, 1) eg., στένειν. στενάζειν. 2) omåttligt klaga, κα
 
 Jemte, 1) med, σύν.: denne jemte hans folk anlände, οὗτος ἧκεν ἄγων (ἔχων, λαβὼν) τοὺς ἄνδρας l. οὗτος ἧκε καὶ οἱ ἄνδρες σὺν αὐτῷ l. οὗτος αὐτοῖς τοῖς ἀνδράσιν ἧκεν l. d. 2) bredvid, παρά m. dat. äfv. m. acc.: j. denne är han obetydlig, παρὰ τοῦτον οὐδέν ἐστιν. 3) förutom, πρός m. dat.: j. det att, ἀλλ’ ὅτι. ἀλλ’ ἢ ὅτι.
 
-Jemväl, 1) äfvenledes, οὐδὲν ἧττον. αὖ. äfv. καὶ αὐτός, när samma præd. tillägges ett annat subj., t. ex. de gingo j. hem, ἀπῄεσαν καί αὐτοὶ οἴκαδε.: i repliker, καὶ -γε, t. ex. A. τοῦτο ποίει. B. καὶ σύ γε. 2) äfven, se d. o.
+Jemväl, 1) äfvenledes, οὐδὲν ἧττον. αὖ. äfv. καὶ αὐτός, när samma præd. tillägges ett annat subj., t. ex. de gingo j. hem, ἀπῄεσαν καὶ αὐτοὶ οἴκαδε.: i repliker, καὶ -γε, t. ex. A. τοῦτο ποίει. B. καὶ σύ γε. 2) äfven, se d. o.
 
 Jern, 1) eg., σίδηρος, ὁ.: af j., σιδηροῦς, ᾶ, οῦν.: glödande j., μύδρος, ὁ.: man måste smida, medan jernet är varmt, εὐθὺς τὸ πρᾶγμα κροτείσθω. 2) redskap, verktyg, σιδήριον, τό. σίδηρος, ὁ. 3) bojor, δεσμός, ὁ. σιδηροπέδη, ἡ.
 
@@ -108,7 +108,7 @@ Jernfilspån, σιδήρου ῥινήματα l. ἀποξύσματα, τά.
 
 Jernfärg, ἰὸς ὁ τοῦ σιδήρου.
 
-Jernfärgad, σιδήρῳ ὅμοιος (3) τὴν χρόαν. σιδηρίζων, ουσα, ον (unaccented endings).
+Jernfärgad, σιδήρῳ ὅμοιος (3) τὴν χρόαν. σιδηρίζων, ουσα, ον.
 
 Jerngrufva, σιδηρωρυχεῖον, τό. σιδήρου μέταλλον, τό. σιδηρουργεῖον, τό.
 

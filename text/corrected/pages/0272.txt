@@ -12,7 +12,7 @@ Medelart, μέσον γένος l. εἶδος, τό.
 
 Medelbar, διὰ μέσου l. ἄλλου τινὸς γενόμενος, 3. ἄλλου τινὸς ὑπουργοῦντος l. συνεργοῦντος. διὰ συνεργίας τινός.
 
-Medelfärg,, ἡ.: s. har m., μεσόχροος, 3.
+Medelfärg,. μέση χρόα, ἡ.: s. har m., μεσόχροος, 3.
 
 Medelklass, μέση τάξις τῶν πολιτῶν, ἡ. δῆμος, ὁ.: en person af m., ἀνὴρ μέσος l. ἐκ δήμου l. δημοτικός, ὁ. δημότης, ὁ.: en borgare af m., μέσος πολίτης, ὁ.
 
@@ -42,7 +42,7 @@ Medelstor, μέτριος (3) τὸ μέγεθος.
 
 Medelstorlek, μέτριον μέγεθος, τό.: af m., se Föreg.
 
-Medelklass
+Medelstånd, se Medelklass.
 
 Medeltal, μέσος ἀριθμός, ὁ. τὸ μέσον.: i m., ὡς τὸ μέσον l. μέτριον εἰπεῖν.
 
@@ -60,7 +60,7 @@ Medfart, se Behandling.
 
 Medfå, δέχεσθαι. (παρα)λαμβάνειν. φέρεσθαι.
 
-Medfånge,, ὁ (i krig). συνδεσμώτης, ὁ (i fängelse).
+Medfånge,. συναιχμάλωτος, ὁ (i krig). συνδεσμώτης, ὁ (i fängelse).
 
 Medfödd, ἐμπεφυκώς, υῖα, ός. ἔμφυτος, σύμφυτος, 2. φύσει ἐνών, οὖσα, όν.: det är m., ἐμπέφυκε. φύσει ἔν-, πρός-, πάρεστιν. ὑπάρχει. φύσει ἔχω τι.
 
@@ -98,4 +98,4 @@ Medhållare, se Gynnare, Anhängare.
 
 Medicin, se Läkarekonst, Läkedom, Läkemedel. -era, φαρμάκοις χρῆσθαι. φαρμακοποτεῖν. -ering, φαρμακοποσία, φαρμακεία, ἡ. -insk, ἰατρικός, 3.
 
--kus (Medikus)
+Medikament, se Läkemedel. kus, se Läkare.

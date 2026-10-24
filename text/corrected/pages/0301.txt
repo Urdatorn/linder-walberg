@@ -12,7 +12,7 @@ Nordostlig, πρὸς ἄρκτον τε καὶ ἡλίου ἀνατολήν (
 
 Nordostvind, καικίας, ου, ὁ.
 
-Nordpol, ἀρκτικὸς πόλος, ὁ. ἄρκτοι, οἱ.
+Nordpol, ἀρκτικός πόλος, ὁ. ἄρκτοι, οἱ.
 
 Nordvestlig, πρὸς ἄρκτον τε καὶ ἡλίου δυσμάς (τετραμμένος, 3).
 
@@ -32,7 +32,7 @@ Nos, ῥύγχος, τό. ῥίς, νός, ἡ. στόμα, τό.
 
 Nosgrimma, -korg. κημός, φιμός, ὁ.: sätta n. på en häst, κημοῦν ἵππον.
 
-Noshörning, ῥινὸκερως, ωτος, ὁ.
+Noshörning, ῥινόκερως, ωτος, ὁ.
 
 Not, 1) ss. fiskredskap, σαγήνη, ἡ. ἀμφίβληστρον, τό.: draga n., σαγηνεύειν. jfr Nät. 2) ss. musiktecken, σημεῖον, τό. 3) anmärkning, ὑπόμνημα, τό. σχόλιον. τό. 4) skrifvelse, ἐπιστολή, ἡ. γραφή, ἡ. γράμματα, τά.
 
@@ -56,13 +56,13 @@ Novell, μῦθος, ὁ.
 
 November, se Månad.
 
-Nu, 1) adv. (i tidsbet.), νῦν. τὸ νῦν. τὰ νῦν. ἐνταῦθα. ἤδη τότε (om en förfluten tidepunkt).: just n., νυνί. νῦν γε. νῦν δὴ. ἄρτι: n. först, νῦν δή τότε δή: n. ändtligen, ἤδη ποτέ.: tills n, μέχρι τοῦδε μέχρι (τοῦ) νῦν. μέχρι (τοῦ) δεῦρο.: fr. n., ἀπὸ τοῦ νῦν (τὸ) ἀπὸ τοῦδε. ἐντεῦθεν: n. genast. ἄρτι. ἀρτίως. εὐθύς. παραχρῆμα. αὐτίκα μάλα. ἤδη: n. f tiden, νῦν μέν. τό γε νῦν (τὸ) νῦν εἶναι. τὸ νῦν ἔχον.: n. på stunden, νῦν δή. ἄρτι: i ett n., αὐτίκα μάλα. ἐξαίφνης. ἐν ἀκαρεῖ: n. en, n. en annan, se Än. jfr Numera, Nuvarande. 2) conj. (i consecutiv bet.), νῦν. τοίνυν δή. οὖν.: men n., ἀλλὰ μήν. καὶ μήν. ἀλλα γάρ.
+Nu, 1) adv. (i tidsbet.), νῦν. τὸ νῦν. τὰ νῦν. ἐνταῦθα. ἤδη τότε (om en förfluten tidepunkt).: just n., νυνί. νῦν γε. νῦν δή. ἄρτι: n. först, νῦν δή τότε δή: n. ändtligen, ἤδη ποτέ.: tills n, μέχρι τοῦδε μέχρι (τοῦ) νῦν. μέχρι (τοῦ) δεῦρο.: fr. n., ἀπὸ τοῦ νῦν (τὸ) ἀπο τοῦδε. ἐντεῦθεν: n. genast. ἄρτι. ἀρτίως. εὐθύς. παραχρῆμα. αὐτίκα μάλα. ἤδη: n. f tiden, νῦν μέν. τό γε νῦν (τὸ) νῦν εἶναι. τὸ νῦν ἔχον.: n. på stunden, νῦν δή. ἄρτι: i ett n., αὐτίκα μάλα. ἐξαίφνης. ἐν ἀκαρεῖ: n. en, n. en annan, se Än. jfr Numera, Nuvarande. 2) conj. (i consecutiv bet.), νῦν. τοίνυν δή. οὖν.: men n., ἀλλὰ μήν. καὶ μήν. ἀλλα γάρ.
 
 Nubb, ἡλίσκος, ὁ μικρὸς ἧλος. ὁ.
 
 Nubba, ἡλοῦν. ἡλίσκοις πηγνύναι.: n. fast ngt vid ngt, προσηλοῦν τί τινι l. πρός τι.
 
-Nullitet, οὐδέν (concr.). τὸ ἄκυρον (abstr.). Se Noll.
+Nullitet, οὐδέν (concr.). το ἄκυρον (abstr.). Se Noll.
 
 Numera, (τὸ) νῦν. τὰ νῦν. ἤδη. τὸ ἀπὸ τοῦδε (hädanefter). τότε δή. τηνικαῦτα (om en förfluten tidepunkt).: n. — icke, οὐκέτι (μηκέτι).
 
@@ -70,13 +70,13 @@ Numerera, διαλαμβάνειν l. σημαίνειν ἀριθμοῖς.
 
 Numerus, ἀριθμός, ὁ.
 
-Nummer, ἀριθμός, ὁ: n. ett, två etc., ἀριθμῷ l. τὸν ἀριθμὸν πρῶτος, δεύτερος etc.
+Nummer, ἀριθμός, ὁ: n. ett, två etc., ἀριθμῷ l. τον ἀριθμὸν πρῶτος, δεύτερος etc.
 
 Nunna, ἡσυχάστρια, μονάστρια, ἡ.
 
-Nutid, ὁ νῦν χρόνος. τὸ νῦν jfr Följ.
+Nutid, ὁ νῦν χρόνος. το νῦν jfr Följ.
 
-ὁ, ἡ, τὸ νῦν. äfv. m. tillagdt ὤν, ὑπάρχων o. παρών, οὖσα, ὄν (om omständigheter, fhdn o. d.): d. n. tidepunkten, ὁ νῦν l. ὁ παρὼν καιρός: d. n. förhållandena, τὰ παρόντα.: d. n. menniskorna, οἱ καθ' ἡμᾶς l. ἐφ' ἡμῶν ἄνθρωποι
+Nuvarande, οὁ, ἡ, τό νῦν. äfv. m. tillagdt ὤν, ὑπάρχων o. παρών, οὖσα, ὄν (om omständigheter, fhdn o. d.): d. n. tidepunkten, ὁ νῦν l. ὁ παρὼν καιρός: d. n. förhållandena, τα παρόντα.: d. n. menniskorna, οἱ καθ' ἡμᾶς l. ἐφ' ἡμῶν ἄνθρωποι
 
 Ny, νέος, 3 (s. ej länge funnits). καινός, 3 (s. ej förut funnits). νεαρός, 3, νεαλής, 2 (ung, färsk, t. ex. τυρός). πρόσφατος, 2 (eg. nyslagtad, sedan färsk, nyss åstadkommen, t. ex. πρόφασις). ὑπόγυιος, 2 (nyss skedd, t. ex. πόλεμος).: d. nya testamentet, ἡ καινὴ διαθήκη.: d. n. tiden, ὁ νῦν αἰών.: ngt är f. mig nytt, ξένως ἔχω τινός. ἄπειρός εἰμί τινος.: hd nytt? τί νεώτερον γέγονεν l. συνέβη; göra n., καινοῦν. jfr Förnya.: å nyo, ἐκ καινῆς πάλιν. αὖθις. Se vidare compp.
 

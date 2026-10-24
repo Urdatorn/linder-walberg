@@ -52,13 +52,13 @@ Samling, συλλογή, ἡ. σύλλογος, ὁ. ἄθροισμα, τό. σ
 
 Samlingsplats, -ställe, χωρίον εἰς ὃ συνέρχονται l. τὸν σύλλογον ποιοῦνται.
 
-Samljud, φθόγγος σύμφωνος, ὁ. συμφωνία, ἡ. Jfr Samklang.
+Samljud, φθόγγος σύμφωνος, ὁ. συμφωνία, ἡ. Jfr Samklang.,
 
-Samljuda, συμφωνεῖν.
+Samljuda, συμφωνεῖν.,
 
 Sammaledes, -lunda, τὸν αὐτὸν τρόπον. ὡσαύτως. ὡσαύτως οὕτως. κατὰ ταὐτά. ταὐτὸν τοῦτο ὡσαύτως. κατὰ ταὐτόν.
 
-Samman, ὁμοῦ.: mest ss. smnsättningspartikel (sammansättningspartikel), t. ex. ὁμοθυμεῖν, sammanstämma, ὁμόβιος, sammanlefvande, o. d. äfv. m. σύν, t. ex. συνθυμεῖν, σύμβιος, o. d.
+Samman, ὁμοῦ.: mest ss. smnsttngspartikel, t. ex. ὁμοθυμεῖν, sammanstämma, ὁμόβιος, sammanlefvande, o. d. äfv. m. σύν, t. ex. συνθυμεῖν, σύμβιος, o. d.
 
 Sammanafla, συγγεννᾶν.
 
@@ -90,7 +90,7 @@ Sammandrabbande, -bbning, συμβολή, ἡ. äfv. μάχη, ἡ.
 
 Sammandrag, ἐπιτομή, ἡ.: göra ett s. af ngt, ἐπιτέμνεσθαί τι.: i s., ἐπιτόμως (Sedn.). äfv. συντόμως.
 
-Sammandraga, 1) gm smndragng göra trängre, συνέλκειν. συσπᾶν. συσπειρᾶν. συστρέφειν. συνάγειν (t. ex. τὰς ὀφρῦς. äfv. συσπᾶν τὰς ὀ.). (συ)σφίγγειν (snöra ihop). 2) samla, συλλέγειν (t. ex. στρατιάν). συνάγειν (t. ex. δύναμιν). ἀγείρειν. ἀθροίζειν (εἰς ταὐτό, på ett ställe). 3) verka astriktion, (ἀπο-, ἐπί)στύφειν. στρυφνοῦν.: egnad att s., στυπτικός, 3. στρυφνός, 3. 4) göra kort, συστέλλειν. συναιρεῖν (t. ex. ῥῆμα, ett ord): ej s:dragen, ἀσυναίρετος, 2. 5) sammanfatta, ἐπιτέμνειν.
+Sammandraga, 1) gm smndragng göra trängre, συνέλκειν. συσπᾶν. συσπειρᾶν. συστρέφειν. συνάγειν (t. ex. τὰς ὀφρῦς. äfv. συσπᾶν τὰς ὀ.). (συ)σφίγγειν (snöra ihop). 2) samla, συλλέγειν (t. ex. στρατιάν). συνάγειν (t. ex. δύναμιν). ἀγείρειν. ἀθροίζειν (εἰς ταὐτό, på ett ställe). 3) verka astriktion, (ἀπο-, ἐπι)στύφειν. στρυφνοῦν.: egnad att s., στυπτικός, 3. στρυφνός, 3. 4) göra kort, συστέλλειν. συναιρεῖν (t. ex. ῥῆμα, ett ord): ej s:dragen, ἀσυναίρετος, 2. 5) sammanfatta, ἐπιτέμνειν.
 
 Sammandragning, 1) συναγωγή, ἡ. συνολκή, ἡ. äfv. gm vv. 2) συλλογή, ἡ. συναγωγή, ἡ. ἄγερσις, ἡ (mera sälls.). 3) στύψις, ἡ. 4) συστολή, ἡ.: s. af vokaler, συναίρεσις, κρᾶσις, συναλοιφή, ἡ (om olikheterna i bet. se Lex.).: utan s., ἀσύστολος, 2. 5) ἐπιτομή, ἡ.
 

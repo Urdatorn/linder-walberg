@@ -62,6 +62,14 @@ def main() -> None:
                 else:
                     paras.append(text)
                 if first <= page <= last and f"{page}_{n:02d}" not in args.not_entries.split(","):
+                    # a stray page number at the head of a paragraph ("253 τινι")
+                    text = re.sub(rf"^{int(page) - 4}\s+(?=\S)", "", text)
+                    # every entry opens with a capitalised headword: anything else
+                    # (a lost "~ ", a derivative split off, "— sluttande") continues
+                    # the entry before it
+                    if not cont and entries and not re.match(r"[A-ZÅÄÖ]", text):
+                        cont = True
+                        text = text.removeprefix("~ ").removeprefix("~")
                     if cont and entries:
                         entries[-1]["text"] = join(entries[-1]["text"], text)
                         entries[-1]["source"].append(f"{page}_{n:02d}")

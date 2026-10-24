@@ -22,7 +22,7 @@ Porphyr, πορφυρίτης, ου, ὁ.
 
 Porslin, κέραμος, ὁ.: af p., κεράμινος, -ιος, -εος, -ειος, -εοῦς, -κός, 3. -s-lera, κέραμος, ὁ. κεραμίς (γῆ), ίδος, ἡ.
 
-Port, πύλη, ἡ. θύρα, ἡ (båda vanl. i pl.). πυλών, ῶνος, ὁ (eg. p. m. särskild byggnad).: förse m. p., πυλοῦν.: stänga p:n, κλείειν τὰς πύλας.: öppna p:n, ἀνοίγειν l. ἀναπεταννύναι τὰς πύλας.
+Port, πύλη, ἡ. θύρα, ἡ (båda vanl. i pl.). πυλών, ῶνος, ὁ (eg. p. m. särskild byggnad).: förse m. p., πυλοῦν.: stänga p:n, κλείειν τὰς πύλας.: öppna p:n, ἀνοίγειν l. ἀναπεταννύναι τάς πύλας.
 
 Portal, πυλών, ῶνος, ὁ. θυρώματα, τά.
 
@@ -82,7 +82,7 @@ Postpenningar, φορεῖον, τό.
 
 Poststation, σταθμός, ὁ. ἱππών, ῶνος, ὁ.
 
-Posttjensteman, *ἀγγαρευτὴς, οῦ, ὁ. ὁ ἐπὶ τῶν ἀγγάρων.
+Posttjensteman, *ἀγγαρευτής, οῦ, ὁ. ὁ ἐπὶ τῶν ἀγγάρων.
 
 Postulat, ἀξίωμα, τό. αἴτημα, τό.
 
@@ -96,7 +96,7 @@ Potens, δύναμις, εως, ἡ (ish. 2:dra p:n l. qvadraten): 3:dje p., κ�
 
 Potta, κεράμιον, τό o. κέραμος, ὁ (af ler). χύτρα, ἡ. Jfr Nattkärl.
 
-Pottfisk, φυσητήρ, ῆρος, ὁ.
+Pottfisk, φυσητήρ, ῆρος, ὁ.,
 
 Pottmakare, se Krukmakare.
 

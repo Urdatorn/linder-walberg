@@ -42,6 +42,7 @@ NOTE = re.compile(r"\b(possibly|probably|as printed|kept|unattested|or|if|maybe|
                   r"unclear|either|the|from|with|for|written|usual|ending|genitive|dative|form|instead|missing|"
                   r"printed|should|means|word|line|sense|number|before|after)\b|[;/]|\.\.\.|…|=", re.I)
 TOKEN = re.compile(r"\w+|[^\w\s]")
+ACCEPT = {"misprint", "diacritic", "rules", "letter", "auto"}
 
 
 def strip_marks(s: str) -> str:
@@ -49,36 +50,46 @@ def strip_marks(s: str) -> str:
 
 
 def merge_edit(x: str, y: str) -> str | None:
-    """x with only the changes y makes inside it: a proposal that quotes part
-    of the printed passage ("ὁ, ἡ, τὸ" for "Ordagrann, ὁ, η, τὸ") must not
-    delete the rest. None when nothing changes."""
-    a, b = TOKEN.findall(x), TOKEN.findall(y)
-    sa, sb = [m.span() for m in TOKEN.finditer(x)], [m.span() for m in TOKEN.finditer(y)]
-    ops = difflib.SequenceMatcher(None, a, b, autojunk=False).get_opcodes()
-    if ops and ops[0][0] != "delete" and ops[-1][0] != "delete":
-        return y if y != x else None      # the proposal covers the whole passage
-    while ops and ops[0][0] == "delete":
-        ops = ops[1:]
-    while ops and ops[-1][0] == "delete":
-        ops = ops[:-1]
-    if all(op == "equal" for op, *_ in ops):
+    """x with the proposal y put in place of the stretch of x it corrects.
+
+    A proposal often quotes only part of the printed passage ("Sysselsättning"
+    for "Göra, se Sysselssättning."), so y replaces the run of x's words most
+    like it, of about y's length, and the rest of x stays. None when y matches
+    no stretch of x well or changes nothing."""
+    a = [m.span() for m in TOKEN.finditer(x)]
+    n = len(TOKEN.findall(y))
+    if not a or not n:
         return None
-    out, pos = [], 0
-    for op, i1, i2, j1, j2 in ops:
-        if op == "equal":
-            continue
-        new = y[sb[j1][0]:sb[j2 - 1][1]] if j2 > j1 else ""
-        if i2 > i1:
-            start, end = sa[i1][0], sa[i2 - 1][1]
-        else:   # an insertion attaches to the token before it (".:" after a word)
-            start = end = sa[i1 - 1][1] if i1 else 0
-            gap = y[sb[j1 - 1][1]:sb[j1][0]] if j1 else ""
-            new = gap + new
-        out.append(x[pos:start] + new)
-        pos = end
-    out.append(x[pos:])
-    return "".join(out)
-ACCEPT = {"misprint", "diacritic", "rules", "letter", "auto"}
+    best = (0.0, 0, len(x))
+    for length in {max(1, n - 1), n, n + 1}:
+        for k in range(0, max(1, len(a) - length + 1)):
+            start, end = a[k][0], a[min(len(a), k + length) - 1][1]
+            r = difflib.SequenceMatcher(None, x[start:end], y, autojunk=False).ratio()
+            if r > best[0]:
+                best = (r, start, end)
+    r, start, end = best
+    if r < 0.7:
+        return None
+    out = x[:start] + y + x[end:]
+    return out if out != x else None
+
+
+GREEK_LETTER = re.compile(r"[\u0370-\u03ff\u1f00-\u1fff]")
+
+
+def place_accent(word: str, after: str) -> str:
+    """A grave on the last word of a correction stays only before another Greek
+    word; before punctuation, Swedish or the end it is an acute (a proposal
+    taken from a lexicon may carry the grave of running text: προσβατὸς)."""
+    d = unicodedata.normalize("NFD", word)
+    i = d.rfind("\u0300")
+    if i < 0 or not GREEK_LETTER.search(word):
+        return word
+    tail = d[i + 1:]
+    last_syllable = not any(unicodedata.normalize("NFD", c)[0] in "αεηιουω" for c in tail if not unicodedata.combining(c))
+    if last_syllable and re.match(r"\s+[\u0370-\u03ff\u1f00-\u1fff]", after):
+        return word
+    return unicodedata.normalize("NFC", d[:i] + "\u0301" + d[i + 1:])
 
 
 def clean_proposal(item: dict) -> str | None:
@@ -113,8 +124,8 @@ def main() -> None:
             if context and context in t and context.find(printed) >= 0:
                 found = (sid, t.index(context) + context.find(printed))
                 break
-        if found is None:
-            # the context straddles a strip break: take the printed text alone,
+        if found is None and row["category"] in ("misprint", "errata"):
+            # a reported passage whose context straddles a strip break: take it alone,
             # in the strip that shares the most words with the context
             words = set(context.split())
             hits = [(len(words & set(strips[sid].split())), sid) for sid in dict.fromkeys(candidates)
@@ -127,6 +138,7 @@ def main() -> None:
             return
         sid, start = found
         end = start + len(printed)
+        new = place_accent(new, strips[sid][end:end + 3])
         row["strip"] = sid
         if any(not (end <= a or start >= b) for a, b, _ in edits[sid]):
             row["status"] = "overlap"

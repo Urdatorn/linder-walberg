@@ -8,7 +8,7 @@ Tidepunkt, καιρός, ὁ. χρόνος, ὁ.: afvikta d. gynnande t:n, τη�
 
 Tiderymd, se Tidehvarf.
 
-Tideräkning, χρονολογία, ἡ.: hörande till t., χρονολογικὸς, 3.
+Tideräkning, χρονολογία, ἡ.: hörande till t., χρονολογικός, 3.
 
 Tidig, πρώϊος, 3, πρώϊμος, 2 (på dagen l. året). ὄρθριος, 3 (på dagen). Adv., πρωΐ. πρῴ. ἕωθεν, ὄρθρου, τὸν ὄρθρον (på dagen).: fr. t:t på morgonen, ἐξ ἑωθινοῦ. ἐξ ὄρθρου.: vara t:t uppe, ὀρθρεύειν, -σθαι. ὀρθρίζειν.: redan t:t (= fr. början), ἐξ ἀρχῆς. ἀρχήν. εὐθὺς ἐξ ἀρχῆς.: fr. sin t:a ungdom, ἐκ παιδός. ἐκ παιδείας. ἀπὸ πρώτης ἡλικίας. ἐκ νέου (ἐκ παίδων, νέων, om flere).: en (för) t. död, ἄωρος, πρόωρος, ἄκαιρος θάνατος.: för t:t, ἀωρί. πρὸ καιροῦ. — tidigare, πρότερος, 3. Adv., πρότερον.: han kom tidigare (än en annan), πρότερος ἦλθεν. se vidare Förre o. Förr.
 
@@ -76,7 +76,7 @@ Tiggarpåse, ἡ τῶν πτωχῶν πήρα.
 
 Tiggarstaf, πτωχικὸν βακτήριον, τό.: fig., πτωχεία, ἡ.: bringa till t:n, πτωχὸν ποιεῖν. εἰς πτωχείαν l. εἰς τὴν ἐσχάτην πενίαν καθιστάναι.: bringas till t:n, εἰς ἐσχάτην ἀπορίαν ἐλθεῖν l. καταστῆναι. ἐξίστασθαι τῶν ὑπαρχόντων πάντων.
 
-πτωχεία προς-, ἐπαίτησις, ἡ.
+Tiggeri, πτωχεία, ἡ. προς-, ἐπαίτησις, ἡ.
 
 Tiggerska, γυνὴ πτωχή l. πτωχεύουσα, ἡ.
 
@@ -88,4 +88,4 @@ Tik, se Hynda.
 
 Tilja, se Bräde.
 
-Till, 1) vid riktningspunkten f. en rörelse: πρός m. acc. (både om pers. o. sak). ἐπί m. acc. (om sak; om pers. vanl. bl. vid fiendtlig afsigt), äfv. gen. (så vidt riktningspunktens uppnående afses). παρά, ὥς m. acc. (om pers.). εἰς m. acc. (in i, ibland: om sak o. vid pl. af personl. benämningar).: skicka sändebud t. staden, t. konungen, πρέσβεις πέμπειν πρὸς τὴν πόλιν, πρὸς τὸν βασιλέα.: de kommo t. floden, t. staden, t. öarne, ἀφίκοντο ἐπὶ τὸν ποταμόν, εἰς τὴν πόλιν, ἐπὶ τῶν νήσων.: komma, gå t. ngn, ἐλθεῖν, ἰέναι πρός, παρά, ὧς τινα. προσελθεῖν, προσφοιτᾶν τινι.: föra ngn t. ngn, ἄγειν τινὰ πρός, παρά τινα. προσάγειν τινά τινι.: han flydde t. dem, κατέφυγεν εἰς αὐτούς.: han for t. Perserna, εἰς Πέρσας ἐπορεύθη. — Vid städers namn uttryckes ofta "till" (i st. f. εἰς) gm suffixet δέ (ζε). t. ex. Κόρινθόνδε, Μέγαράδε, Ἀθήναζε.: t. hemmet, οἴκαδε. ἐπ’ οἴκου. 2) vid ändpunkten på en sträckning (i rum l. tid): ἐπί, πρός, εἰς m. acc. μέχρι, ἄχρι m. gen. (ända t.; äfv. m. tillagdt ἐπί, πρός l. εἰς).: murarne sträckte sig t. hafvet, τὰ τείχη καθῆκεν εἰς, ἐπὶ τὴν θάλατταν l. μέχρι τῆς θαλάττης.: de blefvo våta t. nafveln, ἐβρέχθησαν πρὸς τὸν ὀμφαλόν.: t. i morgon, εἰς αὔριον.: fr. början t. slut, ἐξ ἀρχῆς μέχρι τέλους.: fr. hufvud t. fot, ἐξ ἄκρας κεφαλῆς ἄχρι ποδῶν.: t. vår tid, μέχρι τοῦ νῦν.: t. d:na tid (denna), μέχρι τούτου l. δεῦρο.: t. dess, μέχρι τότε l. ἐνταῦθα. μέχρι τούτου l. τοσούτου l. τοῦδε (äfv. t. den grad).: t. en tid, μέχρι του. τέως.: till dess (att), ἄχρι, μέχρι (οὗ). ἕως. ἔστε. μέχρι τούτου l. τοσούτου ἕως.: t. det
+Till, 1) vid riktningspunkten f. en rörelse: πρός m. acc. (både om pers. o. sak). ἐπί m. acc. (om sak; om pers. vanl. bl. vid fiendtlig afsigt), äfv. gen. (så vidt riktningspunktens uppnående afses). παρά, ὥς m. acc. (om pers.). εἰς m. acc. (in i, ibland: om sak o. vid pl. af personl. benämningar).: skicka sändebud t. staden, t. konungen, πρέσβεις πέμπειν πρὸς τὴν πόλιν, πρὸς τὸν βασιλέα.: de kommo t. floden, t. staden, t. öarne, ἀφίκοντο ἐπὶ τὸν ποταμόν, εἰς τὴν πόλιν, ἐπὶ τῶν νήσων.: komma, gå t. ngn, ἐλθεῖν, ἰέναι πρός, παρά, ὧς τινα. προσελθεῖν, προσφοιτᾶν τινι.: föra ngn t. ngn, ἄγειν τινὰ πρός, παρά τινα. προσάγειν τινά τινι.: han flydde t. dem, κατέφυγεν εἰς αὐτούς.: han for t. Perserna, εἰς Πέρσας ἐπορεύθη. — Vid städers namn uttryckes ofta "till" (i st. f. εἰς) gm suffixet δε (ζε). t. ex. Κόρινθόνδε, Μέγαράδε, Ἀθήναζε.: t. hemmet, οἴκαδε. ἐπ’ οἴκου. 2) vid ändpunkten på en sträckning (i rum l. tid): ἐπί, πρός, εἰς m. acc. μέχρι, ἄχρι m. gen. (ända t.; äfv. m. tillagdt ἐπί, πρός l. εἰς).: murarne sträckte sig t. hafvet, τὰ τείχη καθῆκεν εἰς, ἐπὶ τὴν θάλατταν l. μέχρι τῆς θαλάττης.: de blefvo våta t. nafveln, ἐβρέχθησαν πρὸς τὸν ὀμφαλόν.: t. i morgon, εἰς αὔριον.: fr. början t. slut, ἐξ ἀρχῆς μέχρι τέλους.: fr. hufvud t. fot, ἐξ ἄκρας κεφαλῆς ἄχρι ποδῶν.: t. vår tid, μέχρι τοῦ νῦν.: t. dna tid, μέχρι τούτου l. δεῦρο.: t. dess, μέχρι τότε l. ἐνταῦθα. μέχρι τούτου l. τοσούτου l. τοῦδε (äfv. t. den grad).: t. en tid, μέχρι του. τέως.: till dess (att), ἄχρι, μέχρι (οὗ). ἕως. ἔστε. μέχρι τούτου l. τοσούτου ἕως.: t. det

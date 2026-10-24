@@ -6,7 +6,7 @@ Sjuttontusend, ἑπτακισχίλιοι καὶ μύριοι, 3.
 
 Sjutusend, ἑπτακισχίλιοι, 3. ͵ζ (ss. siffertecken).: d. sjutusende, ἑπτακισχιλιοστός, 3.
 
-Själ, 1) eg., ψυχή, ἡ (i allmht, anima, lifskraft). πνεῦμα (spiritus, andedrägt, lifsflägt). φρένες, αἱ (själen ur phys. synpunkt, instinkt). νοῦς, οὖ, ὁ (uppfattnings-, tankeförmåga). äfv. τὸ νοητικόν, διάνοια, ἡ (förstånd). θυμός, ὁ (känslosinne, viljekraft). γνώμη, ἡ (kunskapsförmåga).: ur djupet af s:en, ἐκ τῆς ψυχῆς. ἐκ θυμοῦ. ἐκ καρδίας.: m. hela min s., παντὶ τῷ θυμῷ. ὅσον δύναμαι μάλιστα. ὅλῃ τῇ ψυχῇ,: det gör mig ondt i s:n, σφόδρα ἀλγῶ τοῦτο.: vara ett hjerta o. en s., ὁμοψύχους εἶναι.: dta (yttrande) har du tagit alldeles ur min s., τοῦτο εἶπάς μοι πάνυ κατὰ νοῦν.: s:s välfärd, ψυχῆς.: lära om s:en, ἐπιστήμη ἡ περὶ τῆς ψυχῆς. ψυχολογία, ἡ (Nygr.). 2) mska, ἄνθρωπος, ὁ.: ingen s., οὐδεὶς ἀνθρώπων. 3) den styrande l. ledande i ett företag, ὥσπερ ψυχή.: vara s:n i ngt, ὥσπερ ψυχὴν εἶναί τινος.
+Själ, 1) eg., ψυχή, ἡ (i allmht, anima, lifskraft). πνεῦμα (spiritus, andedrägt, lifsflägt). φρένες, αἱ (själen ur phys. synpunkt, instinkt). νοῦς, οὖ, ὁ (uppfattnings-, tankeförmåga). äfv. τὸ νοητικόν, διάνοια, ἡ (förstånd). θυμός, ὁ (känslosinne, viljekraft). γνώμη, ἡ (kunskapsförmåga).: ur djupet af s:en, ἐκ τῆς ψυχῆς. ἐκ θυμοῦ. ἐκ καρδίας.: m. hela min s., παντὶ τῷ θυμῷ. ὅσον δύναμαι μάλιστα. ὅλῃ τῇ ψυχῇ,: det gör mig ondt i s:n, σφόδρα ἀλγῶ τοῦτο.: vara ett hjerta o. en s., ὁμοψύχους εἶναι.: dta (yttrande) har du tagit alldeles ur min s., τοῦτο εἶπάς μοι πάνυ κατὰ νοῦν.: s:s välfärd, σωτηρία ἡ τῆς ψυχῆς.: lära om s:en, ἐπιστήμη ἡ περὶ τῆς ψυχῆς. ψυχολογία, ἡ (Nygr.). 2) mska, ἄνθρωπος, ὁ.: ingen s., οὐδεὶς ἀνθρώπων. 3) den styrande l. ledande i ett företag, ὥσπερ ψυχή.: vara s:n i ngt, ὥσπερ ψυχὴν εἶναί τινος.
 
 Själamessa, εὐχὴ ἡ ὑπὲρ τῶν ψυχῶν l. d. ἐνάγισμα, τό (se Lex.).
 
@@ -32,13 +32,13 @@ Själsadel, ἀρετὴ ψυχῆς, ἡ. γενναιότης, ἡ. χρηστ
 
 Själsansträngning, ψυχῆς πόνος, ὁ l. διάτασις, ἡ.
 
-Själsfrände, ungef. ὁμοιοπαθής, 2. ὁμοφυής.
+Själsfrände, ungef. ὁμοιοπαθής, 2. ὁμοφυής (2) τινι.
 
 Själsförmögenhet, -gåfva. ἀρετὴ ψυχῆς, ἡ. φύσις, ἡ.
 
 Själshöghet, se Själsstorhet.
 
-Själskrafter, δυνάμεις. τὰ περὶ τὴν ψυχήν. τὰ τῆς ψυχῆς.
+Själskrafter, δυνάμεις αἱ τῆς ψυχῆς. τὰ περὶ τὴν ψυχήν. τὰ τῆς ψυχῆς.
 
 Själslugn, ἀταραξία, ἡ. εὐθυμία, ἡ. εὐκολία, ἡ.
 
@@ -106,7 +106,7 @@ Sjöhund, φώκη, ἡ.
 
 Sjöhäst, ἵππος ὁ ποτάμιος.
 
-Sjökadett, ναυτικὰ l. εἰς τὸ ναυμαχεῖν παιδευόμενος.
+Sjökadett, ὁ εἰς τὰ ναυτικά l. εἰς τὸ ναυμαχεῖν παιδευόμενος.
 
 Sjökalf, se Sjöhund.
 
