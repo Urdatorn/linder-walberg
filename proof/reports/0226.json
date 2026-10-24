@@ -1,0 +1,42 @@
+{
+ "page": "0226",
+ "strips_done": 7,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0226_01",
+   "printed": "αὐχμάλωτον (2x), αὐχμαλωτίζειν",
+   "probably_meant": "αἰχμάλωτον, αἰχμαλωτίζειν",
+   "note": "The print clearly has upsilon, not iota, while the headword gives αἰχμάλωτος correctly. I kept the printed form."
+  },
+  {
+   "strip": "0226_02",
+   "printed": "Ἔνυώ",
+   "probably_meant": "Ἐνυώ",
+   "note": "Smooth breathing plus acute on the capital, with a second accent on ώ. I kept it as printed."
+  },
+  {
+   "strip": "0226_06",
+   "printed": "se Krigsmagt",
+   "probably_meant": "se Krigsmakt",
+   "note": "The cross-reference uses the spelling 'magt', but the headword on this page is 'Krigsmakt'. It may be a spelling variant, so I kept it."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0226_02",
+   "text": "~ στρατεία, ἡ.",
+   "note": "The top of the strip image cuts off the accent and breathing: only 'στρατεια, η' is visible. I wrote the expected στρατεία, ἡ."
+  },
+  {
+   "strip": "0226_02",
+   "text": "πολεμικὰ σκεύη, τά.",
+   "note": "'τα.' at the start of the second band shows no accent, probably because the band boundary cut it off. I wrote τά."
+  },
+  {
+   "strip": "0226_06",
+   "text": "παιάν, ᾶνος",
+   "note": "The mark over alpha looks like a circumflex, not the acute the OCR had. I wrote ᾶνος as printed."
+  }
+ ]
+}

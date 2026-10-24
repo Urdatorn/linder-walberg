@@ -1,0 +1,48 @@
+{
+ "page": "0278",
+ "strips_done": 6,
+ "corrections": 39,
+ "misprints": [
+  {
+   "strip": "0278_00",
+   "printed": "m.. πολὺ δ’ ἧττον",
+   "probably_meant": "m., πολὺ δ’ ἧττον",
+   "note": "Double full stop after the m. that continues the entry from the previous page."
+  },
+  {
+   "strip": "0278_00",
+   "printed": "ἡ (Nygr).",
+   "probably_meant": "ἡ (Nygr.).",
+   "note": "The full stop after Nygr is missing in the print and a gap is left. The same abbreviation earlier on the line has its stop."
+  },
+  {
+   "strip": "0278_02",
+   "printed": "κεκομμένον, τό",
+   "probably_meant": "κεκομμένον, τό.",
+   "note": "The Minnespenning entry ends with no full stop."
+  },
+  {
+   "strip": "0278_03",
+   "printed": "σμικρότατος, 3 (se Liten). … ἥκιστος, 3 (Sedn.)",
+   "probably_meant": "3. (se Liten) … 3. (Sedn.)",
+   "note": "The termination number is printed with no full stop in two places in Minst. Minnesvärd's 'ἄξιος, 3.' does have its stop."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0278_00",
+   "text": "ἐάν (ἤν, ἄν) μή",
+   "note": "The accents on ἤν and ἄν look like smooth breathing plus acute, but they are small. They could be grave accents."
+  },
+  {
+   "strip": "0278_05",
+   "text": "ἀποφθορά, ἡ.",
+   "note": "There is a dot-like mark after ἀποφθορά in the scan. I read it as dust and left it out."
+  },
+  {
+   "strip": "0278_04",
+   "text": "Mispel, μέσπιλον",
+   "note": "There is a small stray dash before μέσπιλον. I read it as dirt, not a printed hyphen, and removed it."
+  }
+ ]
+}

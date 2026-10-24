@@ -1,0 +1,72 @@
+{
+ "page": "0287",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0287_00",
+   "printed": "μάλιλιστα",
+   "probably_meant": "μάλιστα",
+   "note": "Printed 'μάλι-' at line end and 'λιστα' on the next line, so the syllable λι is set twice."
+  },
+  {
+   "strip": "0287_00",
+   "printed": "κώνων, ωπος",
+   "probably_meant": "κώνωψ, ωπος",
+   "note": "The headword ends clearly in ν, not ψ."
+  },
+  {
+   "strip": "0287_01",
+   "printed": "Myndigketsförklaring",
+   "probably_meant": "Myndighetsförklaring",
+   "note": "The h is missing in the spaced headword."
+  },
+  {
+   "strip": "0287_02",
+   "printed": "sma m.",
+   "probably_meant": "små m.",
+   "note": "No ring is visible on the a."
+  },
+  {
+   "strip": "0287_03",
+   "printed": "ἐν πολλῃ φροντίδι",
+   "probably_meant": "ἐν πολλῇ φροντίδι",
+   "note": "There is an iota subscript but no circumflex."
+  },
+  {
+   "strip": "0287_03",
+   "printed": "μύρτος, η.",
+   "probably_meant": "μύρτος, ἡ.",
+   "note": "The article has no breathing (first line of the second band)."
+  },
+  {
+   "strip": "0287_05",
+   "printed": "ἐᾶν μὴ σιγῇ",
+   "probably_meant": "ἐὰν μὴ σιγῇ",
+   "note": "A circumflex is printed on the α where a grave belongs."
+  },
+  {
+   "strip": "0287_05",
+   "printed": "πράττεις ( iafs. på yttre fhdn)",
+   "probably_meant": "πράττεις (i afs. på yttre fhdn)",
+   "note": "The space falls after the parenthesis instead of between i and afs."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0287_02",
+   "text": "παρέ-",
+   "note": "The vowel at the end of the strip is filled with ink. I read it as ε, which gives παρέχειν with the next strip; the OCR had ι."
+  },
+  {
+   "strip": "0287_03",
+   "text": "af m., μύρρινος",
+   "note": "The print shows 'af m ,' with a gap where the period should be, probably faint ink, so I wrote 'm.,'."
+  },
+  {
+   "strip": "0287_05",
+   "text": "γλῶττα, ἡ.",
+   "note": "The accent on ω runs into the letter, so circumflex or acute is unclear. The final ἡ. is broken type that looks like 'ι,.'."
+  }
+ ]
+}

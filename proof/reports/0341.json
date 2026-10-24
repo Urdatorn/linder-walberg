@@ -1,0 +1,95 @@
+{
+ "page": "0341",
+ "strips_done": 6,
+ "corrections": 70,
+ "misprints": [
+  {
+   "strip": "0341_00",
+   "printed": "δελτός",
+   "probably_meant": "δέλτος",
+   "note": "Plånbok: accent on the ultima in print, unlike δέλτος in the line above"
+  },
+  {
+   "strip": "0341_00",
+   "printed": "uppmjukande p, μάλαγμα",
+   "probably_meant": "uppmjukande p., μάλαγμα",
+   "note": "There is no full stop after the abbreviation p; there is a space where it would be"
+  },
+  {
+   "strip": "0341_00",
+   "printed": "ἔλασμα, τό: belägga",
+   "probably_meant": "ἔλασμα, τό.: belägga",
+   "note": "Colon with no full stop before it"
+  },
+  {
+   "strip": "0341_01",
+   "printed": "Plöjningstid, ἄροτος, ὁ",
+   "probably_meant": "Plöjningstid, ἄροτος, ὁ.",
+   "note": "No final full stop"
+  },
+  {
+   "strip": "0341_02",
+   "printed": "l θρασυνόμενον",
+   "probably_meant": "l. θρασυνόμενον",
+   "note": "The l at the start of the line has no full stop"
+  },
+  {
+   "strip": "0341_02",
+   "printed": "ποδαγρός. 2.",
+   "probably_meant": "ποδαγρός, 2.",
+   "note": "Full stop where a comma is expected"
+  },
+  {
+   "strip": "0341_03",
+   "printed": "στιλπνοῦν λαμπρύνειν",
+   "probably_meant": "στιλπνοῦν. λαμπρύνειν",
+   "note": "No punctuation between the two verbs"
+  },
+  {
+   "strip": "0341_04",
+   "printed": "πολιτικός, 3 o. ὁ",
+   "probably_meant": "πολιτικός, 3. o. ὁ",
+   "note": "No full stop after 3"
+  },
+  {
+   "strip": "0341_05",
+   "printed": "ἀρκτοῦρος, ὀ.",
+   "probably_meant": "ἀρκτοῦρος, ὁ.",
+   "note": "The article is printed with a smooth breathing"
+  },
+  {
+   "strip": "0341_05",
+   "printed": "ποδος",
+   "probably_meant": "ποδός",
+   "note": "Printed without an accent"
+  },
+  {
+   "strip": "0341_05",
+   "printed": "σχειδία",
+   "probably_meant": "σχεδία",
+   "note": "Ponton entry"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0341_00",
+   "text": "ἀνιαρός, 3.",
+   "note": "The punctuation after ἀνιαρός is an ink blot. I read it as a comma"
+  },
+  {
+   "strip": "0341_04",
+   "text": "πανεῦργος",
+   "note": "The second vowel looks like ε but could be a damaged ο (πανοῦργος). I kept ε"
+  },
+  {
+   "strip": "0341_04",
+   "text": "= klokhet",
+   "note": "The = sign sits tight against klokhet. I kept the existing space"
+  },
+  {
+   "strip": "0341_04",
+   "text": "l. τὰ περὶ τὴν πόλιν",
+   "note": "The grave accent on τὰ is faint"
+  }
+ ]
+}

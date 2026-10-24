@@ -1,4 +1,4 @@
-~ Landtmannaverktyg, -yrke, se Landtmannaredskap, -näring.
+Landtmannaverktyg, -yrke, se Landtmannaredskap, -näring.
 
 Landtmätare, γεωμέτρης, ου, ὁ.: vara l., γεωμετρεῖν.
 
@@ -8,7 +8,7 @@ Landtmätning, μέτρησις τῆς γῆς, ἡ.
 
 Landtprodukt, se Landtmannavara.
 
-Landttransport, ἀγωγὴ l. διαχομιδὴ ἡ κατὰ γῆν.
+Landttransport, ἀγωγή l. διακομιδὴ ἡ κατὰ γῆν.
 
 Landtresa, πορεία ἡ πρὸς ἀγρούς.
 
@@ -16,7 +16,7 @@ Landtriddare, ungef. περίπολος, ὁ (se Lex.).
 
 Landtställe, ἐπαύλιον, τό.
 
-Landttunga, ἰσθμός (γῆς), ὁ. αὐχήν, ἑνος, ὁ.
+Landttunga, ἰσθμός (γῆς), ὁ. αὐχήν, ένος, ὁ.
 
 Landtudde, ἄκρον, τό. ἄκρα τῆς γῆς, ἡ.
 
@@ -26,4 +26,4 @@ Landvind, ἄνεμος (ὁ) l. αὖρα (ἡ) ἀπόγειος. ἀπόγε�
 
 Landvinning, γῆ κατεστραμμένη, ἡ.
 
-Landväg, πεζὴ οὐδός, ἡ. οὐδὸς ἡ κατὰ γῆν.
+Landväg, πεζὴ ὁδός, ἡ. ὁδὸς ἡ κατὰ γῆν.

@@ -1,0 +1,37 @@
+{
+ "page": "0221",
+ "strips_done": 7,
+ "corrections": 31,
+ "misprints": [
+  {
+   "strip": "0221_04",
+   "printed": "κικυάζειν",
+   "probably_meant": "σικυάζειν",
+   "note": "Koppa, v. tr.: the print clearly begins with κ; the verb for cupping is σικυάζειν."
+  },
+  {
+   "strip": "0221_06",
+   "printed": "ζεῦγος, το",
+   "probably_meant": "ζεῦγος, τό",
+   "note": "Article printed without its accent."
+  },
+  {
+   "strip": "0221_05",
+   "printed": "χαλκόκρατος",
+   "probably_meant": "χαλκόκρατος (unattested; perhaps χαλκόκρᾱτος = copper-alloyed)",
+   "note": "This is what the print shows. The form is not attested in the corpus."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0221_05",
+   "text": "χαλκοῦς, ὁ.",
+   "note": "Kopparmynt: the article after χαλκοῦς is broken type that looks like ι with a rough breathing; I read it as ὁ."
+  },
+  {
+   "strip": "0221_01",
+   "text": "βασιλεύς, έως, ὁ",
+   "note": "No breathing is visible on έως. This matches the usual genitive ending notation."
+  }
+ ]
+}

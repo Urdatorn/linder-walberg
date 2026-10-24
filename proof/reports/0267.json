@@ -1,0 +1,48 @@
+{
+ "page": "0267",
+ "strips_done": 6,
+ "corrections": 85,
+ "misprints": [
+  {
+   "strip": "0267_02",
+   "printed": "myudighet",
+   "probably_meant": "myndighet",
+   "note": "Turned n in the print; the scan clearly shows 'myudighet'."
+  },
+  {
+   "strip": "0267_04",
+   "printed": "ἐγὼ ὁ τάλας..",
+   "probably_meant": "ἐγὼ ὁ τάλας.:",
+   "note": "Two full stops on the baseline; the book's usual separator is '.:'."
+  },
+  {
+   "strip": "0267_04",
+   "printed": "μέταλλα, ἔχων, ουσα, ον.",
+   "probably_meant": "μέταλλα ἔχων, ουσα, ον.",
+   "note": "Stray comma after μέταλλα (Malmhaltig)."
+  },
+  {
+   "strip": "0267_03",
+   "printed": "σίλφη, ἡ (bok-m).",
+   "probably_meant": "σίλφη, ἡ (bok-m.).",
+   "note": "The abbreviation full stop after m is missing in the print."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0267_00",
+   "text": "σχολῇ",
+   "note": "The iota subscript under ῆ is hard to tell apart from the following raised dot. I kept σχολῇ."
+  },
+  {
+   "strip": "0267_01",
+   "text": "τοιοῦτος, τοσοῦτος, αύτη, οῦτο",
+   "note": "I see no breathings on αύτη or οῦτο (ending forms), so I left them as printed."
+  },
+  {
+   "strip": "0267_02",
+   "text": "ἐπ’ ἐμοί ἐστιν",
+   "note": "The σ in ἐστιν is a blotted, broken letter. The reading is clear from context."
+  }
+ ]
+}

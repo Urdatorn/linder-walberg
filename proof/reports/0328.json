@@ -1,0 +1,59 @@
+{
+ "page": "0328",
+ "strips_done": 6,
+ "corrections": 50,
+ "misprints": [
+  {
+   "strip": "0328_01",
+   "printed": "χρήματων",
+   "probably_meant": "χρημάτων",
+   "note": "accent misplaced in the print"
+  },
+  {
+   "strip": "0328_05",
+   "printed": "ἀκάταστατος",
+   "probably_meant": "ἀκατάστατος",
+   "note": "accent misplaced in the print"
+  },
+  {
+   "strip": "0328_05",
+   "printed": "Osäkerhet.",
+   "probably_meant": "Osäkerhet,",
+   "note": "the headword is followed by a full stop, not a comma"
+  },
+  {
+   "strip": "0328_02",
+   "printed": "F. öfr.",
+   "probably_meant": "f. öfr.",
+   "note": "capital F where lowercase would be expected"
+  },
+  {
+   "strip": "0328_05",
+   "printed": "ληστῶν",
+   "probably_meant": "λῃστῶν",
+   "note": "no iota subscript visible in the print"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0328_02",
+   "text": "τυροπωλεῖν",
+   "note": "no circumflex is visible on the scan; the accent was probably lost from broken type"
+  },
+  {
+   "strip": "0328_03",
+   "text": "δέδοται",
+   "note": "the first letter is broken at the start of the line"
+  },
+  {
+   "strip": "0328_04",
+   "text": "vanl.",
+   "note": "the n looks like a u ('vaul.'), probably broken type"
+  },
+  {
+   "strip": "0328_05",
+   "text": "τῇ πόλει",
+   "note": "the iota subscript under τῇ is not clear on the scan"
+  }
+ ]
+}

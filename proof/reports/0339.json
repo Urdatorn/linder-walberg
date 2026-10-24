@@ -1,0 +1,42 @@
+{
+ "page": "0339",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0339_02",
+   "printed": "παρεσκευάσθαι m. ὥς o. part. fut.",
+   "probably_meant": "ὡς",
+   "note": "Printed with rough breathing plus acute; the sense calls for the conjunction ὡς."
+  },
+  {
+   "strip": "0339_05",
+   "printed": "lemna ngt på sin p.. ἐᾶν",
+   "probably_meant": "p., ἐᾶν",
+   "note": "Two full stops are printed where every parallel phrase has 'p.,'."
+  },
+  {
+   "strip": "0339_04",
+   "printed": "ἀγορά. ἡ.",
+   "probably_meant": "ἀγορά, ἡ.",
+   "note": "The print has a full stop before the article where a comma is expected."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0339_02",
+   "text": "listig",
+   "note": "The t is broken in the print and looks like 'lis:ig'. I transcribed it as listig."
+  },
+  {
+   "strip": "0339_01",
+   "text": "πολυλόγος",
+   "note": "The second ο is filled with ink. The acute is visible, so I read πολυλόγος."
+  },
+  {
+   "strip": "0339_05",
+   "text": "ἕδραν",
+   "note": "The mark over the line-final ε in 'ἕ-δραν' could be rough breathing with an acute or with a circumflex. I read it as ἕ, the same as ἕδρας on the line above."
+  }
+ ]
+}

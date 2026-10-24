@@ -1,0 +1,37 @@
+{
+ "page": "0198",
+ "strips_done": 6,
+ "corrections": 35,
+ "misprints": [
+  {
+   "strip": "0198_02",
+   "printed": "νιφετῳ",
+   "probably_meant": "νιφετῷ",
+   "note": "Insnöa(s): iota subscript printed but no circumflex visible on the omega."
+  },
+  {
+   "strip": "0198_04",
+   "printed": "ὀργανικὴ, ἡ.",
+   "probably_meant": "ὀργανική, ἡ.",
+   "note": "Instrumentalmusik: grave accent printed before a comma."
+  },
+  {
+   "strip": "0198_04",
+   "printed": "mskomassa",
+   "probably_meant": "menniskomassa",
+   "note": "Inströmma: printed as 'mskomassa', which is either an unusual abbreviation or a dropped-letter misprint. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0198_02",
+   "text": "ἐγχυματίζειν",
+   "note": "Inspruta: in the scan the letter after ζ looks like ι, so the word reads like 'ἐγχυματίζιιν'. It is probably a broken ε, so I transcribed it as ἐγχυματίζειν, but it could be a wrong-letter misprint."
+  },
+  {
+   "strip": "0198_03",
+   "text": "ἡ φυσική l.",
+   "note": "Instinkt: the scan shows an acute on φυσική before 'l.', and I kept the acute."
+  }
+ ]
+}

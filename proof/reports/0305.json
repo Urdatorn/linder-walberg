@@ -1,0 +1,91 @@
+{
+ "page": "0305",
+ "strips_done": 6,
+ "corrections": 150,
+ "misprints": [
+  {
+   "strip": "0305_00",
+   "printed": "Närmast, πλησιαίτατος πλησιέστατος), 3.",
+   "probably_meant": "πλησιαίτατος (πλησιέστατος), 3.",
+   "note": "opening parenthesis missing in print"
+  },
+  {
+   "strip": "0305_01",
+   "printed": "τὰ ἐμποδών τά πρὸ ποδών",
+   "probably_meant": "τὰ ἐμποδὼν τὰ πρὸ ποδῶν",
+   "note": "ποδών printed with acute instead of circumflex"
+  },
+  {
+   "strip": "0305_02",
+   "printed": "εὖριν l. εὖρινος",
+   "probably_meant": "εὔριν l. εὔρινος",
+   "note": "circumflex printed on εὖ- in both forms"
+  },
+  {
+   "strip": "0305_04",
+   "printed": "ώς (ἔπος) εἰπεῖν",
+   "probably_meant": "ὡς (ἔπος) εἰπεῖν",
+   "note": "no breathing printed on ώς"
+  },
+  {
+   "strip": "0305_04",
+   "printed": "καλιά, η.",
+   "probably_meant": "καλιά, ἡ.",
+   "note": "article printed without breathing/accent"
+  },
+  {
+   "strip": "0305_05",
+   "printed": "ἀναίδεια, η.",
+   "probably_meant": "ἀναίδεια, ἡ.",
+   "note": "article printed without breathing/accent"
+  },
+  {
+   "strip": "0305_05",
+   "printed": "θήραθρον, τό",
+   "probably_meant": "θήρατρον, τό",
+   "note": "later in the same entry printed θήρατρον"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0305_01",
+   "text": "τὸ νῦν l. παραχρῆμα / ὁ νῦν χρόνος",
+   "note": "the accent on νυν looks like a grave in the scan; I read it as a worn circumflex (the same thing happens with -εῖν/-ᾶν on this page)"
+  },
+  {
+   "strip": "0305_02",
+   "text": "ῥινοκοπεῖν, ῥινοτομεῖν, ἀνασπᾶν",
+   "note": "the accents look grave-like in the scan; I transcribed them as worn circumflexes"
+  },
+  {
+   "strip": "0305_01",
+   "text": "ἐνεστώς, ῶσα, ώς",
+   "note": "the ending is printed with a circumflex; no breathing is visible"
+  },
+  {
+   "strip": "0305_00",
+   "text": "3. Adv., πλησιαίτερον / komma n., πλη-",
+   "note": "the scan shows a space before the comma and the full stop is not visible; I supplied the stop"
+  },
+  {
+   "strip": "0305_03",
+   "text": "τὸ ἑξῆς l. ἐφεξῆς / ἐπί τινι o. τινά",
+   "note": "no full stop is visible after 'l' or 'o'; I supplied it. The breathing on the first ἑξῆς is faint"
+  },
+  {
+   "strip": "0305_03",
+   "text": "Näspolyp. / Nässla. / Nästa. / Nästan.",
+   "note": "the punctuation after these headwords looks like a full stop, not a comma"
+  },
+  {
+   "strip": "0305_02",
+   "text": "Näsbränna. κόλασις",
+   "note": "the punctuation after the headword looks like a full stop"
+  },
+  {
+   "strip": "0305_05",
+   "text": "ἐμβάλλειν τινὰ εἰς τὰ δίκτυά",
+   "note": "I could not tell acute from grave on τινὰ"
+  }
+ ]
+}

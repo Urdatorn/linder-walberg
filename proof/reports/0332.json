@@ -1,0 +1,75 @@
+{
+ "page": "0332",
+ "strips_done": 7,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0332_00",
+   "printed": "Oåtkiljelig",
+   "probably_meant": "Oåtskiljelig",
+   "note": "Headword lacks the s; neighbour entry is Oåtskiljd."
+  },
+  {
+   "strip": "0332_00",
+   "printed": "ἄπρακτος, 2, ἀτελής",
+   "probably_meant": "ἄπρακτος, 2. ἀτελής",
+   "note": "A comma instead of the usual full stop after the termination number."
+  },
+  {
+   "strip": "0332_01",
+   "printed": "οὐ μεμπτός. 3.",
+   "probably_meant": "οὐ μεμπτός, 3.",
+   "note": "A full stop instead of a comma before the termination number."
+  },
+  {
+   "strip": "0332_03",
+   "printed": "ἀναίσθητος, 2, ἀπαθής ... ἀμελής, 2, ὀλίγωρος",
+   "probably_meant": "2. (full stop)",
+   "note": "Commas after the termination numbers, as printed."
+  },
+  {
+   "strip": "0332_02",
+   "printed": "etc ).:",
+   "probably_meant": "etc.).:",
+   "note": "No full stop after etc inside the parenthesis; transcribed as 'etc).:'."
+  },
+  {
+   "strip": "0332_05",
+   "printed": "στρωματοθίκη",
+   "probably_meant": "στρωματοθήκη",
+   "note": "The print shows a narrow ί, perhaps broken type for ή."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0332_00",
+   "text": "βούσταθμον, βουστάσιον",
+   "note": "The mark after βούσταθμον looks like a dot; read as a broken comma. The same thing happens at ἀγένεια, ἡ in 0332_01."
+  },
+  {
+   "strip": "0332_03",
+   "text": "εἰκῇ.:",
+   "note": "There is a dot under or after the η that could be an iota subscript or a full stop. I wrote εἰκῇ.:"
+  },
+  {
+   "strip": "0332_02",
+   "text": "ἀμηχάνως ὥς",
+   "note": "The accent on ὡς looks like rough breathing plus acute."
+  },
+  {
+   "strip": "0332_06",
+   "text": "παρα-, ἐπιγράφειν",
+   "note": "There is dust or a broken mark between 'παρα-,' and ἐπιγράφειν."
+  },
+  {
+   "strip": "0332_05",
+   "text": "gm vv. (twice, also in 0332_06)",
+   "note": "Printed as italic 'υυ'. I wrote the Latin abbreviation vv., which the proofread pages use most."
+  },
+  {
+   "strip": "0332_05",
+   "text": "τὰ αὑτοῦ",
+   "note": "Read the breathing as rough; it is small in the print."
+  }
+ ]
+}

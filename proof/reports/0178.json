@@ -1,0 +1,59 @@
+{
+ "page": "0178",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0178_00",
+   "printed": "Hushålluingskonst",
+   "probably_meant": "Hushållningskonst",
+   "note": "turned n (u for n) in the headword"
+  },
+  {
+   "strip": "0178_00",
+   "printed": "Hnshållsväsende",
+   "probably_meant": "Hushållsväsende",
+   "note": "turned u (n for u) in the headword"
+  },
+  {
+   "strip": "0178_00",
+   "printed": "οἰκονομική. ἡ.",
+   "probably_meant": "οἰκονομική, ἡ.",
+   "note": "full stop where a comma is expected before the article"
+  },
+  {
+   "strip": "0178_01",
+   "printed": "νύμφη, η.:",
+   "probably_meant": "νύμφη, ἡ.:",
+   "note": "the article has no rough breathing"
+  },
+  {
+   "strip": "0178_05",
+   "printed": "o. gm τίς, τί o,",
+   "probably_meant": "o. gm τίς, τί o.",
+   "note": "comma after the abbreviation o. at the end of the column"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0178_01",
+   "text": "οἴκησις, ἡ.",
+   "note": "the mark over the article looks like a grave accent or a broken rough breathing; kept ἡ"
+  },
+  {
+   "strip": "0178_03",
+   "text": "ᾗ. ὅπῃ.",
+   "note": "the circumflex on ᾗ and the iota subscripts on both words are faint or hard to see in the scan; kept the standard forms"
+  },
+  {
+   "strip": "0178_03",
+   "text": "ἔνθα(περ)",
+   "note": "the opening parenthesis is faint, broken type"
+  },
+  {
+   "strip": "0178_02",
+   "text": "ἁψίς, ῖδος.",
+   "note": "the breathing on ἁψίς is small; read as rough"
+  }
+ ]
+}

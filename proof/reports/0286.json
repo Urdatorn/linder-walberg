@@ -1,0 +1,53 @@
+{
+ "page": "0286",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0286_03",
+   "printed": "οἱ μῦες",
+   "probably_meant": "οἱ μύες",
+   "note": "Circumflex printed on the nominative plural of μῦς."
+  },
+  {
+   "strip": "0286_04",
+   "printed": "δώρα, χρήματα, τά",
+   "probably_meant": "δῶρα",
+   "note": "Acute printed where a circumflex is expected."
+  },
+  {
+   "strip": "0286_05",
+   "printed": "πάμπολλυς, 3.",
+   "probably_meant": "πάμπολυς",
+   "note": "The print has a double lambda; kept as printed."
+  },
+  {
+   "strip": "0286_05",
+   "printed": "τῆς χώρας.. huru",
+   "probably_meant": "τῆς χώρας.: huru",
+   "note": "The print shows two full stops on the baseline, probably the book's '.:' with the upper dot of the colon missing."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0286_05",
+   "text": "αὕτη, οὗτο(ν). τοσόσδε, ἥδε, ὅνδε",
+   "note": "The breathings in this line are indistinct. The marks look like a bare acute or a bare circumflex, so the breathings may have dropped out. I wrote the expected forms."
+  },
+  {
+   "strip": "0286_05",
+   "text": "οἷός τ’ ὦ",
+   "note": "Broken type over the iota; the mark is a blob. I read it as a circumflex with a rough breathing."
+  },
+  {
+   "strip": "0286_00",
+   "text": "~ ἐναντίον",
+   "note": "The breathing on the first letter is small; I read it as smooth, which the word requires. The OCR had a rough breathing."
+  },
+  {
+   "strip": "0286_04",
+   "text": "ἁδρός",
+   "note": "Read as a rough breathing on alpha, with the acute on the omicron. The OCR had θεινός, ἀθρός."
+  }
+ ]
+}

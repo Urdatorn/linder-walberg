@@ -1,0 +1,63 @@
+{
+ "page": "0245",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0245_02",
+   "printed": "μειδίαμα, τί.",
+   "probably_meant": "μειδίαμα, τό.",
+   "note": "The article is clearly printed as τί, not τό."
+  },
+  {
+   "strip": "0245_02",
+   "printed": "ἐν ἅπαντι τῷ βίω",
+   "probably_meant": "ἐν ἅπαντι τῷ βίῳ",
+   "note": "τῷ has its iota subscript; βίω has none in the print."
+  },
+  {
+   "strip": "0245_02",
+   "printed": "παράθρησις",
+   "probably_meant": "παράρθρησις",
+   "note": "Printed with one rho (\"ἐξ-, παράθρησις\"). The usual form is παράρθρησις."
+  },
+  {
+   "strip": "0245_03",
+   "printed": "χαίρων, ουσα, ον",
+   "probably_meant": "χαίρων, -ουσα, -ον",
+   "note": "The endings are printed without hyphens; copied as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0245_03",
+   "text": "τὰ πρὸς τὸν βίον.",
+   "note": "Under Lefnadsförhållanden the last word is damaged and looks like βίαx; read as βίον."
+  },
+  {
+   "strip": "0245_03",
+   "text": "μετρίᾳ τῇ διαίτῃ",
+   "note": "The iota subscripts under τῇ and διαίτῃ are faint and merged into the η; written with subscripts."
+  },
+  {
+   "strip": "0245_04",
+   "text": "~ χια, ἡ.",
+   "note": "No breathing is visible on η. It may be cut off at the top edge of the strip; written as ἡ."
+  },
+  {
+   "strip": "0245_04",
+   "text": "σκοπὸς ὁ τοῦ βίου",
+   "note": "The type here is clogged or broken and looks like σκαπὰς ά ταῦ; read as σκοπὸς ὁ τοῦ."
+  },
+  {
+   "strip": "0245_00",
+   "text": "ἕπεσθαι / (συν-, συμπαρ)ἕπεσθαί",
+   "note": "The breathing is hard to read even zoomed in; it looks rough, so read as ἕ (the OCR had ἔ)."
+  },
+  {
+   "strip": "0245_00",
+   "text": "gm vv.",
+   "note": "Printed in italic letters that look like υυ; written vv., following the proofread pages."
+  }
+ ]
+}

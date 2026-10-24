@@ -1,0 +1,36 @@
+{
+ "page": "0199",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0199_00",
+   "printed": "Jfr Ofverensstämmelse",
+   "probably_meant": "Jfr Öfverensstämmelse",
+   "note": "The O has no diaeresis in the print, though there is room above it for one. Kept as printed."
+  },
+  {
+   "strip": "0199_03",
+   "printed": "staden intager en rund af 17 stadier",
+   "probably_meant": "staden intager en rymd af 17 stadier (or a word such as 'rund omkrets')",
+   "note": "'rund' is clearly printed. It may be a misprint for 'rymd', the word used in the sense line just before. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0199_05",
+   "text": "ἄχρι (οὗ)",
+   "note": "The accent mark over υ is broken. It reads as a circumflex plus a breathing; I took the breathing to be rough (οὗ), but smooth (οὖ) cannot be ruled out."
+  },
+  {
+   "strip": "0199_02",
+   "text": "τὰ αὐτοῦ",
+   "note": "The breathing on υ looks smooth (αὐτοῦ), not rough (αὑτοῦ, which the earlier OCR had). The reflexive αὑτοῦ might be what was meant."
+  },
+  {
+   "strip": "0199_00",
+   "text": "συμψηφίζεσθαί τινι:",
+   "note": "The punctuation after τινι sits right at the edge of the scan and is partly cut off. I read it as a colon."
+  }
+ ]
+}

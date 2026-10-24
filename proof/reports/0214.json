@@ -1,0 +1,54 @@
+{
+ "page": "0214",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0214_01",
+   "printed": "αὐτῷ τά πράγματα",
+   "probably_meant": "αὐτῷ τὰ πράγματα",
+   "note": "acute instead of grave on the article mid-phrase"
+  },
+  {
+   "strip": "0214_02",
+   "printed": "βοστουχοῦν",
+   "probably_meant": "βοστρυχοῦν",
+   "note": "ου printed for ρυ"
+  },
+  {
+   "strip": "0214_03",
+   "printed": "ὀστοφυής. 2.",
+   "probably_meant": "ὀστοφυής, 2.",
+   "note": "full stop instead of comma before the termination number"
+  },
+  {
+   "strip": "0214_03",
+   "printed": "φνματώδης",
+   "probably_meant": "φυματώδης",
+   "note": "ν printed for υ (pointed letter clearly visible)"
+  },
+  {
+   "strip": "0214_03",
+   "printed": "ῆρος",
+   "probably_meant": "ῆρος (gen. ending of ῥαιστήρ)",
+   "note": "printed with circumflex only and no breathing; kept as ending"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0214_00",
+   "text": "κνοῦς, ὁ l. κνόη, ἡ",
+   "note": "both initial letters show no descender, so κ is the reading; χνοῦς / χνόη may be what was meant"
+  },
+  {
+   "strip": "0214_01",
+   "text": "μηχανᾶσθαι.",
+   "note": "the full stop at the end of the first line is very faint"
+  },
+  {
+   "strip": "0214_05",
+   "text": "προσκυνεῖν τινα",
+   "note": "the τ of τινα is damaged and looks like ι"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "page": "0331",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0331_04",
+   "printed": "χαλεπότης, η.",
+   "probably_meant": "χαλεπότης, ἡ.",
+   "note": "Article printed without its rough breathing and accent; kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0331_05",
+   "text": "κεφαλή, ἡ.: m. o.,",
+   "note": "The punctuation after ἡ looks like a broken '.:' (a faint middle dot, then a full stop). Transcribed as '.:'."
+  },
+  {
+   "strip": "0331_05",
+   "text": "τὸ ἔξω",
+   "note": "The diacritic on ἔξω is small and hard to read in the scan. Transcribed as smooth breathing with acute."
+  },
+  {
+   "strip": "0331_02",
+   "text": "ἁπλοῦς",
+   "note": "The breathing on the first letter is small. It looks rough, so it is transcribed as ἁπλοῦς."
+  },
+  {
+   "strip": "0331_00",
+   "text": "ἀλλοτριότης, ἡ. τὸ καινόν",
+   "note": "The full stop after ἡ is faint and raised, but there is a dot, so it is kept."
+  }
+ ]
+}

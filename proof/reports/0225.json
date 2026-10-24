@@ -1,0 +1,31 @@
+{
+ "page": "0225",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0225_01",
+   "printed": "κύκλῳ (περε)φέρεσθαι",
+   "probably_meant": "κύκλῳ (περι)φέρεσθαι",
+   "note": "The prefix is printed as (περε). Kept as printed."
+  },
+  {
+   "strip": "0225_00",
+   "printed": "Krenelera (with an inverted e: Krənelera)",
+   "probably_meant": "Krenelera",
+   "note": "The second letter after Kr looks like an upside-down e, probably a turned sort. Transcribed as e."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0225_00",
+   "text": "Krenelera",
+   "note": "The print has a turned-e-like glyph. Read it as e (krenelera), not æ."
+  },
+  {
+   "strip": "0225_03",
+   "text": "μηκύνειν τὸν πόλεμον.:",
+   "note": "The print shows '.,:' or '..:', probably dust or a broken sort. Transcribed as '.:'."
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "page": "0180",
+ "strips_done": 6,
+ "corrections": 6,
+ "misprints": [
+  {
+   "strip": "0180_01",
+   "printed": "handlingeu",
+   "probably_meant": "handlingen",
+   "note": "turned n printed as u"
+  },
+  {
+   "strip": "0180_01",
+   "printed": "σκοροδοφαγία, .: soppa",
+   "probably_meant": "σκοροδοφαγία, ἡ.: soppa",
+   "note": "article ἡ missing at start of line; only '.:' printed"
+  },
+  {
+   "strip": "0180_04",
+   "printed": "o. gm vv,",
+   "probably_meant": "o. gm vv.",
+   "note": "italic Latin 'vv' (verbs) followed by a comma instead of a full stop; OCR had read it as Greek νυ"
+  },
+  {
+   "strip": "0180_04",
+   "printed": "lån på sma h.",
+   "probably_meant": "lån på samma h.",
+   "note": "'sma' as printed"
+  },
+  {
+   "strip": "0180_05",
+   "printed": "hyrespenuingar",
+   "probably_meant": "hyrespenningar",
+   "note": "turned n printed as u"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0180_03",
+   "text": "ἡμέρωσις, ἡ.",
+   "note": "the breathing on the article is worn and could be read as smooth or grave; kept rough breathing ἡ"
+  },
+  {
+   "strip": "0180_03",
+   "text": "εὐκολία, ἡ.",
+   "note": "the mark over the article looks like a worn grave or rough breathing; kept ἡ"
+  }
+ ]
+}

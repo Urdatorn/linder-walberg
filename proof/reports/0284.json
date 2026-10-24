@@ -1,0 +1,37 @@
+{
+ "page": "0284",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0284_01",
+   "printed": "ἀνθίσθασθαι",
+   "probably_meant": "ἀνθίστασθαι",
+   "note": "The print clearly shows θ for τ in Motsträfvig."
+  },
+  {
+   "strip": "0284_04",
+   "printed": "ἐναντιολογικός",
+   "probably_meant": "ἐναντιολογικός (unattested form)",
+   "note": "Printed as shown. It is not in the corpus but is a plausible coinage, so I left it unchanged."
+  },
+  {
+   "strip": "0284_05",
+   "printed": "ἄκαρι",
+   "probably_meant": "ἀκαρί",
+   "note": "Mott (a mite) is LSJ ἀκαρί. The print shows κ with the accent on the first syllable, and I kept it as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0284_00",
+   "text": "ἐναντία στάσις",
+   "note": "The τ looks like ι because its crossbar is broken or missing, so the print reads 'σιάσις'. I wrote στάσις, assuming broken type. It could instead be an actual misprint."
+  },
+  {
+   "strip": "0284_04",
+   "text": "ngt finner m, ἀντιλέγεταί",
+   "note": "The print shows 'm ,' with a gap and no visible full stop, probably a dropped or faint period. I transcribed it without the period."
+  }
+ ]
+}

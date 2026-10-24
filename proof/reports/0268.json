@@ -1,0 +1,30 @@
+{
+ "page": "0268",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0268_00",
+   "printed": "maukön",
+   "probably_meant": "mankön",
+   "note": "Turned n printed as u in '(alla om maukön)'."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0268_01",
+   "text": "ἀμυγδαλίς, ίδος",
+   "note": "The mark on the iota of the genitive ending looks like an acute rather than a breathing, but it is small and could be read as ἰδος."
+  },
+  {
+   "strip": "0268_05",
+   "text": "χλαμύς, ύδος",
+   "note": "I read the mark on the upsilon as an acute, not a rough breathing."
+  },
+  {
+   "strip": "0268_00",
+   "text": "~ l. adj. verb.",
+   "note": "The strip starts unindented, continuing the entry from 0267_05, which ends 'd) med impers. ν.' (probably meant to be 'v.' on that page)."
+  }
+ ]
+}

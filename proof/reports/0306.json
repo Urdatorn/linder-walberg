@@ -1,0 +1,58 @@
+{
+ "page": "0306",
+ "strips_done": 7,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0306_00",
+   "printed": "Nödbudeu",
+   "probably_meant": "Nödbunden",
+   "note": "Headword as printed, letterspaced 'N ö d b u d e u'."
+  },
+  {
+   "strip": "0306_01",
+   "printed": "säga eu n.",
+   "probably_meant": "säga en n.",
+   "note": "Printed 'eu' for 'en'."
+  },
+  {
+   "strip": "0306_01",
+   "printed": "ἀποζὴν",
+   "probably_meant": "ἀποζῆν",
+   "note": "The accent on the infinitive looks like a grave, not a circumflex."
+  },
+  {
+   "strip": "0306_02",
+   "printed": "θηρεύειν τᾶς ἡδονάς",
+   "probably_meant": "θηρεύειν τὰς ἡδονάς",
+   "note": "Circumflex printed on the article."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0306_01",
+   "text": "ἀποζὴν",
+   "note": "The accent mark is small; it could be a badly formed circumflex rather than a grave."
+  },
+  {
+   "strip": "0306_03",
+   "text": "τρίβων, ωνος, ὁ",
+   "note": "The ρ in τρίβων is broken in the print (the OCR read τιβίων); τρίβων is the most likely reading."
+  },
+  {
+   "strip": "0306_00",
+   "text": "λεπτός, 3. / σινδών, όνος",
+   "note": "The small mark after λεπτός and after σινδών could be read as a full stop or a comma. Both are written as commas."
+  },
+  {
+   "strip": "0306_05",
+   "text": "Ὀ, ὀ ... Ὠ, ὠ ... ὤ, φεῦ",
+   "note": "The breathings on the letter-name forms are small. Read as smooth breathings, and ὤ (smooth breathing with acute) after 'etc.),'."
+  },
+  {
+   "strip": "0306_06",
+   "text": "α priv.",
+   "note": "Italic alpha written as Greek α, following the majority form elsewhere in the book."
+  }
+ ]
+}

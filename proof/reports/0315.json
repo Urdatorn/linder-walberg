@@ -1,0 +1,48 @@
+{
+ "page": "0315",
+ "strips_done": 6,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0315_05",
+   "printed": "οὐκ ἀπητημένος",
+   "probably_meant": "οὐκ ἀπῃτημένος",
+   "note": "No iota subscript visible under the eta in the print."
+  },
+  {
+   "strip": "0315_04",
+   "printed": "Ok, 1) eg. ζυγόν ... b) fig.",
+   "probably_meant": "a) eg.",
+   "note": "Sense numbering mixes 1) with b) as printed."
+  },
+  {
+   "strip": "0315_01",
+   "printed": "ἄλοπος",
+   "probably_meant": "ἄλοπος (unattested; possibly a misprint)",
+   "note": "Clearly printed as ἄλοπος for Ohäcklad."
+  },
+  {
+   "strip": "0315_00",
+   "printed": "ἀνήκεστος 2.",
+   "probably_meant": "ἀνήκεστος, 2.",
+   "note": "No comma before the termination number in the print."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0315_01",
+   "text": "τὸ ἄφρακτον",
+   "note": "Broken/smudged type on the first letters (ἀφ); reading taken from context and the next entry's ἄφρακτος."
+  },
+  {
+   "strip": "0315_02",
+   "text": "ἀπαίδευτος. 2.",
+   "note": "The mark after ἀπαίδευτος is a raised dot, possibly a damaged comma; written as a period."
+  },
+  {
+   "strip": "0315_00",
+   "text": "περί τι",
+   "note": "The accent on περί is cut off at the column edge; most likely acute."
+  }
+ ]
+}

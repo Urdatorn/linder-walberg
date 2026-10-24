@@ -1,0 +1,48 @@
+{
+ "page": "0264",
+ "strips_done": 6,
+ "corrections": 80,
+ "misprints": [
+  {
+   "strip": "0264_00",
+   "printed": "ποδος",
+   "probably_meant": "ποδός",
+   "note": "Under Lättfotad, the genitive is printed without an accent both times."
+  },
+  {
+   "strip": "0264_01",
+   "printed": "Lättua",
+   "probably_meant": "Lättna",
+   "note": "The headword is printed with u (probably a turned n). The sense, 'luften l:r', calls for Lättna."
+  },
+  {
+   "strip": "0264_03",
+   "printed": "(ίδος)",
+   "probably_meant": "(ῖδος)",
+   "note": "In ψαλίς (ίδος) under Löfhvalf, the ending is printed with an acute instead of a circumflex."
+  },
+  {
+   "strip": "0264_05",
+   "printed": "ῥοΐζειν",
+   "probably_meant": "ῥοιζεῖν / ῥοΐζειν",
+   "note": "Under Löga, it is printed with a diaeresis and acute on the iota. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0264_05",
+   "text": "ἵππον",
+   "note": "The breathing and accent over the initial iota are broken, with a stray mark before them. I read rough breathing and acute."
+  },
+  {
+   "strip": "0264_00",
+   "text": "εὔπους",
+   "note": "The mark over the upsilon looks like smooth breathing with an acute (εὔπους), not a circumflex (εὖπους)."
+  },
+  {
+   "strip": "0264_00",
+   "text": "ῆτος",
+   "note": "γυμνής, ῆτος: there is a circumflex with no visible breathing. The OCR's ἧτος was not supported by the scan."
+  }
+ ]
+}

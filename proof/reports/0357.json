@@ -1,0 +1,55 @@
+{
+ "page": "0357",
+ "strips_done": 6,
+ "corrections": 25,
+ "misprints": [
+  {
+   "strip": "0357_00",
+   "printed": "Begnvatten",
+   "probably_meant": "Regnvatten",
+   "note": "Headword clearly printed with B instead of R"
+  },
+  {
+   "strip": "0357_00",
+   "printed": "τῷ λίγῳ",
+   "probably_meant": "τῷ λόγῳ",
+   "note": "Print shows a narrow ί, not ό"
+  },
+  {
+   "strip": "0357_00",
+   "printed": "ἀναπευπάζεσθαι",
+   "probably_meant": "ἀναπεμπάζεσθαι",
+   "note": "Print has υ (no descender) where μ is expected"
+  },
+  {
+   "strip": "0357_01",
+   "printed": "πραττοντά τι",
+   "probably_meant": "πράττοντά τι",
+   "note": "Second occurrence printed without the accent on the first α"
+  },
+  {
+   "strip": "0357_02",
+   "printed": "Sedn,,",
+   "probably_meant": "Sedn.,",
+   "note": "Two commas printed"
+  },
+  {
+   "strip": "0357_04",
+   "printed": "θεοσέβεια, ἡ εὐσέβεια",
+   "probably_meant": "θεοσέβεια, ἡ. εὐσέβεια",
+   "note": "No full stop visible after ἡ"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0357_00",
+   "text": "λίγῳ",
+   "note": "The vowel could be a damaged ό; it looks like ί"
+  },
+  {
+   "strip": "0357_05",
+   "text": "(διαρ)ρήγνυσθαι",
+   "note": "No breathing visible on the ρ after the parenthesis; kept unmarked"
+  }
+ ]
+}

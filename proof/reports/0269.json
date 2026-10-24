@@ -1,0 +1,36 @@
+{
+ "page": "0269",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0269_01",
+   "printed": "ταριχεύεν",
+   "probably_meant": "ταριχεύειν",
+   "note": "Marinera; the print has no second iota"
+  },
+  {
+   "strip": "0269_03",
+   "printed": "ἀφιακνοῦνται",
+   "probably_meant": "ἀφικνοῦνται",
+   "note": "The print clearly has the extra α"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0269_03",
+   "text": "λῃστής",
+   "note": "The iota subscript under η is faint; it could be a speck, so the print may read ληστής"
+  },
+  {
+   "strip": "0269_00",
+   "text": "κυβερνᾶν ναῦν:",
+   "note": "The print has a visible space before the colon (ναῦν :); I wrote it without the space"
+  },
+  {
+   "strip": "0269_05",
+   "text": "Mask, matk",
+   "note": "Printed as matk (an old word for maggot or worm), so I kept it"
+  }
+ ]
+}

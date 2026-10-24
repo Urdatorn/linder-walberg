@@ -1,0 +1,31 @@
+{
+ "page": "0240",
+ "strips_done": 6,
+ "corrections": 110,
+ "misprints": [
+  {
+   "strip": "0240_02",
+   "printed": "vränga l.. νόμον κακουργεῖν",
+   "probably_meant": "vränga l., νόμον κακουργεῖν",
+   "note": "Two full stops printed after l. where a comma is expected; kept as printed"
+  },
+  {
+   "strip": "0240_00",
+   "printed": "ἀνεπιτήδειος προβατεύσθαι",
+   "probably_meant": "προβατεύεσθαι",
+   "note": "Infinitive printed without the thematic ε; kept as printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0240_01",
+   "text": "4) faststäldt skick",
+   "note": "The print looks like 'faststäldt' with one l (an 1862 spelling), not 'fastställdt' as the OCR had it"
+  },
+  {
+   "strip": "0240_04",
+   "text": "lagerkrönt",
+   "note": "The 'e' in 'lagerkrönt' is broken type in the scan, but the reading is clear"
+  }
+ ]
+}

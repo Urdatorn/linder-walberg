@@ -1,0 +1,53 @@
+{
+ "page": "0252",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0252_03",
+   "printed": "κλέπειν μηχανάς",
+   "probably_meant": "κλέπτειν μηχανάς",
+   "note": "τ missing in the print; kept as printed"
+  },
+  {
+   "strip": "0252_04",
+   "printed": "sätta stor l. till ngu",
+   "probably_meant": "ngn",
+   "note": "turned n printed as u; kept"
+  },
+  {
+   "strip": "0252_04",
+   "printed": "ποικίλος, 3 μηχανικός, 3.",
+   "probably_meant": "ποικίλος, 3. μηχανικός, 3.",
+   "note": "there is no full stop after the 3 at the start of the line; kept"
+  },
+  {
+   "strip": "0252_05",
+   "printed": "ἐπὶ βραχύ l ὀλίγον",
+   "probably_meant": "ἐπὶ βραχύ l. ὀλίγον",
+   "note": "the full stop after l is missing; kept"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0252_00",
+   "text": "πραΰς, εῖα, ύ.",
+   "note": "The mark over the final ύ looks like a single acute, not a rough breathing. I read it as ύ."
+  },
+  {
+   "strip": "0252_03",
+   "text": "φάκιον",
+   "note": "The first letter is broken type but is best read as φ, giving φάκιον (not χάκιον)."
+  },
+  {
+   "strip": "0252_04",
+   "text": "δολερός. 3.",
+   "note": "After δολερός there is a dot, not a clear comma. It may be a broken comma."
+  },
+  {
+   "strip": "0252_05",
+   "text": "ὀλίγος ὡς",
+   "note": "The first letter is open, like ε or a broken ο, and carries a smooth breathing. I read it as ὀλίγος."
+  }
+ ]
+}

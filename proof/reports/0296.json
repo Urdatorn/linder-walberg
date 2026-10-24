@@ -1,0 +1,47 @@
+{
+ "page": "0296",
+ "strips_done": 9,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0296_08",
+   "printed": "κατοφορά, ἡ.",
+   "probably_meant": "καταφορά, ἡ.",
+   "note": "Nedfart entry; print clearly shows κατοφορά"
+  },
+  {
+   "strip": "0296_08",
+   "printed": "καταφέρεσθαι",
+   "probably_meant": "καταφέρεσθαι.",
+   "note": "End of Nedflyga entry has no final full stop in the print"
+  },
+  {
+   "strip": "0296_06",
+   "printed": "n sig,",
+   "probably_meant": "n. sig,",
+   "note": "Nedböja: abbreviation n without its full stop in the print"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0296_00",
+   "text": "κατὰ τὸ ὂν ἀποβαίνει",
+   "note": "The breathing on ὂν is ambiguous between smooth and rough. I used smooth, which fits the sense."
+  },
+  {
+   "strip": "0296_01",
+   "text": "καταφέρεσθαι",
+   "note": "The type is broken at the start of the line (looks like ιαταϕέρεσθαι). I read it as καταφέρεσθαι."
+  },
+  {
+   "strip": "0296_04",
+   "text": "κατὰ τῆς γῆς.: fara",
+   "note": "The full stop before the colon is very faint. I transcribed it as .:"
+  },
+  {
+   "strip": "0296_03",
+   "text": "ὡς (τὸ), εἰκός",
+   "note": "There is a stray mark after (τὸ). I kept the comma, which looks printed."
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "page": "0351",
+ "strips_done": 7,
+ "corrections": 60,
+ "misprints": [
+  {
+   "strip": "0351_01",
+   "printed": "τέλμα, το.",
+   "probably_meant": "τέλμα, τό.",
+   "note": "article printed without accent"
+  },
+  {
+   "strip": "0351_03",
+   "printed": "χαῦνος 3 σιαλώδης, 2.",
+   "probably_meant": "χαῦνος, 3. σιαλώδης, 2.",
+   "note": "punctuation around the termination number is missing"
+  },
+  {
+   "strip": "0351_03",
+   "printed": "τετράπεδος",
+   "probably_meant": "τετράπεδος (as printed; possibly for τετράπλευρος or similar)",
+   "note": "unattested form, kept as printed"
+  },
+  {
+   "strip": "0351_04",
+   "printed": "af sma q. s.",
+   "probably_meant": "af samma q. s.",
+   "note": "Swedish 'samma' printed as 'sma'"
+  },
+  {
+   "strip": "0351_05",
+   "printed": "τό..",
+   "probably_meant": "τό.:",
+   "note": "double full stop printed after καῦμα, τό"
+  },
+  {
+   "strip": "0351_06",
+   "printed": "ä v.",
+   "probably_meant": "äfv.",
+   "note": "the f has dropped out of line; a stray 'f' is printed beside τὰ in the next line and is left out of the text"
+  },
+  {
+   "strip": "0351_06",
+   "printed": "τό λεῖμμα",
+   "probably_meant": "τό. λεῖμμα",
+   "note": "full stop missing after τό"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0351_05",
+   "text": "τοσοῦτος, αύτη, οῦτο",
+   "note": "the termination 'αύ-τη' has only an acute and no breathing that can be seen; 'οῦτο' could have a breathing under the circumflex"
+  },
+  {
+   "strip": "0351_04",
+   "text": "οἷόντ’",
+   "note": "the mark on οἷ could be a rough or a smooth breathing with circumflex; kept as οἷ"
+  },
+  {
+   "strip": "0351_01",
+   "text": "φυσᾶσθαι",
+   "note": "the accent on ᾶ is oddly formed, perhaps a grave over a circumflex; read as a circumflex"
+  }
+ ]
+}

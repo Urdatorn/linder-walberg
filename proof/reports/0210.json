@@ -1,0 +1,49 @@
+{
+ "page": "0210",
+ "strips_done": 6,
+ "corrections": 110,
+ "misprints": [
+  {
+   "strip": "0210_01",
+   "printed": "δεσποσικὸς ἀνήρ",
+   "probably_meant": "δεσποτικὸς ἀνήρ",
+   "note": "σ for τ in the print, checked at magnification"
+  },
+  {
+   "strip": "0210_01",
+   "printed": "vara kedjade vid hrdra",
+   "probably_meant": "hvarandra",
+   "note": "Printed 'hrdra'. It is probably a contraction of 'hvarandra', or a misprint for it."
+  },
+  {
+   "strip": "0210_02",
+   "printed": "vara k,, αὐτοκρατορεύειν",
+   "probably_meant": "vara k., αὐτοκρατορεύειν",
+   "note": "comma printed instead of full stop after k"
+  },
+  {
+   "strip": "0210_00",
+   "printed": "καθετήρ, ῆρος, ἡ, ὁ.",
+   "probably_meant": "καθετήρ, ῆρος, ὁ.",
+   "note": "article printed doubled. This may be intentional."
+  },
+  {
+   "strip": "0210_00",
+   "printed": "τῶν ἱππέων εἶναι τετάχθαι παρὰ τοὺς ἱππέας",
+   "probably_meant": "τῶν ἱππέων εἶναι l. τετάχθαι παρὰ τοὺς ἱππέας",
+   "note": "There is no 'l.' between the two alternatives."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0210_03",
+   "text": "κόρρη, ἡ.:",
+   "note": "The article after κόρρη is a blotted, broken type. It is read as ἡ."
+  },
+  {
+   "strip": "0210_04",
+   "text": "ἀκίλαστος",
+   "note": "Broken type: the accent sits loose between κ and λ (ἀκι΄λαστος). Transcribed as ἀκίλαστος."
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "page": "0233",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0233_03",
+   "printed": "han talar ngt, s. man fatta",
+   "probably_meant": "han talar ngt, s. man kan fatta",
+   "note": "'kan' seems to be missing in the print"
+  },
+  {
+   "strip": "0233_03",
+   "printed": "τί οὐκ ἀπεκρίνω:",
+   "probably_meant": "τί οὐκ ἀπεκρίνω;",
+   "note": "A colon where a Greek question mark is expected"
+  },
+  {
+   "strip": "0233_01",
+   "printed": "κυμινοδόχη",
+   "probably_meant": "κυμινοδόκη",
+   "note": "The print clearly has χ"
+  },
+  {
+   "strip": "0233_04",
+   "printed": "γάστρα",
+   "probably_meant": "γάστρα (correct)",
+   "note": "OCR had χάστρα, but the print reads γάστρα"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0233_02",
+   "text": "(ἐξ)επίστασθαί",
+   "note": "The print has '(ἐξ)-' at the end of a line and then 'επίστασθαί' with no breathing. I treated the hyphen as a line-break hyphen and joined the parts; it could also be a real prefix hyphen, giving '(ἐξ)-επίστασθαί'."
+  },
+  {
+   "strip": "0233_05",
+   "text": "μυΐνδα",
+   "note": "The mark over ι is a diaeresis with an acute, slightly displaced; read as μυΐνδα"
+  }
+ ]
+}

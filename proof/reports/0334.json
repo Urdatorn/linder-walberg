@@ -1,0 +1,55 @@
+{
+ "page": "0334",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0334_00",
+   "printed": "σπέπη ... σπέπασμα",
+   "probably_meant": "σκέπη ... σκέπασμα",
+   "note": "π printed for κ in both words under Paraply"
+  },
+  {
+   "strip": "0334_00",
+   "printed": "παραλληλόγραμμον σχῆμα), τό",
+   "probably_meant": "παραλληλόγραμμον (σχῆμα), τό",
+   "note": "opening parenthesis missing in print"
+  },
+  {
+   "strip": "0334_01",
+   "printed": "-πώλιον, τύ.",
+   "probably_meant": "-πώλιον, τό.",
+   "note": "article printed as τύ"
+  },
+  {
+   "strip": "0334_02",
+   "printed": "ἐπικυρυκεία",
+   "probably_meant": "ἐπικηρυκεία",
+   "note": "υ for η"
+  },
+  {
+   "strip": "0334_03",
+   "printed": "taga ett p,,",
+   "probably_meant": "taga ett p.,",
+   "note": "double comma in print"
+  },
+  {
+   "strip": "0334_05",
+   "printed": "παρά τινος 3) se Passgång",
+   "probably_meant": "παρά τινος. 3) se Passgång",
+   "note": "full stop missing before 3)"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0334_00",
+   "text": "-lellinie,",
+   "note": "there is a small apostrophe-like mark after -lellinie; it looks like a type sliver or dust, so I left it out"
+  },
+  {
+   "strip": "0334_04",
+   "text": "μετοχή",
+   "note": "the χ is poorly inked and could be read as γ; I read it as χ"
+  }
+ ]
+}

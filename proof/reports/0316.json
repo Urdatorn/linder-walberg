@@ -1,0 +1,55 @@
+{
+ "page": "0316",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0316_02",
+   "printed": "τῶν ολίγων εἷς",
+   "probably_meant": "τῶν ὀλίγων εἷς",
+   "note": "The smooth breathing on ολίγων is missing in the print."
+  },
+  {
+   "strip": "0316_02",
+   "printed": "ἀπήεσαν",
+   "probably_meant": "ἀπῄεσαν",
+   "note": "No iota subscript is visible in the print."
+  },
+  {
+   "strip": "0316_05",
+   "printed": "οὐκ ἐξίν",
+   "probably_meant": "οὐκ ἐξόν",
+   "note": "The print clearly shows ἐξίν with an acute on the iota."
+  },
+  {
+   "strip": "0316_04",
+   "printed": "ἐλαιόβροχος. 2.",
+   "probably_meant": "ἐλαιόβροχος, 2.",
+   "note": "There is a full stop where a comma is expected before the termination number."
+  },
+  {
+   "strip": "0316_02",
+   "printed": "διάφορος, 2, ἕτερος, 3, ἄλλος, 3.",
+   "probably_meant": "διάφορος, 2. ἕτερος, 3. ἄλλος, 3.",
+   "note": "Commas are printed after the termination numbers. The same happens in 'ἀνισομήκης, 2, ἀνισοπλατής'."
+  },
+  {
+   "strip": "0316_04",
+   "printed": "-qvarn",
+   "probably_meant": "-qvärn",
+   "note": "Under Oljepress the print reads 'qvarn' with no umlaut, so I kept it as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0316_03",
+   "text": "δρυπετής (ἐλάα)",
+   "note": "The letter after πε is faint and looks like ι or τ. I read τ (δρυπετής, the attested word)."
+  },
+  {
+   "strip": "0316_02",
+   "text": "εἷς",
+   "note": "The diacritic above the iota in 'τῶν ολίγων εἷς' is small. It could be εἶς or εἷς."
+  }
+ ]
+}

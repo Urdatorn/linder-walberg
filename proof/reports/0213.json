@@ -1,0 +1,52 @@
+{
+ "page": "0213",
+ "strips_done": 6,
+ "corrections": 38,
+ "misprints": [
+  {
+   "strip": "0213_00",
+   "printed": "ἀμυστίζειν. αμυστὶ πίνειν",
+   "probably_meant": "ἀμυστὶ",
+   "note": "second word printed without breathing"
+  },
+  {
+   "strip": "0213_04",
+   "printed": "(äfv. i allm.. eh. metaph.)",
+   "probably_meant": "allm. eh.",
+   "note": "double full stop after allm"
+  },
+  {
+   "strip": "0213_05",
+   "printed": "ψοφειν",
+   "probably_meant": "ψοφεῖν",
+   "note": "circumflex missing in print (κλαυσιᾶν on the same line has one)"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0213_00",
+   "text": "ῥῆγμα, τό χάσμα",
+   "note": "the line ends at 'τό' on the right margin; no full stop is visible in the scan (it may be cut off)"
+  },
+  {
+   "strip": "0213_00",
+   "text": "ῥαγάς, άδος",
+   "note": "the mark at the line end is clipped; read as a comma"
+  },
+  {
+   "strip": "0213_00",
+   "text": "δικραιοῦν",
+   "note": "clearly printed this way; kept, though the expected form is probably δικροῦν"
+  },
+  {
+   "strip": "0213_02",
+   "text": "~ τί τινι. καλῶς ἔχει τί τινι.",
+   "note": "the accents are visible only at the bottom edge of the previous band; there is a stray grave-like mark near καλῶς"
+  },
+  {
+   "strip": "0213_05",
+   "text": "~ ρόνη, ἡ.",
+   "note": "the accent and breathing appear at the bottom of strip 0213_04; the signature mark '27' at the page foot is left out"
+  }
+ ]
+}

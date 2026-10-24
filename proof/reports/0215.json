@@ -1,0 +1,53 @@
+{
+ "page": "0215",
+ "strips_done": 6,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0215_02",
+   "printed": "γρωνη, η. κροτωνη, η.",
+   "probably_meant": "γρώνη, ἡ. κροτώνη, ἡ.",
+   "note": "Printed without accents or breathings."
+  },
+  {
+   "strip": "0215_05",
+   "printed": "2) intr, a)",
+   "probably_meant": "2) intr., a)",
+   "note": "The full stop after the abbreviation intr is missing in the print."
+  },
+  {
+   "strip": "0215_04",
+   "printed": "βράττειν παφλάζειν.:",
+   "probably_meant": "βράττειν. παφλάζειν.:",
+   "note": "No punctuation is printed between the two verbs."
+  },
+  {
+   "strip": "0215_04",
+   "printed": "(Sedn).",
+   "probably_meant": "(Sedn.).",
+   "note": "The abbreviation is printed without its full stop."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0215_01",
+   "text": "(se Lex.).: 2)",
+   "note": "The punctuation after 'Lex.)' is blurred by a speck. Read as '.:'."
+  },
+  {
+   "strip": "0215_01",
+   "text": "se Kny.",
+   "note": "A speck above the y. Read as plain 'Kny', not 'Kný'."
+  },
+  {
+   "strip": "0215_04",
+   "text": "(äfv. = kokt)",
+   "note": "The equals sign is set tight in the print. Written with spaces, as elsewhere in the strips."
+  },
+  {
+   "strip": "0215_05",
+   "text": "τρυηλίς, ἰδος",
+   "note": "The ending carries only a breathing-like mark and no clear accent. Copied as ἰδος, the same form as on 0215_00."
+  }
+ ]
+}

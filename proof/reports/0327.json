@@ -1,0 +1,53 @@
+{
+ "page": "0327",
+ "strips_done": 6,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0327_01",
+   "printed": "φεύδεσθαι",
+   "probably_meant": "ψεύδεσθαι",
+   "note": "Osanning: 'tala o., φεύδεσθαι' is printed with φ, while the same verb later in the entry is printed ψεύδεσθαι."
+  },
+  {
+   "strip": "0327_03",
+   "printed": "δύσμορμος",
+   "probably_meant": "δύσμορφος",
+   "note": "Osaklig entry under Oskaplig."
+  },
+  {
+   "strip": "0327_03",
+   "printed": "Oskaplig, ἀμορφία, δυσμορφία",
+   "probably_meant": "Oskaplighet",
+   "note": "The noun entry repeats the adjective headword 'Oskaplig'."
+  },
+  {
+   "strip": "0327_02",
+   "printed": "κακοήθεια, ἡ ἀσέβεια",
+   "probably_meant": "κακοήθεια, ἡ. ἀσέβεια",
+   "note": "There is no full stop after ἡ in the print."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0327_04",
+   "text": "οὖσα, όν.",
+   "note": "The last word of the Oskiljaktig entry looks like 'ύν', probably a damaged ο. Transcribed as όν."
+  },
+  {
+   "strip": "0327_02",
+   "text": "Osiktad,",
+   "note": "The mark after the headword is small and between a comma and a full stop. Kept as a comma."
+  },
+  {
+   "strip": "0327_05",
+   "text": "ἀκάκωτος, 2.",
+   "note": "The punctuation after ἀκάκωτος could be a full stop or a comma. Kept as a comma."
+  },
+  {
+   "strip": "0327_00",
+   "text": "κακουργία. ἡ.",
+   "note": "The punctuation at the right edge after κακουργία is cut off. Kept as a full stop."
+  }
+ ]
+}

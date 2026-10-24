@@ -1,0 +1,102 @@
+{
+ "page": "0301",
+ "strips_done": 6,
+ "corrections": 175,
+ "misprints": [
+  {
+   "strip": "0301_00",
+   "printed": "πρὸς ἄρκον τε καὶ",
+   "probably_meant": "πρὸς ἄρκτον τε καὶ",
+   "note": "Nordvestlig: τ missing from ἄρκτον"
+  },
+  {
+   "strip": "0301_00",
+   "printed": "ἀρκτικος πόλος",
+   "probably_meant": "ἀρκτικὸς πόλος",
+   "note": "Nordpol: accent missing"
+  },
+  {
+   "strip": "0301_00",
+   "printed": "ἐν τοῖς προς ἄρκτον / Nordostlig, προς ἄρκτον",
+   "probably_meant": "πρὸς",
+   "note": "accent missing on προς twice"
+  },
+  {
+   "strip": "0301_01",
+   "printed": "ἡ στόμα, τό.",
+   "probably_meant": "ἡ. στόμα, τό.",
+   "note": "Nos: no punctuation after ἡ"
+  },
+  {
+   "strip": "0301_01",
+   "printed": "γραφή, η.",
+   "probably_meant": "γραφή, ἡ.",
+   "note": "Not 4): breathing and accent missing on η"
+  },
+  {
+   "strip": "0301_02",
+   "printed": "(τὸ) ἀπο τοῦδε; ἀλλα γάρ; το ἄκυρον",
+   "probably_meant": "ἀπὸ; ἀλλὰ; τὸ",
+   "note": "accents missing on these words"
+  },
+  {
+   "strip": "0301_03",
+   "printed": "Nuvarande, ο, ἡ, το νῦν",
+   "probably_meant": "ὁ, ἡ, τὸ νῦν",
+   "note": "breathing on ο and accent on το missing; τον ἀριθμον (Nummer), το νῦν (Nutid) and τα παρόντα are also unaccented in the print"
+  },
+  {
+   "strip": "0301_05",
+   "printed": "κατακλείς. εἶδος, ἡ (?)",
+   "probably_meant": "κατακλείς, ειδός, ἡ (?)",
+   "note": "looks like the genitive ending ειδός printed as εἶδος"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0301_00",
+   "text": "ἄνεμος ὁ ἀπ' ἄρκτου φερόμενος",
+   "note": "the article ὁ and the ο of φερόμενος are broken; read from what is left"
+  },
+  {
+   "strip": "0301_00",
+   "text": "τῶν πρὸς ἄρκτον",
+   "note": "the τ in ἄρκτον looks like ι (crossbar missing); taken as broken type. The same happens in πρόσφατος (0301_03), νεόκτιστος (0301_04) and πρός τι (0301_05)"
+  },
+  {
+   "strip": "0301_02",
+   "text": "νῦν δή τότε δή:",
+   "note": "no punctuation visible between δή and τότε; a faint full stop may be lost"
+  },
+  {
+   "strip": "0301_03",
+   "text": "τότε δή. τηνικαῦτα",
+   "note": "the mark after δή could be a comma or a full stop"
+  },
+  {
+   "strip": "0301_04",
+   "text": "αὖθις",
+   "note": "the second letter shows as one narrow stroke, like ἴ (αἴθις); written as αὖθις on the view that the υ is broken"
+  },
+  {
+   "strip": "0301_04",
+   "text": "χρῆσθαι",
+   "note": "the η looks like ι with a mark under it (χρῖσθαι?); written as χρῆσθαι on the view that the type is broken"
+  },
+  {
+   "strip": "0301_04",
+   "text": "κλείς, δός, ἡ. βαλανάγρα, ἡ.:",
+   "note": "the ο of δός is damaged; the small marks after κλείς and βαλανάγρα could be commas or full stops"
+  },
+  {
+   "strip": "0301_04",
+   "text": "τινός.:",
+   "note": "the ο of τινός is broken"
+  },
+  {
+   "strip": "0301_01",
+   "text": "σχόλιον. τό. / κατάλογος. ὁ.",
+   "note": "the small low marks could be commas or full stops"
+  }
+ ]
+}

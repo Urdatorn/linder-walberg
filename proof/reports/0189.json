@@ -1,0 +1,31 @@
+{
+ "page": "0189",
+ "strips_done": 6,
+ "corrections": 13,
+ "misprints": [
+  {
+   "strip": "0189_00",
+   "printed": "σπουδὴς",
+   "probably_meant": "σπουδῆς",
+   "note": "Accent over η is printed as a grave, not a circumflex. It could also be a damaged circumflex."
+  },
+  {
+   "strip": "0189_05",
+   "printed": "ουδέπω",
+   "probably_meant": "οὐδέπω",
+   "note": "The smooth breathing is missing in the print."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0189_00",
+   "text": "σπουδὴς",
+   "note": "The mark looks like a grave accent, but it may be a broken circumflex."
+  },
+  {
+   "strip": "0189_05",
+   "text": "μηδέπω):",
+   "note": "The print shows a space before the colon, \") :\". I kept it as \"):\" because the gap looks like justification spacing."
+  }
+ ]
+}

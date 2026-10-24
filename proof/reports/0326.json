@@ -1,0 +1,47 @@
+{
+ "page": "0326",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0326_03",
+   "printed": "νομίζειν περὶ τους θεοὺς",
+   "probably_meant": "τοὺς",
+   "note": "Article printed without accent."
+  },
+  {
+   "strip": "0326_05",
+   "printed": "det är o af dig att göra dta",
+   "probably_meant": "det är o. af dig",
+   "note": "No full stop after the abbreviation o. in the print."
+  },
+  {
+   "strip": "0326_05",
+   "printed": "ἀδικία, ἡ ἀνομία",
+   "probably_meant": "ἀδικία, ἡ. ἀνομία",
+   "note": "No punctuation after ἡ in the print."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0326_02",
+   "text": "εἰκῆ",
+   "note": "Printed without a visible iota subscript, here and in 0326_05 (οὐκ εἰκῆ). Transcribed as εἰκῆ, not εἰκῇ."
+  },
+  {
+   "strip": "0326_00",
+   "text": "Ormetter, -gift",
+   "note": "The ft ligature looks like 'tt' in the scan. Read as -gift from the sense."
+  },
+  {
+   "strip": "0326_01",
+   "text": "φροντίς, ίδος, ἡ,",
+   "note": "The mark after ίδος could be a full stop or a comma. Comma kept."
+  },
+  {
+   "strip": "0326_04",
+   "text": "~ καταστῆναι.",
+   "note": "The circumflex was cut off at the strip boundary. It shows at the bottom of 0326_03_1 under ὑπονοεῖν."
+  }
+ ]
+}

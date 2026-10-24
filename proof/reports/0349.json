@@ -1,0 +1,73 @@
+{
+ "page": "0349",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0349_02",
+   "printed": "en förmögenhet på 30 talenter, οὐσία δέκα ταλάντων l. δεκατάλαντος",
+   "probably_meant": "10 talenter (or τριάκοντα ταλάντων)",
+   "note": "The Swedish number does not match the Greek one."
+  },
+  {
+   "strip": "0349_03",
+   "printed": "παραγέλλειν",
+   "probably_meant": "παραγγέλλειν",
+   "note": "Påbjuda: one γ is missing."
+  },
+  {
+   "strip": "0349_03",
+   "printed": "ποιουντα",
+   "probably_meant": "ποιοῦντα",
+   "note": "The circumflex is missing in the print."
+  },
+  {
+   "strip": "0349_03",
+   "printed": "(κατ)άρχεσθαί, (κατ)επείγειν",
+   "probably_meant": "(κατ)ἄρχεσθαί, (κατ)ἐπείγειν",
+   "note": "No breathing is printed after the bracketed prefix. This may be deliberate, since it is a compound."
+  },
+  {
+   "strip": "0349_04",
+   "printed": "ταώς, ώ o. ταών",
+   "probably_meant": "ταώς, ῶ",
+   "note": "The genitive ending is printed with an acute instead of a circumflex."
+  },
+  {
+   "strip": "0349_04",
+   "printed": "Ρωμαῖος, Ρωμαίου",
+   "probably_meant": "Ῥωμαῖος, Ῥωμαίου",
+   "note": "No rough breathing is printed on the capital Ρ."
+  },
+  {
+   "strip": "0349_05",
+   "printed": "ῥύπαλον",
+   "probably_meant": "ῥόπαλον",
+   "note": "Påk: the print has υ, not ο."
+  },
+  {
+   "strip": "0349_05",
+   "printed": "utan p ,",
+   "probably_meant": "utan p.,",
+   "note": "No full stop after the abbreviation."
+  },
+  {
+   "strip": "0349_00",
+   "printed": "ἐκ m. gen.",
+   "probably_meant": "ἐκ m. gen.",
+   "note": "The 'm' is printed broken and looks like 'ın'. I transcribed it as m."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0349_00",
+   "text": "ἐκείνῃ τῇ ἡμέρᾳ",
+   "note": "The iota subscripts are very faint at this resolution. I kept them."
+  },
+  {
+   "strip": "0349_01",
+   "text": "ἰέναι",
+   "note": "Strip 01 ends with ἰέναι and strip 02 begins with it. The breathing looks smooth both times."
+  }
+ ]
+}

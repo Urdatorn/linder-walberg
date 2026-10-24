@@ -1,0 +1,28 @@
+{
+ "page": "0242",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [],
+ "uncertain": [
+  {
+   "strip": "0242_00",
+   "text": "ὅρισμα",
+   "note": "breathing on omicron is small; read as rough (matches ὁδοιπορία glyph), could be smooth"
+  },
+  {
+   "strip": "0242_03",
+   "text": "ὅρος γῆς",
+   "note": "same breathing shape as ὅρισμα; read as rough"
+  },
+  {
+   "strip": "0242_00",
+   "text": "ωπος / ακος",
+   "note": "genitive endings printed without visible accent; transcribed unaccented"
+  },
+  {
+   "strip": "0242_01",
+   "text": "φυγάς, άδος",
+   "note": "ending printed with acute only, no breathing; transcribed as printed"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "page": "0261",
+ "strips_done": 7,
+ "corrections": 70,
+ "misprints": [
+  {
+   "strip": "0261_02",
+   "printed": "ἐμβάλλειν (τὶ εἶς",
+   "probably_meant": "εἰς",
+   "note": "Last word of the strip is printed with smooth breathing and a circumflex; the preposition εἰς was meant."
+  },
+  {
+   "strip": "0261_03",
+   "printed": "φρουρὰν ἐν τῆ πόλει",
+   "probably_meant": "τῇ",
+   "note": "No iota subscript visible under τῆ, where other datives on the page show one clearly."
+  },
+  {
+   "strip": "0261_04",
+   "printed": "3) intr. l i pass.",
+   "probably_meant": "l. i pass.",
+   "note": "The full stop after l (= el.) is missing in the print."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0261_03",
+   "text": "ἐν τῆ πόλει",
+   "note": "The iota subscript may be missing in the print or may only have printed faintly; I transcribed it as τῆ."
+  },
+  {
+   "strip": "0261_06",
+   "text": "καίριος, 3. ἐπιεικής",
+   "note": "The full stop after 3 is a very small, faint dot; I read it as a period."
+  }
+ ]
+}

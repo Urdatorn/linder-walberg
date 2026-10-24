@@ -1,0 +1,76 @@
+{
+ "page": "0350",
+ "strips_done": 7,
+ "corrections": 90,
+ "misprints": [
+  {
+   "strip": "0350_00",
+   "printed": "ανα-",
+   "probably_meant": "ἀνα-",
+   "note": "Påkalla: printed with no breathing."
+  },
+  {
+   "strip": "0350_01",
+   "printed": "ἦν τι πάθω",
+   "probably_meant": "ἤν τι πάθω",
+   "note": "Påkomma: printed with a circumflex where an acute belongs."
+  },
+  {
+   "strip": "0350_01",
+   "printed": "άφή",
+   "probably_meant": "ἁφή",
+   "note": "Påkänning: the mark over α is an acute stroke, not a rough breathing."
+  },
+  {
+   "strip": "0350_03",
+   "printed": "fira p,",
+   "probably_meant": "fira p.,",
+   "note": "Påsk: no full stop after the abbreviation p."
+  },
+  {
+   "strip": "0350_03",
+   "printed": "ἀπίφασις",
+   "probably_meant": "ἀπόφασις",
+   "note": "Påstående: iota printed for omicron."
+  },
+  {
+   "strip": "0350_03",
+   "printed": "b) se Pågå.",
+   "probably_meant": "a) ... b) se Pågå.",
+   "note": "Påstå: 'b)' with no 'a)' before it."
+  },
+  {
+   "strip": "0350_04",
+   "printed": "πρόσκρουσις. ἡ.",
+   "probably_meant": "πρόσκρουσις, ἡ.",
+   "note": "Påstöt: full stop where a comma belongs."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0350_01",
+   "text": "συλλαβεῖν πόρπῃ; ἐπιγίγνεσθαι.",
+   "note": "The scan cuts off the right edge of the column, so the final ν of συλλαβεῖν and the stop after ἐπιγίγνεσθαι are not visible. Both are supplied."
+  },
+  {
+   "strip": "0350_01",
+   "text": "ποιῶν τι",
+   "note": "The τ looks broken, almost like ι. Read as τι."
+  },
+  {
+   "strip": "0350_01",
+   "text": "παρέχει μοί τι. ὀκνῶ ποιεῖν τι.",
+   "note": "The accents fall on the cut between the two image bands. Read from the fragments left at the bottom of band 0."
+  },
+  {
+   "strip": "0350_04",
+   "text": "ἀνάγκη, ἠ.",
+   "note": "The mark over the article looks like a smooth breathing, not a rough one. It may be a worn ἡ; if ἠ is right, it is a misprint for ἡ."
+  },
+  {
+   "strip": "0350_06",
+   "text": "(empty)",
+   "note": "The image is a 28x26 px speck of dust with no text, so the file was emptied. The old text '~ 1)' was spurious."
+  }
+ ]
+}

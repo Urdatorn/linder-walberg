@@ -1,0 +1,134 @@
+{
+ "page": "0196",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0196_00",
+   "printed": "jordeus",
+   "probably_meant": "jordens",
+   "note": "turned n, clearly u in the print"
+  },
+  {
+   "strip": "0196_01",
+   "printed": "(af natureu)",
+   "probably_meant": "(af naturen)",
+   "note": "turned n at end of word"
+  },
+  {
+   "strip": "0196_04",
+   "printed": "natnren",
+   "probably_meant": "naturen",
+   "note": "turned u"
+  },
+  {
+   "strip": "0196_04",
+   "printed": "iupräglar",
+   "probably_meant": "inpräglar",
+   "note": "turned n"
+  },
+  {
+   "strip": "0196_00",
+   "printed": "τὰ ἐντος ὀχυρώματα",
+   "probably_meant": "τὰ ἐντὸς ὀχυρώματα",
+   "note": "no accent on ἐντος in Innanverk"
+  },
+  {
+   "strip": "0196_01",
+   "printed": "υπόθεσις",
+   "probably_meant": "ὑπόθεσις",
+   "note": "no breathing visible"
+  },
+  {
+   "strip": "0196_01",
+   "printed": "ἀγαθα",
+   "probably_meant": "ἀγαθὰ",
+   "note": "no accent on final alpha"
+  },
+  {
+   "strip": "0196_03",
+   "printed": "ἀνακτὰσθαί",
+   "probably_meant": "ἀνακτᾶσθαι",
+   "note": "printed with grave instead of circumflex"
+  },
+  {
+   "strip": "0196_03",
+   "printed": "(θωπεύοντα, χαριζόμενον, θεραπεύοντα.",
+   "probably_meant": "(θωπεύοντα, χαριζόμενον, θεραπεύοντα).",
+   "note": "closing parenthesis missing"
+  },
+  {
+   "strip": "0196_03",
+   "printed": "ἐν αυτῷ",
+   "probably_meant": "ἐν αὑτῷ",
+   "note": "no breathing visible"
+  },
+  {
+   "strip": "0196_03",
+   "printed": "την παρά τινος",
+   "probably_meant": "τὴν παρά τινος",
+   "note": "no accent visible"
+  },
+  {
+   "strip": "0196_03",
+   "printed": "εὐχας",
+   "probably_meant": "εὐχὰς",
+   "note": "no accent visible"
+  },
+  {
+   "strip": "0196_05",
+   "printed": "Inre.",
+   "probably_meant": "Inre,",
+   "note": "period after headword instead of comma"
+  },
+  {
+   "strip": "0196_00",
+   "printed": "ἐντός εἴσω",
+   "probably_meant": "ἐντός. εἴσω",
+   "note": "no punctuation between the two Greek words in Inne"
+  },
+  {
+   "strip": "0196_01",
+   "printed": "σύν τινι",
+   "probably_meant": "σύν τινι.",
+   "note": "no full stop at end of Innebränna"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0196_00",
+   "text": "fråga",
+   "note": "the f is broken and looks like 'iråga'"
+  },
+  {
+   "strip": "0196_00",
+   "text": "σάρξ, κός, ἡ.",
+   "note": "the small mark after κός could be a full stop or a comma"
+  },
+  {
+   "strip": "0196_01",
+   "text": "nyttjanderätt",
+   "note": "printed 'nyttj ınderätt'; the 'a' seems to be broken type"
+  },
+  {
+   "strip": "0196_01",
+   "text": "υπόθεσις, ἡ",
+   "note": "the breathing may be faint ink; the mark after the word could be a full stop or a comma"
+  },
+  {
+   "strip": "0196_03",
+   "text": "την / εὐχας / αυτῷ",
+   "note": "marks missing that may just be faint"
+  },
+  {
+   "strip": "0196_05",
+   "text": "äfv.",
+   "note": "printed 'ä·v.' with the f missing or broken"
+  },
+  {
+   "strip": "0196_05",
+   "text": "ἐνδότερος",
+   "note": "the vowel after δ could be read as ύ"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "page": "0275",
+ "strips_done": 7,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0275_03",
+   "printed": "ἡγιὴς τὴν ψυχήν",
+   "probably_meant": "ὑγιὴς τὴν ψυχήν",
+   "note": "Printed with eta and a rough breathing; the next phrase on the same line correctly has ὑγιαίνειν."
+  },
+  {
+   "strip": "0275_04",
+   "printed": "Mennniskokärlek",
+   "probably_meant": "Menniskokärlek",
+   "note": "The headword is printed with three n."
+  },
+  {
+   "strip": "0275_05",
+   "printed": "Mennniskomakt",
+   "probably_meant": "Menniskomakt",
+   "note": "The headword is printed with three n."
+  },
+  {
+   "strip": "0275_02",
+   "printed": "αἷμα το.",
+   "probably_meant": "αἷμα, τό.",
+   "note": "There is no comma before the article, and το has no accent."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0275_02",
+   "text": "φόβος. ἡ τῶν ... ; εἰκών, ἡ. ἀνθρώπου",
+   "note": "Both separators are printed as raised dots (ano teleia position). I transcribed them as '.', as earlier proofread strips did."
+  },
+  {
+   "strip": "0275_06",
+   "text": "Menniskosätt, ἀνθρώπινος",
+   "note": "The mark after the headword is broken. It looks like a comma missing its tail, and I wrote ','."
+  },
+  {
+   "strip": "0275_00",
+   "text": "Meningslös — Mensklig. 271",
+   "note": "The OCR read '271)'. The print shows no parenthesis, so I removed it."
+  }
+ ]
+}

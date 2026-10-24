@@ -1,0 +1,52 @@
+{
+ "page": "0345",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0345_05",
+   "printed": "φροφητικός",
+   "probably_meant": "προφητικός",
+   "note": "Under Prophet, -tisk: the print has φ where ρ is meant at the start of the word."
+  },
+  {
+   "strip": "0345_04",
+   "printed": "πείρασις, ἡ",
+   "probably_meant": "πείρασις, ἡ.",
+   "note": "The Profning entry ends with no full stop in the print."
+  },
+  {
+   "strip": "0345_01",
+   "printed": "πεντηκοστή, ἡ: 5 p.",
+   "probably_meant": "πεντηκοστή, ἡ.: 5 p.",
+   "note": "No full stop is visible before the colon, unlike the other phrases in this entry. The period may be missing or broken in the print."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0345_01",
+   "text": "ἕξ ὀβολοῖς",
+   "note": "The accent on ἕξ is slightly unclear: the rough breathing could be followed by a grave. I kept the standard acute."
+  },
+  {
+   "strip": "0345_02",
+   "text": "εὑρίσκεσθαι",
+   "note": "The breathing on ευ is hard to read and could be smooth. I kept rough."
+  },
+  {
+   "strip": "0345_05",
+   "text": "Proper, se Snygg, Renlig.",
+   "note": "There are stray apostrophe-like marks after 'Snygg' and inside 'Renlig'. They look like raised spacing material or dust, so I left them out."
+  },
+  {
+   "strip": "0345_03",
+   "text": "δείγματος ἕνεκα / ἐκφέρειν / δεδοκιμασμένος",
+   "note": "Broken type: the δ of δείγματος looks like θ, the φ in ἐκφέρειν is broken, and the second δ of δεδοκιμασμένος is damaged. I wrote the evident readings."
+  },
+  {
+   "strip": "0345_02",
+   "text": "o. gm νυ.",
+   "note": "This is what is printed after Produktion. It is an odd phrase but clearly legible, so I kept it as printed."
+  }
+ ]
+}

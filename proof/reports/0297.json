@@ -1,0 +1,43 @@
+{
+ "page": "0297",
+ "strips_done": 6,
+ "corrections": 27,
+ "misprints": [
+  {
+   "strip": "0297_00",
+   "printed": "uedåt",
+   "probably_meant": "nedåt",
+   "note": "Turned n in 'Nedför(e) ... 2) uedåt'"
+  },
+  {
+   "strip": "0297_04",
+   "printed": "vapuen",
+   "probably_meant": "vapnen",
+   "note": "Turned n in 'n. vapuen'; the scan shows u"
+  },
+  {
+   "strip": "0297_04",
+   "printed": "Nedläsa",
+   "probably_meant": "Nedlåsa",
+   "note": "Headword glossed κατακλείειν (lock down); the print shows ä dots, not å"
+  },
+  {
+   "strip": "0297_05",
+   "printed": "κατάβασις. ἡ.",
+   "probably_meant": "κατάβασις, ἡ.",
+   "note": "Full stop in place of a comma before the article"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0297_05",
+   "text": "ofta gm vv.",
+   "note": "Italic Latin 'vv.' (verb forms) looks like Greek υυ in this face; read as Swedish abbreviation vv."
+  },
+  {
+   "strip": "0297_05",
+   "text": "κατακυλίνδειν",
+   "note": "The letter before ειν has a δ shape, though the face makes δ and θ close; δ fits the known form"
+  }
+ ]
+}

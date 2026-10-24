@@ -1,0 +1,42 @@
+{
+ "page": "0344",
+ "strips_done": 6,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0344_02",
+   "printed": "πρωτεία, ἡ",
+   "probably_meant": "πρωτεῖα, τά",
+   "note": "Prior -itet: printed with acute on the iota (πρωτεία). Kept as printed."
+  },
+  {
+   "strip": "0344_02",
+   "printed": "stiga i p, ἐπιτιμᾶσθαι",
+   "probably_meant": "stiga i p., ἐπιτιμᾶσθαι",
+   "note": "The full stop after the abbreviation p is missing in print and a gap is left where it should be."
+  },
+  {
+   "strip": "0344_02",
+   "printed": "τὴν τιμήν·:",
+   "probably_meant": "τὴν τιμήν.:",
+   "note": "Printed with a raised dot before the colon instead of the usual full stop. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0344_00",
+   "text": "ἡ. o. vv.",
+   "note": "The abbreviation is set in italic and looks like Greek υυ. Transcribed as Swedish 'vv.', the form used elsewhere in the book."
+  },
+  {
+   "strip": "0344_02",
+   "text": "köpa f. högt p.",
+   "note": "There is a dust spot between 'f.' and 'högt'. The old OCR read it as Greek garbage. The words themselves are clear."
+  },
+  {
+   "strip": "0344_02",
+   "text": "τὴν τιμήν·:",
+   "note": "The raised point could be a full stop that was set too high."
+  }
+ ]
+}

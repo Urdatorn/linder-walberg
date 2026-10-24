@@ -1,0 +1,23 @@
+{
+ "page": "0282",
+ "strips_done": 6,
+ "corrections": 110,
+ "misprints": [],
+ "uncertain": [
+  {
+   "strip": "0282_02",
+   "text": "τῇ ἡλικίᾳ",
+   "note": "The iota subscript under the η of τῇ is barely visible in the scan. I read it as τῇ, though it could be τῆ."
+  },
+  {
+   "strip": "0282_01",
+   "text": "ὡρικός",
+   "note": "The breathing on ω at the line break (ὡ-ρικός) looks rough, with no accent of its own. I kept the rough breathing."
+  },
+  {
+   "strip": "0282_00",
+   "text": "förödmjuka",
+   "note": "The m is broken in print and looks like 'in'. I read it as m."
+  }
+ ]
+}

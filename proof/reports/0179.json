@@ -1,0 +1,82 @@
+{
+ "page": "0179",
+ "strips_done": 6,
+ "corrections": 22,
+ "misprints": [
+  {
+   "strip": "0179_01",
+   "printed": "ὧ. ἧ.",
+   "probably_meant": "ᾧ. ᾗ.",
+   "note": "Actually in strip 0179_00, the Hvad entry: the datives print with no visible iota subscript; kept as printed"
+  },
+  {
+   "strip": "0179_03",
+   "printed": "ἐνδιατρίβειν την ὄψιν",
+   "probably_meant": "τὴν ὄψιν",
+   "note": "The article is printed with no accent"
+  },
+  {
+   "strip": "0179_03",
+   "printed": "καθεύδειν κατακοιμᾶσθαι",
+   "probably_meant": "καθεύδειν. κατακοιμᾶσθαι",
+   "note": "There is no punctuation between the two verbs at the line break"
+  },
+  {
+   "strip": "0179_04",
+   "printed": "se lata h.",
+   "probably_meant": "se låta h.",
+   "note": "The print has no ring on the a"
+  },
+  {
+   "strip": "0179_04",
+   "printed": "ἀργεὶν l. ἀργὸν",
+   "probably_meant": "ἀργεῖν",
+   "note": "The first ἀργεῖν seems to carry a grave, not a circumflex"
+  },
+  {
+   "strip": "0179_04",
+   "printed": "κλιντήρ, ῆρος",
+   "probably_meant": "ῆρος (ending, OK) or ἦρος",
+   "note": "Circumflex only, with no breathing, as the ending notation"
+  },
+  {
+   "strip": "0179_05",
+   "printed": "h. m. hrandra",
+   "probably_meant": "h. m. hvarandra",
+   "note": "Letters are missing in the Swedish word"
+  },
+  {
+   "strip": "0179_05",
+   "printed": "λευκαί l. πολιαὶ",
+   "probably_meant": "λευκαὶ",
+   "note": "Acute where a grave would be expected"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0179_00",
+   "text": "ποιεῖται",
+   "note": "The ε at the start of the line ('σῖται') is broken and looks like σ; read as ποιεῖται"
+  },
+  {
+   "strip": "0179_00",
+   "text": "δι’ οὗ(περ) δι’ ἧσ(περ)",
+   "note": "Both opening parentheses are broken or missing in the print (they look like ':' and a space); kept as parentheses"
+  },
+  {
+   "strip": "0179_00",
+   "text": "ὧ. ἧ.",
+   "note": "No iota subscript visible under these datives, though one is visible in the later ᾗ(περ); possibly worn type"
+  },
+  {
+   "strip": "0179_04",
+   "text": "ἀργεὶν",
+   "note": "The accent on the first ἀργεῖν looks like a grave, possibly a damaged circumflex"
+  },
+  {
+   "strip": "0179_02",
+   "text": "Hvete.",
+   "note": "The mark after the headword looks like a full stop, possibly a broken comma"
+  }
+ ]
+}

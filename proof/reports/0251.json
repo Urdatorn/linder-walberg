@@ -1,0 +1,42 @@
+{
+ "page": "0251",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0251_02",
+   "printed": "σόμφωνος",
+   "probably_meant": "σύμφωνος",
+   "note": "Under Likstämmig. The print has omicron where upsilon belongs."
+  },
+  {
+   "strip": "0251_03",
+   "printed": "Litidighet",
+   "probably_meant": "Liktidighet",
+   "note": "The headword is missing its k in the print."
+  },
+  {
+   "strip": "0251_04",
+   "printed": "μύωψ, ωπος",
+   "probably_meant": "μύωψ, ῶπος",
+   "note": "Under Lillfinger. The genitive ending is printed without an accent. Copied as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0251_01",
+   "text": "ἴσον",
+   "note": "The mark over the iota is small and could also be read as ἶ. I chose smooth breathing with an acute."
+  },
+  {
+   "strip": "0251_05",
+   "text": "ἑλίττειν / ἑλίττεσθαι / ἕλιξις",
+   "note": "The breathings are small, but they look rough. The OCR had smooth breathing."
+  },
+  {
+   "strip": "0251_05",
+   "text": "mest i pl.",
+   "note": "The spacing between i and pl. is very tight in the print."
+  }
+ ]
+}

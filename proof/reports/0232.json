@@ -1,0 +1,54 @@
+{
+ "page": "0232",
+ "strips_done": 6,
+ "corrections": 85,
+ "misprints": [
+  {
+   "strip": "0232_01",
+   "printed": "σιόμαχος",
+   "probably_meant": "στόμαχος",
+   "note": "Second letter prints as ι (no crossbar); possibly a broken τ."
+  },
+  {
+   "strip": "0232_02",
+   "printed": "Kubikinnnehåll",
+   "probably_meant": "Kubikinnehåll",
+   "note": "Headword printed with three n's."
+  },
+  {
+   "strip": "0232_05",
+   "printed": "markeu",
+   "probably_meant": "marken",
+   "note": "Turned n in 'om markeu'."
+  },
+  {
+   "strip": "0232_05",
+   "printed": "Kulrida",
+   "probably_meant": "Kullrida",
+   "note": "Headword printed with a single l, between Kullra and Kullrifva."
+  },
+  {
+   "strip": "0232_04",
+   "printed": "Kullfallande, se Fall 1).",
+   "probably_meant": "Kullfallande",
+   "note": "Kept as printed. The next strip has a separate entry, Kullfällande."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0232_00",
+   "text": "τὸ ἡδύ",
+   "note": "The breathing on ἡ looks rough only, but there may be a faint acute (ἥ)."
+  },
+  {
+   "strip": "0232_01",
+   "text": "σιόμαχος",
+   "note": "Could be a broken τ (στόμαχος) rather than a real misprint."
+  },
+  {
+   "strip": "0232_03",
+   "text": "l. gm vv.",
+   "note": "Printed in italic type that looks like Greek υυ. Written as 'vv.', following the majority convention in the strips already proofread."
+  }
+ ]
+}

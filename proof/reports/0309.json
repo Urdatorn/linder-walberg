@@ -1,0 +1,30 @@
+{
+ "page": "0309",
+ "strips_done": 6,
+ "corrections": 38,
+ "misprints": [
+  {
+   "strip": "0309_04",
+   "printed": "ζωρίς, 2.",
+   "probably_meant": "ζωρός",
+   "note": "The print clearly shows iota with an acute accent. ζωρίς is not attested."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0309_04",
+   "text": "τὸ ὄν (philosophiskt); (ἀληθῶς) ὤν, οὖσα, ὄν",
+   "note": "At this resolution I could not tell whether the accent on ὄν/ὤν is acute or grave (the OCR read τὸ ὂν). I wrote acute."
+  },
+  {
+   "strip": "0309_02",
+   "text": "βραχύς, εῖα, ύ.",
+   "note": "The middle ending looks like εῖα (circumflex, no breathing), not εἴα. I wrote εῖα."
+  },
+  {
+   "strip": "0309_00",
+   "text": "ἄδηλος, 2, ἀσαφής",
+   "note": "The OCR had ἀθλος. The scan shows ἄδηλος, but the breathing and accent are small. The comma after 2 is as printed."
+  }
+ ]
+}

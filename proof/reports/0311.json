@@ -1,0 +1,82 @@
+{
+ "page": "0311",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0311_01",
+   "printed": "Oemotståndlig. ἀνυπόστατος",
+   "probably_meant": "Oemotståndlig, ἀνυπόστατος",
+   "note": "There is a full stop after the headword instead of the usual comma."
+  },
+  {
+   "strip": "0311_01",
+   "printed": "διχογνωνεῖν",
+   "probably_meant": "διχογνωμονεῖν",
+   "note": "The syllable -μο- is missing."
+  },
+  {
+   "strip": "0311_01",
+   "printed": "διαφέρων, ουσα, ον",
+   "probably_meant": "διαφέρων, ουσα, ον",
+   "note": "The ending ουσα has no breathing, as the book usually prints it. Copied as printed."
+  },
+  {
+   "strip": "0311_03",
+   "printed": "verksamqet",
+   "probably_meant": "verksamhet",
+   "note": "The h looks like a turned or wrong letter and reads as q."
+  },
+  {
+   "strip": "0311_04",
+   "printed": "καλλείρημα",
+   "probably_meant": "καλλιέρημα",
+   "note": "The letters ι and ε are swapped (compare καλλιερεῖν in the next phrase)."
+  },
+  {
+   "strip": "0311_04",
+   "printed": "se d. o: o. f. räddning",
+   "probably_meant": "se d. o.: o. f. räddning",
+   "note": "The stop after 'o' is missing. There is only a gap before the colon."
+  },
+  {
+   "strip": "0311_04",
+   "printed": "ὅρκια. τά.",
+   "probably_meant": "ὅρκια, τά.",
+   "note": "There is a full stop where a comma is expected."
+  },
+  {
+   "strip": "0311_05",
+   "printed": "ἱερόν, τό σφάγιον, τό.",
+   "probably_meant": "ἱερόν, τό. σφάγιον, τό.",
+   "note": "The stop after τό is missing. There is a stray mark near σφάγιον."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0311_00",
+   "text": "πανοῦργος, 2.",
+   "note": "The comma falls at the cropped right edge of the strip, so I assumed it."
+  },
+  {
+   "strip": "0311_00",
+   "text": "ἀΐδιος",
+   "note": "The diaeresis and accent on ι are small. I read ἀΐδιος."
+  },
+  {
+   "strip": "0311_04",
+   "text": "προΐεσθαί",
+   "note": "The ι has a diaeresis plus a mark that is probably an acute. I read it as ΐ, which is the regular form of προΐεσθαι."
+  },
+  {
+   "strip": "0311_04",
+   "text": "se d. o:",
+   "note": "The stop after 'o' may be faint type rather than missing."
+  },
+  {
+   "strip": "0311_05",
+   "text": "Offerhus",
+   "note": "The print looks like 'Offcrhus', probably a broken e. I kept Offerhus."
+  }
+ ]
+}

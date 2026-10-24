@@ -1,0 +1,25 @@
+{
+ "page": "0255",
+ "strips_done": 7,
+ "corrections": 58,
+ "misprints": [
+  {
+   "strip": "0255_01",
+   "printed": "ἐξαιρεσις",
+   "probably_meant": "ἐξαίρεσις",
+   "note": "Printed 'ἐξαι-ρεσις' across a line break with no accent visible on either part. Kept without the accent."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0255_05",
+   "text": "διαπνευστικός",
+   "note": "The line ends 'δια' with only a faint dot where the hyphen should be. I took it as a broken hyphen and wrote the word whole."
+  },
+  {
+   "strip": "0255_06",
+   "text": "ἁψιμαχεῖν",
+   "note": "The breathing on the alpha is small. It looks rough, so I wrote ἁ, not the OCR's ἀ."
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "page": "0276",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0276_00",
+   "printed": "ὅσω μᾶλλον",
+   "probably_meant": "ὅσῳ μᾶλλον",
+   "note": "No iota subscript printed, while the following τοσούτῳ has one."
+  },
+  {
+   "strip": "0276_01",
+   "printed": "καὶ μᾶλλον καὶ ἧττον).",
+   "probably_meant": "καὶ μᾶλλον καὶ ἧττον.",
+   "note": "A closing parenthesis is printed with no opening one to match it."
+  },
+  {
+   "strip": "0276_05",
+   "printed": "ἀγκιστρεία",
+   "probably_meant": "ἀγκιστεία",
+   "note": "The same spelling is printed under both Mete and Metning."
+  },
+  {
+   "strip": "0276_05",
+   "printed": "ἐν μεσηβρίᾳ ... μεσηβρινός",
+   "probably_meant": "μεσημβρίᾳ ... μεσημβρινός",
+   "note": "The μ is missing from both. This may be meant as an Ionic or poetic form, so it is kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0276_03",
+   "text": "ὀρείχαλκος, ὁ.:",
+   "note": "The breathing on ὁ is faint and broken."
+  },
+  {
+   "strip": "0276_03",
+   "text": "ἐξανθήματα",
+   "note": "The breathing looks smooth (ἐ). The kit's hint suggested this reading, and the scan supports it."
+  }
+ ]
+}

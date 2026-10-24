@@ -1,0 +1,37 @@
+{
+ "page": "0335",
+ "strips_done": 6,
+ "corrections": 85,
+ "misprints": [
+  {
+   "strip": "0335_00",
+   "printed": "ἀνάμοστον εἶναι",
+   "probably_meant": "ἀνάρμοστον εἶναι",
+   "note": "rho missing in the print"
+  },
+  {
+   "strip": "0335_00",
+   "printed": "(anstá)",
+   "probably_meant": "(anstå)",
+   "note": "an acute is printed over the a in place of the ring"
+  },
+  {
+   "strip": "0335_00",
+   "printed": "d passar (sig) icke",
+   "probably_meant": "det passar (sig) icke",
+   "note": "'d' printed as is; it may be a deliberate abbreviation"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0335_01",
+   "text": "ναυτίλος, ὁ.",
+   "note": "the breathing on ὁ is very faint or broken, showing only as a dot; kept as ὁ"
+  },
+  {
+   "strip": "0335_03",
+   "text": "ἐπισχών, 3.",
+   "note": "'3.' after a participle is odd, but it is clearly printed; kept"
+  }
+ ]
+}

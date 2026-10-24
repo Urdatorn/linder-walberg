@@ -1,0 +1,70 @@
+{
+ "page": "0343",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0343_02",
+   "printed": "ἀδολέσχης, ου o.",
+   "probably_meant": "ἀδολέσχης, ου, ὁ.",
+   "note": "The article is printed as a roman 'o' with no breathing, and there is no comma before it."
+  },
+  {
+   "strip": "0343_05",
+   "printed": "ληνίς, ὁ (vinp.)",
+   "probably_meant": "ληνίς, ἡ",
+   "note": "ληνίς is feminine, but the article ὁ is clearly printed."
+  },
+  {
+   "strip": "0343_03",
+   "printed": "(ἐξ)απατᾶν",
+   "probably_meant": "(ἐξ)απατᾶν / ἀπατᾶν",
+   "note": "No breathing is printed on α after the parenthesis. The same happens with (ἐξ)απάτη in 0343_04. Both are kept as printed."
+  },
+  {
+   "strip": "0343_01",
+   "printed": "ψοφεῖν ψιθυρίζειν.",
+   "probably_meant": "ψοφεῖν. ψιθυρίζειν.",
+   "note": "There is no stop between the two verbs."
+  },
+  {
+   "strip": "0343_01",
+   "printed": "smicker o inställsamhet",
+   "probably_meant": "smicker o. inställsamhet",
+   "note": "The abbreviation 'o' has no full stop."
+  },
+  {
+   "strip": "0343_04",
+   "printed": "πρόδοσις, ἡ -era",
+   "probably_meant": "πρόδοσις, ἡ. -era",
+   "note": "There is no stop after ἡ."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0343_00",
+   "text": "ἐμπείρως ἔχειν τινός. 2)",
+   "note": "The right edge of the strip image is cut off, so the stop after τινός cannot be seen. I supplied it."
+  },
+  {
+   "strip": "0343_02",
+   "text": "κενολογεῖν",
+   "note": "The type is broken: the first ν looks like a damaged glyph. The scan backs κενολογεῖν over the old OCR's κειολογεῖν."
+  },
+  {
+   "strip": "0343_03",
+   "text": "προΰπαρξις",
+   "note": "The mark over υ is diaeresis plus a small accent stroke. I read it as ΰ, though it may be a plain ϋ."
+  },
+  {
+   "strip": "0343_05",
+   "text": "ἴπος",
+   "note": "The accent over ι could be ἴ or ἶ. The scan leans towards smooth breathing plus acute."
+  },
+  {
+   "strip": "0343_04",
+   "text": "προανακρούεσθαι.",
+   "note": "The final ι and the stop come out as a blot at the line end."
+  }
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "page": "0303",
+ "strips_done": 6,
+ "corrections": 66,
+ "misprints": [
+  {
+   "strip": "0303_00",
+   "printed": "θέλη",
+   "probably_meant": "θέλῃ",
+   "note": "In 'ἂν θεὸς θέλη' no iota subscript is visible, although other subscripts on this line show up clearly."
+  },
+  {
+   "strip": "0303_03",
+   "printed": "ick",
+   "probably_meant": "icke",
+   "note": "'jag vet ick  ngt': the final e is missing and a gap is left where it should be."
+  },
+  {
+   "strip": "0303_03",
+   "printed": "t. ex jag",
+   "probably_meant": "t. ex. jag",
+   "note": "There is no full stop after 'ex'."
+  },
+  {
+   "strip": "0303_03",
+   "printed": "ἔνιοι. 3. ἔστιν l. εἰσὶν οἵ",
+   "probably_meant": "ἔνιοι l. ἔστιν l. εἰσὶν οἵ",
+   "note": "The '3.' is clearly printed but makes no sense here."
+  },
+  {
+   "strip": "0303_03",
+   "printed": "δεμία, δέν",
+   "probably_meant": "-δεμία, -δέν (οὐδεμία, οὐδέν)",
+   "note": "Printed without a hyphen or the οὐ-."
+  },
+  {
+   "strip": "0303_04",
+   "printed": "kau",
+   "probably_meant": "kan",
+   "note": "The n is set upside down, so it reads 'kau'."
+  },
+  {
+   "strip": "0303_04",
+   "printed": "ὀπότερος",
+   "probably_meant": "ὁπότερος",
+   "note": "The breathing looks smooth; it does not match the rough breathing on the ὁ that follows."
+  },
+  {
+   "strip": "0303_05",
+   "printed": "βελονόπωλις, ιδος",
+   "probably_meant": "βελονόπωλις, ίδος",
+   "note": "The ending has no accent, unlike 'ίδος' in the Nål entry above."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0303_00",
+   "text": "κεκτῆσθαι",
+   "note": "There is a stray comma-like mark after the η. I read it as broken type and wrote the ordinary form."
+  },
+  {
+   "strip": "0303_03",
+   "text": "ζημία).:",
+   "note": "After the parenthesis there is a faint dot, then a colon. It could also be a plain ':'."
+  },
+  {
+   "strip": "0303_03",
+   "text": "τὶς. τὶ",
+   "note": "The mark between the two words looks like a full stop but could be a broken comma."
+  },
+  {
+   "strip": "0303_03",
+   "text": "ὁπόθεν",
+   "note": "No breathing is visible on the first ο. It may have broken off, so I wrote the ordinary rough breathing."
+  },
+  {
+   "strip": "0303_03",
+   "text": "πῄ. τρόπον τινά",
+   "note": "The iota subscript is barely visible. I wrote πῄ to match the clear πῄ in strip 05."
+  },
+  {
+   "strip": "0303_03",
+   "text": "ålder, ποσός",
+   "note": "The mark after 'ålder' could be a comma or a full stop."
+  },
+  {
+   "strip": "0303_05",
+   "text": "εἰς, πρὸς καλλωπισμόν",
+   "note": "The mark after εἰς is small and could be a full stop rather than a comma."
+  }
+ ]
+}

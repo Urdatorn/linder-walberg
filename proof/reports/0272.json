@@ -1,0 +1,74 @@
+{
+ "page": "0272",
+ "strips_done": 6,
+ "corrections": 110,
+ "misprints": [
+  {
+   "strip": "0272_02",
+   "printed": "Medelstånd, se Medelkass.",
+   "probably_meant": "Medelklass",
+   "note": "The l is missing from the cross-reference."
+  },
+  {
+   "strip": "0272_05",
+   "printed": "χάρις, τος, ἡ",
+   "probably_meant": "χάρις, ιτος, ἡ",
+   "note": "The genitive ending is shortened. Kept as printed."
+  },
+  {
+   "strip": "0272_05",
+   "printed": "Medikament, se Läkemedel. kus, se Läkare.",
+   "probably_meant": "-kus (Medikus)",
+   "note": "The suffix hyphen is missing in the print."
+  },
+  {
+   "strip": "0272_01",
+   "printed": "Medelfärg. μέση χρόα",
+   "probably_meant": "Medelfärg,",
+   "note": "There is a period after the headword where a comma is expected. It may be a worn comma."
+  },
+  {
+   "strip": "0272_03",
+   "printed": "Medfånge. συναιχμάλωτος",
+   "probably_meant": "Medfånge,",
+   "note": "There is a period after the headword where a comma is expected. It may be a worn comma."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0272_05",
+   "text": "πρᾶος",
+   "note": "I can't see an iota subscript under the α. The standard spelling is πρᾷος."
+  },
+  {
+   "strip": "0272_04",
+   "text": "αὕτη ἐστὶν",
+   "note": "The breathing is small. I read it as rough."
+  },
+  {
+   "strip": "0272_04",
+   "text": "μεθ’ αὑτοῦ",
+   "note": "The breathing is faint. I read it as rough."
+  },
+  {
+   "strip": "0272_04",
+   "text": "vanl. gm vv.",
+   "note": "The italic letters look like υυ. I read them as the Latin italic abbreviation vv."
+  },
+  {
+   "strip": "0272_03",
+   "text": "ἐμπεφυκώς, υῖα",
+   "note": "The mark after ἐμπεφυκώς could be a comma or a period. I wrote a comma."
+  },
+  {
+   "strip": "0272_00",
+   "text": "ἐπὶ πᾶν ἰέναι",
+   "note": "The breathing and accent on ἰ are unclear."
+  },
+  {
+   "strip": "0272_01",
+   "text": "μηχανῇ.:",
+   "note": "A small dot comes before the colon. I wrote .:"
+  }
+ ]
+}

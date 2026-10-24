@@ -1,0 +1,121 @@
+{
+ "page": "0308",
+ "strips_done": 6,
+ "corrections": 140,
+ "misprints": [
+  {
+   "strip": "0308_00",
+   "printed": "ἀγνοούμνος",
+   "probably_meant": "ἀγνοούμενος",
+   "note": "epsilon missing in print"
+  },
+  {
+   "strip": "0308_00",
+   "printed": "hrom man ingenting känner",
+   "probably_meant": "hvarom man ingenting känner",
+   "note": "Swedish word garbled in print"
+  },
+  {
+   "strip": "0308_00",
+   "printed": "δέων, ουσα, ον",
+   "probably_meant": "δέων, ουσα, ον (οῦσα)",
+   "note": "ending printed without accent"
+  },
+  {
+   "strip": "0308_02",
+   "printed": "Obemedlad.",
+   "probably_meant": "Obemedlad,",
+   "note": "full stop after headword instead of comma"
+  },
+  {
+   "strip": "0308_02",
+   "printed": "vaul.",
+   "probably_meant": "vanl.",
+   "note": "turned n"
+  },
+  {
+   "strip": "0308_02",
+   "printed": "φυγων",
+   "probably_meant": "φυγών",
+   "note": "no accent printed"
+  },
+  {
+   "strip": "0308_02",
+   "printed": "δυσκίλως",
+   "probably_meant": "δυσκόλως",
+   "note": "iota printed for omicron"
+  },
+  {
+   "strip": "0308_02",
+   "printed": "λαθρᾳ",
+   "probably_meant": "λάθρᾳ",
+   "note": "no acute visible on the first alpha"
+  },
+  {
+   "strip": "0308_03",
+   "printed": "Obeqämlighet",
+   "probably_meant": "Obeqvämlighet",
+   "note": "v missing in headword"
+  },
+  {
+   "strip": "0308_03",
+   "printed": "ἀπαρασκευος",
+   "probably_meant": "ἀπαράσκευος",
+   "note": "no accent printed"
+  },
+  {
+   "strip": "0308_04",
+   "printed": "ἀφεὶς ταὐτα πάντα",
+   "probably_meant": "ἀφεὶς ταῦτα πάντα",
+   "note": "smooth breathing printed instead of a circumflex"
+  },
+  {
+   "strip": "0308_01",
+   "printed": "μη φρόντιζε",
+   "probably_meant": "μὴ φρόντιζε",
+   "note": "μη printed without accent"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0308_00",
+   "text": "Obehöflig",
+   "note": "the letter after ö looks like a damaged f or t; read f (behöflig = needed, cross-ref Onödig)"
+  },
+  {
+   "strip": "0308_00",
+   "text": "vara o. m ngt / m. olyckan",
+   "note": "no full stop visible after the first m; a faint dot after the second"
+  },
+  {
+   "strip": "0308_00",
+   "text": "ἀγνοῶν, οῦσα, οῦν",
+   "note": "accents in this face are faint; I read circumflexes with no breathing"
+  },
+  {
+   "strip": "0308_00",
+   "text": "ἀνιᾷ μέ τι",
+   "note": "the accent on ᾳ is unclear (circumflex or grave); no punctuation at the end of the entry"
+  },
+  {
+   "strip": "0308_01",
+   "text": "det onda, ἀπειροκακία / ἀμέριμνος, 2. / ὀλίγωρος, 2.",
+   "note": "hard to tell comma from full stop; read commas"
+  },
+  {
+   "strip": "0308_01",
+   "text": "ῥᾳδιουργός",
+   "note": "iota subscript is unclear in the scan"
+  },
+  {
+   "strip": "0308_03",
+   "text": "ἀλλοτριότης, ἡ / τὸ ἀπρόθυμον",
+   "note": "comma or full stop unclear; grave on τὸ is faint"
+  },
+  {
+   "strip": "0308_04",
+   "text": "ἀνεπιεικής, 2. / ἀνεπιείκεια, ἡ. δυσκολία, ἡ.",
+   "note": "comma or full stop unclear; read commas"
+  }
+ ]
+}

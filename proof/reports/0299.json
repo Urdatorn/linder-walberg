@@ -1,0 +1,43 @@
+{
+ "page": "0299",
+ "strips_done": 6,
+ "corrections": 27,
+ "misprints": [
+  {
+   "strip": "0299_03",
+   "printed": "ἴς, νός, ἡ",
+   "probably_meant": "ἴς, ἰνός, ἡ",
+   "note": "Genitive of ἴς printed without its initial ἰ-"
+  },
+  {
+   "strip": "0299_03",
+   "printed": "σύστημα.. τὸ νευρῶδες",
+   "probably_meant": "σύστημα. τὸ νευρῶδες",
+   "note": "Double full stop clearly printed"
+  },
+  {
+   "strip": "0299_01",
+   "printed": "εἰς l. πρός τὰ κάτω",
+   "probably_meant": "πρὸς τὰ κάτω",
+   "note": "Acute where a grave would be expected before the article"
+  },
+  {
+   "strip": "0299_04",
+   "printed": "ss. tecken, ζ.",
+   "probably_meant": "θʹ (or another numeral sign for nine)",
+   "note": "ζ is clearly printed, but as a number sign ζ means 7; may be a misprint"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0299_00",
+   "text": "πίττῃ μολύνειν",
+   "note": "The iota subscript under η is hard to make out in the scan. Kept ῃ (dative)"
+  },
+  {
+   "strip": "0299_02",
+   "text": "μὴ ποιήσῃς",
+   "note": "The iota subscript is faint. Kept ῃ"
+  }
+ ]
+}

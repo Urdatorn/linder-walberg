@@ -1,0 +1,60 @@
+{
+ "page": "0324",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0324_00",
+   "printed": "τῶν λίγων",
+   "probably_meant": "τῶν λόγων",
+   "note": "ι printed for ο in λόγων"
+  },
+  {
+   "strip": "0324_01",
+   "printed": "ὑπόσχεσις, η.",
+   "probably_meant": "ὑπόσχεσις, ἡ.",
+   "note": "article printed without breathing or accent"
+  },
+  {
+   "strip": "0324_02",
+   "printed": "Ordagrann, ὁ, η, τὸ",
+   "probably_meant": "ὁ, ἡ, τὸ",
+   "note": "η printed without breathing or accent"
+  },
+  {
+   "strip": "0324_02",
+   "printed": "εἰρη / μένα (no hyphen at line end)",
+   "probably_meant": "εἰρημένα",
+   "note": "line-break hyphen missing in print; written whole as εἰρημένα"
+  },
+  {
+   "strip": "0324_05",
+   "printed": "ὢν την ψυχὴν",
+   "probably_meant": "ὢν τὴν ψυχὴν",
+   "note": "article printed without accent"
+  },
+  {
+   "strip": "0324_05",
+   "printed": "ὁ Δωρικὸς νόμος",
+   "probably_meant": "ὁ Δωρικὸς ῥυθμός / τρόπος",
+   "note": "possibly an error in sense for the Doric order of columns; kept as printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0324_04",
+   "text": "σύνταξις",
+   "note": "broken type: the print looks like σίν-τοξις; read as σύνταξις"
+  },
+  {
+   "strip": "0324_05",
+   "text": "εἷς",
+   "note": "the breathing and accent on εἷς are hard to make out; could be read as rough breathing with acute"
+  },
+  {
+   "strip": "0324_00",
+   "text": "ᾤκτειρα",
+   "note": "κ, not χ; the breathing on ω is small and was read as smooth"
+  }
+ ]
+}

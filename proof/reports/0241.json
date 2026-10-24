@@ -1,0 +1,48 @@
+{
+ "page": "0241",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0241_05",
+   "printed": "tillhörando",
+   "probably_meant": "tillhörande",
+   "note": "Swedish misprint in the Boeoternas note"
+  },
+  {
+   "strip": "0241_05",
+   "printed": "vara l, lefva på l:et",
+   "probably_meant": "vara l. lefva på l:et",
+   "note": "comma printed after l (eller) instead of a full stop"
+  },
+  {
+   "strip": "0241_04",
+   "printed": "2) oeg, ἄνεσις",
+   "probably_meant": "2) oeg., ἄνεσις",
+   "note": "full stop missing after the abbreviation oeg"
+  },
+  {
+   "strip": "0241_03",
+   "printed": "Lakej, παῖς, δός, ὁ.",
+   "probably_meant": "παῖς, παιδός, ὁ",
+   "note": "the genitive is printed shortened to δός; kept as printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0241_03",
+   "text": "τὰ περὶ τοὺς νόμους",
+   "note": "the τ of τοὺς is broken and its crossbar looks like ι; read as τοὺς"
+  },
+  {
+   "strip": "0241_05",
+   "text": "ἐν ἀγροῖς.: vara l,",
+   "note": "the mark after ἀγροῖς looks like '.;' and is probably a damaged '.:'; transcribed as '.:'"
+  },
+  {
+   "strip": "0241_00",
+   "text": "νομοθέται, οἱ (se Lex.)",
+   "note": "the accent mark on οἱ is small; read as a rough breathing only (OCR had οἵ)"
+  }
+ ]
+}

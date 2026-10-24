@@ -1,0 +1,54 @@
+{
+ "page": "0188",
+ "strips_done": 7,
+ "corrections": 36,
+ "misprints": [
+  {
+   "strip": "0188_00",
+   "printed": "ὄρνις, θος, ἡ",
+   "probably_meant": "ὄρνις, ιθος, ἡ",
+   "note": "Under Höna the genitive ending is printed without its iota."
+  },
+  {
+   "strip": "0188_02",
+   "printed": "γωνία, ἡ vinkel)",
+   "probably_meant": "γωνία, ἡ (vinkel)",
+   "note": "The opening parenthesis is missing in the print."
+  },
+  {
+   "strip": "0188_02",
+   "printed": "ἐξ ακοῆς",
+   "probably_meant": "ἐξ ἀκοῆς",
+   "note": "No breathing is visible on ακοῆς."
+  },
+  {
+   "strip": "0188_03",
+   "printed": "Höstväder, a) ἡ μετοπώρου σπορά.",
+   "probably_meant": "Höstsäd, a) ἡ μετοπώρου σπορά.",
+   "note": "The headword Höstväder is printed twice. The first entry (autumn sowing/seed) probably means Höstsäd."
+  },
+  {
+   "strip": "0188_01",
+   "printed": "ἐπιδείκνυσθαι, c)",
+   "probably_meant": "ἐπιδείκνυσθαι. c)",
+   "note": "A comma is printed before c), and before 4) after ἐπιστέλλειν. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0188_00",
+   "text": "hörsamma",
+   "note": "The print shows 'hörsamına', which is likely a broken m. I kept hörsamma."
+  },
+  {
+   "strip": "0188_05",
+   "text": "I, Ἰ, ἰ, ἰῶτα",
+   "note": "The OCR read the small letter as ἶ. The glyph's hook matches the ἰ in ἰῶτα, so I transcribed it as ἰ (smooth breathing, no accent). It could also be a plain ι."
+  },
+  {
+   "strip": "0188_02",
+   "text": ".: gå utom h.",
+   "note": "There is a stray vertical mark '|' before 'gå' in the print, probably a raised spacing quad. I removed it."
+  }
+ ]
+}

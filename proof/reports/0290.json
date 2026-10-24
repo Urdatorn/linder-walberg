@@ -1,0 +1,54 @@
+{
+ "page": "0290",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0290_03",
+   "printed": "σοφρόνως",
+   "probably_meant": "σωφρόνως",
+   "note": "ο for ω in the print, under Måttlighet"
+  },
+  {
+   "strip": "0290_03",
+   "printed": "δινάμενος",
+   "probably_meant": "δυνάμενος",
+   "note": "ι for υ in the print, under Mäktig"
+  },
+  {
+   "strip": "0290_04",
+   "printed": "ὑπνοεῖν",
+   "probably_meant": "ὑπονοεῖν",
+   "note": "the ο is missing in the print, under Märka 2)"
+  },
+  {
+   "strip": "0290_03",
+   "printed": "προξενητής, οῦ. ὁ.",
+   "probably_meant": "προξενητής, οῦ, ὁ.",
+   "note": "full stop where a comma is expected, under Mäklare"
+  },
+  {
+   "strip": "0290_00",
+   "printed": "ἀρά γε",
+   "probably_meant": "ἆρά γε",
+   "note": "printed with a smooth breathing and no circumflex"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0290_02",
+   "text": "πρός τι. μετρίως",
+   "note": "a faint low dot after τι, which I read as a full stop"
+  },
+  {
+   "strip": "0290_04",
+   "text": "Ofta äfv.",
+   "note": "the ä is a black ink blob, so äfv. is read from context"
+  },
+  {
+   "strip": "0290_04",
+   "text": "οῦσα, οῦν",
+   "note": "only a circumflex can be seen with no breathing; transcribed as printed"
+  }
+ ]
+}

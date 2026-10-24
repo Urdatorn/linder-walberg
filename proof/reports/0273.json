@@ -1,0 +1,51 @@
+{
+ "page": "0273",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0273_02",
+   "printed": "ὁ παραγέλλων καὶ αὐτὸς τὴν ἀρχήν",
+   "probably_meant": "ὁ παραγγέλλων",
+   "note": "Single γ printed; the preceding ἀντιπαραγγέλλων has γγ."
+  },
+  {
+   "strip": "0273_04",
+   "printed": "μετέχων, ουσα, ὁ, ἡ",
+   "probably_meant": "μετέχων, ουσα (οῦσα)",
+   "note": "Ending printed without the circumflex. Kept as printed."
+  },
+  {
+   "strip": "0273_00",
+   "printed": "ἐπίμεσον ῥῆμα",
+   "note": "Clearly printed this way, but it is an odd grammatical term for the middle voice and may be a misprint. Kept."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0273_00",
+   "text": "μετέχων, οντος, ὁ.",
+   "note": "The first letter of οντος is an ink-filled blob. Read as a bare ο with no breathing or accent (a genitive ending)."
+  },
+  {
+   "strip": "0273_02",
+   "text": "ἄγειν μεθ' αὑτοῦ",
+   "note": "The breathing on αὑτοῦ is small. It looks rough, which also fits μεθ'."
+  },
+  {
+   "strip": "0273_03",
+   "text": "καμών, οῦσα, όν",
+   "note": "Only a circumflex is visible, no smooth breathing. Earlier pages were mostly given οὖσα."
+  },
+  {
+   "strip": "0273_03",
+   "text": "utan ngns m., οὐδενὸς συνεργοῦντος",
+   "note": "The second 'ngns' looks letterspaced in the print. Written normally."
+  },
+  {
+   "strip": "0273_04",
+   "text": "πάλιν γίγνεσθαι. 2)",
+   "note": "The full stop after γίγνεσθαι is very faint."
+  }
+ ]
+}

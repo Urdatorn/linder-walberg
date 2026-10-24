@@ -1,0 +1,83 @@
+{
+ "page": "0174",
+ "strips_done": 6,
+ "corrections": 3,
+ "misprints": [
+  {
+   "strip": "0174_01",
+   "printed": "κενη ἐλπίς",
+   "probably_meant": "κενὴ ἐλπίς",
+   "note": "no accent on κενη in print"
+  },
+  {
+   "strip": "0174_01",
+   "printed": "την ἐλπίδα καταλύειν",
+   "probably_meant": "τὴν ἐλπίδα καταλύειν",
+   "note": "article unaccented in print"
+  },
+  {
+   "strip": "0174_02",
+   "printed": "ἥκειν τῆν ἐλπίδος",
+   "probably_meant": "ἥκειν τῆς ἐλπίδος",
+   "note": "τῆν with circumflex before genitive"
+  },
+  {
+   "strip": "0174_02",
+   "printed": "ὑπερπηδὰν",
+   "probably_meant": "ὑπερπηδᾶν",
+   "note": "grave instead of circumflex"
+  },
+  {
+   "strip": "0174_03",
+   "printed": "τῴ σώματι μισθαρνεῖν",
+   "probably_meant": "τῷ σώματι",
+   "note": "acute instead of circumflex"
+  },
+  {
+   "strip": "0174_04",
+   "printed": "halla h.",
+   "probably_meant": "hålla h.",
+   "note": "no ring visible on a; also 'blasa signal' for 'blåsa'"
+  },
+  {
+   "strip": "0174_05",
+   "printed": "βήξ. χός",
+   "probably_meant": "βήξ, βηχός",
+   "note": "genitive printed as 'χός' after a full stop"
+  },
+  {
+   "strip": "0174_05",
+   "printed": "stark h ,",
+   "probably_meant": "stark h.,",
+   "note": "period missing after h; transcribed as 'h,'"
+  },
+  {
+   "strip": "0174_05",
+   "printed": "ώς (m. ord)",
+   "probably_meant": "ὡς",
+   "note": "only an acute visible, no breathing"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0174_01",
+   "text": "beröfva",
+   "note": "print looks like 'berötva', probably a broken f; kept beröfva"
+  },
+  {
+   "strip": "0174_04",
+   "text": "τῷ κέρατι.: sätta",
+   "note": "second τῷ accent is faint/misshapen; kept circumflex"
+  },
+  {
+   "strip": "0174_04",
+   "text": "οἴκημα, τό",
+   "note": "mark after οἴκημα is tiny; could be a period"
+  },
+  {
+   "strip": "0174_05",
+   "text": "ώς",
+   "note": "the mark could be a damaged rough breathing; read it as an acute only"
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "page": "0317",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0317_00",
+   "printed": "τάλας, αινα, αν",
+   "probably_meant": "τάλας, αινα, αν (endings printed without breathing or accent; OCR had added αἶνα, ἀν)",
+   "note": "I kept the endings as printed, with no diacritics."
+  },
+  {
+   "strip": "0317_01",
+   "printed": "κάκιστος. 3. δει-",
+   "probably_meant": "κάκιστος, 3. δει-",
+   "note": "The print has a full stop after κάκιστος where a comma is expected."
+  },
+  {
+   "strip": "0317_03",
+   "printed": "ἄπο καιροῦ",
+   "probably_meant": "ἀπὸ καιροῦ",
+   "note": "The print has a smooth breathing with an acute on alpha."
+  },
+  {
+   "strip": "0317_03",
+   "printed": "ἐνοχλοῦμαι ὑπί τινος",
+   "probably_meant": "ὑπό τινος",
+   "note": "The vowel after π looks like an iota with an acute, probably a broken or wrong sort for ο."
+  },
+  {
+   "strip": "0317_04",
+   "printed": "om nämligon",
+   "probably_meant": "om nämligen",
+   "note": "Swedish misprint in the print."
+  },
+  {
+   "strip": "0317_04",
+   "printed": "ὥς, ὥσπερ, ὥς ἂν",
+   "probably_meant": "ὡς, ὥσπερ, ὡς ἂν",
+   "note": "ὡς is printed with a rough breathing and an acute."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0317_04",
+   "text": "Olönt",
+   "note": "The headword's o carries a single small mark, which may be a broken diaeresis. I read it as Olönt (unrewarded); the OCR had Olont."
+  },
+  {
+   "strip": "0317_03",
+   "text": "ὑπί",
+   "note": "This may be ὑπό with damaged type. I kept what the print appears to show."
+  },
+  {
+   "strip": "0317_02",
+   "text": "κακοδαιμονία, ἡ (bl.",
+   "note": "The mark on η is small. I read it as a rough breathing, matching the other articles."
+  },
+  {
+   "strip": "0317_05",
+   "text": "διὰ τῆς ἡμέρας.:",
+   "note": "The full stop before the colon is very faint."
+  },
+  {
+   "strip": "0317_02",
+   "text": "τινός.:",
+   "note": "The full stop before the colon is faint."
+  }
+ ]
+}

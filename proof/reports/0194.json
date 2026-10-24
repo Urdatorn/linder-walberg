@@ -1,0 +1,87 @@
+{
+ "page": "0194",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0194_01",
+   "printed": "πάνπων ἥκιστα",
+   "probably_meant": "πάντων ἥκιστα",
+   "note": "π for τ in the print"
+  },
+  {
+   "strip": "0194_01",
+   "printed": "ουδὲν πρὸς ἔπος",
+   "probably_meant": "οὐδὲν πρὸς ἔπος",
+   "note": "No smooth breathing visible on ου"
+  },
+  {
+   "strip": "0194_01",
+   "printed": "οὐδαμοῦ, -ῆ (μηδαμοῦ, -ῇ)",
+   "probably_meant": "-ῇ",
+   "note": "The first -ῆ seems to lack iota subscript; the second has one"
+  },
+  {
+   "strip": "0194_01",
+   "printed": "(ἀποδιδόναι. ἀπο-, εἰς-",
+   "probably_meant": "ἀποδιδόναι. ἀπο-, εἰς-",
+   "note": "Opening parenthesis never closed (a space or gap between ἀπο and διδόναι)"
+  },
+  {
+   "strip": "0194_02",
+   "printed": "(ἐν-, ἐπ αλείφειν.",
+   "probably_meant": "(ἐν-, ἐπ)αλείφειν.",
+   "note": "Closing parenthesis missing; no breathing on α"
+  },
+  {
+   "strip": "0194_03",
+   "printed": "vexelvis i hrandra",
+   "probably_meant": "vexelvis i hvarandra",
+   "note": "Letters dropped in the print"
+  },
+  {
+   "strip": "0194_03",
+   "printed": "σηλλαμβάνεσθαι",
+   "probably_meant": "συλλαμβάνεσθαι",
+   "note": "η for υ"
+  },
+  {
+   "strip": "0194_03",
+   "printed": "εἰσδίεσθαι",
+   "probably_meant": "εἰσδύεσθαι",
+   "note": "Reads as ί, maybe a broken υ"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0194_00",
+   "text": "(hkt i sh. är fallet",
+   "note": "Middle letter is faint (looks like i:h./i;h.). Read as 'i sh.' (i synnerhet)"
+  },
+  {
+   "strip": "0194_00",
+   "text": "ὅ τι.;",
+   "note": "Looks like a full stop before the semicolon. Kept both"
+  },
+  {
+   "strip": "0194_01",
+   "text": "ὁ περὶ τὰς μηχανάς",
+   "note": "The accent on τας is faint or missing"
+  },
+  {
+   "strip": "0194_02",
+   "text": "af Gud ingifven, θεόπνευστος",
+   "note": "Can't tell if the mark after ingifven is a comma or a full stop"
+  },
+  {
+   "strip": "0194_02",
+   "text": "ἀδίκημα, τό: göra",
+   "note": "Printed with a space before the colon ('τό :'), normalized to 'τό:'"
+  },
+  {
+   "strip": "0194_03",
+   "text": "εἰσδίεσθαι",
+   "note": "Could be broken type for ύ"
+  }
+ ]
+}

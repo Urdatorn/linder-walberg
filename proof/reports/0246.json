@@ -1,0 +1,49 @@
+{
+ "page": "0246",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0246_01",
+   "printed": "πολιτεύεσθοι",
+   "probably_meant": "πολιτεύεσθαι",
+   "note": "final -οι for -αι"
+  },
+  {
+   "strip": "0246_03",
+   "printed": "so Beskickning",
+   "probably_meant": "se Beskickning",
+   "note": "Swedish 'se' misprinted"
+  },
+  {
+   "strip": "0246_04",
+   "printed": "μιστοφόρος",
+   "probably_meant": "μισθοφόρος",
+   "note": "τ for θ, under Legoknekt"
+  },
+  {
+   "strip": "0246_05",
+   "printed": "ὠοτοκία ... ὠοφορεῖν",
+   "probably_meant": "ᾠοτοκία ... ᾠοφορεῖν",
+   "note": "no iota subscript visible under ω in the print"
+  },
+  {
+   "strip": "0246_00",
+   "printed": "συζῆν τινι.;",
+   "probably_meant": "συζῆν τινι.:",
+   "note": "the print has a semicolon after the full stop where the book normally uses '.:'"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0246_03",
+   "text": "οὐ δίκαιός ἐστι βασιλεύσας",
+   "note": "the accent on ἐστι is hard to make out (ἐστι or ἔστι); kept ἐστι"
+  },
+  {
+   "strip": "0246_04",
+   "text": "θής, τός, ὁ",
+   "note": "the print clearly shows 'τός' (probably shorthand for θητός); kept as printed"
+  }
+ ]
+}

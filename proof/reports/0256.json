@@ -1,0 +1,49 @@
+{
+ "page": "0256",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0256_01",
+   "printed": "Luftfri, -lös",
+   "probably_meant": "Luktfri, -lös",
+   "note": "Headword printed with f for k, among the Lukt- entries"
+  },
+  {
+   "strip": "0256_04",
+   "printed": "κατάσποπον",
+   "probably_meant": "κατάσκοπον",
+   "note": "Printed with π for κ (checked in a zoomed crop)"
+  },
+  {
+   "strip": "0256_05",
+   "printed": "ηδονή",
+   "probably_meant": "ἡδονή",
+   "note": "No rough breathing visible in a zoomed crop"
+  },
+  {
+   "strip": "0256_05",
+   "printed": "δασύθριξ, τριχος",
+   "probably_meant": "δασύθριξ, τριχός",
+   "note": "The genitive ending is printed without an accent"
+  },
+  {
+   "strip": "0256_00",
+   "printed": "åliggandcn",
+   "probably_meant": "åligganden",
+   "note": "The e looks like c in the print; the text has 'åligganden' (see uncertain)"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0256_00",
+   "text": "åligganden",
+   "note": "The print reads 'åliggan-dcn'. It may be a broken e or a c misprint. I kept the cleaner's 'åligganden'."
+  },
+  {
+   "strip": "0256_03",
+   "text": "ἐμπυΐσκεσθαι",
+   "note": "The print shows υ with a mark before an accented ι, so I read ἐμπυΐσκεσθαι. The diaeresis is not clear."
+  }
+ ]
+}

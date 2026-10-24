@@ -1,0 +1,38 @@
+{
+ "page": "0279",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0279_03",
+   "printed": "ἀσύμφνωος",
+   "probably_meant": "ἀσύμφωνος",
+   "note": "Letters transposed in print (νω for ων); checked in a zoomed crop."
+  },
+  {
+   "strip": "0279_00",
+   "printed": "παρὰσύνεσις",
+   "probably_meant": "παρασύνεσις",
+   "note": "Printed as one word with a grave on the second alpha as well as the acute on upsilon."
+  },
+  {
+   "strip": "0279_05",
+   "printed": "ὑπ ἀγνοίας",
+   "probably_meant": "ὑπ’ ἀγνοίας",
+   "note": "No elision mark is visible after ὑπ at the end of the line."
+  },
+  {
+   "strip": "0279_05",
+   "printed": "(jurid.).,",
+   "probably_meant": "(jurid.),",
+   "note": "The print has both a full stop and a comma after the parenthesis."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0279_00",
+   "text": "ἄμετρος, ἀσύμμετρος",
+   "note": "The punctuation after ἄμετρος is cut off at the edge of the image. Read as a comma because the list goes on."
+  }
+ ]
+}

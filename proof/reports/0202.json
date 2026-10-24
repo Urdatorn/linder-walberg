@@ -1,0 +1,49 @@
+{
+ "page": "0202",
+ "strips_done": 6,
+ "corrections": 60,
+ "misprints": [
+  {
+   "strip": "0202_04",
+   "printed": "θρῆνος, τό.",
+   "probably_meant": "θρῆνος, ὁ.",
+   "note": "θρῆνος is masculine; the print gives the article τό"
+  },
+  {
+   "strip": "0202_04",
+   "printed": "τῆς θυρίδος,",
+   "probably_meant": "τῆς θυρίδος.",
+   "note": "Sense 3 of Jalusi ends with a comma where a full stop would be expected"
+  },
+  {
+   "strip": "0202_05",
+   "printed": "ἀπαρτιολογία",
+   "probably_meant": "ἀπαρτιλογία",
+   "note": "The usual form is ἀπαρτιλογία"
+  },
+  {
+   "strip": "0202_05",
+   "printed": "έκατὸν",
+   "probably_meant": "ἑκατὸν",
+   "note": "The mark over ε looks like an acute, not a rough breathing (could be broken type)"
+  },
+  {
+   "strip": "0202_05",
+   "printed": "på. j. afstånd",
+   "probably_meant": "på j. afstånd",
+   "note": "Stray full stop after 'på'"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0202_05",
+   "text": "έκατὸν",
+   "note": "At high zoom the mark is a straight stroke like an acute rather than the hooked rough breathing; transcribed as printed"
+  },
+  {
+   "strip": "0202_02",
+   "text": "ἀναγρία, ἡ",
+   "note": "Accents and breathings of this line are cut by the band boundary; read from the marks left at the bottom of band 0"
+  }
+ ]
+}

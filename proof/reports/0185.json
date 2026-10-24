@@ -1,0 +1,55 @@
+{
+ "page": "0185",
+ "strips_done": 6,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0185_00",
+   "printed": "mäugd",
+   "probably_meant": "mängd",
+   "note": "Här, 1) stor mäugd: turned n printed as u, clearly visible"
+  },
+  {
+   "strip": "0185_00",
+   "printed": "häreu",
+   "probably_meant": "hären",
+   "note": "m. hela häreu: turned n printed as u"
+  },
+  {
+   "strip": "0185_02",
+   "printed": "δηοῦν",
+   "probably_meant": "δῃοῦν",
+   "note": "Härja: no iota subscript in print"
+  },
+  {
+   "strip": "0185_02",
+   "printed": "ἐρημωσις",
+   "probably_meant": "ἐρήμωσις",
+   "note": "Härjning: printed without accent (ἐρη-|μωσις)"
+  },
+  {
+   "strip": "0185_02",
+   "printed": "ποπίζειν",
+   "probably_meant": "ποππύζειν / ἐποποῖ-",
+   "note": "Härfågel: printed form kept as is"
+  },
+  {
+   "strip": "0185_03",
+   "printed": "γένεαλογεῖν",
+   "probably_meant": "γενεαλογεῖν",
+   "note": "Härleda: stray acute on γέ- at the line break"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0185_03",
+   "text": "παρώνυμος, 2",
+   "note": "there is a speck between the comma and 2; read it as dust"
+  },
+  {
+   "strip": "0185_05",
+   "text": "γεγονέναι τινός.: = härröra",
+   "note": "the spacing around '=' is not fully clear; I wrote it with a space after"
+  }
+ ]
+}

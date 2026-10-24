@@ -1,0 +1,60 @@
+{
+ "page": "0294",
+ "strips_done": 6,
+ "corrections": 62,
+ "misprints": [
+  {
+   "strip": "0294_00",
+   "printed": "täuderna",
+   "probably_meant": "tänderna",
+   "note": "The n is printed upside down, so it reads as u."
+  },
+  {
+   "strip": "0294_02",
+   "printed": "ληρεῖν,",
+   "probably_meant": "ληρεῖν.",
+   "note": "The entry ends with a comma instead of a full stop."
+  },
+  {
+   "strip": "0294_02",
+   "printed": "af sma n.",
+   "probably_meant": "af samma n.",
+   "note": "A letter or syllable is missing from the Swedish word."
+  },
+  {
+   "strip": "0294_04",
+   "printed": "ἐπιγιγνεταί τινι",
+   "probably_meant": "ἐπιγίγνεταί τινι",
+   "note": "The accent on the ί before γν is missing."
+  },
+  {
+   "strip": "0294_04",
+   "printed": "νυκτρινὸν",
+   "probably_meant": "νυκτερινὸν",
+   "note": "The ε is missing."
+  },
+  {
+   "strip": "0294_04",
+   "printed": "νυκτοπορία, ἡ,:",
+   "probably_meant": "νυκτοπορία, ἡ.:",
+   "note": "There is a comma before the colon instead of a full stop."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0294_02",
+   "text": "φύλου",
+   "note": "The last letter is cut off at the edge of the strip, so it looks like φύλοι. I read it as φύλου."
+  },
+  {
+   "strip": "0294_04",
+   "text": "τὴν νύκτα (first occurrence)",
+   "note": "The τ is broken in the type and looks like ι. I read it as τὴν."
+  },
+  {
+   "strip": "0294_00",
+   "text": "ἁψιμαχεῖν, ἁψιμαχία",
+   "note": "The breathing looks rough in the scan, so I changed it from smooth to rough."
+  }
+ ]
+}

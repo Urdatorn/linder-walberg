@@ -1,0 +1,92 @@
+{
+ "page": "0346",
+ "strips_done": 6,
+ "corrections": 50,
+ "misprints": [
+  {
+   "strip": "0346_02",
+   "printed": "Proviantmästaree",
+   "probably_meant": "Proviantmästare",
+   "note": "Doubled e in the headword; the OCR also repeated it as a duplicate word, which has been removed"
+  },
+  {
+   "strip": "0346_02",
+   "printed": "vara p,, σιταρχεῖν.:",
+   "probably_meant": "vara p., σιταρχεῖν:",
+   "note": "Two commas after p are printed"
+  },
+  {
+   "strip": "0346_02",
+   "printed": "Proviantskepp. σιταγωγὸς",
+   "probably_meant": "Proviantskepp, σιταγωγὸς",
+   "note": "A full stop is printed after the headword"
+  },
+  {
+   "strip": "0346_03",
+   "printed": "σαπραπεύειν",
+   "probably_meant": "σατραπεύειν",
+   "note": "The print clearly has π for τ"
+  },
+  {
+   "strip": "0346_03",
+   "printed": "ἐπ’ ἀδηλῳ",
+   "probably_meant": "ἐπ’ ἀδήλῳ",
+   "note": "No accent on η in the print"
+  },
+  {
+   "strip": "0346_05",
+   "printed": "ὄπεας, ατος",
+   "probably_meant": "ὀπέας, ατος",
+   "note": "The accent and breathing are printed as ὄ"
+  },
+  {
+   "strip": "0346_05",
+   "printed": "ἡ αἰκισμός. ὁ.",
+   "probably_meant": "ἡ. αἰκισμός, ὁ.",
+   "note": "Punctuation looks swapped in the print"
+  },
+  {
+   "strip": "0346_02",
+   "printed": "tillföra p, σιταγωγεῖν",
+   "probably_meant": "tillföra p., σιταγωγεῖν",
+   "note": "Printed as 'p ,' with the full stop missing; the same happens in 0346_04 'utan p ,'"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0346_05",
+   "text": "περίεργος",
+   "note": "The first ε of the ending is broken type and looks like ιε; read as περίεργος"
+  },
+  {
+   "strip": "0346_05",
+   "text": "στιγεύς, έως. ὁ.",
+   "note": "The small mark after έως could be a full stop or a broken comma"
+  },
+  {
+   "strip": "0346_05",
+   "text": "καλλωπιστής. οῦ",
+   "note": "Could be a full stop or a broken comma after καλλωπιστής"
+  },
+  {
+   "strip": "0346_05",
+   "text": "ἁλιτενὲς",
+   "note": "The breathing is small; read as rough"
+  },
+  {
+   "strip": "0346_02",
+   "text": "σιταρχεῖν.:",
+   "note": "There is a faint dot before the colon, so I wrote .: but it could be a plain :"
+  },
+  {
+   "strip": "0346_02",
+   "text": "παρασκευή. ἡ etc.",
+   "note": "The mark after παρασκευή looks like a full stop, not a comma"
+  },
+  {
+   "strip": "0346_00",
+   "text": "έως, ὁ.",
+   "note": "έως has an acute and no visible breathing; kept as printed"
+  }
+ ]
+}

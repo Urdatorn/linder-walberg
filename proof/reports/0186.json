@@ -1,0 +1,59 @@
+{
+ "page": "0186",
+ "strips_done": 6,
+ "corrections": 24,
+ "misprints": [
+  {
+   "strip": "0186_04",
+   "printed": "πάση ἀνάγκη ἐστὶν",
+   "probably_meant": "πάσῃ ἀνάγκῃ ἐστὶν",
+   "note": "No iota subscripts printed, though the same face shows them under ω elsewhere on the page."
+  },
+  {
+   "strip": "0186_04",
+   "printed": "βαθύ l. μακρὸν γῆρας",
+   "probably_meant": "βαθὺ l. μακρὸν γῆρας",
+   "note": "Acute instead of grave on βαθύ before 'l.' (at a line end)."
+  },
+  {
+   "strip": "0186_05",
+   "printed": "οἱ ἐν τιμῆ.:",
+   "probably_meant": "οἱ ἐν τιμῇ",
+   "note": "No iota subscript visible."
+  },
+  {
+   "strip": "0186_05",
+   "printed": "ἐν τιμῆ ἔχειν",
+   "probably_meant": "ἐν τιμῇ ἔχειν",
+   "note": "No iota subscript visible."
+  },
+  {
+   "strip": "0186_00",
+   "printed": "τό ἀγοράζειν καὶ πιπράσκειν",
+   "probably_meant": "τὸ ἀγοράζειν",
+   "note": "Acute where a grave is expected before the next word."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0186_05",
+   "text": "ἐπίσημος. 2.",
+   "note": "The mark after ἐπίσημος looks like a full stop, not the expected comma. Copied as a full stop."
+  },
+  {
+   "strip": "0186_05",
+   "text": "μεῖζον τοῦτο ἢ / οὐ πλέον ἢ.: / οὐ πλέον ἢ δέκα",
+   "note": "In this face the stacked breathing+accent over η could be a grave or a circumflex. Kept as ἢ, the same reading used for the identical glyph in strip 0186_03."
+  },
+  {
+   "strip": "0186_03",
+   "text": "χρεὼν εἶναι.:",
+   "note": "The punctuation is partly broken and looks a little like '.!:'. Read as '.:'."
+  },
+  {
+   "strip": "0186_04",
+   "text": "se vv.",
+   "note": "Printed in italic. Read as the abbreviation 'vv.', not as Greek υυ."
+  }
+ ]
+}

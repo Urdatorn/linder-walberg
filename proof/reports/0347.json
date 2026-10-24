@@ -1,0 +1,35 @@
+{
+ "page": "0347",
+ "strips_done": 6,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0347_03",
+   "printed": "μικρόσφυκτος 2.:",
+   "note": "The comma before the termination number is missing in the print. Kept as printed."
+  },
+  {
+   "strip": "0347_04",
+   "printed": "ἐκχρηματίζεσθαί τινα",
+   "probably_meant": "ἐκχρηματίζεσθαί τινα",
+   "note": "Not a misprint: the extra accent comes from the enclitic τινα that follows. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0347_02",
+   "text": "ὕβος",
+   "note": "The diacritic on the initial υ is stacked and partly broken. It could be read as ὗ (rough breathing with circumflex). I kept ὕβος, the attested form; the ὕβωμα that follows clearly has a rough breathing with an acute."
+  },
+  {
+   "strip": "0347_04",
+   "text": "τελεία στιγμή",
+   "note": "The second letter is broken type that looks like ι with a crossbar, so the print could read τιλεία. I wrote τελεία as the likely reading."
+  },
+  {
+   "strip": "0347_05",
+   "text": "καθ’ ἕκαστα",
+   "note": "The α of καθ’ is damaged and looks like ι in the scan. I read it as καθ’."
+  }
+ ]
+}

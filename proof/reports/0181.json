@@ -1,0 +1,26 @@
+{
+ "page": "0181",
+ "strips_done": 6,
+ "corrections": 3,
+ "misprints": [
+  {
+   "strip": "0181_01",
+   "printed": "χάσμα, τή",
+   "probably_meant": "χάσμα, τό",
+   "note": "Article printed as τή for a neuter noun."
+  },
+  {
+   "strip": "0181_05",
+   "printed": "ἐφίσταναι",
+   "probably_meant": "ἐφιστάναι",
+   "note": "Accent misplaced in print; correct ἐφιστάναι appears later in the same strip."
+  },
+  {
+   "strip": "0181_05",
+   "printed": "ἐναντιούσθαι",
+   "probably_meant": "ἐναντιοῦσθαι",
+   "note": "Acute printed instead of circumflex on contracted verb."
+  }
+ ],
+ "uncertain": []
+}

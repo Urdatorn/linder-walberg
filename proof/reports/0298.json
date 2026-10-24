@@ -1,0 +1,43 @@
+{
+ "page": "0298",
+ "strips_done": 6,
+ "corrections": 47,
+ "misprints": [
+  {
+   "strip": "0298_00",
+   "printed": "πόταμον",
+   "probably_meant": "ποταμόν",
+   "note": "Accent misplaced in print (t. ex. πόταμον); kept as printed."
+  },
+  {
+   "strip": "0298_02",
+   "printed": "Nedsläppniug",
+   "probably_meant": "Nedsläppning",
+   "note": "Headword printed with a turned n (u) in the letterspaced type; kept as printed."
+  },
+  {
+   "strip": "0298_02",
+   "printed": "ἀφιέναι l ἱέναι",
+   "probably_meant": "ἀφιέναι l. ἱέναι",
+   "note": "No full stop after 'l' in print; kept."
+  },
+  {
+   "strip": "0298_02",
+   "printed": "ἀναμολύνειν καταρρυπαίνειν.",
+   "probably_meant": "ἀναμολύνειν. καταρρυπαίνειν.",
+   "note": "Full stop between the two verbs missing in print; kept."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0298_03",
+   "text": "ἀτονία, ἡ.",
+   "note": "The acute on ί and the rough breathing on ἡ have slipped down out of the line in print (they appear below the line before), so the 'νια, η.' line looks bare; transcribed as the intended ἀτονία, ἡ."
+  },
+  {
+   "strip": "0298_04",
+   "text": "vanl. gm vv.",
+   "note": "Italic 'vv' (verben) looks like Greek υυ/νυ; transcribed as Latin 'vv.' following the abbreviation list. Other pages are inconsistent (νυ, υυ, υν)."
+  }
+ ]
+}

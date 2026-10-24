@@ -1,0 +1,71 @@
+{
+ "page": "0222",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0222_00",
+   "printed": "σημπλεκτικός",
+   "probably_meant": "συμπλεκτικός",
+   "note": "Kopulativ; η printed for υ"
+  },
+  {
+   "strip": "0222_00",
+   "printed": "ἀλλάς, ᾶντος",
+   "probably_meant": "ἀλλᾶς, ᾶντος",
+   "note": "Korf; acute printed where circumflex expected"
+  },
+  {
+   "strip": "0222_01",
+   "printed": "σποπεῖν τι",
+   "probably_meant": "σκοπεῖν τι",
+   "note": "Korn; π printed for κ"
+  },
+  {
+   "strip": "0222_02",
+   "printed": "κοράκινος, 3",
+   "probably_meant": "κοράκινος, 3.",
+   "note": "Korpsvart; final full stop missing in print"
+  },
+  {
+   "strip": "0222_03",
+   "printed": "διόρθωσις, ἡ,",
+   "probably_meant": "διόρθωσις, ἡ.",
+   "note": "Korrektur; ends with comma"
+  },
+  {
+   "strip": "0222_05",
+   "printed": "περισθήτιον",
+   "probably_meant": "περιστήθιον",
+   "note": "Korsett; θ and τ swapped"
+  },
+  {
+   "strip": "0222_05",
+   "printed": "ἐπηλλαγμένος, 3,",
+   "probably_meant": "ἐπηλλαγμένος, 3.",
+   "note": "Korsformig; ends with comma"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0222_01",
+   "text": "ἁλός",
+   "note": "The mark over the alpha is small and could be a rough breathing with an acute. I read it as a rough breathing, with the acute on ό."
+  },
+  {
+   "strip": "0222_01",
+   "text": "ὁ. κρίθινος",
+   "note": "Kornbröd: a stray mark like '!' or '|' appears after 'ὁ.'. I took it for dust or broken type and left it out."
+  },
+  {
+   "strip": "0222_02",
+   "text": "δεκάδαρχος, ὁ.",
+   "note": "The article is broken type that looks like 'ἱ'. I read it as ὁ."
+  },
+  {
+   "strip": "0222_04",
+   "text": "(liggande k. ×)",
+   "note": "The cross is printed as a symbol. I used × (multiplication sign) and + for the upright cross."
+  }
+ ]
+}

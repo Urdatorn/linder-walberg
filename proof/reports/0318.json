@@ -1,0 +1,97 @@
+{
+ "page": "0318",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0318_00",
+   "printed": "ὑποστέφεσθαι",
+   "probably_meant": "ὑποστρέφεσθαι",
+   "note": "The ρ is missing in the print."
+  },
+  {
+   "strip": "0318_02",
+   "printed": "περικαλίπτειν",
+   "probably_meant": "περικαλύπτειν",
+   "note": "The print seems to show ί where υ is expected."
+  },
+  {
+   "strip": "0318_04",
+   "printed": "κοινοῖσθαι",
+   "probably_meant": "κοινοῦσθαι",
+   "note": "The print clearly shows ῖ. There is also no punctuation before ἄρρητος."
+  },
+  {
+   "strip": "0318_04",
+   "printed": "(την)",
+   "probably_meant": "(τὴν)",
+   "note": "The article is printed without an accent."
+  },
+  {
+   "strip": "0318_04",
+   "printed": "κρυψίνους, 3.",
+   "probably_meant": "κρυψίνους, 2.",
+   "note": "κρυψίνους has two terminations, but the print has 3."
+  },
+  {
+   "strip": "0318_05",
+   "printed": "ταῦτ’ εἰπων",
+   "probably_meant": "ταῦτ’ εἰπὼν",
+   "note": "No accent is printed on the ω."
+  },
+  {
+   "strip": "0318_05",
+   "printed": "ἑξὴς",
+   "probably_meant": "ἑξῆς",
+   "note": "The accent looks like a grave rather than a circumflex."
+  },
+  {
+   "strip": "0318_03",
+   "printed": "πυλαγόρας, -όρος",
+   "probably_meant": "πυλαγόρας, ου / πυλαγόρος",
+   "note": "The ending is printed as -όρος."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0318_00",
+   "text": "(ἐπανιέναι:",
+   "note": "There is a small stray mark between π and α, probably dust or broken type. I wrote it without an apostrophe."
+  },
+  {
+   "strip": "0318_01",
+   "text": "ἐπι-, μεταστρέφεσθαι",
+   "note": "The hyphen after ἐπι is barely visible (a faint dot only). I supplied it as a broken hyphen."
+  },
+  {
+   "strip": "0318_01",
+   "text": "ἀμεταστρεπτί",
+   "note": "The ρ is broken and looks like ο."
+  },
+  {
+   "strip": "0318_04",
+   "text": "ἁμαρτάνειν; also ἁμαρτών (0318_05)",
+   "note": "Rough and smooth breathings are hard to tell apart in this face at this resolution, so I wrote the expected rough breathing."
+  },
+  {
+   "strip": "0318_04",
+   "text": "οἷος",
+   "note": "The circumflex is visible but the breathing is not."
+  },
+  {
+   "strip": "0318_04",
+   "text": "stå i o t samband",
+   "note": "The colon in o:t is missing or broken. I copied it as printed, with a space."
+  },
+  {
+   "strip": "0318_05",
+   "text": "Omenniska",
+   "note": "The nn is broken and looks like 'nu'."
+  },
+  {
+   "strip": "0318_05",
+   "text": "Jfr Medvetande 1.",
+   "note": "Probably the digit 1 (a sense number), not the abbreviation l."
+  }
+ ]
+}

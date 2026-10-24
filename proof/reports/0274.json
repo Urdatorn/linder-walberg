@@ -1,0 +1,60 @@
+{
+ "page": "0274",
+ "strips_done": 6,
+ "corrections": 110,
+ "misprints": [
+  {
+   "strip": "0274_01",
+   "printed": "ουσα, ον",
+   "probably_meant": "οὖσα, ὄν",
+   "note": "Mellanradig: printed without breathings or accents"
+  },
+  {
+   "strip": "0274_01",
+   "printed": "hrandra",
+   "probably_meant": "hvarandra",
+   "note": "Mellanrum: 'plethrers m fr. hrandra'; there is also no full stop after 'm'"
+  },
+  {
+   "strip": "0274_02",
+   "printed": "όν",
+   "probably_meant": "ὄν",
+   "note": "Mellantid: 'διαλιπών, οὖσα, όν' has an acute but no breathing"
+  },
+  {
+   "strip": "0274_03",
+   "printed": "γὲ μήν",
+   "probably_meant": "γε μήν",
+   "note": "The enclitic γε is printed with a grave accent"
+  },
+  {
+   "strip": "0274_04",
+   "printed": "hd menar du m. det?",
+   "probably_meant": "hvad menar du m. det?",
+   "note": "Mena 2): 'hd' is printed, probably for 'hvad'"
+  },
+  {
+   "strip": "0274_05",
+   "printed": "vara af sma m. s. ngn",
+   "probably_meant": "vara af samma m. s. ngn",
+   "note": "Mening: 'sma' is printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0274_00",
+   "text": "ὁ μεταξὺ l. ἐν μέσῳ πόρος",
+   "note": "Mellangång: the letter after ξ is broken and narrow, closer to ί than ὺ. I read it as μεταξὺ."
+  },
+  {
+   "strip": "0274_00",
+   "text": "(till ngns fördel",
+   "note": "There is a speck or broken mark after 'ngns' that could be a full stop or comma. I left the punctuation out."
+  },
+  {
+   "strip": "0274_05",
+   "text": "ὡς ἐγᾦμαι",
+   "note": "The mark over the ω reads as a smooth breathing plus a circumflex, with iota subscript (ᾦ, the crasis form). The OCR had ἐγῷμαι."
+  }
+ ]
+}
