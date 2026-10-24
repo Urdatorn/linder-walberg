@@ -1,0 +1,47 @@
+{
+ "page": "0223",
+ "strips_done": 6,
+ "corrections": 27,
+ "misprints": [
+  {
+   "strip": "0223_00",
+   "printed": "μικρός χρόνος",
+   "probably_meant": "μικρὸς χρόνος",
+   "note": "acute instead of grave before another word"
+  },
+  {
+   "strip": "0223_02",
+   "printed": "συνελὸντι εἰπεῖν",
+   "probably_meant": "συνελόντι εἰπεῖν",
+   "note": "grave printed on a non-final syllable"
+  },
+  {
+   "strip": "0223_02",
+   "printed": "ουσα, ον",
+   "probably_meant": "ουσα, ον (unaccented termination)",
+   "note": "kept as printed without accent; OCR had οὐσά"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0223_00",
+   "text": "βραχύς, εῖα, ύ",
+   "note": "small mark over the final υ read as an acute; it could be a breathing"
+  },
+  {
+   "strip": "0223_04",
+   "text": "ἁβρός, 3. ἁπαλός",
+   "note": "mark over the initial alpha read as a plain rough breathing (the acute is on the last syllable); the shape resembles a rough breathing with a stroke"
+  },
+  {
+   "strip": "0223_05",
+   "text": "(mest politisk)",
+   "note": "type is broken and looks like 'meat'; read as 'mest'"
+  },
+  {
+   "strip": "0223_02",
+   "text": "ὡς οἷόν τε",
+   "note": "breathing and circumflex on οἷ are small; it could be read as οἱ"
+  }
+ ]
+}

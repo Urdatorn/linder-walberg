@@ -1,57 +1,47 @@
 {
  "page": "0175",
  "strips_done": 6,
- "corrections": 95,
+ "corrections": 6,
  "misprints": [
   {
    "strip": "0175_00",
    "printed": "ἐπικρέμασθαν",
    "probably_meant": "ἐπικρέμασθαι",
-   "note": "Final letter clearly printed as ν"
+   "note": "final -ν for -ι in print"
   },
   {
    "strip": "0175_04",
    "printed": "Hufvudrag",
    "probably_meant": "Hufvuddrag",
-   "note": "Headword printed with a single d"
+   "note": "headword printed with single d"
   },
   {
-   "strip": "0175_01",
-   "printed": "ἐν μνήμη",
-   "probably_meant": "ἐν μνήμῃ",
-   "note": "No iota subscript visible in the print"
+   "strip": "0175_05",
+   "printed": "πρωτιστείειν",
+   "probably_meant": "πρωτιστεύειν",
+   "note": "print clearly shows ε + ί instead of ύ"
   }
  ],
  "uncertain": [
   {
-   "strip": "0175_02",
-   "text": "Hufvudangelägenhet",
-   "note": "The f looks like an i (broken type?): 'Huivud'. Transcribed as Hufvud."
-  },
-  {
-   "strip": "0175_03",
-   "text": "προὐργιαίτατον",
-   "note": "The diacritic on the υ looks like a smooth breathing combined with a grave or acute. Transcribed with a plain smooth breathing."
-  },
-  {
-   "strip": "0175_03",
-   "text": "φροντίς, ίδος",
-   "note": "The ρ of φροντίς is broken. The mark on the ι of ίδος is unclear: it could be an acute or a rough breathing."
+   "strip": "0175_00",
+   "text": "(τῇ κεφαλῆ)",
+   "note": "iota subscript visible under τῇ but not under κεφαλῆ; transcribed as seen, may be faint type"
   },
   {
    "strip": "0175_04",
-   "text": "μεγίστη",
-   "note": "Printed as μεγίσιη: either a broken τ or a wrong sort."
+   "text": "ὃ μάλιστα ἴδιόν ἐστί τινος",
+   "note": "only a grave visible on the ο, breathing not inked; read as ὃ (relative), previously ὁ"
   },
   {
-   "strip": "0175_05",
-   "text": "πρωτιστεύειν",
-   "note": "The υ is broken and looks like ί; it could be a misprinted πρωτιστείειν."
+   "strip": "0175_04",
+   "text": "μεγίστη ἀρετή",
+   "note": "τ in μεγίστη looks broken (like σιη); kept μεγίστη"
   },
   {
    "strip": "0175_01",
    "text": "εὐφυΐα",
-   "note": "The diaeresis on the ι is faint."
+   "note": "diaeresis on ι hard to make out under the accent"
   }
  ]
 }

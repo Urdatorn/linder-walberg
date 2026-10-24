@@ -1,0 +1,25 @@
+{
+ "page": "0220",
+ "strips_done": 6,
+ "corrections": 42,
+ "misprints": [
+  {
+   "strip": "0220_05",
+   "printed": "döma ngu in contumaciam",
+   "probably_meant": "döma ngn in contumaciam",
+   "note": "The print clearly shows 'ngu', probably a turned n. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0220_00",
+   "text": "ἐκ τοῦ συντάγματος",
+   "note": "The last letter of τοῦ runs into the margin edge of the scan. Only 'τοῖ' is visible; read as τοῦ."
+  },
+  {
+   "strip": "0220_00",
+   "text": "τό (Sedn.). föreståndare",
+   "note": "The punctuation after (Sedn.) looks like a plain full stop, not '.:'."
+  }
+ ]
+}

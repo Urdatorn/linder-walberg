@@ -1,0 +1,48 @@
+{
+ "page": "0205",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0205_00",
+   "printed": "πεντηκονταετια",
+   "probably_meant": "πεντηκονταετία",
+   "note": "Printed without an accent."
+  },
+  {
+   "strip": "0205_02",
+   "printed": "τοὐναντιον",
+   "probably_meant": "τοὐναντίον",
+   "note": "Second half of the word, after the line-break hyphen, printed without an accent."
+  },
+  {
+   "strip": "0205_02",
+   "printed": "αὐτός, ή, ό",
+   "probably_meant": "αὐτός, ή, ό (normally αὐτή, αὐτό)",
+   "note": "The ending letters are printed with an acute accent and no breathing. Kept as printed."
+  },
+  {
+   "strip": "0205_04",
+   "printed": "ζυμιοῦσθαι",
+   "probably_meant": "ζυμοῦσθαι",
+   "note": "An extra ι is clearly printed between μ and ο."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0205_03",
+   "text": "ἀντιλαγχάνειν",
+   "note": "The left edge of the scan cuts off the first letter of the second line ('-γάνειν' or '-χάνειν'). Only a fragment shows; I read it as χ, which gives the expected form."
+  },
+  {
+   "strip": "0205_01",
+   "text": "Judendom, / Jul,",
+   "note": "The punctuation after these headwords is broken type and looks like a damaged comma or a full stop. I wrote a comma."
+  },
+  {
+   "strip": "0205_00",
+   "text": "ὀλολυγμός",
+   "note": "The breathing is small. It appears to be smooth, like the ὀλολύζειν below it."
+  }
+ ]
+}

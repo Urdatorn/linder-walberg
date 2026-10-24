@@ -1,0 +1,54 @@
+{
+ "page": "0271",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0271_03",
+   "printed": "καὶ ἐγω.",
+   "probably_meant": "καὶ ἐγώ.",
+   "note": "No accent on ἐγω in the print."
+  },
+  {
+   "strip": "0271_03",
+   "printed": "m. storm. κατὰ κράτος",
+   "probably_meant": "m. storm, κατὰ κράτος",
+   "note": "The print has a full stop where a comma is expected (Runeberg reads a comma)."
+  },
+  {
+   "strip": "0271_04",
+   "printed": "σηγκληρονομεῖν",
+   "probably_meant": "συγκληρονομεῖν",
+   "note": "η where υ belongs."
+  },
+  {
+   "strip": "0271_04",
+   "printed": "ge ngu m.",
+   "probably_meant": "ge ngn m.",
+   "note": "Looks like a turned n."
+  },
+  {
+   "strip": "0271_05",
+   "printed": "λεγάμενα",
+   "probably_meant": "λεγόμενα",
+   "note": "The glyph is clearly α in the scan, perhaps a broken ό."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0271_00",
+   "text": "ἀρρωστία, ἡ. / ἐδώδιμα, τρώξιμα / 2)",
+   "note": "The commas and ')' at the line ends are cut off at the right edge of the crop. I restored them from Runeberg and the expected pattern."
+  },
+  {
+   "strip": "0271_00",
+   "text": "Med, I) præp.",
+   "note": "Read as Roman I (to match II) conj. later in the entry). It looks different from the '1)' that follows."
+  },
+  {
+   "strip": "0271_05",
+   "text": "λεγάμενα",
+   "note": "Possibly a damaged ό, not a real α."
+  }
+ ]
+}

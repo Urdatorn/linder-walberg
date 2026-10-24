@@ -1,0 +1,31 @@
+{
+ "page": "0219",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0219_02",
+   "printed": "εὐσταθὴς (2) τὴν διάνοιαν",
+   "probably_meant": "εὐσταθής, 2. τὴν διάνοιαν",
+   "note": "Grave accent on a word that is not followed by another word, and the termination number is printed in parentheses. Kept as printed."
+  },
+  {
+   "strip": "0219_00",
+   "printed": "ἀκαιρία, ἡ. (accents printed displaced under the line above)",
+   "probably_meant": "ἀκαιρία, ἡ.",
+   "note": "The breathings and accents of the line 'ακαιρια, η.' are printed below the line before it. I transcribed them in their proper place."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0219_02",
+   "text": "εἷς τοῦ καταλόγου",
+   "note": "The breathing on εἷς is small. I read it as rough (εἷς, 'one'); it could be smooth."
+  },
+  {
+   "strip": "0219_02",
+   "text": "αἰδώς, οῦς, ἡ.",
+   "note": "The genitive ending is printed with a circumflex only and no breathing. Kept as οῦς."
+  }
+ ]
+}

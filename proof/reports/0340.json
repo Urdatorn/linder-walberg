@@ -1,0 +1,63 @@
+{
+ "page": "0340",
+ "strips_done": 6,
+ "corrections": 62,
+ "misprints": [
+  {
+   "strip": "0340_00",
+   "printed": "πλατύπους, ποδος, ὁ, ἡ.",
+   "probably_meant": "ποδός",
+   "note": "No accent is printed on ποδος."
+  },
+  {
+   "strip": "0340_02",
+   "printed": "πλημμέλημα, τύ.",
+   "probably_meant": "τό",
+   "note": "The article is printed with υ instead of ο."
+  },
+  {
+   "strip": "0340_05",
+   "printed": "σύλησις, ἡ πόρθησις",
+   "probably_meant": "σύλησις, ἡ. πόρθησις",
+   "note": "There is no full stop after ἡ."
+  },
+  {
+   "strip": "0340_03",
+   "printed": "ἀνοτρόπους, οδος",
+   "probably_meant": "ὀδόντος / ἀνατρόπους?",
+   "note": "An unusual form kept as printed. οδος is printed unaccented."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0340_00",
+   "text": "Plethron, πλέθρον. τό.:",
+   "note": "The mark after πλέθρον looks like a full stop, though a comma would be expected. It may be a comma with a broken tail."
+  },
+  {
+   "strip": "0340_01",
+   "text": "ἀμελῶς ἔχειν",
+   "note": "The final ς is broken and looks like a comma or semicolon."
+  },
+  {
+   "strip": "0340_04",
+   "text": "συρφετός, ὁ.",
+   "note": "The τ is broken in the print and looks like ι."
+  },
+  {
+   "strip": "0340_04",
+   "text": "ληΐζεσθαι",
+   "note": "The accent sits between η and the diaeresis ι. It could be read as λήϊζεσθαι."
+  },
+  {
+   "strip": "0340_05",
+   "text": "λύπην ἔχειν ἔκ τινος: p. sig",
+   "note": "There is a space before the colon and no full stop is visible. It may be a broken \".:\"."
+  },
+  {
+   "strip": "0340_01",
+   "text": "δίκαιος, 3. εὐσεβής",
+   "note": "The stop after the second 3 is faint and has a small tail. It could be a comma."
+  }
+ ]
+}

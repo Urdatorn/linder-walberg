@@ -1,0 +1,47 @@
+{
+ "page": "0192",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0192_01",
+   "printed": "ἐπιλαβούσυς",
+   "probably_meant": "ἐπιλαβούσης",
+   "note": "Printed ending -συς in 'ἐπιλαβούσυς τῆς νυκτός'. Kept as printed."
+  },
+  {
+   "strip": "0192_02",
+   "printed": "hrandra",
+   "probably_meant": "hvarandra",
+   "note": "In 'döda, förgöra hrandra i.'. Kept as printed."
+  },
+  {
+   "strip": "0192_00",
+   "printed": "φαντασ α",
+   "probably_meant": "φαντασία",
+   "note": "The ί type is missing from the print (an empty gap under the accent). Transcribed as φαντασία."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0192_00",
+   "text": "φαντασία",
+   "note": "In the Inbillning entry the iota is missing from the print, leaving a gap. Transcribed as φαντασία."
+  },
+  {
+   "strip": "0192_04",
+   "text": "(καθ’ αὑτόν, ήν, ό)",
+   "note": "The marks over ήν and ό could be read as rough breathing plus acute (ἥν, ὅ). They are taken as the plain endings -ήν, -ό. The old OCR's 'ἦν, ὁ' is wrong in any case."
+  },
+  {
+   "strip": "0192_02",
+   "text": "ἀλλήλοις :",
+   "note": "The print shows a space before the colon, possibly because a full stop dropped out (.:). Copied with the space as printed."
+  },
+  {
+   "strip": "0192_03",
+   "text": "(m. afs. på beståndsdelarnes",
+   "note": "The first letter is cut off at the left edge of the scan. Read as 'afs.' to match the earlier 'm. afs.'; the old OCR had 'ifs.'."
+  }
+ ]
+}

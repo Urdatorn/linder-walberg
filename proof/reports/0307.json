@@ -1,0 +1,110 @@
+{
+ "page": "0307",
+ "strips_done": 6,
+ "corrections": 110,
+ "misprints": [
+  {
+   "strip": "0307_00",
+   "printed": "balla en o. sjödrabbning",
+   "probably_meant": "hålla en o. sjödrabbning",
+   "note": "b clearly printed instead of h, and the å has no ring"
+  },
+  {
+   "strip": "0307_00",
+   "printed": "(vanl. i neutr,),",
+   "probably_meant": "(vanl. i neutr.),",
+   "note": "comma printed for the abbreviation point"
+  },
+  {
+   "strip": "0307_01",
+   "printed": "εἰσορὰν",
+   "probably_meant": "εἰσορᾶν",
+   "note": "grave printed in place of circumflex"
+  },
+  {
+   "strip": "0307_02",
+   "printed": "ἀνεπάγγελετος",
+   "probably_meant": "ἀνεπάγγελτος",
+   "note": "extra ε"
+  },
+  {
+   "strip": "0307_02",
+   "printed": "ἀπρεπής, 2, αἰσχρός / ἀνελεύθερος, 2, ἀσχήμων",
+   "probably_meant": "2. (full stop)",
+   "note": "commas after the termination numbers, as printed"
+  },
+  {
+   "strip": "0307_03",
+   "printed": "ἀτριβης",
+   "probably_meant": "ἀτριβής",
+   "note": "no accent printed"
+  },
+  {
+   "strip": "0307_04",
+   "printed": "ρια, η.",
+   "probably_meant": "ρια, ἡ.",
+   "note": "article printed without breathing"
+  },
+  {
+   "strip": "0307_04",
+   "printed": "Obarmhertghet",
+   "probably_meant": "Obarmhertighet",
+   "note": "i missing in headword"
+  },
+  {
+   "strip": "0307_04",
+   "printed": "αὐτεξοίσιος",
+   "probably_meant": "αὐτεξούσιος",
+   "note": "ι for υ"
+  },
+  {
+   "strip": "0307_05",
+   "printed": "ἀδιανίητος",
+   "probably_meant": "ἀδιανόητος",
+   "note": "ι for ο"
+  },
+  {
+   "strip": "0307_05",
+   "printed": "ἀσύνετος, 2,",
+   "probably_meant": "ἀσύνετος, 2.",
+   "note": "comma ends the entry"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0307_03",
+   "text": "ἀνεπίληπτος",
+   "note": "In the print, τ looks like ι (ἀνεπίληπιος), probably because the type is broken. I transcribed it as τ."
+  },
+  {
+   "strip": "0307_03",
+   "text": "ἵβρις",
+   "note": "The letter looks like ι with rough breathing and acute, so I kept ἵβρις. It may be a broken υ (ὕβρις) or a misprint."
+  },
+  {
+   "strip": "0307_03",
+   "text": "Ὤασις",
+   "note": "The diacritic before Ω looks like smooth breathing plus acute. It could be a circumflex (Ὦασις)."
+  },
+  {
+   "strip": "0307_05",
+   "text": "χρῆσθαί",
+   "note": "The accent over η is damaged. I read it as a circumflex."
+  },
+  {
+   "strip": "0307_05",
+   "text": "δυσχερής",
+   "note": "The accent over η is faint or slanted and might be a grave."
+  },
+  {
+   "strip": "0307_05",
+   "text": "βαρύς, εία, ύ",
+   "note": "The accent on εια looks like an acute on ι. The book's usual form would be εῖα."
+  },
+  {
+   "strip": "0307_05",
+   "text": "(τινί).",
+   "note": "The closing parenthesis is broken or faint."
+  }
+ ]
+}

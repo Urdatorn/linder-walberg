@@ -1,0 +1,25 @@
+{
+ "page": "0300",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0300_04",
+   "printed": "öfverdritvet n.",
+   "probably_meant": "öfverdrifvet n.",
+   "note": "Under Noga, after περίεργος, 2. The scan clearly shows a t where the f belongs."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0300_01",
+   "text": "ἧλος, ὁ.",
+   "note": "The breathing and circumflex are cast as one ligature that is hard to read. I wrote it rough (ἧλος), which is the correct form."
+  },
+  {
+   "strip": "0300_04",
+   "text": "ἦ. ἦ που.",
+   "note": "The breathing and circumflex are cast as one glyph. I read smooth breathing with circumflex on both."
+  }
+ ]
+}

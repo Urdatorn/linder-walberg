@@ -1,0 +1,49 @@
+{
+ "page": "0234",
+ "strips_done": 6,
+ "corrections": 36,
+ "misprints": [
+  {
+   "strip": "0234_00",
+   "printed": "βορβυρυγή",
+   "probably_meant": "βορβορυγή",
+   "note": "Under Kurrning; the second syllable is printed with υ instead of ο."
+  },
+  {
+   "strip": "0234_00",
+   "printed": "δόκιμον εἰναι",
+   "probably_meant": "δόκιμον εἶναι",
+   "note": "Only a smooth breathing is visible, with no circumflex."
+  },
+  {
+   "strip": "0234_02",
+   "printed": "ψυκτήρ, ῆρος, o.",
+   "probably_meant": "ψυκτήρ, ῆρος, ὁ.",
+   "note": "The article is printed as an upright roman o with no breathing."
+  },
+  {
+   "strip": "0234_02",
+   "printed": "2) oeg.. ψυχρότης",
+   "probably_meant": "2) oeg., ψυχρότης",
+   "note": "Two full stops are printed after oeg."
+  },
+  {
+   "strip": "0234_02",
+   "printed": "πάγος, τό (stelfrusenhet)",
+   "probably_meant": "πάγος, ὁ",
+   "note": "πάγος is masculine, but the article printed is τό."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0234_00",
+   "text": "εἰναι",
+   "note": "The circumflex may have broken off rather than never been printed. I transcribed only the smooth breathing, which is all I can see."
+  },
+  {
+   "strip": "0234_02",
+   "text": "o.",
+   "note": "The glyph after ῆρος looks like a roman o (a misprint for ὁ). I wrote a Latin o."
+  }
+ ]
+}

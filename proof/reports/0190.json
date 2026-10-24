@@ -1,0 +1,75 @@
+{
+ "page": "0190",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0190_00",
+   "printed": "νοητίς, 3.",
+   "probably_meant": "νοητός, 3.",
+   "note": "Under Ideel, the print clearly shows ι with an acute accent followed by ς."
+  },
+  {
+   "strip": "0190_01",
+   "printed": "μεταχείζεσθαι",
+   "probably_meant": "μεταχειρίζεσθαι",
+   "note": "Under Idka, the syllable ρι is missing in the print (μετα- at the line end, χείζεσθαι on the next line)."
+  },
+  {
+   "strip": "0190_04",
+   "printed": "ἐκ, ἀπο τούτου τοῦ χρόνου",
+   "probably_meant": "ἀπὸ τούτου",
+   "note": "ἀπο is printed with a breathing and no accent."
+  },
+  {
+   "strip": "0190_04",
+   "printed": "ἀπὸ τοὺδε",
+   "probably_meant": "ἀπὸ τοῦδε",
+   "note": "The accent on υ looks like a grave, not the clear circumflex of the nearby τοῦ. The later 'τό ἀπὸ τοῦδε' has a circumflex."
+  },
+  {
+   "strip": "0190_04",
+   "printed": "i. nu, τό ἀπὸ τοῦδε",
+   "probably_meant": "τὸ ἀπὸ τοῦδε",
+   "note": "The article is printed with an acute, not a grave."
+  },
+  {
+   "strip": "0190_04",
+   "printed": "blifva i. rik fattig",
+   "probably_meant": "blifva i. rik fattig (comma missing?)",
+   "note": "No punctuation between rik and fattig (fat-tig is broken at the line end)."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0190_04",
+   "text": "γίγνεσθαι",
+   "note": "The ε in 'πένητα γίγνεσθαι' is broken type and shows only as a dot. Read as ε."
+  },
+  {
+   "strip": "0190_04",
+   "text": "ἔξω αὐτοῦ εἶναι",
+   "note": "No breathing is visible on αυτου, so it could be αὑτοῦ. Kept αὐτοῦ."
+  },
+  {
+   "strip": "0190_04",
+   "text": "i. dna tid. ἐκ, ἀπο",
+   "note": "The mark after ἐκ could be a comma or a full stop. Read as a comma, matching 'ἐκ, ἀπὸ τῆσδε' below."
+  },
+  {
+   "strip": "0190_05",
+   "text": "σπουδή, ἡ",
+   "note": "The mark after σπουδή is small and could be a full stop. Read as a comma, the usual form before an article."
+  },
+  {
+   "strip": "0190_05",
+   "text": "(κατα-, συγ)κλείειν",
+   "note": "The hyphen after 'συγ)' falls at the line end. Treated as a line-break hyphen and dropped."
+  },
+  {
+   "strip": "0190_00",
+   "text": "οἷος οὔπω",
+   "note": "The breathing on οἷος is too small to tell. Kept the rough breathing."
+  }
+ ]
+}

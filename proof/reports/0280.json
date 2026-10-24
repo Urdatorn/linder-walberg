@@ -1,0 +1,42 @@
+{
+ "page": "0280",
+ "strips_done": 6,
+ "corrections": 50,
+ "misprints": [
+  {
+   "strip": "0280_05",
+   "printed": "οξύγαλα",
+   "probably_meant": "ὀξύγαλα",
+   "note": "No smooth breathing on the initial omicron in the print; kept as printed."
+  },
+  {
+   "strip": "0280_03",
+   "printed": "Uppmjuka::",
+   "probably_meant": "Uppmjuka.:",
+   "note": "The print shows two colons after Uppmjuka where the book's usual separator is '.:'; kept as printed."
+  },
+  {
+   "strip": "0280_05",
+   "printed": "förorsaka m,",
+   "probably_meant": "förorsaka m.,",
+   "note": "The period after the abbreviation m is missing in the print (there is a space before the comma); kept without the period."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0280_02",
+   "text": "ἁμαρτάνειν (3x)",
+   "note": "The OCR had a smooth breathing. At 450 dpi the mark looks like a rough breathing, and ἁμαρτάνειν is the correct form, so I changed all three standalone instances to ἁ. ἀφαμαρτάνειν keeps its smooth breathing."
+  },
+  {
+   "strip": "0280_03",
+   "text": "s. d. oo.",
+   "note": "The period after 'd' is very faint and set low, but it seems to be there."
+  },
+  {
+   "strip": "0280_05",
+   "text": "γαλακτοτροφεῖν.:",
+   "note": "There is a tiny dot at the baseline before the colon, so I read it as '.:'. It may be a dust speck."
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "page": "0319",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0319_00",
+   "printed": "περικλέκειν",
+   "probably_meant": "περιπλέκειν",
+   "note": "Omfläta; the print clearly has κ, not π"
+  },
+  {
+   "strip": "0319_00",
+   "printed": "ουσα",
+   "probably_meant": "οὖσα",
+   "note": "Omfångsrik; printed without breathing or accent"
+  },
+  {
+   "strip": "0319_03",
+   "printed": "(περιφράττειν. ... περιοικοδομεῖν.:",
+   "probably_meant": "no parenthesis, or a closing one",
+   "note": "Omhägna; the opening parenthesis is never closed"
+  },
+  {
+   "strip": "0319_03",
+   "printed": "ειργνύναι",
+   "probably_meant": "εἰργνύναι",
+   "note": "no breathing visible on the ε"
+  },
+  {
+   "strip": "0319_03",
+   "printed": "θριγκός, ὁ",
+   "probably_meant": "θριγκός, ὁ.",
+   "note": "the entry ends without a full stop"
+  },
+  {
+   "strip": "0319_04",
+   "printed": "ἄπραπτον",
+   "probably_meant": "ἄπρακτον",
+   "note": "Omintetgöra"
+  },
+  {
+   "strip": "0319_05",
+   "printed": "κύκλω",
+   "probably_meant": "κύκλῳ",
+   "note": "no iota subscript is visible"
+  },
+  {
+   "strip": "0319_05",
+   "printed": "o. s v.",
+   "probably_meant": "o. s. v.",
+   "note": "the full stop after s is missing"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0319_00",
+   "text": "γονάτων",
+   "note": "The α is broken (it looks like ί) and the final ν is cut off at the scan edge, so the reading is inferred"
+  },
+  {
+   "strip": "0319_01",
+   "text": "ἀμφί",
+   "note": "The φ is broken and the OCR read it as γ"
+  },
+  {
+   "strip": "0319_02",
+   "text": "φυλάττειν",
+   "note": "The φ is broken and looks like ψ"
+  },
+  {
+   "strip": "0319_03",
+   "text": "ειργνύναι",
+   "note": "No breathing shows; it may be lost type rather than a misprint"
+  },
+  {
+   "strip": "0319_05",
+   "text": "ἀπόλλυσθαι.",
+   "note": "A stray mark after the full stop was taken as dust"
+  }
+ ]
+}

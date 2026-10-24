@@ -1,0 +1,36 @@
+{
+ "page": "0239",
+ "strips_done": 7,
+ "corrections": 64,
+ "misprints": [
+  {
+   "strip": "0239_01",
+   "printed": "σις, η.",
+   "probably_meant": "σις, ἡ.",
+   "note": "The article after παρόρμησις is printed without a rough breathing."
+  },
+  {
+   "strip": "0239_01",
+   "printed": "σκάνδιξ, ικος l, σκάνδυξ",
+   "probably_meant": "σκάνδιξ, ικος l. σκάνδυξ",
+   "note": "The print has a comma after 'l' where 'l.' is meant."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0239_02",
+   "text": "ἀνόσιος",
+   "note": "Kötted entry: the mark over α is broken into a blob. It is read as a smooth breathing; the old OCR had ἄ."
+  },
+  {
+   "strip": "0239_03",
+   "text": "κοπίς",
+   "note": "Köttknif entry: the accent over ι is small. It is read as acute; the old OCR had grave (κοπὶς)."
+  },
+  {
+   "strip": "0239_01",
+   "text": "αἱ",
+   "note": "Körport entry: the single mark over ι is read as a rough breathing with no accent; the old OCR had αἵ."
+  }
+ ]
+}

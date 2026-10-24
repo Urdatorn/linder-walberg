@@ -1,0 +1,42 @@
+{
+ "page": "0197",
+ "strips_done": 6,
+ "corrections": 42,
+ "misprints": [
+  {
+   "strip": "0197_02",
+   "printed": "ἁλμεύεν",
+   "probably_meant": "ἁλμεύειν",
+   "note": "Infinitive printed without its iota."
+  },
+  {
+   "strip": "0197_05",
+   "printed": "λένων",
+   "probably_meant": "λέγων",
+   "note": "In 'διὰ γραμμάτων λένων τάδε' the second letter has no descender, so it reads as ν, not γ."
+  },
+  {
+   "strip": "0197_02",
+   "printed": "ἅλισις",
+   "probably_meant": "ἅλισις (unattested; perhaps ἅλσις)",
+   "note": "Printed clearly as ἅλισις. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0197_04",
+   "text": "τὴν ναῦν",
+   "note": "The accents on the last line of the Inskeppa entry fall at the cut between the two bands and are barely visible. Accents filled in to match the earlier 'τὴν ναῦν'."
+  },
+  {
+   "strip": "0197_05",
+   "text": "ἐπιγραφή, ἡ.:",
+   "note": "The type for ἡ is broken (a blot), but it is read as ἡ."
+  },
+  {
+   "strip": "0197_03",
+   "text": "i. i ngt",
+   "note": "The second i is damaged type with a stray mark. Read as a plain i."
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "page": "0295",
+ "strips_done": 6,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0295_04",
+   "printed": "τὰ ἐν τῇ φυσει",
+   "probably_meant": "τὰ ἐν τῇ φύσει",
+   "note": "Printed without an accent, hyphenated across lines as φυ-σει"
+  },
+  {
+   "strip": "0295_02",
+   "printed": "εὐχαριστία, ἡ.:, gifva",
+   "probably_meant": "εὐχαριστία, ἡ.: gifva",
+   "note": "Stray comma after .: in the print"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0295_01",
+   "text": "ἆσμα νυκτερινόν",
+   "note": "The diacritic over the alpha is blotched. It reads as smooth breathing plus circumflex. No iota subscript is visible."
+  },
+  {
+   "strip": "0295_00",
+   "text": "νυκτοφύλακες, οἱ",
+   "note": "The breathing over the iota is small. It is read as rough."
+  }
+ ]
+}

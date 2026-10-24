@@ -1,0 +1,82 @@
+{
+ "page": "0263",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0263_01",
+   "printed": "πρωτόπειρα, -πειρία, η.",
+   "probably_meant": "ἡ",
+   "note": "Article printed without its rough breathing."
+  },
+  {
+   "strip": "0263_02",
+   "printed": "διφωνία",
+   "probably_meant": "διαφωνία",
+   "note": "Printed clearly with φ and with no α."
+  },
+  {
+   "strip": "0263_03",
+   "printed": "ὁ καθ’ ἑαυτον",
+   "probably_meant": "ἑαυτόν",
+   "note": "Printed without an accent. In 0263_04 (Läsvurm) the same phrase is printed ἑαυτὸν."
+  },
+  {
+   "strip": "0263_03",
+   "printed": "gifva ngu en l.",
+   "probably_meant": "ngn",
+   "note": "The last letter looks like a turned n."
+  },
+  {
+   "strip": "0263_04",
+   "printed": "ποδος, ὁ",
+   "probably_meant": "ποδός",
+   "note": "Printed without an accent."
+  },
+  {
+   "strip": "0263_04",
+   "printed": "(el καλόπους)",
+   "probably_meant": "(el. καλόπους)",
+   "note": "No full stop after el."
+  },
+  {
+   "strip": "0263_05",
+   "printed": "εὐἀπάτητος",
+   "probably_meant": "εὐαπάτητος",
+   "note": "Hyphenated across lines as εὐ-|ἀπάτητος, with a smooth breathing on the α after the break. Kept as printed, without the hyphen."
+  },
+  {
+   "strip": "0263_05",
+   "printed": "εὐμαρής, 2 εὐπετής, 2.",
+   "probably_meant": "εὐμαρής, 2. εὐπετής, 2.",
+   "note": "No full stop after the first 2."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0263_00",
+   "text": "äfv. εἴς τινος",
+   "note": "Two marks over the ι at the right edge. Read as smooth breathing plus acute (accented before the enclitic)."
+  },
+  {
+   "strip": "0263_02",
+   "text": "g) föreläsa, διηγεῖσθαι",
+   "note": "There is a raised tick before the comma after föreläsa. I took it for a stray mark and left it out."
+  },
+  {
+   "strip": "0263_02",
+   "text": "ὃ ἂν ᾖ οἷόν τε",
+   "note": "The diacritics on the ι of οἷόν are damaged. Read as rough breathing plus circumflex."
+  },
+  {
+   "strip": "0263_02",
+   "text": "ἀνάγνωσις (Läsande 2)",
+   "note": "The smooth breathing is printed out of place, after the α. Transcribed as ἀνάγνωσις."
+  },
+  {
+   "strip": "0263_03",
+   "text": "ἄσκησις ἡ εἰς ἀνάγνωσιν",
+   "note": "The mark over the ι of εἰς looks a little like a circumflex as well as a smooth breathing. Read as εἰς."
+  }
+ ]
+}

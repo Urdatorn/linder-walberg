@@ -1,0 +1,42 @@
+{
+ "page": "0249",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0249_01",
+   "printed": "göra l:t intryck på ugn",
+   "probably_meant": "på ngn",
+   "note": "Turned type: 'ugn' printed clearly, kept as printed."
+  },
+  {
+   "strip": "0249_00",
+   "printed": "ζωστήρ, ἦρος",
+   "probably_meant": "ζωστήρ, ῆρος",
+   "note": "The genitive ending appears to carry a breathing under the circumflex. Kept as ἦρος."
+  },
+  {
+   "strip": "0249_02",
+   "printed": "ἔκ τινος",
+   "probably_meant": "ἔκ τινος / ἐκ τινος",
+   "note": "An accented ἔκ before an enclitic, as printed. Probably not an error; noted for review."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0249_00",
+   "text": "ἦρος",
+   "note": "There is a small mark under the circumflex on η, read as a smooth breathing. It could be only part of the circumflex, which would give ῆρος."
+  },
+  {
+   "strip": "0249_00",
+   "text": "ἀκμής(ῆτος)",
+   "note": "No breathing is visible under the circumflex, so I kept ῆτος."
+  },
+  {
+   "strip": "0249_05",
+   "text": "l. aflägse",
+   "note": "The column ends with 'aflägse' and no hyphen, and the next page continues 'fr. ngt'. I read it as the complete word aflägse, so there is no hyphen and no tilde."
+  }
+ ]
+}

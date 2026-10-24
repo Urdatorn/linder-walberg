@@ -1,0 +1,61 @@
+{
+ "page": "0288",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0288_00",
+   "printed": "σποπὸν",
+   "probably_meant": "σκοπὸν",
+   "note": "utsätta ett m., σποπὸν (προ)τιθέναι; π printed for κ"
+  },
+  {
+   "strip": "0288_01",
+   "printed": "γνῶμης",
+   "probably_meant": "γνώμης",
+   "note": "circumflex printed on ω (γνῶ-μης across line break)"
+  },
+  {
+   "strip": "0288_02",
+   "printed": "μέτρρν",
+   "probably_meant": "μέτρον",
+   "note": "Målfyllig: τὸ νόμιμον μέτρρν ἔχων; ρ printed for ο"
+  },
+  {
+   "strip": "0288_03",
+   "printed": "δενπνίζειν",
+   "probably_meant": "δειπνίζειν",
+   "note": "ν printed for ι"
+  },
+  {
+   "strip": "0288_04",
+   "printed": "περί τι l περί",
+   "probably_meant": "περί τι l. περί",
+   "note": "no full stop after the abbreviation l."
+  },
+  {
+   "strip": "0288_04",
+   "printed": "ὥς",
+   "probably_meant": "ὡς",
+   "note": "l. ὥς, ὅπως: printed with rough breathing and acute"
+  },
+  {
+   "strip": "0288_05",
+   "printed": "Ιανουάριος",
+   "probably_meant": "Ἰανουάριος",
+   "note": "no breathing visible on the capital Ι"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0288_01",
+   "text": "ἀποτυγχάνειν",
+   "note": "The first instance (förfela m:t, ἀποτυγχάνειν) has a mark over α that looks like a grave accent rather than a smooth breathing. It is probably a damaged smooth breathing, so I kept ἀ."
+  },
+  {
+   "strip": "0288_01",
+   "text": "εἶναί",
+   "note": "In ἐπὶ τῷ τέλει εἶναί τινος the mark over ι looks like a flat circumflex with no clear breathing. I kept εἶναί."
+  }
+ ]
+}

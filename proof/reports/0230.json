@@ -1,0 +1,36 @@
+{
+ "page": "0230",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0230_04",
+   "printed": "ἑλίττεσθοι",
+   "probably_meant": "ἑλίττεσθαι",
+   "note": "Printed with the ending -σθοι instead of -σθαι under Krumbugta 1)."
+  },
+  {
+   "strip": "0230_01",
+   "printed": "σῶμα ἔχων, ουσα, ον",
+   "probably_meant": "σῶμα ἔχουσα / ἔχων, ουσα, ον (unaccented endings are normal)",
+   "note": "The termination ουσα is printed without an accent. This is normal for endings, so it may not be an error. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0230_00",
+   "text": "σωματοποιία",
+   "note": "There may be a diaeresis on the ι (σωματοποιΐα), but the scan shows only an acute. Kept as σωματοποιία."
+  },
+  {
+   "strip": "0230_01",
+   "text": "κακοφυΐα",
+   "note": "The ι seems to carry both a diaeresis and an acute. Read as ΐ."
+  },
+  {
+   "strip": "0230_03",
+   "text": "κέραμος, ὁ. κέραμα",
+   "note": "The breathing on ὁ under Krukmakarkäril is faint or broken. Read as ὁ."
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "page": "0266",
+ "strips_done": 7,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0266_05",
+   "printed": "ἰσχνασία, ὁ",
+   "probably_meant": "ἰσχνασία, ἡ",
+   "note": "wrong article printed for a feminine noun"
+  },
+  {
+   "strip": "0266_05",
+   "printed": "Mager, 1) eg., ... b) om jordmån",
+   "probably_meant": "a) eg. / b) om jordmån, or 1) ... 1b)",
+   "note": "sense 'b)' follows '1)' with no 'a)' printed"
+  },
+  {
+   "strip": "0266_05",
+   "printed": "μαγευτής, οῦ, ὁ",
+   "probably_meant": "μαγευτής, οῦ, ὁ (genitive ending written with circumflex as usual for oxytone)",
+   "note": "kept as printed; normal for this book, listed only because the hint flagged μαγευτής"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0266_06",
+   "text": "σοφιστής, οῦ, ὁ.",
+   "note": "accents sit at the cut between the two bands; the punctuation after ου could be a comma or a full stop"
+  },
+  {
+   "strip": "0266_03",
+   "text": "κουφότης, ἡ. τὸ κοῦφον",
+   "note": "the dot after ἡ sits a little high and could be a raised dot (·); written as '.'"
+  },
+  {
+   "strip": "0266_01",
+   "text": "ἀκολασία",
+   "note": "the mark over the initial alpha is odd; read as a smooth breathing"
+  },
+  {
+   "strip": "0266_05",
+   "text": "τραχύς, εῖα, ύ.",
+   "note": "the mark on the final ύ looks like an acute with no breathing; written as printed"
+  },
+  {
+   "strip": "0266_00",
+   "text": "~ 2 (mör, t. ex. kött).",
+   "note": "the print has no ')' after 2, so it is read as a termination number carried over from the previous page, not a sense number"
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "page": "0207",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [],
+ "uncertain": [
+  {
+   "strip": "0207_01",
+   "text": "δωμάτιον, τό. διαι-",
+   "note": "The second τό looks like 'ιό' because the crossbar of the τ is broken. I read it as τό."
+  },
+  {
+   "strip": "0207_02",
+   "text": "θεράπων, οντος, ὁ",
+   "note": "The ο is a heavy ink blot. No accent is visible, so I wrote 'οντος' with no accent."
+  },
+  {
+   "strip": "0207_03",
+   "text": "ἧλιξ, κος",
+   "note": "There is a circumflex over a breathing, but the breathing is too blotted to see which way it faces. I read it as rough breathing (ἧ)."
+  },
+  {
+   "strip": "0207_05",
+   "text": "γραμματοφυλακεῖον, τό.",
+   "note": "The 'το.' at the top of band 1 has no accent over it. A stray accent mark sits just above it, under 'Kansli', so the accent seems to have shifted up a line. I wrote τό."
+  }
+ ]
+}

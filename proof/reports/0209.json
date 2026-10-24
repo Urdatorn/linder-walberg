@@ -1,0 +1,60 @@
+{
+ "page": "0209",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0209_03",
+   "printed": "sjfva",
+   "probably_meant": "sjelfva",
+   "note": "Letters dropped in the print ('s. af sig sjfva böjas')."
+  },
+  {
+   "strip": "0209_03",
+   "printed": "hrtannat",
+   "probably_meant": "hvartannat",
+   "note": "'k. om hrtannat' as printed. It may be a deliberate abbreviation."
+  },
+  {
+   "strip": "0209_04",
+   "printed": "Kastanie, 1) trädet, ... b) frukten",
+   "probably_meant": "2) frukten",
+   "note": "The sense numbering mixes '1)' and 'b)'."
+  },
+  {
+   "strip": "0209_05",
+   "printed": "πλύον l. πλέον",
+   "probably_meant": "πτύον l. πτέον",
+   "note": "Winnowing-shovel. The print clearly shows λ in both words."
+  },
+  {
+   "strip": "0209_05",
+   "printed": "καταρροώδης, 2,",
+   "probably_meant": "καταρροώδης, 2.",
+   "note": "The entry ends with a comma instead of a full stop."
+  },
+  {
+   "strip": "0209_01",
+   "printed": "ἐνεργής. 2.",
+   "probably_meant": "ἐνεργής, 2.",
+   "note": "Full stop where a comma would normally come before the termination number."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0209_04",
+   "text": "λιθοβόλος μηχανή, ἡ.",
+   "note": "Ink blot over the article ἡ after μηχανή. Read as ἡ from context."
+  },
+  {
+   "strip": "0209_00",
+   "text": "ἐσθής",
+   "note": "The breathing and accent are small. Read as a smooth breathing with an acute accent."
+  },
+  {
+   "strip": "0209_04",
+   "text": "ὀρχοτομεῖν",
+   "note": "The circumflex on the last syllable is partly blotted."
+  }
+ ]
+}

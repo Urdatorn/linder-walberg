@@ -1,0 +1,48 @@
+{
+ "page": "0313",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0313_00",
+   "printed": "χεχωρίσθαι",
+   "probably_meant": "κεχωρίσθαι",
+   "note": "First letter has the χ descender in the print."
+  },
+  {
+   "strip": "0313_03",
+   "printed": "ασαφής",
+   "probably_meant": "ἀσαφής",
+   "note": "Printed with no breathing."
+  },
+  {
+   "strip": "0313_04",
+   "printed": "bortkicka",
+   "probably_meant": "bortskicka",
+   "note": "The s is missing in the print. The t is also partly broken."
+  },
+  {
+   "strip": "0313_02",
+   "printed": "Oförmodad'",
+   "probably_meant": "Oförmodad(t)",
+   "note": "Headword is printed with an apostrophe-like mark after it. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0313_00",
+   "text": "ἀναρμοστεῖν",
+   "note": "At low zoom it looks like 'ἀναρμοστιεῖν'. At high zoom it reads as στ + ε + ῖ, so the old OCR's extra ι was dropped."
+  },
+  {
+   "strip": "0313_01",
+   "text": "εῖσα, έν",
+   "note": "There is dust or a stray mark between 'εῖσα,' and 'έν'. Read as the endings -εῖσα, -έν with no breathings."
+  },
+  {
+   "strip": "0313_01",
+   "text": "ἐγῷμαι",
+   "note": "The print shows a circumflex and an iota subscript (ἐγῷμαι), not an acute."
+  }
+ ]
+}

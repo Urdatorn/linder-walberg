@@ -1,0 +1,78 @@
+{
+ "page": "0342",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0342_00",
+   "printed": "ψοφειν",
+   "probably_meant": "ψοφεῖν",
+   "note": "No circumflex visible on the εi at the start of band 1."
+  },
+  {
+   "strip": "0342_00",
+   "printed": "förse m. p.. πυλοῦν",
+   "probably_meant": "förse m. p., πυλοῦν",
+   "note": "Two full stops are printed after p."
+  },
+  {
+   "strip": "0342_01",
+   "printed": "τάς πύλας",
+   "probably_meant": "τὰς πύλας",
+   "note": "Acute instead of grave before a following word."
+  },
+  {
+   "strip": "0342_02",
+   "printed": "ὑπάρξις",
+   "probably_meant": "ὕπαρξις",
+   "note": "The accent is printed on the alpha."
+  },
+  {
+   "strip": "0342_04",
+   "printed": "η τῆς κοινῆς",
+   "probably_meant": "ἡ τῆς κοινῆς",
+   "note": "The article is printed without breathing or accent."
+  },
+  {
+   "strip": "0342_04",
+   "printed": "κυβόκυβος. ὁ.",
+   "probably_meant": "κυβόκυβος, ὁ.",
+   "note": "A full stop is printed where a comma is expected."
+  },
+  {
+   "strip": "0342_04",
+   "printed": "φυσητήρ, ῆρος, ὁ,",
+   "probably_meant": "φυσητήρ, ῆρος, ὁ.",
+   "note": "The entry ends with a comma."
+  },
+  {
+   "strip": "0342_05",
+   "printed": "μεγαλοπρέπεια, ἡ πολυτέλεια",
+   "probably_meant": "μεγαλοπρέπεια, ἡ. πολυτέλεια",
+   "note": "No full stop is printed after ἡ."
+  },
+  {
+   "strip": "0342_05",
+   "printed": "οὐδενός ἄξιος",
+   "probably_meant": "οὐδενὸς ἄξιος",
+   "note": "Acute instead of grave before a following word."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0342_05",
+   "text": "p. bort",
+   "note": "The full stop after p is very faint, so it may be missing in print."
+  },
+  {
+   "strip": "0342_05",
+   "text": "Prackare, / πλεονεξία, ἡ. / στολή, ἡ.",
+   "note": "The marks look like commas with broken tails, or possibly full stops. They are written as commas."
+  },
+  {
+   "strip": "0342_02",
+   "text": "ἀπαγορευτικός),",
+   "note": "The closing parenthesis is broken and fused with the comma."
+  }
+ ]
+}

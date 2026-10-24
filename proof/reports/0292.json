@@ -1,0 +1,37 @@
+{
+ "page": "0292",
+ "strips_done": 6,
+ "corrections": 39,
+ "misprints": [
+  {
+   "strip": "0292_05",
+   "printed": "κνέφας (ἐπ ἐρχεται.",
+   "probably_meant": "κνέφας (ἐπ)έρχεται.",
+   "note": "The opening parenthesis is never closed, and ἐρχεται carries its own breathing."
+  },
+  {
+   "strip": "0292_01",
+   "printed": "så — s. m.t",
+   "probably_meant": "så — s. m:t",
+   "note": "Printed with a full stop where the book elsewhere has the colon of m:t."
+  },
+  {
+   "strip": "0292_05",
+   "printed": "Möta, 1) eg., ... b) mötas",
+   "probably_meant": "a) ... b) mötas",
+   "note": "Sense b) is printed with no a) before it."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0292_04",
+   "text": "κυανοῦς, ῆ, οῦν",
+   "note": "The endings show a circumflex and no visible breathing, so they are transcribed as ῆ and οῦν. The same reading was used for πορφυροῦς, ᾶ, οῦν in strip 0292_05."
+  },
+  {
+   "strip": "0292_03",
+   "text": "καταθραύειν συντρίβειν",
+   "note": "No punctuation is visible after καταθραύειν at the end of the line. It is kept as printed."
+  }
+ ]
+}

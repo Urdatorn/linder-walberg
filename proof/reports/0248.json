@@ -1,0 +1,48 @@
+{
+ "page": "0248",
+ "strips_done": 6,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0248_01",
+   "printed": "ἐλαττοῦσδαι",
+   "probably_meant": "ἐλαττοῦσθαι",
+   "note": "δ printed for θ"
+  },
+  {
+   "strip": "0248_03",
+   "printed": "ἅρπη, ἡ skära).",
+   "probably_meant": "ἅρπη, ἡ (skära).",
+   "note": "No opening parenthesis is printed. The closing one is printed but broken."
+  },
+  {
+   "strip": "0248_00",
+   "printed": "Lida, I) känna smärta",
+   "probably_meant": "Lida, 1) känna smärta",
+   "note": "Capital I printed where the sense number should be 1; the next sense is 2) in strip 0248_01"
+  },
+  {
+   "strip": "0248_04",
+   "printed": "ἀβίοτος",
+   "probably_meant": "ἀβίωτος",
+   "note": "Printed with omicron"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0248_02",
+   "text": "ἄσωτος, 2.",
+   "note": "The punctuation after ἄσωτος is cut off at the right edge of the scan. I read it as a comma."
+  },
+  {
+   "strip": "0248_03",
+   "text": "ἀκολασία",
+   "note": "Hyphenated as ἀκολα-/σία. The first letter of the second line is clipped by the scan margin. σ is most likely."
+  },
+  {
+   "strip": "0248_02",
+   "text": "πηνίκ’. ἐστὶ",
+   "note": "A dot really is printed after the apostrophe, so I kept it."
+  }
+ ]
+}

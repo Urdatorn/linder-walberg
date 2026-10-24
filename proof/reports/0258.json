@@ -1,0 +1,53 @@
+{
+ "page": "0258",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0258_01",
+   "printed": "παρακούειν el παραμελεῖν",
+   "probably_meant": "παρακούειν el. παραμελεῖν",
+   "note": "The abbreviation 'el' is printed without its full stop."
+  },
+  {
+   "strip": "0258_02",
+   "printed": "παιθόμενον ἔχειν τινά",
+   "probably_meant": "πειθόμενον ἔχειν τινά",
+   "note": "αι is printed where ει is expected."
+  },
+  {
+   "strip": "0258_04",
+   "printed": "Lyrisk. λυρικίς, 3.",
+   "probably_meant": "Lyrisk, λυρικός, 3.",
+   "note": "There is a full stop after the headword, and the letter before ς looks like ί, not ό. This may be broken or wrong-font type."
+  },
+  {
+   "strip": "0258_05",
+   "printed": "Lysande, subst , αὐγή",
+   "probably_meant": "Lysande, subst., αὐγή",
+   "note": "The full stop after 'subst' is missing. A space stands before the comma."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0258_04",
+   "text": "Lyrisk. λυρικίς",
+   "note": "It is unclear whether the headword is followed by a full stop or a broken comma, and whether the Greek letter is ί or a damaged ό. I kept what the scan appears to show."
+  },
+  {
+   "strip": "0258_02",
+   "text": "μετεωρίζειν.:",
+   "note": "There is a faint dot before the colon, so I read it as '.:'."
+  },
+  {
+   "strip": "0258_03",
+   "text": "λαμπτήρ, ῆρος",
+   "note": "The ending fragment shows only a circumflex and no breathing mark."
+  },
+  {
+   "strip": "0258_03",
+   "text": "ὀργαί, αἱ.",
+   "note": "The mark over the ι of αἱ is small and could be read as a circumflex. I took it to be a rough breathing."
+  }
+ ]
+}

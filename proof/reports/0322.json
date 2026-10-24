@@ -1,0 +1,58 @@
+{
+ "page": "0322",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0322_02",
+   "printed": "(otalig)..:",
+   "probably_meant": "(otalig).:",
+   "note": "Doubled full stop before the colon in the print; kept as printed."
+  },
+  {
+   "strip": "0322_04",
+   "printed": "κακά l. κακῶς",
+   "probably_meant": "κακὰ l. κακῶς",
+   "note": "Printed with an acute where a grave is expected (mid-phrase, before 'l.'). Kept."
+  },
+  {
+   "strip": "0322_03",
+   "printed": "ἐπιθέσθαι",
+   "probably_meant": "ἐπιθέσθαι",
+   "note": "Kept as printed. The old OCR read ἐπιθίσθαι."
+  },
+  {
+   "strip": "0322_05",
+   "printed": "εἰκῆ",
+   "probably_meant": "εἰκῇ",
+   "note": "No iota subscript can be seen in the print."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0322_00",
+   "text": "ἑλιγμός, ... πολλοὺς ἑλιγμοὺς",
+   "note": "The breathing on epsilon is small and the first instance is split across a line break. I read it as rough (ἑ), which is the correct form, but it could be smooth."
+  },
+  {
+   "strip": "0322_02",
+   "text": "ἀσημείωτος, 2. ἀνεπισήμαντος",
+   "note": "A blot after '2.' could be a broken comma or colon. I transcribed it as '2.' alone."
+  },
+  {
+   "strip": "0322_03",
+   "text": "ἀλλόκοτος, 2,",
+   "note": "The mark after ἀλλόκοτος is broken. It is more likely a comma than a full stop."
+  },
+  {
+   "strip": "0322_05",
+   "text": "ὄνυξ, υχος, ὁ.",
+   "note": "The mark after υχος is a low, faint dot that might be a full stop. I read it as a comma."
+  },
+  {
+   "strip": "0322_04",
+   "text": "(κατ)ἐλεῶ",
+   "note": "Printed '(κατ)-' at the end of the line, then 'ἐλεῶ' with a smooth breathing. I joined them without the hyphen and kept the printed breathing."
+  }
+ ]
+}

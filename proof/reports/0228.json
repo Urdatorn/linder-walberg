@@ -1,0 +1,42 @@
+{
+ "page": "0228",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0228_01",
+   "printed": "Kringpålniug",
+   "probably_meant": "Kringpålning",
+   "note": "Headword printed with a turned n (u) in the letterspaced type"
+  },
+  {
+   "strip": "0228_05",
+   "printed": "Kringsätta. περιτιθέναι.",
+   "probably_meant": "Kringsätta, περιτιθέναι.",
+   "note": "Full stop instead of comma after the headword"
+  },
+  {
+   "strip": "0228_04",
+   "printed": "περι-. ἀμφιελίττειν",
+   "probably_meant": "περι-, ἀμφιελίττειν",
+   "note": "Mark after περι- looks like a full stop where a comma is expected"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0228_04",
+   "text": "περι-.",
+   "note": "The mark after περι- in Kringsvepa is small and could be a broken comma; transcribed as a full stop"
+  },
+  {
+   "strip": "0228_03",
+   "text": "περιρραίνεσθαι.",
+   "note": "The final full stop is very faint"
+  },
+  {
+   "strip": "0228_02",
+   "text": "δῖνος",
+   "note": "Read as δῖνος; the circumflex on ι is small"
+  }
+ ]
+}

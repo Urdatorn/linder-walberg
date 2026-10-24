@@ -1,0 +1,71 @@
+{
+ "page": "0337",
+ "strips_done": 6,
+ "corrections": 70,
+ "misprints": [
+  {
+   "strip": "0337_00",
+   "printed": "ὕστρακον",
+   "probably_meant": "ὄστρακον",
+   "note": "Perlemor: upsilon with rough breathing and acute printed clearly."
+  },
+  {
+   "strip": "0337_01",
+   "printed": "ἄρδρες ἄρχοντες",
+   "probably_meant": "ἄνδρες ἄρχοντες",
+   "note": "furstliga p:er: rho printed instead of nu."
+  },
+  {
+   "strip": "0337_02",
+   "printed": "μὴ σκωπεῖν τινα",
+   "probably_meant": "μὴ σκοπεῖν τινα",
+   "note": "omega printed instead of omicron."
+  },
+  {
+   "strip": "0337_02",
+   "printed": "ὅστις ἐστίν,:",
+   "probably_meant": "ὅστις ἐστίν.:",
+   "note": "comma followed by colon, as printed."
+  },
+  {
+   "strip": "0337_03",
+   "printed": "σκηνοφραφία",
+   "probably_meant": "σκηνογραφία",
+   "note": "phi printed for gamma (σκηνοφρα-φία across the line break)."
+  },
+  {
+   "strip": "0337_05",
+   "printed": "-gisk, φιλόλογος, ὁ.",
+   "probably_meant": "-gisk, φιλολογικός, 3.",
+   "note": "The adjective is glossed with the noun and article. Kept as printed."
+  },
+  {
+   "strip": "0337_05",
+   "printed": "2) fig.. βραδυτής",
+   "probably_meant": "2) fig.: βραδυτής",
+   "note": "two baseline dots after fig."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0337_00",
+   "text": "fr. p. till p.",
+   "note": "The period after the first p is a faint dot. It could be dust."
+  },
+  {
+   "strip": "0337_01",
+   "text": "Persjern, ἶπος, ὁ.",
+   "note": "The diacritic on the iota is a compact mark, read as smooth breathing plus circumflex. It could be smooth breathing plus acute (ἴπος, the standard form)."
+  },
+  {
+   "strip": "0337_01",
+   "text": "Pers, ἴπωσις",
+   "note": "The breathing is fused with the acute. Read as smooth."
+  },
+  {
+   "strip": "0337_05",
+   "text": "βλακεία, ἡ.",
+   "note": "The small tick after βλακεία is read as a comma. The old OCR had a period."
+  }
+ ]
+}

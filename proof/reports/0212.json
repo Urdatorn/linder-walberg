@@ -1,0 +1,37 @@
+{
+ "page": "0212",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0212_01",
+   "printed": "Klint, πάγος, τό.",
+   "probably_meant": "πάγος, ὁ.",
+   "note": "πάγος is masculine; article printed as τό"
+  },
+  {
+   "strip": "0212_04",
+   "printed": "det fordrar ktn",
+   "probably_meant": "k:n",
+   "note": "colon abbreviation printed as 't'"
+  },
+  {
+   "strip": "0212_02",
+   "printed": "Klo, ὄνυξ, χος, ὁ.",
+   "probably_meant": "ὄνυξ, υχος",
+   "note": "genitive ending printed as χος; kept"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0212_04",
+   "text": "(erfarenhet)",
+   "note": "Printed '(er' at line end and 'farenhet)' on next line with no visible hyphen; written as one word"
+  },
+  {
+   "strip": "0212_00",
+   "text": "(ἀπο-, κατα)σφάττειν",
+   "note": "Hyphen after ')' at line end taken as line-break hyphen and dropped"
+  }
+ ]
+}

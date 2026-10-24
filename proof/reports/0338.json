@@ -1,0 +1,82 @@
+{
+ "page": "0338",
+ "strips_done": 6,
+ "corrections": 62,
+ "misprints": [
+  {
+   "strip": "0338_00",
+   "printed": "hålla eu p.",
+   "probably_meant": "hålla en p.",
+   "note": "Swedish 'eu' for 'en' in the Picknick entry"
+  },
+  {
+   "strip": "0338_00",
+   "printed": "ὕστριξ, χος l. ὕστριγξ, γγος",
+   "probably_meant": "ὕστριξ, ιχος",
+   "note": "Genitive ending printed as 'χος', and the variant ὕστριγξ is printed as such; both kept"
+  },
+  {
+   "strip": "0338_00",
+   "printed": "βάθρον, τό βάσις",
+   "probably_meant": "βάθρον, τό. βάσις",
+   "note": "No full stop after τό"
+  },
+  {
+   "strip": "0338_03",
+   "printed": "κωδωνίζεν",
+   "probably_meant": "κωδωνίζειν",
+   "note": "Infinitive ending missing its iota"
+  },
+  {
+   "strip": "0338_03",
+   "printed": "(προσ)αναγκάζειν",
+   "probably_meant": "(προσ)ἀναγκάζειν",
+   "note": "No breathing on α after the parenthesis"
+  },
+  {
+   "strip": "0338_01",
+   "printed": "ἰτεών ῶνος",
+   "probably_meant": "ἰτεών, ῶνος",
+   "note": "No comma between the headword and the genitive ending"
+  },
+  {
+   "strip": "0338_04",
+   "printed": "ἀνιαρότατος. 3.",
+   "probably_meant": "ἀνιαρότατος, 3.",
+   "note": "Full stop where a comma is expected"
+  },
+  {
+   "strip": "0338_02",
+   "printed": "fremmande",
+   "probably_meant": "fremmande",
+   "note": "Broken n in the print (looks like 'maude'); transcribed as fremmande"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0338_00",
+   "text": "inbjuda till en p.,",
+   "note": "The print shows 'p ,' with a gap where the full stop should be, probably a type that did not ink; written as 'p.,'"
+  },
+  {
+   "strip": "0338_02",
+   "text": "ἰτέϊνα φύλλα, τά.",
+   "note": "The mark over the second ι looks like a broken breathing or diaeresis; read as ϊ, matching ἰτέϊνον in the same entry. The punctuation after φύλλα looks like a comma"
+  },
+  {
+   "strip": "0338_02",
+   "text": "ἰτεΐνη ῥάβδος",
+   "note": "The accent sits on the ι with a diaeresis-like mark, unlike ἰτέϊνος elsewhere; read as ΐ"
+  },
+  {
+   "strip": "0338_04",
+   "text": "πάτταλος",
+   "note": "The second τ has a faint crossbar and looks like ι (the OCR read πάτιαλος); read as ττ, matching πατταλεύειν"
+  },
+  {
+   "strip": "0338_00",
+   "text": "εὐσέβεια ἡ εἰς",
+   "note": "Read as εἰς with smooth breathing only, the same glyph as in παρακαλεῖν εἰς ἔρανον"
+  }
+ ]
+}

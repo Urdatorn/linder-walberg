@@ -1,0 +1,45 @@
+{
+ "page": "0259",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0259_03",
+   "printed": "om ugt",
+   "probably_meant": "om ngt",
+   "note": "Swedish abbreviation printed with u for n; kept as printed."
+  },
+  {
+   "strip": "0259_05",
+   "printed": "Långhändt",
+   "note": "The headword is printed 'händt' (1862 spelling, not a misprint); listed only because the hint flagged it."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0259_04",
+   "text": "ἐς τοῦτο.: gå el. komma",
+   "note": "Both τ in this τοῦτο look broken (like ι/γ); transcribed as τοῦτο (damaged type)."
+  },
+  {
+   "strip": "0259_01",
+   "text": "ἅπτεσθαι",
+   "note": "The breathing on the first α is small; read as rough (ἅ)."
+  },
+  {
+   "strip": "0259_01",
+   "text": "πῦρ, ρός, τό",
+   "note": "No breathing visible on ρός; transcribed without one."
+  },
+  {
+   "strip": "0259_00",
+   "text": "ἔρως, ωτος, ὁ",
+   "note": "No accent visible on ωτος; transcribed without one."
+  },
+  {
+   "strip": "0259_00",
+   "text": "βαρύς, εῖα, ύ",
+   "note": "εῖα shows a circumflex with no breathing, and ύ shows an acute; transcribed as seen."
+  }
+ ]
+}

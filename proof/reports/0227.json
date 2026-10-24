@@ -1,0 +1,31 @@
+{
+ "page": "0227",
+ "strips_done": 7,
+ "corrections": 63,
+ "misprints": [
+  {
+   "strip": "0227_01",
+   "printed": "πολεμική ἐπιστήμη",
+   "probably_meant": "πολεμικὴ ἐπιστήμη",
+   "note": "Acute instead of grave before a following word."
+  },
+  {
+   "strip": "0227_06",
+   "printed": "Kringklipppa",
+   "probably_meant": "Kringklippa",
+   "note": "The headword is printed with a triple p."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0227_05",
+   "text": "bägarn går kring",
+   "note": "The first 'bägarn' looks like 'bägaru' in the scan. It is probably a worn n, since this face's n looks u-like elsewhere too (e.g. 'Kringgärdning'), so I transcribed it as bägarn."
+  },
+  {
+   "strip": "0227_04",
+   "text": "γυροῦν. γυροῦν τε καὶ",
+   "note": "The circumflexes on the line 'ρουν. γυρουν' sit at the very edge between the two image bands. Only their tops are visible, at the bottom of band 1."
+  }
+ ]
+}

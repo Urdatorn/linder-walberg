@@ -1,0 +1,54 @@
+{
+ "page": "0203",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0203_02",
+   "printed": "ἴσομεγέθης",
+   "probably_meant": "ἰσομεγέθης",
+   "note": "The print has smooth breathing and acute on the initial ι as well as the acute on έ."
+  },
+  {
+   "strip": "0203_03",
+   "printed": "när sma præd.",
+   "probably_meant": "när samma præd.",
+   "note": "'sma' as printed."
+  },
+  {
+   "strip": "0203_04",
+   "printed": "σιδηλοβόλιον",
+   "probably_meant": "σιδηροβόλιον",
+   "note": "λ for ρ in the print."
+  },
+  {
+   "strip": "0203_05",
+   "printed": "Jerngrnfva",
+   "probably_meant": "Jerngrufva",
+   "note": "The headword shows n (turned u?) where u is expected."
+  },
+  {
+   "strip": "0203_05",
+   "printed": "σιδηρίζων, ουσα, ον",
+   "probably_meant": "σιδηρίζων, ουσα, ον (unaccented endings)",
+   "note": "The endings are printed without accent or breathing. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0203_01",
+   "text": "Jemnförelsevis,",
+   "note": "The punctuation after the headword is an ink blot (a square mark). Read as a comma."
+  },
+  {
+   "strip": "0203_01",
+   "text": "οἷος",
+   "note": "The accent over ι is broken type. Read as rough breathing plus circumflex."
+  },
+  {
+   "strip": "0203_04",
+   "text": "arbetande i jern",
+   "note": "The e in 'jern' is damaged and looks like ə."
+  }
+ ]
+}

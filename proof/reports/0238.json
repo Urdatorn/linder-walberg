@@ -1,0 +1,36 @@
+{
+ "page": "0238",
+ "strips_done": 7,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0238_02",
+   "printed": "Kärälskelig",
+   "probably_meant": "Kärälsklig",
+   "note": "Spelled with one r and the -skelig ending in the print; kept as printed."
+  },
+  {
+   "strip": "0238_05",
+   "printed": "till hd k.",
+   "probably_meant": "till hvad k.",
+   "note": "The abbreviation 'hd' is printed as shown; kept."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0238_04",
+   "text": "Köksträdgård",
+   "note": "There is a stray vertical mark and an apostrophe-like speck after 'Kök' in the headword (damaged type). Read as Köksträdgård; the OCR had Köksfrädgård."
+  },
+  {
+   "strip": "0238_04",
+   "text": "τρόπις, ιδος l. εως",
+   "note": "No accent is visible on ιδος, so it is kept unaccented. The same ending is printed ίδος elsewhere on the page."
+  },
+  {
+   "strip": "0238_01",
+   "text": "ἁδρὰ ξύλα",
+   "note": "The breathing is small. Read as rough (ἁδρά); the OCR had ἀθρὰ."
+  }
+ ]
+}

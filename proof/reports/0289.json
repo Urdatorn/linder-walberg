@@ -1,0 +1,54 @@
+{
+ "page": "0289",
+ "strips_done": 6,
+ "corrections": 160,
+ "misprints": [
+  {
+   "strip": "0289_00",
+   "printed": "πολύπροπος",
+   "probably_meant": "πολύτροπος",
+   "note": "Under Mångartad the print clearly has π, not τ."
+  },
+  {
+   "strip": "0289_02",
+   "printed": "αῦται, αῦτα",
+   "probably_meant": "αὗται, αὗτα",
+   "note": "Only a circumflex is printed, with no rough breathing."
+  },
+  {
+   "strip": "0289_02",
+   "printed": "τοσοίδι, αίδε, άδε",
+   "probably_meant": "τοσοίδε, αἵδε, ἅδε",
+   "note": "The rough breathings are missing in the print."
+  },
+  {
+   "strip": "0289_03",
+   "printed": "ποδος",
+   "probably_meant": "ποδός",
+   "note": "No accent is visible on ποδος under Mångfotad."
+  },
+  {
+   "strip": "0289_04",
+   "printed": "έως",
+   "probably_meant": "έως (genitive ending)",
+   "note": "Printed with an acute and no breathing, as an ending; copied as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0289_02",
+   "text": "Mångfaldig, 1) se Mångdubbel",
+   "note": "The sense number looks like a capital 'I)' in the print. I wrote it as '1)' because it is probably the bold face's figure 1."
+  },
+  {
+   "strip": "0289_05",
+   "text": "se Månghörnig",
+   "note": "In the cross-reference under Mångvinklig, the å looks like à, probably from a broken ring. I wrote å."
+  },
+  {
+   "strip": "0289_00",
+   "text": "πολλαχῶς, -ῇ",
+   "note": "It is hard to tell whether there is an iota subscript under the η. I wrote ῇ, matching the clearer instances on the page."
+  }
+ ]
+}

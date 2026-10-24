@@ -1,0 +1,71 @@
+{
+ "page": "0320",
+ "strips_done": 6,
+ "corrections": 62,
+ "misprints": [
+  {
+   "strip": "0320_01",
+   "printed": "Omnämnaude",
+   "probably_meant": "Omnämnande",
+   "note": "headword printed with u for n"
+  },
+  {
+   "strip": "0320_02",
+   "printed": "Omringanda",
+   "probably_meant": "Omringande",
+   "note": "headword ending printed -anda"
+  },
+  {
+   "strip": "0320_02",
+   "printed": "ὕρων",
+   "probably_meant": "ὅρων",
+   "note": "ἐντὸς ὕρων τινὸς εἶναι; upsilon printed for omicron"
+  },
+  {
+   "strip": "0320_02",
+   "printed": "μετάθεσις. ἡ.",
+   "probably_meant": "μετάθεσις, ἡ.",
+   "note": "full stop instead of comma before the article"
+  },
+  {
+   "strip": "0320_05",
+   "printed": "περιττύσσεσθαί",
+   "probably_meant": "περιπτύσσεσθαι",
+   "note": "ττ printed for πτ"
+  },
+  {
+   "strip": "0320_05",
+   "printed": "det hri ngt invecklas",
+   "probably_meant": "det hvari ngt invecklas",
+   "note": "hri looks like a misprint or a contraction of hvari"
+  },
+  {
+   "strip": "0320_05",
+   "printed": "φροντίς, ίδος. ἡ.",
+   "probably_meant": "φροντίς, ίδος, ἡ.",
+   "note": "full stop instead of comma after the genitive ending"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0320_02",
+   "text": "τὰ περί (sällan ἀμφί)",
+   "note": "the accent on περί is cut off at the column edge; it looks acute, matching περί in Omnämna"
+  },
+  {
+   "strip": "0320_05",
+   "text": "Omkastning 2)",
+   "note": "letterspaced n is blurred and could be read as u (Omkastuing); taken as n"
+  },
+  {
+   "strip": "0320_03",
+   "text": "δια-, ἀνα-, συσσείειν",
+   "note": "hyphen after ἀνα is broken and looks like a dot"
+  },
+  {
+   "strip": "0320_01",
+   "text": "ἄπεφθος, 2",
+   "note": "clearly printed ἄπεφθος under Omogen, though ἄπεπτος would fit the sense better; kept as printed"
+  }
+ ]
+}

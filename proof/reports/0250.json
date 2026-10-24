@@ -1,0 +1,36 @@
+{
+ "page": "0250",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0250_01",
+   "printed": "ἀγύριον",
+   "probably_meant": "ἀργύριον",
+   "note": "Printed 'ἀγύ-ριον' across the line break, with the ρ missing."
+  },
+  {
+   "strip": "0250_04",
+   "printed": "ωσπερανεί",
+   "probably_meant": "ὡσπερανεί",
+   "note": "No breathing is printed on the initial omega, though the word just before it, ὡσανεί, has one."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0250_01",
+   "text": "φαίνεται (τὶ ὂν)",
+   "note": "The accent on ὂν looks grave (ὂν), but it is small in the scan."
+  },
+  {
+   "strip": "0250_04",
+   "text": "ὡς. δίκην",
+   "note": "A dot seems to follow ὡς. It could be a printed full stop or a speck."
+  },
+  {
+   "strip": "0250_03",
+   "text": "(προσ)εμφερής, (ἀφ)ομοιοῦν, (ἐξ)ισοῦν",
+   "note": "No breathing is visible after the bracketed prefixes, so these are kept without one, as printed."
+  }
+ ]
+}

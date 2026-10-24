@@ -1,0 +1,40 @@
+{
+ "page": "0333",
+ "strips_done": 8,
+ "corrections": 42,
+ "misprints": [
+  {
+   "strip": "0333_03",
+   "printed": "βιβλίον. τό.:",
+   "probably_meant": "βιβλίον, τό.:",
+   "note": "Full stop instead of comma before the article in the Papper entry; kept as printed."
+  },
+  {
+   "strip": "0333_01",
+   "printed": "m. hd p. skall jag träda",
+   "note": "'hd' is printed as is (probably the abbreviation for 'hvilken'); kept."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0333_00",
+   "text": "ἐγκέφαλος, ὁ.",
+   "note": "The article after ἐγκέφαλος is broken in the print (only the breathing and a small fragment show); read as ὁ."
+  },
+  {
+   "strip": "0333_03",
+   "text": "πάρδος, ὁ.:",
+   "note": "The article is partly broken in the print, the same way; read as ὁ."
+  },
+  {
+   "strip": "0333_06",
+   "text": "Panta ... ngt / Paradis ...",
+   "note": "This full-width strip holds the last line of column 1 (Panta, which carries on into 0333_03 as '~ p:s (ut) hos mig') and the last line of column 2 (Paradis, which carries on to the next page). I wrote them as two paragraphs, so the reading order puts the start of Panta after column 2."
+  },
+  {
+   "strip": "0333_07",
+   "text": "42",
+   "note": "This is the printer's signature number at the foot of the page, not dictionary text. I wrote it as '42' without the '~ ' marker and the ')'."
+  }
+ ]
+}

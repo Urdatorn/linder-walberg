@@ -1,0 +1,30 @@
+{
+ "page": "0229",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0229_02",
+   "printed": "ὄγκος, ὁ",
+   "probably_meant": "ὄγκος",
+   "note": "Under 'Krok' the print has ὄγκος with smooth breathing. Kept as printed. It may be right as it stands (ὄγκος, barb), or it may be an error for ἀγκών."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0229_01",
+   "text": "ἐπιστήμη, ἡ.",
+   "note": "The rough breathing on the final ἡ is pushed up into the line above (it shows as a mark under 'Kritik'). Transcribed as ἡ."
+  },
+  {
+   "strip": "0229_05",
+   "text": "τοῦ φόρου.",
+   "note": "φορου at the start of the line has no accent where it belongs. A stray accent mark sits under 'Kronouppbördsman' on the line above. Transcribed as φόρου."
+  },
+  {
+   "strip": "0229_03",
+   "text": "σκολιά. τά.",
+   "note": "The mark after σκολιά could be a full stop or a comma. Kept as a full stop."
+  }
+ ]
+}

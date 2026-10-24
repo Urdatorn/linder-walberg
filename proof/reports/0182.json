@@ -1,0 +1,26 @@
+{
+ "page": "0182",
+ "strips_done": 6,
+ "corrections": 15,
+ "misprints": [
+  {
+   "strip": "0182_02",
+   "printed": "βαθεῖα κόμη, ὴ.:",
+   "probably_meant": "βαθεῖα κόμη, ἡ.:",
+   "note": "The article is printed with a grave accent instead of a rough breathing."
+  },
+  {
+   "strip": "0182_05",
+   "printed": "ἔχων, ουσα, ον.",
+   "probably_meant": "ἔχων, ουσα, ον (the usual unaccented termination style) or οὖσα",
+   "note": "Printed without accent or breathing; this is probably the book's termination style, so I kept it as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0182_05",
+   "text": "σκληρός, 3. ἀντίτυπος",
+   "note": "The mark after σκληρός in 'b) om saker, ἰσχυρός, 3. σκληρός, 3.' is small and low. It looks like a comma rather than a full stop, so I wrote a comma."
+  }
+ ]
+}

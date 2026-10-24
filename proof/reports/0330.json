@@ -1,0 +1,86 @@
+{
+ "page": "0330",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0330_03",
+   "printed": "ἀδιαάλειπτος",
+   "probably_meant": "ἀδιάλειπτος",
+   "note": "Printed across a line break as 'ἀδια-άλειπτος' with a doubled α."
+  },
+  {
+   "strip": "0330_03",
+   "printed": "fig , se Ouppfylld",
+   "probably_meant": "fig., se Ouppfylld",
+   "note": "The full stop after 'fig' is missing in print. Transcribed as 'fig, se'."
+  },
+  {
+   "strip": "0330_04",
+   "printed": "ἀπροαίρεσία",
+   "probably_meant": "ἀπροαιρεσία",
+   "note": "The accent is printed on the ι of -αίρε-."
+  },
+  {
+   "strip": "0330_04",
+   "printed": "ἀνέμητος",
+   "probably_meant": "ἀνέμητος / ἄνεμητος (unclear)",
+   "note": "Clearly printed this way. The form is unattested in the corpus but kept."
+  },
+  {
+   "strip": "0330_05",
+   "printed": "ἀδιάφθαρτος, 2,",
+   "probably_meant": "ἀδιάφθαρτος, 2.",
+   "note": "The Outplånlig entry ends with a comma instead of a full stop."
+  },
+  {
+   "strip": "0330_04",
+   "printed": "ουσα, ον",
+   "probably_meant": "οὖσα, όν",
+   "note": "Printed without breathing or accents after προσέχων and ἄκων."
+  },
+  {
+   "strip": "0330_05",
+   "printed": "υῖα",
+   "probably_meant": "υῖα",
+   "note": "Printed without a breathing in 'οὐκ εἰωθώς, υῖα, ός'. This is normal for a termination, so it is noted only."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0330_00",
+   "text": "τὸ ἑκούσιον, ἐθελούσιον.",
+   "note": "The mark after ἑκούσιον looks like a comma but could be a full stop."
+  },
+  {
+   "strip": "0330_00",
+   "text": "κακῇ τύχῃ",
+   "note": "I cannot clearly make out iota subscripts at this scale, so I kept them."
+  },
+  {
+   "strip": "0330_01",
+   "text": "οὐ διψῶν, ῶσα, ῶν.",
+   "note": "I see only circumflexes, with no breathing, on ῶσα and ῶν."
+  },
+  {
+   "strip": "0330_02",
+   "text": "lemna ett bref o:t",
+   "note": "There is a stray bracket-like mark before 'ett' in print, probably a raised quad. I omitted it."
+  },
+  {
+   "strip": "0330_02",
+   "text": "ἄφυκτος. 2.",
+   "note": "The punctuation after ἄφυκτος could be a broken comma."
+  },
+  {
+   "strip": "0330_02",
+   "text": "ἀτελής l. κενὴ ἐλπίς",
+   "note": "The accent on ἀτελής before 'l.' looks acute but it is small."
+  },
+  {
+   "strip": "0330_02",
+   "text": "ἀνεξέταστος",
+   "note": "The ε after ἀν is faint. The OCR had ι."
+  }
+ ]
+}

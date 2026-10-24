@@ -1,0 +1,47 @@
+{
+ "page": "0265",
+ "strips_done": 7,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0265_01",
+   "printed": "(δι)εψευσμένος",
+   "probably_meant": "(δι)εψευσμένος with smooth breathing (ἐψευσμένος)",
+   "note": "No breathing on ε is printed. Kept as printed."
+  },
+  {
+   "strip": "0265_02",
+   "printed": "ἐπιβουλεύων, ουσα, ον",
+   "probably_meant": "ἐπιβουλεύων, ουσα, ον (ending listed without an accent)",
+   "note": "The ending is printed without an accent. Kept as printed."
+  },
+  {
+   "strip": "0265_06",
+   "printed": "Löpe, κυτία, ἡ.",
+   "probably_meant": "πυτία",
+   "note": "The print clearly shows κυτία. The rennet word is πυτία (compare ἐμπυτιάζεσθαι under Löpna)."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0265_05",
+   "text": "äfv. gm vv.:",
+   "note": "Printed in italic, and in the Greek-looking face it could read as υυ/νυ. I transcribed it as the Swedish abbreviation 'vv.'. Other strips are inconsistent here (νυ./vv./υν.)."
+  },
+  {
+   "strip": "0265_03",
+   "text": "s. undfår l.",
+   "note": "Broken type in 'undfår'. The reading is most likely correct."
+  },
+  {
+   "strip": "0265_06",
+   "text": "ἐκλύειν τινά: bli l.",
+   "note": "The print shows 'τινά :' with only a colon, where '.:' is usual. Kept as ':'."
+  },
+  {
+   "strip": "0265_06",
+   "text": "δρομάς, άδος",
+   "note": "The mark after δρομάς could be a comma or a stop. I chose a comma."
+  }
+ ]
+}

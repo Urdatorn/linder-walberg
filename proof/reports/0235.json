@@ -1,0 +1,63 @@
+{
+ "page": "0235",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0235_01",
+   "printed": "Käle, πάγος, τό.",
+   "probably_meant": "πάγος, ὁ",
+   "note": "πάγος is masculine; the print gives the article τό."
+  },
+  {
+   "strip": "0235_04",
+   "printed": "τινὸς ὄντος l. τὶ ὄν",
+   "probably_meant": "τὸ ὄν",
+   "note": "The print clearly shows τὶ, not τό."
+  },
+  {
+   "strip": "0235_04",
+   "printed": "ἑαυτῶ ἀγαθὸν ἄνδρα ὄντα",
+   "probably_meant": "ἑαυτῷ",
+   "note": "The third ἑαυτῷ has no visible iota subscript, though the two before it do."
+  },
+  {
+   "strip": "0235_03",
+   "printed": "(i allm)",
+   "probably_meant": "(i allm.)",
+   "note": "The abbreviation has no full stop, just a gap before the parenthesis. Transcribed without the stop."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0235_00",
+   "text": "γογγυλίς, ίδος, ἡ. βουνιάς",
+   "note": "The scan cuts off at ἡ at the right edge. I supplied the full stop, but it could not be seen."
+  },
+  {
+   "strip": "0235_00",
+   "text": "τάγμα, τό.: uttr. äfv.",
+   "note": "uttr runs into the cut-off right edge. I supplied the full stop."
+  },
+  {
+   "strip": "0235_00",
+   "text": "φιλεριστής, οῦ, ὁ.",
+   "note": "The final ὁ is at the cut-off edge. I supplied the full stop."
+  },
+  {
+   "strip": "0235_00",
+   "text": "κριθῶν, ῶντος / οῦσα, οῦν / οῦ, ὁ",
+   "note": "These endings show only a circumflex and no breathing, so I wrote them that way. Other strips of the book use οὖσα, οὖν."
+  },
+  {
+   "strip": "0235_03",
+   "text": "ἀγώνισμά / ἀθλητικὸν / ἀθλητικὴ",
+   "note": "On the first α the breathing mark slopes like a grave accent. I read it as a badly formed smooth breathing (ἀ)."
+  },
+  {
+   "strip": "0235_03",
+   "text": "ἡρωϊκῶς",
+   "note": "In the printed line 'κην. ηρωικως' the accents have slipped down onto the line above. I put back rough breathing, diaeresis and circumflex."
+  }
+ ]
+}

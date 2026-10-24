@@ -1,0 +1,71 @@
+{
+ "page": "0314",
+ "strips_done": 6,
+ "corrections": 62,
+ "misprints": [
+  {
+   "strip": "0314_05",
+   "printed": "πυνηρία, ἡ.",
+   "probably_meant": "πονηρία, ἡ.",
+   "note": "The υ is clearly printed in Ogudaktighet."
+  },
+  {
+   "strip": "0314_05",
+   "printed": "Ogrundad, se Grundlös,",
+   "probably_meant": "Ogrundad, se Grundlös.",
+   "note": "The entry ends with a comma instead of a full stop."
+  },
+  {
+   "strip": "0314_04",
+   "printed": "ἄστικτος. 2.",
+   "probably_meant": "ἄστικτος, 2.",
+   "note": "There is a full stop with no comma tail before the termination number."
+  },
+  {
+   "strip": "0314_04",
+   "printed": "δυσκολία, ἡ o. adjj.",
+   "probably_meant": "δυσκολία, ἡ. o. adjj.",
+   "note": "In strip 0314_03, Ogenhet: the full stop after ἡ is missing in the print."
+  },
+  {
+   "strip": "0314_05",
+   "printed": "ἀπαίσιος, 2, ἀριστερός",
+   "probably_meant": "ἀπαίσιος, 2. ἀριστερός",
+   "note": "There is a comma after the termination number."
+  },
+  {
+   "strip": "0314_00",
+   "printed": "ἀναξίως. παρ' ἀξίαν l. παρὰ τὴν ἀξίαν. προσηκόντως.",
+   "probably_meant": "οὐ προσηκόντως",
+   "note": "Under Oförtjent, the sense requires a negation, but the print shows only προσηκόντως. It is kept as printed."
+  },
+  {
+   "strip": "0314_05",
+   "printed": "οὐκ ἀπότιμος, 2 l. ὑποκείμενος, 3.",
+   "probably_meant": "l. οὐχ ὑποκείμενος",
+   "note": "The continuation of Ograverad is printed without a negation before ὑποκείμενος."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0314_04",
+   "text": "ἄστικτος. 2.",
+   "note": "The mark after ἄστικτος looks like a period, but it could be a comma with a broken tail."
+  },
+  {
+   "strip": "0314_02",
+   "text": "θρασύς, εῖα, ύ.",
+   "note": "The accents on the small type of εῖα and ύ are hard to read. I wrote the standard forms."
+  },
+  {
+   "strip": "0314_02",
+   "text": "οὐχ οἷος ἀποδόσθαι",
+   "note": "It is hard to tell the breathing on οἷος, rough or smooth, under the circumflex."
+  },
+  {
+   "strip": "0314_00",
+   "text": "hr och en o.",
+   "note": "Under Oförtalt the print shows \"hr\", probably meaning hvar. It is kept as printed."
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "page": "0262",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0262_00",
+   "printed": "(tidsl ).",
+   "probably_meant": "(tidsl.).",
+   "note": "Space where the abbreviation point should be; no dot visible in the print. Kept as (tidsl)."
+  },
+  {
+   "strip": "0262_00",
+   "printed": "λόγον) μηκύνειν",
+   "probably_meant": "λόγον μηκύνειν",
+   "note": "Stray closing parenthesis with no opening one."
+  },
+  {
+   "strip": "0262_03",
+   "printed": "el stundande",
+   "probably_meant": "el. stundande",
+   "note": "No full stop after the abbreviation el."
+  },
+  {
+   "strip": "0262_04",
+   "printed": "3) subst., σοφός",
+   "probably_meant": "2) subst.",
+   "note": "In the Lärd entry the sense numbers run 1), then 3), with no 2)."
+  },
+  {
+   "strip": "0262_02",
+   "printed": "κλιντήρ, ῆρος",
+   "probably_meant": "κλιντήρ, ῆρος",
+   "note": "The genitive ending is printed with a circumflex and no breathing. That is normal for an ending; noted only because the OCR had ἦρος."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0262_03",
+   "text": "undervisning, διδασκαλία",
+   "note": "The mark after undervisning looks like a dot, but it is probably a worn comma. Kept the comma."
+  },
+  {
+   "strip": "0262_03",
+   "text": "ὀξὺς (εῖα, ύ)",
+   "note": "I read the υ's small mark as an acute, not a breathing. εῖα has a circumflex and no visible breathing."
+  },
+  {
+   "strip": "0262_05",
+   "text": "μαθητρίς, ίδος",
+   "note": "ίδος is printed with an acute and no visible breathing."
+  },
+  {
+   "strip": "0262_05",
+   "text": "εἰς διδασκαλίαν",
+   "note": "The breathing on εἰς is damaged in the print. Read as εἰς."
+  }
+ ]
+}

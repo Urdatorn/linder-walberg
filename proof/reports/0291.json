@@ -1,0 +1,53 @@
+{
+ "page": "0291",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0291_01",
+   "printed": "ραννυναι.",
+   "probably_meant": "ραννύναι. (συγκεραννύναι)",
+   "note": "The print has no accent on the continuation of συγκε-|ραννυναι."
+  },
+  {
+   "strip": "0291_01",
+   "printed": "δεινότανον εἶναί τι",
+   "probably_meant": "δεινότατον",
+   "note": "ν for τ"
+  },
+  {
+   "strip": "0291_01",
+   "printed": "ὀ ἐπαγγελλόμενος",
+   "probably_meant": "ὁ ἐπαγγελλόμενος",
+   "note": "The article is printed with a smooth breathing."
+  },
+  {
+   "strip": "0291_01",
+   "printed": "ἡ.. Jfr Mästare.",
+   "probably_meant": "ἡ. Jfr Mästare.",
+   "note": "The full stop is doubled in the print."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0291_02",
+   "text": "πανουργίας.:",
+   "note": "The point before the colon is raised, almost a Greek ano teleia. I transcribed it as the book's usual \".:\"."
+  },
+  {
+   "strip": "0291_02",
+   "text": "ὢν αὐτὸς αὑτοῦ",
+   "note": "The mark over ω is small and could be grave+breathing or a circumflex. I read it as ὢν."
+  },
+  {
+   "strip": "0291_05",
+   "text": "ταλαιπωρία, ἡ",
+   "note": "The breathing on ἡ is malformed and looks almost like smooth+grave. I read it as ἡ."
+  },
+  {
+   "strip": "0291_05",
+   "text": "ἀνήνυτα l. ἀνήνοτα πονεῖν",
+   "note": "ἀνήνοτα is clearly what is printed. It may be a deliberate variant and not a misprint, so I kept it as it is."
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "page": "0184",
+ "strips_done": 6,
+ "corrections": 13,
+ "misprints": [
+  {
+   "strip": "0184_02",
+   "printed": "vidrig h,,",
+   "probably_meant": "vidrig h.,",
+   "note": "Double comma after the abbreviation h in the print"
+  },
+  {
+   "strip": "0184_03",
+   "printed": "ἀναφέρειν τί εἰς l ἐπί τινα",
+   "probably_meant": "εἰς l. ἐπί",
+   "note": "There is no full stop after the l (eller)"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0184_03",
+   "text": "Händelsevis, ἀπό l. ἐκ τύχης",
+   "note": "The smooth breathing on the first ἀπό is faint or missing in the scan. I kept ἀπό."
+  },
+  {
+   "strip": "0184_04",
+   "text": "ἐξ-, ἀνηρτῆσθαι",
+   "note": "The accent mark over η is slightly blurred. No iota subscript is visible, so I read ἀνηρτῆσθαι, not ἀνῃρτῆσθαι."
+  },
+  {
+   "strip": "0184_02",
+   "text": "förskräckliga,",
+   "note": "The comma falls at the cropped right edge of the strip image. I confirmed it in the full-page TIFF svegrek/0184.tif."
+  }
+ ]
+}

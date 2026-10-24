@@ -1,0 +1,43 @@
+{
+ "page": "0200",
+ "strips_done": 6,
+ "corrections": 50,
+ "misprints": [
+  {
+   "strip": "0200_02",
+   "printed": "λαμαίνεσθαί τινι",
+   "probably_meant": "λυμαίνεσθαί τινι",
+   "note": "The print clearly has λα-; the verb is λυμαίνεσθαι."
+  },
+  {
+   "strip": "0200_03",
+   "printed": "ἀπο)τελεῖσθαι",
+   "probably_meant": "(ἀπο)τελεῖσθαι",
+   "note": "The opening parenthesis is missing in the print."
+  },
+  {
+   "strip": "0200_05",
+   "printed": "ἐμπαλάσσεσθαί τινι",
+   "probably_meant": "ἐμπαλλάσσεσθαί τινι",
+   "note": "Printed with a single λ, while the same entry has ἐμπαλλάσσειν earlier. The single-λ form may also be a real variant."
+  },
+  {
+   "strip": "0200_05",
+   "printed": "οὐχ ἁπλοῦς, ῆ, οῦν",
+   "probably_meant": "οὐχ ἁπλοῦς, ῆ, οῦν",
+   "note": "Copied as printed: the endings carry a circumflex and no breathing. This is probably correct for this book's style."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0200_05",
+   "text": "εἰς πόλεμον",
+   "note": "The accent on εἰς is hard to see. It looks like a smooth breathing only, unlike the εἴς τι beside it, so I wrote εἰς."
+  },
+  {
+   "strip": "0200_03",
+   "text": "(παρ)ειςδύεσθαι",
+   "note": "The print breaks it as \"(παρ)εις-\" at the line end, with a final sigma, so I joined it and kept ς."
+  }
+ ]
+}

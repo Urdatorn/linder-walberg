@@ -1,0 +1,75 @@
+{
+ "page": "0321",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0321_01",
+   "printed": "(läga, tillstånd)",
+   "probably_meant": "(läge, tillstånd)",
+   "note": "Printed läga, split across lines as lä-ga."
+  },
+  {
+   "strip": "0321_01",
+   "printed": "Ofta utan utan motsvarande",
+   "probably_meant": "Ofta utan motsvarande",
+   "note": "The word utan is printed twice, at a line break."
+  },
+  {
+   "strip": "0321_02",
+   "printed": "πιριττολογία",
+   "probably_meant": "περιττολογία",
+   "note": "The print clearly shows πι-."
+  },
+  {
+   "strip": "0321_02",
+   "printed": "περίεργος. 2, περιττός",
+   "probably_meant": "περίεργος, 2. περιττός",
+   "note": "The punctuation around the 2 looks swapped in the print."
+  },
+  {
+   "strip": "0321_02",
+   "printed": "οὐ μέλλων, ουσα, ον",
+   "probably_meant": "οὐ μέλλων, ουσα, ον (ending forms)",
+   "note": "ουσα is printed without an accent. Kept as printed."
+  },
+  {
+   "strip": "0321_05",
+   "printed": "ποικίλος, 3, πολυειδής",
+   "probably_meant": "ποικίλος, 3. πολυειδής",
+   "note": "A comma is printed after the 3 where a full stop would be expected."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0321_02",
+   "text": "προφασίζεσθαι,: utan",
+   "note": "The mark before the colon looks like a comma, but it may be a broken full stop (.:)."
+  },
+  {
+   "strip": "0321_02",
+   "text": "2) intr., ἀνατρέπεσθαι",
+   "note": "The full stop after intr is faint or missing in the print. I wrote 'intr.,' to match '1) tr.,'."
+  },
+  {
+   "strip": "0321_03",
+   "text": "διεξιέναι",
+   "note": "Broken type: the print reads roughly δι'εξ ιέναι. I read it as the single word διεξιέναι."
+  },
+  {
+   "strip": "0321_03",
+   "text": "(ἐπ)αναλαμβάνειν",
+   "note": "The closing parenthesis is broken and looks like a comma."
+  },
+  {
+   "strip": "0321_03",
+   "text": "ἁπλῶς",
+   "note": "This word is hyphenated across lines. The breathing on ἁ- is small and not clearly legible."
+  },
+  {
+   "strip": "0321_05",
+   "text": "söka göra sig o.,",
+   "note": "The full stop after o is faint."
+  }
+ ]
+}

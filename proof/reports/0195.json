@@ -1,0 +1,109 @@
+{
+ "page": "0195",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0195_01",
+   "printed": "gm gmskr.",
+   "probably_meant": "gm omskr.",
+   "note": "Second word appears to begin with g (descender visible); elsewhere the book writes 'gm omskr.'"
+  },
+  {
+   "strip": "0195_05",
+   "printed": "Inläsa",
+   "probably_meant": "Inlåsa",
+   "note": "Headword printed with ä dots; the Greek (κατα-, συγ-, ἐγκλείειν) means 'lock in'"
+  },
+  {
+   "strip": "0195_05",
+   "printed": "καταγεσθαι",
+   "probably_meant": "κατάγεσθαι",
+   "note": "No accent visible in print"
+  },
+  {
+   "strip": "0195_00",
+   "printed": "(παρα καλεῖν",
+   "probably_meant": "(παρα)καλεῖν",
+   "note": "Closing parenthesis missing in print; same pattern in '(ἐμ πιέζειν' (0195_00), '(κατα βαυκαλᾶν' (0195_03), '(ἀπο δέχεσθαι' and '(συν ἐλθεῖν' (0195_04)"
+  },
+  {
+   "strip": "0195_02",
+   "printed": "Inköp.",
+   "probably_meant": "Inköp,",
+   "note": "Headword followed by full stop rather than comma"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0195_00",
+   "text": "(παρ)εισδύεσθαι",
+   "note": "Letter after δ is broken, looks like ί; read as υ"
+  },
+  {
+   "strip": "0195_00",
+   "text": "(εἰσ)θλίβειν",
+   "note": "Closing parenthesis printed as a comma-like fragment"
+  },
+  {
+   "strip": "0195_01",
+   "text": "(εἰσ)ἀφικνεῖσθαι ... παραγίγνεσθαι (εἴσω) ... προς-,",
+   "note": "Parentheses and hyphen are broken or faint; most likely readings used"
+  },
+  {
+   "strip": "0195_01",
+   "text": "αὐξάνονται",
+   "note": "Second letter looks like ι with a breathing; taken to be a broken υ"
+  },
+  {
+   "strip": "0195_01",
+   "text": "skrift",
+   "note": "Final t broken ('skrif-')"
+  },
+  {
+   "strip": "0195_01",
+   "text": "Obefogad",
+   "note": "f faint; could be read as t"
+  },
+  {
+   "strip": "0195_02",
+   "text": "-σία",
+   "note": "Hyphen printed as a faint raised dot"
+  },
+  {
+   "strip": "0195_02",
+   "text": "ss. ställe,",
+   "note": "Faint punctuation after ställe, comma or full stop"
+  },
+  {
+   "strip": "0195_03",
+   "text": "Inlopp, εἴσοδος. ἡ.",
+   "note": "Mark after εἴσοδος could be a comma or a full stop; the mark after ἐπάγεσθαι is just as unclear"
+  },
+  {
+   "strip": "0195_04",
+   "text": "inlagd, λιθόστρωτος, 2.",
+   "note": "Small marks read as commas, to match 'inlagd, ταριχευτός, 3.'"
+  },
+  {
+   "strip": "0195_04",
+   "text": "ὑπέρ τινος. ἐξαιτεῖσθαί",
+   "note": "A gap where a full stop should be; full stop added"
+  },
+  {
+   "strip": "0195_04",
+   "text": "i qvarter",
+   "note": "No full stop visible after i"
+  },
+  {
+   "strip": "0195_05",
+   "text": "ψηφιθέτημα",
+   "note": "Letter between φ and θ is broken, ι or ο"
+  },
+  {
+   "strip": "0195_05",
+   "text": "(δια)μελετᾶν",
+   "note": "Closing parenthesis is only a fragment"
+  }
+ ]
+}

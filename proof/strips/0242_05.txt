@@ -1,4 +1,6 @@
-~ Landthushållare, se Landtbrukare. Landthushållning, ἐπιτήδευμα τὸ περὶ τὰ ἐν ἀγροῖς l. τὰ γεωργικά. γεωργική, ἡ. äfv. = Landtbruk, se d. o.
+Landthushållare, se Landtbrukare.
+
+Landthushållning, ἐπιτήδευμα τὸ περὶ τὰ ἐν ἀγροῖς l. τὰ γεωργικά. γεωργική, ἡ. äfv. = Landtbruk, se d. o.
 
 Landtlefnad, -lif, διατριβὴ ἡ ἐν ἀγρῷ. βίος ὁ ἐν τοῖς ἀγροῖς. δίαιτα ἡ ἐν τοῖς ἀγροῖς.
 
@@ -16,6 +18,6 @@ Landtmannaarbete, ἔργα τὰ κατ’ ἀγρόν l. bl. ἔργα, τά. 
 
 Landtmannanäring, ἐργασία ἡ περὶ τὴν γῆν l. γεωργήματος.
 
-Landtmannaredskap, γεωργικὰ σχεύη, τά. κατασχευὴ ἡ πρὸς τὴν γεωργίαν.
+Landtmannaredskap, γεωργικὰ σκεύη, τά. κατασκευὴ ἡ πρὸς τὴν γεωργίαν.
 
 Landtmannavara, τὸ κατὰ τὴν γῆν l. ἐν τῇ χώρᾳ φυόμενον.

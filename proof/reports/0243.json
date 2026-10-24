@@ -1,0 +1,48 @@
+{
+ "page": "0243",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0243_01",
+   "printed": "(ἐξ,ακεῖσθαι",
+   "probably_meant": "(ἐξ)ακεῖσθαι",
+   "note": "The closing parenthesis is printed as a comma-like mark, probably broken or wrong type."
+  },
+  {
+   "strip": "0243_04",
+   "printed": "σκευαφόρα",
+   "probably_meant": "σκευοφόρα",
+   "note": "The same entry block has σκευοφόρος a few lines above."
+  },
+  {
+   "strip": "0243_04",
+   "printed": "ὑπεργηρως",
+   "probably_meant": "ὑπέργηρως",
+   "note": "No accent is printed (the word is hyphenated ὑπεργη-ρως)."
+  },
+  {
+   "strip": "0243_05",
+   "printed": "πηγείς",
+   "probably_meant": "πηγεὶς or πηκτός",
+   "note": "An acute accent is printed before the closing parenthesis; kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0243_02",
+   "text": "ἐλάχιστόν τι.:",
+   "note": "There is a tiny raised dot after ἐλάχιστόν, probably a spacing quad or dust and not a full stop, so it is left out."
+  },
+  {
+   "strip": "0243_03",
+   "text": "dta är f. tung l. f. skutan",
+   "note": "The print clearly has 'dta', probably an abbreviation of 'detta'. Kept as printed."
+  },
+  {
+   "strip": "0243_04",
+   "text": "schåare",
+   "note": "Printed this way (the modern spelling would be 'sjåare'). Kept."
+  }
+ ]
+}

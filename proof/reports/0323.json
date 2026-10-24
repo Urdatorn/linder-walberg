@@ -1,0 +1,66 @@
+{
+ "page": "0323",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0323_01",
+   "printed": "θύρυβος",
+   "probably_meant": "θόρυβος",
+   "note": "Printed with ύ in the first syllable."
+  },
+  {
+   "strip": "0323_01",
+   "printed": "ἣ o. θύρυβος",
+   "probably_meant": "ἡ o. θόρυβος",
+   "note": "The article is printed with a grave accent."
+  },
+  {
+   "strip": "0323_02",
+   "printed": "φαλάττειν",
+   "probably_meant": "φυλάττειν",
+   "note": "Printed 'μέσον ἑαυτὸν φαλάττειν'."
+  },
+  {
+   "strip": "0323_03",
+   "printed": "ἀπροσωπος",
+   "probably_meant": "ἀπρόσωπος",
+   "note": "No accent is printed."
+  },
+  {
+   "strip": "0323_04",
+   "printed": "γυναικειαν φυσιν",
+   "probably_meant": "γυναικείαν φύσιν",
+   "note": "Both words are printed without accents."
+  },
+  {
+   "strip": "0323_04",
+   "printed": "λοιδύρημα",
+   "probably_meant": "λοιδόρημα",
+   "note": "Printed with ύ after the line break 'λοι-δύρημα'."
+  },
+  {
+   "strip": "0323_03",
+   "printed": "Oproportionerad, ἀσύμμετρος, 2,",
+   "probably_meant": "Oproportionerad, ἀσύμμετρος, 2.",
+   "note": "The entry ends with a comma instead of a full stop."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0323_01",
+   "text": "(δια)ταράττειν",
+   "note": "The closing parenthesis is broken and looks like a comma ('(δια,ταράττειν'). I read it as ')'."
+  },
+  {
+   "strip": "0323_05",
+   "text": "γλῶττα, ἡ.:",
+   "note": "The article is broken type and looks like 'ἰ'. I read it as ἡ."
+  },
+  {
+   "strip": "0323_01",
+   "text": "ἀσελγής 2, ἄσωτος, 2 (liderlig):",
+   "note": "The print has a space before the colon after '(liderlig)'. I left the space out."
+  }
+ ]
+}

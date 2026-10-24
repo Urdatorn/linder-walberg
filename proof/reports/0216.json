@@ -1,0 +1,49 @@
+{
+ "page": "0216",
+ "strips_done": 6,
+ "corrections": 58,
+ "misprints": [
+  {
+   "strip": "0216_00",
+   "printed": "ἀθρακῶδες πῦρ",
+   "probably_meant": "ἀνθρακῶδες πῦρ",
+   "note": "nu missing in print; checked with a zoomed crop"
+  },
+  {
+   "strip": "0216_01",
+   "printed": "ἑστιάσις",
+   "probably_meant": "ἑστίασις",
+   "note": "accent printed on the alpha"
+  },
+  {
+   "strip": "0216_02",
+   "printed": "θυμάλωψ, ωπος",
+   "probably_meant": "θυμάλωψ, ωπος (or ῶπος)",
+   "note": "genitive ending printed with no accent; the OCR had added ὦ"
+  },
+  {
+   "strip": "0216_02",
+   "printed": "ὁ κτίσας, αντος",
+   "probably_meant": "ὁ κτίσας, αντος",
+   "note": "genitive ending printed with no accent; the OCR had added ά, which I removed"
+  },
+  {
+   "strip": "0216_04",
+   "printed": "k:nsfrhållnde",
+   "probably_meant": "kombinationsförhållande",
+   "note": "odd abbreviation, copied as printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0216_02",
+   "text": "Kollrighet, λύσσα, ἡ. μανία, ἡ.",
+   "note": "there is a faint stray mark after the final 'ἡ.' that could be a broken colon; I took it as dust and wrote a plain full stop"
+  },
+  {
+   "strip": "0216_03",
+   "text": "κολοκυνθίς, ἰδος, ἡ.",
+   "note": "the mark over the iota of the ending looks like a smooth breathing, so I kept ἰδος (the same as Kolbäcken and Kolpanna); it could be an accent"
+  }
+ ]
+}

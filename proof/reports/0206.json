@@ -1,0 +1,36 @@
+{
+ "page": "0206",
+ "strips_done": 7,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0206_02",
+   "printed": "σκηνὴ ναυτική, ὁ.",
+   "probably_meant": "σκηνὴ ναυτική, ἡ.",
+   "note": "The article after the feminine noun is printed as masculine."
+  },
+  {
+   "strip": "0206_03",
+   "printed": "τά μόσχεια",
+   "probably_meant": "τὰ μόσχεια",
+   "note": "Printed with an acute where a grave is expected, unlike the next τὰ μόσχεια."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0206_00",
+   "text": "Kabal ... / Kabel, -tross, -tåg, σχοινίον, τό. κάλως, / ~ υκος, ἡ. 3) kalkjord ... osläckt k.,",
+   "note": "This full-width strip also holds the first two lines of both columns. I wrote the heading 'K.', then the left-column lines (Kabal, Kabel), then the right-column line continuing κάλυξ from 0206_03 as a '~ ' paragraph. The reading order and paragraph structure of this mis-cut strip may need adjusting."
+  },
+  {
+   "strip": "0206_02",
+   "text": "ἴτριον",
+   "note": "The breathing is small. It looks smooth (ἴ) rather than rough (ἵ)."
+  },
+  {
+   "strip": "0206_03",
+   "text": "ἐφημερίς, ίδος / κυπελλίς, ίδος",
+   "note": "The genitive endings are printed with an acute and no breathing (ίδος). I copied that as printed."
+  }
+ ]
+}

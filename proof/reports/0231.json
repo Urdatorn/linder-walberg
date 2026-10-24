@@ -1,0 +1,54 @@
+{
+ "page": "0231",
+ "strips_done": 6,
+ "corrections": 73,
+ "misprints": [
+  {
+   "strip": "0231_00",
+   "printed": "ὑδυντικός",
+   "probably_meant": "ἡδυντικός",
+   "note": "Kryddande: printed with upsilon and rough breathing instead of eta."
+  },
+  {
+   "strip": "0231_00",
+   "printed": "ουσα",
+   "probably_meant": "οῦσα",
+   "note": "Participle ending printed without accent (ἰσχύων, ουσα, ον)."
+  },
+  {
+   "strip": "0231_01",
+   "printed": "αναπηρουν",
+   "probably_meant": "ἀναπηροῦν",
+   "note": "Krympling: printed with no breathing or accent at all."
+  },
+  {
+   "strip": "0231_01",
+   "printed": "ύος",
+   "probably_meant": "ύος",
+   "note": "ἰσχύς, ύος: genitive ending printed without breathing, the normal style for endings, so this is not an error. Listed only because the OCR had ὑός."
+  },
+  {
+   "strip": "0231_03",
+   "printed": "ποδος",
+   "probably_meant": "ποδός",
+   "note": "Kråkfot: genitive printed without accent."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0231_00",
+   "text": "εὔρωστος, 2.",
+   "note": "The period after 2 falls on the cropped right edge of the strip. Supplied because the book's usage is regular."
+  },
+  {
+   "strip": "0231_01",
+   "text": "εἴς τι",
+   "note": "The accent on ι (also in 0231_02, ἐντείνεσθαι (εἴς τι)) has an unusual shape: smooth breathing plus a stroke that could be read as acute, grave or circumflex. Transcribed as εἴς."
+  },
+  {
+   "strip": "0231_03",
+   "text": "κορωνόπους. ποδος",
+   "note": "The mark after κορωνόπους looks like a period but could be a weak comma."
+  }
+ ]
+}

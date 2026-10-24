@@ -1,0 +1,35 @@
+{
+ "page": "0236",
+ "strips_done": 6,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0236_02",
+   "printed": "τραχύτης, η.",
+   "probably_meant": "τραχύτης, ἡ.",
+   "note": "The article is printed with no breathing or accent at the top of the column. It may be a missing sort or a breathing that did not print. I kept the bare η."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0236_02",
+   "text": "σκληρός",
+   "note": "The omicron is broken and looks like ί, so the word reads like σκληρίς. Under magnification it is the left half of ο, so I wrote σκληρός."
+  },
+  {
+   "strip": "0236_00",
+   "text": "εὐπάθεια, ἡ.",
+   "note": "The punctuation after εὐπάθεια at the line end is faint. It is either a comma or a full stop. I took it as a comma."
+  },
+  {
+   "strip": "0236_05",
+   "text": "ἕδραν",
+   "note": "The breathing over epsilon is hard to read. It could be rough or smooth. I kept the rough breathing, which is the standard form."
+  },
+  {
+   "strip": "0236_03",
+   "text": "σκυταλίς, ίδος",
+   "note": "The mark over the iota looks like an acute and not a smooth breathing. I wrote ίδος, as the book does elsewhere. The same applies to κεραμίς, ίδος in 0236_05."
+  }
+ ]
+}

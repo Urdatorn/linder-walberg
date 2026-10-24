@@ -1,0 +1,70 @@
+{
+ "page": "0293",
+ "strips_done": 7,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0293_01",
+   "printed": "κεφαλής",
+   "probably_meant": "κεφαλῆς",
+   "note": "The print has an acute accent instead of a circumflex."
+  },
+  {
+   "strip": "0293_02",
+   "printed": "ὀμφαλόεις.: 3.:",
+   "probably_meant": "ὀμφαλόεις, 3.:",
+   "note": "A separator is printed before the termination number."
+  },
+  {
+   "strip": "0293_03",
+   "printed": "γομφουν.",
+   "probably_meant": "γομφοῦν.",
+   "note": "The circumflex is missing in the print. The same word is printed correctly later in the Nagla entry."
+  },
+  {
+   "strip": "0293_04",
+   "printed": "ποδος",
+   "probably_meant": "ποδός",
+   "note": "The accent is missing in the print."
+  },
+  {
+   "strip": "0293_05",
+   "printed": "γνῶριμός",
+   "probably_meant": "γνώριμός",
+   "note": "The print has a circumflex on γνῶ- at the line break."
+  },
+  {
+   "strip": "0293_05",
+   "printed": "ἐπὶ τινος",
+   "probably_meant": "ἐπί τινος",
+   "note": "The print has a grave accent before an enclitic."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0293_05",
+   "text": "πολλούς.:",
+   "note": "The print shows a raised dot before the colon. I read it as a broken '.:'."
+  },
+  {
+   "strip": "0293_06",
+   "text": "εὔδοξος",
+   "note": "The diacritic on υ is blurred, so it could be read as a circumflex."
+  },
+  {
+   "strip": "0293_06",
+   "text": "ταὐτόν",
+   "note": "The breathing or coronis over υ is unclear. The signature mark '37' below the column was left out."
+  },
+  {
+   "strip": "0293_02",
+   "text": "ἦρος",
+   "note": "The breathing under the circumflex is faint."
+  },
+  {
+   "strip": "0293_03",
+   "text": "Ναΐς",
+   "note": "The diacritics on the iota are a small cluster, read as an acute accent with a diaeresis."
+  }
+ ]
+}

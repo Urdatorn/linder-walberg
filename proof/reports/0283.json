@@ -1,0 +1,42 @@
+{
+ "page": "0283",
+ "strips_done": 6,
+ "corrections": 58,
+ "misprints": [
+  {
+   "strip": "0283_01",
+   "printed": "πρῲ τήμερον,: i går m.",
+   "probably_meant": "πρῲ τήμερον.: i går m.",
+   "note": "Comma plus colon printed where the book's usual separator is '.:'"
+  },
+  {
+   "strip": "0283_02",
+   "printed": "fig.. ὑποπεπωκώς",
+   "probably_meant": "fig. ὑποπεπωκώς",
+   "note": "Double full stop after the abbreviation 'fig.'"
+  },
+  {
+   "strip": "0283_05",
+   "printed": "ὤν, οὖσα, ὄν",
+   "probably_meant": "ὤν, οὖσα, ὄν (correct)",
+   "note": "Not a misprint: the old OCR read ὧν/ὅν, but the print has smooth breathings"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0283_04",
+   "text": "ἀπόκρισις, ἡ.",
+   "note": "The breathing on the article is faint and looks almost like a grave. I read it as rough ἡ."
+  },
+  {
+   "strip": "0283_04",
+   "text": "~ τινι. ἀντικατηγορεῖν τινος.",
+   "note": "The accents of this first line are cut off at the top of the strip image. The remains show at the bottom of 0283_03, so I kept ἀντικατηγορεῖν."
+  },
+  {
+   "strip": "0283_03",
+   "text": "o. vv. / gm vv.",
+   "note": "Printed in italic as υυ. I wrote 'vv.' to match how earlier proofread pages render this abbreviation."
+  }
+ ]
+}

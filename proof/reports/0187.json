@@ -1,0 +1,37 @@
+{
+ "page": "0187",
+ "strips_done": 6,
+ "corrections": 15,
+ "misprints": [
+  {
+   "strip": "0187_01",
+   "printed": "ὑπεροψία, ὁ.",
+   "probably_meant": "ὑπεροψία, ἡ.",
+   "note": "Article for a feminine noun under Högmod is printed as ὁ"
+  },
+  {
+   "strip": "0187_05",
+   "printed": "εἰς τοσοῦον ἥκειν",
+   "probably_meant": "εἰς τοσοῦτον ἥκειν",
+   "note": "The τ is missing in the print (checked in an enlarged crop)"
+  },
+  {
+   "strip": "0187_05",
+   "printed": "ἱέραξ, ακος",
+   "probably_meant": "ἱέραξ, ακος (ending without an accent)",
+   "note": "The genitive ending has no accent in the print, while other endings on this page carry one; kept as printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0187_01",
+   "text": "ὑπερηφανεῖν. γαυριᾶν.",
+   "note": "The breathings and accents on the strip's first line were cut off at the strip boundary, but their marks show at the bottom of strip 0187_00. I kept the accented forms."
+  },
+  {
+   "strip": "0187_05",
+   "text": "καπηλίς, ίδος, ἡ",
+   "note": "The ending has an acute on ι; whether there is also a breathing is not clear. I wrote ίδος following the usual style for endings."
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "page": "0304",
+ "strips_done": 6,
+ "corrections": 160,
+ "misprints": [
+  {
+   "strip": "0304_01",
+   "printed": "καλειν",
+   "probably_meant": "καλεῖν",
+   "note": "No circumflex is printed (Nämna 2)."
+  },
+  {
+   "strip": "0304_02",
+   "printed": "ὁ, ἡ. το πλησίον",
+   "probably_meant": "ὁ, ἡ, τὸ πλησίον",
+   "note": "το has no accent and there is a full stop after ἡ."
+  },
+  {
+   "strip": "0304_03",
+   "printed": "ἐγενετ’",
+   "probably_meant": "ἐγένετ’",
+   "note": "No accent is printed."
+  },
+  {
+   "strip": "0304_03",
+   "printed": "παρα μικρόν",
+   "probably_meant": "παρὰ μικρόν",
+   "note": "No accent is printed on παρα."
+  },
+  {
+   "strip": "0304_04",
+   "printed": "ἐγγυς ὦν",
+   "probably_meant": "ἐγγὺς ὢν",
+   "note": "ἐγγυς has no accent."
+  },
+  {
+   "strip": "0304_04",
+   "printed": "(ἐπ)αυξάνειν ... (ἐπ αυξάνεσθαι",
+   "probably_meant": "(ἐπ)αὐξάνειν ... (ἐπ)αὐξάνεσθαι",
+   "note": "αυξ- has no breathing in either place, and the second has no closing parenthesis."
+  },
+  {
+   "strip": "0304_05",
+   "printed": "τὰ πρὸς τον βίον ... τα πρὸς τον βίον",
+   "probably_meant": "τὸν ... τὰ",
+   "note": "τον and the second τα have no accents."
+  },
+  {
+   "strip": "0304_01",
+   "printed": "σαμύδας",
+   "probably_meant": "σημύδας",
+   "note": "Possibly a Doric or misprinted form of σημύδα, birch."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0304_00",
+   "text": "ἡ τῆς ῥαφίδος",
+   "note": "The η of τῆς under Nålsöga is broken and looks like τ̃ις."
+  },
+  {
+   "strip": "0304_00",
+   "text": "τρῆμα κέαρ. τος. τό",
+   "note": "The scan clearly shows κέαρ. τος, but the sense is odd. Copied as printed."
+  },
+  {
+   "strip": "0304_02",
+   "text": "ἐνιαχοῦ, -ῇ",
+   "note": "The iota subscript under the final η is only a faint blob at the edge of the line."
+  },
+  {
+   "strip": "0304_04",
+   "text": "ἐγγυς ὦν",
+   "note": "The accent on ω is the hooked form this face uses for circumflex. I also changed χειρὼν to χειρῶν in strip 00 on the same evidence: τῶν, which must take a circumflex, shows the same hook."
+  },
+  {
+   "strip": "0304_04",
+   "text": "Näringsdrift, -flit, ἐργασία, ἡ.",
+   "note": "The ink is faint, so the accent and breathing are barely visible."
+  },
+  {
+   "strip": "0304_00",
+   "text": "Nålsöga. / Näbbformig. / Näbbig. / Närbelägen. / Närig. / Näringsfrihet. / Näringslös.",
+   "note": "These headwords end in a low dot rather than a clear comma, so I wrote a full stop. Some may be broken commas."
+  }
+ ]
+}

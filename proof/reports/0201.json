@@ -1,0 +1,50 @@
+{
+ "page": "0201",
+ "strips_done": 7,
+ "corrections": 34,
+ "misprints": [
+  {
+   "strip": "0201_01",
+   "printed": "ἐνυφαίνεν",
+   "probably_meant": "ἐνυφαίνειν",
+   "note": "Inväfva: iota of the infinitive ending is missing in the print"
+  },
+  {
+   "strip": "0201_01",
+   "printed": "ἐμποκίλλειν",
+   "probably_meant": "ἐμποικίλλειν",
+   "note": "Inväfva: iota of the diphthong is missing"
+  },
+  {
+   "strip": "0201_01",
+   "printed": "(ἀνθ)υποφορά",
+   "probably_meant": "(ἀνθ)υποφορά / ὑποφορά",
+   "note": "No breathing printed on υ, probably on purpose because of the bracketed prefix; copied as printed"
+  },
+  {
+   "strip": "0201_02",
+   "printed": "ψευδοξεῖν",
+   "probably_meant": "ψευδοδοξεῖν",
+   "note": "Irrlära: syllable δο dropped"
+  },
+  {
+   "strip": "0201_02",
+   "printed": "(ἐξ)αμαρτάνειν",
+   "probably_meant": "(ἐξ)αμαρτάνειν / ἁμαρτάνειν",
+   "note": "No breathing after the bracketed prefix; copied as printed"
+  },
+  {
+   "strip": "0201_03",
+   "printed": "Isfågel.",
+   "probably_meant": "Isfågel,",
+   "note": "Headword is followed by a full stop instead of the usual comma"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0201_03",
+   "text": "o. vv.:",
+   "note": "Isolering: the italic 'vv.' looks like Greek υυ in this face; taken as the Swedish abbreviation vv."
+  }
+ ]
+}

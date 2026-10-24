@@ -1,0 +1,82 @@
+{
+ "page": "0193",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0193_01",
+   "printed": "(ἐγ)χαράττεν τῇ ῥίνῃ",
+   "probably_meant": "(ἐγ)χαράττειν",
+   "note": "Infila: infinitive printed without iota."
+  },
+  {
+   "strip": "0193_02",
+   "printed": "μνημονεύσθαι",
+   "probably_meant": "μνημονεύεσθαι",
+   "note": "Inflyta 3): a syllable is missing in the print."
+  },
+  {
+   "strip": "0193_02",
+   "printed": "(ἐν)τιθεσθαι",
+   "probably_meant": "(ἐν)τίθεσθαι",
+   "note": "Inflyta 3): no accent is visible on τι-; the accent may have dropped out of the type."
+  },
+  {
+   "strip": "0193_03",
+   "printed": "τα μέγιστα δύνασθαι",
+   "probably_meant": "τὰ μέγιστα",
+   "note": "The article is printed without an accent."
+  },
+  {
+   "strip": "0193_03",
+   "printed": "ἐλαττοῖσθαι",
+   "probably_meant": "ἐλαττοῦσθαι",
+   "note": "Checked at high zoom: the print clearly reads οῖ."
+  },
+  {
+   "strip": "0193_03",
+   "printed": "ἐγκαρθαρμόζειν",
+   "probably_meant": "ἐγκαθαρμόζειν",
+   "note": "Infoga: a stray ρ in the print."
+  },
+  {
+   "strip": "0193_03",
+   "printed": "ἐνοικίζεσθαι εἰσιέναι",
+   "probably_meant": "ἐνοικίζεσθαι. εἰσιέναι",
+   "note": "Inflytta 2): there is no full stop between the two verbs in the print."
+  },
+  {
+   "strip": "0193_05",
+   "printed": "συνιστάναι τινά τινι 2)",
+   "probably_meant": "τινά τινι. 2)",
+   "note": "Införa: there is no full stop before sense 2 in the print."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0193_00",
+   "text": "göra ett i., se Följ.",
+   "note": "The print shows 'i ,' with a gap where the full stop would be, probably broken type. I wrote 'i.,'."
+  },
+  {
+   "strip": "0193_03",
+   "text": "Infordra, (ἀπ)αιτεῖν τινά τι.",
+   "note": "The closing parenthesis after ἀπ is broken and looks like a comma or dot. I read it as ')'."
+  },
+  {
+   "strip": "0193_03",
+   "text": "Infläta, ... ἐγκατα-, παρεμπλέκειν",
+   "note": "The hyphen after ἐγκατα is not visible in the scan. I restored it, as in the parallel ἀνα-."
+  },
+  {
+   "strip": "0193_01",
+   "text": "εἴςπλους",
+   "note": "Printed 'εἴς-' at a line break, so I kept the final ς; the same applies to εἰςαγώγιμα in 0193_05."
+  },
+  {
+   "strip": "0193_02",
+   "text": "= infalla",
+   "note": "The second l is broken in the print ('infal!a')."
+  }
+ ]
+}

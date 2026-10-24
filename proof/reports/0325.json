@@ -1,0 +1,48 @@
+{
+ "page": "0325",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0325_01",
+   "printed": "ποροιμιώδης",
+   "probably_meant": "παροιμιώδης",
+   "note": "Printed with omicron in the first syllable; kept as printed."
+  },
+  {
+   "strip": "0325_01",
+   "printed": "Jfr Ordspråk,",
+   "probably_meant": "Jfr Ordspråk.",
+   "note": "The Ordstäfve entry appears to end with a comma instead of a full stop."
+  },
+  {
+   "strip": "0325_02",
+   "printed": "ἀπιστία, ὁ.",
+   "probably_meant": "ἀπιστία, ἡ.",
+   "note": "The article after ἀπιστία in the Oredlighet entry is printed ὁ."
+  },
+  {
+   "strip": "0325_04",
+   "printed": "αὐτοφυής ἄνθρωπος",
+   "probably_meant": "αὐτοφυὴς ἄνθρωπος",
+   "note": "Printed with an acute where a grave would be expected before another word; kept."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0325_02",
+   "text": "κλοπικός",
+   "note": "The last vowel is broken type and looks open-topped, so it could be read as κλοπικύς; I wrote κλοπικός, which is the attested form."
+  },
+  {
+   "strip": "0325_00",
+   "text": "εἰς ἐμὲ καθήκῃ l. ἥκῃ",
+   "note": "The breathings are small. I read smooth breathing on εἰς (the old OCR had εἷς) and rough breathing on ἥκῃ."
+  },
+  {
+   "strip": "0325_01",
+   "text": "ὡς λέγομεν παροιμιαζόμενοι",
+   "note": "The breathing and accent on ὡς are hard to tell apart in the scan."
+  }
+ ]
+}

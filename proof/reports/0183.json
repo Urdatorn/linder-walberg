@@ -1,0 +1,37 @@
+{
+ "page": "0183",
+ "strips_done": 6,
+ "corrections": 1,
+ "misprints": [
+  {
+   "strip": "0183_03",
+   "printed": "θυμοιειδής",
+   "probably_meant": "θυμοειδής",
+   "note": "Häftig; the print has an extra ι, while Häftighet on the same page has τὸ θυμοειδές"
+  },
+  {
+   "strip": "0183_04",
+   "printed": "σχοδρότης",
+   "probably_meant": "σφοδρότης",
+   "note": "Häftighet; the print has χ where φ is expected"
+  },
+  {
+   "strip": "0183_04",
+   "printed": "ὀγιλότης",
+   "probably_meant": "ὀργιλότης",
+   "note": "Häftighet; the ρ is missing in the print"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0183_03",
+   "text": "προσπεφυκέναι",
+   "note": "There is a stray grave-like mark next to the acute over ε. It looks like dust or a stray sort, so I read the word as plain προσπεφυκέναι."
+  },
+  {
+   "strip": "0183_04",
+   "text": "ἀκράχολος, 2,",
+   "note": "The mark after ἀκράχολος is faint and could be a full stop. A comma fits the context better, so I kept it."
+  }
+ ]
+}

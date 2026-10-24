@@ -1,0 +1,42 @@
+{
+ "page": "0348",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0348_00",
+   "printed": "χρησαλλίς",
+   "probably_meant": "χρυσαλλίς",
+   "note": "η printed for υ"
+  },
+  {
+   "strip": "0348_01",
+   "printed": "ἀλουργός, 3.",
+   "probably_meant": "ἁλουργός, 3.",
+   "note": "smooth breathing printed where rough is expected (Purpurfärga entry)"
+  },
+  {
+   "strip": "0348_05",
+   "printed": "ἀνορὰν",
+   "probably_meant": "ἀγορὰν",
+   "note": "ν printed for γ in εἰς τὴν ἀνορὰν ἰέναι"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0348_03",
+   "text": "εἴς τινα",
+   "note": "The diacritic on ι could be smooth breathing + acute, or a circumflex (εἶς). Kept as εἴς."
+  },
+  {
+   "strip": "0348_00",
+   "text": "εἰ καὶ τοῦτο",
+   "note": "The diacritic on ι of εἰ looks a bit like breathing + accent. Kept as εἰ."
+  },
+  {
+   "strip": "0348_03",
+   "text": "hrest / hrtill (0348_05)",
+   "note": "Printed letterspaced as 'hrest' and 'hr-till', probably abbreviations of hvarest and hvartill. Kept as printed."
+  }
+ ]
+}

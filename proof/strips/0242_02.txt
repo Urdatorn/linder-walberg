@@ -1,12 +1,12 @@
-~ Landsherrlig, βασιλικός, 3
+Landsherrlig, βασιλικός, 3.
 
 Landshöfding, ἔπαρχος, ὁ (se Lex.).
 
 Landshöfdingedöme, ἐπαρχία, ἡ (se Lex.).
 
-Landskansli, γραμματοφυλαχεῖον τὸ ἐν ἐπαρχίᾳ l. d.
+Landskansli, γραμματοφυλακεῖον τὸ ἐν ἐπαρχίᾳ l. d.
 
-Landskap, χώρα, ἡ. νομός, ὁ (distrikt, eg. i Egypten o. Persien). se f. öfr. Län.
+Landskap, χώρα, ἡ. νομός, ὁ (distrikt, eg. i Ægypten o. Persien). se f. öfr. Län.
 
 Landskapsbeskrifning, χωρογραφία, ἡ.
 
@@ -14,14 +14,14 @@ Landskapsmål, χωριτικὴ γλῶττα, ἡ l. d.
 
 Landskapsord, γλῶττα, ἡ.
 
-Landskyrka, ἱερὸν l. κυριακὸν τὸ ἐν ἀγροῖς.
+Landskyrka, ἱερόν l. κυριακὸν τὸ ἐν ἀγροῖς.
 
 Landslag, ἐγχώριος l. ἐπιχώριος l. πάτριος νόμος, ὁ.
 
-Landsman, -manninna 1) fr. sma landskap, ὁμόχωρος, ὁ, ἡ. 2) fr. sma land l. folk , πολίτης, ου, ὁ. πολῖτις, ιδος, ἡ. ὁμόφυλος, ὁ, ἡ. ὁμοεθνής, ό, ἡ. πατριώτης, ου, ὁ (gäller ish. om slafvar o. barbarer).: hd landsman? ποθα- 3): vår, eder l. , ἡμεδαπός, ὑμεδαπός, 3.: vara l. , ὁμοεθνεῖν.
+Landsman, -manninna, 1) fr. sma landskap, ὁμόχωρος, ὁ, ἡ. 2) fr. sma land l. folk, πολίτης, ου, ὁ. πολῖτις, ιδος, ἡ. ὁμόφυλος, ὁ, ἡ. ὁμοεθνής, ὁ, ἡ. πατριώτης, ου, ὁ (gäller ish. om slafvar o. barbarer).: hd landsman? ποδαπός, 3.: vår, eder l., ἡμεδαπός, ὑμεδαπός, 3.: vara l., ὁμοεθνεῖν.
 
 Landsmanskap, ὁμοφυλία, ἡ. τὸ ὁμόφυλον, ὁμόχωρον, ὁμοεθνές.
 
 Landsort, se Land 3). äfv. πόλισμα, τό.
 
-Landsortsstad, σμάσταδ, πολίχνη, ἡ. πο- 4) l. 4 l. πολίχνιον τό . πολισμάτιον, τό.
+Landsortsstad, småstad, πολίχνη, ἡ. πολίχνιον, τό. πολισμάτιον, τό.

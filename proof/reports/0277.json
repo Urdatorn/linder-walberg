@@ -1,0 +1,88 @@
+{
+ "page": "0277",
+ "strips_done": 6,
+ "corrections": 41,
+ "misprints": [
+  {
+   "strip": "0277_00",
+   "printed": "δείπνον",
+   "probably_meant": "δεῖπνον",
+   "note": "First occurrence (Middag 2) is printed with an acute; the later one in Middagsgäst has a circumflex"
+  },
+  {
+   "strip": "0277_00",
+   "printed": "ὁ ἐπὶ τὸν δεῖπνον κληθείς",
+   "probably_meant": "ὁ ἐπὶ τὸ δεῖπνον κληθείς",
+   "note": "The article is printed as masculine τὸν with the neuter noun"
+  },
+  {
+   "strip": "0277_00",
+   "printed": "Midddagshetta",
+   "probably_meant": "Middagshetta",
+   "note": "The headword is printed with three d's"
+  },
+  {
+   "strip": "0277_00",
+   "printed": "μέσονύκτιον",
+   "probably_meant": "μεσονύκτιον",
+   "note": "Acute printed on the first epsilon as well as on upsilon"
+  },
+  {
+   "strip": "0277_01",
+   "printed": "m:u",
+   "probably_meant": "m:n",
+   "note": "'i m:u af sommaren': an n printed as u, probably a turned type"
+  },
+  {
+   "strip": "0277_02",
+   "printed": "hraf",
+   "probably_meant": "hvaraf",
+   "note": "In the Mil entry"
+  },
+  {
+   "strip": "0277_03",
+   "printed": "λιθινοι",
+   "probably_meant": "λίθινοι",
+   "note": "Printed without an accent (hyphenated λιθι-νοι)"
+  },
+  {
+   "strip": "0277_04",
+   "printed": "προςωπον",
+   "probably_meant": "πρόσωπον",
+   "note": "'ἔχειν τὸ προς-ωπον' at a line break: no accent, and ς before the hyphen kept as printed"
+  },
+  {
+   "strip": "0277_05",
+   "printed": "ἀπέκπειναν",
+   "probably_meant": "ἀπέκτειναν",
+   "note": "π printed for τ"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0277_02",
+   "text": "στάδιοι, οἱ)",
+   "note": "The closing parenthesis is broken (only its top shows); read as ')'"
+  },
+  {
+   "strip": "0277_01",
+   "text": "μέσος, 3: i m:u",
+   "note": "The omicron of μέσος is heavily inked and could look like θ; read as μέσος. The colon after 3 is as printed"
+  },
+  {
+   "strip": "0277_04",
+   "text": "μηχανᾶσθαι",
+   "note": "The accent is faint and slightly breve-like; read as a circumflex"
+  },
+  {
+   "strip": "0277_04",
+   "text": "ἐμός, ή, όν",
+   "note": "Read the mark over η as an acute alone, with no breathing"
+  },
+  {
+   "strip": "0277_03",
+   "text": "πρᾷος",
+   "note": "The mark under α read as an iota subscript"
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "page": "0281",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0281_01",
+   "printed": "Mjökätare",
+   "probably_meant": "Mjölkätare",
+   "note": "Headword printed without the l."
+  },
+  {
+   "strip": "0281_01",
+   "printed": "vara m, γαλακτοφαγεῖν",
+   "probably_meant": "vara m., γαλακτοφαγεῖν",
+   "note": "The full stop after the abbreviation m is missing in the print."
+  },
+  {
+   "strip": "0281_02",
+   "printed": "οἴεις",
+   "probably_meant": "οἴει",
+   "note": "Late or unusual 2nd singular form, kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0281_05",
+   "text": "νηδύς, ύος, ἡ",
+   "note": "The genitive ending may carry a rough breathing (ὕος) in the print, but the mark is unclear. Transcribed as ύος."
+  },
+  {
+   "strip": "0281_01",
+   "text": "πέλλα o. πελλίς",
+   "note": "Printed as roman 'o.' (Swedish och), not ὁ. Transcribed as roman o."
+  },
+  {
+   "strip": "0281_00",
+   "text": "ἰχθὺς ὁ ἄρρην",
+   "note": "The diacritic on the initial iota is small. Read as a smooth breathing."
+  }
+ ]
+}

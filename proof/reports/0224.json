@@ -1,0 +1,48 @@
+{
+ "page": "0224",
+ "strips_done": 7,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0224_00",
+   "printed": "hufvdt",
+   "probably_meant": "hufvudet",
+   "note": "Kept as printed in 'k. sig i hufvdt'."
+  },
+  {
+   "strip": "0224_04",
+   "printed": "Kraftvunnen, κύριος, 3,",
+   "probably_meant": "κύριος, 3.",
+   "note": "There is a comma where a full stop is expected after the termination number."
+  },
+  {
+   "strip": "0224_04",
+   "printed": "το χαλαρον",
+   "probably_meant": "τὸ χαλαρόν",
+   "note": "Printed with no accents at all."
+  },
+  {
+   "strip": "0224_04",
+   "printed": "ἁψιμαχία",
+   "probably_meant": "ἀψιμαχία",
+   "note": "The breathing appears to be rough. Not fully certain."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0224_01",
+   "text": "τέχνην",
+   "note": "The print shows 'έχνην' with a faint mark before it, probably a broken τ. Read as τὴν τέχνην."
+  },
+  {
+   "strip": "0224_04",
+   "text": "ἁψιμαχία",
+   "note": "The breathing mark on α looks rough (c-shaped), not smooth like the one on ἀγκών above it."
+  },
+  {
+   "strip": "0224_02",
+   "text": "strip layout",
+   "note": "Strip 02 is classed as full width, but it holds the end lines of both columns: col. 1 '~ ύος, ἡ ... såväl po-', col. 2 '~ ξιοῦσθαί τινα ... ἀπιποῦν.' and 'Krambod'. It is written as three paragraphs in reading order. The previous text was garbled OCR mixing the two columns."
+  }
+ ]
+}

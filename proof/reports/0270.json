@@ -1,0 +1,72 @@
+{
+ "page": "0270",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0270_00",
+   "printed": "ὑποστασις",
+   "probably_meant": "ὑπόστασις",
+   "note": "No acute accent printed; the word is split ὑπο-στασις across a line."
+  },
+  {
+   "strip": "0270_00",
+   "printed": "hrur",
+   "probably_meant": "hvarur",
+   "note": "The print clearly shows 'hrur'."
+  },
+  {
+   "strip": "0270_01",
+   "printed": "Blodblad",
+   "probably_meant": "Blodbad",
+   "note": "Cross-reference under Massaker."
+  },
+  {
+   "strip": "0270_01",
+   "printed": "ἱσθόν",
+   "probably_meant": "ἱστόν",
+   "note": "θ for τ in τὸν ἱστόν."
+  },
+  {
+   "strip": "0270_02",
+   "printed": "ὐψαρτύειν",
+   "probably_meant": "ὀψαρτύειν",
+   "note": "Upsilon with smooth breathing printed in place of omicron."
+  },
+  {
+   "strip": "0270_02",
+   "printed": "Matbit ψωμός",
+   "probably_meant": "Matbit, ψωμός",
+   "note": "No comma printed after the headword."
+  },
+  {
+   "strip": "0270_05",
+   "printed": "Matt, 1) eg, ἀσθενής",
+   "probably_meant": "eg.,",
+   "note": "There is a gap where the period should be, but no period is printed."
+  },
+  {
+   "strip": "0270_05",
+   "printed": "ψιαθοπλόκος",
+   "probably_meant": "ψιαθοπλόκος",
+   "note": "Accent kept as printed; this form is not in the corpus."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0270_01",
+   "text": "ἱλοσίδηρος",
+   "note": "The first letter looks like an iota with rough breathing, so it may be ὁλοσίδηρος with a broken omicron or a misprint. I kept it as printed."
+  },
+  {
+   "strip": "0270_04",
+   "text": "ἑστιατήριον",
+   "note": "I read the breathing as rough; the mark is small."
+  },
+  {
+   "strip": "0270_02",
+   "text": "ὐψαρτύειν",
+   "note": "I read the breathing on the upsilon as smooth, but it could be rough (ὑ)."
+  }
+ ]
+}

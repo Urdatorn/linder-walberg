@@ -1,0 +1,36 @@
+{
+ "page": "0191",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0191_01",
+   "printed": "ημφιέσθαι",
+   "probably_meant": "ἠμφιέσθαι",
+   "note": "No breathing is visible on the initial eta in the scan. I kept it without the breathing, but it could also be broken type."
+  },
+  {
+   "strip": "0191_04",
+   "printed": "προστακτική (ἔγκλισις)",
+   "probably_meant": "προστακτικὴ (ἔγκλισις)",
+   "note": "The print has an acute, not a grave, before the parenthesis. I kept it as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0191_00",
+   "text": "ἐκθνήσκειν",
+   "note": "The eta has an odd stroke below it. It could be ῄ (iota subscript) or just the descender of η. I wrote ή to match ἀποθνήσκειν on the same page."
+  },
+  {
+   "strip": "0191_00",
+   "text": "κοῖλος, 3, ἔγκοιλος",
+   "note": "The mark after the first 3 is small and could be a period or a comma. I read it as a comma."
+  },
+  {
+   "strip": "0191_00",
+   "text": "κοιλάς, άδος",
+   "note": "Only an acute is visible on άδος, with no breathing (the same applies to ίδος in 0191_01 and 0191_03). I kept it as printed."
+  }
+ ]
+}

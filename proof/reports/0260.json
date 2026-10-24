@@ -1,0 +1,52 @@
+{
+ "page": "0260",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0260_02",
+   "printed": "σχελίς, ίδος",
+   "probably_meant": "σκελίς, ίδος",
+   "note": "The print clearly has χ, with its descender, in the Lårstycke entry."
+  },
+  {
+   "strip": "0260_05",
+   "printed": "σκυτατόμος",
+   "probably_meant": "σκυτοτόμος",
+   "note": "The second vowel looks like α in the print. It is hyphenated across the line as σκυτατό-μος."
+  },
+  {
+   "strip": "0260_00",
+   "printed": "Långlig",
+   "probably_meant": "Långlig (as printed; possibly for Långlig = långvarig)",
+   "note": "It is printed this way. No change was made."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0260_01",
+   "text": "vara l. i ngt",
+   "note": "At the start of the line the type is broken, so it reads like 'ingt' with no visible space. I transcribed it as 'i ngt'."
+  },
+  {
+   "strip": "0260_01",
+   "text": "ὀξυβλέπτης ὤν",
+   "note": "It is unclear whether the accent on ω is smooth+acute or smooth+grave. I chose ὤν."
+  },
+  {
+   "strip": "0260_04",
+   "text": "ὥς o. part. / σχηματίζεται ὥς φίλος ὤν",
+   "note": "Both instances seem to carry rough breathing plus acute (ὥς), not plain ὡς. This could be a print or font artefact."
+  },
+  {
+   "strip": "0260_05",
+   "text": "Läderartad,",
+   "note": "There is a dot before the comma that looks like dust, so I dropped it."
+  },
+  {
+   "strip": "0260_00",
+   "text": "βραδύς, εῖα, ύ",
+   "note": "No breathing is printed on εῖα or ύ, and I transcribed them as printed."
+  }
+ ]
+}

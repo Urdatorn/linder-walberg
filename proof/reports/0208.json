@@ -1,0 +1,48 @@
+{
+ "page": "0208",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0208_00",
+   "printed": "act.. θήρα",
+   "probably_meant": "act. θήρα",
+   "note": "The print seems to have a doubled full stop after 'act'. I kept it as printed."
+  },
+  {
+   "strip": "0208_03",
+   "printed": "Kapränning",
+   "probably_meant": "Kappränning",
+   "note": "The headword is printed with a single p, unlike the Kapp- entries around it."
+  },
+  {
+   "strip": "0208_05",
+   "printed": "Se f, öfr. Snål.",
+   "probably_meant": "Se f. öfr. Snål.",
+   "note": "There is a comma after f where the usual abbreviation has a full stop."
+  },
+  {
+   "strip": "0208_02",
+   "printed": "smnsättngar",
+   "probably_meant": "smnsättningar",
+   "note": "The abbreviation is printed as it stands. It may be a deliberate contraction rather than a misprint."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0208_03",
+   "text": "anställa k. m. ngn",
+   "note": "The first letter of this line is cut off at the left edge of the scan. What remains looks like 'k.' (the OCR had 't.')."
+  },
+  {
+   "strip": "0208_03",
+   "text": "ἱπποπῆραι, ὧν, αἵ",
+   "note": "The diacritics over the iota of αἱ are unclear. It could be αἱ or αἵ. I kept αἵ."
+  },
+  {
+   "strip": "0208_00",
+   "text": "ἐσχάτη ἐν τραπέζῃ",
+   "note": "The iota subscript under ζῃ is faint but probably present."
+  }
+ ]
+}

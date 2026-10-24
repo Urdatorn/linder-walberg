@@ -1,0 +1,43 @@
+{
+ "page": "0312",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0312_00",
+   "printed": "(m. ung. sma skillnad)",
+   "probably_meant": "(m. ung. små skillnad)",
+   "note": "'sma' printed without ring"
+  },
+  {
+   "strip": "0312_00",
+   "printed": "ἡγεμών όνος, ὁ",
+   "probably_meant": "ἡγεμών, όνος, ὁ",
+   "note": "comma missing after headword form"
+  },
+  {
+   "strip": "0312_04",
+   "printed": "ἐν τοῖς ανω l. ἄκροις τινός",
+   "probably_meant": "ἐν τοῖς ἄνω",
+   "note": "ανω printed without breathing and accent"
+  },
+  {
+   "strip": "0312_04",
+   "printed": "ἐν ἄκρῳ τινί",
+   "probably_meant": "ἐν ἄκρῳ τινί.",
+   "note": "no full stop at end of entry"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0312_00",
+   "text": "ss. en yttre handling",
+   "note": "broken type: 'en' looks like 'eu' in the print"
+  },
+  {
+   "strip": "0312_00",
+   "text": "ἡγεμών όνος",
+   "note": "genitive ending seems to have only an acute and no breathing; written όνος"
+  }
+ ]
+}

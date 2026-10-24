@@ -1,0 +1,48 @@
+{
+ "page": "0285",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0285_00",
+   "printed": "Mndder, se Gyttja.",
+   "probably_meant": "Mudder",
+   "note": "Headword printed with n for u (turned letter)"
+  },
+  {
+   "strip": "0285_05",
+   "printed": "εὐφρωσύνη",
+   "probably_meant": "εὐφροσύνη",
+   "note": "Omega printed for omicron"
+  },
+  {
+   "strip": "0285_05",
+   "printed": "φαιδρός, 3., vara m.",
+   "probably_meant": "φαιδρός, 3.: vara m.",
+   "note": "Comma where the book's usual '.:' separator would be expected"
+  },
+  {
+   "strip": "0285_02",
+   "printed": "διαίρειν l",
+   "probably_meant": "διαίρειν l.",
+   "note": "No period visible after 'l' at the column end"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0285_03",
+   "text": "πρὸς ἡδονήν",
+   "note": "The omicron is broken: only a sliver is visible, so it looks like 'πρὶς'. Read as πρὸς."
+  },
+  {
+   "strip": "0285_02",
+   "text": "διαίρειν l",
+   "note": "The period after the final 'l' is missing or was lost at the column edge. Kept without a period."
+  },
+  {
+   "strip": "0285_01",
+   "text": "συννενοφώς, υῖα, ός",
+   "note": "The circumflex sits between υ and ι. Written υῖα."
+  }
+ ]
+}

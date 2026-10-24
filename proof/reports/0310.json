@@ -1,0 +1,36 @@
+{
+ "page": "0310",
+ "strips_done": 6,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0310_05",
+   "printed": "φαύλος",
+   "probably_meant": "φαῦλος",
+   "note": "Printed with an acute instead of a circumflex; zoom confirms the acute."
+  },
+  {
+   "strip": "0310_05",
+   "printed": "μιστιγίας",
+   "probably_meant": "μαστιγίας",
+   "note": "The print clearly reads μι- at the line break (μι-στιγίας)."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0310_04",
+   "text": "Odlingsbar, se Odelbar 1.",
+   "note": "Written as the digit 1 because it is in the bold spaced headword face and refers to the first Odelbar entry (af odla). It could still be read as l."
+  },
+  {
+   "strip": "0310_02",
+   "text": "ἢν καί",
+   "note": "The mark over η looks like a smooth breathing with a grave. Same reading as in 0310_03."
+  },
+  {
+   "strip": "0310_01",
+   "text": "ἀκαμπής,",
+   "note": "There is a small dot between ς and the comma. Treated as dust."
+  }
+ ]
+}

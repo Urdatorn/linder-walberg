@@ -1,0 +1,42 @@
+{
+ "page": "0218",
+ "strips_done": 6,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0218_00",
+   "printed": "κωμῳδοδιδάσκαλος. ὁ",
+   "probably_meant": "κωμῳδοδιδάσκαλος, ὁ",
+   "note": "A full stop is printed after the headword's Greek equivalent where a comma is expected."
+  },
+  {
+   "strip": "0218_04",
+   "printed": "Koditionel",
+   "probably_meant": "Konditionel",
+   "note": "The headword is printed without the n."
+  },
+  {
+   "strip": "0218_04",
+   "printed": "παραμυθητικὶς λόγος",
+   "probably_meant": "παραμυθητικὸς λόγος",
+   "note": "The print shows ι with a grave accent where ο is expected. It could be a broken ο."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0218_00",
+   "text": "ἁδρομερής, 2. ἁδρός",
+   "note": "The breathing is small. I read it as rough, which is the standard form, but it could be smooth."
+  },
+  {
+   "strip": "0218_04",
+   "text": "παραμυθητικὶς",
+   "note": "I can't tell whether this is a wrong letter or a damaged ο."
+  },
+  {
+   "strip": "0218_05",
+   "text": "ὡς δημόσιος",
+   "note": "The breathing on ὡς is faint. I wrote the expected rough breathing."
+  }
+ ]
+}

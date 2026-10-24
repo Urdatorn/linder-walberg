@@ -1,0 +1,48 @@
+{
+ "page": "0336",
+ "strips_done": 6,
+ "corrections": 50,
+ "misprints": [
+  {
+   "strip": "0336_01",
+   "printed": "εἰς ἀγύριον λογίζεσθαί τι",
+   "probably_meant": "εἰς ἀργύριον λογίζεσθαί τι",
+   "note": "rho missing in ἀργύριον"
+  },
+  {
+   "strip": "0336_03",
+   "printed": "θηραυρὸς ἀργυρίου",
+   "probably_meant": "θησαυρὸς ἀργυρίου",
+   "note": "ρ printed for σ"
+  },
+  {
+   "strip": "0336_03",
+   "printed": "ἀργυρίου πλῆθος, τό,",
+   "probably_meant": "ἀργυρίου πλῆθος, τό.",
+   "note": "entry ends with a comma"
+  },
+  {
+   "strip": "0336_02",
+   "printed": "χρήματα (ἀποκείμενα l. ὑπάρχοντα), τά",
+   "probably_meant": "..., τά.",
+   "note": "no final full stop"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0336_05",
+   "text": "μαργηλίς, ίδος, ἡ.",
+   "note": "the accent on ίδος is broken; it could be a breathing, but it is most likely an acute"
+  },
+  {
+   "strip": "0336_02",
+   "text": "vara i p., χρημάτων ἀπορεῖν",
+   "note": "the punctuation after p. is smudged (it could be 'p,,'); taken as 'p.,'"
+  },
+  {
+   "strip": "0336_02",
+   "text": "Penningförvärf",
+   "note": "the r in the headword is broken in print"
+  }
+ ]
+}

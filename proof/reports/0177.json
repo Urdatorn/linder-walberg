@@ -1,0 +1,92 @@
+{
+ "page": "0177",
+ "strips_done": 6,
+ "corrections": 38,
+ "misprints": [
+  {
+   "strip": "0177_02",
+   "printed": "βούλιμρς",
+   "probably_meant": "βούλιμος",
+   "note": "ρ printed for ο"
+  },
+  {
+   "strip": "0177_03",
+   "printed": "εἶς τί, εἶς πόσον",
+   "probably_meant": "εἰς τί, εἰς πόσον",
+   "note": "circumflex for acute/plain breathing on the preposition"
+  },
+  {
+   "strip": "0177_04",
+   "printed": "εἶς τί (ὅτι). εἶς πόσον",
+   "probably_meant": "εἰς τί, εἰς πόσον",
+   "note": "same as in Huru"
+  },
+  {
+   "strip": "0177_03",
+   "printed": "ombestämda",
+   "probably_meant": "obestämda",
+   "note": "Swedish misprint, an extra m"
+  },
+  {
+   "strip": "0177_03",
+   "printed": "uuder",
+   "probably_meant": "under",
+   "note": "turned n"
+  },
+  {
+   "strip": "0177_05",
+   "printed": "οὐκεῖον",
+   "probably_meant": "οἰκεῖον",
+   "note": "υ for ι in Husdjur"
+  },
+  {
+   "strip": "0177_00",
+   "printed": "καθ' ἑκατάδας",
+   "probably_meant": "καθ' ἑκατοντάδας",
+   "note": "seems to be missing a syllable"
+  },
+  {
+   "strip": "0177_01",
+   "printed": "κύων, νός",
+   "probably_meant": "κύων, κυνός",
+   "note": "genitive printed as νός only"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0177_02",
+   "text": "(frivillig)",
+   "note": "the second l is missing or broken in the print ('frivil ig')"
+  },
+  {
+   "strip": "0177_03",
+   "text": "fogas",
+   "note": "the first letter looks like t ('togas'); I read it as a broken f"
+  },
+  {
+   "strip": "0177_03",
+   "text": "ὁποσοσ τις οὖν.:",
+   "note": "there is a damaged mark between σ and τ, maybe a broken '('; the print reads 'τις οὖν' with final ς and a separate οὖν"
+  },
+  {
+   "strip": "0177_04",
+   "text": "ἡδὺς",
+   "note": "the accent on υ is faint; I read it as grave"
+  },
+  {
+   "strip": "0177_04",
+   "text": "(ὁπόσου)",
+   "note": "the breathing looks like a grave accent or a turned breathing"
+  },
+  {
+   "strip": "0177_05",
+   "text": "ἔπιπλα, ων, τά",
+   "note": "no accent visible on ων; the type may be worn"
+  },
+  {
+   "strip": "0177_04",
+   "text": "ὥς",
+   "note": "twice the print has a rough breathing plus an acute (not ὡς)"
+  }
+ ]
+}

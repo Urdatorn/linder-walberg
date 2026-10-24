@@ -1,0 +1,73 @@
+{
+ "page": "0302",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0302_00",
+   "printed": "καινοῦσθαι τας διανοίας",
+   "probably_meant": "καινοῦσθαι τὰς διανοίας",
+   "note": "article printed without accent"
+  },
+  {
+   "strip": "0302_02",
+   "printed": "Ναΐδες",
+   "probably_meant": "Ναΐδες",
+   "note": "Only one mark is visible over the iota, so the diaeresis may be missing in the print; I kept Ναΐδες. The same headword also has 'αἱ' with no full stop before the colon."
+  },
+  {
+   "strip": "0302_05",
+   "printed": "εὐθυς ἀρξαμενου",
+   "probably_meant": "εὐθὺς ἀρξαμένου",
+   "note": "both words printed without their accents"
+  },
+  {
+   "strip": "0302_05",
+   "printed": "εἰς καλον",
+   "probably_meant": "εἰς καλὸν",
+   "note": "accent missing in print"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0302_04",
+   "text": "~ στήρ, ῆρος, ὁ.",
+   "note": "The tops of the letters are cut off at the edge of the strip, so the accents and breathing (στηρ, ηρος, ο) cannot be seen. I supplied them from κλωστήρ."
+  },
+  {
+   "strip": "0302_04",
+   "text": "ὠφελεῖσθαι ἐκ, ἀπό τινος / εὐχρηστεῖσθαι",
+   "note": "Broken type: there is a stray acute over the ε and the circumflex has shifted. I read both as the normal circumflex form."
+  },
+  {
+   "strip": "0302_03",
+   "text": "ἀγαθίς, ἴδος",
+   "note": "The mark on the iota looks like a single stroke and could be ἴ or ἰ. I wrote ἴδος, and did the same in 0302_02 (δραγμίς) and 0302_05 (ἐπινομίς)."
+  },
+  {
+   "strip": "0302_03",
+   "text": "ἐλίττειν",
+   "note": "Smooth or rough breathing cannot be told apart here. I kept the smooth breathing (ἐ) as printed; ἑλίττειν would be expected."
+  },
+  {
+   "strip": "0302_02",
+   "text": "κατὰ καινὸν τρ.",
+   "note": "The accent on καινον is not clearly visible."
+  },
+  {
+   "strip": "0302_02",
+   "text": "Ἁμαδρυάδες, αἱ: / Νηρηΐδες, αἱ: / Ναΐδες, αἱ:",
+   "note": "No full stop is visible before the colon (printed 'αἱ :'), and the rough breathing on Ἁμαδρυάδες is unclear."
+  },
+  {
+   "strip": "0302_01",
+   "text": "μετρίᾳ τῇ διαίτῃ",
+   "note": "The iota subscripts are faint. The one under α is visible, but those under τῇ and διαίτῃ are less certain."
+  },
+  {
+   "strip": "0302_02",
+   "text": "ψαλάττειν",
+   "note": "The scan clearly shows ψ, not φ; I kept it as printed."
+  }
+ ]
+}

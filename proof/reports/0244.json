@@ -1,0 +1,53 @@
+{
+ "page": "0244",
+ "strips_done": 7,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0244_03",
+   "printed": "ὅπῃ ἄγει ἡ ὁδος.",
+   "probably_meant": "ὅπῃ ἄγει ἡ ὁδός.",
+   "note": "There is no acute on ὁδος here, though the same phrase a few words earlier has ὁδός."
+  },
+  {
+   "strip": "0244_04",
+   "printed": "παράρθρησις, ἡ παρακίνημα, τό.",
+   "probably_meant": "παράρθρησις, ἡ. παρακίνημα, τό.",
+   "note": "The full stop after ἡ is missing in the print."
+  },
+  {
+   "strip": "0244_05",
+   "printed": "ἄπραγεῖν",
+   "probably_meant": "ἀπραγεῖν",
+   "note": "The print has an acute on the initial α as well as the circumflex, so the word carries two accents."
+  },
+  {
+   "strip": "0244_02",
+   "printed": "(παρα)τάττειν..",
+   "probably_meant": "(παρα)τάττειν.:",
+   "note": "Two baseline dots are printed where the book's usual '.:' separator should be. It may be a misprint or a colon that lost its upper dot."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0244_01",
+   "text": "διαρροΐζεσθαι",
+   "note": "Above the ι there is a small acute-like mark with a dot (or dots), which I read as ΐ (diaeresis with acute). The diacritic is unclear."
+  },
+  {
+   "strip": "0244_04",
+   "text": "βδελύττεσθαι",
+   "note": "The second τ looks broken in the scan, so the word appears as 'βδελύττιεσθαι'. I read it as a damaged τ."
+  },
+  {
+   "strip": "0244_02",
+   "text": "(παρα)τάττειν..",
+   "note": "I kept the two baseline dots as they are printed. The upper dot of a '.:' may simply not have inked."
+  },
+  {
+   "strip": "0244_00",
+   "text": "240 Lavendel — Ledning.",
+   "note": "I rewrote the running head from '~ 240) Lavendel—Ledning.' to match the head format on other pages (page number, then the range)."
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "page": "0253",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0253_03",
+   "printed": "προβύειν",
+   "probably_meant": "a form of προμύσσειν/προμύττειν (e.g. ἀπομύττειν)",
+   "note": "β is clearly printed; the verb is otherwise unattested"
+  },
+  {
+   "strip": "0253_04",
+   "printed": "τριχος",
+   "probably_meant": "τριχός",
+   "note": "genitive printed without an accent"
+  },
+  {
+   "strip": "0253_04",
+   "printed": "τα φωτεινά",
+   "probably_meant": "τὰ φωτεινά",
+   "note": "article printed without a grave accent"
+  },
+  {
+   "strip": "0253_05",
+   "printed": "Δυγκέως",
+   "probably_meant": "Λυγκέως",
+   "note": "capital Delta clearly printed (with base stroke) for Lambda"
+  },
+  {
+   "strip": "0253_01",
+   "printed": "ἡδύς, 3.",
+   "probably_meant": "ἡδύς, εῖα, ύ",
+   "note": "termination number 3 as printed; kept"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0253_04",
+   "text": "ὁ, ἡ.",
+   "note": "breathing on ἡ after τριχος looks like a smooth/grave mark, probably broken rough breathing; written ἡ"
+  },
+  {
+   "strip": "0253_00",
+   "text": "μεγάλῃ",
+   "note": "iota subscript faint under η; read as present"
+  },
+  {
+   "strip": "0253_00",
+   "text": "Livró, οἰκετικὴ ἐσθής",
+   "note": "breathing on ἐσθής read as smooth (OCR had rough)"
+  },
+  {
+   "strip": "0253_05",
+   "text": "(signature 32)",
+   "note": "printer's signature number '32' at bottom of column omitted from transcription"
+  }
+ ]
+}

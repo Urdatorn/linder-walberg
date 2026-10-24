@@ -1,0 +1,31 @@
+{
+ "page": "0237",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0237_02",
+   "printed": "προσακόντιζειν",
+   "probably_meant": "προσακοντίζειν",
+   "note": "accent on the wrong syllable in the print"
+  },
+  {
+   "strip": "0237_02",
+   "printed": "ἀφροδίτης",
+   "probably_meant": "Ἀφροδίτης",
+   "note": "lower-case initial in the print (μεθύων ὑπὸ τῆς ἀφροδίτης)"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0237_00",
+   "text": "ἁλίσκεσθαι",
+   "note": "breathing on the α is small; read as rough"
+  },
+  {
+   "strip": "0237_05",
+   "text": "ἁδρός / ἅδρυνσις",
+   "note": "breathing marks are small; read as rough, which is the expected form"
+  }
+ ]
+}

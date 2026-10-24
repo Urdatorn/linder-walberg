@@ -1,0 +1,88 @@
+{
+ "page": "0204",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0204_01",
+   "printed": "hrifrån",
+   "probably_meant": "hvarifrån",
+   "note": "Swedish 'where from', letters dropped in print"
+  },
+  {
+   "strip": "0204_01",
+   "printed": "hm är det?",
+   "probably_meant": "hvem är det?",
+   "note": "Swedish 'who is it', letters dropped in print"
+  },
+  {
+   "strip": "0204_01",
+   "printed": "τηνικάδι",
+   "probably_meant": "τηνικάδε",
+   "note": "final ι for ε"
+  },
+  {
+   "strip": "0204_01",
+   "printed": "Δυσίου",
+   "probably_meant": "Λυσίου",
+   "note": "Lysias. The capital has a visible base stroke, so it reads as Δ"
+  },
+  {
+   "strip": "0204_04",
+   "printed": "Begrafva",
+   "probably_meant": "Begräfva",
+   "note": "umlaut missing in the cross-reference"
+  },
+  {
+   "strip": "0204_04",
+   "printed": "τρισσεῦσαντα",
+   "probably_meant": "τρισσεύσαντα",
+   "note": "circumflex printed where an acute belongs"
+  },
+  {
+   "strip": "0204_04",
+   "printed": "νικρῷ",
+   "probably_meant": "νεκρῷ",
+   "note": "ι for ε"
+  },
+  {
+   "strip": "0204_04",
+   "printed": "καρποὶ οἱ τῆς γῆς,",
+   "probably_meant": "καρποὶ οἱ τῆς γῆς.",
+   "note": "entry ends in a comma"
+  },
+  {
+   "strip": "0204_05",
+   "printed": "χάσμα γῆς, τί.",
+   "probably_meant": "χάσμα γῆς, τό.",
+   "note": "article misprinted"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0204_02",
+   "text": "χθών, ἡ (poët.). ἡ πᾶσα γῆ",
+   "note": "The second '(poët.)' prints as '(poët )' with the full stop missing or broken. I wrote 'poët.'"
+  },
+  {
+   "strip": "0204_02",
+   "text": "ἀγροί, οἱ.",
+   "note": "The breathing on οἱ is small (rough, possibly with an accent). The same applies to οἱ in 0204_05 (Jordlägenhet, Jordsalt)"
+  },
+  {
+   "strip": "0204_01",
+   "text": "Δυσίου",
+   "note": "This could be the face's italic Λ rather than a misprinted Δ. I kept Δ as it appears"
+  },
+  {
+   "strip": "0204_01",
+   "text": "jo, sad’ du det?",
+   "note": "The apostrophe could be either ' or ’. I kept ’"
+  },
+  {
+   "strip": "0204_00",
+   "text": "σεισοπυγίς, ίδος",
+   "note": "Accent on ίδος read as acute. In Jernört the same ending is printed without an accent (ιδος)"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "page": "0247",
+ "strips_done": 7,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0247_01",
+   "printed": "ἰδώτης",
+   "probably_meant": "ἰδιώτης",
+   "note": "Lekman entry; the iota after δ is missing in the print"
+  },
+  {
+   "strip": "0247_04",
+   "printed": "hnruvida",
+   "probably_meant": "huruvida",
+   "note": "The first u is set as n, probably an inverted letter"
+  },
+  {
+   "strip": "0247_04",
+   "printed": "ἔξεστί μοι l δέδοταί μοι",
+   "probably_meant": "ἔξεστί μοι l. δέδοταί μοι",
+   "note": "No full stop after 'l' at the end of the line"
+  },
+  {
+   "strip": "0247_06",
+   "printed": "πρόςταχθέν",
+   "probably_meant": "προσταχθέν",
+   "note": "Printed with an accent on πρός- and final ς before the line break; kept as printed"
+  },
+  {
+   "strip": "0247_06",
+   "printed": "(ἐξ)ερευνᾶν",
+   "probably_meant": "(ἐξ)ερευνᾶν / ἐρευνᾶν",
+   "note": "No breathing is printed after the parenthesised prefix; this is the book's usual practice, not an error"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0247_01",
+   "text": "συμπαίκτορα",
+   "note": "The strip image cuts off the final α. I read it from the full-page TIFF (svegrek/0247.tif). The same applies to συνδυασθῆναι, 't. ex.' and 'dansa).'"
+  },
+  {
+   "strip": "0247_06",
+   "text": "l. m. vv.",
+   "note": "Printed in italics, so it looks like υυ. Written 'vv.' to match the convention on earlier proofread pages"
+  }
+ ]
+}

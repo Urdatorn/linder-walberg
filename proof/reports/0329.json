@@ -1,0 +1,47 @@
+{
+ "page": "0329",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0329_02",
+   "printed": "δυσβατος",
+   "probably_meant": "δύσβατος",
+   "note": "No accent visible in print"
+  },
+  {
+   "strip": "0329_04",
+   "printed": "bli sig sf o.",
+   "probably_meant": "bli sig sjelf o.",
+   "note": "'sf' as printed; likely a truncated or abbreviated 'sjelf'"
+  },
+  {
+   "strip": "0329_05",
+   "printed": "ὄρθρος, ο.:",
+   "probably_meant": "ὄρθρος, ὁ.:",
+   "note": "Article printed without a visible rough breathing"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0329_01",
+   "text": "i o, ἄκαιρος",
+   "note": "Print shows 'i o ,' with no clear full stop after o; the expected form is 'i o.,'. Kept as 'i o,'"
+  },
+  {
+   "strip": "0329_01",
+   "text": "παρὰ καιρόν",
+   "note": "No punctuation is visible at the end of the Otid entry; left without any"
+  },
+  {
+   "strip": "0329_05",
+   "text": "μαχλοσύνη, ἡ.",
+   "note": "The final ἡ looks as if it has a grave accent (broken type?); transcribed as ἡ"
+  },
+  {
+   "strip": "0329_05",
+   "text": "3 (om handlingar): tala",
+   "note": "Print has a space before the colon: ') :'"
+  }
+ ]
+}

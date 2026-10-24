@@ -1,0 +1,18 @@
+{
+ "page": "0217",
+ "strips_done": 6,
+ "corrections": 58,
+ "misprints": [],
+ "uncertain": [
+  {
+   "strip": "0217_00",
+   "text": "ὡς (bl. om person)",
+   "note": "The mark over the omega is a single curled sign, which in this face is usually a bare rough breathing (as on ὁ/ἡ). It could also be read as ὥς, so I kept ὡς."
+  },
+  {
+   "strip": "0217_05",
+   "text": "πάντων τῶν ἀγαθῶν",
+   "note": "At this resolution I could not confirm the accent on πάντων, so I kept πάντων."
+  }
+ ]
+}
