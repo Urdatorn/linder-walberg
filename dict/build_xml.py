@@ -17,7 +17,9 @@ The print's conventions become typography:
                  numbers ("ἄδικος, 2") kept with their word
   abbreviations  the grammatical ones italic as printed, all with their
                  expansion from the book's list as a tooltip
-  headword initial  "göra a." (a. = the headword) marked and expanded on hover
+  headword initial  "göra a." (a. = the headword) marked and expanded on hover;
+                 only with its full stop or ending ("ö:na"), never the bare
+                 letter, which is often a word of its own (the preposition i)
   references     "se X", "Jfr X", "Se vidare X" link to the entry X
 
 Greek words given as equivalents are indexed too, so looking up a Greek word
@@ -124,9 +126,10 @@ class Renderer:
         """Greek, abbreviations, headword initials and references in one phrase."""
         out, pos = [], 0
         for m in GREEK_RUN.finditer(text):
+            run = m.group(0).rstrip(" (")          # an opening bracket after Greek starts Swedish
             out.append(self.swedish(text[pos:m.start()], head))
-            out.append(self.greek(m.group(0)))
-            pos = m.end()
+            out.append(self.greek(run))
+            pos = m.start() + len(run)
         out.append(self.swedish(text[pos:], head))
         return "".join(out)
 
@@ -153,7 +156,7 @@ class Renderer:
 
     def words(self, text: str, head: str, initial: str) -> str:
         out, pos = [], 0
-        token = re.compile(ABBR_RE.pattern + rf"|(?<![\w.])({re.escape(initial)}(?::[a-zåäö]+)?\.?)(?![\w])"
+        token = re.compile(ABBR_RE.pattern + rf"|(?<![\w.])({re.escape(initial)}(?::[a-zåäö]+\.?|\.))(?![\w])"
                            if initial.isalpha() else ABBR_RE.pattern)
         for m in token.finditer(text):
             out.append(html.escape(text[pos:m.start()]))
@@ -240,6 +243,13 @@ class Renderer:
         return [p.strip() for p in parts if p and p.strip()]
 
 
+def keep_spaces(markup: str) -> str:
+    """Apple's compiler drops whitespace that stands alone between two tags
+    ("<span>ngn</span> <span>i.</span>" shows as "ngni."), so each such space
+    moves inside the element it follows."""
+    return re.sub(r"((?:</(?:span|a|b|i)>)+)([ \t]+)(?=<)", r"\2\1", markup)
+
+
 def greek_index(text: str) -> list[str]:
     """Greek words worth looking up: content words of the entry, lemma-like."""
     words = []
@@ -284,7 +294,7 @@ def main() -> None:
                     out.write(f'<d:index d:value="{html.escape(w, quote=True)}" d:title="{html.escape(w, quote=True)} → {title}" d:priority="2"/>\n')
             printed = int(e["page"]) - 4
             out.write(f'<h1 class="hw">{html.escape(head)}</h1>\n')
-            out.write(f'<div class="entry">{r.body(rest, head, int(eid[3:]))}</div>\n')
+            out.write(f'<div class="entry">{keep_spaces(r.body(rest, head, int(eid[3:])))}</div>\n')
             out.write(f'<div class="src">Linder &amp; Walberg 1862, s. {printed}</div>\n')
             out.write('</d:entry>\n')
         out.write(front_matter(args.pages))
