@@ -1,0 +1,59 @@
+{
+ "page": "0538",
+ "strips_done": 7,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0538_02",
+   "printed": "Ogonlock",
+   "probably_meant": "Ögonlock",
+   "note": "Headword printed without the diaeresis on O; all neighbouring headwords have Ö."
+  },
+  {
+   "strip": "0538_03",
+   "printed": "ἄλγεινός",
+   "probably_meant": "ἀλγεινός",
+   "note": "Alpha carries both breathing and an acute, and omicron also has an acute: there is one accent too many."
+  },
+  {
+   "strip": "0538_04",
+   "printed": "ἀπαλόφρων",
+   "probably_meant": "ἀταλόφρων",
+   "note": "Clearly π in the print. The attested word is ἀταλόφρων."
+  },
+  {
+   "strip": "0538_06",
+   "printed": "αἱρετός. 3.",
+   "probably_meant": "αἱρετός, 3.",
+   "note": "Full stop where the rest of the series has a comma before the termination number."
+  },
+  {
+   "strip": "0538_06",
+   "printed": "χάσκων, ουσα ον",
+   "probably_meant": "χάσκων, ουσα, ον",
+   "note": "There is a blank gap between ουσα and ον, so the comma or dash appears to have dropped out of the forme."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0538_06",
+   "text": "χάσκων, ουσα ον",
+   "note": "Gap with no visible mark between ουσα and ον. I transcribed it as a plain space."
+  },
+  {
+   "strip": "0538_06",
+   "text": "χρήζειν",
+   "note": "I see no iota subscript under η in the print, so I wrote χρήζειν, not χρῄζειν."
+  },
+  {
+   "strip": "0538_06",
+   "text": "ὅ l. ἅ",
+   "note": "The small marks look like rough breathing with acute. Grave cannot be fully excluded."
+  },
+  {
+   "strip": "0538_04",
+   "text": "~ όνος, ἡ.",
+   "note": "The left edge of the first line is clipped. I read it as the genitive ending of ἀλγηδών, which is continued from the column above."
+  }
+ ]
+}

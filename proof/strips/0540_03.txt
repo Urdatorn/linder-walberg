@@ -1,35 +1,18 @@
-= eller
-
-= lexikon
-
-= med
-
-= masculinum
-
-= medium
-
-= mening
-
-= med flera
-
-= militärisk
-
-= motsats
-
-= menniska, -skor
-
-= negativ, -ion
-
-= nedanföre
-
-= neutrum
-
-= någon, -ot
-
-= nomen, nominativus
-
-= Nya Testamentet
-
-= Nygrekiska
-
-= och
+l. = eller
+lex. = lexikon
+m. = med
+masc. = masculinum
+med. = medium
+men. = mening
+m. fl. = med flera
+milit. = militärisk
+mots. = motsats
+mska, mskr = menniska, -skor
+negat. = negativ, -ion
+nedanf. = nedanföre
+neutr. = neutrum
+ngn, ngt = någon, -ot
+nom. = nomen, nominativus
+N. T. = Nya Testamentet
+Nygr. = Nygrekiska
+o. = och

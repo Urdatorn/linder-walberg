@@ -1,89 +1,23 @@
 följ. = följande
-
 föreg. = föregående
-
 gen. = genitivus
-
 gm = genom
-
 gram. = grammatik
-
 Gr., Grek. = Grek, -er(na), -iska
-
 hne = henne
-
 hm = honom
-
 hr = hvar
-
 hs = hans
-
 i ans. = i anseende
-
 i afs. = i afseende
-
 imp. = imperativus
-
 impf. = imperfectum
-
 ind. = indicativus
-
 indir. = indirekt
-
 inf. = infinitivus
-
 intr. = intransitiv
-
 jfr = jemför
-
 jurid. = juridisk
-
 K. F. = Kyrkoförfattare
-
 kom. = komisk
-
 ksla = känsla
-
-s. = s.
-
-sc. = sc.
-
-sdn = Sedn.
-
-sf = sf
-
-sing. = sing.
-
-smn = smn
-
-ss. = ss.
-
-subj. = subj.
-
-subst. = subst.
-
-superl. = superl.
-
-Sv. = Sv.
-
-temp. = temp.
-
-t. ex. = t. ex.
-
-theoret. = theoret.
-
-tr. = tr.
-
-t. t. = t. t.
-
-ung. = ung.
-
-uttr. = uttr.
-
-v., vv. = v., vv.
-
-vanl. = vanl.
-
-voc. = voc.
-
-äfv. = äfv.

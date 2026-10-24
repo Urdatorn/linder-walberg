@@ -1,0 +1,67 @@
+{
+ "page": "0531",
+ "strips_done": 7,
+ "corrections": 36,
+ "misprints": [
+  {
+   "strip": "0531_01",
+   "printed": "äu",
+   "probably_meant": "än",
+   "note": "'flera vapen äu f.': the n is set upside down as u"
+  },
+  {
+   "strip": "0531_02",
+   "printed": "ἄρτι μεν",
+   "probably_meant": "ἄρτι μέν",
+   "note": "no accent on the first μεν in the print"
+  },
+  {
+   "strip": "0531_02",
+   "printed": "ἄλλη",
+   "probably_meant": "ἄλλῃ",
+   "note": "no iota subscript is visible in either place, so it is kept as printed"
+  },
+  {
+   "strip": "0531_03",
+   "printed": "eusamt",
+   "probably_meant": "ensamt",
+   "note": "'(äfv. eusamt,': the n is set upside down as u"
+  },
+  {
+   "strip": "0531_04",
+   "printed": "ὠφελεια",
+   "probably_meant": "ὠφέλεια",
+   "note": "split across lines as ὠφε-λεια, with no accent printed"
+  },
+  {
+   "strip": "0531_05",
+   "printed": "Äudock",
+   "probably_meant": "Ändock",
+   "note": "'Ändå, se Äudock 2)': the n is set upside down as u"
+  },
+  {
+   "strip": "0531_06",
+   "printed": "Ängslau",
+   "probably_meant": "Ängslan",
+   "note": "'Jfr Ängslau': the n is set upside down as u"
+  },
+  {
+   "strip": "0531_06",
+   "printed": "ὴ",
+   "probably_meant": "ἡ",
+   "note": "'ἐπίτιμος, ὁ, ὴ': the mark over the eta is a grave-like stroke instead of a rough breathing"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0531_06",
+   "text": "ὁ, ὴ",
+   "note": "the mark over the eta might be a damaged rough breathing (ἡ) and not a grave; I transcribed the grave-like stroke"
+  },
+  {
+   "strip": "0531_01",
+   "text": "ἢ (all occurrences)",
+   "note": "the marks are small, but every isolated eta looks like breathing plus grave, so I normalised all of them to ἢ, including the ones the earlier OCR gave as ἤ"
+  }
+ ]
+}

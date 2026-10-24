@@ -1,41 +1,21 @@
-objekt
-
-och dylikt, -a
-
-oegentlig
-
-omskrifning
-
-opersonlig
-
-optativus
-
-och så vidare
-
-participium
-
-passiv, -um
-
-perfectum
-
-person, -lig
-
-pluralis
-
-plusquamperfectum
-
-poet, -isk
-
-præposition
-
-praktisk
-
-pronomen
-
-prosa, -isk
-
-reciprok
-
-reflexiv
-
-relativ
+obj. = objekt
+o. d. = och dylikt, -a
+oeg. = oegentlig
+omskr. = omskrifning
+opers. = opersonlig
+opt. = optativus
+o. s. v. = och så vidare
+part. = participium
+pass. = passiv, -um
+perf. = perfectum
+pers. = person, -lig
+pl., plur. = pluralis
+plusqpf. = plusquamperfectum
+poet. = poet, -isk
+præp. = præposition
+prakt. = praktisk
+pron. = pronomen
+pros. = prosa, -isk
+recipr. = reciprok
+refl. = reflexiv
+rel. = relativ

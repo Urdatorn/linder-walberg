@@ -1,0 +1,25 @@
+{
+ "page": "0539",
+ "strips_done": 5,
+ "corrections": 27,
+ "misprints": [
+  {
+   "strip": "0539_02",
+   "printed": "Örlig, -a, se Krig, -a.",
+   "probably_meant": "Örlog, -a, se Krig, -a.",
+   "note": "Headword is clearly printed 'Örlig'. The cross-reference to Krig points to 'Örlog'."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0539_03",
+   "text": "Örslef",
+   "note": "The strip image cuts off the umlaut dots, which show only as fragments at the foot of the 0539_02 image. Read as Ö, the same way as Örnunge in 0539_02."
+  },
+  {
+   "strip": "0539_03",
+   "text": "ὠταλγία",
+   "note": "The first letter is damaged type that the OCR read as 'ωἰ'. It is read as ω with a smooth breathing."
+  }
+ ]
+}

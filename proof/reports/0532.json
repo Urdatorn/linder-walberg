@@ -1,0 +1,48 @@
+{
+ "page": "0532",
+ "strips_done": 9,
+ "corrections": 32,
+ "misprints": [
+  {
+   "strip": "0532_00",
+   "printed": "σωφρυσύνη",
+   "probably_meant": "σωφροσύνη",
+   "note": "Ärbarhet; the print clearly has υ for ο."
+  },
+  {
+   "strip": "0532_00",
+   "printed": "åtnjuta all ä, τυγχάνειν",
+   "probably_meant": "åtnjuta all ä., τυγχάνειν",
+   "note": "There is a gap where the abbreviation point should be, but no point is printed."
+  },
+  {
+   "strip": "0532_03",
+   "printed": "μνήμη ἡ ἐπ’ ἀναθῶ",
+   "probably_meant": "μνήμη ἡ ἐπ’ ἀγαθῷ",
+   "note": "The print has ν for γ and a circumflex without iota subscript."
+  },
+  {
+   "strip": "0532_08",
+   "printed": "νησίς, ῖδος",
+   "probably_meant": "νησίς, ίδος",
+   "note": "The genitive ending is printed with a circumflex on the iota."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0532_00",
+   "text": "σεμνός",
+   "note": "The first ε is filled with ink. The reading σεμνός is certain from context."
+  },
+  {
+   "strip": "0532_04",
+   "text": "οἴνη",
+   "note": "The accent is small; it reads as smooth breathing plus acute rather than a circumflex. This fits the attested οἴνη (the ace on a die)."
+  },
+  {
+   "strip": "0532_03",
+   "text": "μνήμη ἡ ἐπ’",
+   "note": "The mark on the article may carry an extra accent (ἥ); I kept ἡ."
+  }
+ ]
+}

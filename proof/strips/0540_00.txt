@@ -1,81 +1,23 @@
 Förkortningar.
 
-abl. = ablåtivus
-
+abl. = ablativus
 absol. = absolut
-
-abstr. = abstract
-
-acc. = accusåtivus
-
+abstr. = abstrakt
+acc. = accusativus
 act. = activ, -um
-
 adj. = adjectivum
-
 adv. = adverbium
-
 allmht = allmänhet
-
 aor. = aoristus
-
 art. = artikel
-
 Att. = Attisk
-
 begr. = begrepp
-
 bet. = betydelse
-
 bl. = blott
-
 compp. = composita
-
-compr. = comparåtivus
-
+compr. = comparativus
 concr. = concret
-
 conj. = conjunction l. conjunctivus
-
 d. = den, det, de
-
-dat. = datīvus
-
-dem. = diminutivum
-
-l. = lex.
-
-m. = masc.
-
-med. = neutrum
-
-men. = neutrum
-
-m. fl. = neutrum
-
-milit. = neutrum
-
-mots. = neutrum
-
-msk, mskr = neutrum
-
-negat. = neutrum
-
-nedanf. = neutrum
-
-neutr. = neutrum
-
-ngn, ngt = neutrum
-
-nom. = neutrum
-
-N. T. = neutrum
-
-Nygr. = neutrum
-
-o. = neutrum
-
-obj. = neutrum
-
-o. d. = neutrum
-
-oeg. = neutrum
+dat. = dativus
+dem. = deminutivum

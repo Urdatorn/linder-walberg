@@ -1,0 +1,48 @@
+{
+ "page": "0526",
+ "strips_done": 7,
+ "corrections": 19,
+ "misprints": [
+  {
+   "strip": "0526_01",
+   "printed": "lefuadsmått",
+   "probably_meant": "lefnadsmått",
+   "note": "u for n in the print; kept"
+  },
+  {
+   "strip": "0526_04",
+   "printed": "μεταμελητκικός",
+   "probably_meant": "μεταμελητικός",
+   "note": "extra κ in the print, hyphenated μεταμελητκι-κός; kept"
+  },
+  {
+   "strip": "0526_05",
+   "printed": "ἀκμάζων, ουσα",
+   "probably_meant": "ἀκμάζων, ουσα with circumflex (οῦσα)",
+   "note": "no accent on ουσα in the print"
+  },
+  {
+   "strip": "0526_03",
+   "printed": "förvandla till å , ἀτμιδοῦν",
+   "probably_meant": "till å., ἀτμιδοῦν",
+   "note": "abbreviation point missing after å; transcribed as 'å,'"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0526_03",
+   "text": "ὅρκον διδόναι",
+   "note": "both δ glyphs look somewhat like ϑ in the scan; read as διδόναι"
+  },
+  {
+   "strip": "0526_05",
+   "text": "ίδος (after πεντετηρίς and πεντηκονταετηρίς)",
+   "note": "the mark looks like a bare acute, not a breathing, which matches ἀτμίς, ίδος in strip 03"
+  },
+  {
+   "strip": "0526_06",
+   "text": "ἔτος ἔτει διάδοχον",
+   "note": "the type is smudged; διάδοχον is the clear reading, not Φιάδοχον"
+  }
+ ]
+}

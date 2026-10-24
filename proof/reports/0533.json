@@ -1,0 +1,59 @@
+{
+ "page": "0533",
+ "strips_done": 6,
+ "corrections": 17,
+ "misprints": [
+  {
+   "strip": "0533_00",
+   "printed": "εἱρμαρμένη",
+   "probably_meant": "εἱμαρμένη",
+   "note": "An extra ρ is printed."
+  },
+  {
+   "strip": "0533_01",
+   "printed": "(καθ)υφίεσθαι",
+   "probably_meant": "(καθ)υφίεσθαι / ὑφίεσθαι",
+   "note": "The simplex form is printed without a rough breathing."
+  },
+  {
+   "strip": "0533_02",
+   "printed": "τὸ ανω",
+   "probably_meant": "τὸ ἄνω",
+   "note": "Printed with no breathing and no accent."
+  },
+  {
+   "strip": "0533_04",
+   "printed": "καταρρεῖ τί (κατά) τινος",
+   "probably_meant": "καταρρεῖ τι",
+   "note": "The enclitic after a perispomenon is printed with an acute."
+  },
+  {
+   "strip": "0533_05",
+   "printed": "ståndpunk",
+   "probably_meant": "ståndpunkt",
+   "note": "The final t is missing in the print."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0533_01",
+   "text": "bäst gm part.",
+   "note": "The full stop after the italic 'part' is barely visible, only a faint speck. Kept as 'part.'."
+  },
+  {
+   "strip": "0533_03",
+   "text": "ἐξήκειν",
+   "note": "The breathing is small; it reads as smooth, so I changed ἑ to ἐ."
+  },
+  {
+   "strip": "0533_03",
+   "text": "m. vv..",
+   "note": "The print has italic Latin 'vv' followed by two dots. The OCR read it as 'νυ-.'."
+  },
+  {
+   "strip": "0533_03",
+   "text": "(παρ)οίχεσθαι",
+   "note": "Only an acute is visible on the ι, with no breathing. Kept as printed."
+  }
+ ]
+}

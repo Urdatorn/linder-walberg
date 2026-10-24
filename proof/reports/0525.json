@@ -1,0 +1,30 @@
+{
+ "page": "0525",
+ "strips_done": 6,
+ "corrections": 30,
+ "misprints": [
+  {
+   "strip": "0525_04",
+   "printed": "Zodiak, se Djurkrets..",
+   "probably_meant": "Zodiak, se Djurkrets.",
+   "note": "Double full stop after the cross-reference, as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0525_05",
+   "text": "ἁμαξεύς",
+   "note": "The mark over the line-initial α- may be a rough breathing with an acute stacked beneath it (ἅ), but it is small and blurred; I wrote ἁ."
+  },
+  {
+   "strip": "0525_05",
+   "text": "ὤ",
+   "note": "In 'Åh! φεῦ. ὤ.' the mark looks like smooth breathing plus acute rather than a circumflex (ὦ)."
+  },
+  {
+   "strip": "0525_05",
+   "text": "(εἰσ)ακούειν",
+   "note": "εἰσ shows only a smooth breathing, with no circumflex. The α after the parenthesis seems to carry no breathing, and I kept it without one."
+  }
+ ]
+}

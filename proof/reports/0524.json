@@ -1,42 +1,26 @@
 {
  "page": "0524",
  "strips_done": 11,
- "corrections": 55,
+ "corrections": 1,
  "misprints": [
   {
    "strip": "0524_00",
    "printed": "ἡ τῶν φυνῶν ζωή",
    "probably_meant": "ἡ τῶν φυτῶν ζωή",
-   "note": "ν printed for τ in the entry Växtlif"
+   "note": "Växtlif: the print clearly has φυνῶν"
   },
   {
    "strip": "0524_01",
-   "printed": "εὐσέβεια, ἡ f. Gud, fädernesland, föräldrar).",
-   "probably_meant": "εὐσέβεια, ἡ (f. Gud, fädernesland, föräldrar).",
-   "note": "The opening parenthesis is missing in the print. The closing one is printed."
-  },
-  {
-   "strip": "0524_07",
-   "printed": "διαφέρων, ουσα, ον.",
-   "probably_meant": "διαφέρων, οῦσα, ον.",
-   "note": "ουσα has no accent in the print"
+   "printed": "εὐσέβεια, ἡ f. Gud, fädernesland, föräldrar)",
+   "probably_meant": "εὐσέβεια, ἡ (f. Gud, fädernesland, föräldrar)",
+   "note": "Vördnad: the opening parenthesis is missing in the print, but the closing one is there"
   }
  ],
  "uncertain": [
   {
-   "strip": "0524_06",
-   "text": "Y, Υ, υ, ὖ ψιλόν, τό.",
-   "note": "The mark over the upsilon looks like a cup or breve and is unclear. I read it as smooth breathing plus circumflex (ὖ), as in the usual name of the letter. It could also be a bare circumflex (ῦ)."
-  },
-  {
-   "strip": "0524_03",
-   "text": "Xyl-",
-   "note": "The headword Xylograph runs across the column gap: 'Xyl' sits at the right of strip 03 and 'ograph' starts strip 04. The print has no hyphen. I added 'Xyl-' and started strip 04 with '~ ograph' so that assembly joins them into 'Xylograph'."
-  },
-  {
-   "strip": "0524_08",
-   "text": "~ träda in i y:en ... νέον εἶναι. / Yrka ... / Yrke, se Lefnadsyrke, -bana 2), Handt-",
-   "note": "Section order on this page is wrong. Strip 08 is two-column text: column 1 continues Ynglingålder (from 0524_06) and goes on to 0524_09; column 2 holds Yrka and Yrke and goes on to 0524_10 ('verk.'). Strip 09 ends '(προ-, ἐκ)-', and that word continues at the top of 0524_07 ('φαίνεσθαι'). The correct order is 06, 08-left, 09, 07, 08-right, 10. I wrote strip 08 with column 1 first and then column 2. In the kit's order, the '~' continuations will join to the wrong entries when assembled."
+   "strip": "0524_07",
+   "text": "ἁβρότης",
+   "note": "The breathing on alpha is small; it looks rough, like the one on the ἡ before it, so I kept ἁ"
   }
  ]
 }

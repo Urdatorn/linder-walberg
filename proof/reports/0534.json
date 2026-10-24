@@ -1,0 +1,23 @@
+{
+ "page": "0534",
+ "strips_done": 6,
+ "corrections": 27,
+ "misprints": [],
+ "uncertain": [
+  {
+   "strip": "0534_00",
+   "text": "ὑπέρ m. acc.",
+   "note": "The print reads like 'aoc.', most likely a broken italic c. Transcribed as 'acc.'."
+  },
+  {
+   "strip": "0534_00",
+   "text": "ἐπὶ m. dat.",
+   "note": "The accent on the bold ἐπι is a blot. Kept the grave; it could be acute."
+  },
+  {
+   "strip": "0534_03",
+   "text": "αἴρειν τῷ λόγῳ",
+   "note": "The iota subscripts are faint, sitting inside the omega. Kept them."
+  }
+ ]
+}
