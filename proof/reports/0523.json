@@ -1,0 +1,47 @@
+{
+ "page": "0523",
+ "strips_done": 6,
+ "corrections": 17,
+ "misprints": [
+  {
+   "strip": "0523_01",
+   "printed": "θεμαντός",
+   "probably_meant": "θερμαντός",
+   "note": "Printed θε-|μαντός across the line break, so the ρ is missing"
+  },
+  {
+   "strip": "0523_02",
+   "printed": "καὶ τὸ l ὃ δέ",
+   "probably_meant": "καὶ τὸ l. ὃ δέ",
+   "note": "No full stop after the abbreviation l. here"
+  },
+  {
+   "strip": "0523_03",
+   "printed": "τῶ ὄντι",
+   "probably_meant": "τῷ ὄντι",
+   "note": "No iota subscript printed under τῶ"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0523_03",
+   "text": "τῶ ὄντι",
+   "note": "The type for ὄ is broken: only a stroke like ι shows, with its breathing and acute, so it looks like ἴντι. I read it as ὄντι."
+  },
+  {
+   "strip": "0523_04",
+   "text": "ἀναγκαῖος",
+   "note": "The first letter is faint and broken and looks a little like ὀ. I read it as ἀ."
+  },
+  {
+   "strip": "0523_05",
+   "text": "συναυξάνειν.: s. befordrar",
+   "note": "The print shows a full stop and then one raised dot. I read it as the usual '.:' with part of the colon missing (the old text had '·')."
+  },
+  {
+   "strip": "0523_01",
+   "text": "ὠδίς, ῖνος, ἡ",
+   "note": "The mark after ῖνος is small and broken. It is most likely a comma."
+  }
+ ]
+}

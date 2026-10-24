@@ -1,0 +1,66 @@
+{
+ "page": "0536",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0536_02",
+   "printed": "περαιρον",
+   "probably_meant": "περαῖρον (ὑπεραῖρον)",
+   "note": "Second half of ὑ-περαιρον, printed without an accent"
+  },
+  {
+   "strip": "0536_02",
+   "printed": "προὔχων, ουσα, ον",
+   "probably_meant": "προὔχων, οὖσα, ον",
+   "note": "The feminine ending is printed without its circumflex"
+  },
+  {
+   "strip": "0536_02",
+   "printed": "ὑπερεμπλησθείς, εῖσα, έν",
+   "probably_meant": "ὑπερεμπλησθείς, εῖσα, έν",
+   "note": "Ending έν has an acute but no breathing; kept as printed"
+  },
+  {
+   "strip": "0536_03",
+   "printed": "l. τὶ. ἐξ ἐφόδου λαβεῖν",
+   "probably_meant": "l. τὸ ἐξ ἐφόδου λαβεῖν",
+   "note": "The print clearly reads τὶ followed by a full stop"
+  },
+  {
+   "strip": "0536_05",
+   "printed": "κναφεύς, έως",
+   "probably_meant": "κναφεύς, έως / εως",
+   "note": "έως printed with an acute and no breathing"
+  },
+  {
+   "strip": "0536_05",
+   "printed": "ἐπιρροπή",
+   "probably_meant": "ἐπιρροή",
+   "note": "Kept as printed"
+  },
+  {
+   "strip": "0536_02",
+   "printed": "ὑπερίσχυρος",
+   "probably_meant": "ὑπερισχυρός",
+   "note": "Accent kept as printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0536_02",
+   "text": "Öfvernog",
+   "note": "No diaeresis shows over the O. It probably merges with the μ descender of the line above (δαιμόνιος) in the full-page TIFF, so I wrote Ö."
+  },
+  {
+   "strip": "0536_01",
+   "text": "Öfverlöpa",
+   "note": "In the strip image the diaeresis was cut off at the band edge, but it shows at the bottom of 0536_00_1, so I wrote Ö. The same applies to Öfverskatta (0536_04) and Öfverskära (0536_05)."
+  },
+  {
+   "strip": "0536_04",
+   "text": "Öfverskjuta",
+   "note": "The diaeresis is broken and only one dot shows; I wrote Ö."
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "page": "0535",
+ "strips_done": 6,
+ "corrections": 9,
+ "misprints": [
+  {
+   "strip": "0535_05",
+   "printed": "Öfverlefva, se Återstod.",
+   "probably_meant": "Öfverlefvor, se Återstod.",
+   "note": "The second headword is printed exactly like the entry before it (Öfverlefva). Since it points to Återstod, it was probably meant to be the noun 'Öfverlefvor'. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0535_05",
+   "text": "ἀπάτῃ",
+   "note": "There is a small mark under the η that joins its descender. I read it as an iota subscript, but it is faint."
+  }
+ ]
+}

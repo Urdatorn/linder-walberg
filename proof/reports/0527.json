@@ -1,0 +1,38 @@
+{
+ "page": "0527",
+ "strips_done": 6,
+ "corrections": 0,
+ "misprints": [
+  {
+   "strip": "0527_03",
+   "printed": "Ataga sig",
+   "probably_meant": "Åtaga sig",
+   "note": "The headword is printed without the ring on Å. Every neighbouring entry has it."
+  },
+  {
+   "strip": "0527_04",
+   "printed": "se Påskifva",
+   "probably_meant": "se Påskrifva",
+   "note": "This is the cross-reference from Åteckna, and the r is missing in the print."
+  },
+  {
+   "strip": "0527_03",
+   "printed": "εἰς πρός, ἐπί, ἀνά",
+   "probably_meant": "εἰς, πρός, ἐπί, ἀνά",
+   "note": "The comma after εἰς is missing in the print."
+  },
+  {
+   "strip": "0527_02",
+   "printed": "å:n yar",
+   "probably_meant": "å:n yr",
+   "note": "The print clearly reads 'yar', which may be a misprint."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0527_03",
+   "text": "αἱρεῖσθαι",
+   "note": "Under the Ataga sig entry, the breathing on αι is a blob, so rough or smooth cannot be told apart. I kept the rough breathing because αἱρεῖσθαι gives the expected sense."
+  }
+ ]
+}

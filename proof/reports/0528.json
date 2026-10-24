@@ -1,71 +1,37 @@
 {
  "page": "0528",
  "strips_done": 7,
- "corrections": 120,
+ "corrections": 2,
  "misprints": [
   {
    "strip": "0528_01",
    "printed": "ἀνα , ἀπολαμβάνειν",
    "probably_meant": "ἀνα-, ἀπολαμβάνειν",
-   "note": "Hyphen missing after the prefix; a space appears before the comma instead."
+   "note": "The hyphen after ἀνα is missing in the print, leaving a space before the comma."
   },
   {
    "strip": "0528_04",
    "printed": "παλλιλογία",
    "probably_meant": "παλιλλογία",
-   "note": "The double lambda is in the wrong place, compare παλιλλογεῖν in the same column."
-  },
-  {
-   "strip": "0528_04",
-   "printed": "tillstånd o. d.. αὖθις",
-   "probably_meant": "o. d.: αὖθις",
-   "note": "Double full stop printed where '.:' or ':' is expected."
-  },
-  {
-   "strip": "0528_04",
-   "printed": "å en fiende",
-   "probably_meant": "å. en fiende",
-   "note": "Abbreviation point missing after å."
+   "note": "λ and λλ are swapped in the print (compare παλιλλογεῖν later in the same strip)."
   },
   {
    "strip": "0528_05",
-   "printed": "ηχώ, οὖς",
-   "probably_meant": "ἠχώ, οῦς",
-   "note": "Genitive ending printed with a breathing plus circumflex. Transcribed as οὖς."
-  },
-  {
-   "strip": "0528_05",
-   "printed": "Aterlösa",
-   "probably_meant": "Återlösa",
-   "note": "Headword printed with no ring on the A (the ring may be broken type)."
-  },
-  {
-   "strip": "0528_06",
-   "printed": "Aterspegla",
-   "probably_meant": "Återspegla",
-   "note": "Headword printed with no ring on the A (the ring may be broken type)."
+   "printed": "sjukdem",
+   "probably_meant": "sjukdom",
+   "note": "Swedish misprint, clearly 'sjukdem' in the scan."
   }
  ],
  "uncertain": [
   {
    "strip": "0528_05",
-   "text": "σωτήρ, ῆρος, ὁ. λυτήρ, ῆρος, ὁ",
-   "note": "Could be ἦρος with a breathing. Only a circumflex is visible, so it is transcribed as ῆρος."
+   "text": "Återlösa",
+   "note": "In the band image the ring of Å has moved down and sits under the line above (below ἀνταναχλᾶσθαι), so the headword looks like 'Aterlösa'. I wrote it as Återlösa."
   },
   {
-   "strip": "0528_03",
-   "text": "ἀπο-, ἐκλυτροῦσθαι",
-   "note": "Read as κ because no χ descender is visible. The OCR had ἐλλυτροῦσθαι."
-  },
-  {
-   "strip": "0528_04",
-   "text": "m. hrandra",
-   "note": "Printed as 'hrandra' (probably an abbreviation of hvarandra). Kept as printed."
-  },
-  {
-   "strip": "0528_00",
-   "text": "524 Återforsla — Återstå.",
-   "note": "Running header, written in the format of the other pages ('522 Åkdon — Årstid.'). No continuation marker."
+   "strip": "0528_06",
+   "text": "Återspegla",
+   "note": "Same as Återlösa: the ring of Å shows below the Återskänka line, so the headword was read as 'Aterspegla'. I wrote it as Återspegla."
   }
  ]
 }

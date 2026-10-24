@@ -1,8 +1,8 @@
-~ Ogonlock, βλέφαρον, τό.: det öfre ö:et, ἐπικυλίς, ἰδος, ἡ (bl. i pl.).: det nedre, ὑποκοιλίς, ἰδος, ἡ. ὑπόκοιλον, τό.
+Ogonlock, βλέφαρον, τό.: det öfre ö:et, ἐπικυλίς, ίδος, ἡ (bl. i pl.).: det nedre, ὑποκοιλίς, ίδος, ἡ. ὑπόκοιλον, τό.
 
 Ögonläkare, ἰατρὸς ὁ τῶν ὀφθαλμῶν. ὀφθαλμόσοφος, ὀφθαλμικός, ὁ.
 
-Ögonmätt, εἰκασία ἡ (ἀπ’ ὄψεως).
+Ögonmått, εἰκασία ἡ (ἀπ’ ὄψεως).
 
 Ögonmärke, ha ngt till ö., σκοπεῖν τι. Jfr Sigte, Syfte.
 
@@ -12,7 +12,7 @@
 
 Ögonsigte, se Sigte.
 
-Ögonsjuka, -κδομ, ὀφθαλμία, ἡ.: lida af ö., ὀφθαλμιᾶν.: smittas af ö., ὀφθαλμίζεσθαι.
+Ögonsjuka, -kdom, ὀφθαλμία, ἡ.: lida af ö., ὀφθαλμιᾶν.: smittas af ö., ὀφθαλμίζεσθαι.
 
 Ögonskenlig, ἐμφανής, 2. φανερός, 3.: ö. fara, προῦπτος κίνδυνος, ὁ.
 
@@ -24,7 +24,7 @@
 
 Ögonsvaghet, ἀμβλυωπία, ἡ.
 
-Ögontand, κυνόσους, οντος, ὁ.
+Ögontand, κυνόδους, οντος, ὁ.
 
 Ögontjenare, ὀφθαλμόδουλος, ὁ (Sedn.).
 

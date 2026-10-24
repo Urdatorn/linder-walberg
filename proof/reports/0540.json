@@ -1,0 +1,30 @@
+{
+ "page": "0540",
+ "strips_done": 7,
+ "corrections": 130,
+ "misprints": [
+  {
+   "strip": "0540_05",
+   "printed": "subj. = subjekt.",
+   "probably_meant": "subj. = subjekt",
+   "note": "The expansion has a stray full stop that no other expansion has. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0540_03",
+   "text": "l. = eller ... o. = och (also 0540_04 obj.–rel., 0540_05 s.–äfv.)",
+   "note": "The second list is split across the page. Its abbreviations (l. to äfv.) are printed at the right edge of the column-1 strips, and their expansions are in the column-2 strips. To keep reading order (first list complete, then second list), each full 'abbr. = expansion' pair is written in the column-2 strip that holds its expansion: 03 = l.–o., 04 = obj.–rel., 05 = s.–äfv. The abbreviations themselves were read from images 0540_00, 0540_01 and 0540_02."
+  },
+  {
+   "strip": "0540_00",
+   "text": "mska, mskr = menniska, -skor",
+   "note": "The last letter of 'mskr' is cut off at the image edge, so it looks like 'mskı'. The expansion '-skor' confirms 'mskr'."
+  },
+  {
+   "strip": "0540_00",
+   "text": "Förkortningar.",
+   "note": "The heading is kept as its own paragraph, followed by one blank line, before the item list."
+  }
+ ]
+}

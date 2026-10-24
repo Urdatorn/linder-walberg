@@ -1,0 +1,48 @@
+{
+ "page": "0530",
+ "strips_done": 6,
+ "corrections": 24,
+ "misprints": [
+  {
+   "strip": "0530_01",
+   "printed": "δεσπότης, ου, ο.",
+   "probably_meant": "δεσπότης, ου, ὁ.",
+   "note": "The article at the start of the line has no rough breathing in the print."
+  },
+  {
+   "strip": "0530_04",
+   "printed": "ἐραστῆς",
+   "probably_meant": "ἐραστής",
+   "note": "Printed with a circumflex in Älskare."
+  },
+  {
+   "strip": "0530_04",
+   "printed": "Älskare, ὁ ἐρώμενος.",
+   "probably_meant": "ὁ ἐρῶν",
+   "note": "ἐρώμενος means 'the beloved', not 'the lover'. This may be the compiler's error rather than the printer's."
+  },
+  {
+   "strip": "0530_05",
+   "printed": "στοιχεῖον, τό (urämne), grundelement).",
+   "probably_meant": "(urämne, grundelement)",
+   "note": "The parentheses do not balance in the print."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0530_03",
+   "text": "μοιχάς",
+   "note": "The first letter of the second line, 'χάς', is broken at the edge of the scan. I read it as χ from the sense."
+  },
+  {
+   "strip": "0530_00",
+   "text": "ἢν καί",
+   "note": "The accent on ἢ is small and crossed with the breathing. I read it as a grave, so ἢν; the earlier text had ἤν."
+  },
+  {
+   "strip": "0530_05",
+   "text": "πῇ l. ποῖ",
+   "note": "The iota subscript under η is faint, possibly only the descender of η. I kept πῇ."
+  }
+ ]
+}

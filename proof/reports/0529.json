@@ -1,0 +1,43 @@
+{
+ "page": "0529",
+ "strips_done": 7,
+ "corrections": 50,
+ "misprints": [
+  {
+   "strip": "0529_02",
+   "printed": "Atnjuta, se Njuta, Hafva.",
+   "probably_meant": "Åtnjuta",
+   "note": "Headword printed without the ring on Å; the next entry, Åtnjutande, has it."
+  },
+  {
+   "strip": "0529_03",
+   "printed": "Atspörja, se Fråga.",
+   "probably_meant": "Åtspörja",
+   "note": "Headword printed without the ring on Å."
+  },
+  {
+   "strip": "0529_03",
+   "printed": "ὀκταέτης, ὑ, ἡ.",
+   "probably_meant": "ὀκταέτης, ὁ, ἡ.",
+   "note": "The article is printed with an open υ-shaped letter instead of ο. It could also be a broken ο."
+  },
+  {
+   "strip": "0529_03",
+   "printed": "ὀγδηκοντούτης",
+   "probably_meant": "ὀγδοηκοντούτης",
+   "note": "The ο after ὀγδ- is missing in the print."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0529_06",
+   "text": "Äflande, -las, se Bemödande, -da sig!",
+   "note": "The mark after 'sig' at the end of the line looks like '!' but may be a broken full stop or colon. Kept as '!'."
+  },
+  {
+   "strip": "0529_03",
+   "text": "ὑ, ἡ",
+   "note": "Not sure whether the glyph is υ or a damaged ο. Transcribed as ὑ."
+  }
+ ]
+}

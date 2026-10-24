@@ -1,0 +1,65 @@
+{
+ "page": "0537",
+ "strips_done": 7,
+ "corrections": 29,
+ "misprints": [
+  {
+   "strip": "0537_02",
+   "printed": "(tr:)",
+   "probably_meant": "(tr.)",
+   "note": "Öfversvalla: the italic abbreviation ends in a colon-like mark, where the parallel '(intr.)' in strip 01 has a full stop."
+  },
+  {
+   "strip": "0537_03",
+   "printed": "(δια-, ἐκ , παρα)δέχεσθαι",
+   "probably_meant": "(δια-, ἐκ-, παρα)δέχεσθαι",
+   "note": "The hyphen after ἐκ is missing in the print; a space stands before the comma instead."
+  },
+  {
+   "strip": "0537_03",
+   "printed": "låta s g ö:s",
+   "probably_meant": "låta sig ö:s",
+   "note": "The letter i is missing in 'sig'."
+  },
+  {
+   "strip": "0537_04",
+   "printed": "νικᾶν τινά τινι l. l. m. part.",
+   "probably_meant": "νικᾶν τινά τινι l. m. part.",
+   "note": "'l.' is printed twice, once at the end of one line and again at the start of the next."
+  },
+  {
+   "strip": "0537_04",
+   "printed": "i dna ö.",
+   "probably_meant": "i min ö. / i denna ö.",
+   "note": "'dna' is printed as is, with a damaged a; this is either an abbreviation or a misprint."
+  },
+  {
+   "strip": "0537_05",
+   "printed": "(ἐπιρ)ροπή",
+   "probably_meant": "(ἐπιρ)ῥοπή",
+   "note": "ροπή is printed without a breathing."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0537_03",
+   "text": "παρανομία",
+   "note": "The ink is very faint and broken in the last line (ö. af lagen, παρανομία, ἡ). The reading comes from the visible traces and the sense."
+  },
+  {
+   "strip": "0537_04",
+   "text": "εἴς τι l. ἔν τινι / τινὸς ἔν τινι",
+   "note": "Each mark is a breathing combined with an accent, and the breathing looks smooth. I changed the OCR's εἰς/ἕν to εἴς/ἔν, but the glyphs are small."
+  },
+  {
+   "strip": "0537_06",
+   "text": "πρός l. εἴς τι",
+   "note": "The combined breathing and accent mark matches the one in strip 04. I read it as εἴς, where the OCR had εἷς."
+  },
+  {
+   "strip": "0537_02",
+   "text": "Öfverstå",
+   "note": "The diaeresis is almost entirely cut off at the top edge of the strip, with only faint traces visible. I kept Ö."
+  }
+ ]
+}
