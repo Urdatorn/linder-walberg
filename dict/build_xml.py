@@ -17,8 +17,7 @@ The print's conventions become typography:
                  numbers ("ἄδικος, 2") kept with their word
   abbreviations  the grammatical ones italic as printed, all with their
                  expansion from the book's list as a tooltip
-  headword initial  "göra a." (a. = the headword) set like the other
-                 abbreviations and expanded on hover;
+  headword initial  "göra a." (a. = the headword) marked and expanded on hover;
                  only with its full stop or ending ("ö:na"), never the bare
                  letter, which is often a word of its own (the preposition i)
   references     "se X", "Jfr X", "Se vidare X" link to the entry X

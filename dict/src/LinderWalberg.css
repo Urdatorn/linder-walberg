@@ -10,6 +10,7 @@
     --num: #9b1c1c;
     --rule: #d8d4cc;
     --link: #1f5fa8;
+    --hw-abbr: #7a5a1e;
     --sv: "Iowan Old Style", "Palatino", "Hoefler Text", Georgia, serif;
     --gk: "New Athena Unicode", "Gentium Plus", "GFS Didot", "Palatino", "Times New Roman", serif;
 }
@@ -22,6 +23,7 @@
         --num: #f08b8b;
         --rule: #4a4741;
         --link: #8ab8f0;
+        --hw-abbr: #e0b870;
     }
 }
 
@@ -87,7 +89,7 @@ span.gk .term { font-weight: 400; color: var(--muted); font-family: var(--sv); }
 
 span.abbr { color: var(--muted); }
 span.abbr.gram { font-style: italic; }
-span.hw-abbr { color: var(--muted); }    /* the headword abbreviated, like any abbreviation */
+span.hw-abbr { color: var(--hw-abbr); font-weight: 600; }
 
 a.xref, span.xref {
     font-variant: small-caps;
