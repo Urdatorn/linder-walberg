@@ -142,7 +142,8 @@ def word_findings(word: str, prev: str | None, nxt: str | None, gap: str) -> lis
         out.append(("position", "accent before the antepenult"))
     if m == CIRC and p > 1:
         out.append(("position", "circumflex before the penult"))
-    if p == 2 and ult_long:
+    # Attic -εως/-εων (πόλεως, ἀξιόχρεως) keep the accent on the antepenult
+    if p == 2 and ult_long and not re.search(r"ε[ωώ][νς]?$", strip_marks(word).lower()):
         out.append(("position", "accent on the antepenult with a long last syllable"))
     if m == CIRC and p == 1 and ult_long:
         out.append(("position", "circumflex on the penult with a long last syllable"))
@@ -160,7 +161,7 @@ def word_findings(word: str, prev: str | None, nxt: str | None, gap: str) -> lis
     if m == GRAVE and p > 0:
         out.append(("grave", "grave not on the last syllable"))
     if m == ACUTE and p == 0 and next_greek and bare(nxt) not in ENCLITIC_BARE \
-            and b not in {"τις", "τι"} and not re.match(r"[’']", word[-1:]):
+            and b not in {"τισ", "τι"} and not re.match(r"[’']", word[-1:]):
         out.append(("grave", "acute on the last syllable before another word"))
     return out
 
@@ -178,17 +179,22 @@ def run(entries: list[dict], known, lsj: set[str]) -> list[dict]:
                     or (text[end:end + 1] == ")" and s and text[s - 1] == "(" and
                         re.match(r"[^\W\d_]", text[end + 1:end + 2] or " ")):
                 continue
-            # "(δι)εσχίσθαι", "(παρ)αιτεῖσθαι": a prefix in brackets belongs to the word
-            pre = re.search(r"\(([^\W\d_]+)\)$", text[:s])
+            # "(δι)εσχίσθαι", "(ἐν-, ἐφ-, προσ)αρμόττειν": prefixes in brackets belong to the word
+            pre = re.search(r"\((?:[^()]*?[\s,-])?([^\W\d_]+)\)$", text[:s])
             full = pre.group(1) + w if pre else None
+            if pre is None and s and text[s - 1] == ")":
+                continue
             prev = toks[words[w_i - 1]][2] if w_i else None
             nxt = toks[words[w_i + 1]][2] if w_i + 1 < len(words) else None
             gap_prev = text[toks[words[w_i - 1]][1]:s] if w_i else ""
             gap_next = text[end:toks[words[w_i + 1]][0]] if w_i + 1 < len(words) else "."
             found = word_findings(full or w, prev, nxt, gap_next)
             # an ending after a comma: judge by the gap before it
-            found = [f for f in found if not (f[0] in ("breathing", "accent") and gap_prev.strip() == ","
-                                               and prev and script(prev) == "greek" and len(w) <= 6)]
+            # an ending cited after a comma or in brackets ("ποιῶν, οῦσα", "(όντος)", "l. ῶν")
+            ending_slot = (gap_prev.strip() in (",", "(", ", (") and prev and script(prev) == "greek") \
+                or (s and text[s - 1] == "(" and text[end:end + 1] == ")") \
+                or (gap_prev.strip() in ("", ".") and prev == "l" and len(w) <= 4)
+            found = [f for f in found if not (f[0] in ("breathing", "accent") and ending_slot and len(w) <= 7)]
             if not known(w) and not (full and known(full)):
                 in_lsj = bare(full or w) in lsj
                 found.append(("unattested", "not in the AncientGreek corpus"
