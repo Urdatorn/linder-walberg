@@ -1,0 +1,51 @@
+{
+ "page": "0460",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0460_00",
+   "printed": "συμπλέκειν",
+   "probably_meant": "συμπλέκειν",
+   "note": "π is broken type in the print and looks like 'τ'. I transcribed it as π."
+  },
+  {
+   "strip": "0460_00",
+   "printed": "Tokprat,:",
+   "note": "The print has a stray comma before the colon. Kept as printed."
+  },
+  {
+   "strip": "0460_02",
+   "printed": "eg.",
+   "probably_meant": "eg.",
+   "note": "The e is damaged in the print and shows as a blot. I read it as 'eg.'."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0460_04",
+   "text": "τόνος, ὁ.: lägga t.",
+   "note": "The print shows a full stop and then a single raised dot ('ὁ.·'). The lower dot of the colon is probably missing, so I wrote '.:'."
+  },
+  {
+   "strip": "0460_03",
+   "text": "κενοί, μάταιοι",
+   "note": "I can't tell if the accent on κενοί is acute or grave. I wrote acute."
+  },
+  {
+   "strip": "0460_04",
+   "text": "ἐξάρχειν",
+   "note": "The breathing is tiny and broken. I chose smooth, the standard form."
+  },
+  {
+   "strip": "0460_02",
+   "text": "δωδεκαετία",
+   "note": "The ε after κα looks a little like σ (the OCR read δωδεκαστία). I read it as ε, by comparison with δωδεκαετηρίς next to it."
+  },
+  {
+   "strip": "0460_02",
+   "text": "siffra, ͵ιβ",
+   "note": "The thousands sign is printed at the lower left, with nothing after the numeral. The same convention is used in 'siffra, ͵ασʹ.'."
+  }
+ ]
+}

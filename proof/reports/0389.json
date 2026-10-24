@@ -1,0 +1,73 @@
+{
+ "page": "0389",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0389_00",
+   "printed": "ἑκῶν, οὖσα, όν",
+   "probably_meant": "ἑκών, οὖσα, ὄν",
+   "note": "circumflex printed on ἑκῶν; neuter όν printed without breathing"
+  },
+  {
+   "strip": "0389_00",
+   "printed": "αὐτοκίνητσς",
+   "probably_meant": "αὐτοκίνητος",
+   "note": "sigma printed for omicron"
+  },
+  {
+   "strip": "0389_02",
+   "printed": "Sjelfkännnedom",
+   "probably_meant": "Sjelfkännedom",
+   "note": "triple n in headword"
+  },
+  {
+   "strip": "0389_02",
+   "printed": "φωνῆειν",
+   "probably_meant": "φωνῆεν",
+   "note": "extra iota"
+  },
+  {
+   "strip": "0389_03",
+   "printed": "Sjelfrådig, -het, se Egenmyndig, -het,",
+   "probably_meant": "... -het.",
+   "note": "entry ends in a comma"
+  },
+  {
+   "strip": "0389_03",
+   "printed": "Sjelständig",
+   "probably_meant": "Sjelfständig",
+   "note": "f dropped from headword"
+  },
+  {
+   "strip": "0389_04",
+   "printed": "αὐθυπόστατας",
+   "probably_meant": "αὐθυπόστατος",
+   "note": "alpha printed for omicron"
+  },
+  {
+   "strip": "0389_04",
+   "printed": "ακόλαστος",
+   "probably_meant": "ἀκόλαστος",
+   "note": "no breathing printed"
+  },
+  {
+   "strip": "0389_04",
+   "printed": "Sjelftillit, so Sjelfförtröstan.",
+   "probably_meant": "se Sjelfförtröstan",
+   "note": "so printed for se"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0389_01",
+   "text": "ἄμυνα. ἡ.",
+   "note": "the mark after ἄμυνα looks like a full stop but may be a broken comma"
+  },
+  {
+   "strip": "0389_00",
+   "text": "όν",
+   "note": "no breathing visible on όν. It may have failed to print."
+  }
+ ]
+}

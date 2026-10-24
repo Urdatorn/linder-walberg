@@ -1,0 +1,37 @@
+{
+ "page": "0428",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0428_02",
+   "printed": "σκουδαῖος, 3 (nitisk)",
+   "probably_meant": "σπουδαῖος",
+   "note": "Print clearly has κ for π"
+  },
+  {
+   "strip": "0428_01",
+   "printed": "ἀμφί πρός, ἐπί τι",
+   "probably_meant": "ἀμφί, πρός, ἐπί τι",
+   "note": "No comma after ἀμφί at line end"
+  },
+  {
+   "strip": "0428_03",
+   "printed": "(ἐπ-, δι)εκδρομή",
+   "probably_meant": "(ἐπ-, δι)ἐκδρομή",
+   "note": "No breathing printed on εκ-; kept as printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0428_02",
+   "text": "τραχύς, εἶα. ύ",
+   "note": "Breathing on εἶα hard to make out; period after εἶα looks like it is printed"
+  },
+  {
+   "strip": "0428_01",
+   "text": "ἀντηρίς, ίδος",
+   "note": "Accent on ι read as acute, no breathing"
+  }
+ ]
+}

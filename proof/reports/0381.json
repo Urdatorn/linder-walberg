@@ -1,0 +1,48 @@
+{
+ "page": "0381",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0381_01",
+   "printed": "στραπεύειν χώρας τινός",
+   "probably_meant": "σατραπεύειν",
+   "note": "syllable σα- dropped in print"
+  },
+  {
+   "strip": "0381_03",
+   "printed": "θώς, ός, ὁ, ἡ",
+   "probably_meant": "θώς, θωός",
+   "note": "genitive ending printed as bare ός"
+  },
+  {
+   "strip": "0381_04",
+   "printed": "θεᾶσθαί (betrakta) τι",
+   "probably_meant": "θεᾶσθαι",
+   "note": "enclitic acute printed before a parenthesis"
+  },
+  {
+   "strip": "0381_05",
+   "printed": "οὐχ ὁρᾶς ὅτι ἥμαρτες",
+   "probably_meant": "ὁρᾷς",
+   "note": "no iota subscript visible in the print"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0381_01",
+   "text": "ἁδρός, 3.",
+   "note": "the breathing looks rough; ἁδρός is the expected form"
+  },
+  {
+   "strip": "0381_05",
+   "text": "ὁρῶ ἁμαρτὼν τῆς ὁδοῦ",
+   "note": "the breathing on ἁμαρτὼν is small; read as rough"
+  },
+  {
+   "strip": "0381_00",
+   "text": "σκωπτικόν l. χλευαστικὸν",
+   "note": "the accent on σκωπτικόν looks acute even though a word follows; kept as acute"
+  }
+ ]
+}

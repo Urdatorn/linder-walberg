@@ -1,0 +1,68 @@
+{
+ "page": "0506",
+ "strips_done": 6,
+ "corrections": 150,
+ "misprints": [
+  {
+   "strip": "0506_05",
+   "printed": "(προ παρασκευάζεταί τι.",
+   "probably_meant": "(προ)παρασκευάζεταί τι.",
+   "note": "closing parenthesis missing in print"
+  },
+  {
+   "strip": "0506_05",
+   "printed": "1) intr, δύνασθαι",
+   "probably_meant": "1) intr., δύνασθαι",
+   "note": "abbreviation point missing after intr (a space before the comma in print)"
+  },
+  {
+   "strip": "0506_05",
+   "printed": "se Förehafva.",
+   "probably_meant": "se Förehafva.",
+   "note": "OCR had 'Förbehåva'; the print reads Förehafva (kept as printed)"
+  },
+  {
+   "strip": "0506_04",
+   "printed": "ἐπ' ἀριστερά (åt v.). milit.",
+   "probably_meant": "ἐπ' ἀριστερά (åt v.).: milit.",
+   "note": "plain full stop in print where the book usually has '.:'; kept"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0506_00",
+   "text": "τερπνός, 3.",
+   "note": "type is broken in the print (looks like τερπν·ς); read as τερπνός"
+  },
+  {
+   "strip": "0506_00",
+   "text": "ἡδύς, εῖα, ύ.",
+   "note": "circumflex on εῖα and the bare acute on ύ read from a small print"
+  },
+  {
+   "strip": "0506_04",
+   "text": "på v. hand",
+   "note": "the point after v is faint and raised; it may be dust"
+  },
+  {
+   "strip": "0506_04",
+   "text": "ἐν τῇ ἀριστερᾷ",
+   "note": "no iota subscript is clearly visible under τῇ"
+  },
+  {
+   "strip": "0506_02",
+   "text": "λαγών. όνος, ἡ",
+   "note": "the mark after λαγών looks like a full stop, not a comma"
+  },
+  {
+   "strip": "0506_01",
+   "text": "Vedhög, -kast. -stapel",
+   "note": "the mark after -kast looks like a full stop, not a comma"
+  },
+  {
+   "strip": "0506_03",
+   "text": "ἁπαλός / ἁβρός / ἁπαλότης",
+   "note": "rough breathing is hard to tell from smooth at this size; the rough breathing is used as expected"
+  }
+ ]
+}

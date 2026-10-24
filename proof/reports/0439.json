@@ -1,0 +1,48 @@
+{
+ "page": "0439",
+ "strips_done": 6,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0439_03",
+   "printed": "κοιμητήριον, τό κοιτών",
+   "probably_meant": "κοιμητήριον, τό. κοιτών",
+   "note": "The full stop after τό is missing in the print."
+  },
+  {
+   "strip": "0439_03",
+   "printed": "ἔπεμψαν ὥς αὐτοὺς",
+   "probably_meant": "ἔπεμψαν ὡς αὐτοὺς",
+   "note": "The preposition ὡς is printed with an acute as well as the rough breathing."
+  },
+  {
+   "strip": "0439_02",
+   "printed": "κοινωνικός, 3, ὁμιλητικός, 3",
+   "probably_meant": "κοινωνικός, 3. ὁμιλητικός, 3",
+   "note": "A comma is printed after 3 where the book normally has a full stop."
+  },
+  {
+   "strip": "0439_03",
+   "printed": "πρέσβεις, εων",
+   "probably_meant": "πρέσβεις, εων (accentless ending)",
+   "note": "Kept as printed with no accent; this may be normal for the book."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0439_03",
+   "text": "ὥς αὐτοὺς",
+   "note": "The mark over ω looks like a rough breathing combined with an acute, but it is small."
+  },
+  {
+   "strip": "0439_05",
+   "text": "οὗ ἔστι βουλευτήριον",
+   "note": "The diacritic over the second οὗ is malformed (it looks like a breve). Read as rough breathing with circumflex, like the other οὗ."
+  },
+  {
+   "strip": "0439_00",
+   "text": "πρατήρ, ῆρος",
+   "note": "Only a circumflex is visible on the η of the ending."
+  }
+ ]
+}

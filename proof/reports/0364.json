@@ -1,0 +1,37 @@
+{
+ "page": "0364",
+ "strips_done": 6,
+ "corrections": 50,
+ "misprints": [
+  {
+   "strip": "0364_03",
+   "printed": "rnlle",
+   "probably_meant": "rulle",
+   "note": "Rulla 1 b): the print reads 'i rnlle', with a turned u."
+  },
+  {
+   "strip": "0364_03",
+   "printed": "πεφερεῖς",
+   "probably_meant": "περιφερεῖς",
+   "note": "Hyphenated across a line as 'πε-/φερεῖς'; the syllable ρι is missing."
+  },
+  {
+   "strip": "0364_03",
+   "printed": "φόφος",
+   "probably_meant": "ψόφος",
+   "note": "Rullande: the first letter is clearly φ, while ψόφου higher up in the column is printed correctly."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0364_03",
+   "text": "εὐρυχωρία, ἡ.",
+   "note": "The breathing on ἡ looks like a grave stroke. It is probably a damaged rough breathing, so I kept ἡ."
+  },
+  {
+   "strip": "0364_00",
+   "text": "Rostning, φρυγμός",
+   "note": "The mark after Rostning is small and low, either a broken comma or a full stop. I kept the comma."
+  }
+ ]
+}

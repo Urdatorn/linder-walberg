@@ -1,0 +1,53 @@
+{
+ "page": "0392",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0392_00",
+   "printed": "Sjömannnavetenskap",
+   "probably_meant": "Sjömannavetenskap",
+   "note": "Headword printed with three n; the cross-reference in 0392_02 has Sjömannavetenskap"
+  },
+  {
+   "strip": "0392_02",
+   "printed": "χιας, η. ναυκρατια, η.",
+   "probably_meant": "χίας, ἡ. ναυκρατία, ἡ.",
+   "note": "Line printed with no accents or breathings at all"
+  },
+  {
+   "strip": "0392_04",
+   "printed": "orgau.",
+   "probably_meant": "organ.",
+   "note": "Turned n printed as u"
+  },
+  {
+   "strip": "0392_05",
+   "printed": "ἰοβίλον",
+   "probably_meant": "ἰοβόλον",
+   "note": "The letter after β looks like an accented iota; may be broken type"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0392_00",
+   "text": "εἷς l. τὶς",
+   "note": "Small diacritic on εἷς is hard to tell from εἶς; τὶς read with grave"
+  },
+  {
+   "strip": "0392_00",
+   "text": "πλοῦς, οῦ, ὁ",
+   "note": "Read as plain circumflex with no breathing on οῦ"
+  },
+  {
+   "strip": "0392_01",
+   "text": "l.σηπίον",
+   "note": "No visible space after l. in the print"
+  },
+  {
+   "strip": "0392_05",
+   "text": "ἰοβίλον",
+   "note": "Could be a damaged ό"
+  }
+ ]
+}

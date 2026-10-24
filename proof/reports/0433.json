@@ -1,0 +1,77 @@
+{
+ "page": "0433",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0433_00",
+   "printed": "σῦς, υός",
+   "probably_meant": "σῦς, ὑός",
+   "note": "Genitive printed without a rough breathing."
+  },
+  {
+   "strip": "0433_02",
+   "printed": "ποτίστατος",
+   "probably_meant": "ποτίστατος (comic form, as printed)",
+   "note": "Printed this way and kept; the OCR had misread it as ποτιάτατος."
+  },
+  {
+   "strip": "0433_02",
+   "printed": "i. s., ὑπερθετικῶς",
+   "probably_meant": "i s., ὑπερθετικῶς",
+   "note": "There is a stray full stop after the Swedish preposition 'i'."
+  },
+  {
+   "strip": "0433_02",
+   "printed": "πολικὸν ᾆσμα",
+   "probably_meant": "ποτικὸν ᾆσμα",
+   "note": "Under Supvisa, 'drinking song' would be ποτικόν. The print clearly shows λ."
+  },
+  {
+   "strip": "0433_03",
+   "printed": "δ ἂν ὑπάρχῃ ἀντί τινος",
+   "probably_meant": "ὃ ἂν ὑπάρχῃ ἀντί τινος",
+   "note": "The relative pronoun is printed as δ, with no breathing or accent."
+  },
+  {
+   "strip": "0433_04",
+   "printed": "ἀμβλύς εῖα, ύ",
+   "probably_meant": "ἀμβλύς, εῖα, ύ",
+   "note": "The comma after ἀμβλύς is missing in the print."
+  },
+  {
+   "strip": "0433_05",
+   "printed": "ἀμβυωπία",
+   "probably_meant": "ἀμβλυωπία",
+   "note": "The λ is dropped in the print, under Svagsynthet."
+  },
+  {
+   "strip": "0433_03",
+   "printed": "-σθαί",
+   "probably_meant": "-σθαι",
+   "note": "The ending has an accent on the iota in the print, at the end of the strip under Suspendera."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0433_02",
+   "text": "βρόχθοι, βρόγχος",
+   "note": "The last letter looks like ι plus a comma, not ς. It could be βρόχθος with broken type. I transcribed it as βρόχθοι."
+  },
+  {
+   "strip": "0433_02",
+   "text": "ἔγκαφος",
+   "note": "The κ in this face looks like x. I read κ because there is no descender, so not ἔγχαφος. The same applies to ῥακῆς and κρηπίς."
+  },
+  {
+   "strip": "0433_01",
+   "text": "ἕλος, ἕλειος, ἑλειότροφος, ἑλώδης, ἕλη, ἑλῶδες",
+   "note": "I read rough breathings throughout. The breathing glyphs are small and partly fused with the accents."
+  },
+  {
+   "strip": "0433_03",
+   "text": "ὡς διαδεξόμενος",
+   "note": "The breathing has an extra tick that could be an acute (ὥς). I read it as a plain rough breathing."
+  }
+ ]
+}

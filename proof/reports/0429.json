@@ -1,0 +1,52 @@
+{
+ "page": "0429",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0429_00",
+   "printed": "χρόνος, ὁ,: en liten s.",
+   "probably_meant": "χρόνος, ὁ.: en liten s.",
+   "note": "comma plus colon printed where the book normally has '.:'"
+  },
+  {
+   "strip": "0429_05",
+   "printed": "ἐφεστηκώς. ότος, ὁ.",
+   "probably_meant": "ἐφεστηκώς, ότος, ὁ.",
+   "note": "full stop before the genitive ending where a comma is expected"
+  },
+  {
+   "strip": "0429_03",
+   "printed": "πρόγονος, l. προγόνη, ἡ.",
+   "probably_meant": "πρόγονος l. προγόνη, ἡ.",
+   "note": "stray comma before l."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0429_01",
+   "text": "ὥραν",
+   "note": "the mark over ω is a blob; it could be read as rough breathing with acute or as a circumflex (ὧραν). Kept ὥραν."
+  },
+  {
+   "strip": "0429_02",
+   "text": "καθ’ ἓν ἕκαστον",
+   "note": "the accent on ἓν looks like rough breathing with grave, but the type is small"
+  },
+  {
+   "strip": "0429_02",
+   "text": "πεζῇ",
+   "note": "can't tell from the scan whether there is an iota subscript under η"
+  },
+  {
+   "strip": "0429_05",
+   "text": "ἀρχῇ",
+   "note": "a faint mark under η, read as an iota subscript"
+  },
+  {
+   "strip": "0429_01",
+   "text": "μερίς, ίδος",
+   "note": "the mark on ι is read as an acute without breathing; the earlier text had ἰδος"
+  }
+ ]
+}

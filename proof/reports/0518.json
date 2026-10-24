@@ -1,0 +1,53 @@
+{
+ "page": "0518",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0518_01",
+   "printed": "ἱστουργεῖον, τά.",
+   "probably_meant": "ἱστουργεῖον, τό.",
+   "note": "Väfveri: the article is printed τά, but in Väfkammare the same word takes τό."
+  },
+  {
+   "strip": "0518_02",
+   "printed": "τί γενωμαι;",
+   "probably_meant": "τί γένωμαι;",
+   "note": "No accent is printed on γε-νωμαι, which is split across a line break."
+  },
+  {
+   "strip": "0518_03",
+   "printed": "ἀποπέτεσθαι",
+   "probably_meant": "ἀποπέτεσθαι",
+   "note": "This is the printed form, which is correct. The old OCR had ἀποπίττεσθαι, and I fixed it to match the print."
+  },
+  {
+   "strip": "0518_05",
+   "printed": "Vägrödjning",
+   "probably_meant": "Vägröjning",
+   "note": "The headword is printed with the letter d."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0518_03",
+   "text": "~ μῶντι",
+   "note": "The second letter is broken type, probably ω with a circumflex. The word continues ἀφορ- from 0518_02, which gives ἀφορμῶντι."
+  },
+  {
+   "strip": "0518_03",
+   "text": "ἴσον τὸν σταθμὸν",
+   "note": "The breathing and accent on the first ι are squeezed together. I read smooth breathing with acute, but a circumflex (ἶσον) is possible."
+  },
+  {
+   "strip": "0518_02",
+   "text": "m. acc.",
+   "note": "The second c looks closed like an o (aco.). I wrote acc. as the book does elsewhere."
+  },
+  {
+   "strip": "0518_00",
+   "text": "Note on the scans for the whole page",
+   "note": "The strip images for 0518_00 are cut off at the right edge, so line-final hyphens and letters are missing (τι-να, δια-ψύχειν, στι-βεύειν, ὑ-πονοεῖν, λίνον, ἐν, ἱστουρ-γία). I checked them against the full page scan svegrek/0518.tif."
+  }
+ ]
+}

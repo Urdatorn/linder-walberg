@@ -1,0 +1,31 @@
+{
+ "page": "0462",
+ "strips_done": 7,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0462_05",
+   "printed": "κόψικος",
+   "probably_meant": "κόψιχος",
+   "note": "Trast: the print shows κ, with no descender of χ"
+  },
+  {
+   "strip": "0462_06",
+   "printed": "tiil.",
+   "probably_meant": "till",
+   "note": "Treding: förminska tiil. t."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0462_04",
+   "text": "ἀναβάσεις, αἱ (trappsteg)",
+   "note": "only one small mark is visible over ι; read as a rough breathing with no accent"
+  },
+  {
+   "strip": "0462_01",
+   "text": "ὀρεινή (χώρα)",
+   "note": "read the mark over ο as a smooth breathing with no acute (the OCR had ὄ)"
+  }
+ ]
+}

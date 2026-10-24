@@ -1,0 +1,57 @@
+{
+ "page": "0491",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0491_00",
+   "printed": "χρήματων",
+   "probably_meant": "χρημάτων",
+   "note": "The accent is printed on η in 'ἀποροῦντα χρήματων'."
+  },
+  {
+   "strip": "0491_01",
+   "printed": "u. sin sitta suck",
+   "probably_meant": "u. sin sista suck",
+   "note": "'sitta' is clearly printed."
+  },
+  {
+   "strip": "0491_04",
+   "printed": "καταπραῧνεσθαι",
+   "probably_meant": "καταπραΰνεσθαι",
+   "note": "The scan shows a diaeresis with a circumflex over υ."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0491_02",
+   "text": "Utbekomma",
+   "note": "The print looks like 'Utoekomma'. The b seems to be broken type that lost its ascender, so I read it as Utbekomma."
+  },
+  {
+   "strip": "0491_02",
+   "text": "ἀπότισις, ἡ: ἀπόδοσις",
+   "note": "After ἡ the mark looks like a colon. It may be a '.:' whose full stop did not print."
+  },
+  {
+   "strip": "0491_02",
+   "text": "om själsarbeten",
+   "note": "The word is hyphenated at the end of a line (själs-/arbeten) and is written whole here. The previous strip prints 'själs-arbeten' with a hyphen in mid-line."
+  },
+  {
+   "strip": "0491_05",
+   "text": "εἴς τινα",
+   "note": "The accent on ει is cramped. It could be smooth breathing with acute or with circumflex."
+  },
+  {
+   "strip": "0491_05",
+   "text": "γρυπός, 3.",
+   "note": "The type is heavily blotted. γρυπός is the likely reading, and the full stop after 3 is faint."
+  },
+  {
+   "strip": "0491_01",
+   "text": "ὦνος",
+   "note": "The accent on ω looks like a circumflex with smooth breathing. It is small and hard to read."
+  }
+ ]
+}

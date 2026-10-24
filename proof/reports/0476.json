@@ -1,0 +1,70 @@
+{
+ "page": "0476",
+ "strips_done": 6,
+ "corrections": 42,
+ "misprints": [
+  {
+   "strip": "0476_01",
+   "printed": "οὐδεὶς ὅστις οὐ.:",
+   "probably_meant": "οὐδεὶς ὅστις οὔ",
+   "note": "The final οὐ has a breathing but no accent."
+  },
+  {
+   "strip": "0476_01",
+   "printed": "m. gen..:",
+   "probably_meant": "m. gen.:",
+   "note": "A doubled full stop before the colon."
+  },
+  {
+   "strip": "0476_04",
+   "printed": "μετὰ δυκρύων",
+   "probably_meant": "μετὰ δακρύων",
+   "note": "The second letter is clearly υ."
+  },
+  {
+   "strip": "0476_04",
+   "printed": "δακρύων, ουσα, ον.:",
+   "probably_meant": "δακρύων, οὖσα, ον",
+   "note": "ουσα is printed with no breathing or accent."
+  },
+  {
+   "strip": "0476_05",
+   "printed": "ἵ-παρχος (written ἵπαρχος)",
+   "probably_meant": "ὕπαρχος (or ἵππαρχος)",
+   "note": "Broken at the line end with a single π after ἵ-. The sense 'underbefälhafvare' points to ὕπαρχος."
+  },
+  {
+   "strip": "0476_05",
+   "printed": "πῆχυς, εως, ἡ. äfv. χείρ, ρός",
+   "probably_meant": "ἕως, ῥός",
+   "note": "The endings are printed without breathings."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0476_00",
+   "text": "ἀπεργάζεσθαι.",
+   "note": "Only a faint, broken dot follows the word. I took it to be a full stop."
+  },
+  {
+   "strip": "0476_03",
+   "text": "u. 50 drachmer",
+   "note": "The print shows 'dra hmer'. The c probably failed to ink, so I wrote drachmer."
+  },
+  {
+   "strip": "0476_04",
+   "text": "u. måltiden",
+   "note": "The i is broken and looks like ':' ('målt:den')."
+  },
+  {
+   "strip": "0476_04",
+   "text": "ἐν ᾧ.",
+   "note": "The breathing and accent over the ω are cut off at the top of the band. I read ᾧ."
+  },
+  {
+   "strip": "0476_01",
+   "text": "πάντες ἑξῆς l. ἐφεξῆς",
+   "note": "The breathings on ἑξῆς and ἐφεξῆς are hard to tell apart in the scan. I kept the expected forms."
+  }
+ ]
+}

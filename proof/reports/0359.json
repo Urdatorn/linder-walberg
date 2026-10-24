@@ -1,0 +1,55 @@
+{
+ "page": "0359",
+ "strips_done": 6,
+ "corrections": 6,
+ "misprints": [
+  {
+   "strip": "0359_00",
+   "printed": "ἀποδημια",
+   "probably_meant": "ἀποδημία",
+   "note": "no accent printed in 'πολυχρόνιος ἀποδημια'"
+  },
+  {
+   "strip": "0359_00",
+   "printed": "πλοῦς, οῦ. ὁ.",
+   "probably_meant": "πλοῦς, οῦ, ὁ.",
+   "note": "stop printed where a comma is expected"
+  },
+  {
+   "strip": "0359_01",
+   "printed": "συνέμπρορος",
+   "probably_meant": "συνέμπορος",
+   "note": "doubled ρ in Reskamrat"
+  },
+  {
+   "strip": "0359_02",
+   "printed": "ῥίσκος, ο.",
+   "probably_meant": "ῥίσκος, ὁ.",
+   "note": "article printed without breathing or accent"
+  },
+  {
+   "strip": "0359_02",
+   "printed": "ἀποστασις",
+   "probably_meant": "ἀπόστασις",
+   "note": "no accent printed"
+  },
+  {
+   "strip": "0359_03",
+   "printed": "befallning",
+   "probably_meant": "befallning",
+   "note": "the n in -ning is damaged type, but the word is legible as befallning"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0359_05",
+   "text": "ἁρμάμαξα",
+   "note": "the breathing on the first α is small. It looks rough, like the one in ὥστε above, so I changed it from ἀρμάμαξα"
+  },
+  {
+   "strip": "0359_03",
+   "text": "αἰδῶ αὑτοῦ",
+   "note": "the breathing on αυτου reads as rough but is faint"
+  }
+ ]
+}

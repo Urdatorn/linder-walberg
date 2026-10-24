@@ -1,0 +1,54 @@
+{
+ "page": "0459",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0459_00",
+   "printed": "m t. skinn",
+   "probably_meant": "m. t. skinn",
+   "note": "No full stop after m. in the print"
+  },
+  {
+   "strip": "0459_02",
+   "printed": "κλώψ, πός, ὁ.",
+   "probably_meant": "κλώψ, ωπός, ὁ.",
+   "note": "The genitive ending is cut short in the print"
+  },
+  {
+   "strip": "0459_03",
+   "printed": "σκυθρωπάζειν,",
+   "probably_meant": "σκυθρωπάζειν.",
+   "note": "The entry Tjuraktig ends with a comma"
+  },
+  {
+   "strip": "0459_05",
+   "printed": "ἐπὶ τῆ γυναικί",
+   "probably_meant": "ἐπὶ τῇ γυναικί",
+   "note": "No iota subscript visible in the print"
+  },
+  {
+   "strip": "0459_01",
+   "printed": "ἀνά l. κατὰ",
+   "probably_meant": "ἀνὰ l. κατὰ",
+   "note": "ἀνά is printed with an acute accent before l."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0459_03",
+   "text": "͵κ.",
+   "note": "The thousands sign before κ under Tjugutusen is small and hard to make out. Transcribed as the lower keraia."
+  },
+  {
+   "strip": "0459_01",
+   "text": "παχύρριν, νος",
+   "note": "The print seems to read παχύρριν (OCR gave παχύρρων). Kept as printed."
+  },
+  {
+   "strip": "0459_03",
+   "text": "ίδος (εἰκοσετηρίς), ίδος (λυχνίς, οἰσυπίς, κλεπτίς)",
+   "note": "The mark over ι looks like an acute, not a breathing"
+  }
+ ]
+}

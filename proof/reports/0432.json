@@ -1,0 +1,47 @@
+{
+ "page": "0432",
+ "strips_done": 6,
+ "corrections": 38,
+ "misprints": [
+  {
+   "strip": "0432_04",
+   "printed": "ὁπομείων, ονος, ὁ",
+   "probably_meant": "ὑπομείων, ονος, ὁ",
+   "note": "Subaltern: the first letter is clearly omicron with a rough breathing, not upsilon"
+  },
+  {
+   "strip": "0432_01",
+   "printed": "κλοπή. ἡ, φωρά",
+   "probably_meant": "κλοπή, ἡ, φωρά",
+   "note": "The print has a full stop where a comma belongs before the article"
+  },
+  {
+   "strip": "0432_05",
+   "printed": "Substrahera",
+   "probably_meant": "Subtrahera",
+   "note": "The headword is spelled with an extra s in the print"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0432_05",
+   "text": "Suck, στέναγμα, τό.",
+   "note": "The c of the headword is broken (it prints as 'Su k'). Read as Suck."
+  },
+  {
+   "strip": "0432_01",
+   "text": "ἀντηρίς, ίδος ... ἐνδρομίς, ίδος",
+   "note": "The small mark over the ι of the genitive ending looks like an acute, not a breathing"
+  },
+  {
+   "strip": "0432_04",
+   "text": "ἀφ’ ὅτου ἂν ζῇ",
+   "note": "The iota subscript under ζῇ is not clearly visible in the scan; kept ζῇ"
+  },
+  {
+   "strip": "0432_05",
+   "text": "τὸ ὄν",
+   "note": "The accent on ὄν is small and could be grave or acute"
+  }
+ ]
+}

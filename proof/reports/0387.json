@@ -1,0 +1,47 @@
+{
+ "page": "0387",
+ "strips_done": 6,
+ "corrections": 58,
+ "misprints": [
+  {
+   "strip": "0387_00",
+   "printed": "Silkespinnnare",
+   "probably_meant": "Silkespinnare",
+   "note": "Headword printed with three n's."
+  },
+  {
+   "strip": "0387_01",
+   "printed": "Simma, 1) eg, νεῖν",
+   "probably_meant": "Simma, 1) eg., νεῖν",
+   "note": "The full stop after eg is missing in the print; there is only a gap before the comma."
+  },
+  {
+   "strip": "0387_03",
+   "printed": "vara s., ἠδυπαθεῖν",
+   "probably_meant": "ἡδυπαθεῖν",
+   "note": "Printed with a smooth breathing; every other ἡδυ- form nearby has a rough breathing."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0387_00",
+   "text": "Silrör, ἀδήν, ένος",
+   "note": "The breathing on ἀδήν is broken type and shows only as a blot. I read it as smooth (the correct form). The old OCR had ἀθήν, but the scan clearly shows δ."
+  },
+  {
+   "strip": "0387_02",
+   "text": "äfv. gm vv. (s. Simma)",
+   "note": "Italic Latin 'vv.' (verben), which looks like Greek υυ in this face. The OCR had 'νυ'."
+  },
+  {
+   "strip": "0387_04",
+   "text": "ὁμόφρων",
+   "note": "The breathing on ὁμόφρων is faint and could be read as smooth. I kept the rough breathing."
+  },
+  {
+   "strip": "0387_01",
+   "text": "παλαισταγής",
+   "note": "Copied as printed. The word is unattested, but the scan clearly reads παλαισταγής."
+  }
+ ]
+}

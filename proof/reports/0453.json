@@ -1,0 +1,43 @@
+{
+ "page": "0453",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0453_01",
+   "printed": "τια, η.",
+   "probably_meant": "τια, ἡ.",
+   "note": "The article is printed without breathing or accent."
+  },
+  {
+   "strip": "0453_01",
+   "printed": "τὸ προβατόν",
+   "probably_meant": "τὸ προσβατόν",
+   "note": "Under Tillgänglighet. The entry above has προσβατός."
+  },
+  {
+   "strip": "0453_01",
+   "printed": "ὑπάρχων, ουσα, ον.",
+   "probably_meant": "ὑπάρχων, οὖσα, ον.",
+   "note": "ουσα is printed without breathing or accent."
+  },
+  {
+   "strip": "0453_05",
+   "printed": "μέλλων, ουσα, ον",
+   "probably_meant": "μέλλων, ουσα, ον (normal abbreviated ending form)",
+   "note": "ουσα is printed without accent. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0453_04",
+   "text": "συγκόλλησις, ἡ.",
+   "note": "The mark after συγκόλλησις looks like a round dot, probably a comma with a broken tail. Transcribed as a comma."
+  },
+  {
+   "strip": "0453_05",
+   "text": "gm vv. äfv.",
+   "note": "Printed in italic, so it could be read as Greek υυ. Transcribed as the Swedish abbreviation vv., which is used all through the book."
+  }
+ ]
+}

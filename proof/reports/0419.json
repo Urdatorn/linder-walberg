@@ -1,0 +1,43 @@
+{
+ "page": "0419",
+ "strips_done": 6,
+ "corrections": 70,
+ "misprints": [
+  {
+   "strip": "0419_00",
+   "printed": "ha sma s. som ngn",
+   "probably_meant": "ha samma s. som ngn",
+   "note": "Swedish 'sma' printed for 'samma'"
+  },
+  {
+   "strip": "0419_00",
+   "printed": "ἐξάττειν (ἔκ) τινος",
+   "probably_meant": "ἐξάττειν (ἐκ) τινος",
+   "note": "Preposition in parentheses printed with an acute accent"
+  },
+  {
+   "strip": "0419_04",
+   "printed": "τὰ ἴχνη τετραμμένᾳ ἐστὶ",
+   "probably_meant": "τετραμμένα",
+   "note": "Iota subscript printed under the final alpha of a neuter plural participle"
+  },
+  {
+   "strip": "0419_05",
+   "printed": "ἱγρότερον ποιεῖν",
+   "probably_meant": "ὑγρότερον ποιεῖν",
+   "note": "Initial letter looks like iota with rough breathing, where upsilon is expected"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0419_01",
+   "text": "~ ῥῆμα, τό.",
+   "note": "The diacritics of the first line fall at the bottom of the previous strip's image and are partly cut off. The reading continues ῥῆσις, ἡ. under Språk 3)."
+  },
+  {
+   "strip": "0419_05",
+   "text": "ἱγρότερον",
+   "note": "The first letter could be a broken upsilon (ὑ) rather than an iota with rough breathing."
+  }
+ ]
+}

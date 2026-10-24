@@ -1,0 +1,65 @@
+{
+ "page": "0417",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0417_00",
+   "printed": "ekenomiskt",
+   "probably_meant": "ekonomiskt",
+   "note": "Printed 'ekeno-miskt' across the line break."
+  },
+  {
+   "strip": "0417_04",
+   "printed": "ἀδυνατός γε εἶ",
+   "probably_meant": "ἀδύνατός γε εἶ",
+   "note": "The accent is printed on the penult."
+  },
+  {
+   "strip": "0417_04",
+   "printed": "μὴ ἄψασθαι",
+   "probably_meant": "μὴ ἅψασθαι",
+   "note": "Printed with a smooth breathing."
+  },
+  {
+   "strip": "0417_04",
+   "printed": "καθ’ αὐτόν",
+   "probably_meant": "καθ’ αὑτόν",
+   "note": "Printed with a smooth breathing."
+  },
+  {
+   "strip": "0417_05",
+   "printed": "Spillra, σχίζειν. Jfr Krossa.",
+   "probably_meant": "Splittra, σχίζειν.",
+   "note": "The verb entry repeats the noun headword 'Spillra'. The headword is probably a misprint."
+  },
+  {
+   "strip": "0417_02",
+   "printed": "ἄκρουλος",
+   "probably_meant": "ἀκρόουλος",
+   "note": "Copied as printed ('ἄ-κρουλος'). The form may be the printer's error."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0417_02",
+   "text": "(höjd, landtungas s)",
+   "note": "The print shows 's )' with a gap and no visible full stop. 's.)' was probably meant. Written as 's)'."
+  },
+  {
+   "strip": "0417_05",
+   "text": "(κατα)προδιδόναι τι.",
+   "note": "Printed '(κατα)-' at a line end. Treated as a line-break hyphen and joined."
+  },
+  {
+   "strip": "0417_01",
+   "text": "tärning). πεττευτής",
+   "note": "The punctuation after 'tärning)' is a faint, slightly raised dot. Taken as a full stop."
+  },
+  {
+   "strip": "0417_05",
+   "text": "βούστασις, -ία, ἡ",
+   "note": "The hyphen before ία is printed as a small mid-dot or is broken."
+  }
+ ]
+}

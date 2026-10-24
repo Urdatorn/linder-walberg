@@ -1,0 +1,78 @@
+{
+ "page": "0496",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0496_01",
+   "printed": "ἀναλολύζειν",
+   "probably_meant": "ἀνολολύζειν",
+   "note": "Under Utrop; the print has ἀναλολύζειν."
+  },
+  {
+   "strip": "0496_01",
+   "printed": "(ἀνα)κυρύττειν",
+   "probably_meant": "(ἀνα)κηρύττειν",
+   "note": "Under Utropa 3); the print clearly shows υ after κ."
+  },
+  {
+   "strip": "0496_02",
+   "printed": "Jfr Utrödja,",
+   "probably_meant": "Jfr Utrödja.",
+   "note": "Comma at the end of the Utrymma entry."
+  },
+  {
+   "strip": "0496_02",
+   "printed": "ἐκφέρεσθαι ἐκπίπτειν.",
+   "probably_meant": "ἐκφέρεσθαι. ἐκπίπτειν.",
+   "note": "No punctuation between the two verbs under Utrusa."
+  },
+  {
+   "strip": "0496_03",
+   "printed": "πλέον τι ποιεῖν::",
+   "probably_meant": "πλέον τι ποιεῖν.:",
+   "note": "The print has a doubled colon."
+  },
+  {
+   "strip": "0496_03",
+   "printed": "ἀποτυγχάνειν,:",
+   "probably_meant": "ἀποτυγχάνειν.:",
+   "note": "Comma followed by a colon."
+  },
+  {
+   "strip": "0496_04",
+   "printed": "dåligt u,,",
+   "probably_meant": "dåligt u.,",
+   "note": "Two commas are printed after u."
+  },
+  {
+   "strip": "0496_05",
+   "printed": "ἐκκολυμβᾶν,",
+   "probably_meant": "ἐκκολυμβᾶν.",
+   "note": "Comma at the end of the Utsimma entry."
+  },
+  {
+   "strip": "0496_05",
+   "printed": "ἔκπεμψις. ἡ.",
+   "probably_meant": "ἔκπεμψις, ἡ.",
+   "note": "A full stop is printed before the article."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0496_04",
+   "text": "εἶναι m. inf.",
+   "note": "The full stop after m is very faint or broken. I wrote 'm.'."
+  },
+  {
+   "strip": "0496_05",
+   "text": "ἐλπίς. ίδος",
+   "note": "The mark after ἐλπίς has no visible tail and looks like a full stop, though a broken comma is more likely what was meant. I kept the full stop."
+  },
+  {
+   "strip": "0496_04",
+   "text": "ἀσχήμων, 2.",
+   "note": "The mark after ἀσχήμων is small and could be a full stop or a comma. I wrote a comma."
+  }
+ ]
+}

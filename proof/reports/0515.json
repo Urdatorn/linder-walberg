@@ -1,0 +1,60 @@
+{
+ "page": "0515",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0515_01",
+   "printed": "παρέχεσθαι,:",
+   "probably_meant": "παρέχεσθαι.:",
+   "note": "comma followed by colon in print"
+  },
+  {
+   "strip": "0515_05",
+   "printed": "ῥῆγμα. τό.",
+   "probably_meant": "ῥῆγμα, τό.",
+   "note": "full stop instead of comma before article"
+  },
+  {
+   "strip": "0515_05",
+   "printed": "βρυχηθμύς",
+   "probably_meant": "βρυχηθμός",
+   "note": "upsilon printed for omicron"
+  },
+  {
+   "strip": "0515_05",
+   "printed": "διερριμένα",
+   "probably_meant": "διερριμμένα",
+   "note": "single mu across the line break (διερ-|ριμένα)"
+  },
+  {
+   "strip": "0515_05",
+   "printed": "Vrång, 1) eg, se Afvig.",
+   "probably_meant": "eg.,",
+   "note": "abbreviation point missing after eg"
+  },
+  {
+   "strip": "0515_02",
+   "printed": "(ἐξ)οργίζειν",
+   "probably_meant": "(ἐξ)οργίζειν / ὀργίζειν",
+   "note": "no breathing on omicron after the bracketed prefix, as printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0515_00",
+   "text": "κλητήρ, ῆρος, ὁ (stämningsv.)",
+   "note": "printed 'stämnings-' at line end then 'v.)'; treated as a line-break hyphen and joined. It could instead be a real hyphen ('stämnings-v.')"
+  },
+  {
+   "strip": "0515_04",
+   "text": "χαλεπότης, ἡ. ... ὀργιλότης, ἡ.",
+   "note": "the breathing on both ἡ is broken and looks grave-like; read as ἡ"
+  },
+  {
+   "strip": "0515_02",
+   "text": "ὀργῇ δι’ ὀργῆς.",
+   "note": "wide space after ὀργῇ but no comma visible; transcribed without one"
+  }
+ ]
+}

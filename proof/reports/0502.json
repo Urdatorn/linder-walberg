@@ -1,0 +1,117 @@
+{
+ "page": "0502",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0502_01",
+   "printed": "ὁ, η (m. gen.)",
+   "probably_meant": "ὁ, ἡ",
+   "note": "No breathing or accent visible on η in the print. It could also be faint type."
+  },
+  {
+   "strip": "0502_02",
+   "printed": "ἀποδημειν",
+   "probably_meant": "ἀποδημεῖν",
+   "note": "No circumflex on the first occurrence (Vandra). The second occurrence (Vandringsstaf) has one."
+  },
+  {
+   "strip": "0502_02",
+   "printed": "ἐκτοπισμοὶς ποιεῖσθαι",
+   "probably_meant": "ἐκτοπισμοὺς ποιεῖσθαι",
+   "note": "Wrong vowel and accent in the ending."
+  },
+  {
+   "strip": "0502_02",
+   "printed": "ἐκτοπιστικος βιος",
+   "probably_meant": "ἐκτοπιστικὸς βίος",
+   "note": "Both words are printed without accents."
+  },
+  {
+   "strip": "0502_02",
+   "printed": "αδύνατος",
+   "probably_meant": "ἀδύνατος",
+   "note": "No breathing is printed."
+  },
+  {
+   "strip": "0502_02",
+   "printed": "αἰκια",
+   "probably_meant": "αἰκία",
+   "note": "No accent is printed."
+  },
+  {
+   "strip": "0502_02",
+   "printed": "jfr Utvandring 2) fig, se",
+   "probably_meant": "Utvandring. 2) fig., se",
+   "note": "No full stops after Utvandring or fig."
+  },
+  {
+   "strip": "0502_03",
+   "printed": "ἀργον εἶναι",
+   "probably_meant": "ἀργὸν εἶναι",
+   "note": "No accent is printed. The next entry has ἀργὸν."
+  },
+  {
+   "strip": "0502_03",
+   "printed": "υπάρχειν",
+   "probably_meant": "ὑπάρχειν",
+   "note": "No breathing is printed."
+  },
+  {
+   "strip": "0502_05",
+   "printed": "ἐμβάλλειν l ἐμποιεῖν",
+   "probably_meant": "l.",
+   "note": "The l. abbreviation has no full stop."
+  },
+  {
+   "strip": "0502_05",
+   "printed": "Vansiunighet",
+   "probably_meant": "Vansinnighet",
+   "note": "A turned n is printed as u in the headword."
+  },
+  {
+   "strip": "0502_05",
+   "printed": "Vanskapiug",
+   "probably_meant": "Vanskaping",
+   "note": "A turned n is printed as u in the headword."
+  },
+  {
+   "strip": "0502_05",
+   "printed": "ἐπὶ το χεῖρον",
+   "probably_meant": "ἐπὶ τὸ χεῖρον",
+   "note": "το is printed without its accent. A similar unaccented τον appears in 0502_00 (ὀρχεῖσθαι τον στρόβιλον)."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0502_00",
+   "text": "ὀρχεῖσθαι τον στρόβιλον",
+   "note": "The ό in στρόβιλον is broken and looks like ί. I read it as ό. τον has no visible accent."
+  },
+  {
+   "strip": "0502_01",
+   "text": "ἀπὸ τρόπου",
+   "note": "The same broken ό appears here and looks like τρίπου. I read it as τρόπου."
+  },
+  {
+   "strip": "0502_01",
+   "text": "ἐθάς, άδος",
+   "note": "The mark over the α of άδος is small. It could be a breathing rather than an acute."
+  },
+  {
+   "strip": "0502_04",
+   "text": "κακὴ δόξα",
+   "note": "The broken ό looks like δέξα or δίξα. I read it as δόξα."
+  },
+  {
+   "strip": "0502_05",
+   "text": "σφαλερός",
+   "note": "The broken ό looks like σφαλερίς. I read it as σφαλερός."
+  },
+  {
+   "strip": "0502_00",
+   "text": "Valspråk. σύμβολον",
+   "note": "There is a round dot after the headword, not a clear comma. I kept the full stop as printed. The same applies to Vanhederlig. (0502_02), Vanskaplig. -het (0502_05), εὐμετάβολος. and εἰθισμένος. 3. (0502_03), κακοδοξίαν. (0502_04) and ἐπισφαλής. 2. (0502_05). These may be commas that lost their tails."
+  }
+ ]
+}

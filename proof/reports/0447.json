@@ -1,0 +1,41 @@
+{
+ "page": "0447",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0447_05",
+   "printed": "Testamentera. διατίθεσθαι.",
+   "probably_meant": "Testamentera, διατίθεσθαι.",
+   "note": "A full stop instead of the usual comma after the headword."
+  },
+  {
+   "strip": "0447_00",
+   "printed": "καλυπτήρ, ῆρος. ὁ",
+   "probably_meant": "καλυπτήρ, ῆρος, ὁ",
+   "note": "There is a full stop where a comma is expected before the article."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0447_05",
+   "text": "τὸ τέϊ",
+   "note": "The accent marks on τεϊ are hard to read: the acute could be on ε with a diaeresis on ι, or the form could be τεΐ. I kept τέϊ."
+  },
+  {
+   "strip": "0447_04",
+   "text": "οἰσυπίς, ίδος",
+   "note": "The mark over the ι of οἰσυπίς could be a circumflex plus breathing. I kept the smooth breathing. The genitive ending clearly has an acute and no breathing."
+  },
+  {
+   "strip": "0447_03",
+   "text": "χρῖσμα. τό.",
+   "note": "The mark after χρῖσμα could be a full stop or a faint comma. I kept the full stop."
+  },
+  {
+   "strip": "0447_04",
+   "text": "Tertial(tionde)",
+   "note": "In the letterspaced headword no space is visible before the parenthesis, so I left it out."
+  }
+ ]
+}

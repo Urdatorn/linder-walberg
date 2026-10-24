@@ -1,0 +1,58 @@
+{
+ "page": "0482",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0482_01",
+   "printed": "προδότης ὦν. φαίνεται προδότης (ὦν)",
+   "probably_meant": "ὤν",
+   "note": "Participle printed with circumflex instead of acute, twice"
+  },
+  {
+   "strip": "0482_03",
+   "printed": "ποιδευσις",
+   "probably_meant": "παίδευσις",
+   "note": "ο for α and no accent, hyphenated ποι-δευσις"
+  },
+  {
+   "strip": "0482_04",
+   "printed": "ἀναφυχή",
+   "probably_meant": "ἀναψυχή",
+   "note": "φ for ψ, clearly printed"
+  },
+  {
+   "strip": "0482_00",
+   "printed": "l. ὥς. / ὅτι, ὥς μισεῖς",
+   "probably_meant": "ὡς",
+   "note": "ὡς appears with rough breathing plus acute in both places"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0482_00",
+   "text": "ὥς",
+   "note": "Accent on ὡς is small; it looks like rough breathing plus acute, the same mark as on ὅτι"
+  },
+  {
+   "strip": "0482_00",
+   "text": "δῆλος εἶ μισῶν",
+   "note": "Accent on εἶ is broken; read as circumflex with smooth breathing"
+  },
+  {
+   "strip": "0482_05",
+   "text": "a) fånga",
+   "note": "Ring on å is partly broken and could be read as ä; fånga fits the headword"
+  },
+  {
+   "strip": "0482_05",
+   "text": "ἀνα m. acc.",
+   "note": "No accent visible on ἀνα (the type is worn); ἀνὰ probably intended"
+  },
+  {
+   "strip": "0482_05",
+   "text": "τροφή, ἡ. ... διατροφή, ἡ.",
+   "note": "The marks after τροφή and διατροφή look like commas but the type is blurred"
+  }
+ ]
+}

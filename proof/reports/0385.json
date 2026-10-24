@@ -1,0 +1,47 @@
+{
+ "page": "0385",
+ "strips_done": 6,
+ "corrections": 24,
+ "misprints": [
+  {
+   "strip": "0385_00",
+   "printed": "ἐπ’ ασπίδα",
+   "probably_meant": "ἐπ’ ἀσπίδα",
+   "note": "No breathing on alpha in the print, though the next word ἀσπίδος has one."
+  },
+  {
+   "strip": "0385_03",
+   "printed": "σερικοπλόκος",
+   "probably_meant": "σηρικοπλόκος",
+   "note": "Printed with epsilon, but the same entry has σηρικοδιαστής."
+  },
+  {
+   "strip": "0385_03",
+   "printed": "υκος",
+   "probably_meant": "υκος (genitive ending)",
+   "note": "Genitive ending printed without breathing. This is normal for endings and is kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0385_04",
+   "text": "σταμῖνες, αἱ.",
+   "note": "The mark over the iota is a rough breathing with a stray stroke, possibly broken type. Read as αἱ, not αἵ."
+  },
+  {
+   "strip": "0385_05",
+   "text": "εἴς τινα",
+   "note": "The accent over ει is blurred, so it could be εἴς or εἲς. Kept εἴς."
+  },
+  {
+   "strip": "0385_05",
+   "text": "(αὑτῷ,",
+   "note": "The mark over the upsilon looks like a rough breathing that could be mistaken for an acute. Read as αὑτῷ."
+  },
+  {
+   "strip": "0385_02",
+   "text": "πὴ δὲ (πή enklit.)",
+   "note": "The grave on the second δὲ is faint."
+  }
+ ]
+}

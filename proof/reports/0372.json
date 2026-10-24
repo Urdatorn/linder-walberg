@@ -1,0 +1,37 @@
+{
+ "page": "0372",
+ "strips_done": 6,
+ "corrections": 65,
+ "misprints": [
+  {
+   "strip": "0372_01",
+   "printed": "θυμιᾶν. b) λιβανωτός",
+   "probably_meant": "θυμιᾶν. 2) λιβανωτός (or a preceding a) missing)",
+   "note": "Rökelse has a sense marker b) with no a) or 1) before it."
+  },
+  {
+   "strip": "0372_03",
+   "printed": "ορμᾶν, -σθαι",
+   "probably_meant": "ὁρμᾶν, -σθαι",
+   "note": "The rough breathing is missing in the print."
+  },
+  {
+   "strip": "0372_02",
+   "printed": "ἠλακάτη ἡ.:",
+   "probably_meant": "ἠλακάτη, ἡ.:",
+   "note": "The comma before the article is missing in the print."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0372_05",
+   "text": "βαρυφωνία, ἡ.: ha sdn",
+   "note": "The punctuation after ἡ is broken in the print and looks like '..'. Transcribed as the usual '.:'."
+  },
+  {
+   "strip": "0372_04",
+   "text": "δονάκων, ὁ.",
+   "note": "The full stop after ὁ at the end of the Rörknippa entry is faint and set low. Transcribed as present."
+  }
+ ]
+}

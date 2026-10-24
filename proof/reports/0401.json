@@ -1,0 +1,93 @@
+{
+ "page": "0401",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0401_01",
+   "printed": "alla s. om hrandra",
+   "probably_meant": "alla s. om hvarandra",
+   "note": "Swedish misprint 'hrandra'"
+  },
+  {
+   "strip": "0401_02",
+   "printed": "flöljtmunstycken",
+   "probably_meant": "flöjtmunstycken",
+   "note": "extra l in print"
+  },
+  {
+   "strip": "0401_03",
+   "printed": "ἄπουργος γωνία",
+   "probably_meant": "unclear; printed form unattested",
+   "note": "kept as printed"
+  },
+  {
+   "strip": "0401_04",
+   "printed": "μέριμνα. ἡ.:",
+   "probably_meant": "μέριμνα, ἡ.:",
+   "note": "period for comma"
+  },
+  {
+   "strip": "0401_04",
+   "printed": "φαρκίς. ῖδος, ἡ.",
+   "probably_meant": "φαρκίς, ίδος, ἡ.",
+   "note": "period for comma and circumflex for acute on the ending"
+  },
+  {
+   "strip": "0401_04",
+   "printed": "εὐρυχωρῆ εἶναι",
+   "probably_meant": "εὐρυχωρῇ εἶναι",
+   "note": "no iota subscript visible"
+  },
+  {
+   "strip": "0401_05",
+   "printed": "μεγαληγόρος, 2.",
+   "probably_meant": "μεγαλήγορος, 2.",
+   "note": "accent misplaced in print"
+  },
+  {
+   "strip": "0401_05",
+   "printed": "πυθόθενόν τι",
+   "probably_meant": "πυθόμενόν τι",
+   "note": "θ for μ in print"
+  },
+  {
+   "strip": "0401_05",
+   "printed": "ὠρύειν",
+   "probably_meant": "ὠρύεσθαι",
+   "note": "active form as printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0401_01",
+   "text": "s. öfver ngt (fig.)",
+   "note": "the period after fig did not print (a space is visible); I supplied it"
+  },
+  {
+   "strip": "0401_03",
+   "text": "Skrufgång, -gänga,",
+   "note": "the letter after -gäng is a broken blot; 'a' is the likely reading"
+  },
+  {
+   "strip": "0401_03",
+   "text": "(συ)στρέφειν",
+   "note": "τ prints like ι (crossbar broken); read as στρέφειν"
+  },
+  {
+   "strip": "0401_04",
+   "text": "ὦλιγξ, ιγγος",
+   "note": "the breathing on ω could be smooth or rough under the circumflex"
+  },
+  {
+   "strip": "0401_05",
+   "text": "δεῖμα. τό.",
+   "note": "the mark after δεῖμα looks like a period, not a comma"
+  },
+  {
+   "strip": "0401_01",
+   "text": "φωναί, αἱ.",
+   "note": "the mark on αἱ looks like a rough breathing only, but it is small"
+  }
+ ]
+}

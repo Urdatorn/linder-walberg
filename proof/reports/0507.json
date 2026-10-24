@@ -1,0 +1,93 @@
+{
+ "page": "0507",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0507_00",
+   "printed": "ουσα, ον",
+   "probably_meant": "οὖσα, ὄν",
+   "note": "second participle in Verklig printed without breathing or accents"
+  },
+  {
+   "strip": "0507_00",
+   "printed": "το εἶναι",
+   "probably_meant": "τὸ εἶναι",
+   "note": "article unaccented in print"
+  },
+  {
+   "strip": "0507_01",
+   "printed": "καθήκοντα, τά τὸ κατά τινα",
+   "probably_meant": "καθήκοντα, τά. τὸ κατά τινα",
+   "note": "no punctuation between τά and τὸ"
+  },
+  {
+   "strip": "0507_02",
+   "printed": "συμπράττειν τινι τι",
+   "probably_meant": "συμπράττειν τινί τι",
+   "note": "τινι unaccented in print"
+  },
+  {
+   "strip": "0507_02",
+   "printed": "ἁμαρτημα",
+   "probably_meant": "ἁμάρτημα",
+   "note": "accent missing in print"
+  },
+  {
+   "strip": "0507_03",
+   "printed": "καθ’ ἡμᾶς (ὄντες; l ἄνθρωποι",
+   "probably_meant": "καθ’ ἡμᾶς (ὄντες) l. ἄνθρωποι",
+   "note": "semicolon printed where the closing parenthesis should be"
+  },
+  {
+   "strip": "0507_03",
+   "printed": "ἀνηρ ἀρχαιότροπος",
+   "probably_meant": "ἀνὴρ ἀρχαιότροπος",
+   "note": "accent missing on ἀνηρ"
+  },
+  {
+   "strip": "0507_03",
+   "printed": "καταστὴναι",
+   "probably_meant": "καταστῆναι",
+   "note": "grave printed instead of circumflex"
+  },
+  {
+   "strip": "0507_05",
+   "printed": "δύξης τυγχάνειν",
+   "probably_meant": "δόξης τυγχάνειν",
+   "note": "υ printed for ο"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0507_00",
+   "text": "1) eg., τῷ ὄντι",
+   "note": "the mark after eg. might be a second full stop rather than a comma"
+  },
+  {
+   "strip": "0507_01",
+   "text": "vara i v., ἐνεργεῖν",
+   "note": "the print looks like 'v,,'; the ε of ἐνεργεῖν is broken in the print"
+  },
+  {
+   "strip": "0507_01",
+   "text": "ἐργάτης. ὁ, ... ἐργατικός. -στικός",
+   "note": "I could not tell whether the separators are full stops or commas; the τ in -στικός is badly inked"
+  },
+  {
+   "strip": "0507_02",
+   "text": "αὐτὸς ἁμαρτάνει.",
+   "note": "the final full stop is faint or missing"
+  },
+  {
+   "strip": "0507_03",
+   "text": "ἐν τῇ γῇ l ἐπὶ ... ἐν τῇ γῇ.",
+   "note": "the accent on τῇ looks like a grave; I wrote a circumflex"
+  },
+  {
+   "strip": "0507_04",
+   "text": "ἐκδιδόναι. διαδιδόναι",
+   "note": "the faint dot after ἐκδιδόναι may be a raised dot"
+  }
+ ]
+}

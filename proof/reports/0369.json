@@ -1,0 +1,38 @@
+{
+ "page": "0369",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0369_01",
+   "printed": "ὀχετός, 2.",
+   "probably_meant": "ὀχετός, ὁ.",
+   "note": "The print has a termination number where the article is expected for a noun."
+  },
+  {
+   "strip": "0369_04",
+   "printed": "(ἐξ-, ἀν)ευρίσκειν",
+   "probably_meant": "(ἐξ-, ἀν)ευρίσκειν / εὑρίσκειν",
+   "note": "The bare ευρίσκειν after the bracketed prefixes has no breathing. That may be intended, since it is a compound stem."
+  },
+  {
+   "strip": "0369_04",
+   "printed": "εὐτριπίζειν",
+   "probably_meant": "εὐτρεπίζειν",
+   "note": "The same column spells it εὐτρεπίζειν a few lines earlier, so the ι here is a misprint."
+  },
+  {
+   "strip": "0369_05",
+   "printed": "(sedlig l polit.)",
+   "probably_meant": "(sedlig l. polit.)",
+   "note": "The full stop after the abbreviation l. is missing in the print."
+  },
+  {
+   "strip": "0369_04",
+   "printed": "(vid adjj. o. advv.).,",
+   "probably_meant": "(vid adjj. o. advv.),",
+   "note": "The print has a stray full stop before the comma."
+  }
+ ],
+ "uncertain": []
+}

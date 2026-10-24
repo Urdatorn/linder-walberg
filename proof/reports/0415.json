@@ -1,0 +1,54 @@
+{
+ "page": "0415",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0415_00",
+   "printed": "Solstyng",
+   "probably_meant": "Solstyng (older form of solsting; kept as printed)",
+   "note": "Headword checked against the scan. The OCR had 'Solstyg'."
+  },
+  {
+   "strip": "0415_02",
+   "printed": "ἀποναρκοῖσθαι",
+   "probably_meant": "ἀποναρκοῦσθαι / ἀποναρκᾶσθαι",
+   "note": "The print has an unusual contracted ending. Kept as printed."
+  },
+  {
+   "strip": "0415_04",
+   "printed": "φροντίς, ίδος",
+   "probably_meant": "φροντίς, ιδος",
+   "note": "The genitive ending carries an acute accent and no breathing. Kept as printed."
+  },
+  {
+   "strip": "0415_05",
+   "printed": "φροντίς, ίδος",
+   "probably_meant": "φροντίς, ιδος",
+   "note": "Same accented genitive ending as in strip 04. Kept as printed."
+  },
+  {
+   "strip": "0415_04",
+   "printed": "ἄπουργος γωνία",
+   "probably_meant": "ἄπυργος? (uncertain)",
+   "note": "This is the clear reading of the print. Kept."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0415_03",
+   "text": "παῖς.: upptaga",
+   "note": "The print shows a baseline dot followed by a separate raised dot ('.·'). It is probably a displaced '.:', so I transcribed it as '.:'."
+  },
+  {
+   "strip": "0415_00",
+   "text": "σκιόθηρον. τό.",
+   "note": "The mark after σκιόθηρον looks like a full stop, but it could be a weakly printed comma."
+  },
+  {
+   "strip": "0415_02",
+   "text": "Sommarregn, θερινὸς ὄμβρος, ὁ.",
+   "note": "The mark after ὄμβρος is faint and could be a full stop. I kept the comma."
+  }
+ ]
+}

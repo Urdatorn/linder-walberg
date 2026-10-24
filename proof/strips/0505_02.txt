@@ -1,6 +1,6 @@
-~ ρώιδις, 2
+~ ρώδης, 2.
 
-Vaxa, χηροῦν. ἰχνηροῦν.: v:ad, κηρωτός, 3
+Vaxa, κηροῦν. ἐγκηροῦν.: v:ad, κηρωτός, 3.
 
 Vaxbild, κηρόπλαστον, τό.
 
@@ -8,24 +8,24 @@ Vaxduk, ὕφασμα κηρωτόν, τό.
 
 Vaxfackla, -ljus, κηρίων, ωνος, ὁ. pl. äfv. κηροί, οἱ.
 
-Vaxkaka, κηρίον, τό.: s. gör v:or, κηρυσπουός, 2
+Vaxkaka, κηρίον, τό.: s. gör v:or, κηριοποιός, 2.
 
-Vaxmålare, κηρογράψος, ὁ.
+Vaxmålare, κηρογράφος, ὁ.
 
 Vaxmålning, κηρογραφία, ἡ.
 
 Vaxning, κήρωσις, ἡ.
 
-Vaxplan, θέλτος κεκηρωμένη, ἡ.
+Vaxplån, δέλτος κεκηρωμένη, ἡ.
 
 Vaxplåster, κηρωτόν, τό. κήρωμα, τό.
 
 Vaxpomada, κηρωτή, ἡ.
 
-Vaxsalfva, κήρωμα, τό. κηρύπτιτος, ὁ.
+Vaxsalfva, κήρωμα, τό. κηρόπιττος, ὁ.
 
-Ve, γεῦ. ἰού. ἰώ. αἴ (vanl. upprepadt, αἴ αἴ).: v. mig. οἴμοι.
+Ve, φεῦ. ἰού. ἰώ. αἶ (vanl. upprepadt, αἶ αἶ).: v. mig. οἴμοι.
 
-Veck, πτυχή, ἡ (pl. πτύχες, αἵ). στολίς, ἰθός, ἡ (på kläderna). κώλπος, ὁ (det djupa bröstvecket på kläderna). ῥυτίς, ἰθός, ἡ (rynka).
+Veck, πτυχή, ἡ (pl. πτύχες, αἱ). στολίς, ίδος, ἡ (på kläderna). κόλπος, ὁ (det djupa bröstvecket på kläderna). ῥυτίς, ίδος, ἡ (rynka).
 
-Vecka, πτύσσειν. jfr Rynka.: v:d, πτυχτός, 3
+Vecka, πτύσσειν. jfr Rynka.: v:d, πτυκτός, 3

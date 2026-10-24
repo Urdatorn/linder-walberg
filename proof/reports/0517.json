@@ -1,0 +1,43 @@
+{
+ "page": "0517",
+ "strips_done": 6,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0517_02",
+   "printed": "δλίγωρος",
+   "probably_meant": "ὀλίγωρος",
+   "note": "Initial letter printed as δ without breathing in the Vårdslös entry"
+  },
+  {
+   "strip": "0517_03",
+   "printed": "hrur",
+   "probably_meant": "huru",
+   "note": "Last word of the strip; it continues as 'man kan v:s' in 0517_04"
+  },
+  {
+   "strip": "0517_05",
+   "printed": "εὖριν",
+   "probably_meant": "εὔριν",
+   "note": "Printed with a circumflex in the Väderkorn entry"
+  },
+  {
+   "strip": "0517_04",
+   "printed": "ἀήρ, έρος",
+   "probably_meant": "ἀήρ, έρος (gen. ending ἀέρος)",
+   "note": "Genitive ending printed with an acute and no breathing; kept as printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0517_04",
+   "text": "2.: = förorsaka",
+   "note": "The print has an equals-like double rule, written as '=' to match how other pages render it"
+  },
+  {
+   "strip": "0517_04",
+   "text": "ἀποματαΐζειν",
+   "note": "Diaeresis and acute on the iota are small but appear to be there"
+  }
+ ]
+}

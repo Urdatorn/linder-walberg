@@ -1,0 +1,26 @@
+{
+ "page": "0371",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0371_04",
+   "printed": "κρόμμυνον",
+   "probably_meant": "κρόμμυον",
+   "note": "Rödlök; the print clearly reads κρόμμυνον"
+  },
+  {
+   "strip": "0371_00",
+   "printed": "r handling",
+   "probably_meant": "r. handling",
+   "note": "Rättrådig; the print has no full stop after the abbreviation r"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0371_01",
+   "text": "ἀτιμία, ἡ.",
+   "note": "Rättslöshet; the article is broken type, and only a rough breathing and a full stop are visible. Read as ἡ."
+  }
+ ]
+}

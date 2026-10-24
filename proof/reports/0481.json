@@ -1,0 +1,32 @@
+{
+ "page": "0481",
+ "strips_done": 6,
+ "corrections": 37,
+ "misprints": [
+  {
+   "strip": "0481_02",
+   "printed": "εἰσπράπτωρ",
+   "probably_meant": "εἰσπράκτωρ",
+   "note": "Under Uppbördsman, the print has πτ, not κτ."
+  },
+  {
+   "strip": "0481_03",
+   "printed": "figur o. d,",
+   "probably_meant": "figur o. d.,",
+   "note": "There is no full stop after d in the abbreviation."
+  },
+  {
+   "strip": "0481_05",
+   "printed": "ἐπίσχεσις, ἐποχή ἡ.",
+   "probably_meant": "ἐπίσχεσις, ἐποχή, ἡ.",
+   "note": "The comma before the article is missing under Uppehåll 2). The parallel entry under Uppehållande has it."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0481_05",
+   "text": "ζῇ τις",
+   "note": "The iota subscript under η is faint but looks present, so I kept ζῇ."
+  }
+ ]
+}

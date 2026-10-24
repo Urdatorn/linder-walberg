@@ -1,0 +1,42 @@
+{
+ "page": "0485",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0485_01",
+   "printed": "ἐπιστασις",
+   "probably_meant": "ἐπίστασις",
+   "note": "No accent is printed on the word under Uppmärksamhet."
+  },
+  {
+   "strip": "0485_03",
+   "printed": "παλλιλογεῖν",
+   "probably_meant": "παλιλλογεῖν",
+   "note": "Under Upprepa. Compare παλιλλογία in 0485_04."
+  },
+  {
+   "strip": "0485_04",
+   "printed": "stoder",
+   "probably_meant": "stöder",
+   "note": "Under Uppresa (äfv. om stoder). No umlaut is visible on the o."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0485_03",
+   "text": "οἷόν τ’ εἶναι",
+   "note": "The diacritics over ι in both words are merged into blobs. I wrote the expected rough breathing plus circumflex on οἷόν and the circumflex on εἶναι."
+  },
+  {
+   "strip": "0485_04",
+   "text": "en trupps. διαφθορά",
+   "note": "The mark after trupps looks like a full stop. The parallel phrases before it end with commas."
+  },
+  {
+   "strip": "0485_01",
+   "text": "ἐπι-, ἐγκελεύειν",
+   "note": "The punctuation after ἐπι- is small. It could be a comma or a full stop; I wrote a comma."
+  }
+ ]
+}

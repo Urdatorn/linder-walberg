@@ -1,0 +1,65 @@
+{
+ "page": "0377",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0377_02",
+   "printed": "σαναγείρειν",
+   "probably_meant": "συναγείρειν",
+   "note": "Sammangyttra; α printed for υ"
+  },
+  {
+   "strip": "0377_02",
+   "printed": "hrandra",
+   "probably_meant": "hvarandra",
+   "note": "Sammanhang: 'ej ha ngt s. m. hrandra'"
+  },
+  {
+   "strip": "0377_02",
+   "printed": "συννεῖν",
+   "probably_meant": "συννεῖν (possibly intended)",
+   "note": "Sammanhopa; kept as printed, could be a genuine form of συννέω"
+  },
+  {
+   "strip": "0377_00",
+   "printed": "τοὐτὸν εἶναι",
+   "probably_meant": "ταὐτὸν εἶναι",
+   "note": "Sammanfalla 3); the print has ου, not αυ"
+  },
+  {
+   "strip": "0377_00",
+   "printed": "τήκεσθαι Jfr",
+   "probably_meant": "τήκεσθαι. Jfr",
+   "note": "no full stop after τήκεσθαι in the print"
+  },
+  {
+   "strip": "0377_03",
+   "printed": "κρατεῖν (τινός) 3)",
+   "probably_meant": "κρατεῖν (τινός). 3)",
+   "note": "no full stop before 3) in the print"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0377_00",
+   "text": "ἓν καὶ ταὐτὸ εἶναι",
+   "note": "the accent on ἓν (grave or acute, rough breathing) is small in the scan; read as ἓν"
+  },
+  {
+   "strip": "0377_02",
+   "text": "καθ’ ἓν ἕκαστον",
+   "note": "same uncertainty about the accent on ἓν"
+  },
+  {
+   "strip": "0377_04",
+   "text": "ἵππῳ καὶ βοΐ",
+   "note": "the accent on the ι with diaeresis could be acute or grave; read as acute"
+  },
+  {
+   "strip": "0377_03",
+   "text": "se d. o.",
+   "note": "the print is tight and could be 'd.o.'; kept the book's usual 'd. o.'"
+  }
+ ]
+}

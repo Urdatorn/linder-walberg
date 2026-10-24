@@ -1,0 +1,49 @@
+{
+ "page": "0468",
+ "strips_done": 6,
+ "corrections": 60,
+ "misprints": [
+  {
+   "strip": "0468_00",
+   "printed": "διαφθορά, η.",
+   "probably_meant": "διαφθορά, ἡ.",
+   "note": "article printed without breathing or accent"
+  },
+  {
+   "strip": "0468_00",
+   "printed": "σοφρόνως",
+   "probably_meant": "σωφρόνως",
+   "note": "omicron clearly printed instead of omega"
+  },
+  {
+   "strip": "0468_03",
+   "printed": "τάλαντων",
+   "probably_meant": "ταλάντων",
+   "note": "accent printed on the first syllable"
+  },
+  {
+   "strip": "0468_03",
+   "printed": "θορακοφόροι",
+   "probably_meant": "θωρακοφόροι",
+   "note": "omicron printed instead of omega"
+  },
+  {
+   "strip": "0468_04",
+   "printed": "ἀσθματικύς",
+   "probably_meant": "ἀσθματικός",
+   "note": "upsilon printed instead of omicron in the ending"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0468_00",
+   "text": "σωφρονισμός",
+   "note": "the ι before the line-end hyphen is broken type and looks like a dot, but σωφρονισμός is clearly what is meant"
+  },
+  {
+   "strip": "0468_03",
+   "text": "βαρύς, εῖα, ύ.",
+   "note": "the ύ has only an acute, no breathing, which is correct for the feminine/neuter ending notation; the same holds in 0468_05"
+  }
+ ]
+}

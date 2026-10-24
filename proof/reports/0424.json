@@ -1,0 +1,35 @@
+{
+ "page": "0424",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0424_03",
+   "printed": "καθιδρύεεν",
+   "probably_meant": "καθιδρύειν",
+   "note": "Print clearly shows -εεν (checked at magnification); kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0424_04",
+   "text": "(ἐπ)αὔξησις",
+   "note": "Print has '(ἐπ)-' at line end followed by 'αὔξησις'; treated the hyphen as line-break hyphenation and joined the word, like '(κατα)προδιδόναι'."
+  },
+  {
+   "strip": "0424_04",
+   "text": "ἁπλῆ",
+   "note": "The breathing on α looks a little like rough plus acute, but it matches this face's rough-breathing glyph elsewhere, so I read it as plain ἁ."
+  },
+  {
+   "strip": "0424_05",
+   "text": "o. gm vv.",
+   "note": "Printed in italics that look like 'υυ'. Read as the abbreviation 'vv.'."
+  },
+  {
+   "strip": "0424_02",
+   "text": "στῦλος, ὁ (att skrifva m.). περόνη",
+   "note": "The punctuation after 'm.)' is faint. Read as a full stop."
+  }
+ ]
+}

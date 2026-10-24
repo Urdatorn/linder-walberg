@@ -1,0 +1,40 @@
+{
+ "page": "0498",
+ "strips_done": 6,
+ "corrections": 34,
+ "misprints": [
+  {
+   "strip": "0498_05",
+   "printed": "παύεσθαι τοῦ λύγου",
+   "probably_meant": "παύεσθαι τοῦ λόγου",
+   "note": "Under Uttala 3) the print has λύγου. It is kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0498_05",
+   "text": "utkräfva",
+   "note": "The first letter is broken type and looks like 'a'. It is read as 'u' (utkräfva), which is the only sensible word."
+  },
+  {
+   "strip": "0498_05",
+   "text": "tjena en bestämd",
+   "note": "The print has stray vertical marks after 'tjena' and 'en', probably spacing material that took ink. They are left out."
+  },
+  {
+   "strip": "0498_05",
+   "text": "τεταγμένον",
+   "note": "The first τ is damaged and looks like ι. It is read as τεταγμένον."
+  },
+  {
+   "strip": "0498_02",
+   "text": "ἐπὶ καλάμῃ",
+   "note": "It is hard to tell whether the η carries an iota subscript or only the hook of the glyph. The reading ῃ is kept."
+  },
+  {
+   "strip": "0498_01, 0498_05",
+   "text": "(δια)φέρειν, (ἐκ)πράττειν",
+   "note": "The line ends after the parenthesis with a hyphen. Both are treated as line-break hyphens and the words are joined."
+  }
+ ]
+}

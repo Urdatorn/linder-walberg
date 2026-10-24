@@ -1,0 +1,41 @@
+{
+ "page": "0487",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0487_00",
+   "printed": "καλκεύοντα",
+   "probably_meant": "χαλκεύοντα",
+   "note": "The first letter has no descender and is the same shape as the κ later in the word, so the print has κ."
+  },
+  {
+   "strip": "0487_01",
+   "printed": "(ur sittande l. liggande ställning. 2)",
+   "probably_meant": "(ur sittande l. liggande ställning). 2)",
+   "note": "The closing parenthesis is missing in the print."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0487_02",
+   "text": "ὑγρότερον ποιεῖν",
+   "note": "The ο of ποιεῖν is broken or turned in the print and looks like 'π?ιεῖν'. I read it as ποιεῖν, which Runeberg agrees with."
+  },
+  {
+   "strip": "0487_05",
+   "text": "(λόγον).",
+   "note": "The closing parenthesis is broken and shows only as a small stroke; Runeberg reads '(λόγον.'"
+  },
+  {
+   "strip": "0487_00",
+   "text": "Uppsnöra, λύειν.: skorna,",
+   "note": "These are tiny marks that could be commas or full stops. They have small tails, so I wrote commas; Runeberg has 'Uppsnöra.'"
+  },
+  {
+   "strip": "0487_03",
+   "text": "Uppsträcka, ἀνατείνειν.",
+   "note": "The mark after the headword is small and could be a comma or a full stop. I wrote a comma."
+  }
+ ]
+}

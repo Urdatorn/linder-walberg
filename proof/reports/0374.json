@@ -1,0 +1,61 @@
+{
+ "page": "0374",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0374_00",
+   "printed": "δειλθεῖν",
+   "probably_meant": "διελθεῖν",
+   "note": "Letters transposed in the print."
+  },
+  {
+   "strip": "0374_00",
+   "printed": "συμβάν..",
+   "probably_meant": "συμβάν.:",
+   "note": "The print has two full stops."
+  },
+  {
+   "strip": "0374_02",
+   "printed": "σὸν o. s v.",
+   "probably_meant": "σὸν o. s. v.",
+   "note": "There is no full stop after the s."
+  },
+  {
+   "strip": "0374_03",
+   "printed": "καταδικάζεν",
+   "probably_meant": "καταδικάζειν",
+   "note": "The iota is missing from the ending."
+  },
+  {
+   "strip": "0374_04",
+   "printed": "ἐμπείρως ἔχων, ουσα.",
+   "probably_meant": "οῦσα",
+   "note": "The feminine ending is printed without breathing or accent."
+  },
+  {
+   "strip": "0374_05",
+   "printed": "3) långsam, ἡρεμαῖος",
+   "probably_meant": "ἠρεμαῖος",
+   "note": "Printed with a rough breathing; earlier in the same entry it has a smooth one."
+  },
+  {
+   "strip": "0374_05",
+   "printed": "ἐνγίγνεταί",
+   "probably_meant": "ἐγγίγνεταί",
+   "note": "The prefix is not assimilated (the usual spelling is ἐγγίγνεται)."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0374_02",
+   "text": "ἀγών, ῶνος, ὁ",
+   "note": "The mark over the ω of the genitive ending is small. I read it as a circumflex without breathing; the OCR had ὤνος."
+  },
+  {
+   "strip": "0374_02",
+   "text": "ταῦτα. b)",
+   "note": "The stop after ταῦτα is faint."
+  }
+ ]
+}

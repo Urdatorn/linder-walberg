@@ -1,0 +1,47 @@
+{
+ "page": "0413",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0413_03",
+   "printed": "λιγμός",
+   "probably_meant": "λυγμός",
+   "note": "Snyftning; print clearly has ι"
+  },
+  {
+   "strip": "0413_05",
+   "printed": "ὁ θέος",
+   "probably_meant": "ὁ θεός",
+   "note": "Snöa; accent on wrong syllable in print"
+  },
+  {
+   "strip": "0413_01",
+   "printed": "I) ss. egenskap",
+   "probably_meant": "1) ss. egenskap",
+   "note": "Snille; sense number set with a serifed capital I instead of 1"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0413_00",
+   "text": "ξοΐς",
+   "note": "Accent/diaeresis on οι is broken; mark over ο and ι, read as ξοΐς"
+  },
+  {
+   "strip": "0413_00",
+   "text": "τέκτων, ονος",
+   "note": "Punctuation after τέκτων is small; read as comma, could be a full stop"
+  },
+  {
+   "strip": "0413_02",
+   "text": "καταρροϊζεσθαι",
+   "note": "Only a diaeresis visible over ι, no accent"
+  },
+  {
+   "strip": "0413_01",
+   "text": "I)",
+   "note": "Kept as capital I as printed; could be a damaged 1"
+  }
+ ]
+}

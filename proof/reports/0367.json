@@ -1,0 +1,41 @@
+{
+ "page": "0367",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0367_02",
+   "printed": "τὸ τραχὺ της ἀκμῆς",
+   "probably_meant": "τὸ τραχὺ τῆς ἀκμῆς",
+   "note": "The article is printed without its circumflex."
+  },
+  {
+   "strip": "0367_05",
+   "printed": "Råttfängare",
+   "probably_meant": "Råttfångare",
+   "note": "The headword is printed with ä, but the same entry uses fånga elsewhere. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0367_02",
+   "text": "τὸ (l. ὅ) δὲ ἔσχατον",
+   "note": "The accent on the relative is unclear: it could be ὅ or ὃ. I kept ὅ."
+  },
+  {
+   "strip": "0367_02",
+   "text": "Råegg",
+   "note": "The mark over the a is small and could be a ring or dots. I read å (Råegg) to match the run of Rå- headwords."
+  },
+  {
+   "strip": "0367_05",
+   "text": "Råtta, μῦς, ός, ὁ.",
+   "note": "The genitive ending looks like a bare acute (ός) with no breathing."
+  },
+  {
+   "strip": "0367_05",
+   "text": "Råsten",
+   "note": "The å in the headword is blotted. Read as Råsten from the alphabetical order."
+  }
+ ]
+}

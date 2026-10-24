@@ -1,0 +1,31 @@
+{
+ "page": "0510",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0510_01",
+   "printed": "b) vidrig händelse",
+   "probably_meant": "a) ... b) (the a) sub-sense under 2) is missing)",
+   "note": "Under Vidrighet 2) the print goes straight to b) with no a) before it; kept as printed."
+  },
+  {
+   "strip": "0510_05",
+   "printed": "τραχύς, εῖα, υ,",
+   "probably_meant": "τραχύς, εῖα, ύ,",
+   "note": "The neuter ending has no accent in the print."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0510_04",
+   "text": "τὸ δέ l. καὶ τὸ l. ὁ δὲ μέγιστον",
+   "note": "Read δέ as acute and ὁ as having a rough breathing only. A small accent on ὁ (ὃ) cannot be ruled out."
+  },
+  {
+   "strip": "0510_00",
+   "text": "εἰ l. ἦν δὲ μή",
+   "note": "The ἦν (smooth breathing and circumflex) matches the print, though ἢν would make more sense. I kept the print's reading."
+  }
+ ]
+}

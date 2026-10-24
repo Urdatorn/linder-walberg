@@ -1,0 +1,56 @@
+{
+ "page": "0356",
+ "strips_done": 6,
+ "corrections": 12,
+ "misprints": [
+  {
+   "strip": "0356_00",
+   "printed": "ἐπανίρθωσις",
+   "probably_meant": "ἐπανόρθωσις",
+   "note": "iota with acute printed in place of omicron"
+  },
+  {
+   "strip": "0356_00",
+   "printed": "(επὶ τὸ κρεῖττον)",
+   "probably_meant": "(ἐπὶ τὸ κρεῖττον)",
+   "note": "no smooth breathing printed on επὶ"
+  },
+  {
+   "strip": "0356_00",
+   "printed": "ἐξαίρετίν τι",
+   "probably_meant": "ἐξαίρετόν τι",
+   "note": "ι printed for ο"
+  },
+  {
+   "strip": "0356_03",
+   "printed": "ὁ ἄνω τόποι",
+   "probably_meant": "οἱ ἄνω τόποι",
+   "note": "singular article with plural noun"
+  },
+  {
+   "strip": "0356_03",
+   "printed": "τὰ πρός δυσμὰς",
+   "probably_meant": "τὰ πρὸς δυσμὰς",
+   "note": "acute instead of grave on πρός"
+  },
+  {
+   "strip": "0356_04",
+   "printed": "land hrest det r:r",
+   "probably_meant": "land hvarest det r:r",
+   "note": "Swedish 'hvarest' printed as 'hrest'"
+  },
+  {
+   "strip": "0356_05",
+   "printed": "συννεφης",
+   "probably_meant": "συννεφὴς",
+   "note": "no accent visible on the eta in the zoomed scan; could be a dropped accent piece"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0356_05",
+   "text": "συννεφης",
+   "note": "accent missing in the print, either a misprint or broken type; written without accent as seen"
+  }
+ ]
+}

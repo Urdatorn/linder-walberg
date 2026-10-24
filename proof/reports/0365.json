@@ -1,0 +1,31 @@
+{
+ "page": "0365",
+ "strips_done": 6,
+ "corrections": 30,
+ "misprints": [
+  {
+   "strip": "0365_03",
+   "printed": "τοὺπίσω",
+   "probably_meant": "τοὐπίσω",
+   "note": "Grave accent printed over υ where the coronis/smooth breathing belongs."
+  },
+  {
+   "strip": "0365_05",
+   "printed": "εὔδοκιμος",
+   "probably_meant": "εὐδόκιμος",
+   "note": "Accent printed on the diphthong instead of on ο."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0365_04",
+   "text": "ῥάχετρον",
+   "note": "The narrow letter between ε and ρ could be ι or τ. I read τ, which gives the attested word ῥάχετρον."
+  },
+  {
+   "strip": "0365_04",
+   "text": "till rygga",
+   "note": "The space between 'till' and 'rygga' is very narrow. I kept it as two words."
+  }
+ ]
+}

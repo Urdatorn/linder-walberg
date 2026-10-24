@@ -1,0 +1,43 @@
+{
+ "page": "0463",
+ "strips_done": 7,
+ "corrections": 52,
+ "misprints": [
+  {
+   "strip": "0463_01",
+   "printed": "Treskodom",
+   "probably_meant": "Tredskodom",
+   "note": "Headword printed without the d; it sits between Tredskhet and Tredubbel"
+  },
+  {
+   "strip": "0463_04",
+   "printed": "τρικονταέτης",
+   "probably_meant": "τριακονταέτης",
+   "note": "The α after τρι is missing in the print"
+  },
+  {
+   "strip": "0463_04",
+   "printed": "τριςκαιδεκαταῖος",
+   "probably_meant": "τρισκαιδεκαταῖος",
+   "note": "Printed as τρις- at the end of a line, with final ς, while the neighbouring compounds have σ"
+  },
+  {
+   "strip": "0463_01",
+   "printed": "τριάς, άδος",
+   "probably_meant": "τριάς, ἀδος / -άδος",
+   "note": "The genitive ending has an acute and no breathing (also in 0463_03, 0463_04 and 0463_05). It is probably just the ending's accent, so kept as printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0463_06",
+   "text": "ἐν τῷ θριάμβῳ",
+   "note": "A broken mark sits between ἐν and τῷ in the scan; read as a space"
+  },
+  {
+   "strip": "0463_05",
+   "text": "δημαρχοῦντός τινος",
+   "note": "The accents of the word broken across the line fall on the cut between the two bands; the circumflex is over ου and the acute over -τός"
+  }
+ ]
+}

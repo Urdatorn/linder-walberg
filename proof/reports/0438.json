@@ -1,0 +1,53 @@
+{
+ "page": "0438",
+ "strips_done": 7,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0438_03",
+   "printed": "σῖτος, ἡ",
+   "probably_meant": "σῖτος, ὁ",
+   "note": "The article is printed feminine for σῖτος in the Säd entry."
+  },
+  {
+   "strip": "0438_05",
+   "printed": "ἀκοῇ ἔμαθρν",
+   "probably_meant": "ἀκοῇ ἔμαθον",
+   "note": "ρ printed instead of ο."
+  },
+  {
+   "strip": "0438_03",
+   "printed": "σπέρμα τό.",
+   "probably_meant": "σπέρμα, τό.",
+   "note": "The comma before the article is missing in the print."
+  },
+  {
+   "strip": "0438_03",
+   "printed": "(tillföra s).:",
+   "probably_meant": "(tillföra s.).:",
+   "note": "There is no abbreviation point after s."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0438_03",
+   "text": "köpa upp s., σιτωνεῖν",
+   "note": "The type is broken here: 'upp' and the start of σιτωνεῖν are only partly inked. Read from context."
+  },
+  {
+   "strip": "0438_02",
+   "text": "ὡς εἰ, ὡσανεί, ὥσπερ εἰ",
+   "note": "The breathing and accent on εἰ are small. I read a smooth breathing only, not εἶ. ὡς is taken as rough + no accent."
+  },
+  {
+   "strip": "0438_05",
+   "text": "ἀκοῇ",
+   "note": "Iota subscript is hard to tell apart from the descender of η. Kept as ἀκοῇ."
+  },
+  {
+   "strip": "0438_00",
+   "text": "434 Såpa — Säker.",
+   "note": "The running head is rewritten in the format of other header strips (page number first, no tilde)."
+  }
+ ]
+}

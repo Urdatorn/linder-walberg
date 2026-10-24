@@ -1,0 +1,64 @@
+{
+ "page": "0516",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0516_01",
+   "printed": "2) se Farlig,",
+   "probably_meant": "2) se Farlig.",
+   "note": "Entry Vådlig ends with a comma instead of a full stop"
+  },
+  {
+   "strip": "0516_01",
+   "printed": "(ordspr,).",
+   "probably_meant": "(ordspr.).",
+   "note": "Comma in place of the abbreviation point"
+  },
+  {
+   "strip": "0516_03",
+   "printed": "τρύτανη",
+   "probably_meant": "τρυτάνη",
+   "note": "Accent misplaced; the same word is printed τρυτάνη under Våg on this page"
+  },
+  {
+   "strip": "0516_03",
+   "printed": "διαχρήσασθαι. αὑτόν.",
+   "probably_meant": "διαχρήσασθαι αὑτόν.",
+   "note": "A stray full stop splits the verb from its object"
+  },
+  {
+   "strip": "0516_01",
+   "printed": "ἄκων, ουσα, ον (mot sin vilja.",
+   "probably_meant": "ἄκων, ουσα, ον (mot sin vilja).",
+   "note": "The closing parenthesis is missing"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0516_03",
+   "text": "(fiendens)",
+   "note": "A vertical bar is printed between '(' and 'fiendens'. It looks like a spacing quad that rose into the print, so I left it out."
+  },
+  {
+   "strip": "0516_03",
+   "text": "Våldförande",
+   "note": "The f is broken at the top and looks almost like a t. I read it as f."
+  },
+  {
+   "strip": "0516_05",
+   "text": "ἐβουλόμην ἂν γενέ-",
+   "note": "The mark over the second ἂν is damaged and looks like a caret. I read it as smooth breathing with a grave accent."
+  },
+  {
+   "strip": "0516_02",
+   "text": "εἰς-",
+   "note": "The diacritic over ι is small and could be a smooth breathing or an acute. I used the usual εἰς."
+  },
+  {
+   "strip": "0516_01",
+   "text": "υῖα",
+   "note": "The circumflex sits between υ and ι. I read it as υῖα."
+  }
+ ]
+}

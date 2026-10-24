@@ -1,0 +1,58 @@
+{
+ "page": "0409",
+ "strips_done": 6,
+ "corrections": 38,
+ "misprints": [
+  {
+   "strip": "0409_02",
+   "printed": "θυροποπεῖν",
+   "probably_meant": "θυροκοπεῖν",
+   "note": "Printed with π in place of κ."
+  },
+  {
+   "strip": "0409_04",
+   "printed": "veta hd klockan är slagen",
+   "probably_meant": "veta hvad klockan är slagen",
+   "note": "The print has the abbreviation 'hd'. Kept as printed."
+  },
+  {
+   "strip": "0409_00",
+   "printed": "(ἐφ)αρμόζειν",
+   "probably_meant": "(ἐφ)αρμόζειν / ἁρμόζειν",
+   "note": "The bracketed prefix leaves no breathing on α. Kept as printed."
+  },
+  {
+   "strip": "0409_05",
+   "printed": "ἀψιμαχεῖν",
+   "probably_meant": "ἁψιμαχεῖν",
+   "note": "The breathing mark looks smooth in the scan, with no acute visible."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0409_00",
+   "text": "προσπιύσσεσθαι",
+   "note": "The scan shows πι with a dot over ι, probably a broken τ, so the word is meant as προσπτύσσεσθαι. I transcribed the glyph as it stands (ι)."
+  },
+  {
+   "strip": "0409_03",
+   "text": "ὀφθαλμούς",
+   "note": "The φ is damaged and the OCR read it as γ. I wrote ὀφθαλμούς."
+  },
+  {
+   "strip": "0409_03",
+   "text": "läger. mynt",
+   "note": "The mark after 'läger' looks like a full stop but could be a comma with a broken tail."
+  },
+  {
+   "strip": "0409_02",
+   "text": "ἧλον",
+   "note": "The mark on η is a circumflex with a breathing that is hard to read. I wrote it as rough."
+  },
+  {
+   "strip": "0409_05",
+   "text": "ἀψιμαχεῖν",
+   "note": "The breathing on α is unclear (smooth or rough), and it may also carry an acute."
+  }
+ ]
+}

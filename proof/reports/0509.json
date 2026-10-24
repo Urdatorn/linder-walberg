@@ -1,0 +1,58 @@
+{
+ "page": "0509",
+ "strips_done": 6,
+ "corrections": 30,
+ "misprints": [
+  {
+   "strip": "0509_00",
+   "printed": "ἐκ περιτροπης.",
+   "probably_meant": "ἐκ περιτροπῆς.",
+   "note": "No circumflex printed on the final syllable, although the διαδοχῆς just before has one."
+  },
+  {
+   "strip": "0509_01",
+   "printed": "v. stadeu var en pyramid",
+   "probably_meant": "v. staden var en pyramid",
+   "note": "The n is printed as a turned letter (u)."
+  },
+  {
+   "strip": "0509_01",
+   "printed": "\"fatta\", \"gripa\", taga\"",
+   "probably_meant": "\"fatta\", \"gripa\", \"taga\"",
+   "note": "The opening quotation mark before taga is missing in the print."
+  },
+  {
+   "strip": "0509_03",
+   "printed": "πλατύς, εῖα, ύ.",
+   "probably_meant": "πλατύς, εῖα, ύ (fem. πλατεῖα)",
+   "note": "Printed as shown, with the circumflex on the iota."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0509_03",
+   "text": "πλατύς, εῖα, ύ.",
+   "note": "The mark on the final ύ could be an acute or a breathing. I read it as an acute."
+  },
+  {
+   "strip": "0509_04",
+   "text": "μῆκος, τό.",
+   "note": "The vowel looks like υ (τύ), probably a broken ο. I kept τό."
+  },
+  {
+   "strip": "0509_05",
+   "text": "ἰτείνη ῥάβδος",
+   "note": "The mark on the second ι looks like a smooth breathing or an acute (possibly ἰτεΐνη). I kept ἰτείνη."
+  },
+  {
+   "strip": "0509_00",
+   "text": "ἐπαλλάξ.",
+   "note": "The point after ἐπαλλάξ is raised to mid-height (·), possibly a full stop knocked out of place. I kept '.'."
+  },
+  {
+   "strip": "0509_03",
+   "text": "l. ἐν ἑαυτοῦ",
+   "note": "The ν of ἐν is damaged and looks like ύ. I read it as ἐν."
+  }
+ ]
+}

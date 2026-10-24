@@ -1,0 +1,36 @@
+{
+ "page": "0451",
+ "strips_done": 6,
+ "corrections": 38,
+ "misprints": [
+  {
+   "strip": "0451_03",
+   "printed": "προσήκων, ουσα, ον.",
+   "probably_meant": "προσήκων, οῦσα, ον.",
+   "note": "The ending is printed without breathing or accent."
+  },
+  {
+   "strip": "0451_05",
+   "printed": "ἐπι-, προσδικάζειν",
+   "probably_meant": "ἐπι-, προςδικάζειν / προσδικάζειν (form is unusual, but it is printed this way)",
+   "note": "Kept as printed. The hint's suggestion προδικάζειν is not what the scan shows."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0451_03",
+   "text": "2) intr. (bära till)",
+   "note": "The type for the closing parenthesis is broken and looks like '2;'. I read it as '2)'."
+  },
+  {
+   "strip": "0451_03",
+   "text": "ὅν l. οἷον δεῖ, χρή, προσήκει",
+   "note": "The breathing on οἷον could be smooth (οἶον). After χρή there is a raised dot, not a clear comma. I kept the comma, reading it as a broken one."
+  },
+  {
+   "strip": "0451_04",
+   "text": "διαπονεῖσθαι (gm möda): söka",
+   "note": "There appears to be a space before the colon, '(gm möda) :'. I kept it without the space."
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "page": "0514",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0514_00",
+   "printed": "δεικνύναι σημαίνειν.:",
+   "probably_meant": "δεικνύναι. σημαίνειν.:",
+   "note": "No full stop between the two verbs in the print"
+  },
+  {
+   "strip": "0514_00",
+   "printed": "προστρέπειν",
+   "probably_meant": "προτρέπειν",
+   "note": "Kept as printed; the form is unattested"
+  },
+  {
+   "strip": "0514_02",
+   "printed": "ἐναργής. 2.",
+   "probably_meant": "ἐναργής, 2.",
+   "note": "A full stop instead of a comma before the termination number"
+  },
+  {
+   "strip": "0514_04",
+   "printed": "m. part.. t. ex.",
+   "probably_meant": "m. part. t. ex.",
+   "note": "Doubled full stop after part."
+  },
+  {
+   "strip": "0514_05",
+   "printed": "ändra v,,",
+   "probably_meant": "ändra v.,",
+   "note": "Two commas after the abbreviation v."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0514_00",
+   "text": "ἐλίττειν",
+   "note": "The breathing on the first word of the Vira entry may be smooth or rough. Kept smooth to match the OCR; the correct form is ἑλίττειν."
+  },
+  {
+   "strip": "0514_00",
+   "text": "τὴν ἕκτην",
+   "note": "The breathing+accent mark on the first ε is small. Read as rough+acute (ἕ)."
+  },
+  {
+   "strip": "0514_02",
+   "text": "(δι)ἐξετάζειν",
+   "note": "The breathing mark sits over the ξ rather than the ε. Transcribed as ἐ."
+  },
+  {
+   "strip": "0514_02",
+   "text": "ὡρισμένος",
+   "note": "The breathing on ω is hard to make out. Kept rough."
+  },
+  {
+   "strip": "0514_03",
+   "text": "ἢ μή με Ἀλέξανδρον",
+   "note": "The mark on η is shaped differently from the clear ἦ in 'ἦ, ἦ που, ἦ μήν' below it. Read as ἢ (smooth+grave); it could be ἦ."
+  },
+  {
+   "strip": "0514_04",
+   "text": "m. part..",
+   "note": "The second mark after part. could be a comma."
+  }
+ ]
+}

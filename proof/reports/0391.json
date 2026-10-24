@@ -1,0 +1,76 @@
+{
+ "page": "0391",
+ "strips_done": 6,
+ "corrections": 62,
+ "misprints": [
+  {
+   "strip": "0391_00",
+   "printed": "gen. ποδος",
+   "probably_meant": "gen. ποδός",
+   "note": "No accent is printed on ποδος."
+  },
+  {
+   "strip": "0391_01",
+   "printed": "σωτηρία ἡ τῆς φυχῆς",
+   "probably_meant": "ψυχῆς",
+   "note": "The print clearly has φ, not ψ."
+  },
+  {
+   "strip": "0391_02",
+   "printed": "ὑμοφυής (2) τινι",
+   "probably_meant": "ὁμοφυής",
+   "note": "Printed with upsilon and rough breathing."
+  },
+  {
+   "strip": "0391_02",
+   "printed": "δύναμεις αἱ τῆς ψυχῆς",
+   "probably_meant": "δυνάμεις",
+   "note": "The accent is printed on the first syllable."
+  },
+  {
+   "strip": "0391_02",
+   "printed": "ἀρετή ψυχῆς, ἡ. φύσις",
+   "probably_meant": "ἀρετὴ ψυχῆς",
+   "note": "Acute instead of grave before the next word (Själsförmögenhet)."
+  },
+  {
+   "strip": "0391_05",
+   "printed": "ὁ εἰς τὰ ναυτινὰ",
+   "probably_meant": "ναυτικὰ",
+   "note": "Printed ν for κ."
+  },
+  {
+   "strip": "0391_00",
+   "printed": "ψυχή, ἡ (i allmht, (anima, lifskraft).",
+   "probably_meant": "(i allmht, anima, lifskraft)",
+   "note": "The extra opening parenthesis is in the print."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0391_03",
+   "text": "θαλαττοκρατεῖν.: herre på s:n",
+   "note": "The print shows a period followed by a single raised dot at the line end, probably a broken '.:'."
+  },
+  {
+   "strip": "0391_04",
+   "text": "idka s, ἐμπορεύεσθαι",
+   "note": "The print shows 's ,' with no visible abbreviation period. Kept without one."
+  },
+  {
+   "strip": "0391_03",
+   "text": "κῦμα, τό (störtsjö)",
+   "note": "The small mark after κῦμα could be a period or a comma. Read as a comma."
+  },
+  {
+   "strip": "0391_00",
+   "text": "ὅλῃ τῇ ψυχῇ,:",
+   "note": "The iota subscripts under τῇ and ψυχῇ are visible; the one under ὅλῃ is faint."
+  },
+  {
+   "strip": "0391_00",
+   "text": "ὁ. ἑπτακαίδεκα ἐτῶν",
+   "note": "The point after ὁ sits slightly raised. Read as a period, not a ano teleia."
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "page": "0425",
+ "strips_done": 6,
+ "corrections": 53,
+ "misprints": [
+  {
+   "strip": "0425_02",
+   "printed": "ἀστολόγος",
+   "probably_meant": "ἀστρολόγος",
+   "note": "Printed ἀστο-|λόγος across a line break under Stjerntydare; the ρ is missing."
+  },
+  {
+   "strip": "0425_02",
+   "printed": "ἀστήρ, έρος",
+   "probably_meant": "ἀστήρ, έρος (genitive ending, kept as printed)",
+   "note": "The genitive ending is printed with an acute and no breathing, as is usual for endings. I kept it; it is not a real error."
+  },
+  {
+   "strip": "0425_03",
+   "printed": "κλοπεία",
+   "probably_meant": "κλοπεία (no iota subscript)",
+   "note": "Printed without iota subscript. This is the nominative form, so it is not an error."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0425_03",
+   "text": "(ὑπο)κλέπτειν",
+   "note": "A small mark over the υ in (ὑπο) could be a breathing alone or a breathing with an accent. I kept ὑπο."
+  },
+  {
+   "strip": "0425_01",
+   "text": "Stinnt, se s. på ngn",
+   "note": "The spaced headword clearly shows a double n (Stinnt), probably for 'Stint'. I transcribed it as printed."
+  }
+ ]
+}

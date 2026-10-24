@@ -1,0 +1,66 @@
+{
+ "page": "0412",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0412_00",
+   "printed": "vinniugslystnad",
+   "probably_meant": "vinningslystnad",
+   "note": "turned n (u) in print"
+  },
+  {
+   "strip": "0412_01",
+   "printed": "σχολῆ",
+   "probably_meant": "σχολῇ",
+   "note": "no iota subscript visible in print"
+  },
+  {
+   "strip": "0412_02",
+   "printed": "ἐπονειδιστος",
+   "probably_meant": "ἐπονείδιστος",
+   "note": "printed without accent"
+  },
+  {
+   "strip": "0412_03",
+   "printed": "ἀδίς, ῖνος",
+   "probably_meant": "ὠδίς, ῖνος",
+   "note": "alpha printed for omega"
+  },
+  {
+   "strip": "0412_03",
+   "printed": "τῆ ὕβρει",
+   "probably_meant": "τῇ ὕβρει",
+   "note": "no iota subscript visible"
+  },
+  {
+   "strip": "0412_03",
+   "printed": "s. m. konvulsioner),",
+   "probably_meant": "(s. m. konvulsioner),",
+   "note": "closing parenthesis without opening one, kept as printed"
+  },
+  {
+   "strip": "0412_04",
+   "printed": "πωδώκης",
+   "probably_meant": "ποδώκης",
+   "note": "omega for omicron in first syllable"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0412_03",
+   "text": "ὀδύνη, ἡ (mest kroppslig.).",
+   "note": "punctuation after the parenthesis looks like '.', with a faint speck that could make it ':'"
+  },
+  {
+   "strip": "0412_04",
+   "text": "πωδώκης",
+   "note": "faint marks over πω- probably dust; read as omega"
+  },
+  {
+   "strip": "0412_00",
+   "text": "heldst gm vv.",
+   "note": "printed in italics like 'υυ.'; taken as Swedish abbreviation vv."
+  }
+ ]
+}

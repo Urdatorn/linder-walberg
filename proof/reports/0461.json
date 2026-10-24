@@ -1,0 +1,72 @@
+{
+ "page": "0461",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0461_01",
+   "printed": "πένης, τος, ὁ",
+   "probably_meant": "πένης, ητος, ὁ",
+   "note": "genitive ending printed as 'τος'"
+  },
+  {
+   "strip": "0461_03",
+   "printed": "κερχνῄς, ῇδος",
+   "probably_meant": "κερχνηΐς, ηΐδος",
+   "note": "iota subscript printed where ηΐ is meant"
+  },
+  {
+   "strip": "0461_03",
+   "printed": "Torp, γήδιον, τύ.",
+   "probably_meant": "τό",
+   "note": "article printed as τύ"
+  },
+  {
+   "strip": "0461_04",
+   "printed": "θής, τός",
+   "probably_meant": "θής, θητός",
+   "note": "genitive given as bare ending; may be intentional"
+  },
+  {
+   "strip": "0461_04",
+   "printed": "säkerbet",
+   "probably_meant": "säkerhet",
+   "note": "Swedish misprint b for h"
+  },
+  {
+   "strip": "0461_04",
+   "printed": "φυχρολογία",
+   "probably_meant": "ψυχρολογία",
+   "note": "φ printed for ψ"
+  },
+  {
+   "strip": "0461_04",
+   "printed": "ψυχρότυς",
+   "probably_meant": "ψυχρότης",
+   "note": "υ for η"
+  },
+  {
+   "strip": "0461_05",
+   "printed": "στέβλη",
+   "probably_meant": "στρέβλη",
+   "note": "ρ missing"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0461_03",
+   "text": "κερχνῄς, ῇδος",
+   "note": "the dots under the η look like iota subscripts; no breathing visible on ῇ"
+  },
+  {
+   "strip": "0461_01",
+   "text": "armod).",
+   "note": "the closing parenthesis is broken in the print"
+  },
+  {
+   "strip": "0461_04",
+   "text": "υῖα, ός",
+   "note": "no breathing visible on υ"
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "page": "0416",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0416_02",
+   "printed": "σετοδεία",
+   "probably_meant": "σιτοδεία",
+   "note": "Printed with ε in the first syllable under Spannmålsbrist."
+  },
+  {
+   "strip": "0416_05",
+   "printed": "περί",
+   "probably_meant": "περὶ",
+   "note": "Printed with an acute at the end of the strip, where the entry continues into the next column."
+  },
+  {
+   "strip": "0416_04",
+   "printed": "εἴς- ... εἰς-",
+   "probably_meant": "εἰς- (consistent)",
+   "note": "Under Spegel the first εἴς- seems to have an acute and the second only a breathing. Both copied as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0416_03",
+   "text": "ἀκρίβεια",
+   "note": "Broken type after β; it looks like βια/βεια. Transcribed as ἀκρίβεια."
+  },
+  {
+   "strip": "0416_04",
+   "text": "af ngn, se under Gäck",
+   "note": "The mark after ngn looks like a detached dot; it could be a comma with a broken tail or a full stop."
+  },
+  {
+   "strip": "0416_05",
+   "text": "oekonomisk. χρημάτισις",
+   "note": "Same dot-like mark as after ngn on 0416_04; it could be a broken comma."
+  },
+  {
+   "strip": "0416_00",
+   "text": "ύ.",
+   "note": "The ending after βαρύς, εῖα seems to have an acute only and no breathing."
+  }
+ ]
+}

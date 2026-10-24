@@ -1,0 +1,49 @@
+{
+ "page": "0492",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0492_01",
+   "printed": "ἐξελυθέναι",
+   "probably_meant": "ἐξεληλυθέναι",
+   "note": "In Ute b), 'παρ-, ἐξελυθέναι'; reduplication dropped in print"
+  },
+  {
+   "strip": "0492_01",
+   "printed": "ὑστεριῖν",
+   "probably_meant": "ὑστερεῖν",
+   "note": "In Uteblifva, clearly printed with ι before ῖν"
+  },
+  {
+   "strip": "0492_02",
+   "printed": "Utelemuing",
+   "probably_meant": "Utelemning",
+   "note": "Headword printed with turned n (u)"
+  },
+  {
+   "strip": "0492_02",
+   "printed": "Utlöpande",
+   "probably_meant": "Utelöpande",
+   "note": "Out of alphabetical order between Utelemning and Utesluta; print clearly reads Utlöpande"
+  },
+  {
+   "strip": "0492_04",
+   "printed": "ἰσχάταις",
+   "probably_meant": "ἐσχάταις",
+   "note": "Utfattig: 'ἐν ταῖς ἰσχάταις ἀπορίαις εἶναι'"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0492_01",
+   "text": "bli öde",
+   "note": "Broken or faint type in 'öde' in Utdö; the reading is obvious from context"
+  },
+  {
+   "strip": "0492_05",
+   "text": "δια-, ἐκπυνθάνεσθαι",
+   "note": "Utforska: the mark after δια- looks a little like a semicolon; read as a comma"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "page": "0375",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0375_02",
+   "printed": "Salivera, πλυαλίζειν.",
+   "probably_meant": "πτυαλίζειν",
+   "note": "λ clearly printed for τ"
+  },
+  {
+   "strip": "0375_01",
+   "printed": "μακαρίζειν τινά (N. T).",
+   "probably_meant": "(N. T.).",
+   "note": "period after T missing in print"
+  },
+  {
+   "strip": "0375_05",
+   "printed": "τό πολιτικόν (τῆς γνώμης)",
+   "probably_meant": "τὸ πολιτικόν",
+   "note": "acute instead of grave on article before a word"
+  },
+  {
+   "strip": "0375_05",
+   "printed": "σύστασις, ἠ.",
+   "probably_meant": "ἡ",
+   "note": "breathing on article looks smooth in the print; kept as seen"
+  },
+  {
+   "strip": "0375_04",
+   "printed": "στήλη ἁλός. ἡ (Bibl.)",
+   "probably_meant": "ἁλός, ἡ",
+   "note": "period instead of comma before gender article"
+  },
+  {
+   "strip": "0375_01",
+   "printed": "μακαρίτης. ου, ὁ.",
+   "probably_meant": "μακαρίτης, ου, ὁ.",
+   "note": "period-like mark instead of comma"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0375_05",
+   "text": "σύστασις, ἠ.",
+   "note": "breathing could be a damaged rough breathing; read as smooth"
+  },
+  {
+   "strip": "0375_01",
+   "text": "μακαρίτης. ου",
+   "note": "mark could be a broken comma"
+  },
+  {
+   "strip": "0375_04",
+   "text": "ἁλός. ἡ",
+   "note": "mark could be a broken comma"
+  },
+  {
+   "strip": "0375_01",
+   "text": "(endivie)",
+   "note": "print shows 'end:vie' with broken i; written endivie"
+  },
+  {
+   "strip": "0375_04",
+   "text": "ἐργασία",
+   "note": "breathing faint; read as smooth"
+  },
+  {
+   "strip": "0375_03",
+   "text": "(hafvet)",
+   "note": "split 'haf / vet' across lines with no hyphen visible; joined"
+  }
+ ]
+}

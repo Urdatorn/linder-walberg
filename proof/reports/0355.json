@@ -1,0 +1,37 @@
+{
+ "page": "0355",
+ "strips_done": 6,
+ "corrections": 0,
+ "misprints": [
+  {
+   "strip": "0355_01",
+   "printed": "ngu",
+   "probably_meant": "ngn",
+   "note": "taga r. på ngu, σωφρονίζειν: the n is printed as u"
+  },
+  {
+   "strip": "0355_01",
+   "printed": "εἰδἕναι",
+   "probably_meant": "εἰδέναι",
+   "note": "The ε has a breathing-like curl as well as the acute"
+  },
+  {
+   "strip": "0355_03",
+   "printed": "απλοῦς",
+   "probably_meant": "ἁπλοῦς",
+   "note": "Printed with no breathing (Redlig entry)"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0355_01",
+   "text": "εἰδἕναι",
+   "note": "The mark over the second ε is a small curl plus an acute and is hard to read; I kept ἕ (rough breathing plus acute), though it may be ἔ or a broken acute."
+  },
+  {
+   "strip": "0355_00",
+   "text": "σα. ὄν.",
+   "note": "The mark after οὖσα could be a comma or a full stop; I kept the full stop."
+  }
+ ]
+}

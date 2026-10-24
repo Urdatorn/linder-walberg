@@ -1,0 +1,61 @@
+{
+ "page": "0370",
+ "strips_done": 6,
+ "corrections": 37,
+ "misprints": [
+  {
+   "strip": "0370_00",
+   "printed": "rättsklänslan",
+   "probably_meant": "rättskänslan",
+   "note": "stray l in the Swedish word"
+  },
+  {
+   "strip": "0370_00",
+   "printed": "μετά δίκης",
+   "probably_meant": "μετὰ δίκης",
+   "note": "acute where a grave is expected before the next word"
+  },
+  {
+   "strip": "0370_01",
+   "printed": "ἄγειν τενὰ πρὸς",
+   "probably_meant": "ἄγειν τινὰ πρὸς",
+   "note": "ε for ι"
+  },
+  {
+   "strip": "0370_03",
+   "printed": "Råttegångsbiträde",
+   "probably_meant": "Rättegångsbiträde",
+   "note": "headword printed with å for ä"
+  },
+  {
+   "strip": "0370_04",
+   "printed": "Råttfärdigande",
+   "probably_meant": "Rättfärdigande",
+   "note": "headword printed with å for ä"
+  },
+  {
+   "strip": "0370_04",
+   "printed": "ώς ἀληθῶς",
+   "probably_meant": "ὡς ἀληθῶς",
+   "note": "no rough breathing, only an acute, is visible on ω"
+  },
+  {
+   "strip": "0370_04",
+   "printed": "γνώμων, ονος, ὁ.",
+   "probably_meant": "γνώμων, ονος, ὁ.",
+   "note": "genitive ending printed without an accent (unlike 'κανών, όνος' just before it); kept as printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0370_00",
+   "text": "mot all r., παρὰ πάντα",
+   "note": "the punctuation after 'r.' sits at the cut-off right edge; only a low dot or comma tail shows. Read as a comma, could be '.:'"
+  },
+  {
+   "strip": "0370_05",
+   "text": "gm vv.",
+   "note": "italic 'vv.' looks like Greek υυ; read as the abbreviation vv. (verben)"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "page": "0404",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0404_04",
+   "printed": "ἀπατεών. ῶνος",
+   "probably_meant": "ἀπατεών, ῶνος",
+   "note": "full stop instead of comma before the genitive ending"
+  },
+  {
+   "strip": "0404_04",
+   "printed": "παιδιά. ἡ,",
+   "probably_meant": "παιδιά, ἡ.",
+   "note": "punctuation swapped in Skämt"
+  },
+  {
+   "strip": "0404_04",
+   "printed": "σκώματα",
+   "probably_meant": "σκώμματα",
+   "note": "single μ in ἀνεπαχθῆ σκώματα"
+  },
+  {
+   "strip": "0404_05",
+   "printed": "παγνιώδης",
+   "probably_meant": "παιγνιώδης",
+   "note": "second occurrence in Skämtfull lacks ι (the first is printed correctly as παιγνιώδης)"
+  },
+  {
+   "strip": "0404_04",
+   "printed": "γελοῖος, ὁ (i god men.)",
+   "probably_meant": "γελοῖος, 3 (i god men.)",
+   "note": "article where a termination number is expected for an adjective"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0404_00",
+   "text": "mästerlig s., τοξικώτατος",
+   "note": "the print shows 's..'; read as a comma with a broken tail"
+  },
+  {
+   "strip": "0404_03",
+   "text": "(ἐξ)αρκεῖν",
+   "note": "printed with no breathing on αρκεῖν after the bracketed prefix; kept as printed"
+  }
+ ]
+}

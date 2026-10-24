@@ -1,0 +1,77 @@
+{
+ "page": "0475",
+ "strips_done": 7,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0475_02",
+   "printed": "πύκος",
+   "probably_meant": "πόκος",
+   "note": "Ull: printed with υ; πόκος appears correctly under Ulltapp"
+  },
+  {
+   "strip": "0475_02",
+   "printed": "ἐριοφίρος",
+   "probably_meant": "ἐριοφόρος",
+   "note": "Ull: s. bär u.; spelled correctly under Ullig"
+  },
+  {
+   "strip": "0475_02",
+   "printed": "κνάφαλον",
+   "probably_meant": "κνάφαλλον",
+   "note": "single λ in print"
+  },
+  {
+   "strip": "0475_02",
+   "printed": "ἔμμαλος",
+   "probably_meant": "ἔμμαλλος",
+   "note": "single λ in print, next to δασύμαλλος"
+  },
+  {
+   "strip": "0475_01",
+   "printed": "θέρμαυστρα",
+   "probably_meant": "θέρμανστρα",
+   "note": "printed with υ rather than ν"
+  },
+  {
+   "strip": "0475_05",
+   "printed": "fint u, ἀστεῖος",
+   "probably_meant": "fint u., ἀστεῖος",
+   "note": "abbreviation point missing in print (gap before the comma)"
+  },
+  {
+   "strip": "0475_05",
+   "printed": "se Nedanf: vara u.",
+   "probably_meant": "se Nedanf.: vara u.",
+   "note": "abbreviation point missing in print"
+  },
+  {
+   "strip": "0475_03",
+   "printed": "οὐδὲν δεῖ μοι l. δέομαί τινος",
+   "probably_meant": "οὐδὲν δεῖ μοι l. δέομαί τινος (οὐδὲν understood)",
+   "note": "kept as printed; the phrase may be elliptical"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0475_01",
+   "text": "κέντρον, τό",
+   "note": "the mark after κέντρον is a weak dot; written as a comma (a comma with a faint tail, as elsewhere on the page)"
+  },
+  {
+   "strip": "0475_03",
+   "text": "s. kan u., καρτερικός",
+   "note": "the print shows 'u..'; taken as a broken comma"
+  },
+  {
+   "strip": "0475_05",
+   "text": "(åt sidan), se Nedanf",
+   "note": "the comma after 'sidan)' and after 'vara u.' looks like a dot in the scan; taken as a comma"
+  },
+  {
+   "strip": "0475_04",
+   "text": "χαλεπός, 3.",
+   "note": "weak mark after χαλεπός; read as a comma"
+  }
+ ]
+}

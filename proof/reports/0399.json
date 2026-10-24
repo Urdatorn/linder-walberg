@@ -1,0 +1,58 @@
+{
+ "page": "0399",
+ "strips_done": 6,
+ "corrections": 75,
+ "misprints": [
+  {
+   "strip": "0399_00",
+   "printed": "αντος",
+   "probably_meant": "αὐτὸς",
+   "note": "Printed without breathing or accent, and with what looks like ν rather than υ."
+  },
+  {
+   "strip": "0399_02",
+   "printed": "τα γράμματα διδάσκων",
+   "probably_meant": "τὰ γράμματα διδάσκων",
+   "note": "The article is printed without its accent."
+  },
+  {
+   "strip": "0399_05",
+   "printed": "Skorrsten",
+   "probably_meant": "Skorsten",
+   "note": "The headword has a doubled r; the next headword is printed Skorstensfejare."
+  },
+  {
+   "strip": "0399_02",
+   "printed": "ὁμῆλιξ, ικος, ὁ ἡλικιώτης",
+   "probably_meant": "ὁμῆλιξ, ικος, ὁ. ἡλικιώτης",
+   "note": "No full stop is visible after ὁ, though one would be expected."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0399_00",
+   "text": "φενακισμός, ὁ",
+   "note": "The punctuation at the end of the line is cut off at the image edge. I read it as a comma, but it could be a full stop."
+  },
+  {
+   "strip": "0399_00",
+   "text": "s. omkring, (ἄστατον)",
+   "note": "The punctuation at the end of the line is cut off at the image edge. I read it as a comma."
+  },
+  {
+   "strip": "0399_01",
+   "text": "λεπίς, ἰδος, ἡ",
+   "note": "The mark over the ι is faint. I read it as a smooth breathing; it could be rough, or no mark at all."
+  },
+  {
+   "strip": "0399_01",
+   "text": "se Lof 2) b. (om ἐλινύες, αἱ",
+   "note": "There is a stray mark after b. The breathing on ἐλινύες looks smooth, and the one on αἱ is unclear."
+  },
+  {
+   "strip": "0399_04",
+   "text": "ἡνία, ἡ",
+   "note": "The breathing on ἡνία is faint. I took it as rough."
+  }
+ ]
+}

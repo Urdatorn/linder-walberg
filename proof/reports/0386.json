@@ -1,0 +1,51 @@
+{
+ "page": "0386",
+ "strips_done": 7,
+ "corrections": 65,
+ "misprints": [
+  {
+   "strip": "0386_06",
+   "printed": "κη, η",
+   "probably_meant": "κη, ἡ.",
+   "note": "End of ἀργυριοθήκη: the article is printed with no breathing or accent and no full stop."
+  },
+  {
+   "strip": "0386_03",
+   "printed": "ἐκλείπει τι τὴν ὄψιν",
+   "probably_meant": "ἐκλείπειν τι τὴν ὄψιν (?)",
+   "note": "A finite verb among infinitives (μηκέτι δύνασθαι, ἀποκρύπτειν). It may be intended, so it is kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0386_05",
+   "text": "ἀργυρομιγής",
+   "note": "The mark over the initial alpha looks like a straight grave stroke rather than a smooth breathing. I wrote ἀ, taking it for a worn breathing."
+  },
+  {
+   "strip": "0386_06",
+   "text": "Silfverplåt, ἀργύρου",
+   "note": "Same grave-like mark over the initial alpha. I wrote ἀ."
+  },
+  {
+   "strip": "0386_06",
+   "text": "οἷος",
+   "note": "The diacritic over the iota is blurred. Written as rough breathing with circumflex."
+  },
+  {
+   "strip": "0386_01",
+   "text": "ῇ, ῷ)",
+   "note": "The first line continues Sig from page 0385. Both letters show a circumflex and an iota subscript but no visible breathing, so no breathing was written."
+  },
+  {
+   "strip": "0386_01",
+   "text": "vända s., τραπέσθαι",
+   "note": "The n of the first vända is broken in the print and looks like 'väoda'. Read as vända."
+  },
+  {
+   "strip": "0386_06",
+   "text": "ἀργυρίς, ίδος",
+   "note": "The mark on the iota of ίδος looks like an acute, not a breathing. Copied as printed."
+  }
+ ]
+}

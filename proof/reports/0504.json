@@ -1,0 +1,98 @@
+{
+ "page": "0504",
+ "strips_done": 6,
+ "corrections": 70,
+ "misprints": [
+  {
+   "strip": "0504_00",
+   "printed": "itver",
+   "probably_meant": "ifver",
+   "note": "The print shows t, maybe a worn f."
+  },
+  {
+   "strip": "0504_00",
+   "printed": "Litlig",
+   "probably_meant": "Liflig",
+   "note": "Cross-reference headword. The print shows t, maybe a worn f."
+  },
+  {
+   "strip": "0504_01",
+   "printed": "ραινετηρ, ο.",
+   "probably_meant": "παραινετήρ, ὁ.",
+   "note": "No accent or breathing printed."
+  },
+  {
+   "strip": "0504_01",
+   "printed": "κατάνοησις",
+   "probably_meant": "κατανόησις",
+   "note": "The accent is on the wrong syllable in the print."
+  },
+  {
+   "strip": "0504_02",
+   "printed": "ἐξορρίζειν",
+   "probably_meant": "ἐξορρίζειν (correct as printed, or ἐξορίζειν)",
+   "note": "Kept as printed."
+  },
+  {
+   "strip": "0504_02",
+   "printed": "δέσμη, ἡ φάκελλος",
+   "probably_meant": "δέσμη, ἡ. φάκελλος",
+   "note": "No full stop printed after ἡ."
+  },
+  {
+   "strip": "0504_04",
+   "printed": "Ofversvämning",
+   "probably_meant": "Öfversvämning",
+   "note": "The capital O has no diaeresis in the spaced cross-reference."
+  },
+  {
+   "strip": "0504_04",
+   "printed": "ὑδροδόκον",
+   "probably_meant": "ὑδροδόχον",
+   "note": "Printed with κ, with no χ descender. The same goes for ὑδροδόκος and ὑδροδόκον in 0504_05."
+  },
+  {
+   "strip": "0504_05",
+   "printed": "ἡ κατάχυτλον",
+   "probably_meant": "ἡ. κατάχυτλον",
+   "note": "No full stop after ἡ. The same in 'ὑδρία, ἡ ὑδροδόκον' and 'ὀχετός, ὁ ὀχέτευμα'."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0504_00",
+   "text": "(ὑπ)ακούειν",
+   "note": "The closing parenthesis is broken and looks like a comma mark."
+  },
+  {
+   "strip": "0504_00",
+   "text": "πυόρρους. 2.",
+   "note": "The mark before 2 looks like a full stop, not a comma."
+  },
+  {
+   "strip": "0504_01",
+   "text": "προφορεῖσθαι",
+   "note": "The φ is damaged."
+  },
+  {
+   "strip": "0504_02",
+   "text": "(δι)ορροῦσθαι",
+   "note": "The closing parenthesis is broken."
+  },
+  {
+   "strip": "0504_02",
+   "text": "ὀρρώδης",
+   "note": "The initial ὀ and its breathing are damaged."
+  },
+  {
+   "strip": "0504_03",
+   "text": "μείζοσιν ἢ καθ’ αὐτόν l. ἢ ὥστε",
+   "note": "The accent and breathing on ἢ are unclear and could be ἣ or ἦ. The breathing on αὐτόν looks smooth."
+  },
+  {
+   "strip": "0504_05",
+   "text": "κατάχυτλον",
+   "note": "The τ is partly broken."
+  }
+ ]
+}

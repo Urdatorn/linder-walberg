@@ -1,0 +1,41 @@
+{
+ "page": "0500",
+ "strips_done": 7,
+ "corrections": 30,
+ "misprints": [
+  {
+   "strip": "0500_04",
+   "printed": "δεῦρο κακεῖσε",
+   "probably_meant": "δεῦρο κἀκεῖσε",
+   "note": "No coronis visible on the crasis form."
+  },
+  {
+   "strip": "0500_01",
+   "printed": "(ἐξ)αφανίζειν",
+   "probably_meant": "(ἐξ)αφανίζειν / ἀφανίζειν",
+   "note": "Printed without breathing after the bracketed prefix. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0500_06",
+   "text": "ἁμαξίς, ίδος, ἡ",
+   "note": "The accent on the genitive ending looks like a plain acute; it could be ἴδος."
+  },
+  {
+   "strip": "0500_01",
+   "text": "ὑπέρ m. acc.",
+   "note": "The accent on ὑπέρ looks acute rather than grave; the OCR had a grave."
+  },
+  {
+   "strip": "0500_00",
+   "text": "(δι)έξοδος",
+   "note": "The mark over ε looks like an acute alone. Kept as is rather than ἔξοδος."
+  },
+  {
+   "strip": "0500_05",
+   "text": "Vadmal",
+   "note": "No ring is visible over the a; the OCR had Vadmål."
+  }
+ ]
+}

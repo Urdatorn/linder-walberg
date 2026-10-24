@@ -1,0 +1,86 @@
+{
+ "page": "0501",
+ "strips_done": 6,
+ "corrections": 190,
+ "misprints": [
+  {
+   "strip": "0501_04",
+   "printed": "halla v.",
+   "probably_meant": "hålla v.",
+   "note": "Ring missing over a in the print (Valförsamling)."
+  },
+  {
+   "strip": "0501_04",
+   "printed": "μωλωψ",
+   "probably_meant": "μώλωψ",
+   "note": "No accent printed."
+  },
+  {
+   "strip": "0501_04",
+   "printed": "χιτων ἐπίγναφος",
+   "probably_meant": "χιτὼν ἐπίγναφος",
+   "note": "No accent printed on χιτων."
+  },
+  {
+   "strip": "0501_04",
+   "printed": "σμῶδιξ, γγος",
+   "probably_meant": "σμῶδιξ, ιγγος",
+   "note": "Genitive ending printed as γγος."
+  },
+  {
+   "strip": "0501_04",
+   "printed": "halla",
+   "probably_meant": "hålla",
+   "note": "Same as above; listed once for the Swedish."
+  },
+  {
+   "strip": "0501_02",
+   "printed": "ὦν, οὖσα, ὄν",
+   "probably_meant": "ὤν, οὖσα, ὄν",
+   "note": "The participle seems to be printed with a circumflex (Vakthafvande)."
+  },
+  {
+   "strip": "0501_04",
+   "printed": "ναρκῶν, ῶσα, ῶν",
+   "probably_meant": "ναρκῶν, ῶσα, ῶν",
+   "note": "Ending forms printed with no breathing, which is normal for endings. Kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0501_01",
+   "text": "ἐν φυλακῇ ἔχειν τι",
+   "note": "The ῃ of φυλακῇ is broken in the print (only a circumflex-like stroke shows). Read as φυλακῇ."
+  },
+  {
+   "strip": "0501_01",
+   "text": "l. φυλακὰς καθιστάναι",
+   "note": "No accent is clearly visible on the second φυλακας. Grave assumed."
+  },
+  {
+   "strip": "0501_00",
+   "text": "ἁρμάτειος, ἁρματοτροφεῖν, ἁρμάτειον, ἁρματοτροχιά, ἁμαξοτροχιά, ἁμαξῶν",
+   "note": "The breathings are small and hard to tell apart at this resolution. Rough breathing assumed throughout, as is standard."
+  },
+  {
+   "strip": "0501_03",
+   "text": "ᾑρέθη τις",
+   "note": "The glyph appears to be η with breathing and an iota subscript. Read as ᾑρέθη."
+  },
+  {
+   "strip": "0501_03",
+   "text": "jag har v:et. ἔστι",
+   "note": "The punctuation after v:et could be a period or a comma. Read as a period."
+  },
+  {
+   "strip": "0501_02",
+   "text": "liten v., ὀρτύγιον",
+   "note": "The full stop after v is faint or missing in the print."
+  },
+  {
+   "strip": "0501_02",
+   "text": "ὦν",
+   "note": "Could be a smooth breathing plus acute run together. Read as a circumflex."
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "page": "0449",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0449_02",
+   "printed": "πόλλου χρόνου δεῖσθαι",
+   "probably_meant": "πολλοῦ χρόνου δεῖσθαι",
+   "note": "Accent printed on the first syllable."
+  },
+  {
+   "strip": "0449_04",
+   "printed": "Tiggeri, πρωχεία, ἡ.",
+   "probably_meant": "πτωχεία",
+   "note": "Printed with ρ for τ. Confirmed by zooming in on the scan."
+  },
+  {
+   "strip": "0449_05",
+   "printed": "t. dna tid",
+   "probably_meant": "t. d:na tid (denna)",
+   "note": "No colon is visible in the print."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0449_05",
+   "text": "ὧς τινα",
+   "note": "The mark over ω looks like rough breathing plus circumflex. In 0449_04 the same word is clearly ὥς (rough plus acute)."
+  },
+  {
+   "strip": "0449_05",
+   "text": "μέχρι (οὗ)",
+   "note": "The diacritic is partly broken. It is read as rough breathing plus circumflex, which is the expected form."
+  },
+  {
+   "strip": "0449_05",
+   "text": "ἕως. ἔστε. ... τοσούτου ἕως",
+   "note": "The breathings on the ε's are blurred. Read as ἕως (rough) and ἔστε (smooth)."
+  },
+  {
+   "strip": "0449_00",
+   "text": "ἕωθεν",
+   "note": "The breathing is heavy and hard to tell apart. Read as rough plus acute."
+  }
+ ]
+}

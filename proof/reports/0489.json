@@ -1,0 +1,63 @@
+{
+ "page": "0489",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0489_02",
+   "printed": "(mot hrandra)",
+   "probably_meant": "(mot hvarandra)",
+   "note": "letters dropped in the Swedish word; kept as printed"
+  },
+  {
+   "strip": "0489_05",
+   "printed": "Urbota, mål, ung. ἀγὼν ἀτίμητος, ὁ. b) se Ohjelplig.",
+   "probably_meant": "a) ... b) se Ohjelplig.",
+   "note": "sense b) without a preceding a); kept as printed"
+  },
+  {
+   "strip": "0489_05",
+   "printed": "Urhaka. ἐξαιρεῖν",
+   "probably_meant": "Urhaka, ἐξαιρεῖν",
+   "note": "full stop instead of comma after the headword; kept"
+  },
+  {
+   "strip": "0489_03",
+   "printed": "διαπονεῖν Jfr Öfva.",
+   "probably_meant": "διαπονεῖν. Jfr Öfva.",
+   "note": "no stop after διαπονεῖν; kept"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0489_00",
+   "text": "πέμπειν,: låta u.",
+   "note": "the print looks like comma+colon rather than the usual '.:'; kept as ',:'"
+  },
+  {
+   "strip": "0489_02",
+   "text": "ἰσόρροπον τιθέναι",
+   "note": "the end of the line is clipped at the scan edge; final ν of ἰσόρροπον not fully visible"
+  },
+  {
+   "strip": "0489_02",
+   "text": "ῥινηλατεῖν",
+   "note": "OCR read ῥυνηλατεῖν; print appears to be ιν, matching the real word"
+  },
+  {
+   "strip": "0489_04",
+   "text": "Ur, ὡρολόγιον, ὡροσκόπιον, ὡρονόμιον, τό.",
+   "note": "the marks after ὡρολόγιον and ὡρονόμιον are faint and broken (may be ';' or '.'); written as commas"
+  },
+  {
+   "strip": "0489_05",
+   "text": "διατρυπᾶν",
+   "note": "the accent on the α of -πᾶν is unclear (circumflex or grave)"
+  },
+  {
+   "strip": "0489_05",
+   "text": "-blåsa,",
+   "note": "printed with a long dash attached ('—blåsa'); written as the compound hyphen used in the series that continues on 0490"
+  }
+ ]
+}

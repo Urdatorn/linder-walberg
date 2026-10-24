@@ -1,0 +1,64 @@
+{
+ "page": "0411",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0411_00",
+   "printed": "κρῖνειν",
+   "probably_meant": "κρίνειν",
+   "note": "circumflex printed on ι of κρῖ-νειν"
+  },
+  {
+   "strip": "0411_02",
+   "printed": "χαλκεύς, έως, ἡ.",
+   "probably_meant": "χαλκεύς, έως, ὁ.",
+   "note": "article ἡ for masculine χαλκεύς"
+  },
+  {
+   "strip": "0411_02",
+   "printed": "σιδηρῖτις τέχνη, ἡ χαλκεία, ἡ.",
+   "probably_meant": "σιδηρῖτις τέχνη, ἡ. χαλκεία, ἡ.",
+   "note": "full stop missing after ἡ"
+  },
+  {
+   "strip": "0411_04",
+   "printed": "ψιμυθισμός, 2 (Sedn.)",
+   "probably_meant": "ψιμυθισμός, ὁ (Sedn.)",
+   "note": "termination number 2 for a noun"
+  },
+  {
+   "strip": "0411_05",
+   "printed": "ψιχώδρς",
+   "probably_meant": "ψιχώδης",
+   "note": "ρ for η"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0411_00",
+   "text": "ἀκριβῶς κρῖνειν",
+   "note": "a stray vertical mark follows ἀκριβῶς in the print, probably broken type or dirt; I left it out"
+  },
+  {
+   "strip": "0411_00",
+   "text": "ἥδεσθαί τινι",
+   "note": "the accent on the final ι is cut off at the edge of the scan; ἥδεσθαί is the most likely reading"
+  },
+  {
+   "strip": "0411_00",
+   "text": "ἐμποιεῖν τινί τινος",
+   "note": "the accent on τινί is cut off at the edge of the scan"
+  },
+  {
+   "strip": "0411_00",
+   "text": "heldst gm vv.",
+   "note": "printed in italic, so it looks like υυ; written vv. to match the rest of the book"
+  },
+  {
+   "strip": "0411_03",
+   "text": "s. sig m. förhoppningar, ἐλπίσι",
+   "note": "the punctuation after förhoppningar is small; it could be . or ,"
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "page": "0414",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0414_04",
+   "printed": "στρατιωτων",
+   "probably_meant": "στρατιωτῶν",
+   "note": "No circumflex printed on the final syllable (end of the Soldatgöromål entry, at the top of the strip)."
+  },
+  {
+   "strip": "0414_00",
+   "printed": "σείρα",
+   "probably_meant": "σειρά",
+   "note": "In the Snöre entry, the acute is printed on the iota."
+  },
+  {
+   "strip": "0414_02",
+   "printed": "ὥς",
+   "probably_meant": "ὡς",
+   "note": "In 'κατακλίνεσθαι ὥς καθεύδοντα', the ω seems to carry a rough breathing plus an acute."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0414_02",
+   "text": "ὥς",
+   "note": "The mark over the ω is small. It may be a plain rough breathing (ὡς) rather than rough breathing plus acute."
+  },
+  {
+   "strip": "0414_00",
+   "text": "σπάδων, ωνος",
+   "note": "The genitive ending is printed with no accent, as is usual for endings. The old OCR read ὠνος, but the scan shows no breathing."
+  },
+  {
+   "strip": "0414_00",
+   "text": "ίδος (twice)",
+   "note": "The mark over the iota looks like an acute, not a smooth breathing, in both σειρίς and στηθοδεσμίς."
+  },
+  {
+   "strip": "0414_05",
+   "text": "-ig",
+   "note": "The dot of the i in 'Solk, -a, -ig' is missing (broken type). Read as i."
+  }
+ ]
+}

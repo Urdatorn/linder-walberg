@@ -1,0 +1,42 @@
+{
+ "page": "0358",
+ "strips_done": 6,
+ "corrections": 10,
+ "misprints": [
+  {
+   "strip": "0358_04",
+   "printed": "ἀμοιβας ἀποδιδόναι",
+   "probably_meant": "ἀμοιβὰς ἀποδιδόναι",
+   "note": "accent missing on ἀμοιβας in print"
+  },
+  {
+   "strip": "0358_03",
+   "printed": "εὔστοχος ἀπόκρισις l ὑπόληψις",
+   "probably_meant": "l. ὑπόληψις",
+   "note": "period after l missing in print"
+  },
+  {
+   "strip": "0358_01",
+   "printed": "vanl. gm vv. b) qvinnors",
+   "probably_meant": "a) ... b)",
+   "note": "sense b) printed without a preceding a)"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0358_04",
+   "text": "ἀνταποδιδόναι",
+   "note": "broken type at the ο (looks like ι with a gap); read as ό"
+  },
+  {
+   "strip": "0358_05",
+   "text": "ἀνακαθίζεσθαι: håren",
+   "note": "punctuation after ἀνακαθίζεσθαι may be '.:' rather than ':'; kept ':'"
+  },
+  {
+   "strip": "0358_03",
+   "text": "vanl. i med.",
+   "note": "e in med. is a broken/filled letter"
+  }
+ ]
+}

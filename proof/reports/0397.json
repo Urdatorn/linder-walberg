@@ -1,0 +1,53 @@
+{
+ "page": "0397",
+ "strips_done": 6,
+ "corrections": 32,
+ "misprints": [
+  {
+   "strip": "0397_00",
+   "printed": "s. sig fr. hrandra",
+   "probably_meant": "s. sig fr. hvarandra",
+   "note": "Swedish word misprinted as 'hrandra'"
+  },
+  {
+   "strip": "0397_00",
+   "printed": "χωρίζεσθαί τινος o, ἀπό τινος",
+   "probably_meant": "χωρίζεσθαί τινος o. ἀπό τινος",
+   "note": "comma printed after 'o' where a full stop is expected"
+  },
+  {
+   "strip": "0397_02",
+   "printed": "κρίσιν ποεῖσθαι περί τινος",
+   "probably_meant": "κρίσιν ποιεῖσθαι περί τινος",
+   "note": "ποεῖσθαι without iota (a real variant spelling); acute on περί before an enclitic, kept as printed"
+  },
+  {
+   "strip": "0397_05",
+   "printed": "ἀρνακίς, ἰδος, ἡ κώδιον, τό",
+   "probably_meant": "ἀρνακίς, ἰδος, ἡ. κώδιον, τό",
+   "note": "no full stop after ἡ"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0397_01",
+   "text": "l. ἔν τινι",
+   "note": "The breathing and accent on ἐν are blurred. Read as smooth breathing with acute (ἔν). The τ of τινι is broken and looks like ι."
+  },
+  {
+   "strip": "0397_04",
+   "text": "~ φέρειν τί τινος.",
+   "note": "The accents of this first line fall at the bottom of the previous strip's image: an acute over the ε of φέρειν and one over τι. τινος has no accent, which fits the rule for an enclitic followed by another enclitic."
+  },
+  {
+   "strip": "0397_03",
+   "text": "διάστασις",
+   "note": "The print shows διάσιασις because the τ is broken. Transcribed as διάστασις."
+  },
+  {
+   "strip": "0397_00",
+   "text": "(δι)ορίζειν",
+   "note": "No breathing is visible on ο after the parenthesis, so it is kept without one, as in the print. The same applies to (δι)ορίζειν in 0397_01."
+  }
+ ]
+}

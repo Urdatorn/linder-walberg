@@ -1,0 +1,54 @@
+{
+ "page": "0440",
+ "strips_done": 6,
+ "corrections": 50,
+ "misprints": [
+  {
+   "strip": "0440_00",
+   "printed": "ὑπερβάλλεσθα τεῖχος",
+   "probably_meant": "ὑπερβάλλεσθαι τεῖχος",
+   "note": "final iota missing in print"
+  },
+  {
+   "strip": "0440_01",
+   "printed": "καθίζεοθαι",
+   "probably_meant": "καθίζεσθαι",
+   "note": "glyph after ε looks like ο, without the stroke of σ"
+  },
+  {
+   "strip": "0440_02",
+   "printed": "ζηνεῖν",
+   "probably_meant": "ζητεῖν",
+   "note": "split across lines as ζη-νεῖν; ν where τ was meant"
+  },
+  {
+   "strip": "0440_04",
+   "printed": "φάρμακον, το.",
+   "probably_meant": "φάρμακον, τό.",
+   "note": "article printed without its accent"
+  },
+  {
+   "strip": "0440_04",
+   "printed": "βλάξ, ακός, ὁ.",
+   "probably_meant": "βλάξ, ᾶκος / -ακός",
+   "note": "genitive ending printed without a breathing; kept as printed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0440_01",
+   "text": "καθίζεοθαι",
+   "note": "could be a σ with broken type rather than a printed ο"
+  },
+  {
+   "strip": "0440_00",
+   "text": "ὡς οἷόν τε",
+   "note": "the mark on ω could be rough+acute (ὥς); read it as rough breathing only"
+  },
+  {
+   "strip": "0440_03",
+   "text": "τρέπεσθαί, σκοπεῖν, προθυμεῖσθαι, μηχανᾶσθαι, ἴχνευσις, βραδύνων",
+   "note": "the strip image cuts off the left edge of the column; the first letters were filled in from the word breaks (e.g. προς-|τρέπεσθαι carried over from strip 0440_02)"
+  }
+ ]
+}

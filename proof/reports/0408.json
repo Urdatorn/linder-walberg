@@ -1,0 +1,65 @@
+{
+ "page": "0408",
+ "strips_done": 6,
+ "corrections": 38,
+ "misprints": [
+  {
+   "strip": "0408_00",
+   "printed": "handcn",
+   "probably_meant": "handen",
+   "note": "Printed 'ur handcn' in the Slinta entry. The cleaner's change to 'handen' has been reverted to match the print."
+  },
+  {
+   "strip": "0408_00",
+   "printed": "(ὑπ)εκδύεσθαι",
+   "probably_meant": "(ὑπ)εκδύεσθαι / ἐκδύεσθαι",
+   "note": "The ε after the bracketed prefix is printed with no breathing."
+  },
+  {
+   "strip": "0408_05",
+   "printed": "(κατα)παίειν",
+   "probably_meant": "(κατα)παύειν",
+   "note": "In the Sluta entry, the context (πόλεμον, λόγον) calls for καταπαύειν."
+  },
+  {
+   "strip": "0408_05",
+   "printed": "(κατα , συγ)κλείειν",
+   "probably_meant": "(κατα-, συγ)κλείειν",
+   "note": "There is a gap and no visible hyphen after κατα. Transcribed as '(κατα, συγ)κλείειν'."
+  },
+  {
+   "strip": "0408_05",
+   "printed": "κορωνίς, ιδος",
+   "probably_meant": "κορωνίς, ίδος",
+   "note": "The genitive ending is printed with no accent."
+  },
+  {
+   "strip": "0408_04",
+   "printed": "hd s:en ger vid hand",
+   "probably_meant": "hvad s:en ger vid hand",
+   "note": "'hd' is printed as it stands. It may be an abbreviation or a misprint for hvad."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0408_01",
+   "text": "ej s. in. κατα‐, ἀποκλείεσθαι",
+   "note": "The mark after 'in' is low and small. It could be a period or a comma, and the period was kept."
+  },
+  {
+   "strip": "0408_02",
+   "text": "μαστιγοῦσθαι:",
+   "note": "The print shows a space and a colon with no visible period. This may be a '.:' whose period did not print."
+  },
+  {
+   "strip": "0408_03",
+   "text": "Slockna, / Slokig,",
+   "note": "The punctuation after these two headwords is a heavy dot-like mark. It was read as a comma."
+  },
+  {
+   "strip": "0408_00",
+   "text": "(παρ)οιχόμενον",
+   "note": "No breathing is visible on οι after the bracketed prefix, and none was added."
+  }
+ ]
+}

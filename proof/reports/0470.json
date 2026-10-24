@@ -1,0 +1,75 @@
+{
+ "page": "0470",
+ "strips_done": 6,
+ "corrections": 62,
+ "misprints": [
+  {
+   "strip": "0470_00",
+   "printed": "t. m. hrandra om barnsliga saker",
+   "probably_meant": "t. m. hvarandra",
+   "note": "Letters missing in hvarandra; kept as printed."
+  },
+  {
+   "strip": "0470_01",
+   "printed": "αύτη, οῦτο",
+   "probably_meant": "αὕτη, οὖτο / τοῦτο",
+   "note": "Printed without breathings, which looks like a printer's error."
+  },
+  {
+   "strip": "0470_01",
+   "printed": "gen. ποδος.",
+   "probably_meant": "ποδός",
+   "note": "No accent in the print; the same thing happens again in 0470_02 (Tvåfotad)."
+  },
+  {
+   "strip": "0470_01",
+   "printed": "Ofta gm smnsättningar",
+   "probably_meant": "smnsättningar (abbreviation of sammansättningar)",
+   "note": "Kept as printed; probably an intended abbreviation."
+  },
+  {
+   "strip": "0470_05",
+   "printed": "πλάγιος δάκτυλυς, ὁ.",
+   "probably_meant": "δάκτυλος",
+   "note": "The print clearly shows -λυς."
+  },
+  {
+   "strip": "0470_03",
+   "printed": "ἀνάγκας. βίαν τινί",
+   "probably_meant": "ἀνάγκας, βίαν τινί",
+   "note": "The mark looks like a full stop, though a comma was probably meant; kept as a full stop."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0470_00",
+   "text": "bilägga en t., διαλύειν",
+   "note": "The print shows 't..', where the second mark could be a comma with a broken tail; I wrote 't.,'."
+  },
+  {
+   "strip": "0470_00",
+   "text": "Tvistemål, δίκη, ἡ.",
+   "note": "The mark over η is odd and looks like breathing plus a grave accent (broken type?); I kept ἡ."
+  },
+  {
+   "strip": "0470_00",
+   "text": "ἄμιλλα",
+   "note": "The breathing could be read as smooth or rough; I kept the smooth breathing as it appears in the print."
+  },
+  {
+   "strip": "0470_01",
+   "text": "διχῆ.",
+   "note": "I cannot see an iota subscript in the print; ῇ is possible."
+  },
+  {
+   "strip": "0470_02",
+   "text": "διακοσι(οντ)άχους",
+   "note": "The closing parenthesis is broken or faint in the print."
+  },
+  {
+   "strip": "0470_02",
+   "text": "t. tiderymd. διετηρίς",
+   "note": "The punctuation after tiderymd could be a full stop or a comma."
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "page": "0448",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0448_00",
+   "printed": "διδασκαλος",
+   "probably_meant": "διδάσκαλος",
+   "note": "No accent printed on the word, which is hyphenated across the line as 'διδα-σκαλος'."
+  },
+  {
+   "strip": "0448_00",
+   "printed": "ἐμπερία",
+   "probably_meant": "ἐμπειρία",
+   "note": "Printed 'ἐμπε-ρία' across the line break, with the iota missing. The same entry spells it ἐμπειρίᾳ correctly twice."
+  },
+  {
+   "strip": "0448_05",
+   "printed": "ἄπο καιροῦ",
+   "probably_meant": "ἀπὸ καιροῦ",
+   "note": "Printed with a smooth breathing and acute on the alpha, as if it were the anastrophe form."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0448_03",
+   "text": "τιαροειδής",
+   "note": "The first letters are broken type and look like 'πα'. The reading τιαροειδής comes from τιάρα just before it in the same entry."
+  },
+  {
+   "strip": "0448_03",
+   "text": "d. närvarande t.n",
+   "note": "Only one dot is visible where the book normally prints the colon of 't:n'. Either the upper dot failed to print or it is a misprint; the text keeps 't.n' as printed."
+  }
+ ]
+}

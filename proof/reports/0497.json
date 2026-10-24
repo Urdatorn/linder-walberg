@@ -1,0 +1,31 @@
+{
+ "page": "0497",
+ "strips_done": 6,
+ "corrections": 38,
+ "misprints": [
+  {
+   "strip": "0497_01",
+   "printed": "αἰσχύνειν φέρειν τινί",
+   "probably_meant": "αἰσχύνην φέρειν τινί",
+   "note": "verb form printed where the noun αἰσχύνην is required"
+  },
+  {
+   "strip": "0497_05",
+   "printed": "ἐκθρώσκειν",
+   "probably_meant": "ἐκθρῴσκειν",
+   "note": "no iota subscript printed under ω"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0497_00",
+   "text": "τῇ ἄμῃ",
+   "note": "iota subscripts under η are not visible at this resolution; written with subscripts, following the usual practice"
+  },
+  {
+   "strip": "0497_04",
+   "text": "κορήθρῳ",
+   "note": "the iota subscript under ω is faint"
+  }
+ ]
+}

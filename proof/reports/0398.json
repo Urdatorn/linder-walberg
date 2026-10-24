@@ -1,0 +1,85 @@
+{
+ "page": "0398",
+ "strips_done": 6,
+ "corrections": 85,
+ "misprints": [
+  {
+   "strip": "0398_01",
+   "printed": "hri man träffas",
+   "probably_meant": "hvari man träffas",
+   "note": "Swedish word printed as 'hri'"
+  },
+  {
+   "strip": "0398_03",
+   "printed": "hvar o en vet bäst sf hr s:n klämmer",
+   "probably_meant": "hvar o. en vet bäst hvar s:n klämmer",
+   "note": "Garbled type in the proverb; kept as printed"
+  },
+  {
+   "strip": "0398_03",
+   "printed": "verb..",
+   "probably_meant": "verb.",
+   "note": "Double full stop after verb"
+  },
+  {
+   "strip": "0398_05",
+   "printed": "ὑλῶδης",
+   "probably_meant": "ὑλώδης",
+   "note": "Circumflex in place of acute in Skogstrakt"
+  },
+  {
+   "strip": "0398_05",
+   "printed": "Πάν, ανός",
+   "probably_meant": "Πάν, ᾶνός / Πανός",
+   "note": "Genitive ending printed without an accent"
+  },
+  {
+   "strip": "0398_00",
+   "printed": "χιτωνίσκος, ὁ l. d",
+   "probably_meant": "χιτωνίσκος, ὁ l. d.",
+   "note": "Final full stop missing after 'l. d'"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0398_00",
+   "text": "talg o. d.).",
+   "note": "The dot after 'o' is faint, and there may be a stray full stop after the parenthesis"
+  },
+  {
+   "strip": "0398_00",
+   "text": "(fig)",
+   "note": "I could not see a full stop after fig"
+  },
+  {
+   "strip": "0398_02",
+   "text": "i modern men, eldgevär",
+   "note": "The print reads 'men ,' with a space and no visible full stop"
+  },
+  {
+   "strip": "0398_02",
+   "text": "ἁμαξεύς / ἁρματηλάτης / ἁρματηλατοῦντα",
+   "note": "Rough or smooth breathing is hard to tell apart here; I took rough"
+  },
+  {
+   "strip": "0398_03",
+   "text": "τῇ ἅμῃ",
+   "note": "Breathing on the alpha is unclear"
+  },
+  {
+   "strip": "0398_04",
+   "text": "ἅμη, ἡ",
+   "note": "Breathing on the alpha is unclear; it may be smooth"
+  },
+  {
+   "strip": "0398_04",
+   "text": "ὀρεία",
+   "note": "Breathing on the omicron is unclear"
+  },
+  {
+   "strip": "0398_05",
+   "text": "τὰς ὕλας",
+   "note": "The start of the word is cut off at the image edge"
+  }
+ ]
+}

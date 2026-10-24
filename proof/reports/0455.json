@@ -1,0 +1,41 @@
+{
+ "page": "0455",
+ "strips_done": 6,
+ "corrections": 56,
+ "misprints": [
+  {
+   "strip": "0455_03",
+   "printed": "εἰθηνεῖν",
+   "probably_meant": "εὐθηνεῖν",
+   "note": "Print shows ει with breathing, not ευ (compare εὐδαιμονεῖν right after it). Could also be a broken υ."
+  },
+  {
+   "strip": "0455_02",
+   "printed": "τὰ περί l. κατὰ τήν πόλιν",
+   "probably_meant": "τὰ περὶ l. κατὰ τὴν πόλιν",
+   "note": "Acute accents printed where grave is expected; kept as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0455_00",
+   "text": "af egen t., ... ἄνευ αὐτοῦ",
+   "note": "The scan crops the line ends at the right margin. 'egen' and 'ἄνευ' are completions of the cut-off letters (the old OCR had 'eger' and 'ἄνει')."
+  },
+  {
+   "strip": "0455_00",
+   "text": "f. ngt. ὑπερορᾶν",
+   "note": "The punctuation after 'ngt' falls at the cropped right edge, so it could be '.', '.,' or '.:'. Kept as 'ngt.'."
+  },
+  {
+   "strip": "0455_03",
+   "text": "ἀποκαθιστάναι",
+   "note": "Printed as 'ἀπο' at a line end and 'καθιστάναι' on the next line, with no visible hyphen. Joined as one word."
+  },
+  {
+   "strip": "0455_03",
+   "text": "(m adv)",
+   "note": "No periods are visible after 'm' or 'adv' at this spot, unlike '(m. adv.)' elsewhere. Kept as printed."
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "page": "0400",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0400_00",
+   "printed": "ἐμβύλιμος ἡμέρα",
+   "probably_meant": "ἐμβόλιμος ἡμέρα",
+   "note": "Skottdag; under Skottmånad the same word is printed correctly as ἐμβόλιμος"
+  },
+  {
+   "strip": "0400_03",
+   "printed": "σήραγξ, γγος",
+   "probably_meant": "σήραγξ, αγγος",
+   "note": "genitive ending is missing its α (compare φάραγξ, αγγος right after it)"
+  },
+  {
+   "strip": "0400_03",
+   "printed": "φιλόγελων εἶναι",
+   "probably_meant": "φιλόγελως εἶναι",
+   "note": "Skrattlust; the next entry has φιλόγελως"
+  },
+  {
+   "strip": "0400_05",
+   "printed": "Skritflärd",
+   "probably_meant": "Skriftlärd",
+   "note": "headword has its letters transposed"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0400_02",
+   "text": "καγχασμός",
+   "note": "the ο is broken and looks like ι; read as καγχασμός"
+  },
+  {
+   "strip": "0400_02",
+   "text": "ἀνακαγχάζειν:",
+   "note": "only a colon is visible, no full stop before it; written as printed"
+  },
+  {
+   "strip": "0400_03",
+   "text": "φωναί, αἱ:",
+   "note": "the mark over the ι looks like a breathing plus an acute; written as αἱ"
+  },
+  {
+   "strip": "0400_03",
+   "text": "(ἀνα-, ἐκ)βοᾶν",
+   "note": "the closing parenthesis is only a faint broken mark"
+  },
+  {
+   "strip": "0400_03",
+   "text": "διαρρωγή, ἡ (remna)",
+   "note": "the breathing on ἡ looks partly like a grave; read as ἡ"
+  },
+  {
+   "strip": "0400_00",
+   "text": "κερκίς, ίδος",
+   "note": "only an acute is visible over the ι, with no breathing; the same reading is used for ίδος in 0400_01 and 0400_05"
+  }
+ ]
+}

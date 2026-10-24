@@ -1,0 +1,41 @@
+{
+ "page": "0469",
+ "strips_done": 6,
+ "corrections": 95,
+ "misprints": [
+  {
+   "strip": "0469_05",
+   "printed": "τοκια, η.",
+   "probably_meant": "τοκία, ἡ. (end of διδυμοτοκία, ἡ)",
+   "note": "No accent on the ending and no breathing on the article in the print."
+  },
+  {
+   "strip": "0469_05",
+   "printed": "ἔρις, δος,",
+   "probably_meant": "ἔρις, ιδος,",
+   "note": "The genitive ending is printed without its ι. Elsewhere on the page it is printed 'ἔρις, ιδος'."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0469_05",
+   "text": "δίδυμος ἀδελφός, ὁ.",
+   "note": "The article is broken type and looks like 'ι' with a breathing; ὁ is the obvious reading."
+  },
+  {
+   "strip": "0469_03",
+   "text": "ἀμφίγλωσσος, 2.",
+   "note": "The final ς is broken in the print."
+  },
+  {
+   "strip": "0469_02",
+   "text": "εἰ, icke, μή",
+   "note": "The diacritic over ι is small. It looks like a smooth breathing; the old OCR read it as εἶ."
+  },
+  {
+   "strip": "0469_05",
+   "text": "ἔρις, δος,",
+   "note": "The ι may have dropped out of the forme. The print shows only 'δος'."
+  }
+ ]
+}

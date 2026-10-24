@@ -1,0 +1,43 @@
+{
+ "page": "0368",
+ "strips_done": 6,
+ "corrections": 45,
+ "misprints": [
+  {
+   "strip": "0368_02",
+   "printed": "ἀλωπεκιδεύς",
+   "probably_meant": "ἀλωπεκιδεύς (unusual form; standard ἀλωπεκιδεύς is attested rarely, kept as printed)",
+   "note": "Kept as printed."
+  },
+  {
+   "strip": "0368_02",
+   "printed": "ἀλωπεκεία διφθέρα",
+   "probably_meant": "ἀλωπεκέα / ἀλωπεκῆ",
+   "note": "Unusual adjective form, kept as printed."
+  },
+  {
+   "strip": "0368_02",
+   "printed": "ἄγρειφνα",
+   "probably_meant": "ἄγρειφνα (rare variant of ἀγρεῖφνα)",
+   "note": "Kept as printed."
+  },
+  {
+   "strip": "0368_01",
+   "printed": "ῆρος",
+   "probably_meant": "ῆρος (genitive ending of σωτήρ is -ῆρος; printed without breathing as an ending)",
+   "note": "Ending printed with circumflex only."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0368_00",
+   "text": "bättre gm vv.",
+   "note": "Printed in italic, looks like υυ; transcribed as the abbreviation vv."
+  },
+  {
+   "strip": "0368_00",
+   "text": "περιδεής",
+   "note": "Accent mark on η slightly odd in print, but no second iota; read περιδεής."
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "page": "0477",
+ "strips_done": 6,
+ "corrections": 55,
+ "misprints": [
+  {
+   "strip": "0477_00",
+   "printed": "ὑπίταξις",
+   "probably_meant": "ὑπόταξις",
+   "note": "Clear accented ι where ό is expected"
+  },
+  {
+   "strip": "0477_01",
+   "printed": "vara u,",
+   "probably_meant": "vara u.,",
+   "note": "Period after the abbreviation u is missing in print (space, then comma)"
+  },
+  {
+   "strip": "0477_02",
+   "printed": "το ἀδόκιμον",
+   "probably_meant": "τὸ ἀδόκιμον",
+   "note": "Article printed without an accent"
+  },
+  {
+   "strip": "0477_04",
+   "printed": "ομιλεῖν",
+   "probably_meant": "ὁμιλεῖν",
+   "note": "No breathing visible on the initial ο"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0477_01",
+   "text": "Underfältherre",
+   "note": "The letter after 'Under' is broken: it could be l or f. I read it as f (Underfältherre)."
+  },
+  {
+   "strip": "0477_01",
+   "text": "φθορά",
+   "note": "Broken type: the ο looks like c. I read it as φθορά."
+  },
+  {
+   "strip": "0477_04",
+   "text": "πρός τινι",
+   "note": "Printed like 'πρί ς', probably a broken ό. I wrote πρός."
+  },
+  {
+   "strip": "0477_04",
+   "text": "μετά τινος.: u. sig ifrigt",
+   "note": "Only one raised dot is visible after τινος. It is probably a broken '.:'."
+  },
+  {
+   "strip": "0477_05",
+   "text": "εἴς τι",
+   "note": "The mark over ι is a breathing plus an acute. I read the breathing as smooth (εἴς), but it might be rough."
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "page": "0376",
+ "strips_done": 6,
+ "corrections": 42,
+ "misprints": [
+  {
+   "strip": "0376_01",
+   "printed": "εὐκοσμία, η.",
+   "probably_meant": "εὐκοσμία, ἡ.",
+   "note": "The article has no breathing or accent in the print."
+  },
+  {
+   "strip": "0376_03",
+   "printed": "Jfr Samklang,",
+   "probably_meant": "Jfr Samklang.",
+   "note": "The entry ends with a comma, not a full stop."
+  },
+  {
+   "strip": "0376_03",
+   "printed": "συμφωνεῖν,",
+   "probably_meant": "συμφωνεῖν.",
+   "note": "The entry ends with a comma, not a full stop."
+  },
+  {
+   "strip": "0376_03",
+   "printed": "smnsttngspartikel",
+   "probably_meant": "smnsättningspartikel (sammansättningspartikel)",
+   "note": "An odd abbreviation, kept as printed."
+  },
+  {
+   "strip": "0376_03",
+   "printed": "sammanlefvande",
+   "probably_meant": "sammanlefvande",
+   "note": "Kept as printed; the OCR had read it as 'sammanlefvarande'."
+  },
+  {
+   "strip": "0376_05",
+   "printed": "Sammandragning. 1)",
+   "probably_meant": "Sammandragning, 1)",
+   "note": "A full stop instead of a comma after the headword."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0376_05",
+   "text": "äfv. gm vv.",
+   "note": "The print shows italic 'vv.', which looks like Greek υυ. I read it as the Swedish abbreviation vv. (verben); the OCR had νυ."
+  },
+  {
+   "strip": "0376_02",
+   "text": "(συν)αθροίζεσθαι",
+   "note": "The print breaks the word after '(συν)-' at the end of a line. I joined it as a hyphenated line break."
+  }
+ ]
+}

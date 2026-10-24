@@ -1,0 +1,47 @@
+{
+ "page": "0486",
+ "strips_done": 6,
+ "corrections": 48,
+ "misprints": [
+  {
+   "strip": "0486_05",
+   "printed": "öppua",
+   "probably_meant": "öppna",
+   "note": "turned n in the Uppskära entry"
+  },
+  {
+   "strip": "0486_04",
+   "printed": "ἀνατέλλειν ἀναθεῖν",
+   "probably_meant": "ἀνατέλλειν. ἀναθεῖν",
+   "note": "no punctuation between the two verbs in the print"
+  },
+  {
+   "strip": "0486_00",
+   "printed": "ἐκκοκίζειν",
+   "probably_meant": "ἐκκοκκίζειν",
+   "note": "print shows a single κκ+κ sequence (ἐκ-κο-κίζειν); the attested verb has κκ twice"
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0486_01",
+   "text": "φαιδρός",
+   "note": "print looks like φαιδρίς, most likely a broken ο; wrote φαιδρός"
+  },
+  {
+   "strip": "0486_05",
+   "text": "κατιλύειν",
+   "note": "the letter after κατ- is small and faint; it looks like ι rather than ο (the OCR had κατολύειν)"
+  },
+  {
+   "strip": "0486_00",
+   "text": "κατασεσηπώς, υῖα, ός",
+   "note": "υ or ν in υῖα is ambiguous in the italic; took υ"
+  },
+  {
+   "strip": "0486_03",
+   "text": "ἐπιμέλεια, ἡ. / Uppsjö, 1)",
+   "note": "the comma tails are faint and could be read as full stops; took commas"
+  }
+ ]
+}

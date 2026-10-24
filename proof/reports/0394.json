@@ -1,0 +1,42 @@
+{
+ "page": "0394",
+ "strips_done": 6,
+ "corrections": 36,
+ "misprints": [
+  {
+   "strip": "0394_01",
+   "printed": "allt hd skapadt är",
+   "probably_meant": "allt hvad skapadt är",
+   "note": "Print reads 'hd', apparently a truncated 'hvad'."
+  },
+  {
+   "strip": "0394_02",
+   "printed": "κακκοβαφῆ",
+   "probably_meant": "κοκκοβαφῆ",
+   "note": "The first vowel is clearly alpha in the print."
+  },
+  {
+   "strip": "0394_02",
+   "printed": "ἀμπεχόμενος, 3.",
+   "probably_meant": "ἀμπεχόμενος, 2. or no termination number",
+   "note": "Termination number as printed."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0394_02",
+   "text": "klädd i s,",
+   "note": "The print shows 's ,' with a gap where an abbreviation period is expected. It could be a dropped or broken period, so it is kept as 's,'."
+  },
+  {
+   "strip": "0394_00",
+   "text": "χάραξ, ακος, ὁ.",
+   "note": "The genitive ending appears to have no accent or breathing in the print, so it is written 'ακος'."
+  },
+  {
+   "strip": "0394_02",
+   "text": "τὸ προσραφέν, έντος",
+   "note": "The ending 'έντος' appears with an acute only and no breathing."
+  }
+ ]
+}

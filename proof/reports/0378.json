@@ -1,0 +1,72 @@
+{
+ "page": "0378",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [
+  {
+   "strip": "0378_00",
+   "printed": "σνδυασμός",
+   "probably_meant": "συνδυασμός",
+   "note": "Under Sammanparande; the print lacks the upsilon."
+  },
+  {
+   "strip": "0378_02",
+   "printed": "σηνάγειν",
+   "probably_meant": "συνάγειν",
+   "note": "Under Sammanskrufva."
+  },
+  {
+   "strip": "0378_02",
+   "printed": "Sämmanslagning",
+   "probably_meant": "Sammanslagning",
+   "note": "The headword shows dots over the first a. They could be a printer's error or specks of dust."
+  },
+  {
+   "strip": "0378_02",
+   "printed": "Sammmanslå",
+   "probably_meant": "Sammanslå",
+   "note": "The headword is printed with three m's."
+  },
+  {
+   "strip": "0378_02",
+   "printed": "hrandra",
+   "probably_meant": "hvarandra",
+   "note": "Under Sammanslå 1)."
+  },
+  {
+   "strip": "0378_05",
+   "printed": "medsmnsvurne",
+   "probably_meant": "medsammansvurne",
+   "note": "Under Sammansvärja sig."
+  },
+  {
+   "strip": "0378_05",
+   "printed": "συνομοσάμενοί",
+   "probably_meant": "συνομοσάμενοι / συνομωσάμενοι",
+   "note": "Printed with omicron in οἱ συνομοσάμενοί τινι."
+  },
+  {
+   "strip": "0378_04",
+   "printed": "(Sedn).",
+   "probably_meant": "(Sedn.).",
+   "note": "Under Sammanstörta, the abbreviation has no full stop."
+  }
+ ],
+ "uncertain": [
+  {
+   "strip": "0378_03",
+   "text": "πασσάλῳ o.d συνάπτειν",
+   "note": "The end of the line shows 'o.d' with no space and no final full stop. A faint stop may have been lost."
+  },
+  {
+   "strip": "0378_02",
+   "text": "Sämmanslagning",
+   "note": "The dots over the a may be dust and not type."
+  },
+  {
+   "strip": "0378_00",
+   "text": "συνάπτειν (Sammanrada)",
+   "note": "The first letter at the line end is heavy and looks a bit like δ. Read as σ."
+  }
+ ]
+}

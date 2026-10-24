@@ -1,0 +1,23 @@
+{
+ "page": "0452",
+ "strips_done": 6,
+ "corrections": 40,
+ "misprints": [],
+ "uncertain": [
+  {
+   "strip": "0452_00",
+   "text": "πράϋνσις",
+   "note": "Accent on α looks acute in print (with diaeresis on υ); kept as printed."
+  },
+  {
+   "strip": "0452_01",
+   "text": "fhdn",
+   "note": "Abbreviation in 'omständigheter, fhdn' slightly blurred; read as fhdn."
+  },
+  {
+   "strip": "0452_02",
+   "text": "καιρός, ὁ",
+   "note": "Article mark above ο read as rough breathing only (ὁ)."
+  }
+ ]
+}

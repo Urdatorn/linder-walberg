@@ -1,10 +1,10 @@
-Atertåga, se Retirera, Återgå.
+Återtåga, se Retirera, Återgå.
 
-Aterupprepa, αὖθις λέγειν, παλιλλογεῖν, θὲς εἰπεῖν (ord, uttryck). θεύτερον ποιεῖν (en handling).
+Återupprepa, αὖθις λέγειν, παλιλλογεῖν, δὶς εἰπεῖν (ord, uttryck). δεύτερον ποιεῖν (en handling).
 
-Aterupprätta, se Återställa.
+Återupprätta, se Återställa.
 
-Aterupptaga, εἰσδέχεσθαι πάλιν.: ἃ. tråden af en framställning, ἐπανελθεῖν ἐπὶ τὸν λόγον.
+Återupptaga, εἰσδέχεσθαι πάλιν.: å. tråden af en framställning, ἐπανελθεῖν ἐπὶ τὸν λόγον.
 
 Återverka, ἀντιτυπεῖν. ἀντικόπτειν.
 
@@ -20,16 +20,16 @@ Aterupptaga, εἰσδέχεσθαι πάλιν.: ἃ. tråden af en framställn
 
 Återväg, ὁδὸς ἡ ἔμπαλιν. (ἐπ)άνοδος, ἡ. Jfr Återfärd.
 
-Återvälja, πάλιν 1) αὖθις αἱρεῖσθαι, ἐκλέγειν, καθιστάναι. Jfr Återinsätta.
+Återvälja, πάλιν l. αὖθις αἱρεῖσθαι, ἐκλέγειν, καθιστάναι. Jfr Återinsätta.
 
 Återvända, -de, se Återkomma, -komst.
 
-Återvändo, utan ἃ., se Oupphörlig.
+Återvändo, utan å., se Oupphörlig.
 
 Åtfölja, se Följa, Ledsaga.
 
-Åtgå, σαπανᾶσθαι. ἀναλίσκεσθαι.: λὰτα ἃ., σαπανᾶν. ἀναλίσκειν.
+Åtgå, δαπανᾶσθαι. ἀναλίσκεσθαι.: låta å., δαπανᾶν. ἀναλίσκειν.
 
-Åtgång, ἀνάλωσις, ἡ. σαπάνησις, χρῆσις, ἡ. χρεία, ἡ.
+Åtgång, ἀνάλωσις, ἡ. δαπάνησις, χρῆσις, ἡ. χρεία, ἡ.
 
 Åtgärd, ἐργασία, ἡ. συνέργεια, συνεργία, βοήθεια, ἡ. Jfr Åtgörande.
