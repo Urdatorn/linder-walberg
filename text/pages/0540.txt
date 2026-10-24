@@ -1,0 +1,15 @@
+Förkortningar.
+
+abl. = ablativus absol. = absolut abstr. = abstrakt acc. = accusativus act. = activ, -um adj. = adjectivum adv. = adverbium allmht = allmänhet aor. = aoristus art. = artikel Att. = Attisk begr. = begrepp bet. = betydelse bl. = blott compp. = composita compr. = comparativus concr. = concret conj. = conjunction l. conjunctivus d. = den, det, de dat. = dativus dem. = deminutivum
+
+dens. = densamme, -a dep. = deponens dir. = direkt derf. = derföre dne, dna, dta = denne, -a, detta dse, dsa = desse, -a d. o., d. oo. = detta ord, dessa ord eg. = egentlig, -en enklit. = enklitisk enl. = enligt etc. = et cetera f. = för fem. = femininum fhde = förhållande fig. = figurlig fr. = från fut. = futurum f. öfr. = för öfrigt
+
+följ. = följande föreg. = föregående gen. = genitivus gm = genom gram. = grammatik Gr., Grek. = Grek, -er(na), -iska hne = henne hm = honom hr = hvar hs = hans i ans. = i anseende i afs. = i afseende imp. = imperativus impf. = imperfectum ind. = indicativus indir. = indirekt inf. = infinitivus intr. = intransitiv jfr = jemför jurid. = juridisk K. F. = Kyrkoförfattare kom. = komisk ksla = känsla
+
+l. = eller lex. = lexikon m. = med masc. = masculinum med. = medium men. = mening m. fl. = med flera milit. = militärisk mots. = motsats mska, mskr = menniska, -skor negat. = negativ, -ion nedanf. = nedanföre neutr. = neutrum ngn, ngt = någon, -ot nom. = nomen, nominativus N. T. = Nya Testamentet Nygr. = Nygrekiska o. = och
+
+obj. = objekt o. d. = och dylikt, -a oeg. = oegentlig omskr. = omskrifning opers. = opersonlig opt. = optativus o. s. v. = och så vidare part. = participium pass. = passiv, -um perf. = perfectum pers. = person, -lig pl., plur. = pluralis plusqpf. = plusquamperfectum poet. = poet, -isk præp. = præposition prakt. = praktisk pron. = pronomen pros. = prosa, -isk recipr. = reciprok refl. = reflexiv rel. = relativ
+
+s. = som sc. = scilicet sdn = sådan Sedn. = sednare författare sf = sjelf sing. = singularis smn = samman ss. = såsom subj. = subjekt. subst. = substantivum, -a superl. = superlativus Sv. = Svensk, -a temp. = tempus, -oral t. ex. = till exempel theoret. = theoretisk tr. = transitiv t. t. = terminus technicus ung. = ungefär uttr. = uttryck v., vv. = verbum, -a vanl. = vanligen voc. = vocativus äfv. = äfven
+
+Tecknet * framför ett ord utmärker, att ordet saknar auktoritet hos de gamle författarne. "Lex." utmärker, att ordet endast finnes hos de Grekiska Lexikographerna; men "se Lex." hänvisar till våra vanliga lexika från Grekiskan till moderna språk.
