@@ -6,7 +6,8 @@ paragraph starts with "~ " continues the last entry of the strip before it
 
   text/pages/NNNN.txt   each page's paragraphs, a continuation joined to
                         the paragraph before it on the same page
-  text/entries.jsonl    the dictionary body (0005-0538) as entries, each with
+  text/entries.jsonl    the dictionary body (0005-0539, without the Tryckfel
+                        table at the foot of 0539) as entries, each with
                         the pages and strips it was read from
 
     python assemble.py [--proof proof/strips] [--out text]
@@ -43,7 +44,8 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--proof", type=Path, default=Path("proof/strips"))
     ap.add_argument("--out", type=Path, default=Path("text"))
-    ap.add_argument("--body", default="0005-0538", help="pages holding the dictionary entries")
+    ap.add_argument("--body", default="0005-0539", help="pages holding the dictionary entries")
+    ap.add_argument("--not-entries", default="0539_05", help="strips in the body that are not entries (the Tryckfel table)")
     args = ap.parse_args()
 
     first, last = args.body.split("-")
@@ -59,7 +61,7 @@ def main() -> None:
                     paras[-1] = join(paras[-1], text)
                 else:
                     paras.append(text)
-                if first <= page <= last:
+                if first <= page <= last and f"{page}_{n:02d}" not in args.not_entries.split(","):
                     if cont and entries:
                         entries[-1]["text"] = join(entries[-1]["text"], text)
                         entries[-1]["source"].append(f"{page}_{n:02d}")

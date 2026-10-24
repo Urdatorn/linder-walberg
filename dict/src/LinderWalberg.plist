@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>Swedish</string>
+	<key>CFBundleDisplayName</key>
+	<string>Svenskt-grekiskt lexikon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.urdatorn.dictionary.LinderWalberg</string>
+	<key>CFBundleName</key>
+	<string>Linder–Walberg</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>DCSDictionaryCopyright</key>
+	<string>C. Linder &amp; C. W. Walberg, Svenskt-grekiskt lexikon (Upsala 1862). Public domain. Scans: Project Runeberg. Transcription and corrections: Albin Thörn Cleland, CC0.</string>
+	<key>DCSDictionaryManufacturerName</key>
+	<string>Albin Thörn Cleland</string>
+	<key>DCSDictionaryFrontMatterReferenceID</key>
+	<string>front_matter</string>
+	<key>DCSDictionaryUseSystemAppearance</key>
+	<true/>
+	<key>DCSDictionaryFrontMatterWindowSize</key>
+	<string>0.5</string>
+</dict>
+</plist>

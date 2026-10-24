@@ -1,0 +1,112 @@
+/* Linder & Walberg, Svenskt-grekiskt lexikon (1862) in Dictionary.app.
+   Swedish in a book face, Greek in a polytonic serif in bold as the book
+   sets it apart; sense numbers in red as the entry's skeleton; each phrase
+   on its own line with a hanging indent so long articles can be scanned. */
+
+:root {
+    --ink: #1c1c1e;
+    --muted: #6b6b70;
+    --greek: #142a5c;
+    --num: #9b1c1c;
+    --rule: #d8d4cc;
+    --link: #1f5fa8;
+    --hw-abbr: #7a5a1e;
+    --sv: "Iowan Old Style", "Palatino", "Hoefler Text", Georgia, serif;
+    --gk: "New Athena Unicode", "Gentium Plus", "GFS Didot", "Palatino", "Times New Roman", serif;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --ink: #e8e6e1;
+        --muted: #a09d97;
+        --greek: #a9c3f0;
+        --num: #f08b8b;
+        --rule: #4a4741;
+        --link: #8ab8f0;
+        --hw-abbr: #e0b870;
+    }
+}
+
+body {
+    font-family: var(--sv);
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--ink);
+}
+
+h1.hw {
+    font-family: var(--sv);
+    font-size: 1.55em;
+    font-weight: 600;
+    letter-spacing: 0.06em;          /* the book's spaced headwords */
+    margin: 0 0 6px 0;
+    padding-bottom: 3px;
+    border-bottom: 1px solid var(--rule);
+}
+
+div.entry { margin: 4px 0 8px 0; }
+
+div.sense {
+    display: flex;
+    gap: 6px;
+    margin-top: 5px;
+}
+div.sense > .sense-num {
+    flex: 0 0 auto;
+    min-width: 1.6em;
+    font-weight: 700;
+    color: var(--num);
+    font-variant-numeric: tabular-nums;
+}
+div.sense > .sense-body { flex: 1 1 auto; min-width: 0; }
+div.sense.depth-0 { margin-top: 10px; }
+div.sense.depth-0 > .sense-num { font-size: 1.05em; }
+div.sense.depth-2 { margin-left: 1.1em; }
+div.sense.depth-3 { margin-left: 2.2em; }
+
+div.def { margin: 1px 0; }
+div.phrase, div.deriv {
+    margin: 2px 0 2px 0.9em;
+    text-indent: -0.9em;
+    padding-left: 0.9em;
+}
+div.phrase::before {
+    content: "▸ ";
+    color: var(--rule);
+    font-size: 0.8em;
+}
+div.deriv { margin-top: 5px; }
+b.deriv-word { font-weight: 700; }
+div.deriv::before { content: "— "; color: var(--muted); }
+
+span.gk {
+    font-family: var(--gk);
+    font-weight: 700;
+    color: var(--greek);
+    font-size: 1.04em;
+}
+span.gk .term { font-weight: 400; color: var(--muted); font-family: var(--sv); }
+
+span.abbr { color: var(--muted); }
+span.abbr.gram { font-style: italic; }
+span.hw-abbr { color: var(--hw-abbr); font-weight: 600; }
+
+a.xref, span.xref {
+    font-variant: small-caps;
+    letter-spacing: 0.03em;
+}
+a.xref { color: var(--link); text-decoration: none; }
+
+div.src {
+    margin-top: 8px;
+    font-size: 0.78em;
+    color: var(--muted);
+}
+
+/* front matter */
+div.front p { max-width: 42em; margin: 0 0 0.7em 0; }
+div.front p.byline { font-style: italic; }
+div.front p.note { font-size: 0.9em; color: var(--muted); }
+table.abbrs { border-collapse: collapse; }
+table.abbrs td { padding: 1px 12px 1px 0; vertical-align: top; }
+table.abbrs td.abbr-col { font-style: italic; white-space: nowrap; }

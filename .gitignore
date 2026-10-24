@@ -4,3 +4,6 @@ ocr_runs/
 .logs/
 __pycache__/
 .venv-x86/
+dict/src/LinderWalberg.xml
+dict/src/objects/
+dict/src/*.dictionary

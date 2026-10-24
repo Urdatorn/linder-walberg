@@ -1,0 +1,322 @@
+"""Build the Dictionary.app source of Linder & Walberg's Svenskt-grekiskt lexikon.
+
+Reads the corrected entries (text/corrected/entries.jsonl) and writes
+dict/src/LinderWalberg.xml in Apple's Dictionary Development Kit format;
+`make` in dict/src then compiles it with build_dict.sh (macOS only). Standard
+library only, so it runs on the Mac that builds the bundle.
+
+The print's conventions become typography:
+
+  headword       spaced type in the book; an h1, with its variant forms
+                 ("Nedanför(e)", "Nedanifrån, -igenom") indexed separately
+  senses         1) a) α) I) start indented blocks, numbers in red, nested by kind
+  phrases        the book's ".:" between phrase and phrase: each phrase on its
+                 own line, the Swedish in roman, the Greek in bold serif
+  derivatives    "— glödande, …" opens a run-in sub-entry with its word in bold
+  Greek          every run of Greek in a serif face; articles and termination
+                 numbers ("ἄδικος, 2") kept with their word
+  abbreviations  the grammatical ones italic as printed, all with their
+                 expansion from the book's list as a tooltip
+  headword initial  "göra a." (a. = the headword) marked and expanded on hover
+  references     "se X", "Jfr X", "Se vidare X" link to the entry X
+
+Greek words given as equivalents are indexed too, so looking up a Greek word
+finds the Swedish entries that render it.
+
+    python3 dict/build_xml.py
+"""
+
+from __future__ import annotations
+
+import argparse
+import html
+import json
+import re
+import unicodedata
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+
+GREEK = "Ͱ-Ͽἀ-῿"
+GREEK_CHAR = re.compile(f"[{GREEK}]")
+# A run of Greek: from a Greek letter to the last Greek letter (or its
+# trailing termination number/article) before Swedish starts again.
+GREEK_RUN = re.compile(
+    rf"(?:\((?=[{GREEK}]))?[{GREEK}][{GREEK}̀-ͯ’'ʼ᾽\-‐]*"
+    rf"(?:(?:[\s,.;·()\-‐]|\d(?=[,.\s)]))+[{GREEK}(][{GREEK}̀-ͯ’'ʼ᾽\-‐)]*)*"
+    rf"(?:,\s*[23](?![\d)]))?")
+SENSE = re.compile(r"(?:(?<=^)|(?<=[\s.:;,]))((?:[IVX]+|\d{1,2}|[a-h]|[α-θ]))\)(?=\s)")
+STOP_INDEX = {"ὁ", "ἡ", "τό", "τὸ", "οἱ", "αἱ", "τά", "τὰ", "καί", "καὶ", "τι", "τὶ", "τινά", "τινὰ", "τινί", "τινὶ",
+              "τινός", "τινὸς", "τινα", "τινι", "τινος", "ἤ", "ἢ", "μή", "μὴ", "οὐ", "οὐκ", "ἐν", "εἰς", "ἐκ", "ἐξ",
+              "πρός", "πρὸς", "περί", "περὶ", "ἐπί", "ἐπὶ", "ἀπό", "ἀπὸ", "ὑπό", "ὑπὸ", "παρά", "παρὰ", "διά", "διὰ",
+              "κατά", "κατὰ", "μετά", "μετὰ", "ὡς", "τε", "δέ", "δὲ", "γάρ", "γὰρ", "ἄν", "ἂν", "τῶν", "τοῦ", "τῆς",
+              "τῷ", "τῇ", "τόν", "τὸν", "τήν", "τὴν", "τοῖς", "ταῖς", "τούς", "τοὺς", "τάς", "τὰς"}
+
+
+def load_abbreviations() -> tuple[dict[str, str], set[str]]:
+    expand, grammatical = {}, set()
+    lines = (HERE / "abbreviations.tsv").read_text(encoding="utf-8").splitlines()[1:]
+    for line in lines:
+        abbr, exp, gram = line.split("\t")
+        for a in re.split(r",\s+(?=[^\s,]+\.?$)|,\s+", abbr):
+            a = a.strip()
+            if a:
+                expand[a] = exp
+                if gram == "1":
+                    grammatical.add(a)
+    expand.setdefault("vv.", expand.get("v.", "verbum, -a"))
+    return expand, grammatical
+
+
+ABBR, GRAMMATICAL = load_abbreviations()
+# longest first, so "t. ex." wins over "t."; each must stand as a word
+ABBR_RE = re.compile(r"(?<![\w.])(" + "|".join(re.escape(a) for a in sorted(ABBR, key=len, reverse=True)) + r")(?![\w])")
+
+
+def headword_of(text: str) -> tuple[str, str]:
+    """The headword and the rest of the entry."""
+    m = re.match(r"([^,;:(]+?(?:\([^)]{1,4}\)[^,;:(]*)?)(,\s*|\s+(?=se\s)|\s*(?=\()|$)", text)
+    if not m:
+        return text.split(" ", 1)[0], text.split(" ", 1)[1] if " " in text else ""
+    return m.group(1).strip(), text[m.end():]
+
+
+def index_forms(head: str, rest: str) -> list[str]:
+    """Headword variants to index: "Nedanför(e)", "Sjelf(va)", "Nedanifrån, -igenom"."""
+    forms = [re.sub(r"\(([^)]*)\)", "", head), re.sub(r"\(([^)]*)\)", r"\1", head)]
+    m = re.match(r"((?:-[a-zåäö]+,\s*)+)", rest)
+    if m:
+        stem = re.sub(r"\(([^)]*)\)", "", head)
+        for suffix in re.findall(r"-([a-zåäö]+)", m.group(1)):
+            # replace the last element of a compound: Nedanifrån -> Nedanigenom
+            k = max((i for i in range(1, len(stem)) if stem[i:].lower() and suffix[:1] == stem[i:i + 1].lower()),
+                    default=None)
+            forms.append(stem[:k] + suffix if k else stem + suffix)
+    return list(dict.fromkeys(f.strip() for f in forms if f.strip()))
+
+
+def entry_id(n: int) -> str:
+    return f"lw_{n:05d}"
+
+
+class Renderer:
+    def __init__(self, heads: dict[str, str]):
+        self.heads = heads          # lower-case headword -> entry id
+        self.n = 0                  # the entry being rendered
+
+    def link(self, word: str) -> str:
+        # "se Föreg." / "se Följ.": the entry before or after this one
+        near = {"Föreg": -1, "Följ": 1}.get(word)
+        if near is not None:
+            label = {"Föreg": "föregående", "Följ": "följande"}[word]
+            return f'<a class="xref" href="x-dictionary:r:{entry_id(self.n + near)}" title="{label}">{word}</a>'
+        if word + "." in ABBR or word in ("Lex", "Gram", "Subst", "Nedanf"):
+            return f'<span class="abbr">{html.escape(word)}</span>'
+        key = re.sub(r"\(([^)]*)\)", "", word).strip().lower()
+        target = self.heads.get(key)
+        if target:
+            return f'<a class="xref" href="x-dictionary:r:{target}">{html.escape(word)}</a>'
+        # not a headword as printed: let Dictionary.app search for it
+        return f'<a class="xref" href="x-dictionary:d:{html.escape(word.strip("-()"), quote=True)}">{html.escape(word)}</a>'
+
+    def inline(self, text: str, head: str) -> str:
+        """Greek, abbreviations, headword initials and references in one phrase."""
+        out, pos = [], 0
+        for m in GREEK_RUN.finditer(text):
+            out.append(self.swedish(text[pos:m.start()], head))
+            out.append(self.greek(m.group(0)))
+            pos = m.end()
+        out.append(self.swedish(text[pos:], head))
+        return "".join(out)
+
+    def greek(self, run: str) -> str:
+        body = html.escape(run)
+        body = re.sub(r",(\s*)([23])$", r',\1<span class="term">\2</span>', body)
+        return f'<span class="gk">{body}</span>'
+
+    def swedish(self, text: str, head: str) -> str:
+        if not text:
+            return ""
+        initial = head[:1].lower()
+        parts, pos = [], 0
+        # cross-references: se X, Jfr X, Se vidare X (X capitalised, possibly a list "X, Y")
+        ref = re.compile(r"\b((?:[Ss]e|Jfr|jfr)(?:\s+(?:vidare|äfv\.|under))?\s+)"
+                         r"([A-ZÅÄÖ][\wåäöÅÄÖ()\-]+(?:,\s+[A-ZÅÄÖ][\wåäöÅÄÖ()\-]+)*)")
+        for m in ref.finditer(text):
+            parts.append(self.words(text[pos:m.start()], head, initial))
+            parts.append(self.words(m.group(1), head, initial))
+            parts.append(", ".join(self.link(w) for w in m.group(2).split(", ")))
+            pos = m.end()
+        parts.append(self.words(text[pos:], head, initial))
+        return "".join(parts)
+
+    def words(self, text: str, head: str, initial: str) -> str:
+        out, pos = [], 0
+        token = re.compile(ABBR_RE.pattern + rf"|(?<![\w.])({re.escape(initial)}(?::[a-zåäö]+)?\.?)(?![\w])"
+                           if initial.isalpha() else ABBR_RE.pattern)
+        for m in token.finditer(text):
+            out.append(html.escape(text[pos:m.start()]))
+            if m.group(1):
+                a = m.group(1)
+                cls = "abbr gram" if a in GRAMMATICAL else "abbr"
+                out.append(f'<span class="{cls}" title="{html.escape(ABBR[a])}">{html.escape(a)}</span>')
+            else:
+                # the headword's initial standing for the headword: "göra a.", "ö:na"
+                out.append(f'<span class="hw-abbr" title="{html.escape(head)}">{html.escape(m.group(2))}</span>')
+            pos = m.end()
+        out.append(html.escape(text[pos:]))
+        return "".join(out)
+
+    def body(self, text: str, head: str, n: int = 0) -> str:
+        """Senses, phrases and derivatives of an entry's text after the headword."""
+        self.n = n
+        blocks = []
+        for marker, chunk in self.senses(text):
+            phrases = self.phrases(chunk)
+            inner = []
+            for k, ph in enumerate(phrases):
+                cls = "def" if k == 0 else "phrase"
+                deriv = re.match(r"—\s*([a-zåäö][\wåäö\-]*(?:\s+[a-zåäö]+)?),\s*(.*)", ph)
+                if deriv:
+                    inner.append(f'<div class="deriv"><b class="deriv-word">{html.escape(deriv.group(1))}</b>, '
+                                 f'{self.inline(deriv.group(2), head)}</div>')
+                elif ph:
+                    inner.append(f'<div class="{cls}">{self.inline(ph, head)}</div>')
+            if marker is None:
+                blocks.append("".join(inner))
+            else:
+                depth = 0 if re.fullmatch(r"[IVX]+", marker) else 1 if marker.isdigit() else \
+                    2 if marker.isascii() else 3
+                blocks.append(f'<div class="sense depth-{depth}"><span class="sense-num">{html.escape(marker)})</span>'
+                              f'<div class="sense-body">{"".join(inner)}</div></div>')
+        return "".join(blocks)
+
+    @staticmethod
+    def senses(text: str) -> list[tuple[str | None, str]]:
+        """Split at sense markers that open a sense, not those inside a
+        reference ("se Bryta 2)") or a parenthesis."""
+        starts, last = [], {}
+        for m in SENSE.finditer(text):
+            before = text[:m.start()].rstrip()
+            if before.count("(") > before.count(")"):
+                continue                                  # inside brackets
+            if re.search(r"[A-ZÅÄÖ][\wåäö]*$", before) or re.search(r"\b(se|Jfr|jfr)\s+\S*\w$", before):
+                continue                                  # a reference's sense number
+            mark = m.group(1)
+            series = "roman" if re.fullmatch(r"[IVX]+", mark) else "digit" if mark.isdigit() else \
+                "latin" if mark.isascii() else "greek"
+            # the next marker of its series opens a sense even after a plain
+            # word ("3) vid orsak a) yttre"); others need punctuation before
+            expected = {"digit": str(int(last.get("digit", "0")) + 1),
+                        "latin": chr(ord(last.get("latin", "`")) + 1),
+                        "greek": chr(ord(last.get("greek", "ΰ")) + 1),
+                        "roman": ["I", "II", "III", "IV", "V", "VI"][min(5, len(last.get("roman", "")))]}[series]
+            if mark != expected and before and before[-1] not in ".:;,—" \
+                    and not re.search(r"\b(?:adv|subst|adj|tr|intr)\.$", before):
+                continue
+            if series == "digit":                        # a new number restarts its sub-series
+                last.pop("latin", None), last.pop("greek", None)
+            elif series == "latin":
+                last.pop("greek", None)
+            last[series] = mark if series != "roman" else last.get("roman", "") + "I"
+            starts.append(m)
+        if not starts:
+            return [(None, text)]
+        out = []
+        if text[:starts[0].start()].strip():
+            out.append((None, text[:starts[0].start()].strip()))
+        for k, m in enumerate(starts):
+            end = starts[k + 1].start() if k + 1 < len(starts) else len(text)
+            out.append((m.group(1), text[m.end():end].strip()))
+        return out
+
+    @staticmethod
+    def phrases(text: str) -> list[str]:
+        """The book's ".:" (or ":" after Greek) separates phrase from phrase;
+        " — " before a Swedish word opens a derivative."""
+        text = re.sub(r"\s+—\s+(?=[a-zåäöA-ZÅÄÖ])", " \x00— ", text)
+        parts = re.split(rf"(?<=\.):\s+|(?<=[{GREEK}̀-ͯ)]):\s+|\x00", text)
+        return [p.strip() for p in parts if p and p.strip()]
+
+
+def greek_index(text: str) -> list[str]:
+    """Greek words worth looking up: content words of the entry, lemma-like."""
+    words = []
+    for w in re.findall(rf"[{GREEK}][{GREEK}̀-ͯ]+", text):
+        w = unicodedata.normalize("NFC", w)
+        if len(w) >= 3 and w not in STOP_INDEX:
+            words.append(w)
+    return list(dict.fromkeys(words))
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--entries", type=Path, default=ROOT / "text/corrected/entries.jsonl")
+    ap.add_argument("--pages", type=Path, default=ROOT / "text/corrected/pages")
+    ap.add_argument("--out", type=Path, default=HERE / "src/LinderWalberg.xml")
+    ap.add_argument("--no-greek-index", action="store_true")
+    args = ap.parse_args()
+
+    entries = [json.loads(l) for l in args.entries.read_text(encoding="utf-8").splitlines()]
+    entries = [e for e in entries if not re.fullmatch(r"[A-ZÅÄÖ][.)]?", e["text"].strip())]   # letter headings
+    parsed = []
+    heads: dict[str, str] = {}
+    for n, e in enumerate(entries):
+        head, rest = headword_of(e["text"])
+        parsed.append((entry_id(n), head, rest, e))
+        for f in index_forms(head, rest):
+            heads.setdefault(f.lower(), entry_id(n))
+    r = Renderer(heads)
+
+    args.out.parent.mkdir(parents=True, exist_ok=True)
+    with open(args.out, "w", encoding="utf-8") as out:
+        out.write('<?xml version="1.0" encoding="UTF-8"?>\n'
+                  '<d:dictionary xmlns="http://www.w3.org/1999/xhtml" '
+                  'xmlns:d="http://www.apple.com/DTDs/DictionaryService-1.0.rng">\n')
+        for eid, head, rest, e in parsed:
+            title = html.escape(re.sub(r"\(([^)]*)\)", "", head), quote=True)
+            out.write(f'<d:entry id="{eid}" d:title="{title}">\n')
+            for f in index_forms(head, rest):
+                out.write(f'<d:index d:value="{html.escape(f, quote=True)}" d:title="{html.escape(f, quote=True)}"/>\n')
+            if not args.no_greek_index:
+                for w in greek_index(rest):
+                    out.write(f'<d:index d:value="{html.escape(w, quote=True)}" d:title="{html.escape(w, quote=True)} → {title}" d:priority="2"/>\n')
+            printed = int(e["page"]) - 4
+            out.write(f'<h1 class="hw">{html.escape(head)}</h1>\n')
+            out.write(f'<div class="entry">{r.body(rest, head, int(eid[3:]))}</div>\n')
+            out.write(f'<div class="src">Linder &amp; Walberg 1862, s. {printed}</div>\n')
+            out.write('</d:entry>\n')
+        out.write(front_matter(args.pages))
+        out.write('</d:dictionary>\n')
+    print(f"{len(parsed)} entries -> {args.out}")
+
+
+def front_matter(pages: Path) -> str:
+    """The title page, preface and list of abbreviations as entries of their own."""
+    def paras(p: str) -> str:
+        text = (pages / f"{p}.txt").read_text(encoding="utf-8") if (pages / f"{p}.txt").exists() else ""
+        return "".join(f"<p>{html.escape(x.strip())}</p>" for x in text.split("\n\n") if x.strip())
+    preface = paras("0003") + paras("0004")
+    rows = "".join(
+        f'<tr><td class="abbr-col">{html.escape(a)}</td><td>{html.escape(x)}</td></tr>'
+        for a, x, _ in (l.split("\t") for l in (HERE / "abbreviations.tsv").read_text(encoding="utf-8").splitlines()[1:]))
+    return (
+        '<d:entry id="front_matter" d:title="Svenskt-grekiskt lexikon">\n'
+        '<d:index d:value="Svenskt-grekiskt lexikon"/><d:index d:value="Linder Walberg"/>\n'
+        '<h1 class="hw">Svenskt-grekiskt lexikon</h1>\n'
+        '<div class="front"><p class="byline">af C. Linder och C. W. Walberg. Upsala 1862.</p>'
+        '<p>Uppslag på svenska ord; grekiska ord söks fram till de svenska artiklar som återger dem. '
+        f'Se <a href="x-dictionary:r:lw_preface">Förord</a> och <a href="x-dictionary:r:lw_abbr">Förkortningar</a>.</p>'
+        '<p class="note">Texten är korrekturläst mot sidbilderna; tryckfel är rättade enligt bokens '
+        'tryckfelsförteckning och en formell granskning av grekiskan. Ordet efter * saknar auktoritet hos de '
+        'gamle författarne.</p></div>\n</d:entry>\n'
+        '<d:entry id="lw_preface" d:title="Förord">\n<d:index d:value="Förord"/>\n'
+        f'<h1 class="hw">Förord</h1>\n<div class="front">{preface}</div>\n</d:entry>\n'
+        '<d:entry id="lw_abbr" d:title="Förkortningar">\n<d:index d:value="Förkortningar"/>\n'
+        f'<h1 class="hw">Förkortningar</h1>\n<table class="abbrs">{rows}</table>\n</d:entry>\n'
+    )
+
+
+if __name__ == "__main__":
+    main()
