@@ -16,7 +16,17 @@ async function json(url) {
   if (!r.ok) throw new Error(url + " " + r.status);
   return r.json();
 }
-async function loadMeta() { meta = meta || await json("data/meta.json"); return meta; }
+async function loadMeta() {
+  if (!meta) {
+    meta = await json("data/meta.json");
+    // a favourite is kept by its headword (and its number among homographs), which stays
+    // the same when the dictionary is rebuilt; entry numbers may not
+    const seen = new Map();
+    meta.favKey = meta.titles.map((t) => { const k = (seen.get(t) || 0) + 1; seen.set(t, k); return k > 1 ? `${t}#${k}` : t; });
+    meta.byFavKey = new Map(meta.favKey.map((k, n) => [k, n]));
+  }
+  return meta;
+}
 // the search index, one file per first letter of the folded key
 async function loadKeys(f) {
   const code = f.codePointAt(0).toString(16);
@@ -38,16 +48,32 @@ const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&l
 
 // ---------------------------------------------------------------- favourites (on this phone)
 
-const FAV = "lw-favoriter";
-function favs() { try { return JSON.parse(localStorage.getItem(FAV)) || []; } catch { return []; } }
-function setFavs(list) { try { localStorage.setItem(FAV, JSON.stringify(list)); } catch { /* private mode */ } }
-function isFav(n) { return favs().includes(n); }
+// {headword key: {on, at}}: removals are kept (on: false) so that they reach other devices (sync.js)
+const FAV = "lw-favoriter-2", OLD_FAV = "lw-favoriter";
+function favStore() { try { return JSON.parse(localStorage.getItem(FAV)) || {}; } catch { return {}; } }
+function setFavStore(items) { try { localStorage.setItem(FAV, JSON.stringify(items)); } catch { /* private mode */ } }
+function migrateFavs() {          // the first version kept a list of entry numbers
+  try {
+    const old = JSON.parse(localStorage.getItem(OLD_FAV));
+    if (!Array.isArray(old)) return;
+    const items = favStore(), now = Date.now();
+    old.forEach((n, i) => { const k = meta.favKey[n]; if (k && !items[k]) items[k] = { on: true, at: now - i }; });
+    setFavStore(items);
+    localStorage.removeItem(OLD_FAV);
+  } catch { /* nothing to move */ }
+}
+// favourites as entry numbers, the latest first
+function favs() {
+  return Object.entries(favStore()).filter(([k, v]) => v.on && meta.byFavKey.has(k))
+    .sort((a, b) => b[1].at - a[1].at).map(([k]) => meta.byFavKey.get(k));
+}
+function isFav(n) { const v = favStore()[meta.favKey[n]]; return !!(v && v.on); }
 function toggleFav(n) {
-  const list = favs();
-  const i = list.indexOf(n);
-  if (i >= 0) list.splice(i, 1); else list.unshift(n);
-  setFavs(list);
-  return i < 0;
+  const items = favStore(), on = !isFav(n);
+  items[meta.favKey[n]] = { on, at: Date.now() };
+  setFavStore(items);
+  Sync.schedule();
+  return on;
 }
 
 // ---------------------------------------------------------------- search
@@ -127,12 +153,42 @@ async function showDay() {
   $("#back").hidden = true;
 }
 
+// one line on the state of the sync, shown only to those who signed in
+function syncLine() {
+  if (!Sync.user()) return "";
+  const s = Sync.status(), who = esc(Sync.user());
+  const text = {
+    syncing: `Synkar med ${who} på Hugging Face …`,
+    ok: `Synkade med ${who} på Hugging Face ${s.at ? new Date(s.at).toLocaleTimeString("sv-SE", { hour: "2-digit", minute: "2-digit" }) : ""}`,
+    offline: "Ingen anslutning – synkar när du är online igen.",
+    expired: `Inloggningen har gått ut. <a href="#om">Logga in igen</a>`,
+    error: `Kunde inte synka med Hugging Face.`,
+  }[s.state] || `Synkas med ${who} på Hugging Face`;
+  return `<p class="sync-line">${text}</p>`;
+}
+
 function showFavs() {
   setBar("list", "Favoriter");
   const list = favs();
-  view.innerHTML = list.length
+  view.innerHTML = syncLine() + (list.length
     ? `<ul class="results">${list.map((n) => `<li><a href="#e/${n}"><span class="key">${esc(meta.titles[n] || "")}</span></a></li>`).join("")}</ul>`
-    : `<p class="empty">Inga favoriter ännu.<br>Tryck på stjärnan i en artikel för att spara den här.</p>`;
+    : `<p class="empty">Inga favoriter ännu.<br>Tryck på stjärnan i en artikel för att spara den här.</p>`);
+}
+
+// the sign-in rows under Om; nothing at all where sign-in is not available (outside the Space)
+function syncSection() {
+  if (!Sync.available()) return "";
+  const user = Sync.user();
+  if (!user) return `<p class="list-head">Synkronisering</p>
+    <ul class="links"><li><a href="#" id="hf-login">Logga in med Hugging Face</a></li></ul>
+    <p class="small">Valfritt. Favoriterna sparas då i ett privat dataset på ditt Hugging Face-konto och följer med
+    mellan dator och telefon. Appen kommer bara åt det datasetet.</p>`;
+  const expired = Sync.status().state === "expired";
+  return `<p class="list-head">Synkronisering</p>
+    <ul class="links">
+      ${expired ? `<li><a href="#" id="hf-login">Logga in igen <span>${esc(user)}</span></a></li>` : `<li><a href="#fav">Favoriterna synkas <span>${esc(user)}</span></a></li>`}
+      <li><a href="#" id="hf-logout">Logga ut <span>favoriterna finns kvar här</span></a></li>
+    </ul>`;
 }
 
 async function showLoci() {
@@ -157,6 +213,7 @@ function showAbout() {
       <li><a href="#e/${s.lw_linder}">Carl Wilhelm Linder</a></li>
       <li><a href="#e/${s.lw_walberg}">Carl August Walberg</a></li>
     </ul>
+    ${syncSection()}
     <p class="list-head">Källor och data</p>
     <ul class="links">
       <li><a href="https://github.com/Urdatorn/linder-walberg" target="_blank" rel="noopener">Källkod <span>GitHub</span></a></li>
@@ -225,7 +282,27 @@ new ResizeObserver(measureBars).observe($("#tabs"));
 window.addEventListener("resize", measureBars);
 measureBars();
 window.addEventListener("hashchange", route);
-route();
-loadMeta().catch(() => {});
+view.addEventListener("click", (e) => {
+  const id = e.target.closest("a") && e.target.closest("a").id;
+  if (id === "hf-login") { e.preventDefault(); Sync.login(); }
+  if (id === "hf-logout") { e.preventDefault(); Sync.logout(); showAbout(); }
+});
+Sync.onStatus(() => {
+  const h = location.hash;
+  if (h === "#fav") showFavs();
+  if (h === "#om") showAbout();
+});
+(async () => {
+  try { await loadMeta(); migrateFavs(); } catch { /* route() reports it */ }
+  await Sync.init({
+    get: favStore, set: setFavStore,
+    changed: () => {           // favourites arrived from another device
+      const star = $("#star");
+      if (!star.hidden) star.setAttribute("aria-pressed", String(isFav(Number(star.dataset.n))));
+      if (location.hash === "#fav") showFavs();
+    },
+  });
+  route();
+})();
 
 if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});

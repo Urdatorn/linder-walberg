@@ -114,6 +114,8 @@ body {
 }
 .about .links a span { color: var(--tab); font: 14px var(--ui); }
 .small { color: var(--tab); font: 13px/1.5 var(--ui); }
+.sync-line { color: var(--tab); font: 13px/1.4 var(--ui); margin: 2px 0 6px; }
+.sync-line a { color: var(--link); }
 
 /* bottom tabs */
 #tabs {
