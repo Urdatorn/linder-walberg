@@ -143,3 +143,13 @@ body {
 
 /* Greek in Porson, which has one weight: set off by colour, as Porson Greek is printed */
 .entry-page span.gk, .entry-page .gk, .results .key.greek { font-family: var(--gk); font-weight: 400; font-size: 1.08em; }
+
+/* a tapped abbreviation's full form */
+#note {
+    position: fixed; z-index: 20; max-width: min(320px, calc(100vw - 16px));
+    padding: 6px 10px; border-radius: 8px;
+    background: var(--ink); color: var(--page); font: 14px/1.35 var(--sv);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18); pointer-events: none;
+}
+.entry-page span[title] { cursor: help; }
+.entry-page .gk { cursor: pointer; }

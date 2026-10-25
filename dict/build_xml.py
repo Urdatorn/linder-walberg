@@ -77,6 +77,10 @@ def load_abbreviations() -> tuple[dict[str, str], set[str]]:
 ABBR, GRAMMATICAL = load_abbreviations()
 # longest first, so "t. ex." wins over "t."; each must stand as a word
 ABBR_RE = re.compile(r"(?<![\w.])(" + "|".join(re.escape(a) for a in sorted(ABBR, key=len, reverse=True)) + r")(?![\w])")
+# "hr" (hvar, p. 540) as the first part of a word: hrifrån, hrandra, hrje; the rest may be
+# abbreviated in its turn: hrm. (hvarmed), hrigm (hvarigenom), hrifr., hrkn (hvarken)
+HVAR_RE = r"(?<![\w.])hr(?P<hvar>m\.|ifr\.|[a-zåäö]+)(?![\w])"
+HVAR_REST = {"m.": "med", "ifr.": "ifrån", "igm": "igenom", "gm": "genom", "kn": "ken"}
 
 
 def headword_of(text: str) -> tuple[str, str]:
@@ -183,17 +187,20 @@ class Renderer:
 
     def words(self, text: str, head: str, initial: str) -> str:
         out, pos = [], 0
-        token = re.compile(ABBR_RE.pattern + rf"|(?<![\w.])({re.escape(initial)}(?::[a-zåäö]+\.?|\.))(?![\w])"
-                           if initial.isalpha() else ABBR_RE.pattern)
+        token = re.compile(HVAR_RE + "|" + ABBR_RE.pattern
+                           + (rf"|(?<![\w.])({re.escape(initial)}(?::[a-zåäö]+\.?|\.))(?![\w])" if initial.isalpha() else ""))
         for m in token.finditer(text):
             out.append(html.escape(text[pos:m.start()]))
-            if m.group(1):
-                a = m.group(1)
+            if m.group("hvar"):
+                full = "hvar" + HVAR_REST.get(m.group("hvar"), m.group("hvar"))
+                out.append(f'<span class="abbr" title="{full}">{html.escape(m.group(0))}</span>')
+            elif m.group(2):                        # group 1 is hvar's
+                a = m.group(2)
                 cls = "abbr gram" if a in GRAMMATICAL else "abbr"
                 out.append(f'<span class="{cls}" title="{html.escape(ABBR[a])}">{html.escape(a)}</span>')
             else:
                 # the headword's initial standing for the headword: "göra a.", "ö:na"
-                out.append(f'<span class="hw-abbr" title="{html.escape(head)}">{html.escape(m.group(2))}</span>')
+                out.append(f'<span class="hw-abbr" title="{html.escape(head)}">{html.escape(m.group(3))}</span>')
             pos = m.end()
         out.append(html.escape(text[pos:]))
         return "".join(out)
@@ -439,6 +446,12 @@ def front_matter(pages: Path) -> list[dict]:
         text = (pages / f"{p}.txt").read_text(encoding="utf-8") if (pages / f"{p}.txt").exists() else ""
         return "".join(f"<p>{html.escape(x.strip())}</p>" for x in text.split("\n\n") if x.strip())
     preface = paras("0003") + paras("0004")
+    preface = re.sub(r"^<p>Förord\.</p>", "", preface)        # the page's own heading: the entry has one
+    # word endings cited as such, in italics as in print
+    preface = preface.replace("på -ande (-ing) och -are ej", "på <i>-ande</i> (<i>-ing</i>) och <i>-are</i> ej")
+    # the authors, in the division of the letters and in the signature, link to their entries
+    preface = re.sub(r"\b((?:C\. W\. )?Linder)\b", r'<a href="x-dictionary:r:lw_linder">\1</a>', preface)
+    preface = re.sub(r"\b((?:C\. A\. )?Walberg)\b", r'<a href="x-dictionary:r:lw_walberg">\1</a>', preface)
     rows = "".join(
         f'<tr><td class="abbr-col">{html.escape(a)}</td><td>{html.escape(x)}</td></tr>'
         for a, x, _ in (l.split("\t") for l in (HERE / "abbreviations.tsv").read_text(encoding="utf-8").splitlines()[1:]))

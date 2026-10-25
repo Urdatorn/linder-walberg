@@ -4,7 +4,9 @@ const VERSION = "lw-__VERSION__";
 const FILES = "__FILES__";
 
 self.addEventListener("install", (e) => {
-  e.waitUntil(caches.open(VERSION).then((c) => c.addAll(["./", ...FILES])).then(() => self.skipWaiting()));
+  // asked with the version, past any cache in front of the site; served for the plain URL (ignoreSearch)
+  const v = VERSION.slice(3);
+  e.waitUntil(caches.open(VERSION).then((c) => c.addAll(["./", ...FILES.map((f) => `${f}?v=${v}`)])).then(() => self.skipWaiting()));
 });
 self.addEventListener("activate", (e) => {
   e.waitUntil(caches.keys().then((names) => Promise.all(names.filter((n) => n !== VERSION).map((n) => caches.delete(n))))

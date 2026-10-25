@@ -4,6 +4,10 @@
 "use strict";
 
 const $ = (s) => document.querySelector(s);
+// the build's version (index.html loads app.js?v=…): asked of every data file, so that a
+// cache in front of the site (Cloudflare keeps .js and .json for hours) never mixes builds
+const VERSION = new URL(document.currentScript.src).searchParams.get("v") || "";
+const v = (url) => VERSION ? `${url}?v=${VERSION}` : url;
 const view = $("#view"), q = $("#q");
 let meta = null;
 const keyFiles = new Map();
@@ -12,7 +16,7 @@ const chunks = new Map();
 // ---------------------------------------------------------------- data
 
 async function json(url) {
-  const r = await fetch(url);
+  const r = await fetch(v(url));
   if (!r.ok) throw new Error(url + " " + r.status);
   return r.json();
 }
@@ -105,7 +109,7 @@ async function showSearch(query) {
   setBar("search");
   if (q.value !== query) q.value = query;
   if (!query.trim()) {
-    view.innerHTML = `<div class="front-page"><img src="front.png" alt="Svenskt-grekiskt lexikon, utgifvet af C. W. Linder och C. A. Walberg"></div>`;
+    view.innerHTML = `<div class="front-page"><img src="${v("front.png")}" alt="Svenskt-grekiskt lexikon, utgifvet af C. W. Linder och C. A. Walberg"></div>`;
     return;
   }
   const token = ++searchToken;
@@ -282,10 +286,54 @@ new ResizeObserver(measureBars).observe($("#tabs"));
 window.addEventListener("resize", measureBars);
 measureBars();
 window.addEventListener("hashchange", route);
+// a note for what has one (an abbreviation's full form, the headword behind its initial),
+// shown on a tap, since phones have no hover
+const note = document.createElement("div");
+note.id = "note"; note.hidden = true; note.setAttribute("role", "tooltip");
+document.body.append(note);
+function showNote(el) {
+  note.textContent = el.title;
+  note.hidden = false;
+  const r = el.getBoundingClientRect(), w = note.offsetWidth, h = note.offsetHeight;
+  note.style.left = Math.max(8, Math.min(window.innerWidth - w - 8, r.left + r.width / 2 - w / 2)) + "px";
+  note.style.top = (r.top - h - 8 > $("#bar").getBoundingClientRect().bottom ? r.top - h - 8 : r.bottom + 8) + "px";
+}
+const hideNote = () => { note.hidden = true; };
+window.addEventListener("scroll", hideNote, { passive: true });
+window.addEventListener("hashchange", hideNote);
+
+// the Greek word under a tap, whole: letters with their accents, an elision mark inside
+const GREEK_CHAR = /[\p{Script=Greek}\p{M}’'ʼ᾽]/u;
+function greekWordAt(x, y) {
+  let node, off;
+  if (document.caretPositionFromPoint) {
+    const p = document.caretPositionFromPoint(x, y); if (!p) return "";
+    node = p.offsetNode; off = p.offset;
+  } else if (document.caretRangeFromPoint) {
+    const r = document.caretRangeFromPoint(x, y); if (!r) return "";
+    node = r.startContainer; off = r.startOffset;
+  }
+  if (!node || node.nodeType !== Node.TEXT_NODE) return "";
+  const t = node.data;
+  let a = off, b = off;
+  while (a > 0 && GREEK_CHAR.test(t[a - 1])) a--;
+  while (b < t.length && GREEK_CHAR.test(t[b])) b++;
+  return t.slice(a, b).replace(/^['’ʼ᾽]+|['’ʼ᾽]+$/g, "");
+}
+
 view.addEventListener("click", (e) => {
-  const id = e.target.closest("a") && e.target.closest("a").id;
-  if (id === "hf-login") { e.preventDefault(); Sync.login(); }
-  if (id === "hf-logout") { e.preventDefault(); Sync.logout(); showAbout(); }
+  const a = e.target.closest("a");
+  if (a && a.id === "hf-login") { e.preventDefault(); Sync.login(); return; }
+  if (a && a.id === "hf-logout") { e.preventDefault(); Sync.logout(); showAbout(); return; }
+  if (a) return;
+  const titled = e.target.closest(".entry-page span[title]");
+  if (titled) { if (note.hidden || note.textContent !== titled.title) showNote(titled); else hideNote(); return; }
+  hideNote();
+  // a Greek word: search for it
+  if (e.target.closest(".entry-page .gk")) {
+    const word = greekWordAt(e.clientX, e.clientY);
+    if (word && /\p{Script=Greek}/u.test(word)) location.hash = "#s/" + encodeURIComponent(word);
+  }
 });
 Sync.onStatus(() => {
   const h = location.hash;
@@ -305,4 +353,4 @@ Sync.onStatus(() => {
   route();
 })();
 
-if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+if ("serviceWorker" in navigator) navigator.serviceWorker.register(v("sw.js")).catch(() => {});

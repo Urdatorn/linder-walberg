@@ -12,6 +12,7 @@ entries as the Dictionary.app edition (dict/build_xml.compile_entries).
 
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 import shutil
@@ -84,7 +85,14 @@ def main() -> None:
     css = (ROOT / "dict/src/LinderWalberg.css").read_text(encoding="utf-8")
     (DIST / "dictionary.css").write_text(css, encoding="utf-8")
     files = sorted(str(p.relative_to(DIST)) for p in DIST.rglob("*") if p.is_file() and p.name != "sw.js")
-    version = str(abs(hash(tuple((f, (DIST / f).stat().st_size) for f in files))) % 10 ** 8)
+    digest = hashlib.sha256()
+    for f in files:
+        digest.update(f.encode() + b"\0" + (DIST / f).read_bytes())
+    version = digest.hexdigest()[:10]
+    # the page asks for its scripts and styles with the version (app.js passes it on to data and sw.js)
+    page = (DIST / "index.html").read_text(encoding="utf-8")
+    page = re.sub(r'(<(?:script src|link rel="stylesheet" href)=")([\w./-]+\.(?:js|css))"', rf'\1\2?v={version}"', page)
+    (DIST / "index.html").write_text(page, encoding="utf-8")
     sw = (DIST / "sw.js").read_text(encoding="utf-8")
     (DIST / "sw.js").write_text(sw.replace("__VERSION__", version).replace('"__FILES__"', json.dumps(files)),
                                 encoding="utf-8")
