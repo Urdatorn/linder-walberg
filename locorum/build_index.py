@@ -65,8 +65,11 @@ class LSJ:
         homer["works"].update({"Il.": "Ilias", "Od.": "Odyssea"})
         self.by_abbr["Il."] = self.by_abbr["Od."] = [homer]
 
-    def author(self, abbr: str | None, hint: str | None = None) -> dict | None:
+    def author(self, abbr: str | None, hint: str | None = None, work: str | None = None) -> dict | None:
         cands = self.by_abbr.get(abbr or "", [])
+        # several authors share an abbreviation (Ammon.): the one whose works include the cited work
+        if len(cands) > 1 and work and any(work in a["works"] for a in cands):
+            cands = [a for a in cands if work in a["works"]]
         if len(cands) > 1 and hint:
             cands = sorted(cands, key=lambda a: -len(set(fold(hint).split()) & set(fold(a["name"] + " " + a["desc"]).split())))
         return cands[0] if cands else None
@@ -95,6 +98,19 @@ class LSJ:
                 if fold(full) and (fold(full) in t or t in fold(full)):
                     return w, full
         return "", ""
+
+
+def lsj_cite(author: dict, w: str, full: str, cite: str) -> tuple[str, str, str]:
+    """Editions' own section names in LSJ's form."""
+    cite = re.sub(r"ross_section_(\d+)", r"\1", cite)               # Arist. Pol.: section numbers
+    if author["abbr"] == "Arist." and w == "APr." and cite.startswith("posteriora."):
+        w, full, cite = "APo.", author["works"].get("APo.", "Analytica Posteriora"), cite[len("posteriora."):]
+    elif author["abbr"] == "Arist." and cite.startswith("priora."):
+        cite = cite[len("priora."):]
+    if author["abbr"] == "D.Chr." and "." in cite:                  # all orations in one TLG work
+        w, cite = cite.split(".", 1)
+        w, full = w.replace("_", "/"), ""
+    return w, full, cite
 
 
 def cite_key(c: str) -> tuple:
@@ -160,7 +176,7 @@ def main() -> None:
         for work, cite in os_:
             group = work.split(".")[0]
             a_abbr, w_abbr = lsj.tlg_work.get(work, [lsj.tlg_group.get(group), ""])
-            author = lsj.author(a_abbr, names.cts(group, None)[0]) if a_abbr else None
+            author = lsj.author(a_abbr, names.cts(group, None)[0], w_abbr) if a_abbr else None
             if author is None:
                 others.add(group)
                 continue
@@ -174,6 +190,7 @@ def main() -> None:
                 w, full = "", ""                               # one work (Th.): cited without title
             else:
                 w, full = "", names.cts(group, work.split(".")[1])[1] or ""   # not cited in LSJ: catalogue title
+            w, full, cite = lsj_cite(author, w, full, cite)
             by_author[(author["name"], author["desc"], author["abbr"])][(w, full)].add(cite)
         n_authors = len(by_author) + len(others)
         n_works = sum(len(v) for v in by_author.values())

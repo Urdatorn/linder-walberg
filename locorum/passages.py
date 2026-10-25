@@ -26,6 +26,8 @@ ROOT = Path(__file__).resolve().parent.parent
 TEI = ROOT / "ocr_runs/tei"
 CACHE = TEI / "cache"
 SKIP = {"note", "head", "teiHeader", "bibl", "app", "rdg", "del", "ref", "label", "figure", "speaker"}
+# sections an edition adds to the text: the editor's word indices, addenda, appendices, introduction
+EDITORIAL = re.compile(r"^(indices|index.*|addenda|corrigenda|appendix|introduction)$", re.I)
 
 
 class Reader(xml.sax.ContentHandler):
@@ -53,9 +55,12 @@ class Reader(xml.sax.ContentHandler):
             self.in_body = True
         if name in SKIP:
             self.skip += 1
+        elif name == "div" and EDITORIAL.match(attrs.get("n") or ""):
+            self.skip += 1
+            self.divs.append(None)
+            self.editorial = getattr(self, "editorial", []) + [len(self.divs)]
         elif name == "div":
-            self.divs.append(attrs.get("n") if attrs.get("type") in ("textpart", "edition") and
-                             attrs.get("type") == "textpart" else None)
+            self.divs.append(attrs.get("n") if attrs.get("type") == "textpart" else None)
             self.milestone = None
             self.line = None
         elif name == "milestone" and attrs.get("unit") == "section" and attrs.get("n"):
@@ -70,6 +75,9 @@ class Reader(xml.sax.ContentHandler):
         if name in SKIP:
             self.skip -= 1
         elif name == "div" and self.divs:
+            if getattr(self, "editorial", None) and self.editorial[-1] == len(self.divs):
+                self.editorial.pop()
+                self.skip -= 1
             self.divs.pop()
             self.milestone = None
         elif name == "l":

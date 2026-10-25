@@ -739,30 +739,61 @@
  },
  {
   "name": "Ammonius",
-  "desc": "Epigrammaticus",
+  "desc": "Grammaticus",
   "abbr": "Ammon.",
   "works": [
    {
-    "abbr": "in APr.",
+    "abbr": "Diff.",
     "title": "",
     "loci": [
      {
-      "greek": "ἀποβλέπειν εἰς, πρός τι",
+      "greek": "ἐπιστήμῃ τε καὶ ἐμπειρίᾳ",
       "cites": [
-       "indices.index_verb"
+       "16.390"
       ],
       "entries": [
        {
-        "headword": "Afseende",
-        "page": "0011"
+        "headword": "Theorem",
+        "page": "0448"
+       }
+      ]
+     },
+     {
+      "greek": "αἱ τῶν ῥινῶν",
+      "cites": [
+       "17.429"
+      ],
+      "entries": [
+       {
+        "headword": "Näshår",
+        "page": "0305"
+       }
+      ]
+     },
+     {
+      "greek": "ἡ τῆς μητρὸς ἀδελφή",
+      "cites": [
+       "19.469"
+      ],
+      "entries": [
+       {
+        "headword": "Moster",
+        "page": "0283"
        }
       ]
      }
     ]
-   },
+   }
+  ]
+ },
+ {
+  "name": "Ammonius",
+  "desc": "Philosophus",
+  "abbr": "Ammon.",
+  "works": [
    {
     "abbr": "in Int.",
-    "title": "",
+    "title": "in Aristotelis de Interpretatione commentarius",
     "loci": [
      {
       "greek": "εἰ πᾶσα ἀνάγκη",
@@ -809,55 +840,6 @@
        {
         "headword": "Qvalificera",
         "page": "0351"
-       }
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
-  "name": "Ammonius",
-  "desc": "Grammaticus",
-  "abbr": "Ammon.",
-  "works": [
-   {
-    "abbr": "Diff.",
-    "title": "",
-    "loci": [
-     {
-      "greek": "ἐπιστήμῃ τε καὶ ἐμπειρίᾳ",
-      "cites": [
-       "16.390"
-      ],
-      "entries": [
-       {
-        "headword": "Theorem",
-        "page": "0448"
-       }
-      ]
-     },
-     {
-      "greek": "αἱ τῶν ῥινῶν",
-      "cites": [
-       "17.429"
-      ],
-      "entries": [
-       {
-        "headword": "Näshår",
-        "page": "0305"
-       }
-      ]
-     },
-     {
-      "greek": "ἡ τῆς μητρὸς ἀδελφή",
-      "cites": [
-       "19.469"
-      ],
-      "entries": [
-       {
-        "headword": "Moster",
-        "page": "0283"
        }
       ]
      }
@@ -1721,25 +1703,6 @@
   "abbr": "Arist.",
   "works": [
    {
-    "abbr": "APr.",
-    "title": "Analytica Priora",
-    "loci": [
-     {
-      "greek": "ἡ σελήνη ἀπολείπει",
-      "cites": [
-       "posteriora.2.15",
-       "2.2.15"
-      ],
-      "entries": [
-       {
-        "headword": "Aftaga",
-        "page": "0013"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "abbr": "Ath.",
     "title": "",
     "loci": [
@@ -2025,7 +1988,7 @@
      {
       "greek": "κοινωνία ἡ πολιτική",
       "cites": [
-       "1.ross_section_1",
+       "1.1",
        "4.1295b"
       ],
       "entries": [
@@ -2038,7 +2001,7 @@
      {
       "greek": "τὴν τροφὴν ἐπιμέλεια",
       "cites": [
-       "1.ross_section_8"
+       "1.8"
       ],
       "entries": [
        {
@@ -2086,7 +2049,7 @@
      {
       "greek": "ὀλίγοι τὸ πλῆθος",
       "cites": [
-       "3.ross_section_8"
+       "3.8"
       ],
       "entries": [
        {
@@ -2110,7 +2073,7 @@
      {
       "greek": "ἐπὶ πολλῶν ἄν τις ἴδοι",
       "cites": [
-       "5.ross_section_5"
+       "5.5"
       ],
       "entries": [
        {
@@ -2122,7 +2085,7 @@
      {
       "greek": "τὰ περὶ τὴν διάνοιαν",
       "cites": [
-       "7.ross_section_1"
+       "7.1"
       ],
       "entries": [
        {
@@ -3785,39 +3748,13 @@
   "abbr": "D.Chr.",
   "works": [
    {
-    "abbr": "1",
+    "abbr": "77/78",
     "title": "",
     "loci": [
      {
-      "greek": "οὐκ ἔξεστι ποιεῖν τι",
-      "cites": [
-       "6.53"
-      ],
-      "entries": [
-       {
-        "headword": "Oloflig",
-        "page": "0316"
-       }
-      ]
-     },
-     {
-      "greek": "ὡς οἷόν τε τάχιστα",
-      "cites": [
-       "29.12",
-       "58.1"
-      ],
-      "entries": [
-       {
-        "headword": "Kunna",
-        "page": "0233"
-       }
-      ]
-     },
-     {
       "greek": "πρὸς χάριν ὁμιλεῖν τινι",
       "cites": [
-       "33.3",
-       "77_78.33"
+       "33"
       ],
       "entries": [
        {
@@ -3825,11 +3762,71 @@
         "page": "0034"
        }
       ]
-     },
+     }
+    ]
+   },
+   {
+    "abbr": "6",
+    "title": "",
+    "loci": [
+     {
+      "greek": "οὐκ ἔξεστι ποιεῖν τι",
+      "cites": [
+       "53"
+      ],
+      "entries": [
+       {
+        "headword": "Oloflig",
+        "page": "0316"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "abbr": "29",
+    "title": "",
+    "loci": [
+     {
+      "greek": "ὡς οἷόν τε τάχιστα",
+      "cites": [
+       "12"
+      ],
+      "entries": [
+       {
+        "headword": "Kunna",
+        "page": "0233"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "abbr": "33",
+    "title": "",
+    "loci": [
+     {
+      "greek": "πρὸς χάριν ὁμιλεῖν τινι",
+      "cites": [
+       "3"
+      ],
+      "entries": [
+       {
+        "headword": "Behag",
+        "page": "0034"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "abbr": "37",
+    "title": "",
+    "loci": [
      {
       "greek": "τὸ πολιτικὸν ἀξίωμά τινος",
       "cites": [
-       "37.25"
+       "25"
       ],
       "entries": [
        {
@@ -3837,11 +3834,17 @@
         "page": "0431"
        }
       ]
-     },
+     }
+    ]
+   },
+   {
+    "abbr": "40",
+    "title": "",
+    "loci": [
      {
       "greek": "τὴν πόλιν ὠφελεῖν",
       "cites": [
-       "40.19"
+       "19"
       ],
       "entries": [
        {
@@ -3849,11 +3852,17 @@
         "page": "0335"
        }
       ]
-     },
+     }
+    ]
+   },
+   {
+    "abbr": "46",
+    "title": "",
+    "loci": [
      {
       "greek": "τὰ δίκαια ποιεῖν περί τινος",
       "cites": [
-       "46.2"
+       "2"
       ],
       "entries": [
        {
@@ -3861,11 +3870,35 @@
         "page": "0371"
        }
       ]
-     },
+     }
+    ]
+   },
+   {
+    "abbr": "58",
+    "title": "",
+    "loci": [
+     {
+      "greek": "ὡς οἷόν τε τάχιστα",
+      "cites": [
+       "1"
+      ],
+      "entries": [
+       {
+        "headword": "Kunna",
+        "page": "0233"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "abbr": "84",
+    "title": "",
+    "loci": [
      {
       "greek": "πολλοῦ ἄξιον εἶναί τινι",
       "cites": [
-       "84.1"
+       "1"
       ],
       "entries": [
        {
@@ -5722,12 +5755,12 @@
  },
  {
   "name": "Heliodorus",
-  "desc": "Medicus",
+  "desc": "Philosophus",
   "abbr": "Heliod.",
   "works": [
    {
     "abbr": "in EN",
-    "title": "",
+    "title": "in Ethica Nicomachea paraphrasis",
     "loci": [
      {
       "greek": "ἐν ἔθει εἶναι",
@@ -8899,6 +8932,18 @@
         "page": "0188"
        }
       ]
+     },
+     {
+      "greek": "ὁ νῦν χρόνος",
+      "cites": [
+       "3"
+      ],
+      "entries": [
+       {
+        "headword": "Nutid",
+        "page": "0301"
+       }
+      ]
      }
     ]
    },
@@ -8959,24 +9004,6 @@
        {
         "headword": "Tal",
         "page": "0443"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "in Mete.",
-    "title": "in Aristotelis Meteorologicorum librum primum commentarium",
-    "loci": [
-     {
-      "greek": "φῶς τὸ τοῦ ἡλίου",
-      "cites": [
-       "indices.index_verb"
-      ],
-      "entries": [
-       {
-        "headword": "Solljus",
-        "page": "0414"
        }
       ]
      }
@@ -12418,10 +12445,17 @@
       ]
      }
     ]
-   },
+   }
+  ]
+ },
+ {
+  "name": "Ptolemaeus",
+  "desc": "Mathematicus",
+  "abbr": "Ptol.",
+  "works": [
    {
     "abbr": "Tetr.",
-    "title": "",
+    "title": "Tetrabiblos",
     "loci": [
      {
       "greek": "δι’ ἔνδειαν τῶν ἐπιτηδείων",
@@ -12981,36 +13015,6 @@
   "desc": "Sophista",
   "abbr": "Them.",
   "works": [
-   {
-    "abbr": "in APo.",
-    "title": "Aristotelis Analyticorum Posteriorum paraphrasis",
-    "loci": [
-     {
-      "greek": "(ἀπο-, ἐκ)διδόναι",
-      "cites": [
-       "index_verb"
-      ],
-      "entries": [
-       {
-        "headword": "Bortgifva",
-        "page": "0056"
-       }
-      ]
-     },
-     {
-      "greek": "ἐάν τε, ἐάν τε",
-      "cites": [
-       "index_verb"
-      ],
-      "entries": [
-       {
-        "headword": "Vara",
-        "page": "0503"
-       }
-      ]
-     }
-    ]
-   },
    {
     "abbr": "in PN",
     "title": "Themistii (Sophoniae) in Parva Naturalia commentarium",

@@ -275,7 +275,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 273	Afseende	7	göra a. på, fästa a. vid	ὑπόλογον ποιεῖσθαί τινος	3	0	0	not found
 274	Afseende	7	göra a. på, fästa a. vid	ἐν ὑπολόγῳ ποιεῖσθαί τι	4	0	5	found only in modern works
 275	Afseende	7	göra a. på, fästa a. vid	λόγον ἔχειν τινός	3	0	0	not found
-276	Afseende	7	göra a. på, fästa a. vid	ἀποβλέπειν εἰς, πρός τι	4	1	12	locus
+276	Afseende	7	göra a. på, fästa a. vid	ἀποβλέπειν εἰς, πρός τι	4	0	12	found only in modern works
 277	Afseende	7	fästa intet a. vid	οὐδένα λόγον ποιεῖσθαί τινος	4	0	23	found only in modern works
 278	Afseende	7	fästa intet a. vid	ἀμελεῖν, καταφρονεῖν, ὀλιγωρεῖν τινος	4	0	0	not found
 279	Afsides	7	skaffa, bringa a.	ἐκποδὼν ποιεῖν, -σθαι	3	0	0	not found
@@ -376,7 +376,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 374	Aftaga	9	a. hud	ἀπο-, ἐκδέρειν, ἀποδερματοῦν	3	0	0	not found
 375	Aftaga	9	intr., minskas, försvagas	λωφᾶν, λήγειν, ἀποπαύεσθαι	3	0	0	not found
 376	Aftaga	9	intr., minskas, försvagas	ἐπι-, ἀπο-, ἐκ-, ὑπολείπειν	4	0	0	not found
-377	Aftaga	9	månen aftager	ἡ σελήνη ἀπολείπει	3	1	14	locus
+377	Aftaga	9	månen aftager	ἡ σελήνη ἀπολείπει	3	1	14	stock phrase
 378	Aftagande	9		ἀφ-, καθ-, περιαίρεσις	3	0	0	not found
 379	Aftal	9	enligt a.	κατὰ τὴν ὁμολογίαν	3	3	93	stock phrase
 380	Aftal	9	enligt a.	ἐκ τῶν ὡμολογημένων	3	12	221	stock phrase
@@ -481,7 +481,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 479	All	12	starkare	ἅπας, σύμπας, ασα, αν	4	0	0	not found
 480	All	12	alla utan undantag	οὐδεὶς ὅστις οὐ	3	18	316	stock phrase
 481	All	12	alla utan undantag	οὐκ ἔστιν ὅστις οὐ	4	5	41	stock phrase
-482	All	12	alla en och hvar	οἱ καθ’ ἕκαστον	3	17	146	stock phrase
+482	All	12	alla en och hvar	οἱ καθ’ ἕκαστον	3	16	146	stock phrase
 483	All	12	alla, s.	ὅσοι, ὅσαι, ὅσα	3	0	0	not found
 484	All	12	vara ngns allt	πάντα εἶναί τινι	3	0	0	not found
 485	All	12	göra allt för att	πάντα ποιεῖν ὥστε	3	3	35	stock phrase
@@ -514,7 +514,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 512	Allmänhet	12	smickra allmänheten	θεραπεύειν τοὺς πολλούς	3	0	1	found only in modern works
 513	Allmänhet	12	behaga allmänheten	εὐδοκιμεῖν παρὰ τοῖς πολλοῖς	4	1	4	locus
 514	Allmänhet	12	i a.	τὸ ὅλον, ὅλως, καθόλου	4	0	2	found only in modern works
-515	Allmänhet	12	i a.	(ὡς) ἐπὶ τὸ πολύ	4	169	3591	stock phrase
+515	Allmänhet	12	i a.	(ὡς) ἐπὶ τὸ πολύ	4	167	3591	stock phrase
 516	Allmänhet	12	i a.	ἐπὶ τὸ πλῆθος	3	25	355	stock phrase
 517	Allra	12		ἐν τοῖς πρῶτος	3	0	16	found only in modern works
 518	Allra	12	a. mest	ἐν τοῖς μάλιστα	3	95	1330	stock phrase
@@ -734,7 +734,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 732	Anmärkning	17	iakttagelse	κατανόημα, παρατήρημα, τό	3	0	0	not found
 733	Annan	17	— alius:	ἄλλος, η, ο	3	12	108	stock phrase
 734	Annan	17	en a. har gjort detta, icke jag	ἄλλος τις τοῦτο ἐποίησεν, οὐκ ἔγωγε	6	0	0	not found
-735	Annan	17	en a. och åter en a.	ἄλλος καὶ ἄλλος	3	14	141	stock phrase
+735	Annan	17	en a. och åter en a.	ἄλλος καὶ ἄλλος	3	11	141	stock phrase
 736	Annan	17	en efter a.	ἄλλος ἐξ ἄλλου	3	10	97	stock phrase
 737	Annan	17	en efter a.	ἄλλος ἐπ’ ἄλλῳ	3	15	308	stock phrase
 738	Annan	17	från något, intet annat håll, ställe	ἄλλοθέν ποθεν, οὐδαμόθεν ἄλλοθεν	4	0	0	not found
@@ -1132,7 +1132,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 1130	Becksvart	27	vara b.	πισσίζειν τὴν χρόαν	3	0	1	found only in modern works
 1131	Bedagad	27		τῇ ἡλικίᾳ προβεβηκώς, υῖα	4	0	0	not found
 1132	Bedja	27	till Gud	εὐχὰς ποιεῖσθαι τῷ θεῷ	4	0	0	not found
-1133	Bedja	27	till Gud	πρὸς τὸν θεόν	3	196	10228	stock phrase
+1133	Bedja	27	till Gud	πρὸς τὸν θεόν	3	193	10228	stock phrase
 1134	Bedja	27	till Gud	προς-, ἐπεύχεσθαί τινι	3	0	0	not found
 1135	Bedja	27	i allmht, b. ngn om ngt	δεῖσθαί τινός τι	3	0	0	not found
 1136	Bedja	27	i allmht, b. ngn om ngt	δεήσεις ποιεῖσθαι πρός τινα	4	0	0	not found
@@ -2271,7 +2271,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 2269	Bortefter	52		παρά, ἀνά, κατά	3	0	1	found only in modern works
 2270	Bortföra	52	b. ngt m. sig	ἄγειν τι μεθ’ αὑτοῦ	4	0	0	not found
 2271	Bortgifta	52	b. sin dotter m. ngn	συνοικίζειν, ἐκδιδόναι, ἐκδίδοσθαι τὴν θυγατέρα τινί	6	0	0	not found
-2272	Bortgifva	52		(ἀπο-, ἐκ)διδόναι	3	1	1	locus
+2272	Bortgifva	52		(ἀπο-, ἐκ)διδόναι	3	0	1	found only in modern works
 2273	Bortgifva	52	b. ett embete åt ngn	ἐπιτρέπειν, νέμειν τινὶ ἀρχήν	4	0	0	not found
 2274	Bortgråta	52		κλαίοντα ἐξ-, διαντλεῖν	3	0	0	not found
 2275	Bortgå	52	b. fr. ett ställe	ἐκ τόπου τινός	3	0	0	not found
@@ -2868,7 +2868,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 2866	Dermed	67	i temp. bet.	εὐθὺς ταῦτα ποιήσας ἀπῄει	4	0	0	not found
 2867	Dermed	67	d. stod han upp	ἅμα ταῦτα εἰπὼν ἀνέστη	4	0	11	found only in modern works
 2868	Dernäst	67		μετὰ δὲ τοῦτο	3	124	3164	stock phrase
-2869	Dernäst	67		ἐκ δὲ τούτου	3	140	2731	stock phrase
+2869	Dernäst	67		ἐκ δὲ τούτου	3	139	2731	stock phrase
 2870	Deromkring	67		ἐν τῇ πέριξ χώρᾳ	4	0	0	not found
 2871	Deromkring	67		ἐν τῇ περιοικίδι	3	0	4	found only in modern works
 2872	Deromkring	67	folket d.	οἱ περίοικοι, περίχωροι, περιοικοῦντες	4	0	0	not found
@@ -2887,9 +2887,9 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 2885	Desertion	68		λειποταξία, λειποστρατία, ἀστρατεία, ἀπόλειψις	4	0	0	not found
 2886	Desertör	68		λειποτάκτης, λειποστρατιώτης, ου	3	0	0	not found
 2887	Dessemellan	68		ἐν τῷ μεταξὺ χρόνῳ	4	31	275	stock phrase
-2888	Dessutom	68		ἄλλως τε καί	3	288	6852	stock phrase
+2888	Dessutom	68		ἄλλως τε καί	3	287	6852	stock phrase
 2889	Dessutom	68		πρός, ἐπί, προσεπι-	3	0	0	not found
-2890	Detalj	68		τὰ καθ’ ἕκαστα	3	76	1077	stock phrase
+2890	Detalj	68		τὰ καθ’ ἕκαστα	3	74	1077	stock phrase
 2891	Detalj	68	i d.	καθ’ ἓν ἕκαστον	3	61	860	stock phrase
 2892	Detaljera	68		καθ’ ἓν ἕκαστον διελθεῖν	4	0	8	found only in modern works
 2893	Di(a)	68		θηλάζειν, -σθαι (τινά)	3	0	0	not found
@@ -3162,7 +3162,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 3160	Död	76		τελευτή (τοῦ βίου)	3	10	208	stock phrase
 3161	Död	76		ἀπαλλαγὴ τοῦ βίου	3	1	6	only in authors LSJ does not cite
 3162	Död	76		ἡ τοῦ βίου καταστροφή	4	1	8	locus
-3163	Död	76	en naturlig d.	ἡ κατὰ φύσιν	3	89	913	stock phrase
+3163	Död	76	en naturlig d.	ἡ κατὰ φύσιν	3	87	913	stock phrase
 3164	Död	76	vara nära döden	θανάσιμον ἤδη εἶναι	3	0	1	found only in modern works
 3165	Död	76	vara nära döden	εἶναι πρὸς τῷ τελευτᾶν	4	0	5	found only in modern works
 3166	Död	76	vara nära döden	ἐπὶ τῇ τελευτῇ τοῦ βίου	5	0	1	found only in modern works
@@ -3292,7 +3292,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 3290	Efter	78	= enligt, i öfverensstämmelse m.	κατὰ τὴν ἐμὴν γνώμην	4	10	150	stock phrase
 3291	Efter	78	= enligt, i öfverensstämmelse m.	ἐκ τῆς ἐμῆς γνώμης	4	0	0	not found
 3292	Efter	78	= enligt, i öfverensstämmelse m.	ἐκ τῶν ἐμοὶ δοξάντων	4	0	0	not found
-3293	Efter	78	döma e. lag	κατὰ τὸν νόμον	3	160	5803	stock phrase
+3293	Efter	78	döma e. lag	κατὰ τὸν νόμον	3	159	5803	stock phrase
 3294	Efter	78	döma e. lag	σὺν τῷ νόμῳ	3	2	50	stock phrase
 3295	Efter	78	döma e. lag	μετὰ τοῦ νόμου δικάζειν	4	0	0	not found
 3296	Efter	78	e. förmåga	ἐκ τῶν δυνατῶν	3	21	301	stock phrase
@@ -3462,7 +3462,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 3460	Emellertid	83	icke desto mindre, likväl	ἀλλὰ μέντοι οὐ μὴν ἀλλά	5	0	2	found only in modern works
 3461	Emellertid	83	icke desto mindre, likväl	οὐ μέντοι ἀλλά	3	10	171	stock phrase
 3462	Emot	83	på frågan: hvarthän	πρός, ἐπί, εἰς, κατά	4	0	1	found only in modern works
-3463	Emot	83	midt, gent e.	ἐκ τοῦ ἐναντίου	3	94	1634	stock phrase
+3463	Emot	83	midt, gent e.	ἐκ τοῦ ἐναντίου	3	93	1634	stock phrase
 3464	Emot	83	vid talbestämningar	ὡς, ἀμφί, περί	3	0	1	found only in modern works
 3465	Emot	83	e. lagen	παρὰ τὸν νόμον	3	57	1172	stock phrase
 3466	Emot	83	e. anständigheten	παρὰ τὸ πρέπον	3	7	107	stock phrase
@@ -3635,7 +3635,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 3633	Eskort	86		ἀγωγοί, προπομποί, οἱ	3	0	2	found only in modern works
 3634	Eskort	86	gifva ngn e.	προπομποὺς διδόναι τινί	3	0	0	not found
 3635	Eskortera	86		παραπέμπειν, (παρα)φυλάττειν	3	0	0	not found
-3636	Esomoftast	86		ὡς ἐπὶ τὸ πολύ	4	169	3591	stock phrase
+3636	Esomoftast	86		ὡς ἐπὶ τὸ πολύ	4	167	3591	stock phrase
 3637	Esse	86	vara i sitt e.	ἐν τῇ χώρᾳ	3	128	3378	stock phrase
 3638	Esse	86	vara i sitt e.	κατὰ τήν χώραν εἶναι	4	1	16	locus
 3639	Etter	86	ormgift	ὁ τῶν ὄφεων ἰός	4	0	0	not found
@@ -3764,7 +3764,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 3762	Fara	89	vara, sväfva i f.	ἐν κινδύνῳ εἶναι	3	1	23	locus
 3763	Fara	89	vara, sväfva i f.	περὶ τῶν μεγίστων	3	61	905	stock phrase
 3764	Fara	89	ngt sväfvar i f. för mig	κινδυνεύω περὶ τινος	3	0	0	not found
-3765	Fara	89	ngt sväfvar i f. för mig	περί τῆς ψυχῆς	3	61	841	stock phrase
+3765	Fara	89	ngt sväfvar i f. för mig	περί τῆς ψυχῆς	3	60	841	stock phrase
 3766	Fara	89	en f. hotar ngn	ἐν-, ἐφίσταται κίνδυνός τινι	4	0	0	not found
 3767	Fara	89	en f. hotar ngn fr. ngn	δεινόν ἐστί τινι ἀπό τινος	5	0	0	not found
 3768	Fara	89	den förestående faran	ὁ μέλλων, ἐπικρεμάμενος, ἐνεστὼς κίνδυνος	5	0	0	not found
@@ -4117,7 +4117,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 4115	Formlig	99	en f. strid	μάχη σταδία, ἰσχυρά	3	0	1	found only in modern works
 4116	Formlig	99	en f. strid	ἡ συσταδὸν μάχη	3	0	2	found only in modern works
 4117	Formlig	99	ett f. fördrag	ὅρκοι καὶ σπονδαί	3	0	0	not found
-4118	Formlig	99	— Adv.	κατὰ τὸν νόμον	3	160	5803	stock phrase
+4118	Formlig	99	— Adv.	κατὰ τὸν νόμον	3	159	5803	stock phrase
 4119	Formlös	99		ἄμορφος, ἀσχημάτιστος, ἀτύπωτος	3	0	0	not found
 4120	Forntid	99		ὁ παλαιὸς χρόνος	3	1	7	locus
 4121	Fors	99		καταρράκτης, ου, ὁ	3	0	4	found only in modern works
@@ -4207,7 +4207,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 4205	Framför	101	f. staden, portarne	ἑστάναι ἔμπροσθέν τινος	3	0	0	not found
 4206	Framför	101	ställa ngt f. ngt	τιθέναι τι πρό	3	0	0	not found
 4207	Framför	101	ställa ngn f. sig till skydd	ἐπίπροσθεν ποιεῖσθαί τινα	3	0	0	not found
-4208	Framför	101	= midt emot	ἐκ τοῦ ἐναντίου	3	94	1634	stock phrase
+4208	Framför	101	= midt emot	ἐκ τοῦ ἐναντίου	3	93	1634	stock phrase
 4209	Framför	101	föredraga ngt f. ngt	ποιεῖσθαί τι πρό τινος	4	0	0	not found
 4210	Framför	101	föredraga ngt f. ngt	αἱρεῖσθαί τί τινος	3	0	0	not found
 4211	Framför	101	f. alla andra menniskor	διαφερόντως τῶν ἄλλων ἀνθρώπων	4	4	61	locus
@@ -5976,7 +5976,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 5974	Gemen	140	g. soldat	ὁ δῆμος τῶν στρατιωτῶν	4	0	0	not found
 5975	Gemen	140	en man af g. härkomst	ἀνὴρ ἐκ δήμου	3	0	6	found only in modern works
 5976	Gemen	140	göra sig g. m. ngn	δημοτικῶς συγκεράννυσθαι, προσομιλεῖν τινι	4	0	0	not found
-5977	Gemenligen	140		ὡς ἐπὶ τὸ πολύ	4	169	3591	stock phrase
+5977	Gemenligen	140		ὡς ἐπὶ τὸ πολύ	4	167	3591	stock phrase
 5978	Gemenligen	140		ὡς ἐπὶ πλεῖστον	3	28	449	stock phrase
 5979	Gemensam	140	hafva ngt g. m. ngn	(ἐπι)κοινωνεῖν τινί τινος	4	0	0	not found
 5980	Gemensam	140	hafva ngt g. m. ngn	κοινόν τι ἔχειν τινί	4	0	0	not found
@@ -6071,7 +6071,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 6069	Gerna	143	g. f. mig	τό γ’ ἐμὸν οὐδὲν κωλύει	5	2	25	locus
 6070	Gerna	143	f. min skull må du g. bestämma, hur du vill	τό γ’ ἐμὸν ὅπῃ βούλει τίθεσο	6	0	0	not found
 6071	Gerna	143	icke g.	ἄκων, ουσα, ον	3	0	3	found only in modern works
-6072	Gerna	143	lätt, vanligen	ὡς ἐπὶ τὸ πολύ	4	169	3591	stock phrase
+6072	Gerna	143	lätt, vanligen	ὡς ἐπὶ τὸ πολύ	4	167	3591	stock phrase
 6073	Gerna	143	lätt, vanligen	φιλοῦσιν οἱ ἀνόητοι ἐξαπατᾶσθαι	4	0	0	not found
 6074	Gerna	143	lätt, vanligen	οὐδεὶς ἂν ἀμφισβητήσειεν περί γε τούτου	6	0	0	not found
 6075	Gerna	143	du kan g. gå in	χωροῖς ἂν εἴσω	3	2	103	stock phrase
@@ -7264,7 +7264,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 7262	Hufvudprydnad	172		ὁ περὶ τὴν κεφαλὴν κόσμος	5	0	0	not found
 7263	Hufvudsak	172	ngns h.	περὶ ὅ τις μάλιστα σπουδάζει, ἐφ’ ᾧ τις μάλιστα εὐδοκιμεῖ	10	0	0	not found
 7264	Hufvudsaklig	172	berätta det hufvudsakliga af ngt	ων διηγεῖσθαί τι	3	0	0	not found
-7265	Hufvudsats	172		ἡ πρώτη θέσις	3	5	39	stock phrase
+7265	Hufvudsats	172		ἡ πρώτη θέσις	3	4	39	stock phrase
 7266	Hufvudstad	172		ἡ πρώτη πόλις	3	0	11	found only in modern works
 7267	Hufvudstyrka	172		τὸ πλεῖστον τῆς ῥώμης	4	0	0	not found
 7268	Hufvudstyrka	172	ngns h. ligger i ngt	δεινότατός ἐστί τίς τι	4	0	0	not found
@@ -7363,7 +7363,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 7361	Hvalross	174		ἵππος ὁ θαλάττιος	3	0	0	not found
 7362	Hvar	174	Hvart (hvarje)	πᾶς, πᾶσα, πᾶν	3	0	79	found only in modern works
 7363	Hvar	174	h. och en (en hvar)	ἅπαντες πάντες καὶ πᾶσαι	4	0	0	not found
-7364	Hvar	174	h. och en (en hvar)	οἱ καθ’ ἕκαστον	3	17	146	stock phrase
+7364	Hvar	174	h. och en (en hvar)	οἱ καθ’ ἕκαστον	3	16	146	stock phrase
 7365	Hvar	174	h. och en (en hvar)	οὐδεὶς ὅστις οὐ	3	18	316	stock phrase
 7366	Hvar	174	h. och en (en hvar)	ὅστις, ἥτις, ὅ τι	4	0	31	found only in modern works
 7367	Hvar	174	h. och en (en hvar)	ὅσοι, ὅσαι, ὅσα	3	0	0	not found
@@ -8368,7 +8368,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 8366	Inöfva	197	i. ngn i ngt	κατασκευάζειν τινὰ εἴς τι	4	0	0	not found
 8367	Irra	197	fig	σφάλλεσθαι, ψεύδεσθαι τινός	3	0	0	not found
 8368	Irreligiositet	197		ἀσέβεια ἡ περὶ τὰ θεῖα	5	0	2	found only in modern works
-8369	Irreligiositet	197		ἡ τῶν θείων	3	20	357	stock phrase
+8369	Irreligiositet	197		ἡ τῶν θείων	3	19	357	stock phrase
 8370	Irreligiös	197		ἀσεβὴς περὶ τὰ θεῖα	4	0	6	found only in modern works
 8371	Irreligiös	197		ἀμελῶν τῶν θεῶν	3	0	1	found only in modern works
 8372	Irrlära	197	-mening	δόξα οὐκ ὀρθή	3	0	3	found only in modern works
@@ -8394,7 +8394,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 8392	Ja	197	ja, men..?	ἀλλ’ ἦ..; ἀλλ’ ἄρα	4	0	5	found only in modern works
 8393	Ja	197	ja, men..?	καὶ μὴν.. γε	3	3	55	stock phrase
 8394	Ja	197	ja, än se’n?	τί δέ; τί οὖν	4	0	0	not found
-8395	Ja	197	stegrande	ἀλλὰ δὴ καί	3	61	1590	stock phrase
+8395	Ja	197	stegrande	ἀλλὰ δὴ καί	3	60	1590	stock phrase
 8396	Ja	197	stegrande	καὶ μάλα γε	3	26	766	stock phrase
 8397	Jag	198	jag f. min del	τό γε κατ’ ἐμέ	4	1	16	locus
 8398	Jag	198	jag f. min del	τά γε ἐμά	3	2	8	stock phrase
@@ -9448,7 +9448,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 9446	Kroppskonstitution	226		ἕξις τοῦ σώματος	3	8	38	stock phrase
 9447	Kroppslig	226	som har kropp	σῶμα ἔχων, ουσα, ον	4	0	0	not found
 9448	Kroppslig	226	s. afser kroppen	ὁ, ἡ, τὸ τοῦ σώματος	5	0	2	found only in modern works
-9449	Kroppslig	226	s. afser kroppen	περὶ τὸ σῶμα	3	182	2678	stock phrase
+9449	Kroppslig	226	s. afser kroppen	περὶ τὸ σῶμα	3	181	2678	stock phrase
 9450	Kroppslig	226	s. afser kroppen	κατὰ τὸ σῶμα	3	156	1985	stock phrase
 9451	Kroppslig	226	s. afser kroppen	ἐν τῷ σώματι	3	273	5428	stock phrase
 9452	Kroppslig	226	s. afser kroppen	διὰ τοῦ σώματος	3	96	1461	stock phrase
@@ -9467,7 +9467,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 9465	Kroppsställning	226	ss. mått o. symmetri	σχῆμα (τοῦ σώματος)	3	8	68	stock phrase
 9466	Kroppsställning	226	ss. mått o. symmetri	ἕξις (τοῦ σώματος)	3	8	38	stock phrase
 9467	Kroppssvaghet	226		ἀσθένεια ἡ τοῦ σώματος	4	0	4	found only in modern works
-9468	Kroppssvaghet	226		περὶ τὸ σῶμα	3	182	2678	stock phrase
+9468	Kroppssvaghet	226		περὶ τὸ σῶμα	3	181	2678	stock phrase
 9469	Kroppsöfning	226		ἄσκησις ἡ τοῦ σώματος	4	0	3	found only in modern works
 9470	Kroppsöfning	226		θεραπεία ἡ τοῦ σώματος	4	0	1	found only in modern works
 9471	Kroppsöfning	226	idka k.	ἀσκεῖν τὸ σῶμα	3	0	13	found only in modern works
@@ -10161,7 +10161,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 10159	Lif	244	bedyra vid l. o. själ	ἐξώλειαν ἐπαρώμενον ἑαυτῷ ὁμόσαι	4	0	0	not found
 10160	Lif	244	ett sorgligt, bedröfligt l.	βίος ὀδυνηρός, ταλαίπωρος, ἀβίωτος	4	0	0	not found
 10161	Lif	244	i lifvet	ἐν τῷ βίῳ	3	205	4442	stock phrase
-10162	Lif	244	i lifvet	κατὰ τὸν βίον	3	142	2612	stock phrase
+10162	Lif	244	i lifvet	κατὰ τὸν βίον	3	141	2612	stock phrase
 10163	Lif	244	dta lifvet	ὁ ἐνθάδε βίος	3	1	9	locus
 10164	Lif	244	hela lifvet igenom	παρ’ ὅλον τὸν βίον	4	27	378	stock phrase
 10165	Lif	244	hela lifvet igenom	διὰ παντὸς τοῦ βίου	4	34	540	stock phrase
@@ -10207,7 +10207,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 10205	Lifsdagar	245	i alla l.	διὰ παντὸς τοῦ βίου	4	34	540	stock phrase
 10206	Lifsdagar	245	i alla l.	ἐν ἅπαντι τῷ βίῳ	4	17	197	stock phrase
 10207	Lifsfara	245		κίνδυνος ὁ περὶ τοῦ βίου	5	0	0	not found
-10208	Lifsfara	245		περὶ τῆς ψυχῆς	3	61	841	stock phrase
+10208	Lifsfara	245		περὶ τῆς ψυχῆς	3	60	841	stock phrase
 10209	Lifsfara	245	sväfva i l.	κινδυνεύειν περὶ ψυχῆς	3	0	7	found only in modern works
 10210	Lifsfara	245	sväfva i l.	περὶ τοῦ βίου	3	22	476	stock phrase
 10211	Lifsfara	245	sväfva i l.	περὶ τῶν μεγίστων	3	61	905	stock phrase
@@ -10285,7 +10285,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 10283	Lik	246	af liknande innehåll, väsende, storlek, antal	ἴσος, 3, ὅμοιος, 3, ὁ αὐτός, ἡ αὐτή, τὸ αὐτό (τινί)	9	0	0	not found
 10284	Lik	246	vara l.	ἐν ἴσῳ εἶναι	3	1	9	locus
 10285	Lik	246	vara l. i makt, styrka, anseende o. d.	ἀντίπαλον, ἰσόρροπον εἶναι	3	0	0	not found
-10286	Lik	246	vara sig l.	τὸν αὐτὸν εἶναι	3	80	740	stock phrase
+10286	Lik	246	vara sig l.	τὸν αὐτὸν εἶναι	3	79	740	stock phrase
 10287	Lik	246	förbli sig l.	τὸν αὐτὸν εἶναι καὶ μὴ ἐξίστασθαι	6	0	0	not found
 10288	Lika	246	adj.	ὁ, ἡ, τὸ αὐτός, -ή, -ό	6	0	0	not found
 10289	Lika	246	anse l.	ἐν ἴσῳ ποιεῖσθαι	3	0	3	found only in modern works
@@ -10302,7 +10302,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 10300	Lika	246	hans åsigt är l.	συνδοκεῖ καὶ αὐτῷ ταῦτα	4	0	0	not found
 10301	Lika	246	ha l. andel m. ngn i ngt	ἰσομοιρεῖν τινί τινος	3	0	0	not found
 10302	Lika	246	det är l. som om icke	ἐν ἴσῳ ἐστὶ καὶ εἰ μή	6	0	0	not found
-10303	Lika	246	l. så	τὸν αὐτὸν τρόπον	3	428	8366	stock phrase
+10303	Lika	246	l. så	τὸν αὐτὸν τρόπον	3	426	8366	stock phrase
 10304	Likadan	246		ἀεὶ ὁ αὐτός, ἡ αὐτή, ταὐτό(ν)	7	0	0	not found
 10305	Likafullt	246		οὐδὲν (μηδὲν) ἧττον	3	0	0	not found
 10306	Likatänkande	246	vara l. m. ngn	τὰ αὐτὰ φρονεῖν τινι	4	8	73	stock phrase
@@ -10982,7 +10982,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 10980	Makalös	263		ὑπερβάλλων, ουσα, ον	3	0	10	found only in modern works
 10981	Makalös	263		πάντων διαφέρων, ουσα, ον	4	0	2	found only in modern works
 10982	Make	263	lika	τοιοῦτος, τοσοῦτος, αύτη, οῦτο	4	0	0	not found
-10983	Makt	263	med all m.	κατὰ τὸ δυνατόν	3	101	1899	stock phrase
+10983	Makt	263	med all m.	κατὰ τὸ δυνατόν	3	99	1899	stock phrase
 10984	Makt	263	med all m.	ἐκ τῶν δυνατῶν	3	21	301	stock phrase
 10985	Makt	263	med all m.	ὥς τις δύναται μάλιστα	4	0	0	not found
 10986	Makt	263	ha ngt i sin m.	δύνασθαί (ποιεῖν) τι	3	0	0	not found
@@ -11264,7 +11264,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 11262	Mellanrum	270	han uppställde lastskeppen på ungefär 2 plethrers m fr. hvarandra	διαλειπούσας τὰς ὁλκάδας ὅσον δύο πλέθρα ἀπ’ ἀλλήλων κατέστησεν	9	0	0	not found
 11263	Mellanstycke	270		τὸ μέσον μέρος	3	0	6	found only in modern works
 11264	Mellantid	270		ὁ μεταξὺ χρόνος	3	13	99	stock phrase
-11265	Mellantid	270	under m:n	ἐν τῷ μεταξύ	3	152	2163	stock phrase
+11265	Mellantid	270	under m:n	ἐν τῷ μεταξύ	3	151	2163	stock phrase
 11266	Mellantid	270	lifvet under m:n	ὁ μεταξὺ βίος	3	0	0	not found
 11267	Mellantid	270	lifvet under m:n	τρία ἔτη διαλιπών, οὖσα, όν	5	0	0	not found
 11268	Mellantid	270	lifvet under m:n	τριῶν ἐτῶν διαλιπόντων	3	0	0	not found
@@ -11353,7 +11353,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 11351	Mer	272	icke (dess) m.	οὐδέν τι μᾶλλον	3	0	0	not found
 11352	Mer	272	hd vill du m.	τί ζητεῖς πλέον	3	0	0	not found
 11353	Mer	272	hd vill du m.	παρὰ τοῦτ’ ἄλλο	3	0	2	found only in modern works
-11354	Mer	272	o. än m.	πρὸς δὲ τούτοις	3	310	6951	stock phrase
+11354	Mer	272	o. än m.	πρὸς δὲ τούτοις	3	309	6951	stock phrase
 11355	Mer	272	o. än m.	πρὸς δ’ ἔτι	3	19	496	stock phrase
 11356	Mer	272	dta har ngt m. att betyda	τούτῳ ὕπεστι μεῖζόν τι	4	0	0	not found
 11357	Mer	272	m. l. mindre	(ἢ) πλέον (ἢ) ἔλαττον	4	7	77	stock phrase
@@ -11374,7 +11374,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 11372	Merbemält	272		πολλάκις εἰρημένος, 3, ὃν πολλάκις λέγω	5	0	0	not found
 11373	Meridian	272		ὁ μεσημβρινός (κύκλος)	3	0	8	found only in modern works
 11374	Merändels	272		(ὡς) τὰ πολλά	3	128	2677	stock phrase
-11375	Merändels	272		(ὡς) ἐπὶ τὸ πολύ	4	169	3591	stock phrase
+11375	Merändels	272		(ὡς) ἐπὶ τὸ πολύ	4	167	3591	stock phrase
 11376	Merändels	272		ὡς ἐπὶ πλεῖστον	3	28	449	stock phrase
 11377	Mesallians	272		ὁ οὐκ ἀπὸ τῶν ἴσων γάμος	6	0	0	not found
 11378	Mesost	272		ὁ ἐξ ὀροῦ τυρός	4	0	0	not found
@@ -11427,7 +11427,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 11425	Midt	273	m. under talet	κατὰ μέσον τὸν λόγον	4	0	7	found only in modern works
 11426	Midt	273	m. under det du talade, skedde det	μεταξὺ λέγοντός σου ἐγένετο	4	0	0	not found
 11427	Midt	273	m. under huset	ὑπὸ μέσης τῆς οἰκίας	4	0	0	not found
-11428	Midt	273	m. emot, för	ἐκ τοῦ ἐναντίου	3	94	1634	stock phrase
+11428	Midt	273	m. emot, för	ἐκ τοῦ ἐναντίου	3	93	1634	stock phrase
 11429	Midt	273	m. öfver	ὑπὲρ μέσον τι	3	0	0	not found
 11430	Midvinter	273		μεσῶν ὁ χειμών	3	0	0	not found
 11431	Mil	273		παρασάγγης, ου, ὁ	3	0	2	found only in modern works
@@ -11715,7 +11715,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 11713	Motsägelseanda	280		τὸ ἀντιλογικόν, ἐριστικόν, φιλόνεικον	4	0	0	not found
 11714	Motsätta	280	i local bet.	ὁ, ἡ, τὸ ἐπὶ θάτερα	5	0	0	not found
 11715	Motsätta	280	fr. m. sida, håll	ἐκ τοῦ ἐπὶ θάτερα	4	5	147	stock phrase
-11716	Motsätta	280	fr. m. sida, håll	ἐκ τοῦ ἐναντίου	3	94	1634	stock phrase
+11716	Motsätta	280	fr. m. sida, håll	ἐκ τοῦ ἐναντίου	3	93	1634	stock phrase
 11717	Motsätta	280	vara af m. mening	ἐναντίαν ἔχειν τὴν γνώμην	4	0	36	found only in modern works
 11718	Motsätta	280	ett m. fall inträder	τἀναντία τούτων γίγνεται	3	0	1	found only in modern works
 11719	Motsätta	280	i m. fall	εἰ δὲ μή	3	733	25338	stock phrase
@@ -12332,7 +12332,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 12330	Nubba	297	n. fast ngt vid ngt	προσηλοῦν τί τινι	3	0	0	not found
 12331	Numera	297		τὸ ἀπὸ τοῦδε	3	21	663	stock phrase
 12332	Nummer	297	n. ett, två etc.	τον ἀριθμὸν πρῶτος, δεύτερος	4	0	0	not found
-12333	Nutid	297		ὁ νῦν χρόνος	3	2	16	stock phrase
+12333	Nutid	297		ὁ νῦν χρόνος	3	1	16	locus
 12334	Nuvarande	297		οὁ, ἡ, τό νῦν	4	0	0	not found
 12335	Nuvarande	297		παρών, οὖσα, ὄν	3	0	9	found only in modern works
 12336	Nuvarande	297	d. n. tidepunkten	ὁ παρὼν καιρός	3	24	302	stock phrase
@@ -12513,7 +12513,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 12511	Närvarande	301	det n.	τὰ ἐν χερσίν	3	16	170	stock phrase
 12512	Närvarande	301	den n. tiden, ställningen	ὁ νῦν χρόνος τὸ παρόν	5	0	0	not found
 12513	Närvarande	301	f. det n.	εἰς τὸ παρόν	3	36	619	stock phrase
-12514	Närvarande	301	f. det n.	ἐν τῷ παρόντι	3	248	6113	stock phrase
+12514	Närvarande	301	f. det n.	ἐν τῷ παρόντι	3	246	6113	stock phrase
 12515	Närvarande	301	f. det n.	τό γε νῦν ἔχον τὸ νῦν εἶναι	7	0	0	not found
 12516	Närvarande	301	d. n. ögonblicket	ὁ παρὼν καιρός	3	24	302	stock phrase
 12517	Närvarande	301	d. n. lifvet	ὁ ἐνθάδε βίος	3	1	9	locus
@@ -12576,7 +12576,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 12574	Nödvändig	302	det är alldeles n:t	οὐκ ἔσθ’ ὅπως οὐ	4	9	272	stock phrase
 12575	Nödvändighet	302	jag är försatt i n.	ἀνάγκη ἐστί μοι	3	0	5	found only in modern works
 12576	Nödvändighet	302	jag är försatt i n.	εἰς ἀνάγκην ἀφικόμην	3	0	0	not found
-12577	Nödvärja sig	302		περὶ τῆς ψυχῆς	3	61	841	stock phrase
+12577	Nödvärja sig	302		περὶ τῆς ψυχῆς	3	60	841	stock phrase
 12578	Nödvärja sig	302		περὶ τῶν μεγίστων κινδυνευόμενον ἀμύνεσθαι	5	0	0	not found
 12579	Nödvärn	302		ἡ ἐν μεγίστῳ κινδύνῳ ἄμυνα	5	0	0	not found
 12580	Nöja sig	302		τὶ, ἀρκεῖ μοί τι	4	0	0	not found
@@ -12681,7 +12681,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 12679	Och	306	— o. äfven	καὶ δὲ καί	3	9	397	stock phrase
 12680	Och	306	— o. tillika	ἅμα τε καί	3	25	327	stock phrase
 12681	Och	306	— o. dock l. likväl	παρῆσάν τινες καὶ πολλοί γε	5	1	23	locus
-12682	Och	306	— o. så (äfv.)	καὶ δή (καί)	3	268	10125	stock phrase
+12682	Och	306	— o. så (äfv.)	καὶ δή (καί)	3	267	10125	stock phrase
 12683	Också	306		καὶ γὰρ οὐδέ	3	87	1013	stock phrase
 12684	Odelad	306	vinna o. bifall	ἐπαίνου τυγχάνειν παρὰ πάντων	4	0	1	found only in modern works
 12685	Odjur	306		τέρας, τος, τό	3	0	1	found only in modern works
@@ -12751,7 +12751,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 12749	Offra	308	gifva ss. en gärd åt ngn	προΐεσθαί τινί τι	3	0	0	not found
 12750	Oflådd	308		ἄδαρτος, ἀνέκδαρτος, ἄδορος, ἀδόρητος	4	0	0	not found
 12751	Ofrivillig	308	om pers.	ἄκων, ουσα, ον	3	0	3	found only in modern works
-12752	Ofta	308	oftast	ὡς ἐπὶ τὸ πολύ	4	169	3591	stock phrase
+12752	Ofta	308	oftast	ὡς ἐπὶ τὸ πολύ	4	167	3591	stock phrase
 12753	Ofullbordad	308		ἀτέλεστος, ἀτελείωτος, ἀτελής, ἀσυντελής	4	0	0	not found
 12754	Ofullkomlighet	308		τὸ ἀτελές, ἐνδεές	3	0	1	found only in modern works
 12755	Ofvan	308	o. befintlig	ὁ, ἡ, τὸ ἄνω	4	0	2	found only in modern works
@@ -13058,7 +13058,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 13056	Omättlig	318	vara o. på ngt	περί, πρός τι	3	0	0	not found
 13057	Omättlig	318	vara så o. att	εἰς τοῦτο ἀπληστίας ἐλθεῖν ὥστε	5	0	0	not found
 13058	Omöjlig	318	det är o:t	οὐκ ἔσθ', ὅπως	3	37	1085	stock phrase
-13059	Omöjlig	318	det är o:t	οὐχ οἷόν τε	3	323	5152	stock phrase
+13059	Omöjlig	318	det är o:t	οὐχ οἷόν τε	3	322	5152	stock phrase
 13060	Omöjlig	318	det är o:t	οὐδεμία μηχανή (ἔστι)	3	0	2	found only in modern works
 13061	Omöjlig	318	det är mig o:t att göra ngt	ἀδύνατος, ἀμήχανος, οὐχ οἷός τέ εἰμι, οὐ δύναμαι ποιεῖν τι	10	0	0	not found
 13062	Omöjlig	318	sträfva efter det o:a	ἀδυνάτοις πράγμασιν ἐπιχειρεῖν, ἐπιθέσθαι	4	0	0	not found
@@ -13123,7 +13123,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 13121	Orakelsvar	319	jag får ett o.	χρησμὸς γίγνεταί μοι	3	0	0	not found
 13122	Orakelsvar	319	jag får ett o.	ὁ θεὸς ἀναφαίνει	3	0	0	not found
 13123	Orakelsvar	319	förkunna ngt ss. ett o.	ὥσπερ ἐκ τρίποδος λέγειν τι	5	0	0	not found
-13124	Ord	319	o. f. o.	ἔπος πρὸς ἔπος	3	5	92	stock phrase
+13124	Ord	319	o. f. o.	ἔπος πρὸς ἔπος	3	4	92	stock phrase
 13125	Ord	319	m. ett o.	ὡς ἐν βραχυτάτῳ δηλῶσαι	4	0	0	not found
 13126	Ord	319	dta var hs egna o.	οὕτως εἶπε τῷ ῥήματι	4	0	0	not found
 13127	Ord	319	han säger icke ett sannt, sundt o.	ἀληθές γε, ὑγιὲς οὐδὲν λέγει	5	0	0	not found
@@ -14169,7 +14169,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 14167	Redaktör	351		διατάκτης, ου, ὁ	3	0	1	found only in modern works
 14168	Redan	351	r. länge	ἤδη ἐκ πολλοῦ	3	0	25	found only in modern works
 14169	Redan	351	r. länge	πολὺν ἤδη χρόνον	3	47	833	stock phrase
-14170	Redan	351	till o. m.	καὶ ἐκ τούτων	3	141	1983	stock phrase
+14170	Redan	351	till o. m.	καὶ ἐκ τούτων	3	140	1983	stock phrase
 14171	Redig	351	ett r:t hufvud	εὐξύνετος, εὔστοχος ἄνθρωπος	3	0	1	found only in modern works
 14172	Redig	351	vid sina sinnen	εὖ φρονῶν, οὖσα, οὖν	4	0	0	not found
 14173	Redig	351	åter blifva r.	ἐν ἑαυτῷ πάλιν γίγνεσθαι	4	0	5	found only in modern works
@@ -14257,7 +14257,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 14255	Religionsbespottare	353		ὁ τῶν θείων	3	5	300	stock phrase
 14256	Religionsbespottare	353		ὁ βλασφημῶν εἰς	3	0	6	found only in modern works
 14257	Religionsbespottare	353		περὶ τὰ θεῖα	3	52	731	stock phrase
-14258	Religionsbespottelse	353		ἡ τῶν θείων	3	20	357	stock phrase
+14258	Religionsbespottelse	353		ἡ τῶν θείων	3	19	357	stock phrase
 14259	Religionsbespottelse	353		περὶ τὰ θεῖα βλασφημία	4	0	1	found only in modern works
 14260	Religionsfrihet	353		ἐλευθερία ἡ περὶ τὰ θεῖα	5	0	3	found only in modern works
 14261	Religionsförvandt	353		κοινωνὸς ὁ τῶν θείων	4	0	0	not found
@@ -15079,7 +15079,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 15077	Samla	372	s. sina tankar	ἐπιστῆναι τὴν διάνοιαν	3	0	1	found only in modern works
 15078	Samlingsplats	372	-ställe	χωρίον εἰς ὃ συνέρχονται	4	0	1	found only in modern works
 15079	Samlingsplats	372	-ställe	τὸν σύλλογον ποιοῦνται	3	0	1	found only in modern works
-15080	Sammaledes	372	-lunda	τὸν αὐτὸν τρόπον	3	428	8366	stock phrase
+15080	Sammaledes	372	-lunda	τὸν αὐτὸν τρόπον	3	426	8366	stock phrase
 15081	Sammaledes	372	-lunda	ταὐτὸν τοῦτο ὡσαύτως	3	2	17	stock phrase
 15082	Sammanbita	372		κατατρίβειν τοῖς ὀδοῦσι	3	0	0	not found
 15083	Sammanbita	372	s. tänderna	βρύχειν τοὺς ὀδόντας	3	0	9	found only in modern works
@@ -15171,7 +15171,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 15169	Sammanvara	375		συνεῖναι, συγγενέσθαι, ὁμιλεῖν τινι	4	0	0	not found
 15170	Samme	375		ὁ αὐτός, ἡ αὐτή, τὸ αὐτό (ταὐτό, ταὐτόν)	8	0	1	found only in modern works
 15171	Samme	375	just s.	(ὁ) αὐτὸς οὗτος	3	45	572	stock phrase
-15172	Samme	375	på s:a sätt	(κατὰ) τὸν αὐτὸν τρόπον	4	114	1314	stock phrase
+15172	Samme	375	på s:a sätt	(κατὰ) τὸν αὐτὸν τρόπον	4	112	1314	stock phrase
 15173	Sammelsurium	375		πλῆθος εἰκῇ συμπεφυρμένον	3	0	1	found only in modern works
 15174	Samqväm	375		συμπόσιον, τό, θίασος, ὁ, κῶμος, ὁ	6	0	0	not found
 15175	Samråd	375	träda i s. m. ngn	παραλαμβάνειν τινὰ εἰς συμβουλίαν	4	0	0	not found
@@ -15180,7 +15180,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 15178	Samt.	375	s. o. synnerligen	σύμπαντες, ἅπαντες, ασαι, αντα	4	0	0	not found
 15179	Samt.	375	s. o. synnerligen	ἀθρόοι, αι, α	3	0	0	not found
 15180	Samt.	375	äfvensom	ἅμα δὲ καί	3	230	6026	stock phrase
-15181	Samt.	375	äfvensom	καὶ δὴ καί	3	268	10125	stock phrase
+15181	Samt.	375	äfvensom	καὶ δὴ καί	3	267	10125	stock phrase
 15182	Samtal	375	inleda ett s. m. ngn	λόγους συνάπτειν τινί	3	0	0	not found
 15183	Samtal	375	komma i s. m. ngn	εἰς λόγους (συν)ελθεῖν, ἀφικνεῖσθαι, ἱέναι τινί	7	0	0	not found
 15184	Samtal	375	vara inbegripen i s. m. ngn	ἐν λόγοις εἶναί τινι	4	1	11	locus
@@ -15714,7 +15714,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 15712	Själlös	387		ἀμβλύς, εῖα, ύ	3	0	5	found only in modern works
 15713	Själskrafter	387		δυνάμεις αἱ τῆς ψυχῆς	4	0	0	not found
 15714	Själskrafter	387		τὰ περὶ τὴν ψυχήν	4	8	102	stock phrase
-15715	Själskrafter	387		τὰ τῆς ψυχῆς	3	92	1289	stock phrase
+15715	Själskrafter	387		τὰ τῆς ψυχῆς	3	90	1289	stock phrase
 15716	Själsnäring	387		τροφὴ ἡ τῆς ψυχῆς	4	0	0	not found
 15717	Själsnärvaro	387		παράστασις, ἡ (τῆς ψυχῆς)	4	0	1	found only in modern works
 15718	Själssjukdom	387		πάθος τὸ τῆς ψυχῆς	4	0	0	not found
@@ -16738,7 +16738,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 16736	Solförmörkelse	410		ἔκλειψις ἡ τοῦ ἡλίου	4	0	0	not found
 16737	Solförmörkelse	410	det är s.	ὁ ἥλιος ἐκλείπει	3	3	20	stock phrase
 16738	Solförmörkelse	410	det är s.	τοῦ ἡλίου ἐκλιπές τι γίγνεται	5	0	1	found only in modern works
-16739	Solljus	410		φῶς τὸ τοῦ ἡλίου	4	1	7	locus
+16739	Solljus	410		φῶς τὸ τοῦ ἡλίου	4	0	7	found only in modern works
 16740	Solmånad	410		ἡλιακὸς μήν, νός	3	0	1	found only in modern works
 16741	Solsken	410		αὐγὴ ἡ τοῦ ἡλίου	4	0	0	not found
 16742	Solsken	410	i s:et	πρὸς τὸν ἥλιον	3	102	1611	stock phrase
@@ -16955,7 +16955,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 16953	Stadsområde	416		τὰ περὶ τὴν πόλιν	4	17	254	stock phrase
 16954	Stadsport	416		πύλη ἡ τῆς πόλεως	4	0	0	not found
 16955	Stadsskola	416		διδασκαλεῖον τὸ κατὰ τὴν πόλιν	5	0	1	found only in modern works
-16956	Stadsskola	416		ἐν τῇ πόλει	3	385	16683	stock phrase
+16956	Stadsskola	416		ἐν τῇ πόλει	3	384	16683	stock phrase
 16957	Stafvelse	416	mäta s:erna	μετρεῖν τὰς συλλαβάς	3	0	0	not found
 16958	Stafvelse	416	skrifva efter hvarenda s. som ngn skrifvit	τὰς αὐτὰς συλλαβὰς γράφειν τινί	5	0	1	found only in modern works
 16959	Staka	416	s. sig i ett tal	ἐκπίπτειν ἐκ τοῦ λόγου	4	0	6	found only in modern works
@@ -17694,7 +17694,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 17692	Synnerlig	432	utomordentlig	διαφέρων, ουσα, ον	3	0	10	found only in modern works
 17693	Synnerlig	432	ej s.	ὁ τυχών, ἡ τυχοῦσα, τὸ τυχόν	6	0	1	found only in modern works
 17694	Synnerligast	432		ἐς τὰ μάλιστα	3	23	1449	stock phrase
-17695	Synnerligast	432		ἄλλως τε καί	3	288	6852	stock phrase
+17695	Synnerligast	432		ἄλλως τε καί	3	287	6852	stock phrase
 17696	Synnerligast	432	s. som	ἄλλως τε καὶ εἰ	4	22	263	stock phrase
 17697	Synnerligen	432	afskiljdt	καθ’ ἓν ἕκαστον	3	61	860	stock phrase
 17698	Synnerligen	432	för sig	τὸ καθ’ αὑτούς	3	14	198	stock phrase
@@ -17834,7 +17834,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 17832	Säte	435	s. f. en domstol	οὗ ἔστι δικαστήριον	3	0	0	not found
 17833	Säte	435	s. f. en domstol	οὗ ἔστι βουλευτήριον	3	0	0	not found
 17834	Säte	435	rätt att deltaga i ett kollegium	τὸ σύνεδρον εἶναι	3	0	0	not found
-17835	Sätt	435	på sma s.	τὸν αὐτὸν τρόπον	3	428	8366	stock phrase
+17835	Sätt	435	på sma s.	τὸν αὐτὸν τρόπον	3	426	8366	stock phrase
 17836	Sätt	435	på dta sätt	τοῦτον τὸν τρόπον	3	301	6135	stock phrase
 17837	Sätt	435	på ngt slags s.	ἑνί γέ τῳ τρόπῳ	4	8	142	stock phrase
 17838	Sätt	435	på visst s., på s. o. vis	πή, πώς, τὶ	3	0	0	not found
@@ -19326,7 +19326,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 19324	Tänka	469	t. lika m. ngn	ἴσα φρονεῖν τινι	3	0	0	not found
 19325	Tänka	469	han t:er intet ondt dermed	οὐδὲν κακὸν νοῶν τοῦτο ποιεῖ	5	0	0	not found
 19326	Tänka	469	ha f. afsigt, i sinnet	ἐν νῷ ἔχειν	3	3	45	stock phrase
-19327	Tänkbar	470	det är icke t:t	οὐχ οἷόν τε	3	323	5152	stock phrase
+19327	Tänkbar	470	det är icke t:t	οὐχ οἷόν τε	3	322	5152	stock phrase
 19328	Tänkesätt	470	ändra t.	γνώμην ἑλέσθαι ἄλλην	3	0	0	not found
 19329	Tänkesätt	470	komma ngn att ändra t.	μετα-, παραπείθειν τινά	3	0	0	not found
 19330	Täppa	470		ἀπο-, ἐπι-, δια-, ἐμφράττειν	4	0	0	not found
@@ -19377,7 +19377,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 19375	Umgälla	471	låta ngn u. ngt	μνησικακεῖν τινί τινος	3	0	0	not found
 19376	Umgängesgåfvor	471		εὐτραπελία (ἐν ταῖς συνουσίαις)	4	0	0	not found
 19377	Umgängessätt	471	en man af fint u.	ἀνὴρ ἀστεῖος, κομψός, εὐτράπελος, εὐπαίδευτος	5	0	0	not found
-19378	Undan	471	u. f. u.	ἄλλος καὶ ἄλλος	3	14	141	stock phrase
+19378	Undan	471	u. f. u.	ἄλλος καὶ ἄλλος	3	11	141	stock phrase
 19379	Undan	471	u. f. u.	ἄλλος ἐξ ἄλλου	3	10	97	stock phrase
 19380	Undanbedja sig	471	u. sig ngt af ngn, äfv.	οὐκ ἐᾶν τινα ποιεῖν τι	5	0	0	not found
 19381	Undandraga	471	fig., ngn ngt	ἀφαιρεῖν, -σθαί τινί τι	4	0	0	not found
@@ -20364,7 +20364,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 20362	Vara	499		ὅ τις πωλεῖ	3	0	0	not found
 20363	Vara	499	— Må v.	ἐῶμεν οὖν ταῦτα	3	0	0	not found
 20364	Vara	499	låta ngt v.	(χαίρειν) ἐᾶν τι	3	0	0	not found
-20365	Vara	499	vare sig att, l. att	ἐάν τε, ἐάν τε	4	1	23	locus
+20365	Vara	499	vare sig att, l. att	ἐάν τε, ἐάν τε	4	0	23	found only in modern works
 20366	Vara	499	vare sig att, l. att	ἤν τε, ἤν τε	4	0	3	found only in modern works
 20367	Varbildning	499		πύη, πύησις, πύωσις	3	0	0	not found
 20368	Varelse	499	concr.	τὸ ὄν, ὑπάρχον	3	1	2	locus
@@ -20542,7 +20542,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 20540	Verldshaf	503		ἡ μεγάλη θάλαττα	3	1	9	locus
 20541	Verldshistoria	503		ἡ τῶν καθόλου πραγμάτων σύνταξις	5	0	2	found only in modern works
 20542	Verldsklok	503		τῶν ἀνθρωπίνων ἔμπειρος	3	0	0	not found
-20543	Verldskännedom	503		ἡ τῶν ἀνθρώπων	3	53	776	stock phrase
+20543	Verldskännedom	503		ἡ τῶν ἀνθρώπων	3	52	776	stock phrase
 20544	Verldskännedom	503		τῶν ἐν ἀνθρώποις ἐμπειρία	4	0	0	not found
 20545	Verldskännedom	503	besitta v.	ἔμπειρον εἶναι τῶν ἀνθρωπίνων	4	0	0	not found
 20546	Verldsomseglare	504		περιπλεύσας ἅπασαν τὴν γῆν	4	0	1	found only in modern works
@@ -21362,7 +21362,7 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 21360	Ytlig	521	y:t göra ngt	ἐκ παρέργου ποιεῖν τι	4	0	2	found only in modern works
 21361	Ytlig	521	y:t göra ngt	ὁσίας ἕνεκα ποιεῖσθαί τι	4	0	1	found only in modern works
 21362	Ytterlig	521		πλεονάζων, ουσα, ον	3	0	3	found only in modern works
-21363	Ytterligare	521		καὶ δὴ καί	3	268	10125	stock phrase
+21363	Ytterligare	521		καὶ δὴ καί	3	267	10125	stock phrase
 21364	Yttermera	521		ἔτι (δὲ) μᾶλλον	3	145	1398	stock phrase
 21365	Yttermera	521		καὶ (ἔτι) μᾶλλον	3	112	1220	stock phrase
 21366	Ytterst	521	på utkant	ἐσχατεύων, ουσα, ον	3	0	0	not found
@@ -21528,12 +21528,12 @@ n	headword	printed_page	swedish	greek	words	ancient_texts	corpus_records	status
 21526	Åttondedel	525		μέρος τὸ ὄγδοον	3	0	0	not found
 21527	Ädel	525		ἐλεύθερος, 3, καλός, 3, ἐλευθέριος, 2, καλὸς κἀγαθός, 3	5	0	0	not found
 21528	Ädelsinthet	525		τὸ γενναῖον τῆς γνώμης	4	0	4	found only in modern works
-21529	Äfven	525		πρὸς δὲ τούτοις	3	310	6951	stock phrase
-21530	Äfven	525	ja, ä.	καὶ δὴ καί	3	268	10125	stock phrase
-21531	Äfven	525	men ä.	ἀλλὰ δὴ καί	3	61	1590	stock phrase
+21529	Äfven	525		πρὸς δὲ τούτοις	3	309	6951	stock phrase
+21530	Äfven	525	ja, ä.	καὶ δὴ καί	3	267	10125	stock phrase
+21531	Äfven	525	men ä.	ἀλλὰ δὴ καί	3	60	1590	stock phrase
 21532	Äfventyr	526	ha ett ä.	θαυμάσιόν τι πάσχειν	3	0	0	not found
 21533	Äfventyr	526	vågstycke	θαυμάσιον, παράβολον ἔργον	3	0	0	not found
-21534	Äfvenväl	526		καὶ δὴ καί	3	268	10125	stock phrase
+21534	Äfvenväl	526		καὶ δὴ καί	3	267	10125	stock phrase
 21535	Äga	526	vara behörig att	κύριον εἶναι τοῦ	3	4	36	stock phrase
 21536	Äga	526	ä. rum	τυγχάνειν ὄντα, οὖσαν, ὄν	4	0	0	not found
 21537	Äga	526	ä. rum hos, m., m. afs. på ngn	ἐν-, προσεῖναί τινι	3	0	0	not found
