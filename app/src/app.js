@@ -79,7 +79,7 @@ async function showSearch(query) {
   setBar("search");
   if (q.value !== query) q.value = query;
   if (!query.trim()) {
-    view.innerHTML = `<div class="front-page"><div><img src="front.png" alt="Svenskt-grekiskt lexikon, utgifvet af C. W. Linder och C. A. Walberg"><p class="hint">Sök på svenska eller grekiska</p></div></div>`;
+    view.innerHTML = `<div class="front-page"><img src="front.png" alt="Svenskt-grekiskt lexikon, utgifvet af C. W. Linder och C. A. Walberg"></div>`;
     return;
   }
   const token = ++searchToken;
@@ -113,7 +113,7 @@ function setBar(mode, title = "", n = null) {
 async function showEntry(n, { label = "" } = {}) {
   const html = await entryHtml(n);
   if (html === undefined) { view.innerHTML = `<p class="empty">Artikeln finns inte.</p>`; return; }
-  setBar("entry", meta.titles[n], n);
+  setBar("entry", "", n);
   view.innerHTML = `<article class="entry-page">${label}${html}</article>`;
 }
 
@@ -125,7 +125,6 @@ async function showDay() {
   const date = d.toLocaleDateString("sv-SE", { day: "numeric", month: "long" });
   await showEntry(n, { label: `<p class="day-label">Dagens ord · ${esc(date)}</p>` });
   $("#back").hidden = true;
-  $("#bar-title").textContent = "Dagens ord";
 }
 
 function showFavs() {
@@ -141,7 +140,6 @@ async function showLoci() {
   await showEntry(n);
   $("#back").hidden = true;
   $("#star").hidden = true;
-  setTitle("Index locorum");
 }
 function setTitle(t) { $("#bar-title").textContent = t; }
 
@@ -216,6 +214,16 @@ document.querySelector('#tabs a[data-tab="sok"]').addEventListener("click", (e) 
   q.value = "";
   route();
 });
+// the bars' real heights (safe areas, text size), for centring the title page between them
+function measureBars() {
+  const root = document.documentElement.style;
+  root.setProperty("--bar-bottom", $("#bar").getBoundingClientRect().bottom + "px");
+  root.setProperty("--tabs-height", (window.innerHeight - $("#tabs").getBoundingClientRect().top) + "px");
+}
+new ResizeObserver(measureBars).observe($("#bar"));
+new ResizeObserver(measureBars).observe($("#tabs"));
+window.addEventListener("resize", measureBars);
+measureBars();
 window.addEventListener("hashchange", route);
 route();
 loadMeta().catch(() => {});
