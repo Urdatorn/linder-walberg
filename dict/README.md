@@ -26,3 +26,10 @@ What the build does with the book's conventions:
 - the headword's initial standing for the headword ("göra a.") marked and expanded
 - "se X", "Jfr X" as links; "se Föreg.", "se Följ." to the neighbouring entries
 - the preface, the list of abbreviations, the Index locorum and the two authors (from Svenskt biografiskt handlexikon, with portraits) as front matter
+
+`contractions.tsv` adds the contracted forms the book uses beyond its own list of
+abbreviations, mostly built on the list's stems: *smnsättning* (smn = samman), *mskrs*
+(mskr = menniskor), *sdnt* (sdn = sådan), *ngns*, *fhdt*, *begrpt* (begreppet), *hkn*
+(hvilken), *hd* (hvad). They get the same note as the listed abbreviations; the
+*Förkortningar* page shows the book's list alone. "hr" as the first part of a word
+(hrifrån, hrandra) is expanded by rule in `build_xml.py`.

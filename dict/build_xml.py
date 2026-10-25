@@ -71,6 +71,11 @@ def load_abbreviations() -> tuple[dict[str, str], set[str]]:
                 if gram == "1":
                     grammatical.add(a)
     expand.setdefault("vv.", expand.get("v.", "verbum, -a"))
+    # forms the book contracts beyond its list, mostly on the list's own stems: smnsättning
+    # (smn, samman), mskrs (mskr, menniskor), sdnt (sdn, sådan), ngns, fhdt, begrpt, hkn
+    for line in (HERE / "contractions.tsv").read_text(encoding="utf-8").splitlines()[1:]:
+        form, full = line.split("\t")
+        expand.setdefault(form, full)
     return expand, grammatical
 
 
