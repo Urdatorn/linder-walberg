@@ -2,15 +2,20 @@
   <img src="docs/screenshots.png" alt="The web app: the 1862 title page, and the entry Mörker" width="640">
 </p>
 
-> Nyttan, eller rättare nödvändigheten, af Grekiska Skriföfningar har under de sednare åren äfven hos oss blifvit allmänt insedd och erkänd.
+# Svenskt-grekiskt lexikon
+
+> _Nyttan, eller rättare nödvändigheten, af Grekiska Skriföfningar har under de sednare åren äfven hos oss blifvit allmänt insedd och erkänd._
 >
 > — C. W. Linder och C. A. Walberg, *Förord*, 1862
 
-# Svenskt-grekiskt lexikon
+Carl Wilhelm Linder och Carl August Walbergs klassiska skrivövningslexikon från 1862 skannades in av Johan Winge 2013 och lades till på Projekt Runeberg, men OCR-teknologin var då långt från redo för 
+textens utmanande blandning av polytonisk grekiska, gammelstavad svenska och idiosynkratiska förkortningar, 
+och i princip bara de tjugosextusen huvudorden gjordes maskinläsbara och alltså sökbara. 
+På tretton år korrlästes bara de första fem sidorna på Projekt Runeberg.
 
-A new digital edition of Carl Wilhelm Linder and Carl August Walberg's *Svenskt-grekiskt lexikon*
-(Upsala 1862), the Swedish–Ancient Greek dictionary. It has some 26,000 entries, with Swedish
-headwords in 1862 spelling and their Greek renderings. The text was read afresh from the page
+Två huvudsakliga tekniska framsteg gjorde det möjligt att relativt enkelt för en person att genomföra en komplett OCR och korrläsning av hela texten år 2026. För det första så har det kommit öppna OCR-modeller som är finetunade för antik grekiska ([Angleraud et al 2026](https://arxiv.org/abs/2603.02803)), och för det andra så kan man förhållandevis snabbt dubbelkolla den öppna modellens resulterande OCR-text från alla 536 sidor mot källbilderna med en svärm av Claude-agenter.
+
+ The text was read afresh from the page
 images, proofread against them page by page, and corrected after the book's own list of misprints
 and a systematic check of the Greek.
 
@@ -65,13 +70,16 @@ app/deploy.sh                      # build the web app and publish it (GitHub Pa
 python hf/build_dataset.py         # the Hugging Face dataset
 ```
 
-## Thanks
+## Acknowledgments
 
-- Johan Winge and Project Runeberg, for the first electronic edition and the page images.
-- The Perseus Digital Library and First1KGreek, for the Greek texts behind the Index locorum.
-- The Greek Font Society, for GFS Porson; SIL, for Gentium Book Plus.
+Computational resources were provided by the National Academic Infrastructure for Supercomputing in Sweden (NAISS), funded by the Swedish Research Council.
+
+The _Index locorum_ was built referencing texts from the Perseus Digital Library and First1KGreek.
+The font GFS Porson is due to The Greek Font Society; Gentium Book Plus to SIL.
+
+## Licence
 
 The book is in the public domain. The transcription and corrections are released under
-[CC0](https://creativecommons.org/publicdomain/zero/1.0/), as in the dataset.
+[CC0](https://creativecommons.org/publicdomain/zero/1.0/).
 
-Albin Thörn Cleland, Lund University ([albinthorncleland.com](https://albinthorncleland.com)).
+This digital edition is a project by [Albin Thörn Cleland](https://albinthorncleland.com), doctoral student in the Swedish Graduate School of Digital Philology at [Lund University](https://www.sol.lu.se/person/AlbinThornCleland/).
