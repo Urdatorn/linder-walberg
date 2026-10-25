@@ -9,18 +9,6 @@
     "title": "De Natura Animalium",
     "loci": [
      {
-      "greek": "ἅμα τῷ κνέφει",
-      "cites": [
-       "5.43"
-      ],
-      "entries": [
-       {
-        "headword": "Skymma",
-        "page": "0403"
-       }
-      ]
-     },
-     {
       "greek": "ὁ τῆς σελήνης κύκλος",
       "cites": [
        "6.15"
@@ -41,30 +29,6 @@
        {
         "headword": "Vörda",
         "page": "0524"
-       }
-      ]
-     },
-     {
-      "greek": "μικρός (3) τὸ σῶμα",
-      "cites": [
-       "13.14"
-      ],
-      "entries": [
-       {
-        "headword": "Kortvext",
-        "page": "0223"
-       }
-      ]
-     },
-     {
-      "greek": "μικρὸς τὸ σῶμα",
-      "cites": [
-       "13.14"
-      ],
-      "entries": [
-       {
-        "headword": "Liten",
-        "page": "0252"
        }
       ]
      }
@@ -165,18 +129,6 @@
       ]
      },
      {
-      "greek": "περιττὸς ἐν τοῖς λόγοις",
-      "cites": [
-       "119"
-      ],
-      "entries": [
-       {
-        "headword": "Ordrik",
-        "page": "0325"
-       }
-      ]
-     },
-     {
       "greek": "οὐδεὶς ὑπελάμβανεν εἰς τὸ μειράκιον ἀλλ’ εἰς σὲ πάντες",
       "cites": [
        "157"
@@ -198,18 +150,6 @@
        {
         "headword": "En",
         "page": "0087"
-       }
-      ]
-     },
-     {
-      "greek": "κέρδους ἕνεκ’ ἀδίκου",
-      "cites": [
-       "178"
-      ],
-      "entries": [
-       {
-        "headword": "Slem",
-        "page": "0407"
        }
       ]
      }
@@ -287,63 +227,6 @@
        {
         "headword": "Slägt",
         "page": "0409"
-       }
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
-  "name": "Aesopus",
-  "desc": "Fabularum Scriptor",
-  "abbr": "Aesop.",
-  "works": [
-   {
-    "abbr": "",
-    "title": "",
-    "loci": [
-     {
-      "greek": "κακῶν αἴτιον εἶναί τινι",
-      "cites": [
-       "89.1"
-      ],
-      "entries": [
-       {
-        "headword": "Olycka",
-        "page": "0316"
-       }
-      ]
-     },
-     {
-      "greek": "ἔχεις τὰ πάντα",
-      "cites": [
-       "204"
-      ],
-      "entries": [
-       {
-        "headword": "Sak",
-        "page": "0373"
-       }
-      ]
-     },
-     {
-      "greek": "οἰκείως διακεῖσθαι πρός τινα",
-      "cites": [
-       "417b"
-      ],
-      "entries": [
-       {
-        "headword": "Fot",
-        "page": "0104"
-       },
-       {
-        "headword": "Stå",
-        "page": "0429"
-       },
-       {
-        "headword": "Umgå(s)",
-        "page": "0475"
        }
       ]
      }
@@ -432,31 +315,6 @@
   ]
  },
  {
-  "name": "Alciphro",
-  "desc": "Epistolographus",
-  "abbr": "Alciphr.",
-  "works": [
-   {
-    "abbr": "",
-    "title": "",
-    "loci": [
-     {
-      "greek": "ἡ χθὲς ἡμέρα",
-      "cites": [
-       "3.4"
-      ],
-      "entries": [
-       {
-        "headword": "Gårdag",
-        "page": "0160"
-       }
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
   "name": "Alexander Aphrodisiensis",
   "desc": "Philosophus",
   "abbr": "Alex.Aphr.",
@@ -465,18 +323,6 @@
     "abbr": "de An.",
     "title": "de Anima liber",
     "loci": [
-     {
-      "greek": "ἐπιτηδειότης, ἡ, πρός τι",
-      "cites": [
-       "1.26"
-      ],
-      "entries": [
-       {
-        "headword": "Beqvämlighet",
-        "page": "0038"
-       }
-      ]
-     },
      {
       "greek": "ἀρχὴ τοῦ ζῆν",
       "cites": [
@@ -514,34 +360,6 @@
     "title": "in Aristotelis Metaphysica commentaria",
     "loci": [
      {
-      "greek": "ἐπιστήμη ἡ περί τι",
-      "cites": [
-       "1"
-      ],
-      "entries": [
-       {
-        "headword": "Konstkännedom",
-        "page": "0220"
-       },
-       {
-        "headword": "Konstnärskap",
-        "page": "0220"
-       }
-      ]
-     },
-     {
-      "greek": "φιλοσοφία ἡ περί τινος",
-      "cites": [
-       "4"
-      ],
-      "entries": [
-       {
-        "headword": "Vetenskaplig",
-        "page": "0508"
-       }
-      ]
-     },
-     {
       "greek": "τὴν αὐτὴν δύναμιν ἔχειν (τινί)",
       "cites": [
        "5"
@@ -552,18 +370,6 @@
         "page": "0250"
        }
       ]
-     },
-     {
-      "greek": "εὐφυῶς ἔχειν πρός τι",
-      "cites": [
-       "7"
-      ],
-      "entries": [
-       {
-        "headword": "Anlag",
-        "page": "0020"
-       }
-      ]
      }
     ]
    },
@@ -571,18 +377,6 @@
     "abbr": "in Mete.",
     "title": "in Aristotelis Meteorologicorum libros commentaria",
     "loci": [
-     {
-      "greek": "ἡ τῶν πολλῶν δόξα",
-      "cites": [
-       "1"
-      ],
-      "entries": [
-       {
-        "headword": "Folktro",
-        "page": "0103"
-       }
-      ]
-     },
      {
       "greek": "ἐκλείπειν τὴν ὄψιν",
       "cites": [
@@ -592,18 +386,6 @@
        {
         "headword": "Synvidd",
         "page": "0437"
-       }
-      ]
-     },
-     {
-      "greek": "τὸ κατὰ κάθετον",
-      "cites": [
-       "3"
-      ],
-      "entries": [
-       {
-        "headword": "Lodräthet",
-        "page": "0254"
        }
       ]
      }
@@ -632,30 +414,6 @@
     "title": "in Aristotelis Topicorum libros octo commentaria",
     "loci": [
      {
-      "greek": "ἡ τῶν πολλῶν δόξα",
-      "cites": [
-       "1"
-      ],
-      "entries": [
-       {
-        "headword": "Folktro",
-        "page": "0103"
-       }
-      ]
-     },
-     {
-      "greek": "αὐτάρκη εἶναι πρός τι",
-      "cites": [
-       "2"
-      ],
-      "entries": [
-       {
-        "headword": "Krambod",
-        "page": "0224"
-       }
-      ]
-     },
-     {
       "greek": "ἰσχύειν τῷ σώματι",
       "cites": [
        "3"
@@ -664,18 +422,6 @@
        {
         "headword": "Krambod",
         "page": "0224"
-       }
-      ]
-     },
-     {
-      "greek": "οἱ ἐν γένει",
-      "cites": [
-       "4"
-      ],
-      "entries": [
-       {
-        "headword": "Slägt",
-        "page": "0409"
        }
       ]
      },
@@ -700,36 +446,6 @@
        {
         "headword": "Naturgåfva",
         "page": "0295"
-       }
-      ]
-     },
-     {
-      "greek": "ὡς πᾶσι δοκεῖ",
-      "cites": [
-       "8"
-      ],
-      "entries": [
-       {
-        "headword": "Enstämmig",
-        "page": "0089"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "Quaestiones",
-    "loci": [
-     {
-      "greek": "ἐπιτηδειότης, ἡ, πρός τι",
-      "cites": [
-       "2.7.1"
-      ],
-      "entries": [
-       {
-        "headword": "Beqvämlighet",
-        "page": "0038"
        }
       ]
      }
@@ -759,18 +475,6 @@
       ]
      },
      {
-      "greek": "αἱ τῶν ῥινῶν",
-      "cites": [
-       "17.429"
-      ],
-      "entries": [
-       {
-        "headword": "Näshår",
-        "page": "0305"
-       }
-      ]
-     },
-     {
       "greek": "ἡ τῆς μητρὸς ἀδελφή",
       "cites": [
        "19.469"
@@ -796,18 +500,6 @@
     "title": "in Aristotelis de Interpretatione commentarius",
     "loci": [
      {
-      "greek": "εἰ πᾶσα ἀνάγκη",
-      "cites": [
-       "1"
-      ],
-      "entries": [
-       {
-        "headword": "Värre",
-        "page": "0523"
-       }
-      ]
-     },
-     {
       "greek": "λέγειν πρὸς τὸν δῆμον",
       "cites": [
        "1"
@@ -816,98 +508,6 @@
        {
         "headword": "Till",
         "page": "0449"
-       }
-      ]
-     },
-     {
-      "greek": "οἰκείως ἔχειν (πρός τι)",
-      "cites": [
-       "1"
-      ],
-      "entries": [
-       {
-        "headword": "Passa",
-        "page": "0335"
-       }
-      ]
-     },
-     {
-      "greek": "οἰκείως ἔχειν πρός τι",
-      "cites": [
-       "1"
-      ],
-      "entries": [
-       {
-        "headword": "Qvalificera",
-        "page": "0351"
-       }
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
-  "name": "Andocides",
-  "desc": "Orator",
-  "abbr": "And.",
-  "works": [
-   {
-    "abbr": "2",
-    "title": "De reditu suo",
-    "loci": [
-     {
-      "greek": "ἐκ τούτων τοιούτων ὄντων",
-      "cites": [
-       "16"
-      ],
-      "entries": [
-       {
-        "headword": "Omständighet",
-        "page": "0321"
-       }
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
-  "name": "Apollonius Dyscolus",
-  "desc": "Grammaticus",
-  "abbr": "A.D.",
-  "works": [
-   {
-    "abbr": "Adv.",
-    "title": "de Adverbiis;",
-    "loci": [
-     {
-      "greek": "τὸ ἑκατέρωθεν, ἀμφοτέρωθεν",
-      "cites": [
-       "120"
-      ],
-      "entries": [
-       {
-        "headword": "Ömsesidighet",
-        "page": "0538"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "Synt.",
-    "title": "de Syntaxi;",
-    "loci": [
-     {
-      "greek": "τὸ ἀπὸ τοῦ νῦν",
-      "cites": [
-       "4.67"
-      ],
-      "entries": [
-       {
-        "headword": "Ifrån",
-        "page": "0190"
        }
       ]
      }
@@ -937,104 +537,6 @@
       ]
      }
     ]
-   },
-   {
-    "abbr": "Reg.",
-    "title": "",
-    "loci": [
-     {
-      "greek": "ἐπ’ ἴσῃ καὶ ὁμοίᾳ",
-      "cites": [
-       "5"
-      ],
-      "entries": [
-       {
-        "headword": "På",
-        "page": "0348"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "Syr.",
-    "title": "",
-    "loci": [
-     {
-      "greek": "ἑξακισχίλιοι καὶ μύριοι",
-      "cites": [
-       "6.32"
-      ],
-      "entries": [
-       {
-        "headword": "Sexton",
-        "page": "0384"
-       }
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
-  "name": "Apsines",
-  "desc": "Rhetor",
-  "abbr": "Aps.",
-  "works": [
-   {
-    "abbr": "Rh.",
-    "title": "Ars Rhetorica",
-    "loci": [
-     {
-      "greek": "καὶ γὰρ ἂν μαινοίμην, εἰ",
-      "cites": [
-       "3.8"
-      ],
-      "entries": [
-       {
-        "headword": "Galen",
-        "page": "0143"
-       }
-      ]
-     },
-     {
-      "greek": "εἰς τὸν πάντα χρόνον",
-      "cites": [
-       "11.6"
-      ],
-      "entries": [
-       {
-        "headword": "Tid",
-        "page": "0448"
-       }
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
-  "name": "Archimedes",
-  "desc": "Geometra",
-  "abbr": "Archim.",
-  "works": [
-   {
-    "abbr": "Aren.",
-    "title": "",
-    "loci": [
-     {
-      "greek": "ἐν μέσῳ κείμενος",
-      "cites": [
-       "1"
-      ],
-      "entries": [
-       {
-        "headword": "Central",
-        "page": "0066"
-       }
-      ]
-     }
-    ]
    }
   ]
  },
@@ -1043,24 +545,6 @@
   "desc": "Rhetor",
   "abbr": "Aristid.",
   "works": [
-   {
-    "abbr": "",
-    "title": "Orationes 11",
-    "loci": [
-     {
-      "greek": "τὸ ἀγχίνουν εἶναι",
-      "cites": [
-       "76"
-      ],
-      "entries": [
-       {
-        "headword": "Skarpsinnighet",
-        "page": "0394"
-       }
-      ]
-     }
-    ]
-   },
    {
     "abbr": "",
     "title": "Orationes 13",
@@ -1099,78 +583,6 @@
    },
    {
     "abbr": "",
-    "title": "Orationes 2",
-    "loci": [
-     {
-      "greek": "τὸ πολὺ τοῦ δήμου",
-      "cites": [
-       "15"
-      ],
-      "entries": [
-       {
-        "headword": "Del",
-        "page": "0070"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "Orationes 22",
-    "loci": [
-     {
-      "greek": "χθές τε καὶ πρώην",
-      "cites": [
-       "271"
-      ],
-      "entries": [
-       {
-        "headword": "Nyss",
-        "page": "0302"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "Orationes 23",
-    "loci": [
-     {
-      "greek": "τὸ ἐν τῷ ὄρει",
-      "cites": [
-       "279"
-      ],
-      "entries": [
-       {
-        "headword": "Bergfäste",
-        "page": "0038"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "Orationes 34",
-    "loci": [
-     {
-      "greek": "ἐν ἀκαρεῖ (τοῦ χρόνου)",
-      "cites": [
-       "439"
-      ],
-      "entries": [
-       {
-        "headword": "Blink",
-        "page": "0051"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
     "title": "Orationes 37",
     "loci": [
      {
@@ -1182,42 +594,6 @@
        {
         "headword": "Behag",
         "page": "0034"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "Orationes 42",
-    "loci": [
-     {
-      "greek": "ἡ πρὸς ἀλλήλους ὁμόνοια",
-      "cites": [
-       "537"
-      ],
-      "entries": [
-       {
-        "headword": "Inbördes",
-        "page": "0192"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "Orationes 43",
-    "loci": [
-     {
-      "greek": "εἰς τοὐναντίον περιέστηκε",
-      "cites": [
-       "546"
-      ],
-      "entries": [
-       {
-        "headword": "Vända",
-        "page": "0521"
        }
       ]
      }
@@ -1257,54 +633,6 @@
         "page": "0034"
        }
       ]
-     },
-     {
-      "greek": "τὰ τῶν δικῶν",
-      "cites": [
-       "260"
-      ],
-      "entries": [
-       {
-        "headword": "Civillagskipning",
-        "page": "0068"
-       }
-      ]
-     },
-     {
-      "greek": "πῶς (γὰρ) οὔ; τί μήν",
-      "cites": [
-       "295"
-      ],
-      "entries": [
-       {
-        "headword": "Hvarföre",
-        "page": "0178"
-       }
-      ]
-     },
-     {
-      "greek": "πῶς (γὰρ) οὐ; τί μήν",
-      "cites": [
-       "295"
-      ],
-      "entries": [
-       {
-        "headword": "Icke",
-        "page": "0189"
-       }
-      ]
-     },
-     {
-      "greek": "τί δὴ τοῦτο λέγεις",
-      "cites": [
-       "295"
-      ],
-      "entries": [
-       {
-        "headword": "Förstå",
-        "page": "0137"
-       }
-      ]
      }
     ]
    },
@@ -1312,18 +640,6 @@
     "abbr": "",
     "title": "Orationes 48",
     "loci": [
-     {
-      "greek": "οὐχ ὁμοίως ἔχειν τινί",
-      "cites": [
-       "337"
-      ],
-      "entries": [
-       {
-        "headword": "Undantag",
-        "page": "0476"
-       }
-      ]
-     },
      {
       "greek": "ὁ τῆς σελήνης κύκλος",
       "cites": [
@@ -1353,18 +669,6 @@
         "page": "0346"
        }
       ]
-     },
-     {
-      "greek": "εὖ πεφυκὼς πρός τι",
-      "cites": [
-       "401"
-      ],
-      "entries": [
-       {
-        "headword": "Emottaglig",
-        "page": "0087"
-       }
-      ]
      }
     ]
    },
@@ -1381,60 +685,6 @@
        {
         "headword": "Led",
         "page": "0244"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "Orationes 51",
-    "loci": [
-     {
-      "greek": "καὶ ταῦτα μὲν δὴ ταῦτα",
-      "cites": [
-       "417"
-      ],
-      "entries": [
-       {
-        "headword": "Så",
-        "page": "0437"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "Orationes 52",
-    "loci": [
-     {
-      "greek": "οὐ ταὐτὰ γιγνώσκειν",
-      "cites": [
-       "431"
-      ],
-      "entries": [
-       {
-        "headword": "Dela",
-        "page": "0070"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "Orationes 6",
-    "loci": [
-     {
-      "greek": "οἱ περὶ τοὺς θεούς",
-      "cites": [
-       "37"
-      ],
-      "entries": [
-       {
-        "headword": "Religion",
-        "page": "0357"
        }
       ]
      }
@@ -1488,18 +738,6 @@
     "title": "Acharnenses",
     "loci": [
      {
-      "greek": "μή μοι πρόφασιν",
-      "cites": [
-       "1.345"
-      ],
-      "entries": [
-       {
-        "headword": "Förevändning",
-        "page": "0127"
-       }
-      ]
-     },
-     {
       "greek": "σπονδὰς ποιεῖσθαι πρός τινα",
       "cites": [
        "52"
@@ -1508,18 +746,6 @@
        {
         "headword": "Fördrag",
         "page": "0123"
-       }
-      ]
-     },
-     {
-      "greek": "Μεγαροῖ πῶς ὁ σῖτος ὤνιος",
-      "cites": [
-       "758"
-      ],
-      "entries": [
-       {
-        "headword": "Pris",
-        "page": "0344"
        }
       ]
      }
@@ -1544,58 +770,9 @@
     ]
    },
    {
-    "abbr": "Lys.",
-    "title": "Lysistrata",
-    "loci": [
-     {
-      "greek": "ἆρα γρυκτόν ἐστιν ὑμῖν",
-      "cites": [
-       "656"
-      ],
-      "entries": [
-       {
-        "headword": "Knysta",
-        "page": "0214"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "Nu.",
-    "title": "Nubes",
-    "loci": [
-     {
-      "greek": "(ἔνη (τε) καὶ νέα)",
-      "cites": [
-       "1134",
-       "1197"
-      ],
-      "entries": [
-       {
-        "headword": "Månad",
-        "page": "0288"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "abbr": "Pl.",
     "title": "Plutus",
     "loci": [
-     {
-      "greek": "καὶ ταῦτα μὲν δὴ ταῦτα",
-      "cites": [
-       "8"
-      ],
-      "entries": [
-       {
-        "headword": "Så",
-        "page": "0437"
-       }
-      ]
-     },
      {
       "greek": "πατρὶς γάρ ἔστι πᾶσ', ἵν' ἂν πράττῃ τις εὖ",
       "cites": [
@@ -1605,24 +782,6 @@
        {
         "headword": "Fädernesland",
         "page": "0116"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "Ra.",
-    "title": "Ranae",
-    "loci": [
-     {
-      "greek": "χθές τε καὶ πρώην",
-      "cites": [
-       "726"
-      ],
-      "entries": [
-       {
-        "headword": "Nyss",
-        "page": "0302"
        }
       ]
      }
@@ -1752,39 +911,9 @@
     ]
    },
    {
-    "abbr": "EE",
-    "title": "Ethica Eudemia",
-    "loci": [
-     {
-      "greek": "ἓν καὶ ταὐτὸ εἶναι",
-      "cites": [
-       "2.1"
-      ],
-      "entries": [
-       {
-        "headword": "Sammanfalla",
-        "page": "0377"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "abbr": "EN",
     "title": "Ethica Nicomachea",
     "loci": [
-     {
-      "greek": "ὥστε μὴ ποιεῖν τι",
-      "cites": [
-       "1.11"
-      ],
-      "entries": [
-       {
-        "headword": "Afhålla",
-        "page": "0009"
-       }
-      ]
-     },
      {
       "greek": "δουλεύειν ταῖς ἡδοναῖς",
       "cites": [
@@ -1812,18 +941,6 @@
     "title": "de Generatione Animalium",
     "loci": [
      {
-      "greek": "ἡ κάτω κοιλία",
-      "cites": [
-       "1.18"
-      ],
-      "entries": [
-       {
-        "headword": "Underbuk",
-        "page": "0477"
-       }
-      ]
-     },
-     {
       "greek": "τὸ τῶν φυτῶν γένος",
       "cites": [
        "5.1"
@@ -1834,18 +951,6 @@
         "page": "0524"
        }
       ]
-     },
-     {
-      "greek": "τὰ ὄπισθεν τῆς κεφαλῆς",
-      "cites": [
-       "5.3"
-      ],
-      "entries": [
-       {
-        "headword": "Nacke",
-        "page": "0293"
-       }
-      ]
      }
     ]
    },
@@ -1853,30 +958,6 @@
     "abbr": "HA",
     "title": "Historia Animalium",
     "loci": [
-     {
-      "greek": "τὰ πτερωτὰ τῶν ζῴων",
-      "cites": [
-       "3.12"
-      ],
-      "entries": [
-       {
-        "headword": "Fjäderfä",
-        "page": "0099"
-       }
-      ]
-     },
-     {
-      "greek": "ἵππος ὁ ἄρρην",
-      "cites": [
-       "5.14"
-      ],
-      "entries": [
-       {
-        "headword": "Hingst",
-        "page": "0171"
-       }
-      ]
-     },
      {
       "greek": "εὐθὺς ἀρχομένου τοῦ ἔαρος",
       "cites": [
@@ -1898,18 +979,6 @@
        {
         "headword": "Regn",
         "page": "0356"
-       }
-      ]
-     },
-     {
-      "greek": "μῦς ὁ ποντικός",
-      "cites": [
-       "8.17"
-      ],
-      "entries": [
-       {
-        "headword": "Sobel",
-        "page": "0414"
        }
       ]
      }
@@ -1934,70 +1003,9 @@
     ]
    },
    {
-    "abbr": "Oec.",
-    "title": "Oeconomica",
-    "loci": [
-     {
-      "greek": "τὰ πρὸς τὴν οἰκοδομίαν",
-      "cites": [
-       "2.2.33"
-      ],
-      "entries": [
-       {
-        "headword": "Byggnadstimmer",
-        "page": "0063"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "PA",
-    "title": "de Partibus Animalium",
-    "loci": [
-     {
-      "greek": "τὰ περὶ τὰ ζῷα",
-      "cites": [
-       "1.1.4"
-      ],
-      "entries": [
-       {
-        "headword": "Egenskap",
-        "page": "0084"
-       }
-      ]
-     },
-     {
-      "greek": "τὸ κατὰ τὴν γλῶτταν",
-      "cites": [
-       "4.6.7"
-      ],
-      "entries": [
-       {
-        "headword": "Eftersmak",
-        "page": "0083"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "abbr": "Pol.",
     "title": "Politica",
     "loci": [
-     {
-      "greek": "κοινωνία ἡ πολιτική",
-      "cites": [
-       "1.1",
-       "4.1295b"
-      ],
-      "entries": [
-       {
-        "headword": "Samfund",
-        "page": "0375"
-       }
-      ]
-     },
      {
       "greek": "τὴν τροφὴν ἐπιμέλεια",
       "cites": [
@@ -2023,18 +1031,6 @@
       ]
      },
      {
-      "greek": "τῶν πέντε μερῶν τὰ δύο",
-      "cites": [
-       "2.1270a"
-      ],
-      "entries": [
-       {
-        "headword": "Del",
-        "page": "0070"
-       }
-      ]
-     },
-     {
       "greek": "ἀπειπεῖν τὴν ἀρχήν",
       "cites": [
        "2.1272b"
@@ -2043,18 +1039,6 @@
        {
         "headword": "Afsked",
         "page": "0011"
-       }
-      ]
-     },
-     {
-      "greek": "ὀλίγοι τὸ πλῆθος",
-      "cites": [
-       "3.8"
-      ],
-      "entries": [
-       {
-        "headword": "Antal",
-        "page": "0024"
        }
       ]
      },
@@ -2071,31 +1055,7 @@
       ]
      },
      {
-      "greek": "ἐπὶ πολλῶν ἄν τις ἴδοι",
-      "cites": [
-       "5.5"
-      ],
-      "entries": [
-       {
-        "headword": "Exempel",
-        "page": "0091"
-       }
-      ]
-     },
-     {
-      "greek": "τὰ περὶ τὴν διάνοιαν",
-      "cites": [
-       "7.1"
-      ],
-      "entries": [
-       {
-        "headword": "Verksamhet",
-        "page": "0507"
-       }
-      ]
-     },
-     {
-      "greek": "κατὰ τήν χώραν εἶναι",
+      "greek": "κατὰ τὴν χώραν εἶναι",
       "cites": [
        "7.1331b"
       ],
@@ -2135,18 +1095,6 @@
         "page": "0414"
        }
       ]
-     },
-     {
-      "greek": "κατὰ ταὐτὰ ἔχειν τινί",
-      "cites": [
-       "17.3"
-      ],
-      "entries": [
-       {
-        "headword": "Sinnad",
-        "page": "0387"
-       }
-      ]
      }
     ]
    },
@@ -2163,28 +1111,6 @@
        {
         "headword": "Växtriket",
         "page": "0524"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "Rh.",
-    "title": "Rhetorica",
-    "loci": [
-     {
-      "greek": "ἐπὶ τὸ χεῖρον ὑπολαμβάνειν",
-      "cites": [
-       "2.13.3"
-      ],
-      "entries": [
-       {
-        "headword": "Förtyda",
-        "page": "0141"
-       },
-       {
-        "headword": "Tyda",
-        "page": "0471"
        }
       ]
      }
@@ -2258,18 +1184,6 @@
       ]
      },
      {
-      "greek": "οἱ ἐν τιμῇ",
-      "cites": [
-       "3.23.7"
-      ],
-      "entries": [
-       {
-        "headword": "Hög",
-        "page": "0186"
-       }
-      ]
-     },
-     {
       "greek": "ἐν καιρῷ εἶναί τινι",
       "cites": [
        "4.15.5"
@@ -2290,30 +1204,6 @@
        {
         "headword": "Bergspets",
         "page": "0039"
-       }
-      ]
-     },
-     {
-      "greek": "(τοῦ) πρόσω ἰέναι",
-      "cites": [
-       "5.25.2"
-      ],
-      "entries": [
-       {
-        "headword": "Gå",
-        "page": "0158"
-       }
-      ]
-     },
-     {
-      "greek": "τοῦ πρόσω ἰέναι",
-      "cites": [
-       "5.25.2"
-      ],
-      "entries": [
-       {
-        "headword": "På",
-        "page": "0348"
        }
       ]
      },
@@ -2383,55 +1273,6 @@
   ]
  },
  {
-  "name": "Asclepius",
-  "desc": "Philosophus",
-  "abbr": "Ascl.",
-  "works": [
-   {
-    "abbr": "in Metaph.",
-    "title": "in Aristotelis Metaphysicorum libros",
-    "loci": [
-     {
-      "greek": "ὡς, ὅτι οὐκ",
-      "cites": [
-       "3"
-      ],
-      "entries": [
-       {
-        "headword": "Bestrida",
-        "page": "0042"
-       }
-      ]
-     },
-     {
-      "greek": "φιλοσοφία ἡ περί τινος",
-      "cites": [
-       "4"
-      ],
-      "entries": [
-       {
-        "headword": "Vetenskaplig",
-        "page": "0508"
-       }
-      ]
-     },
-     {
-      "greek": "λόγοι οἱ περί τινος",
-      "cites": [
-       "5"
-      ],
-      "entries": [
-       {
-        "headword": "Lära",
-        "page": "0262"
-       }
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
   "name": "Aspasius",
   "desc": "Philosophus",
   "abbr": "Asp.",
@@ -2466,30 +1307,6 @@
     "title": "Deipnosophistae",
     "loci": [
      {
-      "greek": "ἄλλα τε καί (δὴ καί)",
-      "cites": [
-       "2.51"
-      ],
-      "entries": [
-       {
-        "headword": "Annan",
-        "page": "0021"
-       }
-      ]
-     },
-     {
-      "greek": "(ἔνη (τε) καὶ νέα)",
-      "cites": [
-       "4.71"
-      ],
-      "entries": [
-       {
-        "headword": "Månad",
-        "page": "0288"
-       }
-      ]
-     },
-     {
       "greek": "περὶ τὸν Διόνυσον τεχνῖται",
       "cites": [
        "5.27",
@@ -2515,18 +1332,6 @@
       ]
      },
      {
-      "greek": "πρὸς τὸ σελήνιον",
-      "cites": [
-       "7.3"
-      ],
-      "entries": [
-       {
-        "headword": "Månsken",
-        "page": "0290"
-       }
-      ]
-     },
-     {
       "greek": "οἱ μέλλοντες ἔσεσθαι",
       "cites": [
        "7.34"
@@ -2535,18 +1340,6 @@
        {
         "headword": "Efterverld",
         "page": "0084"
-       }
-      ]
-     },
-     {
-      "greek": "οἱ ἐν τῇ χώρᾳ",
-      "cites": [
-       "8.1"
-      ],
-      "entries": [
-       {
-        "headword": "Befintlig",
-        "page": "0032"
        }
       ]
      },
@@ -2563,18 +1356,6 @@
       ]
      },
      {
-      "greek": "καλῶς ἔχει μοί τι",
-      "cites": [
-       "10.57"
-      ],
-      "entries": [
-       {
-        "headword": "Nog",
-        "page": "0300"
-       }
-      ]
-     },
-     {
       "greek": "ἐλθεῖν εἰς λόγους τινί",
       "cites": [
        "11.113"
@@ -2587,18 +1368,6 @@
       ]
      },
      {
-      "greek": "διάδημα τὸ βασιλικόν",
-      "cites": [
-       "12.53"
-      ],
-      "entries": [
-       {
-        "headword": "Konungakrona",
-        "page": "0221"
-       }
-      ]
-     },
-     {
       "greek": "ἐν ἔθει γενόμενος",
       "cites": [
        "13.3"
@@ -2607,18 +1376,6 @@
        {
         "headword": "Vanlig",
         "page": "0502"
-       }
-      ]
-     },
-     {
-      "greek": "τὴν σχολὴν εἴς τι",
-      "cites": [
-       "14.5"
-      ],
-      "entries": [
-       {
-        "headword": "Begagna o. b. sig af",
-        "page": "0033"
        }
       ]
      },
@@ -2665,172 +1422,10 @@
   ]
  },
  {
-  "name": "Babrius",
-  "desc": "Fabularum Scriptor",
-  "abbr": "Babr.",
-  "works": [
-   {
-    "abbr": "",
-    "title": "",
-    "loci": [
-     {
-      "greek": "καλῶς ἔχει μοί τι",
-      "cites": [
-       "1.2.132"
-      ],
-      "entries": [
-       {
-        "headword": "Nog",
-        "page": "0300"
-       }
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
-  "name": "Brutus",
-  "desc": "Epistolographus",
-  "abbr": "Brut.",
-  "works": [
-   {
-    "abbr": "Ep.",
-    "title": "Epistula",
-    "loci": [
-     {
-      "greek": "οὐδὲν ἄλλο εἰ μή",
-      "cites": [
-       "3"
-      ],
-      "entries": [
-       {
-        "headword": "Bar",
-        "page": "0029"
-       }
-      ]
-     },
-     {
-      "greek": "ἡ πρὸς ἀλλήλους ὁμόνοια",
-      "cites": [
-       "56"
-      ],
-      "entries": [
-       {
-        "headword": "Inbördes",
-        "page": "0192"
-       }
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
-  "name": "Chrysippus",
-  "desc": "Stoicus",
-  "abbr": "Chrysipp.Stoic.",
-  "works": [
-   {
-    "abbr": "",
-    "title": "",
-    "loci": [
-     {
-      "greek": "αὐτάρκη εἶναι πρός τι",
-      "cites": [
-       "67"
-      ],
-      "entries": [
-       {
-        "headword": "Krambod",
-        "page": "0224"
-       }
-      ]
-     },
-     {
-      "greek": "ὁ, ἡ κατά τινα",
-      "cites": [
-       "913"
-      ],
-      "entries": [
-       {
-        "headword": "Samtida",
-        "page": "0379"
-       }
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
   "name": "Clemens Alexandrinus",
   "desc": "Theologus",
   "abbr": "Clem.Al.",
   "works": [
-   {
-    "abbr": "Protr.",
-    "title": "Protrepticus",
-    "loci": [
-     {
-      "greek": "οἱ περὶ τοὺς θεούς",
-      "cites": [
-       "7",
-       "75"
-      ],
-      "entries": [
-       {
-        "headword": "Religion",
-        "page": "0357"
-       }
-      ]
-     },
-     {
-      "greek": "οἰκείως ἔχειν (πρός τι)",
-      "cites": [
-       "10",
-       "100"
-      ],
-      "entries": [
-       {
-        "headword": "Passa",
-        "page": "0335"
-       }
-      ]
-     },
-     {
-      "greek": "οἰκείως ἔχειν πρός τι",
-      "cites": [
-       "10",
-       "100"
-      ],
-      "entries": [
-       {
-        "headword": "Qvalificera",
-        "page": "0351"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "Quis Dis Salvetur",
-    "loci": [
-     {
-      "greek": "εὐθὺς ἀπὸ πρώτης ἡλικίας",
-      "cites": [
-       "8"
-      ],
-      "entries": [
-       {
-        "headword": "Gosseålder",
-        "page": "0152"
-       }
-      ]
-     }
-    ]
-   },
    {
     "abbr": "Strom.",
     "title": "Stromateis",
@@ -2882,42 +1477,6 @@
         "page": "0144"
        }
       ]
-     },
-     {
-      "greek": "τί δὲ καὶ θαυμαστόν",
-      "cites": [
-       "7.4.24"
-      ],
-      "entries": [
-       {
-        "headword": "Under",
-        "page": "0476"
-       }
-      ]
-     },
-     {
-      "greek": "ὅσιος καὶ εὐσεβής",
-      "cites": [
-       "7.7.47"
-      ],
-      "entries": [
-       {
-        "headword": "Dygdig",
-        "page": "0078"
-       }
-      ]
-     },
-     {
-      "greek": "τὸ κατὰ τὴν γλῶτταν",
-      "cites": [
-       "7.8.51"
-      ],
-      "entries": [
-       {
-        "headword": "Eftersmak",
-        "page": "0083"
-       }
-      ]
      }
     ]
    }
@@ -2950,18 +1509,6 @@
     "abbr": "Prooem.",
     "title": "Prooemia",
     "loci": [
-     {
-      "greek": "οὐκ ὀρθῶς λέγειν",
-      "cites": [
-       "13.1"
-      ],
-      "entries": [
-       {
-        "headword": "Orätt",
-        "page": "0326"
-       }
-      ]
-     },
      {
       "greek": "λόγον ἐκ λόγου λέγειν",
       "cites": [
@@ -3015,36 +1562,6 @@
        {
         "headword": "Vapen",
         "page": "0503"
-       }
-      ]
-     },
-     {
-      "greek": "τὸ τῶν θεῶν εὐμενές",
-      "cites": [
-       "45"
-      ],
-      "entries": [
-       {
-        "headword": "Välsignelse",
-        "page": "0520"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "8",
-    "title": "De Chersoneso",
-    "loci": [
-     {
-      "greek": "ἐνδέκατον μῆνα τουτονί",
-      "cites": [
-       "2"
-      ],
-      "entries": [
-       {
-        "headword": "Sedan",
-        "page": "0382"
        }
       ]
      }
@@ -3101,30 +1618,6 @@
       ]
      },
      {
-      "greek": "ὁ ἐπὶ τῆς διοικήσεως",
-      "cites": [
-       "38"
-      ],
-      "entries": [
-       {
-        "headword": "Finansminister",
-        "page": "0097"
-       }
-      ]
-     },
-     {
-      "greek": "ὁ ἐπὶ τῶν ὅπλων",
-      "cites": [
-       "38"
-      ],
-      "entries": [
-       {
-        "headword": "Arsenal",
-        "page": "0026"
-       }
-      ]
-     },
-     {
       "greek": "ἐν καιρῷ γίγνεσθαι",
       "cites": [
        "102"
@@ -3137,18 +1630,6 @@
       ]
      },
      {
-      "greek": "ἐν τῷ ἐμῷ ὕδατι",
-      "cites": [
-       "139"
-      ],
-      "entries": [
-       {
-        "headword": "Tid",
-        "page": "0448"
-       }
-      ]
-     },
-     {
       "greek": "οὐδένα κίνδυνον ὅντιν’ οὐχ ὑπέμειναν οἱ πρόγονοι",
       "cites": [
        "200"
@@ -3157,48 +1638,6 @@
        {
         "headword": "Ingen",
         "page": "0194"
-       }
-      ]
-     },
-     {
-      "greek": "φοιτᾶν εἰς τά τινος",
-      "cites": [
-       "257"
-      ],
-      "entries": [
-       {
-        "headword": "Kollegium",
-        "page": "0216"
-       }
-      ]
-     },
-     {
-      "greek": "ὡς πάντες ἴσασιν",
-      "cites": [
-       "282"
-      ],
-      "entries": [
-       {
-        "headword": "Bekant",
-        "page": "0035"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "19",
-    "title": "De falsa legatione",
-    "loci": [
-     {
-      "greek": "ἐν τῷ ἐμῷ ὕδατι",
-      "cites": [
-       "57"
-      ],
-      "entries": [
-       {
-        "headword": "Tid",
-        "page": "0448"
        }
       ]
      }
@@ -3217,18 +1656,6 @@
        {
         "headword": "Oloflig",
         "page": "0316"
-       }
-      ]
-     },
-     {
-      "greek": "πρὸ τοῦ χρόνος",
-      "cites": [
-       "130"
-      ],
-      "entries": [
-       {
-        "headword": "Tid",
-        "page": "0448"
        }
       ]
      }
@@ -3279,108 +1706,6 @@
         "page": "0120"
        }
       ]
-     },
-     {
-      "greek": "ὑπόπτως ἔχειν πρός τινα",
-      "cites": [
-       "194"
-      ],
-      "entries": [
-       {
-        "headword": "Misstanke",
-        "page": "0279"
-       },
-       {
-        "headword": "Tilltro",
-        "page": "0456"
-       }
-      ]
-     },
-     {
-      "greek": "ὁ πρῶτος νόμος",
-      "cites": [
-       "215"
-      ],
-      "entries": [
-       {
-        "headword": "Grundregel",
-        "page": "0155"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "24",
-    "title": "In Timocratem",
-    "loci": [
-     {
-      "greek": "ἀπὸ τῆς πρώτης συλλαβῆς μέχρι τῆς τελευταίας",
-      "cites": [
-       "70"
-      ],
-      "entries": [
-       {
-        "headword": "Början",
-        "page": "0066"
-       },
-       {
-        "headword": "Perm",
-        "page": "0337"
-       }
-      ]
-     },
-     {
-      "greek": "μέχρι τῆς ὑστάτης συλλαβῆς",
-      "cites": [
-       "110"
-      ],
-      "entries": [
-       {
-        "headword": "Bokstaf",
-        "page": "0054"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "25",
-    "title": "In Aristogitonem I",
-    "loci": [
-     {
-      "greek": "τῶν ἴσων μετέχειν τινί",
-      "cites": [
-       "53"
-      ],
-      "entries": [
-       {
-        "headword": "Andel",
-        "page": "0018"
-       },
-       {
-        "headword": "Rätt",
-        "page": "0369"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "36",
-    "title": "Pro Phormione",
-    "loci": [
-     {
-      "greek": "πλείονος ἄξιον εἶναί τινος",
-      "cites": [
-       "51"
-      ],
-      "entries": [
-       {
-        "headword": "Företräde",
-        "page": "0126"
-       }
-      ]
      }
     ]
    },
@@ -3397,42 +1722,6 @@
        {
         "headword": "Se",
         "page": "0381"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "40",
-    "title": "In Boeotum II",
-    "loci": [
-     {
-      "greek": "κακῶς ἀκούειν ὑπό τινος",
-      "cites": [
-       "45"
-      ],
-      "entries": [
-       {
-        "headword": "Smäda",
-        "page": "0412"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "45",
-    "title": "In Stephanum I",
-    "loci": [
-     {
-      "greek": "τὰ τῆς συγγενείας ἀναγκαῖα",
-      "cites": [
-       "54"
-      ],
-      "entries": [
-       {
-        "headword": "Slägtförbindelse",
-        "page": "0410"
        }
       ]
      }
@@ -3461,18 +1750,6 @@
     "title": "In Evergum et Mnesibulum",
     "loci": [
      {
-      "greek": "ἐξ ὧν σὺ λέγεις",
-      "cites": [
-       "70"
-      ],
-      "entries": [
-       {
-        "headword": "Utsaga",
-        "page": "0496"
-       }
-      ]
-     },
-     {
       "greek": "χρή με ποιεῖν τι",
       "cites": [
        "71"
@@ -3487,51 +1764,9 @@
     ]
    },
    {
-    "abbr": "50",
-    "title": "In Polyclem",
-    "loci": [
-     {
-      "greek": "ἐν τῷ ἐμῷ ὕδατι",
-      "cites": [
-       "2"
-      ],
-      "entries": [
-       {
-        "headword": "Tid",
-        "page": "0448"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "abbr": "56",
     "title": "In Dionysodorum",
     "loci": [
-     {
-      "greek": "ἐν τῇ πέρυσιν ὥρᾳ",
-      "cites": [
-       "3"
-      ],
-      "entries": [
-       {
-        "headword": "År",
-        "page": "0526"
-       }
-      ]
-     },
-     {
-      "greek": "ἐπ’ ἔλαττον ἐβάδιζον",
-      "cites": [
-       "9"
-      ],
-      "entries": [
-       {
-        "headword": "Falla",
-        "page": "0092"
-       }
-      ]
-     },
      {
       "greek": "ἐπὶ δυοῖν ἀγκύραιν ὁρμεῖν",
       "cites": [
@@ -3559,48 +1794,6 @@
        {
         "headword": "Morbroder",
         "page": "0282"
-       }
-      ]
-     },
-     {
-      "greek": "ἐπὶ τοῦ ἐμοῦ ὕδατος",
-      "cites": [
-       "61"
-      ],
-      "entries": [
-       {
-        "headword": "Tid",
-        "page": "0448"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "58",
-    "title": "In Theocrinem",
-    "loci": [
-     {
-      "greek": "οὐ συνειδώς (ἑαυτῷ)",
-      "cites": [
-       "13"
-      ],
-      "entries": [
-       {
-        "headword": "Omedveten",
-        "page": "0318"
-       }
-      ]
-     },
-     {
-      "greek": "τὸν πλεῖστον τοῦ χρόνου",
-      "cites": [
-       "15"
-      ],
-      "entries": [
-       {
-        "headword": "Tid",
-        "page": "0448"
        }
       ]
      }
@@ -3654,19 +1847,6 @@
     "title": "",
     "loci": [
      {
-      "greek": "ἐκ τοῦ πάνυ ἀρχαίου",
-      "cites": [
-       "36.39.2",
-       "47.19.2"
-      ],
-      "entries": [
-       {
-        "headword": "Urgammal",
-        "page": "0489"
-       }
-      ]
-     },
-     {
       "greek": "ταῦτ’ εἰπὼν ἀπηλλάγη",
       "cites": [
        "38.4.4"
@@ -3687,54 +1867,6 @@
        {
         "headword": "Dag",
         "page": "0068"
-       }
-      ]
-     },
-     {
-      "greek": "χρήματα τὰ δημόσια",
-      "cites": [
-       "41.6.3"
-      ],
-      "entries": [
-       {
-        "headword": "Skatt",
-        "page": "0394"
-       }
-      ]
-     },
-     {
-      "greek": "καλῶς ἔχει μοί τι",
-      "cites": [
-       "44.13.4"
-      ],
-      "entries": [
-       {
-        "headword": "Nog",
-        "page": "0300"
-       }
-      ]
-     },
-     {
-      "greek": "τὰ πρὸς τὸν βίον (ἀναγκαῖα)",
-      "cites": [
-       "48.53.4"
-      ],
-      "entries": [
-       {
-        "headword": "Lefnadsbehof",
-        "page": "0245"
-       }
-      ]
-     },
-     {
-      "greek": "τα πρὸς τον βίον ἀναγκαῖα",
-      "cites": [
-       "48.53.4"
-      ],
-      "entries": [
-       {
-        "headword": "Näringsmedel",
-        "page": "0304"
        }
       ]
      }
@@ -3764,19 +1896,6 @@
       ]
      },
      {
-      "greek": "ὡς οἷόν τε τάχιστα",
-      "cites": [
-       "29.12",
-       "58.1"
-      ],
-      "entries": [
-       {
-        "headword": "Kunna",
-        "page": "0233"
-       }
-      ]
-     },
-     {
       "greek": "πρὸς χάριν ὁμιλεῖν τινι",
       "cites": [
        "33.3",
@@ -3790,18 +1909,6 @@
       ]
      },
      {
-      "greek": "τὸ πολιτικὸν ἀξίωμά τινος",
-      "cites": [
-       "37.25"
-      ],
-      "entries": [
-       {
-        "headword": "Ställning",
-        "page": "0431"
-       }
-      ]
-     },
-     {
       "greek": "τὴν πόλιν ὠφελεῖν",
       "cites": [
        "40.19"
@@ -3810,38 +1917,6 @@
        {
         "headword": "Patriot",
         "page": "0335"
-       }
-      ]
-     },
-     {
-      "greek": "τὰ δίκαια ποιεῖν περί τινος",
-      "cites": [
-       "46.2"
-      ],
-      "entries": [
-       {
-        "headword": "Rättvisa",
-        "page": "0371"
-       }
-      ]
-     },
-     {
-      "greek": "πολλοῦ ἄξιον εἶναί τινι",
-      "cites": [
-       "84.1"
-      ],
-      "entries": [
-       {
-        "headword": "Förtjenst",
-        "page": "0140"
-       },
-       {
-        "headword": "Tjenst",
-        "page": "0458"
-       },
-       {
-        "headword": "Verkan",
-        "page": "0506"
        }
       ]
      }
@@ -3887,18 +1962,6 @@
       ]
      },
      {
-      "greek": "ἐν τακτοῖς χρόνοις",
-      "cites": [
-       "1.58.2"
-      ],
-      "entries": [
-       {
-        "headword": "Terminvis",
-        "page": "0447"
-       }
-      ]
-     },
-     {
       "greek": "τῶν νόμων σύνταξις",
       "cites": [
        "1.71.5"
@@ -3935,30 +1998,6 @@
       ]
      },
      {
-      "greek": "ἀμελῶς ἔχειν περί τι",
-      "cites": [
-       "12.49.2"
-      ],
-      "entries": [
-       {
-        "headword": "Oaktsam",
-        "page": "0307"
-       }
-      ]
-     },
-     {
-      "greek": "ὁ κατὰ τὴν πόλιν",
-      "cites": [
-       "13.3.1"
-      ],
-      "entries": [
-       {
-        "headword": "Stadsbo",
-        "page": "0420"
-       }
-      ]
-     },
-     {
       "greek": "τὰς τριήρεις πληροῦν",
       "cites": [
        "13.14.3"
@@ -3967,18 +2006,6 @@
        {
         "headword": "Krigsfot",
         "page": "0226"
-       }
-      ]
-     },
-     {
-      "greek": "δεινόν ἐστι μή",
-      "cites": [
-       "13.30.2"
-      ],
-      "entries": [
-       {
-        "headword": "Frukta",
-        "page": "0110"
        }
       ]
      },
@@ -4020,18 +2047,6 @@
       ]
      },
      {
-      "greek": "εἰς μέσους τοὺς πολεμίους",
-      "cites": [
-       "15.86.4"
-      ],
-      "entries": [
-       {
-        "headword": "Midt",
-        "page": "0277"
-       }
-      ]
-     },
-     {
       "greek": "ἐπιβάλλειν τὰς χεῖράς τινι",
       "cites": [
        "16.30.1"
@@ -4052,80 +2067,6 @@
        {
         "headword": "Stjerna",
         "page": "0425"
-       }
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
-  "name": "Diogenes Cynicus",
-  "desc": "Philosophus",
-  "abbr": "Diog.",
-  "works": [
-   {
-    "abbr": "Ep.",
-    "title": "Epistulae",
-    "loci": [
-     {
-      "greek": "ὑφ’ ἑαυτῷ ἔχειν τι",
-      "cites": [
-       "40.2"
-      ],
-      "entries": [
-       {
-        "headword": "Herrska",
-        "page": "0170"
-       }
-      ]
-     },
-     {
-      "greek": "ὑφ’ ἑαυτῷ ἔχειν τινά",
-      "cites": [
-       "40.2"
-      ],
-      "entries": [
-       {
-        "headword": "Makt",
-        "page": "0267"
-       }
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
-  "name": "Diogenes Laertius",
-  "desc": "",
-  "abbr": "D.L.",
-  "works": [
-   {
-    "abbr": "",
-    "title": "",
-    "loci": [
-     {
-      "greek": "ὁ σοφὸς περί τι",
-      "cites": [
-       "1.11.120"
-      ],
-      "entries": [
-       {
-        "headword": "Kännare",
-        "page": "0235"
-       }
-      ]
-     },
-     {
-      "greek": "τὰ ἐν ἀνθρώποις καλά",
-      "cites": [
-       "2.6.49"
-      ],
-      "entries": [
-       {
-        "headword": "Verld",
-        "page": "0507"
        }
       ]
      }
@@ -4175,31 +2116,6 @@
        {
         "headword": "Tadla",
         "page": "0442"
-       }
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
-  "name": "Dionysius Calliphontis filius",
-  "desc": "Geographus",
-  "abbr": "Dion.Calliph.",
-  "works": [
-   {
-    "abbr": "",
-    "title": "",
-    "loci": [
-     {
-      "greek": "τὰ λοιπὰ τοῦ λόγου",
-      "cites": [
-       "1.39"
-      ],
-      "entries": [
-       {
-        "headword": "Fortsättning",
-        "page": "0104"
        }
       ]
      }
@@ -4260,18 +2176,6 @@
       ]
      },
      {
-      "greek": "τὸ ἀκριβὲς (τῆς γνώμης)",
-      "cites": [
-       "3.19.2"
-      ],
-      "entries": [
-       {
-        "headword": "Skarpsinne",
-        "page": "0394"
-       }
-      ]
-     },
-     {
       "greek": "μίαν ψῆφον ἔχειν",
       "cites": [
        "4.21.1"
@@ -4280,18 +2184,6 @@
        {
         "headword": "Röst",
         "page": "0372"
-       }
-      ]
-     },
-     {
-      "greek": "τὰ ἐν ἀνθρώποις δίκαια",
-      "cites": [
-       "4.35.1"
-      ],
-      "entries": [
-       {
-        "headword": "Menniskorätt",
-        "page": "0275"
        }
       ]
      },
@@ -4310,34 +2202,6 @@
       ]
      },
      {
-      "greek": "εἰς μέσους τοὺς πολεμίους",
-      "cites": [
-       "5.46.4",
-       "6.12.2"
-      ],
-      "entries": [
-       {
-        "headword": "Midt",
-        "page": "0277"
-       }
-      ]
-     },
-     {
-      "greek": "τὰ εἰς τὸν πόλεμον ἐπιτήδεια",
-      "cites": [
-       "5.58.2",
-       "5.63.1",
-       "5.76.1",
-       "6.91.1"
-      ],
-      "entries": [
-       {
-        "headword": "Krigsförråd",
-        "page": "0226"
-       }
-      ]
-     },
-     {
       "greek": "ἐκ νυκτὸς εἰς νύκτα",
       "cites": [
        "6.79.3"
@@ -4346,42 +2210,6 @@
        {
         "headword": "Natt",
         "page": "0294"
-       }
-      ]
-     },
-     {
-      "greek": "δι’ ἀπορρήτων εἰπεῖν τί τινι",
-      "cites": [
-       "8.2.5"
-      ],
-      "entries": [
-       {
-        "headword": "Förtroende",
-        "page": "0140"
-       }
-      ]
-     },
-     {
-      "greek": "ἀδιαλλάκτως ἔχειν πρός τινα",
-      "cites": [
-       "9.33.3"
-      ],
-      "entries": [
-       {
-        "headword": "Oförsonlig",
-        "page": "0313"
-       }
-      ]
-     },
-     {
-      "greek": "ἡ περὶ τοὺς νόμους",
-      "cites": [
-       "10.20.4"
-      ],
-      "entries": [
-       {
-        "headword": "Rättslära",
-        "page": "0371"
        }
       ]
      },
@@ -4408,55 +2236,6 @@
         "page": "0366"
        }
       ]
-     },
-     {
-      "greek": "κατὰ τὸν ἴδιον βίον",
-      "cites": [
-       "19.15.1"
-      ],
-      "entries": [
-       {
-        "headword": "Privatlif",
-        "page": "0344"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "De imitatione (fragmenta)",
-    "loci": [
-     {
-      "greek": "περιττὸς ἐν τοῖς λόγοις",
-      "cites": [
-       "31.2.11"
-      ],
-      "entries": [
-       {
-        "headword": "Ordrik",
-        "page": "0325"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "Dem.",
-    "title": "de Demosthene",
-    "loci": [
-     {
-      "greek": "τοῦτο μέν-τοῦτο δέ",
-      "cites": [
-       "19",
-       "20"
-      ],
-      "entries": [
-       {
-        "headword": "Dels-dels",
-        "page": "0070"
-       }
-      ]
      }
     ]
    },
@@ -4473,24 +2252,6 @@
        {
         "headword": "Föredrag",
         "page": "0124"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "Th.",
-    "title": "de Thucydide",
-    "loci": [
-     {
-      "greek": "εὖ πεφυκὼς πρός τι",
-      "cites": [
-       "23"
-      ],
-      "entries": [
-       {
-        "headword": "Emottaglig",
-        "page": "0087"
        }
       ]
      }
@@ -4554,31 +2315,6 @@
   ]
  },
  {
-  "name": "Euclides",
-  "desc": "Geometra",
-  "abbr": "Euc.",
-  "works": [
-   {
-    "abbr": "",
-    "title": "Opticorum recensio Theonis",
-    "loci": [
-     {
-      "greek": "ὁ τοῦ ἅρματος",
-      "cites": [
-       "37"
-      ],
-      "entries": [
-       {
-        "headword": "Vagnsaxel",
-        "page": "0500"
-       }
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
   "name": "Eusebius Caesariensis",
   "desc": "Scriptor Ecclesiasticus",
   "abbr": "Eus.",
@@ -4620,39 +2356,9 @@
     ]
    },
    {
-    "abbr": "DE",
-    "title": "Demonstratio Evangelica",
-    "loci": [
-     {
-      "greek": "ὁ πάντων σωτήρ",
-      "cites": [
-       "4.13.4"
-      ],
-      "entries": [
-       {
-        "headword": "Verld",
-        "page": "0507"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "abbr": "",
     "title": "De Ecclesiastica Theologia",
     "loci": [
-     {
-      "greek": "ὡς δι’ εἰκόνος",
-      "cites": [
-       "1.20.73"
-      ],
-      "entries": [
-       {
-        "headword": "Liknelsevis",
-        "page": "0251"
-       }
-      ]
-     },
      {
       "greek": "τὰ καθ’ ἡμέραν γιγνόμενα",
       "cites": [
@@ -4681,36 +2387,6 @@
        {
         "headword": "Bål",
         "page": "0064"
-       }
-      ]
-     },
-     {
-      "greek": "εἰς ἐσχάτην ἀναπνοήν",
-      "cites": [
-       "11.19"
-      ],
-      "entries": [
-       {
-        "headword": "Andedrag",
-        "page": "0018"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "Generalis elementaria introductio (= Eclogae propheticae)",
-    "loci": [
-     {
-      "greek": "τί δὲ καὶ θαυμαστόν",
-      "cites": [
-       "3.8"
-      ],
-      "entries": [
-       {
-        "headword": "Under",
-        "page": "0476"
        }
       ]
      }
@@ -4745,18 +2421,6 @@
       ]
      },
      {
-      "greek": "(ἄνω) ἐπὶ τῆς γῆς",
-      "cites": [
-       "11.37.5"
-      ],
-      "entries": [
-       {
-        "headword": "Ofvan",
-        "page": "0312"
-       }
-      ]
-     },
-     {
       "greek": "ἐξ ἀρχῆς μέχρι τέλους",
       "cites": [
        "12.18.4"
@@ -4781,18 +2445,6 @@
        {
         "headword": "Skadestånd",
         "page": "0393"
-       }
-      ]
-     },
-     {
-      "greek": "καὶ ἄλλα τὰ τοιαῦτα",
-      "cites": [
-       "15.2.7"
-      ],
-      "entries": [
-       {
-        "headword": "Vidare",
-        "page": "0509"
        }
       ]
      }
@@ -4826,18 +2478,6 @@
       ]
      },
      {
-      "greek": "οὐχ ὁμοίως ἔχειν τινί",
-      "cites": [
-       "2"
-      ],
-      "entries": [
-       {
-        "headword": "Undantag",
-        "page": "0476"
-       }
-      ]
-     },
-     {
       "greek": "κατὰ φύσιν ἐπιθυμία",
       "cites": [
        "3"
@@ -4854,18 +2494,6 @@
       ]
      },
      {
-      "greek": "ὁ σοφὸς περί τι",
-      "cites": [
-       "6"
-      ],
-      "entries": [
-       {
-        "headword": "Kännare",
-        "page": "0235"
-       }
-      ]
-     },
-     {
       "greek": "ἐν νῷ ἔχειν τι",
       "cites": [
        "7"
@@ -4878,18 +2506,6 @@
        {
         "headword": "Sköld",
         "page": "0405"
-       }
-      ]
-     },
-     {
-      "greek": "τῶν αὐτῶν ἐπιθυμεῖν τινι",
-      "cites": [
-       "8"
-      ],
-      "entries": [
-       {
-        "headword": "Böjelse",
-        "page": "0065"
        }
       ]
      },
@@ -4915,25 +2531,6 @@
   "abbr": "Gal.",
   "works": [
    {
-    "abbr": "",
-    "title": "Ad Glauconem de methodo medendi",
-    "loci": [
-     {
-      "greek": "διὰ τῶν κάτω τινος",
-      "cites": [
-       "1.10",
-       "1.15"
-      ],
-      "entries": [
-       {
-        "headword": "Nedigenom",
-        "page": "0297"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "abbr": "Anim.Pass.",
     "title": "",
     "loci": [
@@ -4946,72 +2543,6 @@
        {
         "headword": "Föra",
         "page": "0120"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "De anatomicis administrationibus",
-    "loci": [
-     {
-      "greek": "τὸ ἄνω τοῦ ποδός",
-      "cites": [
-       "3.11"
-      ],
-      "entries": [
-       {
-        "headword": "Vrist",
-        "page": "0515"
-       }
-      ]
-     },
-     {
-      "greek": "ἡ ἄνω χώρα",
-      "cites": [
-       "8.5"
-      ],
-      "entries": [
-       {
-        "headword": "Inre",
-        "page": "0196"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "De compositione medicamentorum per genera",
-    "loci": [
-     {
-      "greek": "περὶ παντὸς ποιεῖσθαί τι",
-      "cites": [
-       "3.2"
-      ],
-      "entries": [
-       {
-        "headword": "Möda",
-        "page": "0291"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "De constitutione artis medicae ad Patrophilum",
-    "loci": [
-     {
-      "greek": "οὐ περὶ τούτων ὁ λόγος",
-      "cites": [
-       "8"
-      ],
-      "entries": [
-       {
-        "headword": "Tal",
-        "page": "0443"
        }
       ]
      }
@@ -5051,42 +2582,6 @@
        {
         "headword": "Förmå",
         "page": "0132"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "De difficultate respirationis",
-    "loci": [
-     {
-      "greek": "ἐκ τούτων γιγνόμενα",
-      "cites": [
-       "3.9"
-      ],
-      "entries": [
-       {
-        "headword": "Gång",
-        "page": "0159"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "De foetuum formatione",
-    "loci": [
-     {
-      "greek": "τὸ πρῶτον γίγνεσθαι",
-      "cites": [
-       "3"
-      ],
-      "entries": [
-       {
-        "headword": "Börja",
-        "page": "0066"
        }
       ]
      }
@@ -5145,30 +2640,6 @@
       ]
      },
      {
-      "greek": "εἰς ταὐτὸν συνάγειν",
-      "cites": [
-       "3.4"
-      ],
-      "entries": [
-       {
-        "headword": "Sammansmälta",
-        "page": "0378"
-       }
-      ]
-     },
-     {
-      "greek": "περὶ παντὸς ποιεῖσθαί τι",
-      "cites": [
-       "7.7"
-      ],
-      "entries": [
-       {
-        "headword": "Möda",
-        "page": "0291"
-       }
-      ]
-     },
-     {
       "greek": "ἡ τοῦ σώματος ἕξις",
       "cites": [
        "10.10"
@@ -5196,38 +2667,8 @@
    },
    {
     "abbr": "",
-    "title": "De musculorum dissectione ad tirones",
-    "loci": [
-     {
-      "greek": "διὰ τῶν κάτω τινος",
-      "cites": [
-       "35"
-      ],
-      "entries": [
-       {
-        "headword": "Nedigenom",
-        "page": "0297"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
     "title": "De placitis Hippocratis et Platonis",
     "loci": [
-     {
-      "greek": "οὐκ ἔσθ’ ὅπου",
-      "cites": [
-       "1.5"
-      ],
-      "entries": [
-       {
-        "headword": "Ingenstädes",
-        "page": "0194"
-       }
-      ]
-     },
      {
       "greek": "νόσος ἡ τῆς ψυχῆς",
       "cites": [
@@ -5237,18 +2678,6 @@
        {
         "headword": "Sinnessjukdom",
         "page": "0388"
-       }
-      ]
-     },
-     {
-      "greek": "ὡς ἡ ἐμὴ δόξα",
-      "cites": [
-       "5.7"
-      ],
-      "entries": [
-       {
-        "headword": "Mening",
-        "page": "0274"
        }
       ]
      },
@@ -5268,38 +2697,8 @@
    },
    {
     "abbr": "",
-    "title": "De praenotione ad Epigenem",
-    "loci": [
-     {
-      "greek": "εὐδοκιμεῖν παρὰ τοῖς πολλοῖς",
-      "cites": [
-       "1"
-      ],
-      "entries": [
-       {
-        "headword": "Allmänhet",
-        "page": "0016"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
     "title": "De sanitate tuenda",
     "loci": [
-     {
-      "greek": "ἢ ἑκὼν ἢ ἄκων",
-      "cites": [
-       "3.1"
-      ],
-      "entries": [
-       {
-        "headword": "God",
-        "page": "0151"
-       }
-      ]
-     },
      {
       "greek": "ἡ τοῦ σώματος ἕξις",
       "cites": [
@@ -5319,18 +2718,6 @@
     "title": "De simplicium medicamentorum temperamentis ac facultatibus I-VI",
     "loci": [
      {
-      "greek": "οἱ ἀπὸ τῶν δένδρων",
-      "cites": [
-       "4.7"
-      ],
-      "entries": [
-       {
-        "headword": "Trädfrukter",
-        "page": "0466"
-       }
-      ]
-     },
-     {
       "greek": "φακὸς ὁ ἐπὶ τῶν τελμάτων",
       "cites": [
        "8.21.2"
@@ -5339,42 +2726,6 @@
        {
         "headword": "Vattenlins",
         "page": "0504"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "De utilitate respirationis",
-    "loci": [
-     {
-      "greek": "φαίνεταί γε τοῦτο",
-      "cites": [
-       "2"
-      ],
-      "entries": [
-       {
-        "headword": "Förstå",
-        "page": "0137"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "De venarum arteriarumque dissectione",
-    "loci": [
-     {
-      "greek": "τὸ ἄνω τοῦ ποδός",
-      "cites": [
-       "8"
-      ],
-      "entries": [
-       {
-        "headword": "Vrist",
-        "page": "0515"
        }
       ]
      }
@@ -5413,42 +2764,6 @@
         "page": "0132"
        }
       ]
-     },
-     {
-      "greek": "οὐ περὶ τούτων ὁ λόγος",
-      "cites": [
-       "3.16"
-      ],
-      "entries": [
-       {
-        "headword": "Tal",
-        "page": "0443"
-       }
-      ]
-     },
-     {
-      "greek": "τὸ κατὰ τὴν γλῶτταν",
-      "cites": [
-       "5.39"
-      ],
-      "entries": [
-       {
-        "headword": "Eftersmak",
-        "page": "0083"
-       }
-      ]
-     },
-     {
-      "greek": "καὶ ἄλλα τὰ τοιαῦτα",
-      "cites": [
-       "6.47"
-      ],
-      "entries": [
-       {
-        "headword": "Vidare",
-        "page": "0509"
-       }
-      ]
      }
     ]
    },
@@ -5474,30 +2789,6 @@
     "abbr": "",
     "title": "In Hippocratis Epidemiarum I",
     "loci": [
-     {
-      "greek": "ἃ ἐμοὶ δοκεῖ",
-      "cites": [
-       "3.1.4"
-      ],
-      "entries": [
-       {
-        "headword": "Mening",
-        "page": "0274"
-       }
-      ]
-     },
-     {
-      "greek": "διὰ τῶν κάτω τινος",
-      "cites": [
-       "6.2.37"
-      ],
-      "entries": [
-       {
-        "headword": "Nedigenom",
-        "page": "0297"
-       }
-      ]
-     },
      {
       "greek": "πρὶν ἀνατεῖλαι τὸν ἥλιον",
       "cites": [
@@ -5534,39 +2825,9 @@
     ]
    },
    {
-    "abbr": "Nat.Fac.",
-    "title": "",
-    "loci": [
-     {
-      "greek": "ἡ, τὸ πλησίον",
-      "cites": [
-       "3.13"
-      ],
-      "entries": [
-       {
-        "headword": "Närmast",
-        "page": "0305"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "abbr": "",
     "title": "Synopsis librorum suorum de pulsibus",
     "loci": [
-     {
-      "greek": "διαλύεσθαι τὰ πρός τινα",
-      "cites": [
-       "1"
-      ],
-      "entries": [
-       {
-        "headword": "Färdig",
-        "page": "0117"
-       }
-      ]
-     },
      {
       "greek": "ἡ τοῦ σώματος ἕξις",
       "cites": [
@@ -5576,81 +2837,6 @@
        {
         "headword": "Helsa",
         "page": "0169"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "UP",
-    "title": "",
-    "loci": [
-     {
-      "greek": "διὰ τῶν κάτω τινος",
-      "cites": [
-       "10.7",
-       "15.8"
-      ],
-      "entries": [
-       {
-        "headword": "Nedigenom",
-        "page": "0297"
-       }
-      ]
-     },
-     {
-      "greek": "μέτριος (3) τὸ μέγεθος",
-      "cites": [
-       "13.13"
-      ],
-      "entries": [
-       {
-        "headword": "Medelstor",
-        "page": "0272"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "Vict.Att.",
-    "title": "",
-    "loci": [
-     {
-      "greek": "οὐ περὶ τούτων ὁ λόγος",
-      "cites": [
-       "2",
-       "11"
-      ],
-      "entries": [
-       {
-        "headword": "Tal",
-        "page": "0443"
-       }
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
-  "name": "Geminus",
-  "desc": "Astronomicus",
-  "abbr": "Gem.",
-  "works": [
-   {
-    "abbr": "",
-    "title": "Elementa astronomia",
-    "loci": [
-     {
-      "greek": "(ἐν τῷ) τρίτῳ ἔτει",
-      "cites": [
-       "8.32"
-      ],
-      "entries": [
-       {
-        "headword": "På",
-        "page": "0348"
        }
       ]
      }
@@ -5725,30 +2911,6 @@
       ]
      },
      {
-      "greek": "τὰ ἐν τῷ πολέμῳ",
-      "cites": [
-       "3"
-      ],
-      "entries": [
-       {
-        "headword": "Krigshändelse",
-        "page": "0226"
-       }
-      ]
-     },
-     {
-      "greek": "πλείστου ἄξιον εἶναι",
-      "cites": [
-       "4"
-      ],
-      "entries": [
-       {
-        "headword": "Vigt",
-        "page": "0510"
-       }
-      ]
-     },
-     {
       "greek": "ἐν χρείᾳ εἶναι",
       "cites": [
        "5"
@@ -5777,18 +2939,6 @@
       ]
      },
      {
-      "greek": "τὰ πρὸς τὸν βίον χρήσιμα",
-      "cites": [
-       "6"
-      ],
-      "entries": [
-       {
-        "headword": "Lifsuppehälle",
-        "page": "0249"
-       }
-      ]
-     },
-     {
       "greek": "ὀρθὴν δόξαν ἔχειν",
       "cites": [
        "7"
@@ -5797,55 +2947,6 @@
        {
         "headword": "Föreställning",
         "page": "0126"
-       }
-      ]
-     },
-     {
-      "greek": "ὁ εὖ ποιῶν",
-      "cites": [
-       "9"
-      ],
-      "entries": [
-       {
-        "headword": "Välgörare",
-        "page": "0519"
-       }
-      ]
-     },
-     {
-      "greek": "προθύμως ἔχειν πρός τι",
-      "cites": [
-       "9"
-      ],
-      "entries": [
-       {
-        "headword": "Gynna",
-        "page": "0158"
-       }
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
-  "name": "Heliodorus",
-  "desc": "Scriptor Eroticus",
-  "abbr": "Hld.",
-  "works": [
-   {
-    "abbr": "",
-    "title": "",
-    "loci": [
-     {
-      "greek": "τὸ τῶν θεῶν εὐμενές",
-      "cites": [
-       "10.18"
-      ],
-      "entries": [
-       {
-        "headword": "Välsignelse",
-        "page": "0520"
        }
       ]
      }
@@ -5889,56 +2990,6 @@
     ]
    },
    {
-    "abbr": "Inv.",
-    "title": "",
-    "loci": [
-     {
-      "greek": "παρ’ οὐδὲν τίθεσθαι",
-      "cites": [
-       "3.2"
-      ],
-      "entries": [
-       {
-        "headword": "Hålla",
-        "page": "0181"
-       },
-       {
-        "headword": "Småsak",
-        "page": "0412"
-       }
-      ]
-     },
-     {
-      "greek": "παρ’ οὐδὲν τιθεσθαι",
-      "cites": [
-       "3.2"
-      ],
-      "entries": [
-       {
-        "headword": "Ingen",
-        "page": "0194"
-       }
-      ]
-     },
-     {
-      "greek": "παρ’ οὐδὲν τίθεσθαί τι",
-      "cites": [
-       "3.2"
-      ],
-      "entries": [
-       {
-        "headword": "Hjerta",
-        "page": "0172"
-       },
-       {
-        "headword": "Likgiltig",
-        "page": "0251"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "abbr": "Prog.",
     "title": "",
     "loci": [
@@ -5967,18 +3018,6 @@
     "abbr": "",
     "title": "",
     "loci": [
-     {
-      "greek": "οἱ καθ’ ἡμᾶς ἄνθρωποι",
-      "cites": [
-       "1.14.4"
-      ],
-      "entries": [
-       {
-        "headword": "Generation",
-        "page": "0144"
-       }
-      ]
-     },
      {
       "greek": "τὸ τῆς Παλλάδος ἄγαλμα",
       "cites": [
@@ -6029,22 +3068,6 @@
     "title": "",
     "loci": [
      {
-      "greek": "ἅμα (τῷ) ἔαρι",
-      "cites": [
-       "1.77.3",
-       "2.75.3",
-       "5.31.4",
-       "7.37.1",
-       "8.113.1"
-      ],
-      "entries": [
-       {
-        "headword": "Vår",
-        "page": "0517"
-       }
-      ]
-     },
-     {
       "greek": "κατὰ τὸν ποταμὸν φέρεσθαι",
       "cites": [
        "1.194.2"
@@ -6065,54 +3088,6 @@
        {
         "headword": "Fälla",
         "page": "0116"
-       }
-      ]
-     },
-     {
-      "greek": "τέταρτος καὶ δέκατος",
-      "cites": [
-       "3.93.2"
-      ],
-      "entries": [
-       {
-        "headword": "Fjorton",
-        "page": "0099"
-       }
-      ]
-     },
-     {
-      "greek": "ἕβδομος καὶ δέκατος",
-      "cites": [
-       "3.94.1"
-      ],
-      "entries": [
-       {
-        "headword": "Sjutton",
-        "page": "0391"
-       }
-      ]
-     },
-     {
-      "greek": "ὄγδοος καὶ δέκατος",
-      "cites": [
-       "3.94.1"
-      ],
-      "entries": [
-       {
-        "headword": "Aderton",
-        "page": "0005"
-       }
-      ]
-     },
-     {
-      "greek": "ἐκ τούτου (τοῦ χρόνου)",
-      "cites": [
-       "6.42.2"
-      ],
-      "entries": [
-       {
-        "headword": "Tid",
-        "page": "0448"
        }
       ]
      },
@@ -6139,18 +3114,6 @@
         "page": "0481"
        }
       ]
-     },
-     {
-      "greek": "τὸν βίον ὑπέρ τινος",
-      "cites": [
-       "8.100.1"
-      ],
-      "entries": [
-       {
-        "headword": "Martyr",
-        "page": "0269"
-       }
-      ]
      }
     ]
    }
@@ -6161,54 +3124,6 @@
   "desc": "Medicus",
   "abbr": "Hp.",
   "works": [
-   {
-    "abbr": "Aph.",
-    "title": "",
-    "loci": [
-     {
-      "greek": "τὰ ὄπισθεν τῆς κεφαλῆς",
-      "cites": [
-       "5.68"
-      ],
-      "entries": [
-       {
-        "headword": "Nacke",
-        "page": "0293"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "Coac.",
-    "title": "",
-    "loci": [
-     {
-      "greek": "περὶ τὸ ἄνω (τινός)",
-      "cites": [
-       "31"
-      ],
-      "entries": [
-       {
-        "headword": "Uppomkring",
-        "page": "0485"
-       }
-      ]
-     },
-     {
-      "greek": "αἱ κατὰ μικρά",
-      "cites": [
-       "35"
-      ],
-      "entries": [
-       {
-        "headword": "Plotter",
-        "page": "0340"
-       }
-      ]
-     }
-    ]
-   },
    {
     "abbr": "Epid.",
     "title": "",
@@ -6222,18 +3137,6 @@
        {
         "headword": "Vester",
         "page": "0508"
-       }
-      ]
-     },
-     {
-      "greek": "τὰ περὶ τὴν διάνοιαν",
-      "cites": [
-       "7.11"
-      ],
-      "entries": [
-       {
-        "headword": "Verksamhet",
-        "page": "0507"
        }
       ]
      }
@@ -6318,19 +3221,6 @@
       ]
      },
      {
-      "greek": "ἔξω τοῦ ὄρου",
-      "cites": [
-       "6.37.6",
-       "6.37.75"
-      ],
-      "entries": [
-       {
-        "headword": "Öfver",
-        "page": "0533"
-       }
-      ]
-     },
-     {
       "greek": "ποιεἰν τὸ προστεταγμένον",
       "cites": [
        "10.33.10",
@@ -6378,24 +3268,6 @@
   "abbr": "Hyp.",
   "works": [
    {
-    "abbr": "Eux.",
-    "title": "pro Euxenippo",
-    "loci": [
-     {
-      "greek": "(οὐ) δίκαιός εἰμι",
-      "cites": [
-       "20"
-      ],
-      "entries": [
-       {
-        "headword": "Orsak",
-        "page": "0326"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "abbr": "Phil.",
     "title": "adv. Philippum",
     "loci": [
@@ -6433,36 +3305,6 @@
        {
         "headword": "Tala",
         "page": "0444"
-       }
-      ]
-     },
-     {
-      "greek": "πρὸ τοῦ οὐρανοῦ",
-      "cites": [
-       "8.4"
-      ],
-      "entries": [
-       {
-        "headword": "Teckna",
-        "page": "0446"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "Protr.",
-    "title": "Protrepticus",
-    "loci": [
-     {
-      "greek": "διαφερόντως τῶν ἄλλων ἀνθρώπων",
-      "cites": [
-       "13"
-      ],
-      "entries": [
-       {
-        "headword": "Framför",
-        "page": "0105"
        }
       ]
      }
@@ -6530,42 +3372,6 @@
        {
         "headword": "Härröra",
         "page": "0185"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "5",
-    "title": "De Dicaeogenis hereditate",
-    "loci": [
-     {
-      "greek": "δι’ ἔνδειαν τῶν ἐπιτηδείων",
-      "cites": [
-       "39"
-      ],
-      "entries": [
-       {
-        "headword": "Af",
-        "page": "0005"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "8",
-    "title": "De Cironis hereditate",
-    "loci": [
-     {
-      "greek": "οὐ δεῖ μοί τινος",
-      "cites": [
-       "3"
-      ],
-      "entries": [
-       {
-        "headword": "Bespara",
-        "page": "0041"
        }
       ]
      }
@@ -6649,18 +3455,6 @@
     "title": "Philippus",
     "loci": [
      {
-      "greek": "οὐ πολὺς χρόνος ἐξ οὗ",
-      "cites": [
-       "47"
-      ],
-      "entries": [
-       {
-        "headword": "För",
-        "page": "0119"
-       }
-      ]
-     },
-     {
       "greek": "τῆς νυκτὸς καὶ τῆς ἡμέρας",
       "cites": [
        "49"
@@ -6669,18 +3463,6 @@
        {
         "headword": "Dag",
         "page": "0068"
-       }
-      ]
-     },
-     {
-      "greek": "παρὰ μικρὸν ἡγεῖσθαι",
-      "cites": [
-       "79"
-      ],
-      "entries": [
-       {
-        "headword": "Vårda",
-        "page": "0517"
        }
       ]
      }
@@ -6701,18 +3483,6 @@
         "page": "0376"
        }
       ]
-     },
-     {
-      "greek": "κακῶς ἀκούειν ὑπό τινος",
-      "cites": [
-       "59"
-      ],
-      "entries": [
-       {
-        "headword": "Smäda",
-        "page": "0412"
-       }
-      ]
      }
     ]
    },
@@ -6729,18 +3499,6 @@
        {
         "headword": "Förhållande",
         "page": "0129"
-       }
-      ]
-     },
-     {
-      "greek": "τὸν πλεῖστον τοῦ χρόνου",
-      "cites": [
-       "41"
-      ],
-      "entries": [
-       {
-        "headword": "Tid",
-        "page": "0448"
        }
       ]
      }
@@ -6818,18 +3576,6 @@
     "title": "Antiquitates Judaicae",
     "loci": [
      {
-      "greek": "πράως ἔχειν πρός τι",
-      "cites": [
-       "1.210"
-      ],
-      "entries": [
-       {
-        "headword": "Likgiltig",
-        "page": "0251"
-       }
-      ]
-     },
-     {
       "greek": "διὰ τιμῆς ἄγειν",
       "cites": [
        "5.185"
@@ -6850,54 +3596,6 @@
        {
         "headword": "Krigshistoria",
         "page": "0226"
-       }
-      ]
-     },
-     {
-      "greek": "ἀνὰ πᾶσαν τὴν χώραν",
-      "cites": [
-       "7.373"
-      ],
-      "entries": [
-       {
-        "headword": "Genom",
-        "page": "0145"
-       }
-      ]
-     },
-     {
-      "greek": "δισχίλιοι καὶ μύριοι",
-      "cites": [
-       "8.41"
-      ],
-      "entries": [
-       {
-        "headword": "Tolftusen",
-        "page": "0460"
-       }
-      ]
-     },
-     {
-      "greek": "διὰ τετάρτου μηνός",
-      "cites": [
-       "8.59"
-      ],
-      "entries": [
-       {
-        "headword": "Qvartalsvis",
-        "page": "0352"
-       }
-      ]
-     },
-     {
-      "greek": "κινδυνεύειν περὶ τῶν ὅλων",
-      "cites": [
-       "9.170"
-      ],
-      "entries": [
-       {
-        "headword": "Väl",
-        "page": "0519"
        }
       ]
      },
@@ -6938,42 +3636,6 @@
       ]
      },
      {
-      "greek": "τὸ περὶ τὸ ἱερόν",
-      "cites": [
-       "12.141"
-      ],
-      "entries": [
-       {
-        "headword": "Kyrkogård",
-        "page": "0234"
-       }
-      ]
-     },
-     {
-      "greek": "οἰκείως ἔχειν (πρός τι)",
-      "cites": [
-       "12.167"
-      ],
-      "entries": [
-       {
-        "headword": "Passa",
-        "page": "0335"
-       }
-      ]
-     },
-     {
-      "greek": "οἰκείως ἔχειν πρός τι",
-      "cites": [
-       "12.167"
-      ],
-      "entries": [
-       {
-        "headword": "Qvalificera",
-        "page": "0351"
-       }
-      ]
-     },
-     {
       "greek": "τεῖχος πύργοις διειλημμένον",
       "cites": [
        "15.335"
@@ -6982,30 +3644,6 @@
        {
         "headword": "Afbryta",
         "page": "0007"
-       }
-      ]
-     },
-     {
-      "greek": "ἐκ τοῦ πάνυ ἀρχαίου",
-      "cites": [
-       "18.11"
-      ],
-      "entries": [
-       {
-        "headword": "Urgammal",
-        "page": "0489"
-       }
-      ]
-     },
-     {
-      "greek": "χθές τε καὶ πρώην",
-      "cites": [
-       "18.243"
-      ],
-      "entries": [
-       {
-        "headword": "Nyss",
-        "page": "0302"
        }
       ]
      }
@@ -7024,36 +3662,6 @@
        {
         "headword": "Sinnad",
         "page": "0387"
-       }
-      ]
-     },
-     {
-      "greek": "ἀνὰ πᾶσαν τὴν χώραν",
-      "cites": [
-       "7.441"
-      ],
-      "entries": [
-       {
-        "headword": "Genom",
-        "page": "0145"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "Vit.",
-    "title": "Vita",
-    "loci": [
-     {
-      "greek": "τὰ πρὸς τὴν οἰκοδομίαν",
-      "cites": [
-       "156"
-      ],
-      "entries": [
-       {
-        "headword": "Byggnadstimmer",
-        "page": "0063"
        }
       ]
      }
@@ -7101,19 +3709,6 @@
     "title": "Epistulae",
     "loci": [
      {
-      "greek": "φοιτᾶν εἰς τά τινος",
-      "cites": [
-       "19.1",
-       "36.1"
-      ],
-      "entries": [
-       {
-        "headword": "Kollegium",
-        "page": "0216"
-       }
-      ]
-     },
-     {
       "greek": "(μέγα) ἔργον ἐστί",
       "cites": [
        "50.3"
@@ -7122,24 +3717,6 @@
        {
         "headword": "Sak",
         "page": "0373"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "Letter to the Senate and the People of Athens",
-    "loci": [
-     {
-      "greek": "τί δὲ ἐν αἰτίᾳ",
-      "cites": [
-       "10"
-      ],
-      "entries": [
-       {
-        "headword": "Komma",
-        "page": "0216"
        }
       ]
      }
@@ -7187,18 +3764,6 @@
       ]
      },
      {
-      "greek": "τά μέγιστα δύνασθαι",
-      "cites": [
-       "5.33"
-      ],
-      "entries": [
-       {
-        "headword": "Inflytande",
-        "page": "0193"
-       }
-      ]
-     },
-     {
       "greek": "ἔργον ἐστί μοί τι",
       "cites": [
        "8.12"
@@ -7231,35 +3796,6 @@
        {
         "headword": "Förverka",
         "page": "0142"
-       }
-      ]
-     },
-     {
-      "greek": "τῶν ἴσων μετέχειν τινί",
-      "cites": [
-       "13.40",
-       "50.34"
-      ],
-      "entries": [
-       {
-        "headword": "Andel",
-        "page": "0018"
-       },
-       {
-        "headword": "Rätt",
-        "page": "0369"
-       }
-      ]
-     },
-     {
-      "greek": "τὸ τῶν θεῶν εὐμενές",
-      "cites": [
-       "17.59"
-      ],
-      "entries": [
-       {
-        "headword": "Välsignelse",
-        "page": "0520"
        }
       ]
      },
@@ -7300,18 +3836,6 @@
       ]
      },
      {
-      "greek": "τὰ δίκαια δρᾶν",
-      "cites": [
-       "34.3.36"
-      ],
-      "entries": [
-       {
-        "headword": "Rätt",
-        "page": "0369"
-       }
-      ]
-     },
-     {
       "greek": "ἐλθεῖν εἰς λόγους τινί",
       "cites": [
        "48.60"
@@ -7330,18 +3854,6 @@
     "title": "Epistulae",
     "loci": [
      {
-      "greek": "τί δὲ καὶ θαυμαστόν",
-      "cites": [
-       "126.3"
-      ],
-      "entries": [
-       {
-        "headword": "Under",
-        "page": "0476"
-       }
-      ]
-     },
-     {
       "greek": "ἐπὶ δυοῖν ἀγκύραιν ὁρμεῖν",
       "cites": [
        "222.4"
@@ -7350,18 +3862,6 @@
        {
         "headword": "Val",
         "page": "0501"
-       }
-      ]
-     },
-     {
-      "greek": "ἀμελῶς ἔχειν περί τι",
-      "cites": [
-       "648.1"
-      ],
-      "entries": [
-       {
-        "headword": "Oaktsam",
-        "page": "0307"
        }
       ]
      },
@@ -7396,30 +3896,6 @@
       ]
      },
      {
-      "greek": "ἐλάττων τοῦ δέοντος",
-      "cites": [
-       "29.20"
-      ],
-      "entries": [
-       {
-        "headword": "Nog",
-        "page": "0300"
-       }
-      ]
-     },
-     {
-      "greek": "πῶς δὴ τοῦτο γέγονεν",
-      "cites": [
-       "40.4"
-      ],
-      "entries": [
-       {
-        "headword": "Tillgå",
-        "page": "0453"
-       }
-      ]
-     },
-     {
       "greek": "ἐμφράττειν τὸ στόμα τινί",
       "cites": [
        "40.20"
@@ -7444,18 +3920,6 @@
       ]
      },
      {
-      "greek": "κεναῖς ταῖς χερσίν",
-      "cites": [
-       "42.9"
-      ],
-      "entries": [
-       {
-        "headword": "Tomhändt",
-        "page": "0460"
-       }
-      ]
-     },
-     {
       "greek": "ὁ τῶν ἔργων ἐπιστάτης",
       "cites": [
        "42.19"
@@ -7464,54 +3928,6 @@
        {
         "headword": "Verkmästare",
         "page": "0507"
-       }
-      ]
-     },
-     {
-      "greek": "τὰ περὶ τὰ χρήματα",
-      "cites": [
-       "57.28"
-      ],
-      "entries": [
-       {
-        "headword": "Penningangelägenheter",
-        "page": "0336"
-       }
-      ]
-     },
-     {
-      "greek": "τὸ δὲ δεινότατον",
-      "cites": [
-       "59.138"
-      ],
-      "entries": [
-       {
-        "headword": "Värre",
-        "page": "0523"
-       }
-      ]
-     },
-     {
-      "greek": "ὁ παλαιὸς χρόνος",
-      "cites": [
-       "59.152"
-      ],
-      "entries": [
-       {
-        "headword": "Forntid",
-        "page": "0103"
-       }
-      ]
-     },
-     {
-      "greek": "αὐτὸ καθ’ αὑτὸ σκοπεῖν τι",
-      "cites": [
-       "62.62"
-      ],
-      "entries": [
-       {
-        "headword": "Väsen(de)",
-        "page": "0523"
        }
       ]
      }
@@ -7525,24 +3941,6 @@
   "abbr": "Luc.",
   "works": [
    {
-    "abbr": "Abd.",
-    "title": "Abdicatus",
-    "loci": [
-     {
-      "greek": "τὰ πρότερον ἐγνωσμένα",
-      "cites": [
-       "11"
-      ],
-      "entries": [
-       {
-        "headword": "Prejudikat",
-        "page": "0343"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "abbr": "Am.",
     "title": "Amores",
     "loci": [
@@ -7555,24 +3953,6 @@
        {
         "headword": "Tandpulver",
         "page": "0445"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "Anach.",
-    "title": "Anacharsis",
-    "loci": [
-     {
-      "greek": "ἐκ πρώτης προσόψεως",
-      "cites": [
-       "29"
-      ],
-      "entries": [
-       {
-        "headword": "Blick",
-        "page": "0050"
        }
       ]
      }
@@ -7627,36 +4007,6 @@
     ]
    },
    {
-    "abbr": "Cont.",
-    "title": "Contemplantes",
-    "loci": [
-     {
-      "greek": "ἐν ἀκαρεῖ (τοῦ χρόνου)",
-      "cites": [
-       "14"
-      ],
-      "entries": [
-       {
-        "headword": "Blink",
-        "page": "0051"
-       }
-      ]
-     },
-     {
-      "greek": "ὡς γοῦν εἰκάσαι",
-      "cites": [
-       "22"
-      ],
-      "entries": [
-       {
-        "headword": "Synas",
-        "page": "0436"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "abbr": "Dem.Enc.",
     "title": "Demosthenis Encomium",
     "loci": [
@@ -7669,66 +4019,6 @@
        {
         "headword": "Vredgas",
         "page": "0515"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "Demon.",
-    "title": "Demonax",
-    "loci": [
-     {
-      "greek": "τό γε κατ’ ἐμέ",
-      "cites": [
-       "2"
-      ],
-      "entries": [
-       {
-        "headword": "Jag",
-        "page": "0202"
-       }
-      ]
-     },
-     {
-      "greek": "τὸ νόμισμα ὥς",
-      "cites": [
-       "23"
-      ],
-      "entries": [
-       {
-        "headword": "För",
-        "page": "0119"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "DMar.",
-    "title": "Dialogi Marini",
-    "loci": [
-     {
-      "greek": "ἐπ' ἐμοί ἐστί τι",
-      "cites": [
-       "2.4"
-      ],
-      "entries": [
-       {
-        "headword": "Afgöra",
-        "page": "0008"
-       }
-      ]
-     },
-     {
-      "greek": "ἐπ’ ἐμοί ἐστι",
-      "cites": [
-       "2.4"
-      ],
-      "entries": [
-       {
-        "headword": "Tillständig",
-        "page": "0455"
        }
       ]
      }
@@ -7751,18 +4041,6 @@
       ]
      },
      {
-      "greek": "λέγειν ὑπὲρ ἑαυτοῦ",
-      "cites": [
-       "30"
-      ],
-      "entries": [
-       {
-        "headword": "Försvara",
-        "page": "0138"
-       }
-      ]
-     },
-     {
       "greek": "ἀποπνεῖν τοῦ στόματος",
       "cites": [
        "34"
@@ -7771,42 +4049,6 @@
        {
         "headword": "Lukta",
         "page": "0256"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "Ind.",
-    "title": "adversus Indoctum",
-    "loci": [
-     {
-      "greek": "τῶν ἰχθύων ἀφωνότερος",
-      "cites": [
-       "16"
-      ],
-      "entries": [
-       {
-        "headword": "Stum",
-        "page": "0429"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "Merc.Cond.",
-    "title": "de Mercede Conductis",
-    "loci": [
-     {
-      "greek": "καὶ ἐν τοσούτῳ πλήθει",
-      "cites": [
-       "24"
-      ],
-      "entries": [
-       {
-        "headword": "Oaktadt",
-        "page": "0307"
        }
       ]
      }
@@ -7881,18 +4123,6 @@
         "page": "0435"
        }
       ]
-     },
-     {
-      "greek": "τὸν βίον ὑπέρ τινος",
-      "cites": [
-       "3"
-      ],
-      "entries": [
-       {
-        "headword": "Martyr",
-        "page": "0269"
-       }
-      ]
      }
     ]
    },
@@ -7937,18 +4167,6 @@
         "page": "0397"
        }
       ]
-     },
-     {
-      "greek": "ἐν ἀκαρεῖ (τοῦ χρόνου)",
-      "cites": [
-       "35"
-      ],
-      "entries": [
-       {
-        "headword": "Blink",
-        "page": "0051"
-       }
-      ]
      }
     ]
    },
@@ -7985,18 +4203,6 @@
         "page": "0260"
        }
       ]
-     },
-     {
-      "greek": "ἐν ἀκαρεῖ (τοῦ χρόνου)",
-      "cites": [
-       "23"
-      ],
-      "entries": [
-       {
-        "headword": "Blink",
-        "page": "0051"
-       }
-      ]
      }
     ]
    },
@@ -8004,18 +4210,6 @@
     "abbr": "Tox.",
     "title": "Toxaris",
     "loci": [
-     {
-      "greek": "ὁ ἐπὶ τῶν δεσμῶν",
-      "cites": [
-       "29"
-      ],
-      "entries": [
-       {
-        "headword": "Fångvaktare",
-        "page": "0116"
-       }
-      ]
-     },
      {
       "greek": "ἡ πρὸς τοὺς φίλους πίστις",
       "cites": [
@@ -8025,36 +4219,6 @@
        {
         "headword": "Vänfasthet",
         "page": "0521"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "Verae historiae",
-    "loci": [
-     {
-      "greek": "ἡ οὐκ ἀπόδοσις",
-      "cites": [
-       "1.36"
-      ],
-      "entries": [
-       {
-        "headword": "Brista",
-        "page": "0059"
-       }
-      ]
-     },
-     {
-      "greek": "ἐν μέσῃ τῇ νήσῳ",
-      "cites": [
-       "2.3"
-      ],
-      "entries": [
-       {
-        "headword": "Midt",
-        "page": "0277"
        }
       ]
      }
@@ -8133,24 +4297,6 @@
     ]
    },
    {
-    "abbr": "6",
-    "title": "In Andocidem",
-    "loci": [
-     {
-      "greek": "ἥμισυς ὁ βίος",
-      "cites": [
-       "32"
-      ],
-      "entries": [
-       {
-        "headword": "Hälft",
-        "page": "0183"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "abbr": "11",
     "title": "In Theomnestum II",
     "loci": [
@@ -8182,71 +4328,6 @@
        {
         "headword": "Medel",
         "page": "0272"
-       }
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
-  "name": "Marcus Antoninus",
-  "desc": "Imperator",
-  "abbr": "M.Ant.",
-  "works": [
-   {
-    "abbr": "",
-    "title": "",
-    "loci": [
-     {
-      "greek": "ὑφ’ ἑαυτῷ ποιεῖσθαι",
-      "cites": [
-       "7.67.1"
-      ],
-      "entries": [
-       {
-        "headword": "Bero",
-        "page": "0039"
-       },
-       {
-        "headword": "Betvinga",
-        "page": "0045"
-       }
-      ]
-     },
-     {
-      "greek": "ὑφ’ ἑαυτῷ ποιεῖσθαί τι",
-      "cites": [
-       "7.67.1"
-      ],
-      "entries": [
-       {
-        "headword": "Herre",
-        "page": "0170"
-       }
-      ]
-     },
-     {
-      "greek": "ἐν ἄκρῳ τῷ ὄρει",
-      "cites": [
-       "10.23.1"
-      ],
-      "entries": [
-       {
-        "headword": "Höjd",
-        "page": "0187"
-       }
-      ]
-     },
-     {
-      "greek": "ὑπὸ τῇ σκιᾷ",
-      "cites": [
-       "11.24.1"
-      ],
-      "entries": [
-       {
-        "headword": "Skugga",
-        "page": "0402"
        }
       ]
      }
@@ -8297,54 +4378,6 @@
        {
         "headword": "Qvinnoblygd",
         "page": "0352"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "In Librum Quintum Ethicorum Nicomacheorum Commentarium",
-    "loci": [
-     {
-      "greek": "ἄδικον εἶναι περί τινα",
-      "cites": [
-       "1"
-      ],
-      "entries": [
-       {
-        "headword": "Förorätta",
-        "page": "0134"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "in PN",
-    "title": "in Parva Naturalia commentaria",
-    "loci": [
-     {
-      "greek": "διὰ τῶν κάτω τινος",
-      "cites": [
-       "6"
-      ],
-      "entries": [
-       {
-        "headword": "Nedigenom",
-        "page": "0297"
-       }
-      ]
-     },
-     {
-      "greek": "τί ἐκ τούτων γενήσεται",
-      "cites": [
-       "6"
-      ],
-      "entries": [
-       {
-        "headword": "Aflöpa",
-        "page": "0010"
        }
       ]
      }
@@ -8412,19 +4445,6 @@
     "title": "",
     "loci": [
      {
-      "greek": "τί δὲ ἐν αἰτίᾳ",
-      "cites": [
-       "3.5.6",
-       "3.16.11"
-      ],
-      "entries": [
-       {
-        "headword": "Komma",
-        "page": "0216"
-       }
-      ]
-     },
-     {
       "greek": "ἐνδῦναι τὰ ὅπλα",
       "cites": [
        "9.17.3"
@@ -8433,18 +4453,6 @@
        {
         "headword": "Vapen",
         "page": "0503"
-       }
-      ]
-     },
-     {
-      "greek": "κατὰ ταὐτὰ ἔχειν τινί",
-      "cites": [
-       "9.21.5"
-      ],
-      "entries": [
-       {
-        "headword": "Sinnad",
-        "page": "0387"
        }
       ]
      }
@@ -8531,42 +4539,6 @@
    },
    {
     "abbr": "",
-    "title": "De Confusione Linguarum",
-    "loci": [
-     {
-      "greek": "νέοι τε καὶ πρεσβῦται",
-      "cites": [
-       "28"
-      ],
-      "entries": [
-       {
-        "headword": "Som",
-        "page": "0415"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "De Fuga Et Inventione",
-    "loci": [
-     {
-      "greek": "κακῶν αἴτιον εἶναί τινι",
-      "cites": [
-       "80"
-      ],
-      "entries": [
-       {
-        "headword": "Olycka",
-        "page": "0316"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
     "title": "De Plantatione",
     "loci": [
      {
@@ -8618,18 +4590,6 @@
     "title": "De Virtutibus",
     "loci": [
      {
-      "greek": "τὰ ἐν ἔθει",
-      "cites": [
-       "88"
-      ],
-      "entries": [
-       {
-        "headword": "Ceremoni",
-        "page": "0066"
-       }
-      ]
-     },
-     {
       "greek": "γυροῦν τε καὶ περισκάπτειν",
       "cites": [
        "156"
@@ -8655,22 +4615,6 @@
     "title": "In Aristotelis Analytica Posteriora Commentaria",
     "loci": [
      {
-      "greek": "ἐπιστήμη ἡ περί τι",
-      "cites": [
-       "1"
-      ],
-      "entries": [
-       {
-        "headword": "Konstkännedom",
-        "page": "0220"
-       },
-       {
-        "headword": "Konstnärskap",
-        "page": "0220"
-       }
-      ]
-     },
-     {
       "greek": "οἱ νῦν ὄντες ἄνθρωποι",
       "cites": [
        "1"
@@ -8689,46 +4633,6 @@
     "title": "In Aristotelis Libros De Anima Commentaria",
     "loci": [
      {
-      "greek": "ἐν τοῖς ἐπάνω εἴρηται",
-      "cites": [
-       "1"
-      ],
-      "entries": [
-       {
-        "headword": "Ofvan",
-        "page": "0312"
-       }
-      ]
-     },
-     {
-      "greek": "ἐπιστήμη ἡ περί τι",
-      "cites": [
-       "1"
-      ],
-      "entries": [
-       {
-        "headword": "Konstkännedom",
-        "page": "0220"
-       },
-       {
-        "headword": "Konstnärskap",
-        "page": "0220"
-       }
-      ]
-     },
-     {
-      "greek": "ὁ (ἡ, τὸ) δέ",
-      "cites": [
-       "1"
-      ],
-      "entries": [
-       {
-        "headword": "Sednare",
-        "page": "0382"
-       }
-      ]
-     },
-     {
       "greek": "(εἰς) μέρη διαιρεῖν",
       "cites": [
        "3"
@@ -8737,40 +4641,6 @@
        {
         "headword": "I",
         "page": "0188"
-       }
-      ]
-     },
-     {
-      "greek": "ὁ νῦν χρόνος",
-      "cites": [
-       "3"
-      ],
-      "entries": [
-       {
-        "headword": "Nutid",
-        "page": "0301"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "in Cat.",
-    "title": "Philoponi (olim Ammonii) in Aristotelis Categorias commentarium",
-    "loci": [
-     {
-      "greek": "ἐπιστήμη ἡ περί τι",
-      "cites": [
-       "1"
-      ],
-      "entries": [
-       {
-        "headword": "Konstkännedom",
-        "page": "0220"
-       },
-       {
-        "headword": "Konstnärskap",
-        "page": "0220"
        }
       ]
      }
@@ -8799,63 +4669,9 @@
     ]
    },
    {
-    "abbr": "in GC",
-    "title": "in Aristotelis libros de Generatione et Corruptione commentaria",
-    "loci": [
-     {
-      "greek": "οὐ περὶ τούτων ὁ λόγος",
-      "cites": [
-       "1"
-      ],
-      "entries": [
-       {
-        "headword": "Tal",
-        "page": "0443"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "abbr": "in Ph.",
     "title": "",
     "loci": [
-     {
-      "greek": "ἐπὶ πολὺ εἶναι",
-      "cites": [
-       "2"
-      ],
-      "entries": [
-       {
-        "headword": "Rum",
-        "page": "0364"
-       }
-      ]
-     },
-     {
-      "greek": "ἐπὶ πολύ, πόρρω",
-      "cites": [
-       "3"
-      ],
-      "entries": [
-       {
-        "headword": "In",
-        "page": "0191"
-       }
-      ]
-     },
-     {
-      "greek": "τὰ δεξιά, τὰ ἀριστερά",
-      "cites": [
-       "4"
-      ],
-      "entries": [
-       {
-        "headword": "Sida",
-        "page": "0385"
-       }
-      ]
-     },
      {
       "greek": "τὸ ὄν, ὑπάρχον",
       "cites": [
@@ -8890,42 +4706,6 @@
        {
         "headword": "Personligen",
         "page": "0337"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "VA",
-    "title": "Vita Apollonii",
-    "loci": [
-     {
-      "greek": "ναυτικὴ δύναμις, ἡ",
-      "cites": [
-       "6.21"
-      ],
-      "entries": [
-       {
-        "headword": "Sjöfolk",
-        "page": "0391"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "VS",
-    "title": "Vitae Sophistarum",
-    "loci": [
-     {
-      "greek": "οἱ κατὰ γῆς",
-      "cites": [
-       "1.22.1"
-      ],
-      "entries": [
-       {
-        "headword": "Under",
-        "page": "0476"
        }
       ]
      }
@@ -9008,24 +4788,6 @@
     ]
    },
    {
-    "abbr": "Chrm.",
-    "title": "Charmides",
-    "loci": [
-     {
-      "greek": "τό γ’ ἐμὸν οὐδὲν κωλύει",
-      "cites": [
-       "176b"
-      ],
-      "entries": [
-       {
-        "headword": "Gerna",
-        "page": "0147"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "abbr": "Cra.",
     "title": "Cratylus",
     "loci": [
@@ -9038,18 +4800,6 @@
        {
         "headword": "Af",
         "page": "0005"
-       }
-      ]
-     },
-     {
-      "greek": "παρ’ ἐμοί ἐστιν",
-      "cites": [
-       "422c"
-      ],
-      "entries": [
-       {
-        "headword": "Godtycke",
-        "page": "0152"
        }
       ]
      }
@@ -9086,51 +4836,9 @@
     ]
    },
    {
-    "abbr": "Criti.",
-    "title": "Critias",
-    "loci": [
-     {
-      "greek": "τὸ περὶ τὸ ἱερόν",
-      "cites": [
-       "120c"
-      ],
-      "entries": [
-       {
-        "headword": "Kyrkogård",
-        "page": "0234"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "abbr": "Ep.",
     "title": "Epistulae",
     "loci": [
-     {
-      "greek": "λόγοι οἱ περί τινος",
-      "cites": [
-       "2.311c"
-      ],
-      "entries": [
-       {
-        "headword": "Lära",
-        "page": "0262"
-       }
-      ]
-     },
-     {
-      "greek": "ὡς ἡ ἐμὴ δόξα",
-      "cites": [
-       "3.317e"
-      ],
-      "entries": [
-       {
-        "headword": "Mening",
-        "page": "0274"
-       }
-      ]
-     },
      {
       "greek": "(λόγου) ἄξιόν ἐστιν",
       "cites": [
@@ -9168,24 +4876,6 @@
     ]
    },
    {
-    "abbr": "Euthd.",
-    "title": "Euthydemus",
-    "loci": [
-     {
-      "greek": "εἰ μή τι σὺ ἄλλο λέγεις",
-      "cites": [
-       "301e"
-      ],
-      "entries": [
-       {
-        "headword": "Tillåtelse",
-        "page": "0456"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "abbr": "Euthphr.",
     "title": "Euthyphro",
     "loci": [
@@ -9208,18 +4898,6 @@
     "title": "Gorgias",
     "loci": [
      {
-      "greek": "τί δὴ τοῦτο λέγεις",
-      "cites": [
-       "452d"
-      ],
-      "entries": [
-       {
-        "headword": "Förstå",
-        "page": "0137"
-       }
-      ]
-     },
-     {
       "greek": "ὁ τὰ ζῷα γράφων",
       "cites": [
        "453c"
@@ -9232,18 +4910,6 @@
       ]
      },
      {
-      "greek": "τό γ’ ἐμὸν οὐδὲν κωλύει",
-      "cites": [
-       "458d"
-      ],
-      "entries": [
-       {
-        "headword": "Gerna",
-        "page": "0147"
-       }
-      ]
-     },
-     {
       "greek": "ἐξουσία τοῦ λέγειν",
       "cites": [
        "461e"
@@ -9252,19 +4918,6 @@
        {
         "headword": "Yttranderätt",
         "page": "0525"
-       }
-      ]
-     },
-     {
-      "greek": "εἰ μή τι σὺ ἄλλο λέγεις",
-      "cites": [
-       "462c",
-       "513c"
-      ],
-      "entries": [
-       {
-        "headword": "Tillåtelse",
-        "page": "0456"
        }
       ]
      },
@@ -9283,18 +4936,6 @@
       ]
      },
      {
-      "greek": "διαφερόντως τῶν ἄλλων ἀνθρώπων",
-      "cites": [
-       "479e"
-      ],
-      "entries": [
-       {
-        "headword": "Framför",
-        "page": "0105"
-       }
-      ]
-     },
-     {
       "greek": "νεανιεύεσθαι ἐν τοῖς λόγοις",
       "cites": [
        "482c"
@@ -9303,30 +4944,6 @@
        {
         "headword": "Käfta",
         "page": "0235"
-       }
-      ]
-     },
-     {
-      "greek": "εὖ μάλα σκεψάμενος",
-      "cites": [
-       "496c"
-      ],
-      "entries": [
-       {
-        "headword": "Mogen",
-        "page": "0282"
-       }
-      ]
-     },
-     {
-      "greek": "οὐχ οἷός τ’ εἰμι",
-      "cites": [
-       "508c"
-      ],
-      "entries": [
-       {
-        "headword": "Sak",
-        "page": "0373"
        }
       ]
      },
@@ -9357,18 +4974,6 @@
         "page": "0458"
        }
       ]
-     },
-     {
-      "greek": "ἡ περὶ τῆς πορείας",
-      "cites": [
-       "524a"
-      ],
-      "entries": [
-       {
-        "headword": "Resebeskrifning",
-        "page": "0359"
-       }
-      ]
      }
     ]
    },
@@ -9376,18 +4981,6 @@
     "abbr": "Hp.Ma.",
     "title": "",
     "loci": [
-     {
-      "greek": "εἰ μή τι σὺ ἄλλο λέγεις",
-      "cites": [
-       "291a"
-      ],
-      "entries": [
-       {
-        "headword": "Tillåtelse",
-        "page": "0456"
-       }
-      ]
-     },
      {
       "greek": "ὡς ἐγὼ μνήμης ἔχω",
       "cites": [
@@ -9424,56 +5017,6 @@
     "abbr": "Lg.",
     "title": "Leges",
     "loci": [
-     {
-      "greek": "τὰ περὶ τὰς δίκας",
-      "cites": [
-       "1.625a"
-      ],
-      "entries": [
-       {
-        "headword": "Lagskipning",
-        "page": "0241"
-       },
-       {
-        "headword": "Rättegångsväsen",
-        "page": "0370"
-       },
-       {
-        "headword": "Studera",
-        "page": "0428"
-       }
-      ]
-     },
-     {
-      "greek": "πῶς (γὰρ) οὔ; τί μήν",
-      "cites": [
-       "1.640a",
-       "1.640c",
-       "2.668b",
-       "3.681b"
-      ],
-      "entries": [
-       {
-        "headword": "Hvarföre",
-        "page": "0178"
-       }
-      ]
-     },
-     {
-      "greek": "πῶς (γὰρ) οὐ; τί μήν",
-      "cites": [
-       "1.640a",
-       "1.640c",
-       "2.668b",
-       "3.681b"
-      ],
-      "entries": [
-       {
-        "headword": "Icke",
-        "page": "0189"
-       }
-      ]
-     },
      {
       "greek": "ἐξ ἀρχῆς μέχρι τέλους",
       "cites": [
@@ -9515,42 +5058,6 @@
       ]
      },
      {
-      "greek": "ἡ μεγίστη δύναμις",
-      "cites": [
-       "4.712a"
-      ],
-      "entries": [
-       {
-        "headword": "Hufvudegenskap",
-        "page": "0175"
-       }
-      ]
-     },
-     {
-      "greek": "ἡ πλείστη χειροτονία",
-      "cites": [
-       "6.755d"
-      ],
-      "entries": [
-       {
-        "headword": "Röstpluralitet",
-        "page": "0373"
-       }
-      ]
-     },
-     {
-      "greek": "τὸν πλεῖστον τοῦ χρόνου",
-      "cites": [
-       "6.758b"
-      ],
-      "entries": [
-       {
-        "headword": "Tid",
-        "page": "0448"
-       }
-      ]
-     },
-     {
       "greek": "ἐν μούσαις εἶναι",
       "cites": [
        "8.829d"
@@ -9571,18 +5078,6 @@
        {
         "headword": "Farfar",
         "page": "0094"
-       }
-      ]
-     },
-     {
-      "greek": "τὰ περὶ τὸν φόνον",
-      "cites": [
-       "9.867d"
-      ],
-      "entries": [
-       {
-        "headword": "Mordhistoria",
-        "page": "0282"
        }
       ]
      },
@@ -9645,30 +5140,6 @@
         "page": "0193"
        }
       ]
-     },
-     {
-      "greek": "περὶ σμικροῦ ποιεῖσθαι",
-      "cites": [
-       "12.950b"
-      ],
-      "entries": [
-       {
-        "headword": "Ringa",
-        "page": "0362"
-       }
-      ]
-     },
-     {
-      "greek": "τὰ θεῖα νόμιμα",
-      "cites": [
-       "12.958d"
-      ],
-      "entries": [
-       {
-        "headword": "Religion",
-        "page": "0357"
-       }
-      ]
      }
     ]
    },
@@ -9695,30 +5166,6 @@
     "title": "Meno",
     "loci": [
      {
-      "greek": "(ἀλλ’) ἴθι (δή)",
-      "cites": [
-       "77a"
-      ],
-      "entries": [
-       {
-        "headword": "Upp",
-        "page": "0480"
-       }
-      ]
-     },
-     {
-      "greek": "ἐξ ὧν σὺ ὁμολογεῖς",
-      "cites": [
-       "79b"
-      ],
-      "entries": [
-       {
-        "headword": "Bekännelse",
-        "page": "0036"
-       }
-      ]
-     },
-     {
       "greek": "ὡς διδακτοῦ οὔσης τῆς ἀρετῆς",
       "cites": [
        "95e"
@@ -9729,18 +5176,6 @@
         "page": "0438"
        }
       ]
-     },
-     {
-      "greek": "τί δὴ τοῦτο λέγεις",
-      "cites": [
-       "97d"
-      ],
-      "entries": [
-       {
-        "headword": "Förstå",
-        "page": "0137"
-       }
-      ]
      }
     ]
    },
@@ -9748,18 +5183,6 @@
     "abbr": "Mx.",
     "title": "Menexenus",
     "loci": [
-     {
-      "greek": "τῇ ὑστεραίᾳ τῆς μάχης",
-      "cites": [
-       "240c"
-      ],
-      "entries": [
-       {
-        "headword": "Efter",
-        "page": "0082"
-       }
-      ]
-     },
      {
       "greek": "ἡ τῷ ὄντι συγγένεια",
       "cites": [
@@ -9778,54 +5201,6 @@
     "abbr": "Phd.",
     "title": "Phaedo",
     "loci": [
-     {
-      "greek": "παρῆσάν τινες καὶ πολλοί γε",
-      "cites": [
-       "58d"
-      ],
-      "entries": [
-       {
-        "headword": "Och",
-        "page": "0310"
-       }
-      ]
-     },
-     {
-      "greek": "ἐξ ὧν ἐγὼ ᾔσθημαι",
-      "cites": [
-       "61c"
-      ],
-      "entries": [
-       {
-        "headword": "Erfarenhet",
-        "page": "0089"
-       }
-      ]
-     },
-     {
-      "greek": "διαφερόντως τῶν ἄλλων ἀνθρώπων",
-      "cites": [
-       "65a"
-      ],
-      "entries": [
-       {
-        "headword": "Framför",
-        "page": "0105"
-       }
-      ]
-     },
-     {
-      "greek": "κατὰ ταὐτὰ ἔχειν τινί",
-      "cites": [
-       "78d"
-      ],
-      "entries": [
-       {
-        "headword": "Sinnad",
-        "page": "0387"
-       }
-      ]
-     },
      {
       "greek": "ἕως ἔτι φῶς ἐστιν",
       "cites": [
@@ -9863,18 +5238,6 @@
       ]
      },
      {
-      "greek": "(ἄνω) ἐπὶ τῆς γῆς",
-      "cites": [
-       "109c"
-      ],
-      "entries": [
-       {
-        "headword": "Ofvan",
-        "page": "0312"
-       }
-      ]
-     },
-     {
       "greek": "ἀνίστατο εἰς οἴκημά τι",
       "cites": [
        "116a"
@@ -9903,84 +5266,6 @@
         "page": "0476"
        }
       ]
-     },
-     {
-      "greek": "εἰ μή τι σὺ ἄλλο λέγεις",
-      "cites": [
-       "235a"
-      ],
-      "entries": [
-       {
-        "headword": "Tillåtelse",
-        "page": "0456"
-       }
-      ]
-     },
-     {
-      "greek": "ἐξ ὧν σὺ λέγεις",
-      "cites": [
-       "258c"
-      ],
-      "entries": [
-       {
-        "headword": "Utsaga",
-        "page": "0496"
-       }
-      ]
-     },
-     {
-      "greek": "αἱ περὶ τὸ σῶμα",
-      "cites": [
-       "258e"
-      ],
-      "entries": [
-       {
-        "headword": "Lusta—Lycksalig. 253",
-        "page": "0257"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "Phlb.",
-    "title": "Philebus",
-    "loci": [
-     {
-      "greek": "πῶς (γὰρ) οὔ; τί μήν",
-      "cites": [
-       "18e"
-      ],
-      "entries": [
-       {
-        "headword": "Hvarföre",
-        "page": "0178"
-       }
-      ]
-     },
-     {
-      "greek": "πῶς (γὰρ) οὐ; τί μήν",
-      "cites": [
-       "18e"
-      ],
-      "entries": [
-       {
-        "headword": "Icke",
-        "page": "0189"
-       }
-      ]
-     },
-     {
-      "greek": "αἱ περὶ τὸ σῶμα",
-      "cites": [
-       "45a"
-      ],
-      "entries": [
-       {
-        "headword": "Lusta—Lycksalig. 253",
-        "page": "0257"
-       }
-      ]
      }
     ]
    },
@@ -9988,18 +5273,6 @@
     "abbr": "Plt.",
     "title": "Politicus",
     "loci": [
-     {
-      "greek": "τὸ περὶ τοὺς λογισμούς",
-      "cites": [
-       "257b"
-      ],
-      "entries": [
-       {
-        "headword": "Räkenskapsväsende",
-        "page": "0368"
-       }
-      ]
-     },
      {
       "greek": "κατέχειν τὴν ἀρχήν",
       "cites": [
@@ -10009,38 +5282,6 @@
        {
         "headword": "Thron",
         "page": "0448"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "Prm.",
-    "title": "Parmenides",
-    "loci": [
-     {
-      "greek": "πῶς (γὰρ) οὔ; τί μήν",
-      "cites": [
-       "150d",
-       "151a"
-      ],
-      "entries": [
-       {
-        "headword": "Hvarföre",
-        "page": "0178"
-       }
-      ]
-     },
-     {
-      "greek": "πῶς (γὰρ) οὐ; τί μήν",
-      "cites": [
-       "150d",
-       "151a"
-      ],
-      "entries": [
-       {
-        "headword": "Icke",
-        "page": "0189"
        }
       ]
      }
@@ -10059,18 +5300,6 @@
        {
         "headword": "Tänka",
         "page": "0473"
-       }
-      ]
-     },
-     {
-      "greek": "ἐξ ὧν σὺ λέγεις",
-      "cites": [
-       "313c"
-      ],
-      "entries": [
-       {
-        "headword": "Utsaga",
-        "page": "0496"
        }
       ]
      },
@@ -10130,18 +5359,6 @@
     "title": "Respublica",
     "loci": [
      {
-      "greek": "θαυμαστῶς ὡς σφόδρα",
-      "cites": [
-       "1.331a"
-      ],
-      "entries": [
-       {
-        "headword": "Utomordentlig",
-        "page": "0495"
-       }
-      ]
-     },
-     {
       "greek": "ἐν παρέργου μέρει",
       "cites": [
        "2.370c"
@@ -10154,32 +5371,6 @@
       ]
      },
      {
-      "greek": "πῶς (γὰρ) οὔ; τί μήν",
-      "cites": [
-       "3.391e",
-       "10.602d"
-      ],
-      "entries": [
-       {
-        "headword": "Hvarföre",
-        "page": "0178"
-       }
-      ]
-     },
-     {
-      "greek": "πῶς (γὰρ) οὐ; τί μήν",
-      "cites": [
-       "3.391e",
-       "10.602d"
-      ],
-      "entries": [
-       {
-        "headword": "Icke",
-        "page": "0189"
-       }
-      ]
-     },
-     {
       "greek": "ἐπιστήμῃ τε καὶ ἐμπειρίᾳ",
       "cites": [
        "4.422c"
@@ -10188,54 +5379,6 @@
        {
         "headword": "Theorem",
         "page": "0448"
-       }
-      ]
-     },
-     {
-      "greek": "εἰ μή τι σὺ ἄλλο λέγεις",
-      "cites": [
-       "4.430b"
-      ],
-      "entries": [
-       {
-        "headword": "Tillåtelse",
-        "page": "0456"
-       }
-      ]
-     },
-     {
-      "greek": "ὡς ἡ ἐμὴ δόξα",
-      "cites": [
-       "4.435c"
-      ],
-      "entries": [
-       {
-        "headword": "Mening",
-        "page": "0274"
-       }
-      ]
-     },
-     {
-      "greek": "οὐ πολὺς χρόνος ἐξ οὗ",
-      "cites": [
-       "5.452c"
-      ],
-      "entries": [
-       {
-        "headword": "För",
-        "page": "0119"
-       }
-      ]
-     },
-     {
-      "greek": "εἰς τὸ κάτω καὶ ἐπὶ τὸ ἄνω",
-      "cites": [
-       "5.461c"
-      ],
-      "entries": [
-       {
-        "headword": "Nedstiga",
-        "page": "0298"
        }
       ]
      },
@@ -10258,18 +5401,6 @@
     "title": "Symposium",
     "loci": [
      {
-      "greek": "προθύμως ἔχειν πρός τι",
-      "cites": [
-       "176c"
-      ],
-      "entries": [
-       {
-        "headword": "Gynna",
-        "page": "0158"
-       }
-      ]
-     },
-     {
       "greek": "οὐκ ἂν φθάνοις λέγων",
       "cites": [
        "185e"
@@ -10282,42 +5413,6 @@
       ]
      },
      {
-      "greek": "ὅμοιον ὁμοίῳ ἀεὶ πελάζει",
-      "cites": [
-       "195b"
-      ],
-      "entries": [
-       {
-        "headword": "Lika",
-        "page": "0250"
-       }
-      ]
-     },
-     {
-      "greek": "ἐξ ὧν σὺ λέγεις",
-      "cites": [
-       "204c"
-      ],
-      "entries": [
-       {
-        "headword": "Utsaga",
-        "page": "0496"
-       }
-      ]
-     },
-     {
-      "greek": "καὶ ταῦτα μὲν δὴ ταῦτα",
-      "cites": [
-       "220c"
-      ],
-      "entries": [
-       {
-        "headword": "Så",
-        "page": "0437"
-       }
-      ]
-     },
-     {
       "greek": "ἐφ’ ἵππου εἶναι",
       "cites": [
        "221a"
@@ -10326,56 +5421,6 @@
        {
         "headword": "Häst",
         "page": "0185"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "Sph.",
-    "title": "Sophista",
-    "loci": [
-     {
-      "greek": "πῶς (γὰρ) οὔ; τί μήν",
-      "cites": [
-       "224c",
-       "225c",
-       "227d",
-       "250a",
-       "252e"
-      ],
-      "entries": [
-       {
-        "headword": "Hvarföre",
-        "page": "0178"
-       }
-      ]
-     },
-     {
-      "greek": "πῶς (γὰρ) οὐ; τί μήν",
-      "cites": [
-       "224c",
-       "225c",
-       "227d",
-       "250a",
-       "252e"
-      ],
-      "entries": [
-       {
-        "headword": "Icke",
-        "page": "0189"
-       }
-      ]
-     },
-     {
-      "greek": "οὐδὲν ἧττον οὐδέ τι μᾶλλον",
-      "cites": [
-       "227a"
-      ],
-      "entries": [
-       {
-        "headword": "Mindre",
-        "page": "0277"
        }
       ]
      }
@@ -10406,18 +5451,6 @@
        {
         "headword": "Sväfva",
         "page": "0435"
-       }
-      ]
-     },
-     {
-      "greek": "μαντικῶς ἄλλα τε δὴ εἶπε καὶ περὶ τούτου",
-      "cites": [
-       "142c"
-      ],
-      "entries": [
-       {
-        "headword": "Ibland",
-        "page": "0189"
        }
       ]
      },
@@ -10474,18 +5507,6 @@
         "page": "0068"
        }
       ]
-     },
-     {
-      "greek": "τὰ περὶ τὴν διάνοιαν",
-      "cites": [
-       "74e"
-      ],
-      "entries": [
-       {
-        "headword": "Verksamhet",
-        "page": "0507"
-       }
-      ]
      }
     ]
    }
@@ -10509,80 +5530,6 @@
        {
         "headword": "Skuggspel",
         "page": "0402"
-       }
-      ]
-     },
-     {
-      "greek": "ἀεὶ εἶναι πρός τινι",
-      "cites": [
-       "2.1.2"
-      ],
-      "entries": [
-       {
-        "headword": "Flit",
-        "page": "0100"
-       }
-      ]
-     },
-     {
-      "greek": "οὐδὲ τοῦ παντός",
-      "cites": [
-       "2.9.8"
-      ],
-      "entries": [
-       {
-        "headword": "Pris",
-        "page": "0344"
-       }
-      ]
-     },
-     {
-      "greek": "ὁ ἐνθάδε βίος",
-      "cites": [
-       "2.9.9"
-      ],
-      "entries": [
-       {
-        "headword": "Lif",
-        "page": "0248"
-       },
-       {
-        "headword": "Nere",
-        "page": "0299"
-       },
-       {
-        "headword": "Närvarande",
-        "page": "0305"
-       }
-      ]
-     },
-     {
-      "greek": "ἐφ' ἑαυτοῦ εἶναι",
-      "cites": [
-       "6.4.3",
-       "6.5.3"
-      ],
-      "entries": [
-       {
-        "headword": "Sjelfständig",
-        "page": "0389"
-       }
-      ]
-     },
-     {
-      "greek": "ἐφ’ ἑαυτοῦ εἶναι",
-      "cites": [
-       "6.4.3",
-       "6.5.3"
-      ],
-      "entries": [
-       {
-        "headword": "Botten",
-        "page": "0058"
-       },
-       {
-        "headword": "Egen",
-        "page": "0084"
        }
       ]
      }
@@ -10636,18 +5583,6 @@
     "title": "Alexander",
     "loci": [
      {
-      "greek": "ἀκριβῶς καὶ μόλις",
-      "cites": [
-       "16.5"
-      ],
-      "entries": [
-       {
-        "headword": "Knappt",
-        "page": "0213"
-       }
-      ]
-     },
-     {
       "greek": "καλεῖν ἐπὶ δεῖπνον",
       "cites": [
        "51.3"
@@ -10656,54 +5591,6 @@
        {
         "headword": "Inbjuda",
         "page": "0192"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "Amatorius",
-    "loci": [
-     {
-      "greek": "οὐκ ἀηδῶς ἔχειν τινί",
-      "cites": [
-       "10"
-      ],
-      "entries": [
-       {
-        "headword": "Lida",
-        "page": "0248"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "Apophthegmata Laconica",
-    "loci": [
-     {
-      "greek": "ἀσυνειδήτως τοῖς ἄλλοις",
-      "cites": [
-       "2.77"
-      ],
-      "entries": [
-       {
-        "headword": "Veta",
-        "page": "0508"
-       }
-      ]
-     },
-     {
-      "greek": "τὰ καλὰ τοῦ βίου",
-      "cites": [
-       "51.10"
-      ],
-      "entries": [
-       {
-        "headword": "God",
-        "page": "0151"
        }
       ]
      }
@@ -10728,39 +5615,9 @@
     ]
    },
    {
-    "abbr": "Brut.",
-    "title": "Brutus",
-    "loci": [
-     {
-      "greek": "ἀσθενής (2) τὴν ὄψιν",
-      "cites": [
-       "43.4"
-      ],
-      "entries": [
-       {
-        "headword": "Kortsynt",
-        "page": "0223"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "abbr": "Caes.",
     "title": "Caesar",
     "loci": [
-     {
-      "greek": "τοῖς ἐπιληπτικοῖς ἔνοχος",
-      "cites": [
-       "17.2"
-      ],
-      "entries": [
-       {
-        "headword": "Epilepsi",
-        "page": "0089"
-       }
-      ]
-     },
      {
       "greek": "ἀνὰ κράτος ἐλαύνειν",
       "cites": [
@@ -10782,24 +5639,6 @@
        {
         "headword": "Fattas",
         "page": "0095"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "Cat.Ma.",
-    "title": "",
-    "loci": [
-     {
-      "greek": "(ὄρθιος καὶ) αὐθέκαστος",
-      "cites": [
-       "6.3"
-      ],
-      "entries": [
-       {
-        "headword": "Sannfärdig",
-        "page": "0380"
        }
       ]
      }
@@ -10831,18 +5670,6 @@
     "abbr": "Cic.",
     "title": "Cicero",
     "loci": [
-     {
-      "greek": "ἀμελῶς ἔχειν περί τι",
-      "cites": [
-       "7.1"
-      ],
-      "entries": [
-       {
-        "headword": "Oaktsam",
-        "page": "0307"
-       }
-      ]
-     },
      {
       "greek": "ἐλθεῖν ἐπὶ τὰς θύρας τινός",
       "cites": [
@@ -10913,42 +5740,6 @@
    },
    {
     "abbr": "",
-    "title": "Consolatio ad Apollonium",
-    "loci": [
-     {
-      "greek": "ἡ περὶ τῆς πορείας",
-      "cites": [
-       "36"
-      ],
-      "entries": [
-       {
-        "headword": "Resebeskrifning",
-        "page": "0359"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "Cor.",
-    "title": "Coriolanus",
-    "loci": [
-     {
-      "greek": "τὸ πολὺ τοῦ δήμου",
-      "cites": [
-       "18.1"
-      ],
-      "entries": [
-       {
-        "headword": "Del",
-        "page": "0070"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
     "title": "De Alexandri magni fortuna aut virtute",
     "loci": [
      {
@@ -11002,18 +5793,6 @@
         "page": "0069"
        }
       ]
-     },
-     {
-      "greek": "τὰ πρὸς γῆν",
-      "cites": [
-       "29"
-      ],
-      "entries": [
-       {
-        "headword": "Landssida",
-        "page": "0242"
-       }
-      ]
      }
     ]
    },
@@ -11034,18 +5813,6 @@
       ]
      },
      {
-      "greek": "ἐγκρατῶς ἔχειν πρός τι",
-      "cites": [
-       "9"
-      ],
-      "entries": [
-       {
-        "headword": "Sakta",
-        "page": "0375"
-       }
-      ]
-     },
-     {
       "greek": "κατελθεῖν εἰς τὴν πατρίδα",
       "cites": [
        "21"
@@ -11054,24 +5821,6 @@
        {
         "headword": "Återkomma",
         "page": "0528"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "De Genio Socratis",
-    "loci": [
-     {
-      "greek": "τὰ νομιζόμενα περί",
-      "cites": [
-       "21"
-      ],
-      "entries": [
-       {
-        "headword": "Krigslagfarenhet",
-        "page": "0226"
        }
       ]
      }
@@ -11115,24 +5864,6 @@
    },
    {
     "abbr": "",
-    "title": "De primo frigido",
-    "loci": [
-     {
-      "greek": "ὥστε μὴ ποιεῖν τι",
-      "cites": [
-       "6"
-      ],
-      "entries": [
-       {
-        "headword": "Afhålla",
-        "page": "0009"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
     "title": "De recta ratione audiendi",
     "loci": [
      {
@@ -11144,54 +5875,6 @@
        {
         "headword": "Spegel",
         "page": "0416"
-       }
-      ]
-     },
-     {
-      "greek": "κακῶς ἀκούειν ὑπό τινος",
-      "cites": [
-       "16"
-      ],
-      "entries": [
-       {
-        "headword": "Smäda",
-        "page": "0412"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "De Se Ipsum Citra Invidiam Laudando",
-    "loci": [
-     {
-      "greek": "μετρίως ἔχειν πρός τί",
-      "cites": [
-       "18"
-      ],
-      "entries": [
-       {
-        "headword": "Måtta",
-        "page": "0290"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "De sollertia animalium",
-    "loci": [
-     {
-      "greek": "οὔθ’ ἑκὼν οὔτ’ ἄκων",
-      "cites": [
-       "18"
-      ],
-      "entries": [
-       {
-        "headword": "Lock",
-        "page": "0253"
        }
       ]
      }
@@ -11224,48 +5907,6 @@
         "page": "0488"
        }
       ]
-     },
-     {
-      "greek": "καὶ πάνυ προσηκόντως",
-      "cites": [
-       "18.4"
-      ],
-      "entries": [
-       {
-        "headword": "Rätt",
-        "page": "0369"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "Dio",
-    "title": "",
-    "loci": [
-     {
-      "greek": "κακῶς ἀκούειν ὑπό τινος",
-      "cites": [
-       "48.9"
-      ],
-      "entries": [
-       {
-        "headword": "Smäda",
-        "page": "0412"
-       }
-      ]
-     },
-     {
-      "greek": "τὴν αὑτοῦ βαδίζειν",
-      "cites": [
-       "51.5"
-      ],
-      "entries": [
-       {
-        "headword": "Gång",
-        "page": "0159"
-       }
-      ]
      }
     ]
    },
@@ -11284,18 +5925,6 @@
         "page": "0025"
        }
       ]
-     },
-     {
-      "greek": "ἑπτακισχίλιοι καὶ μύριοι",
-      "cites": [
-       "26.6"
-      ],
-      "entries": [
-       {
-        "headword": "Sjuttontusend",
-        "page": "0391"
-       }
-      ]
      }
     ]
    },
@@ -11303,18 +5932,6 @@
     "abbr": "Lyc.",
     "title": "Lycurgus",
     "loci": [
-     {
-      "greek": "ἡ περὶ τοὺς νόμους",
-      "cites": [
-       "1.1"
-      ],
-      "entries": [
-       {
-        "headword": "Rättslära",
-        "page": "0371"
-       }
-      ]
-     },
      {
       "greek": "κατ’ ὄψιν ἐντυχεῖν τινι",
       "cites": [
@@ -11330,75 +5947,9 @@
     ]
    },
    {
-    "abbr": "Lys.",
-    "title": "Lysander",
-    "loci": [
-     {
-      "greek": "κακῶς ἔχειν ὑπό τινος",
-      "cites": [
-       "14.3"
-      ],
-      "entries": [
-       {
-        "headword": "Hemsöka",
-        "page": "0170"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "Mulierum virtutes",
-    "loci": [
-     {
-      "greek": "ἰδίων ἕνεκα πραγμάτων",
-      "cites": [
-       "18"
-      ],
-      "entries": [
-       {
-        "headword": "Privatangelägenhet",
-        "page": "0344"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "Nic.",
-    "title": "Nicias",
-    "loci": [
-     {
-      "greek": "(κατ’) οὐδένα κόσμον",
-      "cites": [
-       "3.4"
-      ],
-      "entries": [
-       {
-        "headword": "Lag",
-        "page": "0240"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "abbr": "",
     "title": "Non Posse Suaviter Vivi Secundum Epicurum",
     "loci": [
-     {
-      "greek": "τὰ λοιπὰ τοῦ λόγου",
-      "cites": [
-       "15"
-      ],
-      "entries": [
-       {
-        "headword": "Fortsättning",
-        "page": "0104"
-       }
-      ]
-     },
      {
       "greek": "ὅπλα καὶ σκεύη",
       "cites": [
@@ -11440,18 +5991,6 @@
     "title": "Pyrrhus",
     "loci": [
      {
-      "greek": "ὁ ἐπὶ τοῦ οἴνου",
-      "cites": [
-       "5.3"
-      ],
-      "entries": [
-       {
-        "headword": "Källarmästare",
-        "page": "0235"
-       }
-      ]
-     },
-     {
       "greek": "ἐν οὐδενὶ λόγῳ τίθεσθαι",
       "cites": [
        "8.3"
@@ -11491,38 +6030,8 @@
    },
    {
     "abbr": "",
-    "title": "Quaestiones Convivales",
-    "loci": [
-     {
-      "greek": "οἱ πρῶτοι τῆς πόλεως",
-      "cites": [
-       "5.5.2"
-      ],
-      "entries": [
-       {
-        "headword": "Magnat",
-        "page": "0266"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
     "title": "Quaestiones Romanae",
     "loci": [
-     {
-      "greek": "οὐ πρὸς Διόνυσον",
-      "cites": [
-       "69"
-      ],
-      "entries": [
-       {
-        "headword": "Rimma",
-        "page": "0361"
-       }
-      ]
-     },
      {
       "greek": "τὰ παρὰ τῶν θεῶν σημαινόμενα",
       "cites": [
@@ -11532,42 +6041,6 @@
        {
         "headword": "Af",
         "page": "0005"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "Quomodo adulator ab amico internoscatur",
-    "loci": [
-     {
-      "greek": "ἐν τοῖς μεγίστοις εἶναι",
-      "cites": [
-       "24"
-      ],
-      "entries": [
-       {
-        "headword": "Vigt",
-        "page": "0510"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "Quomodo quis suos in virtute sentiat profectus",
-    "loci": [
-     {
-      "greek": "ἡμέρας τε καὶ νύκτωρ",
-      "cites": [
-       "3"
-      ],
-      "entries": [
-       {
-        "headword": "Dag",
-        "page": "0068"
        }
       ]
      }
@@ -11586,24 +6059,6 @@
        {
         "headword": "Behag",
         "page": "0034"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "Them.",
-    "title": "Themistocles",
-    "loci": [
-     {
-      "greek": "καλοκἀγαθικὸς τὸν τρόπον",
-      "cites": [
-       "3.2"
-      ],
-      "entries": [
-       {
-        "headword": "Charakter",
-        "page": "0067"
        }
       ]
      }
@@ -11651,31 +6106,6 @@
       ]
      },
      {
-      "greek": "εἰς τὸν πάντα χρόνον",
-      "cites": [
-       "2.56.11",
-       "25.2.3"
-      ],
-      "entries": [
-       {
-        "headword": "Tid",
-        "page": "0448"
-       }
-      ]
-     },
-     {
-      "greek": "εὐφυῶς ἔχειν πρός τι",
-      "cites": [
-       "4.8.7"
-      ],
-      "entries": [
-       {
-        "headword": "Anlag",
-        "page": "0020"
-       }
-      ]
-     },
-     {
       "greek": "κλείειν τὰς πύλας",
       "cites": [
        "4.18.2"
@@ -11702,70 +6132,6 @@
       ]
      },
      {
-      "greek": "τὰ περὶ τὰς σπονδάς",
-      "cites": [
-       "5.87.8"
-      ],
-      "entries": [
-       {
-        "headword": "Fredsverk",
-        "page": "0108"
-       }
-      ]
-     },
-     {
-      "greek": "εἰς μέσην τὴν Ἑλλάδα",
-      "cites": [
-       "9.35.4"
-      ],
-      "entries": [
-       {
-        "headword": "Hjerta",
-        "page": "0172"
-       }
-      ]
-     },
-     {
-      "greek": "ὁ κατὰ τὴν πόλιν",
-      "cites": [
-       "10.12.10"
-      ],
-      "entries": [
-       {
-        "headword": "Stadsbo",
-        "page": "0420"
-       }
-      ]
-     },
-     {
-      "greek": "κατὰ τὸν ἴδιον βίον",
-      "cites": [
-       "10.22.5",
-       "18.35.5",
-       "29.20.2"
-      ],
-      "entries": [
-       {
-        "headword": "Privatlif",
-        "page": "0344"
-       }
-      ]
-     },
-     {
-      "greek": "εὖ πεφυκὼς πρός τι",
-      "cites": [
-       "13.4.3",
-       "18.4.4",
-       "24.11.2"
-      ],
-      "entries": [
-       {
-        "headword": "Emottaglig",
-        "page": "0087"
-       }
-      ]
-     },
-     {
       "greek": "ποιεῖσθαι τὴν ἀναχώρησιν",
       "cites": [
        "14.7.4"
@@ -11774,78 +6140,6 @@
        {
         "headword": "Återtåg",
         "page": "0529"
-       }
-      ]
-     },
-     {
-      "greek": "ἐν τοῖς μεγίστοις εἶναι",
-      "cites": [
-       "15.4.6"
-      ],
-      "entries": [
-       {
-        "headword": "Vigt",
-        "page": "0510"
-       }
-      ]
-     },
-     {
-      "greek": "πολιτικός (ἀνήρ), ὁ",
-      "cites": [
-       "16.17.11"
-      ],
-      "entries": [
-       {
-        "headword": "Statsman",
-        "page": "0422"
-       }
-      ]
-     },
-     {
-      "greek": "τὸν βίον ὑπέρ τινος",
-      "cites": [
-       "18.41.1"
-      ],
-      "entries": [
-       {
-        "headword": "Martyr",
-        "page": "0269"
-       }
-      ]
-     },
-     {
-      "greek": "ἀνακλητήρια τοῦ βασιλέως",
-      "cites": [
-       "18.55.3"
-      ],
-      "entries": [
-       {
-        "headword": "Proklamation",
-        "page": "0345"
-       }
-      ]
-     },
-     {
-      "greek": "ὀλίγοι τῶν ἀνθρώπων",
-      "cites": [
-       "32.11.1"
-      ],
-      "entries": [
-       {
-        "headword": "Få",
-        "page": "0114"
-       }
-      ]
-     },
-     {
-      "greek": "οἱ ἐν τῇ χώρᾳ",
-      "cites": [
-       "34.8.4"
-      ],
-      "entries": [
-       {
-        "headword": "Befintlig",
-        "page": "0032"
        }
       ]
      }
@@ -11858,24 +6152,6 @@
   "desc": "Philosophus",
   "abbr": "Porph.",
   "works": [
-   {
-    "abbr": "Abst.",
-    "title": "de Abstinentia",
-    "loci": [
-     {
-      "greek": "οὐκ ἔσθ’ ὅτε",
-      "cites": [
-       "2.41"
-      ],
-      "entries": [
-       {
-        "headword": "Ingen",
-        "page": "0194"
-       }
-      ]
-     }
-    ]
-   },
    {
     "abbr": "Gaur.",
     "title": "ad Gaurum",
@@ -11893,37 +6169,6 @@
       ]
      }
     ]
-   },
-   {
-    "abbr": "",
-    "title": "Introductio seu medicus",
-    "loci": [
-     {
-      "greek": "τὸ λευκὸν τοῦ ὀφθαλμοῦ",
-      "cites": [
-       "10",
-       "16"
-      ],
-      "entries": [
-       {
-        "headword": "Hvitöga",
-        "page": "0180"
-       }
-      ]
-     },
-     {
-      "greek": "τὰ ὄπισθεν τῆς κεφαλῆς",
-      "cites": [
-       "14"
-      ],
-      "entries": [
-       {
-        "headword": "Nacke",
-        "page": "0293"
-       }
-      ]
-     }
-    ]
    }
   ]
  },
@@ -11936,30 +6181,6 @@
     "abbr": "",
     "title": "In Platonis Rem Publicam Commentarii",
     "loci": [
-     {
-      "greek": "οἱ καθ’ ἡμᾶς ἄνθρωποι",
-      "cites": [
-       "2"
-      ],
-      "entries": [
-       {
-        "headword": "Generation",
-        "page": "0144"
-       }
-      ]
-     },
-     {
-      "greek": "ἀπὸ τοῦ λειμῶνος",
-      "cites": [
-       "11"
-      ],
-      "entries": [
-       {
-        "headword": "Ängsblomma",
-        "page": "0531"
-       }
-      ]
-     },
      {
       "greek": "τὰ τῶν ζῴων γένη",
       "cites": [
@@ -11986,42 +6207,6 @@
     "title": "Historia Arcana",
     "loci": [
      {
-      "greek": "ἐν τοῖς ὄπισθεν λόγοις",
-      "cites": [
-       "1.14",
-       "17.14",
-       "18.38",
-       "26.18"
-      ],
-      "entries": [
-       {
-        "headword": "Följa",
-        "page": "0118"
-       }
-      ]
-     },
-     {
-      "greek": "ἐκ τοῦ ἐπὶ πλεῖστον",
-      "cites": [
-       "2.10",
-       "2.30",
-       "4.43",
-       "8.13",
-       "11.32",
-       "13.9"
-      ],
-      "entries": [
-       {
-        "headword": "Sedan",
-        "page": "0382"
-       },
-       {
-        "headword": "Tid",
-        "page": "0448"
-       }
-      ]
-     },
-     {
       "greek": "λόγου ἄξιον εἶναι",
       "cites": [
        "18.5"
@@ -12032,18 +6217,6 @@
         "page": "0044"
        }
       ]
-     },
-     {
-      "greek": "ὀμνύναι (ἦ μήν)",
-      "cites": [
-       "21.16"
-      ],
-      "entries": [
-       {
-        "headword": "Tysthetsed",
-        "page": "0472"
-       }
-      ]
      }
     ]
    },
@@ -12051,39 +6224,6 @@
     "abbr": "Goth.",
     "title": "de Bello Gothico",
     "loci": [
-     {
-      "greek": "ἐκ τοῦ ἐπὶ πλεῖστον",
-      "cites": [
-       "1.15.23",
-       "1.17.25",
-       "1.21.8",
-       "1.24.16",
-       "2.2.4",
-       "2.10.20"
-      ],
-      "entries": [
-       {
-        "headword": "Sedan",
-        "page": "0382"
-       },
-       {
-        "headword": "Tid",
-        "page": "0448"
-       }
-      ]
-     },
-     {
-      "greek": "εἰς (πάντα) τὸν αἰῶνα",
-      "cites": [
-       "1.16.4"
-      ],
-      "entries": [
-       {
-        "headword": "Evighet",
-        "page": "0091"
-       }
-      ]
-     },
      {
       "greek": "μετέχειν τῶν ἱερῶν",
       "cites": [
@@ -12097,55 +6237,6 @@
       ]
      },
      {
-      "greek": "ἐν τοῖς ὄπισθεν λόγοις",
-      "cites": [
-       "1.23.12",
-       "5.18.42",
-       "6.2.37",
-       "6.14.37"
-      ],
-      "entries": [
-       {
-        "headword": "Följa",
-        "page": "0118"
-       }
-      ]
-     },
-     {
-      "greek": "πολλοῦ ἄξιον εἶναί τινι",
-      "cites": [
-       "2.23.19",
-       "5.28.20",
-       "6.29.22"
-      ],
-      "entries": [
-       {
-        "headword": "Förtjenst",
-        "page": "0140"
-       },
-       {
-        "headword": "Tjenst",
-        "page": "0458"
-       },
-       {
-        "headword": "Verkan",
-        "page": "0506"
-       }
-      ]
-     },
-     {
-      "greek": "ἐν μέσῳ τῶν πολεμίων",
-      "cites": [
-       "4.12.21"
-      ],
-      "entries": [
-       {
-        "headword": "Midt",
-        "page": "0277"
-       }
-      ]
-     },
-     {
       "greek": "ἐν χερσὶ γίγνεσθαί τινι",
       "cites": [
        "4.24.10"
@@ -12154,27 +6245,6 @@
        {
         "headword": "Handgemäng",
         "page": "0166"
-       }
-      ]
-     },
-     {
-      "greek": "ἐν ἴσῳ εἶναι",
-      "cites": [
-       "4.27.14",
-       "6.16.7"
-      ],
-      "entries": [
-       {
-        "headword": "Gälla",
-        "page": "0160"
-       },
-       {
-        "headword": "Lik",
-        "page": "0250"
-       },
-       {
-        "headword": "Lika",
-        "page": "0250"
        }
       ]
      },
@@ -12256,57 +6326,6 @@
   ]
  },
  {
-  "name": "Ptolemaeus",
-  "desc": "Mathematicus",
-  "abbr": "Ptol.",
-  "works": [
-   {
-    "abbr": "Tetr.",
-    "title": "Tetrabiblos",
-    "loci": [
-     {
-      "greek": "δι’ ἔνδειαν τῶν ἐπιτηδείων",
-      "cites": [
-       "4.8",
-       "4.8.5"
-      ],
-      "entries": [
-       {
-        "headword": "Af",
-        "page": "0005"
-       }
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
-  "name": "Rufus",
-  "desc": "Rhetor",
-  "abbr": "Ruf.Rh.",
-  "works": [
-   {
-    "abbr": "",
-    "title": "",
-    "loci": [
-     {
-      "greek": "ἐπὶ πολλῶν ἄν τις ἴδοι",
-      "cites": [
-       "1.8"
-      ],
-      "entries": [
-       {
-        "headword": "Exempel",
-        "page": "0091"
-       }
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
   "name": "Sallustius",
   "desc": "Philosophus",
   "abbr": "Sallust.",
@@ -12378,18 +6397,6 @@
       ]
      },
      {
-      "greek": "τὰ αἰσθητά τε καὶ νοητά",
-      "cites": [
-       "8.4"
-      ],
-      "entries": [
-       {
-        "headword": "Sinne",
-        "page": "0387"
-       }
-      ]
-     },
-     {
       "greek": "περὶ τὴν τῶν θεῶν θεραπείαν",
       "cites": [
        "9.123"
@@ -12398,48 +6405,6 @@
        {
         "headword": "Religionsstridighet",
         "page": "0357"
-       }
-      ]
-     },
-     {
-      "greek": "εὐφυῶς ἔχειν πρός τι",
-      "cites": [
-       "9.289"
-      ],
-      "entries": [
-       {
-        "headword": "Anlag",
-        "page": "0020"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "P.",
-    "title": "",
-    "loci": [
-     {
-      "greek": "αἱ περὶ τὸ σῶμα",
-      "cites": [
-       "2.10.101"
-      ],
-      "entries": [
-       {
-        "headword": "Lusta—Lycksalig. 253",
-        "page": "0257"
-       }
-      ]
-     },
-     {
-      "greek": "τὰ δεξιά, τὰ ἀριστερά",
-      "cites": [
-       "3.18.120"
-      ],
-      "entries": [
-       {
-        "headword": "Sida",
-        "page": "0385"
        }
       ]
      }
@@ -12467,30 +6432,6 @@
         "page": "0320"
        }
       ]
-     },
-     {
-      "greek": "τὸ τῆς ῥοπῆς",
-      "cites": [
-       "6"
-      ],
-      "entries": [
-       {
-        "headword": "Tyngdpunkt",
-        "page": "0472"
-       }
-      ]
-     },
-     {
-      "greek": "συντάττειν (εἰς ταὐτό)",
-      "cites": [
-       "9"
-      ],
-      "entries": [
-       {
-        "headword": "Sammanställa",
-        "page": "0378"
-       }
-      ]
      }
     ]
    },
@@ -12507,42 +6448,6 @@
        {
         "headword": "Syfta",
         "page": "0436"
-       }
-      ]
-     },
-     {
-      "greek": "ἐπιτηδειότης, ἡ, πρός τι",
-      "cites": [
-       "2"
-      ],
-      "entries": [
-       {
-        "headword": "Beqvämlighet",
-        "page": "0038"
-       }
-      ]
-     },
-     {
-      "greek": "τὸ ἔσχατον ἐλθεῖν",
-      "cites": [
-       "5"
-      ],
-      "entries": [
-       {
-        "headword": "Höjd",
-        "page": "0187"
-       }
-      ]
-     },
-     {
-      "greek": "ὁ, ἡ κατά τινα",
-      "cites": [
-       "6"
-      ],
-      "entries": [
-       {
-        "headword": "Samtida",
-        "page": "0379"
        }
       ]
      },
@@ -12616,18 +6521,6 @@
     "title": "",
     "loci": [
      {
-      "greek": "εἰς τὸ μέσον φέρειν",
-      "cites": [
-       "1.2.3"
-      ],
-      "entries": [
-       {
-        "headword": "Bästa",
-        "page": "0065"
-       }
-      ]
-     },
-     {
       "greek": "ἡ ἐπιφάνεια τοῦ ὕδατος",
       "cites": [
        "1.3.6"
@@ -12636,30 +6529,6 @@
        {
         "headword": "Vattenyta",
         "page": "0505"
-       }
-      ]
-     },
-     {
-      "greek": "ἐν μέσῃ τῇ νήσῳ",
-      "cites": [
-       "5.4.9"
-      ],
-      "entries": [
-       {
-        "headword": "Midt",
-        "page": "0277"
-       }
-      ]
-     },
-     {
-      "greek": "οἱ πεμφθέντες παρά τινος",
-      "cites": [
-       "5.4.9"
-      ],
-      "entries": [
-       {
-        "headword": "Deputation",
-        "page": "0071"
        }
       ]
      },
@@ -12673,18 +6542,6 @@
        {
         "headword": "Bergsrygg",
         "page": "0039"
-       }
-      ]
-     },
-     {
-      "greek": "τὰ πρὸς τὸν βίον χρήσιμα",
-      "cites": [
-       "6.4.1"
-      ],
-      "entries": [
-       {
-        "headword": "Lifsuppehälle",
-        "page": "0249"
        }
       ]
      },
@@ -12713,18 +6570,6 @@
       ]
      },
      {
-      "greek": "τὰ ἐπὶ τῇ θαλάττῃ",
-      "cites": [
-       "12.6.2"
-      ],
-      "entries": [
-       {
-        "headword": "Kuststräcka",
-        "page": "0234"
-       }
-      ]
-     },
-     {
       "greek": "ἐπωνυμίαν ἔχειν ἀπό τινος",
       "cites": [
        "13.24"
@@ -12737,42 +6582,6 @@
        {
         "headword": "Kalla",
         "page": "0206"
-       }
-      ]
-     },
-     {
-      "greek": "ὑφ’ ἑαυτῷ ἔχειν τι",
-      "cites": [
-       "15.1.3"
-      ],
-      "entries": [
-       {
-        "headword": "Herrska",
-        "page": "0170"
-       }
-      ]
-     },
-     {
-      "greek": "ὑφ’ ἑαυτῷ ἔχειν τινά",
-      "cites": [
-       "15.1.3"
-      ],
-      "entries": [
-       {
-        "headword": "Makt",
-        "page": "0267"
-       }
-      ]
-     },
-     {
-      "greek": "ἡ μεγάλη θάλαττα",
-      "cites": [
-       "16.3.1"
-      ],
-      "entries": [
-       {
-        "headword": "Verldshaf",
-        "page": "0507"
        }
       ]
      }
@@ -12790,18 +6599,6 @@
     "title": "in Metaphysica commentaria",
     "loci": [
      {
-      "greek": "φιλοσοφία ἡ περί τινος",
-      "cites": [
-       "2"
-      ],
-      "entries": [
-       {
-        "headword": "Vetenskaplig",
-        "page": "0508"
-       }
-      ]
-     },
-     {
       "greek": "ἐν λόγοις εἶναί τινι",
       "cites": [
        "3"
@@ -12810,56 +6607,6 @@
        {
         "headword": "Samtal",
         "page": "0379"
-       }
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
-  "name": "Themistius",
-  "desc": "Sophista",
-  "abbr": "Them.",
-  "works": [
-   {
-    "abbr": "in PN",
-    "title": "Themistii (Sophoniae) in Parva Naturalia commentarium",
-    "loci": [
-     {
-      "greek": "μὴ περαιτέρω ζητεῖν τι",
-      "cites": [
-       "1"
-      ],
-      "entries": [
-       {
-        "headword": "Bero",
-        "page": "0039"
-       }
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
-  "name": "Themistocles",
-  "desc": "Epistolographus",
-  "abbr": "Themist.",
-  "works": [
-   {
-    "abbr": "Ep.",
-    "title": "Epistulae",
-    "loci": [
-     {
-      "greek": "οἱ ἀεὶ παρόντες",
-      "cites": [
-       "15"
-      ],
-      "entries": [
-       {
-        "headword": "Tillfälle",
-        "page": "0452"
        }
       ]
      }
@@ -12925,18 +6672,6 @@
       ]
      },
      {
-      "greek": "πολλοὶ καὶ μεγάλοι ποταμοί",
-      "cites": [
-       "4.5.6"
-      ],
-      "entries": [
-       {
-        "headword": "Mången",
-        "page": "0289"
-       }
-      ]
-     },
-     {
       "greek": "ἡ τοῦ ἀέρος κρᾶσις",
       "cites": [
        "8.7.6"
@@ -12944,18 +6679,6 @@
       "entries": [
        {
         "headword": "Temperament",
-        "page": "0447"
-       }
-      ]
-     },
-     {
-      "greek": "κατὰ χρόνους τακτούς",
-      "cites": [
-       "9.16.5"
-      ],
-      "entries": [
-       {
-        "headword": "Terminvis",
         "page": "0447"
        }
       ]
@@ -12974,58 +6697,6 @@
     "title": "",
     "loci": [
      {
-      "greek": "ἐκ τοῦ ἐπὶ πλεῖστον",
-      "cites": [
-       "1.2.5"
-      ],
-      "entries": [
-       {
-        "headword": "Sedan",
-        "page": "0382"
-       },
-       {
-        "headword": "Tid",
-        "page": "0448"
-       }
-      ]
-     },
-     {
-      "greek": "τοῦ νῦν τρόπου",
-      "cites": [
-       "1.13.2"
-      ],
-      "entries": [
-       {
-        "headword": "Nymodig",
-        "page": "0302"
-       }
-      ]
-     },
-     {
-      "greek": "ἀπὸ τοῦ ἴσου ὁμιλεῖν τινι",
-      "cites": [
-       "1.77.3"
-      ],
-      "entries": [
-       {
-        "headword": "Fot",
-        "page": "0104"
-       }
-      ]
-     },
-     {
-      "greek": "οἱ καταφυγόντες αὐτῶν",
-      "cites": [
-       "1.89.2"
-      ],
-      "entries": [
-       {
-        "headword": "Af",
-        "page": "0005"
-       }
-      ]
-     },
-     {
       "greek": "τὸ σῶμα σώζεσθαι",
       "cites": [
        "1.136.4"
@@ -13038,18 +6709,6 @@
       ]
      },
      {
-      "greek": "μηδὲν νεώτερον ποιεῖν περί",
-      "cites": [
-       "2.6.2"
-      ],
-      "entries": [
-       {
-        "headword": "Företaga",
-        "page": "0126"
-       }
-      ]
-     },
-     {
       "greek": "ᾔσθοντο οἱ ἐκ τῶν πύργων",
       "cites": [
        "3.22.4"
@@ -13058,18 +6717,6 @@
        {
         "headword": "På",
         "page": "0348"
-       }
-      ]
-     },
-     {
-      "greek": "οἱ ἐν τοῖς πράγμασιν",
-      "cites": [
-       "3.28.1"
-      ],
-      "entries": [
-       {
-        "headword": "Stat",
-        "page": "0421"
        }
       ]
      },
@@ -13098,18 +6745,6 @@
        {
         "headword": "Kulminationspunkt",
         "page": "0233"
-       }
-      ]
-     },
-     {
-      "greek": "πᾶν τὸ ἐνόν",
-      "cites": [
-       "4.59.2"
-      ],
-      "entries": [
-       {
-        "headword": "Verld",
-        "page": "0507"
        }
       ]
      },
@@ -13154,30 +6789,6 @@
       ]
      },
      {
-      "greek": "ἀπὸ τοῦ ἀδοκήτου",
-      "cites": [
-       "6.47.1"
-      ],
-      "entries": [
-       {
-        "headword": "Oförmodad(t)",
-        "page": "0313"
-       }
-      ]
-     },
-     {
-      "greek": "ἐς τὸ ἀκριβὲς εἰπεῖν",
-      "cites": [
-       "6.82.3"
-      ],
-      "entries": [
-       {
-        "headword": "Rätteligen",
-        "page": "0370"
-       }
-      ]
-     },
-     {
       "greek": "τοῦ ἦρος εὐθὺς ἀρχομένου",
       "cites": [
        "7.20.1"
@@ -13186,18 +6797,6 @@
        {
         "headword": "Början",
         "page": "0066"
-       }
-      ]
-     },
-     {
-      "greek": "ὅσον οὐ παρεῖναι",
-      "cites": [
-       "8.26.1"
-      ],
-      "entries": [
-       {
-        "headword": "Nära",
-        "page": "0304"
        }
       ]
      },
@@ -13222,90 +6821,6 @@
   "desc": "",
   "abbr": "LXX",
   "works": [
-   {
-    "abbr": "2 Ch.",
-    "title": "",
-    "loci": [
-     {
-      "greek": "(ἐν τῷ) τρίτῳ ἔτει",
-      "cites": [
-       "17.7"
-      ],
-      "entries": [
-       {
-        "headword": "På",
-        "page": "0348"
-       }
-      ]
-     },
-     {
-      "greek": "οὐκ ἔσται σοι τοῦτο",
-      "cites": [
-       "26.18"
-      ],
-      "entries": [
-       {
-        "headword": "Blifva",
-        "page": "0050"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "2 Ma.",
-    "title": "",
-    "loci": [
-     {
-      "greek": "οἱ ἐν τῇ χώρᾳ",
-      "cites": [
-       "1.1"
-      ],
-      "entries": [
-       {
-        "headword": "Befintlig",
-        "page": "0032"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "De.",
-    "title": "Deuteronomy",
-    "loci": [
-     {
-      "greek": "ἐκεῖνος, η, ο",
-      "cites": [
-       "13.5"
-      ],
-      "entries": [
-       {
-        "headword": "Den",
-        "page": "0070"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "Es.",
-    "title": "Esther",
-    "loci": [
-     {
-      "greek": "(ἐν τῷ) τρίτῳ ἔτει",
-      "cites": [
-       "1.3"
-      ],
-      "entries": [
-       {
-        "headword": "På",
-        "page": "0348"
-       }
-      ]
-     }
-    ]
-   },
    {
     "abbr": "Jo.",
     "title": "Joshua",
@@ -13335,18 +6850,6 @@
     "abbr": "An.",
     "title": "Anabasis",
     "loci": [
-     {
-      "greek": "τὸ κατὰ τοῦτον εἶναι",
-      "cites": [
-       "1.6.9"
-      ],
-      "entries": [
-       {
-        "headword": "Afseende",
-        "page": "0011"
-       }
-      ]
-     },
      {
       "greek": "τὴν γνώμην ἔχω",
       "cites": [
@@ -13408,22 +6911,6 @@
       ]
      },
      {
-      "greek": "ἐν ἀφθόνοις βιοτεύειν",
-      "cites": [
-       "3.2.25"
-      ],
-      "entries": [
-       {
-        "headword": "Full",
-        "page": "0113"
-       },
-       {
-        "headword": "Öfverflöd",
-        "page": "0534"
-       }
-      ]
-     },
-     {
       "greek": "ἐκ τόξου ῥύματος",
       "cites": [
        "3.3.15"
@@ -13460,18 +6947,6 @@
       ]
      },
      {
-      "greek": "προσωτέρω τοῦ καιροῦ",
-      "cites": [
-       "4.3.34"
-      ],
-      "entries": [
-       {
-        "headword": "Rådlig",
-        "page": "0367"
-       }
-      ]
-     },
-     {
       "greek": "ἐπὶ ταῖς πλείσταις οἰκίαις τύρσεις ἐπῆσαν",
       "cites": [
        "4.4.2"
@@ -13497,42 +6972,6 @@
       ]
      },
      {
-      "greek": "μεῖον δυοῖν σταδίοιν",
-      "cites": [
-       "5.6.9"
-      ],
-      "entries": [
-       {
-        "headword": "Mindre",
-        "page": "0277"
-       }
-      ]
-     },
-     {
-      "greek": "ἐξιέναι ἐπὶ τὰ ἐπιτήδεια",
-      "cites": [
-       "6.5.20"
-      ],
-      "entries": [
-       {
-        "headword": "Proviant",
-        "page": "0346"
-       }
-      ]
-     },
-     {
-      "greek": "αὐτὸς αὑτὸν αἰτιάσεται",
-      "cites": [
-       "7.1.11"
-      ],
-      "entries": [
-       {
-        "headword": "Tillskrifva",
-        "page": "0454"
-       }
-      ]
-     },
-     {
       "greek": "σημαίνει τῇ σάλπιγγι",
       "cites": [
        "7.4.16"
@@ -13541,34 +6980,6 @@
        {
         "headword": "Trumpet",
         "page": "0465"
-       }
-      ]
-     },
-     {
-      "greek": "ἐν ἀπόροις εἶναι",
-      "cites": [
-       "7.6.11"
-      ],
-      "entries": [
-       {
-        "headword": "Lida",
-        "page": "0248"
-       },
-       {
-        "headword": "Nöd",
-        "page": "0306"
-       }
-      ]
-     },
-     {
-      "greek": "τὰ δίκαια λαμβάνειν",
-      "cites": [
-       "7.7.17"
-      ],
-      "entries": [
-       {
-        "headword": "Rätt",
-        "page": "0369"
        }
       ]
      },
@@ -13645,18 +7056,6 @@
       ]
      },
      {
-      "greek": "ἄλλο δὲ κακὸν οὐδὲν πάσχει",
-      "cites": [
-       "1.3.11"
-      ],
-      "entries": [
-       {
-        "headword": "Vederfaras",
-        "page": "0505"
-       }
-      ]
-     },
-     {
       "greek": "ἐξιέναι ἐπὶ τὴν θήραν",
       "cites": [
        "1.4.6"
@@ -13726,31 +7125,6 @@
        {
         "headword": "Dag",
         "page": "0068"
-       }
-      ]
-     },
-     {
-      "greek": "ἐν ἀσφαλεῖ εἶναι τοῦ μή",
-      "cites": [
-       "2.4.13"
-      ],
-      "entries": [
-       {
-        "headword": "Betrygga",
-        "page": "0045"
-       }
-      ]
-     },
-     {
-      "greek": "τῷ σῷ ἀγαθῷ",
-      "cites": [
-       "3.1.15",
-       "5.5.35"
-      ],
-      "entries": [
-       {
-        "headword": "Till",
-        "page": "0449"
        }
       ]
      },
@@ -13843,18 +7217,6 @@
       ]
      },
      {
-      "greek": "πρὸς φῶς πολύ",
-      "cites": [
-       "7.5.27"
-      ],
-      "entries": [
-       {
-        "headword": "Dag",
-        "page": "0068"
-       }
-      ]
-     },
-     {
       "greek": "ἀσκεῖν τὴν ἀρετήν",
       "cites": [
        "7.5.77"
@@ -13877,18 +7239,6 @@
         "page": "0129"
        }
       ]
-     },
-     {
-      "greek": "ὅσον ἐν ἐμοί",
-      "cites": [
-       "8.7.11"
-      ],
-      "entries": [
-       {
-        "headword": "Mycken",
-        "page": "0286"
-       }
-      ]
      }
     ]
    },
@@ -13909,7 +7259,7 @@
       ]
      },
      {
-      "greek": "σοβεῖν τήν κόνιν",
+      "greek": "σοβεῖν τὴν κόνιν",
       "cites": [
        "5.5"
       ],
@@ -13923,40 +7273,9 @@
     ]
    },
    {
-    "abbr": "Eq.Mag.",
-    "title": "de Equitum magistro",
-    "loci": [
-     {
-      "greek": "ἀσκεῖν τὴν ἱππικήν",
-      "cites": [
-       "1.19",
-       "8.5"
-      ],
-      "entries": [
-       {
-        "headword": "Ridning",
-        "page": "0360"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "abbr": "HG",
     "title": "Historia Graeca (Hellenica)",
     "loci": [
-     {
-      "greek": "μέχρι δείλης ἐξ ἑωθινοῦ",
-      "cites": [
-       "1.1.5"
-      ],
-      "entries": [
-       {
-        "headword": "Morgon",
-        "page": "0282"
-       }
-      ]
-     },
      {
       "greek": "ἅμα τῷ ἡλίῳ δύνοντι",
       "cites": [
@@ -13994,34 +7313,6 @@
       ]
      },
      {
-      "greek": "ἄγειν μεθ’ ἑαυτοῦ",
-      "cites": [
-       "4.2.5"
-      ],
-      "entries": [
-       {
-        "headword": "Bära",
-        "page": "0064"
-       },
-       {
-        "headword": "Hafva",
-        "page": "0163"
-       }
-      ]
-     },
-     {
-      "greek": "ὡς οἷόν τε τάχιστα",
-      "cites": [
-       "5.4.41"
-      ],
-      "entries": [
-       {
-        "headword": "Kunna",
-        "page": "0233"
-       }
-      ]
-     },
-     {
       "greek": "(ἐκ θεῶν) πεπρωμένον ἐστί",
       "cites": [
        "6.3.6"
@@ -14042,42 +7333,6 @@
        {
         "headword": "Resa",
         "page": "0358"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "Hier.",
-    "title": "Hiero",
-    "loci": [
-     {
-      "greek": "διαφερόντως τῶν ἄλλων ἀνθρώπων",
-      "cites": [
-       "7.4"
-      ],
-      "entries": [
-       {
-        "headword": "Framför",
-        "page": "0105"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "Lac.",
-    "title": "Respublica Lacedaemoniorum",
-    "loci": [
-     {
-      "greek": "τὸν πρῶτον τοῦ χρόνου",
-      "cites": [
-       "1.5"
-      ],
-      "entries": [
-       {
-        "headword": "Tid",
-        "page": "0448"
        }
       ]
      }
@@ -14148,19 +7403,6 @@
       ]
      },
      {
-      "greek": "ἔλαττον τῆς ἀξίας",
-      "cites": [
-       "1.6.11",
-       "1.6.12"
-      ],
-      "entries": [
-       {
-        "headword": "Underskatta",
-        "page": "0478"
-       }
-      ]
-     },
-     {
       "greek": "ἔλαττον τῆς ἀξίας λαβών",
       "cites": [
        "1.6.11"
@@ -14194,30 +7436,6 @@
        {
         "headword": "Dag",
         "page": "0068"
-       }
-      ]
-     },
-     {
-      "greek": "εὐνοϊκῶς ἔχειν πρός τινα",
-      "cites": [
-       "2.6.34"
-      ],
-      "entries": [
-       {
-        "headword": "Partisk",
-        "page": "0334"
-       }
-      ]
-     },
-     {
-      "greek": "δι’ ἔνδειαν τῶν ἐπιτηδείων",
-      "cites": [
-       "2.7.3"
-      ],
-      "entries": [
-       {
-        "headword": "Af",
-        "page": "0005"
        }
       ]
      },
@@ -14264,18 +7482,6 @@
         "page": "0473"
        }
       ]
-     },
-     {
-      "greek": "κακῶς πράττειν (διά τινα)",
-      "cites": [
-       "4.2.26"
-      ],
-      "entries": [
-       {
-        "headword": "Lida",
-        "page": "0248"
-       }
-      ]
      }
     ]
    },
@@ -14283,31 +7489,6 @@
     "abbr": "Oec.",
     "title": "Oeconomicus",
     "loci": [
-     {
-      "greek": "τὰ ἔνδον ἔργα",
-      "cites": [
-       "7.22",
-       "7.23"
-      ],
-      "entries": [
-       {
-        "headword": "Huslig",
-        "page": "0178"
-       }
-      ]
-     },
-     {
-      "greek": "εὐνοϊκῶς ἔχειν πρός τινα",
-      "cites": [
-       "9.12"
-      ],
-      "entries": [
-       {
-        "headword": "Partisk",
-        "page": "0334"
-       }
-      ]
-     },
      {
       "greek": "συμφέρει αὐτοῖς φίλους",
       "cites": [
@@ -14331,18 +7512,6 @@
         "page": "0143"
        }
       ]
-     },
-     {
-      "greek": "ἐκ τοῦ προσηνέμου μέρους",
-      "cites": [
-       "18.6"
-      ],
-      "entries": [
-       {
-        "headword": "Vind",
-        "page": "0512"
-       }
-      ]
      }
     ]
    },
@@ -14350,18 +7519,6 @@
     "abbr": "Smp.",
     "title": "Symposium",
     "loci": [
-     {
-      "greek": "ἔρρει τὰ ἐμά",
-      "cites": [
-       "1.15"
-      ],
-      "entries": [
-       {
-        "headword": "Förbi",
-        "page": "0121"
-       }
-      ]
-     },
      {
       "greek": "οὐ φθονήσω εἰπεῖν",
       "cites": [
@@ -14371,36 +7528,6 @@
        {
         "headword": "Undandraga",
         "page": "0475"
-       }
-      ]
-     },
-     {
-      "greek": "τὰ ἐν ἀνθρώποις καλά",
-      "cites": [
-       "4.12"
-      ],
-      "entries": [
-       {
-        "headword": "Verld",
-        "page": "0507"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "Vect.",
-    "title": "de Vectigalibus",
-    "loci": [
-     {
-      "greek": "ὡς ἐμῇ δόξῃ",
-      "cites": [
-       "5.2"
-      ],
-      "entries": [
-       {
-        "headword": "Mening",
-        "page": "0274"
        }
       ]
      }

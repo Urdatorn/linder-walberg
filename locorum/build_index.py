@@ -3,7 +3,9 @@
 An example is a locus when the ancient texts themselves (every Greek edition
 of Perseus and First1KGreek, tei_sources.py) have it in at most MAX_AUTHORS
 authors, and a three-word example in a single work; more is a stock phrase.
-Each locus carries its passages, read from the editions' citation structure. Authors and works are named as in LSJ
+It must also have at least two nouns or verbs (MIN_CONTENT, tagged by
+Stoicheia). Each locus carries its passages, read from the editions' citation
+structure. Authors and works are named as in LSJ
 (H. G. Liddell & R. Scott, 9th ed.; list from logeion.uchicago.edu):
 
   OGA texts       by TLG number, through the LSJ citations of the Perseus LSJ,
@@ -35,6 +37,8 @@ from passages import locate
 
 HERE = Path(__file__).resolve().parent
 MAX_RECORDS = 10
+CONTENT = {"NOUN", "PROPN", "VERB", "AUX"}
+MIN_CONTENT = 2
 # authors LSJ cites by number (speech, letter), which is also their TLG work number
 NUMBERED = {"D.", "Lys.", "Isoc.", "Aeschin.", "Is.", "And.", "Antipho", "Din.", "Lycurg.", "Hyp.", "D.Chr.", "Lib."}
 MAX_AUTHORS = 3
@@ -195,9 +199,21 @@ def main() -> None:
     names.prefetch([], [(w.split(".")[0], None) for os_ in occ.values() for w, _ in os_] +
                    [(w.split(".")[0], w.split(".")[1]) for os_ in occ.values() for w, _ in os_])
 
+    # a quotation worth indexing has at least two nouns or verbs (Stoicheia's tags,
+    # tag_examples.py): "ἐκεῖνος, η, ο" or a noun with two particles is not one
+    content = {}
+    pos_file = HERE / "example_pos.jsonl"
+    if pos_file.exists():
+        for line in pos_file.read_text(encoding="utf-8").splitlines():
+            r = json.loads(line)
+            content[r["n"]] = sum(w["upos"] in CONTENT for w in r["words"])
+
     loci = collections.defaultdict(lambda: collections.defaultdict(list))   # author -> work -> loci
     status = {}
     for k, os_ in occ.items():
+        if content and content.get(k, 0) < MIN_CONTENT:
+            status[k] = "fewer than two nouns or verbs"
+            continue
         by_author = collections.defaultdict(lambda: collections.defaultdict(set))
         others = set()                                         # texts of authors LSJ does not cite
         for work, cite in os_:
