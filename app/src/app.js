@@ -209,7 +209,9 @@ function showAbout() {
   view.innerHTML = `<div class="about">
     <h1 class="hw">Svenskt-grekiskt lexikon</h1>
     <p>C. W. Linder och C. A. Walberg, <i>Svenskt-grekiskt lexikon</i>, Upsala 1862. Texten är tolkad ur sidbilderna,
-    korrekturläst mot dem och rättad efter bokens tryckfelsförteckning och en granskning av grekiskan.</p>
+    korrekturläst mot dem och rättad efter bokens tryckfelsförteckning och en granskning av grekiskan.
+    Κῦδος till Johan Winge som ursprungligen digitaliserade boken i januari 2013 och gjorde en första ansats
+    till OCR-tolkning i oktober samma år.</p>
     <p class="list-head">I boken</p>
     <ul class="links">
       <li><a href="#e/${s.lw_preface}">Förord</a></li>
@@ -221,7 +223,8 @@ function showAbout() {
     <p class="list-head">Källor och data</p>
     <ul class="links">
       <li><a href="https://github.com/Urdatorn/linder-walberg" target="_blank" rel="noopener">Källkod <span>GitHub</span></a></li>
-      <li><a href="https://huggingface.co/datasets/Urdatorn/linder-walberg" target="_blank" rel="noopener">Sidbilder och text <span>Hugging Face</span></a></li>
+      <li><a href="https://huggingface.co/datasets/Urdatorn/linder-walberg" target="_blank" rel="noopener">Ny OCR-data <span>Hugging Face</span></a></li>
+      <li><a href="https://runeberg.org/svegrek/" target="_blank" rel="noopener">Första elektroniska utgåvan <span>Project Runeberg</span></a></li>
       <li><a href="https://albinthorncleland.com" target="_blank" rel="noopener">Albin Thörn Cleland <span>albinthorncleland.com</span></a></li>
     </ul>
     <p class="small">Utgåva och app: Albin Thörn Cleland. Sidbilderna kommer från Project Runeberg.

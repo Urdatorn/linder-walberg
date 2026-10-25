@@ -109,7 +109,8 @@ body {
 .about .links a, .results a { -webkit-touch-callout: none; }
 .about .links { list-style: none; padding: 0; margin: 0 0 8px; }
 .about .links a {
-    display: flex; justify-content: space-between; padding: 12px 2px; border-bottom: 0.5px solid var(--line);
+    display: flex; justify-content: space-between; align-items: baseline; gap: 12px;
+    padding: 12px 2px; border-bottom: 0.5px solid var(--line);
     color: var(--link); text-decoration: none;
 }
 .about .links a span { color: var(--tab); font: 14px var(--ui); }
