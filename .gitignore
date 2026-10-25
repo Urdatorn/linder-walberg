@@ -13,3 +13,4 @@ locorum/matches.jsonl
 locorum/examples_all.json
 locorum/tei_matches.jsonl
 locorum/__pycache__/
+app/dist/

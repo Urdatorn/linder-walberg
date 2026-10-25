@@ -1,0 +1,137 @@
+/* App chrome around the dictionary's own stylesheet (dictionary.css): a
+   search bar on top, the page in the middle, five tabs at the bottom.
+   Parchment and ink, the dictionary's red for what is active. */
+
+:root {
+    --page: #f6f2e9;
+    --panel: #fffdf8;
+    --bar: rgba(246, 242, 233, 0.92);
+    --line: #ddd5c4;
+    --tab: #7c776d;
+    --active: #9b1c1c;
+    --field: #ebe5d8;
+    --sv: "GFS Porson", "Gentium", "Iowan Old Style", "Palatino", Georgia, serif;
+    --gk: "GFS Porson", "Gentium", "Palatino", "Times New Roman", serif;
+    --ui: -apple-system, "SF Pro Text", "Helvetica Neue", system-ui, sans-serif;
+    color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --page: #17160f;
+        --panel: #1f1d16;
+        --bar: rgba(23, 22, 15, 0.92);
+        --line: #3a372d;
+        --tab: #8f897c;
+        --active: #f08b8b;
+        --field: #2a281f;
+        color-scheme: dark;
+    }
+}
+
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+[hidden] { display: none !important; }
+html, body { margin: 0; height: 100%; }
+body {
+    background: var(--page);
+    color: var(--ink);
+    font: 17px/1.5 var(--sv);
+    -webkit-text-size-adjust: 100%;
+}
+
+/* top bar */
+#bar {
+    position: fixed; inset: 0 0 auto;
+    padding: calc(env(safe-area-inset-top, 0px) + 8px) max(14px, env(safe-area-inset-right, 0px)) 8px max(14px, env(safe-area-inset-left, 0px));
+    background: var(--bar);
+    -webkit-backdrop-filter: saturate(1.4) blur(14px); backdrop-filter: saturate(1.4) blur(14px);
+    border-bottom: 0.5px solid var(--line);
+    z-index: 10;
+}
+#search-row { display: flex; align-items: center; gap: 8px; background: var(--field); border-radius: 11px; padding: 0 10px; }
+#search-row .glass { width: 18px; height: 18px; flex: none; fill: none; stroke: var(--tab); stroke-width: 2; stroke-linecap: round; }
+#q {
+    flex: 1; min-width: 0; border: 0; background: transparent; color: var(--ink);
+    font: 17px var(--sv); padding: 9px 0; outline: none;
+}
+#q::placeholder { color: var(--tab); font-family: var(--ui); font-size: 16px; }
+#title-row { display: flex; align-items: center; gap: 6px; min-height: 38px; }
+#title-row button {
+    border: 0; background: none; padding: 6px; margin: -6px; color: var(--active); cursor: pointer;
+    display: grid; place-items: center;
+}
+#title-row svg { width: 26px; height: 26px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+#star[aria-pressed="true"] svg { fill: currentColor; }
+#bar-title { flex: 1; min-width: 0; text-align: center; font: 600 17px var(--ui); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#title-row #back[hidden] + #bar-title { margin-left: 32px; }
+
+/* page */
+#view {
+    padding: calc(env(safe-area-inset-top, 0px) + 66px) max(16px, env(safe-area-inset-right, 0px))
+             calc(env(safe-area-inset-bottom, 0px) + 84px) max(16px, env(safe-area-inset-left, 0px));
+    min-height: 100%;
+    outline: none;
+}
+#view > * { max-width: 680px; margin-left: auto; margin-right: auto; }
+
+/* front page: the 1862 title, ink only */
+.front-page { display: grid; place-items: center; min-height: calc(100vh - 220px); }
+.front-page img { width: min(88%, 430px); height: auto; opacity: 0.92; }
+@media (prefers-color-scheme: dark) { .front-page img { filter: invert(1); opacity: 0.85; } }
+.hint { text-align: center; color: var(--tab); font: 14px/1.4 var(--ui); margin-top: 14px; }
+
+/* search results */
+.results { list-style: none; margin: 0; padding: 0; }
+.results a {
+    display: flex; align-items: baseline; gap: 8px; padding: 11px 2px;
+    border-bottom: 0.5px solid var(--line); color: inherit; text-decoration: none;
+}
+.results .key { font-weight: 700; }
+.results .key.greek { font-family: var(--gk); color: var(--greek); }
+.results .to { color: var(--tab); font-size: 15px; }
+.results .to::before { content: "→ "; }
+.empty { color: var(--tab); font: 15px/1.5 var(--ui); text-align: center; padding: 40px 10px; }
+
+/* an entry */
+.entry-page h1.hw { margin-top: 4px; }
+.entry-page { padding-bottom: 8px; }
+.entry-page a.xref, .entry-page .loci a { color: var(--link); }
+.day-label { font: 600 13px var(--ui); letter-spacing: 0.06em; text-transform: uppercase; color: var(--active); margin: 6px 0 2px; }
+
+/* lists: favourites, about */
+.list-head { font: 600 13px var(--ui); letter-spacing: 0.06em; text-transform: uppercase; color: var(--tab); margin: 18px 0 6px; }
+.about p { margin: 0 0 12px; }
+.about .links a, .results a { -webkit-touch-callout: none; }
+.about .links { list-style: none; padding: 0; margin: 0 0 8px; }
+.about .links a {
+    display: flex; justify-content: space-between; padding: 12px 2px; border-bottom: 0.5px solid var(--line);
+    color: var(--link); text-decoration: none;
+}
+.about .links a span { color: var(--tab); font: 14px var(--ui); }
+.small { color: var(--tab); font: 13px/1.5 var(--ui); }
+
+/* bottom tabs */
+#tabs {
+    position: fixed; inset: auto 0 0;
+    display: grid; grid-template-columns: repeat(5, 1fr);
+    padding: 6px max(6px, env(safe-area-inset-right, 0px)) calc(env(safe-area-inset-bottom, 0px) + 4px) max(6px, env(safe-area-inset-left, 0px));
+    background: var(--bar);
+    -webkit-backdrop-filter: saturate(1.4) blur(14px); backdrop-filter: saturate(1.4) blur(14px);
+    border-top: 0.5px solid var(--line);
+    z-index: 10;
+}
+#tabs a {
+    display: flex; flex-direction: column; align-items: center; gap: 2px;
+    color: var(--tab); text-decoration: none; font: 500 10px var(--ui); padding: 2px 0;
+}
+#tabs svg { width: 25px; height: 25px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+#tabs a[aria-current="page"] { color: var(--active); }
+#tabs a[aria-current="page"][data-tab="fav"] svg { fill: currentColor; }
+#tabs span { white-space: nowrap; }
+
+@media (prefers-reduced-motion: no-preference) {
+    #view > * { animation: rise 0.18s ease-out; }
+    @keyframes rise { from { opacity: 0.4; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+}
+
+/* Greek in Porson, which has one weight: set off by colour, as Porson Greek is printed */
+.entry-page span.gk, .entry-page .gk, .results .key.greek { font-family: var(--gk); font-weight: 400; font-size: 1.08em; }
