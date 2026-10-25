@@ -35,6 +35,7 @@ För den som är intresserad av att fortsätta förbättra OCR-modeller för ant
 Några korrekturer har jag dubellkollat mot mitt eget fysiska exemplar. Jag köpte Linder och Walberg i en bokaffär i Stockholm när jag läste grekiska A. Den kostade 1300 kr, och var den dyraste boken jag någonsin köpt. Anledningen till det ovanligt höga priset var att den var signerad av Albert Engström. Den föregående ägaren hade på försättsbladet skrivit 
 
 > Inköpt på auktionen efter Engström
+
 > Den var då obunden och ouppsprättad
 
 Varför signerade Engström boken men orkade aldrig ens sprätta upp den? Klart är att han hoppade av sin grekiskautbildning i förtid, men det är också klart att han var duktig på grekiska och skrev fina ligaturer, och att han alltså borde ha haft all anledning att öppna Linder och Walberg under sina studier. Vissa mysterier förblir olösta.
