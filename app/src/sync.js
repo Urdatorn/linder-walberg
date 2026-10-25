@@ -4,8 +4,11 @@
 // favoriter.json; the scope (contribute-repos) reaches only repositories this app
 // created. Without signing in nothing here runs and favourites stay on the device.
 //
-// Sign-in is OAuth with PKCE as in huggingface.js (oauthLoginUrl, oauthHandleRedirect);
-// a static Space gets its client id in window.huggingface.variables.
+// Sign-in is OAuth with PKCE as in huggingface.js (oauthLoginUrl, oauthHandleRedirect),
+// through one OAuth app (CLIENT_ID) whose redirect URLs are both homes of the app,
+// albinthorncleland.com/linder-walberg/ (GitHub Pages) and the Hugging Face Space, so
+// that both reach the same dataset. Until it is set, a static Space's own sign-in
+// (window.huggingface.variables) is used.
 "use strict";
 
 const Sync = (() => {
@@ -13,13 +16,16 @@ const Sync = (() => {
   const REPO = window.LW_SYNC_REPO || "linder-walberg-favoriter";
   const FILE = "favoriter.json";
   const AUTH = "lw-hf", NONCE = "lw-hf-nonce", VERIFIER = "lw-hf-verifier";
-  const APP = location.origin + location.pathname;
+  const CLIENT_ID = "";                // the OAuth app at huggingface.co/settings/connected-applications
+  const SCOPES = "openid profile contribute-repos";
+  const APP = location.origin + location.pathname.replace(/index\.html$/, "");
 
   let store = null;                    // {get(), set(items), changed()} from app.js
   let status = { state: "off" };       // off | syncing | ok | offline | expired | error
   const listeners = [];
 
-  const vars = () => (window.huggingface && window.huggingface.variables) || null;
+  const vars = () => CLIENT_ID ? { OAUTH_CLIENT_ID: CLIENT_ID, OAUTH_SCOPES: SCOPES }
+                                : (window.huggingface && window.huggingface.variables) || null;
   const available = () => !!(vars() && vars().OAUTH_CLIENT_ID);
   const read = (k) => { try { return JSON.parse(localStorage.getItem(k)); } catch { return null; } };
   const write = (k, v) => { try { v === null ? localStorage.removeItem(k) : localStorage.setItem(k, JSON.stringify(v)); } catch { /* private mode */ } };
