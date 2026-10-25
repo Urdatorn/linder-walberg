@@ -43,6 +43,22 @@ def tidy(g: str) -> str:
     return re.sub(r"\s+", " ", g).strip(" ,;:·")
 
 
+def bare_words(s: str) -> list[str]:
+    return [" ".join(norm(w)) for w in WORD.findall(s)]
+
+
+def complete(base: str, alt: str) -> str:
+    """An alternative after "l." that begins with a word of the phrase before it
+    replaces that phrase only from that word on, and is completed with what
+    comes before it there: "διαφορὰ ἡ περὶ τὰ θεῖα l. περὶ τὴν τῶν θεῶν
+    θεραπείαν" gives "διαφορὰ ἡ περὶ τὴν τῶν θεῶν θεραπείαν"."""
+    a, b = bare_words(alt), bare_words(base)
+    if not a or a[0] not in b[1:]:
+        return alt
+    k = b.index(a[0], 1)
+    return base[:list(WORD.finditer(base))[k].start()] + alt
+
+
 def main() -> None:
     entries = [json.loads(l) for l in (ROOT / "text/corrected/entries.jsonl").read_text(encoding="utf-8").splitlines()]
     old = {}
@@ -59,8 +75,20 @@ def main() -> None:
             for ph in Renderer.phrases(chunk):
                 m = GREEK_RUN.search(ph)
                 swedish = ph[:m.start()].strip(" ,") if m else ""
-                for run in GREEK_RUN.finditer(ph):
-                    for seg in re.split(r"(?<=[\w)])\.\s+", run.group(0)):
+                found = list(GREEK_RUN.finditer(ph))
+                segs = [re.split(r"(?<=[\w)])\.\s+", r.group(0)) for r in found]
+                # an alternative after "l." (the first segment of a run) is completed from
+                # the phrase it replaces part of (the last segment of the run before;
+                # in a chain A l. B l. C, from A)
+                base = None
+                for i in range(1, len(found)):
+                    if re.fullmatch(r"\s*l\.\s*", ph[found[i - 1].end():found[i].start()]):
+                        base = base if base is not None and len(segs[i - 1]) == 1 else segs[i - 1][-1]
+                        segs[i][0] = complete(base, segs[i][0])
+                    else:
+                        base = None
+                for run in segs:
+                    for seg in run:
                         seg = re.sub(r",\s*(?:ὁ|ἡ|τό|τὸ|οἱ|αἱ|τά)\.?$|,\s*[23]\.?$", "", seg.strip(" .,;")).strip()
                         seg = tidy(seg)
                         n_words = len(WORD.findall(seg))

@@ -1986,18 +1986,6 @@
       ]
      },
      {
-      "greek": "περὶ τὴν τῶν θεῶν θεραπείαν",
-      "cites": [
-       "3.3.6"
-      ],
-      "entries": [
-       {
-        "headword": "Religionsstridighet",
-        "page": "0357"
-       }
-      ]
-     },
-     {
       "greek": "τὰς τριήρεις πληροῦν",
       "cites": [
        "13.14.3"
@@ -4876,24 +4864,6 @@
     ]
    },
    {
-    "abbr": "Euthphr.",
-    "title": "Euthyphro",
-    "loci": [
-     {
-      "greek": "περὶ τὴν τῶν θεῶν θεραπείαν",
-      "cites": [
-       "12e"
-      ],
-      "entries": [
-       {
-        "headword": "Religionsstridighet",
-        "page": "0357"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "abbr": "Grg.",
     "title": "Gorgias",
     "loci": [
@@ -6393,18 +6363,6 @@
        {
         "headword": "Inverka",
         "page": "0201"
-       }
-      ]
-     },
-     {
-      "greek": "περὶ τὴν τῶν θεῶν θεραπείαν",
-      "cites": [
-       "9.123"
-      ],
-      "entries": [
-       {
-        "headword": "Religionsstridighet",
-        "page": "0357"
        }
       ]
      }
