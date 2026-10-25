@@ -23,7 +23,8 @@ The print's conventions become typography:
   references     "se X", "Jfr X", "Se vidare X" link to the entry X
 
 Greek words given as equivalents are indexed too, so looking up a Greek word
-finds the Swedish entries that render it, and so are the headwords' modern
+finds the Swedish entries that render it; words starred as lacking ancient
+authority are also indexed under "*"; and so are the headwords' modern
 Swedish spellings (dict/modern_spelling.tsv), so "avbryta" finds Afbryta.
 
     python3 dict/build_xml.py
@@ -49,6 +50,7 @@ GREEK_RUN = re.compile(
     rf"(?:\((?=[{GREEK}]))?[{GREEK}][{GREEK}̀-ͯ’'ʼ᾽\-‐]*"
     rf"(?:(?:[\s,.;·()\-‐]|\d(?=[,.\s)]))+[{GREEK}(][{GREEK}̀-ͯ’'ʼ᾽\-‐)]*)*"
     rf"(?:,\s*[23](?![\d)]))?")
+STARRED = re.compile(rf"\*\s?([{GREEK}][{GREEK}\u0300-\u036f]*)")
 SENSE = re.compile(r"(?:(?<=^)|(?<=[\s.:;,]))((?:[IVX]+|\d{1,2}|[a-h]|[α-θ]))\)(?=\s)")
 STOP_INDEX = {"ὁ", "ἡ", "τό", "τὸ", "οἱ", "αἱ", "τά", "τὰ", "καί", "καὶ", "τι", "τὶ", "τινά", "τινὰ", "τινί", "τινὶ",
               "τινός", "τινὸς", "τινα", "τινι", "τινος", "ἤ", "ἢ", "μή", "μὴ", "οὐ", "οὐκ", "ἐν", "εἰς", "ἐκ", "ἐξ",
@@ -335,6 +337,13 @@ def main() -> None:
                 if fold(m) not in folded:
                     folded.add(fold(m))
                     out.write(f'<d:index d:value="{html.escape(m, quote=True)}" d:title="{title}"/>\n')
+            # words the book stars as lacking ancient authority: "*" finds them all,
+            # "*τυπογραφεῖον" finds each
+            starred = list(dict.fromkeys(citation_form(w) for w in STARRED.findall(rest)))
+            if starred:
+                out.write(f'<d:index d:value="*" d:title="{html.escape("*" + ", *".join(starred), quote=True)} → {title}"/>\n')
+                for w in starred:
+                    out.write(f'<d:index d:value="*{html.escape(w, quote=True)}" d:title="*{html.escape(w, quote=True)} → {title}"/>\n')
             if not args.no_greek_index:
                 for w in greek_index(rest):
                     out.write(f'<d:index d:value="{html.escape(w, quote=True)}" d:title="{html.escape(w, quote=True)} → {title}" d:priority="2"/>\n')
