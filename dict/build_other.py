@@ -33,7 +33,7 @@ from build_xml import HERE, ROOT, compile_entries
 
 CSS = HERE / "src/LinderWalberg.css"
 TITLE = "Svenskt-grekiskt lexikon (Linder & Walberg 1862)"
-DESCRIPTION = ("C. Linder & C. W. Walberg, Svenskt-grekiskt lexikon, Upsala 1862. Proofread against the scans, "
+DESCRIPTION = ("C. W. Linder & C. A. Walberg, Svenskt-grekiskt lexikon, Upsala 1862. Proofread against the scans, "
                "with the book's errata and a formal review of the Greek applied. Public domain; transcription CC0. "
                "https://github.com/Urdatorn/linder-walberg")
 
@@ -53,7 +53,7 @@ def stardict(records: list[dict], titles: dict[str, str], out: Path) -> None:
     g = Glossary()
     g.setInfo("title", TITLE)
     g.setInfo("description", DESCRIPTION)
-    g.setInfo("author", "C. Linder, C. W. Walberg; edited by Albin Thörn Cleland")
+    g.setInfo("author", "C. W. Linder, C. A. Walberg; edited by Albin Thörn Cleland")
     g.setInfo("sourceLang", "sv")
     g.setInfo("targetLang", "grc")
     link = '<link rel="stylesheet" href="LinderWalberg.css">'

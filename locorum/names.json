@@ -9726,5 +9726,7413 @@
  "cts:tlg2021.None": [
   "Epiphanius",
   null
+ ],
+ "cts:tlg1764.None": [
+  "Vettius Valens",
+  null
+ ],
+ "cts:tlg0693.None": [
+  "Albinus",
+  null
+ ],
+ "cts:tlg2049.None": [
+  "Sallustius",
+  null
+ ],
+ "cts:tlg0097.None": [
+  "Diogenianus of Heraclea",
+  null
+ ],
+ "cts:tlg0594.None": [
+  "Alexander Numenius",
+  null
+ ],
+ "cts:tlg0733.None": [
+  "Cassius Iatrosophista",
+  null
+ ],
+ "cts:tlg0067.None": [
+  "Agatharchides",
+  null
+ ],
+ "cts:tlg1194.None": [
+  "Aristonicus of Alexandria",
+  null
+ ],
+ "cts:tlg0565.None": [
+  "Soranus",
+  null
+ ],
+ "cts:tlg1286.None": [
+  "Hermetica",
+  null
+ ],
+ "cts:tlg2703.None": [
+  "Anna Comnena",
+  null
+ ],
+ "cts:tlg0098.None": [
+  "Zenobius Sophista",
+  null
+ ],
+ "cts:tlg0031.None": [
+  "New Testament",
+  null
+ ],
+ "cts:tlg1799.None": [
+  "Euclid",
+  null
+ ],
+ "cts:tlg0527.None": [
+  "Old Testament",
+  null
+ ],
+ "cts:tlg0011.None": [
+  "Sophocles",
+  null
+ ],
+ "cts:tlg4017.None": [
+  "Syrianus",
+  null
+ ],
+ "cts:tlg1272.None": [
+  "Cleomedes",
+  null
+ ],
+ "cts:tlg0088.None": [
+  "Aristoxenus",
+  null
+ ],
+ "cts:tlg9007.None": [
+  "Appendix Proverbiorum",
+  null
+ ],
+ "cts:tlg0006.None": [
+  "Euripides",
+  null
+ ],
+ "cts:tlg0607.None": [
+  "Theon Rhetor",
+  null
+ ],
+ "cts:tlg4018.None": [
+  "Asclepius",
+  null
+ ],
+ "cts:tlg2948.None": [
+  "Acta Philippi",
+  null
+ ],
+ "cts:tlg4021.None": [
+  "David the Invincible",
+  null
+ ],
+ "cts:tlg0363.None": [
+  "Claudius Ptolemaeus",
+  null
+ ],
+ "cts:tlg0085.None": [
+  "Aeschylus",
+  null
+ ],
+ "cts:stoa0033a.None": [
+  "Pseudo-Aristotle",
+  null
+ ],
+ "cts:tlg0053.None": [
+  "Phalaridis Epistulae",
+  null
+ ],
+ "cts:tlg0048.None": [
+  "Philip II, King of Macedonia",
+  null
+ ],
+ "cts:tlg0521.None": [
+  "Epicharmus",
+  null
+ ],
+ "cts:tlg0623.None": [
+  "Cratetis Epistulae",
+  null
+ ],
+ "cts:tlg0017.None": [
+  "Isaeus",
+  null
+ ],
+ "cts:tlg0644.None": [
+  "Aristophanes of Byzantium",
+  null
+ ],
+ "cts:tlg0640.None": [
+  "Alciphron",
+  null
+ ],
+ "cts:tlg1247.None": [
+  "Cebes",
+  null
+ ],
+ "cts:tlg1367.None": [
+  "Euripides Epistulae",
+  null
+ ],
+ "cts:tlg0615.None": [
+  "Aspasius",
+  null
+ ],
+ "cts:tlg0019.None": [
+  "Aristophanes",
+  null
+ ],
+ "cts:tlg1724.None": [
+  "Theon Smyrnaeus",
+  null
+ ],
+ "cts:tlg1699.None": [
+  "Teles Megarenesis",
+  null
+ ],
+ "cts:tlg2178.None": [
+  "Cassius Longinus",
+  null
+ ],
+ "cts:tlg4019.None": [
+  "Olympiodorus",
+  null
+ ],
+ "cts:tlg0003.None": [
+  "Thucydides",
+  null
+ ],
+ "cts:tlg0341.None": [
+  "Lycophron",
+  null
+ ],
+ "cts:tlg0016.None": [
+  "Herodotus",
+  null
+ ],
+ "cts:tlg0719.None": [
+  "Aretaeus of Cappadocia",
+  null
+ ],
+ "cts:tlg0029.None": [
+  "Dinarchus",
+  null
+ ],
+ "cts:tlg1701.None": [
+  "Testamentum Abrahae",
+  null
+ ],
+ "cts:tlg2022.None": [
+  "Gregory of Nazianzus",
+  null
+ ],
+ "cts:tlg1147.None": [
+  "Antiphon of Athens",
+  null
+ ],
+ "cts:tlg0037.None": [
+  "Anacharsis",
+  null
+ ],
+ "cts:tlg1617.None": [
+  "Marcus Antonius Polemon",
+  null
+ ],
+ "cts:tlg0537.None": [
+  "Epicurus",
+  null
+ ],
+ "cts:tlg0529.None": [
+  "Arius Didymus",
+  null
+ ],
+ "cts:tlg0552.None": [
+  "Archimedes",
+  null
+ ],
+ "cts:tlg0626.None": [
+  "Heraclitus of Ephesus",
+  null
+ ],
+ "cts:tlg0614.None": [
+  "Valerius Babrius",
+  null
+ ],
+ "cts:tlg0633.None": [
+  "Lysis",
+  null
+ ],
+ "cts:tlg0637.None": [
+  "Socraticorum Epistulae",
+  null
+ ],
+ "cts:tlg1271.None": [
+  "Clemens Romanus (Clement of Rome)",
+  null
+ ],
+ "cts:tlg0671.None": [
+  "Philumenus",
+  null
+ ],
+ "cts:tlg0645.None": [
+  "Justin Martyr",
+  null
+ ],
+ "cts:tlg1269.None": [
+  "Cleanthes",
+  null
+ ],
+ "cts:tlg1210.None": [
+  "Autolycus",
+  null
+ ],
+ "cts:tlg1325.None": [
+  "Diogenes Sinopensis Epistulae",
+  null
+ ],
+ "cts:tlg1402.None": [
+  "Hephaestion",
+  null
+ ],
+ "cts:tlg1383.None": [
+  "Geminus",
+  null
+ ],
+ "cts:tlg1304.None": [
+  "Democritus",
+  null
+ ],
+ "cts:tlg1287.None": [
+  "Crantor",
+  null
+ ],
+ "cts:tlg1419.None": [
+  "Hermas, 2nd cent.",
+  null
+ ],
+ "cts:tlg1542.None": [
+  "Numenius of Apamea",
+  null
+ ],
+ "cts:tlg1595.None": [
+  "Philodemus",
+  null
+ ],
+ "cts:tlg1669.None": [
+  "Serapion Astrologus",
+  null
+ ],
+ "cts:tlg1548.None": [
+  "Oenomaus of Gadara",
+  null
+ ],
+ "cts:tlg1553.None": [
+  "Palaiphatos",
+  null
+ ],
+ "cts:tlg1805.None": [
+  "Vitae Homeri",
+  null
+ ],
+ "cts:tlg1725.None": [
+  "Theophilus",
+  null
+ ],
+ "cts:tlg1765.None": [
+  "Vitae Aesopi",
+  null
+ ],
+ "cts:tlg2027.None": [
+  "Valerius Apsines",
+  null
+ ],
+ "cts:tlg1763.None": [
+  "Tryphon II Grammaticus",
+  null
+ ],
+ "cts:tlg2032.None": [
+  "Pappus Alexandrinus",
+  null
+ ],
+ "cts:tlg2959.None": [
+  "Methodius",
+  null
+ ],
+ "cts:tlg2640.None": [
+  "Eusebius Myndius",
+  null
+ ],
+ "cts:tlg2233.None": [
+  "Pseudo-Polemon",
+  null
+ ],
+ "cts:tlg4072.None": [
+  "Eutocius",
+  null
+ ],
+ "cts:tlg0012.None": [
+  "Homer",
+  null
+ ],
+ "cts:tlg0027.None": [
+  "Andocides",
+  null
+ ],
+ "cts:tlg0028.None": [
+  "Antiphon",
+  null
+ ],
+ "cts:tlg0033.None": [
+  "Pindar",
+  null
+ ],
+ "cts:tlg0034.None": [
+  "Lycurgus",
+  null
+ ],
+ "cts:tlg0058.None": [
+  "Aeneas Tacticus",
+  null
+ ],
+ "cts:tlg4024.None": [
+  "Agathias Scholasticus",
+  null
+ ],
+ "cts:tlg4030.None": [
+  "Sophonias",
+  null
+ ],
+ "cts:tlg4090.None": [
+  "Cyril of Alexandria",
+  null
+ ],
+ "cts:tlg5022.None": [
+  "Scholia in Euclidem",
+  null
+ ],
+ "cts:tlg4193.None": [
+  "Anonymi In Aristotelis Sophisticos Elenchos",
+  null
+ ],
+ "cts:tlg0561.None": [
+  "Longus",
+  null
+ ],
+ "cts:tlg0532.None": [
+  "Achilles Tatius",
+  null
+ ],
+ "cts:tlg0525.None": [
+  "Pausanias",
+  null
+ ],
+ "cts:tlg0613.None": [
+  "Demetrius of Phaleron",
+  null
+ ],
+ "cts:tlg7000.None": [
+  "Greek Anthology",
+  null
+ ],
+ "cts:tlg0358.None": [
+  "Nicomachus Gerasenus",
+  null
+ ],
+ "cts:tlg0065.None": [
+  "Scylax of Caryanda",
+  null
+ ],
+ "cts:tlg5028.None": [
+  "Scholia in Isocratem",
+  null
+ ],
+ "cts:tlg0731.None": [
+  "Adamantius Judaeus",
+  null
+ ],
+ "cts:tlg1390.None": [
+  "Hecataeus of Abderita",
+  null
+ ],
+ "cts:tlg1634.None": [
+  "Prodicus",
+  null
+ ],
+ "cts:tlg1188.None": [
+  "Aristocles of Messene",
+  null
+ ],
+ "cts:tlg0610.None": [
+  "Alcidamas",
+  null
+ ],
+ "cts:tlg0643.None": [
+  "Anonymus Londinensis",
+  null
+ ],
+ "cts:tlg1431.None": [
+  "Hipparchus",
+  null
+ ],
+ "cts:tlg1766.None": [
+  "Tatianus",
+  null
+ ],
+ "cts:tlg0560.None": [
+  "Longinus",
+  null
+ ],
+ "cts:tlg2137.None": [
+  "Gaudentius",
+  null
+ ],
+ "cts:tlg0094.None": [
+  "Pseudo-Plutarch",
+  null
+ ],
+ "cts:tlg9019.None": [
+  "Stephanus of Alexandria",
+  null
+ ],
+ "cts:tlg1414.None": [
+  "Heraclitus",
+  null
+ ],
+ "cts:tlg1320.None": [
+  "Diogenes Babylonius",
+  null
+ ],
+ "cts:tlg0609.None": [
+  "Tryphon I Grammaticus",
+  null
+ ],
+ "cts:tlg2806.None": [
+  "Marcus Diaconus",
+  null
+ ],
+ "cts:tlg1551.None": [
+  "Oracula Sibyllina",
+  null
+ ],
+ "cts:tlg1146.None": [
+  "Antipater Tarsensis",
+  null
+ ],
+ "cts:stoa0121.None": [
+  "Eutropius",
+  null
+ ],
+ "cts:tlg0317.None": [
+  "Acta Joannis",
+  null
+ ],
+ "cts:tlg0636.None": [
+  "Socrates Epistulae",
+  null
+ ],
+ "cts:tlg2038.None": [
+  "Acta Thomae",
+  null
+ ],
+ "cts:tlg4174.None": [
+  "Paraphrases in Dioynsium Periegetam",
+  null
+ ],
+ "cts:tlg0579.None": [
+  "Orphica",
+  null
+ ],
+ "cts:tlg0556.None": [
+  "Asclepiodotus",
+  null
+ ],
+ "cts:tlg0652.None": [
+  "Philostratus Minor",
+  null
+ ],
+ "cts:tlg0641.None": [
+  "Xenophon of Ephesus",
+  null
+ ],
+ "cts:tlg0591.None": [
+  "Antisthenes",
+  null
+ ],
+ "cts:tlg1309.None": [
+  "Dialexeis",
+  null
+ ],
+ "cts:tlg1134.None": [
+  "Anonymous Iamblichi",
+  null
+ ],
+ "cts:tlg0593.None": [
+  "Gorgias of Leontini",
+  null
+ ],
+ "cts:tlg1487.None": [
+  "Maximus, Astrologus",
+  null
+ ],
+ "cts:tlg1193.None": [
+  "Ariston of Chios",
+  null
+ ],
+ "cts:tlg3118.None": [
+  "Syntipas",
+  null
+ ],
+ "cts:tlg2601.None": [
+  "Tiberius Rhetor",
+  null
+ ],
+ "cts:tlg2949.None": [
+  "Acta Barnabae",
+  null
+ ],
+ "cts:tlg0066.None": [
+  "Heraclides, Criticus",
+  null
+ ],
+ "cts:tlg0634.None": [
+  "Xenocrates of Chalcedon",
+  null
+ ],
+ "cts:tlg1447.None": [
+  "Irenaeus, Saint, Bishop of Lyon",
+  null
+ ],
+ "cts:tlg1443.None": [
+  "Ignatius of Antioch",
+  null
+ ],
+ "cts:tlg1216.None": [
+  "Barnabae Epistula",
+  null
+ ],
+ "cts:tlg9006.None": [
+  "Gregory II, of Cyprus, Patriarch of Constantinople",
+  null
+ ],
+ "cts:tlg0044.None": [
+  "Antiochus Epistolographus",
+  null
+ ],
+ "cts:tlg0548.None": [
+  "Apollodorus",
+  null
+ ],
+ "cts:tlg0541.None": [
+  "Menander",
+  null
+ ],
+ "cts:tlg2041.None": [
+  "Marcellus of Ankara",
+  null
+ ],
+ "cts:tlg1463.None": [
+  "Liber Enoch",
+  null
+ ],
+ "cts:tlg1665.None": [
+  "Seniores Apud Irenaeum",
+  null
+ ],
+ "cts:tlg4091.None": [
+  "Callistratus",
+  null
+ ],
+ "cts:tlg1750.None": [
+  "Vitae Prophetarum",
+  null
+ ],
+ "cts:tlg4003.None": [
+  "Marcianus, of Heraclea",
+  null
+ ],
+ "cts:tlg0646.None": [
+  "Pseudo-Justinus Martyr",
+  null
+ ],
+ "cts:tlg5031.None": [
+  "Scholia in Nicandrum",
+  null
+ ],
+ "cts:tlg1600.None": [
+  "Philostratus Sophista",
+  null
+ ],
+ "cts:stoa0146d.None": [
+  "Hegemonius",
+  null
+ ],
+ "cts:tlg0655.None": [
+  "Parthenius of Nicaea",
+  null
+ ],
+ "cts:tlg2632.None": [
+  "Comarius",
+  null
+ ],
+ "cts:tlg2972.None": [
+  "Anonymi de Terrae Motibus",
+  null
+ ],
+ "cts:tlg1131.None": [
+  "Anonymus Ad Avircium Marcellum contra Cataphrygas",
+  null
+ ],
+ "cts:tlg5019.None": [
+  "Scholia in Dionysium Periegetam",
+  null
+ ],
+ "cts:tlg1181.None": [
+  "Aristarchus of Samos",
+  null
+ ],
+ "cts:tlg1719.None": [
+  "Theodosius of Bithynia",
+  null
+ ],
+ "cts:tlg2970.None": [
+  "Severus Philosophus",
+  null
+ ],
+ "cts:tlg0580.None": [
+  "Paradoxographus Florentinus",
+  null
+ ],
+ "cts:tlg0001.None": [
+  "Apollonius Rhodius",
+  null
+ ],
+ "cts:tlg0319.None": [
+  "Critias",
+  null
+ ],
+ "cts:tlg1692.None": [
+  "Speusippus",
+  null
+ ],
+ "cts:tlg2583.None": [
+  "Manetho Astrologus",
+  null
+ ],
+ "cts:tlg4037.None": [
+  "Anonymi Paradoxographi",
+  null
+ ],
+ "cts:tlg1129.None": [
+  "Anonymi de Barbarismo et Soloecismo",
+  null
+ ],
+ "cts:tlg0751.None": [
+  "Pseudo-Hippocrates",
+  null
+ ],
+ "cts:tlg2016.None": [
+  "Martyrium Perpetuae et Felcitatis",
+  null
+ ],
+ "cts:tlg0069.None": [
+  "Dionysius, Calliphontis",
+  null
+ ],
+ "cts:tlg0509.None": [
+  "Myia",
+  null
+ ],
+ "cts:tlg0620.None": [
+  "Archytas of Tarentum",
+  null
+ ],
+ "cts:tlg1626.None": [
+  "Polycrates Ephesius",
+  null
+ ],
+ "cts:tlg0649.None": [
+  "Lesbonax (Rhetorician)",
+  null
+ ],
+ "cts:tlg0071.None": [
+  "Pseudo-Arrianus",
+  null
+ ],
+ "cts:tlg2135.None": [
+  "Alypius",
+  null
+ ],
+ "cts:tlg1311.None": [
+  "Didache",
+  null
+ ],
+ "cts:tlg0068.None": [
+  "Pseudo-Scymnus",
+  null
+ ],
+ "cts:tlg0653.None": [
+  "Aratus Solensis",
+  null
+ ],
+ "cts:tlg0077.None": [
+  "Stadiasmus Magni Maris",
+  null
+ ],
+ "cts:tlg0535.None": [
+  "Demades",
+  null
+ ],
+ "cts:tlg1409.None": [
+  "Heraclides Ponticus",
+  null
+ ],
+ "cts:tlg1252.None": [
+  "Certamen Homeri et Hesiodi",
+  null
+ ],
+ "cts:tlg4075.None": [
+  "Marinus, 5th century",
+  null
+ ],
+ "cts:tlg1664.None": [
+  "Seniores Alexandrini",
+  null
+ ],
+ "cts:tlg1681.None": [
+  "Solonis Epistulae",
+  null
+ ],
+ "cts:tlg0357.None": [
+  "Didymus Alexandrinus",
+  null
+ ],
+ "cts:tlg0092.None": [
+  "Anonymi Geographiae Expositio Compendiaria",
+  null
+ ],
+ "cts:tlg1801.None": [
+  "Parodica Anonyma",
+  null
+ ],
+ "cts:tlg0361.None": [
+  "Cleonides",
+  null
+ ],
+ "cts:tlg0199.None": [
+  "Bacchylides",
+  null
+ ],
+ "cts:tlg0550.None": [
+  "Apollonius of Perga",
+  null
+ ],
+ "cts:tlg2691.None": [
+  "Musaeus, Eleusinius",
+  null
+ ],
+ "cts:tlg2039.None": [
+  "Diophantus Alexandrinus",
+  null
+ ],
+ "cts:tlg0005.None": [
+  "Theocritus",
+  null
+ ],
+ "cts:tlg0020.None": [
+  "Hesiod",
+  null
+ ],
+ "cts:tlg0013.None": [
+  "Hymni Homerici",
+  null
+ ],
+ "cts:tlg0024.None": [
+  "Oppian of Apamea",
+  null
+ ],
+ "cts:tlg0045.None": [
+  "Artaxerxis Epistulae",
+  null
+ ],
+ "cts:tlg0035.None": [
+  "Moschus",
+  null
+ ],
+ "cts:tlg0618.None": [
+  "Antigoni Epistula",
+  null
+ ],
+ "cts:tlg0606.None": [
+  "Rufus Soph.",
+  null
+ ],
+ "cts:tlg0022.None": [
+  "Nicander of Colophon",
+  null
+ ],
+ "cts:tlg0647.None": [
+  "Tryphiodorus",
+  null
+ ],
+ "cts:tlg2045.None": [
+  "Nonnus of Panopolis",
+  null
+ ],
+ "cts:tlg0084.None": [
+  "Dionysius Periegetes",
+  null
+ ],
+ "cts:tlg2046.None": [
+  "Quintus Smyrnaeus",
+  null
+ ],
+ "cts:tlg0023.None": [
+  "Oppian",
+  null
+ ],
+ "cts:tlg0036.None": [
+  "Bion of Phlossa",
+  null
+ ],
+ "cts:tlg1319.None": [
+  "Diogenes of Apollonia",
+  null
+ ],
+ "cts:ogl0001.None": [
+  "Pinytus, Saint, Bishop of Knossos",
+  null
+ ],
+ "cts:tlg0064.None": [
+  "Hanno",
+  null
+ ],
+ "cts:tlg2029.None": [
+  "Anonymi summaria ratio geographiae in sphaera intelligendae",
+  null
+ ],
+ "cts:tlg2050.None": [
+  "Eunapius",
+  null
+ ],
+ "cts:tlg0046.None": [
+  "Niciae Epistula",
+  null
+ ],
+ "cts:tlg0075.None": [
+  "Pseudo-Arrianus",
+  null
+ ],
+ "cts:tlg0632.None": [
+  "Pythagoras",
+  null
+ ],
+ "cts:tlg2136.None": [
+  "Bacchius Geron",
+  null
+ ],
+ "cts:tlg1596.None": [
+  "Philolaus of Croton",
+  null
+ ],
+ "cts:tlg1562.None": [
+  "Parmenides",
+  null
+ ],
+ "cts:tlg0057.tlg065": [
+  "Galenus",
+  "De diebus decretoriis"
+ ],
+ "cts:tlg0057.tlg064": [
+  "Galenus",
+  "De crisibus"
+ ],
+ "cts:tlg0007.tlg146": [
+  "Plutarch",
+  "Παροιμίαι αἷς Ἀλεξανδρεῖς ἐχρῶντο"
+ ],
+ "cts:tlg0057.tlg001": [
+  "Galenus",
+  "Adhortatio ad artes addiscendas"
+ ],
+ "cts:tlg0057.tlg072": [
+  "Galenus",
+  "De purgantium medicamentorum facultate"
+ ],
+ "cts:tlg0057.tlg056": [
+  "Galenus",
+  "De difficultate respirationis"
+ ],
+ "cts:tlg0057.tlg099": [
+  "Galenus",
+  "In Hippocratis Prognosticum"
+ ],
+ "cts:tlg0057.tlg092": [
+  "Galenus",
+  "In Hippocratis Aphorismos Commentarii VII"
+ ],
+ "cts:tlg0057.tlg089": [
+  "Galenus",
+  "In Hippocratis Epidemiarum I"
+ ],
+ "cts:tlg0067.tlg001": [
+  "Agatharchides",
+  "De Rubro Mari"
+ ],
+ "cts:tlg0081.tlg013": [
+  "Dionysius of Halicarnassus",
+  "De compositione verborum (epitome)"
+ ],
+ "cts:tlg0086.tlg022": [
+  "Aristotle",
+  "Magna Moralia"
+ ],
+ "cts:tlg0097.tlg001": [
+  "Diogenianus of Heraclea",
+  "Paroemiae (epitome operis sub nomine Diogeniani) (e cod. Mazarinco)"
+ ],
+ "cts:tlg0098.tlg001": [
+  "Zenobius Sophista",
+  "Epitome collectionum Lucilli Tarrhaei et Didymi"
+ ],
+ "cts:tlg0565.tlg001": [
+  "Soranus",
+  "Gynaeciorum Libri IV"
+ ],
+ "cts:tlg0594.tlg002": [
+  "Alexander Numenius",
+  "De Figuris"
+ ],
+ "cts:tlg0093.tlg002": [
+  "Theophrastus",
+  "De causis plantarum"
+ ],
+ "cts:tlg0093.ogl001": [
+  "Theophrastus",
+  "De odoribus"
+ ],
+ "cts:tlg0093.tlg010x01": [
+  "Theophrastus",
+  "De Odoribus"
+ ],
+ "cts:tlg0627.tlg006": [
+  "Hippocrates",
+  "De morbis popularibus"
+ ],
+ "cts:tlg0627.tlg051": [
+  "Hippocrates",
+  "Praeceptiones"
+ ],
+ "cts:tlg0627.tlg012": [
+  "Hippocrates",
+  "Aphorismi"
+ ],
+ "cts:tlg0530.tlg029": [
+  "Pseudo-Galen",
+  "De remediis parabilibus"
+ ],
+ "cts:tlg0553.tlg001": [
+  "Artemidorus",
+  "Ονειροκριτικά"
+ ],
+ "cts:tlg0544.tlg002": [
+  "Sextus Empiricus",
+  "Adversus Mathematicos"
+ ],
+ "cts:tlg0693.tlg001": [
+  "Albinus",
+  "Handbook of Platonism"
+ ],
+ "cts:tlg1194.tlg001": [
+  "Aristonicus of Alexandria",
+  "De signis Odysseae"
+ ],
+ "cts:tlg1286.tlg020": [
+  "Hermetica",
+  "Fragmenta"
+ ],
+ "cts:tlg0733.tlg001": [
+  "Cassius Iatrosophista",
+  "Quaestiones medicae et problemata physica"
+ ],
+ "cts:tlg0708.tlg001": [
+  "Ammonius Grammaticus",
+  "περὶ ὁμοίων καὶ διαφόρων λέξεων"
+ ],
+ "cts:tlg1764.tlg001": [
+  "Vettius Valens",
+  "Anthologiarum libri"
+ ],
+ "cts:tlg0658.tlg001": [
+  "Heliodorus of Emesa",
+  "Aethiopica"
+ ],
+ "cts:tlg0732.tlg004": [
+  "Alexander of Aphrodisias",
+  "In Aristotelis Metaphysica Commentaria"
+ ],
+ "cts:tlg0732.tlg006": [
+  "Alexander of Aphrodisias",
+  "In Aristotelis Topicorum Libros Octo Commentaria"
+ ],
+ "cts:tlg1264.tlg001": [
+  "Chrysippus",
+  "Fragmenta Logica et Physica"
+ ],
+ "cts:tlg1264.tlg002": [
+  "Chrysippus",
+  "Fragmenta  Moralia"
+ ],
+ "cts:tlg2000.tlg001": [
+  "Plotinus",
+  "Enneades"
+ ],
+ "cts:tlg1416.tlg007": [
+  "Philo of Byblos",
+  "De diversis verborum significationibus (= Περὶ διαφόρους σημασίας κατ’ ἀλφάβητον) (epitome operis Herennii Philonis)"
+ ],
+ "cts:tlg2018.tlg002": [
+  "Eusebius of Caesarea",
+  "Ecclesiastical History"
+ ],
+ "cts:tlg2023.tlg001": [
+  "Iamblichus",
+  "De Vita Pythagorica"
+ ],
+ "cts:tlg2023.tlg006": [
+  "Iamblichus",
+  "De Mysteriis"
+ ],
+ "cts:tlg2034.tlg015": [
+  "Porphyrius",
+  "Zetemata codicis Vaticani"
+ ],
+ "cts:tlg2018.tlg001": [
+  "Eusebius of Caesarea",
+  "Praeparatio Evangelica"
+ ],
+ "cts:tlg2034.tlg014": [
+  "Porphyrius",
+  "Quaestionum Homericanum ad Iliadem pertinentium reliquiae"
+ ],
+ "cts:tlg2018.tlg005": [
+  "Eusebius of Caesarea",
+  "Demonstratio Evangelica"
+ ],
+ "cts:tlg2042.tlg074": [
+  "Origenes",
+  "Excerpta in Psalmos [Dub.]"
+ ],
+ "cts:tlg2042.tlg008": [
+  "Origenes",
+  "De oratione"
+ ],
+ "cts:tlg2042.tlg079": [
+  "Origenes",
+  "Commentarii in evangelium Joannis (lib. 19, 20, 28, 32)"
+ ],
+ "cts:tlg2042.tlg058": [
+  "Origenes",
+  "Selecta in Psalmos [Dub.]"
+ ],
+ "cts:tlg2042.tlg005": [
+  "Origenes",
+  "Commentarii In Evangelium Joannis"
+ ],
+ "cts:tlg2042.tlg030": [
+  "Origenes",
+  "Commentarium In Evangelium Matthaei (Lib. 12-17)"
+ ],
+ "cts:tlg2049.tlg001": [
+  "Sallustius",
+  "De Deis et Mundo"
+ ],
+ "cts:tlg2200.tlg00449": [
+  "Libanius",
+  "Oratio 49"
+ ],
+ "cts:tlg2200.tlg00534": [
+  "Libanius",
+  "Declamatio 34"
+ ],
+ "cts:tlg2703.tlg001": [
+  "Anna Comnena",
+  "Alexias"
+ ],
+ "cts:tlg4018.tlg001": [
+  "Asclepius",
+  "In Aristotelis Metaphysicorum Libros A-Z Commentaria"
+ ],
+ "cts:tlg4017.tlg001": [
+  "Syrianus",
+  "In Aristotelis Metaphysica Commentaria"
+ ],
+ "cts:tlg4015.tlg009": [
+  "John Philoponus",
+  "In Aristotelis Physicorum Libros Commentaria"
+ ],
+ "cts:tlg4015.tlg002": [
+  "John Philoponus",
+  "In Aristotelis Analytica Priora Commentaria"
+ ],
+ "cts:tlg2768.tlg001": [
+  "Gelasius",
+  "Historia Ecclesiastica"
+ ],
+ "cts:tlg2057.tlg002": [
+  "Socrates Scholasticus",
+  "Historica Ecclesiastica"
+ ],
+ "cts:tlg4013.tlg001": [
+  "Simplicius",
+  "In Aristotelis Quattuor Libros De Caelo Commentaria"
+ ],
+ "cts:tlg4013.tlg004": [
+  "Simplicius",
+  "In Aristotelis Physicorum Libros Commentaria"
+ ],
+ "cts:tlg4036.tlg001": [
+  "Proclus",
+  "In Platonis Rem Publicam Commentarii"
+ ],
+ "cts:tlg4026.tlg001": [
+  "Anonymi in Aristotelis Artem Rhetoricam",
+  "In Aristotelis artem rhetoricam commentarium"
+ ],
+ "cts:tlg3135.tlg001": [
+  "Zonaras",
+  "Epitome historiarum (Vol. 1)"
+ ],
+ "cts:tlg4021.tlg001": [
+  "David the Invincible",
+  "Prolegomena philosophiae"
+ ],
+ "cts:tlg4034.tlg006": [
+  "Michael of Ephesus",
+  "In Librum Quintum Ethicorum Nicomacheorum Commentarium"
+ ],
+ "cts:tlg3135.tlg011": [
+  "Zonaras",
+  "Argumenta"
+ ],
+ "cts:tlg4020.tlg002": [
+  "Elias Neoplatonicus",
+  "Eliae (Olim Davidis) In Aristotelis Categorias Commentarium"
+ ],
+ "cts:tlg4084.tlg001": [
+  "Zosimus",
+  "Historia Nova"
+ ],
+ "cts:tlg4102.tlg012": [
+  "Catenae (Novum Testamentum)",
+  "Catena In Epistulam I Ad Corinthios (Typus Vaticanus) (e Cod. Paris. gr. 227)"
+ ],
+ "cts:tlg4102.tlg038": [
+  "Catenae (Novum Testamentum)",
+  "Catena In Epistulam Ad Hebraeos (E Cod. Paris. Coislin. 204)"
+ ],
+ "cts:tlg4102.tlgX02": [
+  "Catenae (Novum Testamentum)",
+  "Commentarius In Apocalypsin"
+ ],
+ "cts:tlg4102.tlg010": [
+  "Catenae (Novum Testamentum)",
+  "Catena In Epistulam Ad Romanos (Typus Vaticanus) (E Cod. Oxon. Bodl. Auct. E.2.20 [= Misc. 48])"
+ ],
+ "cts:tlg4102.tlg035": [
+  "Catenae (Novum Testamentum)",
+  "Catena In Epistulam II Ad Timotheum (E Cod. Paris. Coislin. 204)"
+ ],
+ "cts:tlg4102.tlg011": [
+  "Catenae (Novum Testamentum)",
+  "Catena In Epistulam Ad Romanos (Typus Monacensis) (E Cod. Monac. gr. 412)"
+ ],
+ "cts:tlg4031.tlg002": [
+  "Eustratius",
+  "In Aristotelis Ethica Nicomachea I Commentaria"
+ ],
+ "cts:tlg4033.tlg003": [
+  "Anonymi In Aristotelis Ethica Nicomachea",
+  "In Ethica Nicomachea Paraphrasis (Pseudepigraphum Olim A Constantino Palaeocappa confectum et olim sub auctore Heliodoro\n    Prusensi vel Andronico Rhodio vel Olympiodoro)"
+ ],
+ "cts:tlg4089.tlg003": [
+  "Theodoretus",
+  "Historia Ecclesiastica"
+ ],
+ "cts:tlg0007.tlg025": [
+  "Plutarch",
+  "Marcus Cato"
+ ],
+ "cts:tlg0007.tlg112": [
+  "Plutarch",
+  "Quaestiones Convivales"
+ ],
+ "cts:tlg0004.tlg001": [
+  "Diogenes Laertius",
+  "Vitae philosophorum"
+ ],
+ "cts:tlg0031.tlg016": [
+  "New Testament",
+  "2 Timothy"
+ ],
+ "cts:tlg0010.tlg018": [
+  "Isocrates",
+  "Areopagiticus"
+ ],
+ "cts:tlg5023.tlg001": [
+  "Scholia in Euripidem",
+  "Scholia in Euripidem (scholia vetera)"
+ ],
+ "cts:tlg5023.tlg014": [
+  "Scholia in Euripidem",
+  "Scholia in Euripidis Hecubam (scholia vetera et scholia\n        recentiora Thomae Magistri, Triclinii, Moschopuli et anonyma)"
+ ],
+ "cts:tlg4102.tlg002": [
+  "Catenae (Novum Testamentum)",
+  "Catena In Marcum (Recensio ii) (E Codd. Oxon. Bodl. Laud. 33 + Paris. Coislin. 23 + Paris. gr. 178)"
+ ],
+ "cts:tlg5023.tlg015": [
+  "Scholia in Euripidem",
+  "Scholia in Euripidis Orestem (scholia vetera et scholia recentiora Thomae Magistri, Triclinii, Moschopuli et anonyma)"
+ ],
+ "cts:tlg4102.tlg001": [
+  "Catenae (Novum Testamentum)",
+  "Catena In Matthaeum (Catena Integra) (E Cod. Paris. Coislin. Gr. 23)"
+ ],
+ "cts:tlg0032.tlg002": [
+  "Xenophon",
+  "Memorabilia"
+ ],
+ "cts:tlg0032.tlg007": [
+  "Xenophon",
+  "Cyropaedia"
+ ],
+ "cts:tlg0059.tlg023": [
+  "Plato",
+  "Gorgias"
+ ],
+ "cts:tlg0059.tlg030": [
+  "Plato",
+  "Republic"
+ ],
+ "cts:tlg0081.tlg010": [
+  "Dionysius of Halicarnassus",
+  "De Thucydide"
+ ],
+ "cts:tlg0081.tlg012": [
+  "Dionysius of Halicarnassus",
+  "De Compositione Verborum"
+ ],
+ "cts:tlg5037.tlg004": [
+  "Scholia in Sophoclem",
+  "Scholia in Sophoclem (scholia vetera)"
+ ],
+ "cts:tlg0086.tlg035": [
+  "Aristotle",
+  "Politics"
+ ],
+ "cts:tlg0093.tlg009": [
+  "Theophrastus",
+  "Characters"
+ ],
+ "cts:tlg0086.tlg038": [
+  "Aristotle",
+  "Rhetoric"
+ ],
+ "cts:tlg0060.tlg001": [
+  "Diodorus Siculus",
+  "Historical Library"
+ ],
+ "cts:tlg0081.tlg001": [
+  "Dionysius of Halicarnassus",
+  "Antiquitates Romanae"
+ ],
+ "cts:tlg0086.tlg010": [
+  "Aristotle",
+  "Nicomachean Ethics"
+ ],
+ "cts:tlg0086.tlg025": [
+  "Aristotle",
+  "Metaphysics"
+ ],
+ "cts:tlg5029.tlg001": [
+  "Scholia in Lucianum",
+  "Scholia in Lucianum"
+ ],
+ "cts:tlg0284.tlg014": [
+  "Aristides, Aelius",
+  "Orationes 14"
+ ],
+ "cts:tlg0099.tlg001": [
+  "Strabo",
+  "Geography"
+ ],
+ "cts:tlg0551.tlg009": [
+  "Appianus of Alexandria",
+  "Punic Wars"
+ ],
+ "cts:tlg0526.tlg004": [
+  "Flavius Josephus",
+  "The Jewish War"
+ ],
+ "cts:tlg0526.tlg001": [
+  "Flavius Josephus",
+  "Jewish Antiquities"
+ ],
+ "cts:tlg0543.tlg001": [
+  "Polybius",
+  "Histories"
+ ],
+ "cts:tlg2003.tlg008": [
+  "Julian, Emperor of Rome",
+  "Hymn to the Mother of the Gods"
+ ],
+ "cts:tlg2003.tlg010": [
+  "Julian, Emperor of Rome",
+  "The Caesars"
+ ],
+ "cts:tlg2003.tlg003": [
+  "Julian, Emperor of Rome",
+  "The Heroic Deeds of the Emperor Constantius, or on Kingship"
+ ],
+ "cts:tlg2003.tlg017": [
+  "Julian, Emperor of Rome",
+  "Κατὰ Γαλιλαίων"
+ ],
+ "cts:tlg0527.tlg014": [
+  "Old Testament",
+  "II Kings"
+ ],
+ "cts:tlg0527.tlg002": [
+  "Old Testament",
+  "Exodus"
+ ],
+ "cts:tlg2040.tlg004": [
+  "Basil, Saint, Bishop of Caesarea",
+  "Epistulae"
+ ],
+ "cts:tlg9010.tlg001": [
+  "Suda",
+  "Suidae lexicon"
+ ],
+ "cts:tlg0086.tlg026": [
+  "Aristotle",
+  "Meteorologica"
+ ],
+ "cts:tlg0086.tlg036": [
+  "Aristotle",
+  "Problemata"
+ ],
+ "cts:tlg0088.tlg001": [
+  "Aristoxenus",
+  "Ἁρμονικὰ στοιχεῖα"
+ ],
+ "cts:tlg5026.tlg007": [
+  "Scholia in Homerum",
+  "Scholia in Odysseam"
+ ],
+ "cts:tlg5026.tlg001": [
+  "Scholia in Homerum",
+  "Scholia in Iliadem"
+ ],
+ "cts:tlg0527.tlg017": [
+  "Old Testament",
+  "Esdras i (liber apocryphus)"
+ ],
+ "cts:tlg0627.tlg014": [
+  "Hippocrates",
+  "Lex"
+ ],
+ "cts:tlg0018.tlg017": [
+  "Philo Judaeus",
+  "De Fuga Et Inventione"
+ ],
+ "cts:tlg0544.tlg001": [
+  "Sextus Empiricus",
+  "Pyrrhoniae Hypotyposes"
+ ],
+ "cts:tlg0096.tlg002": [
+  "Aesop",
+  "Fabulae"
+ ],
+ "cts:tlg0732.tlg008": [
+  "Alexander of Aphrodisias",
+  "In Aristotelis Meteorologicorum Libros Commentaria"
+ ],
+ "cts:tlg0607.tlg001": [
+  "Theon Rhetor",
+  "Προγυμνάσματα"
+ ],
+ "cts:tlg1272.tlg001": [
+  "Cleomedes",
+  "De motu circulari corporum caelestium"
+ ],
+ "cts:tlg1799.tlg010": [
+  "Euclid",
+  "Opticorum recensio Theonis"
+ ],
+ "cts:tlg2018.tlg011": [
+  "Eusebius of Caesarea",
+  "Onomasticon"
+ ],
+ "cts:tlg2018.tlg023": [
+  "Eusebius of Caesarea",
+  "Generalis elementaria introductio (= Eclogae propheticae)"
+ ],
+ "cts:tlg2042.tlg052": [
+  "Origenes",
+  "Selecta in Numeros"
+ ],
+ "cts:tlg0559.tlg007": [
+  "Hero of Alexandria",
+  "Dioptra"
+ ],
+ "cts:tlg2042.tlg048": [
+  "Origenes",
+  "Selecta in Genesim"
+ ],
+ "cts:tlg0007.tlg002": [
+  "Plutarch",
+  "Romulus"
+ ],
+ "cts:tlg2948.tlg001": [
+  "Acta Philippi",
+  "Acta Philippi"
+ ],
+ "cts:tlg0007.tlg033": [
+  "Plutarch",
+  "Sulla"
+ ],
+ "cts:tlg0007.tlg064": [
+  "Plutarch",
+  "Artaxerxes"
+ ],
+ "cts:tlg4015.tlg005": [
+  "John Philoponus",
+  "In Aristotelis Meteorologicorum Librum Primum Commentarium"
+ ],
+ "cts:tlg0031.tlg005": [
+  "New Testament",
+  "Acts"
+ ],
+ "cts:tlg4102.tlg020": [
+  "Catenae (Novum Testamentum)",
+  "Catena In Epistulam Ad Ephesios (Typus Parisinus) (E Cod. Coislin. 204)"
+ ],
+ "cts:tlg9007.tlg001": [
+  "Appendix Proverbiorum",
+  "Appendix Proverbiorum"
+ ],
+ "cts:tlg4102.tlg008": [
+  "Catenae (Novum Testamentum)",
+  "Catena In Acta (Catena Andreae) (e cod. Oxon. coll. nov. 58)"
+ ],
+ "cts:tlg4015.tlg007": [
+  "John Philoponus",
+  "In Libros De Generatione Animalium Commentaria"
+ ],
+ "cts:tlg0059.tlg004": [
+  "Plato",
+  "Phaedo"
+ ],
+ "cts:tlg0011.tlg003": [
+  "Sophocles",
+  "Ajax"
+ ],
+ "cts:tlg0030.tlg006": [
+  "Hyperides",
+  "Funeral Oration"
+ ],
+ "cts:tlg0612.tlg001": [
+  "Dio Chrysostom",
+  "Orationes"
+ ],
+ "cts:tlg1389.tlg001": [
+  "Harpocration",
+  "Lexicon in decem oratores Atticos"
+ ],
+ "cts:tlg2371.tlg001": [
+  "Chronicon Paschale",
+  "Chronicon Paschale"
+ ],
+ "cts:tlg0018.tlg004": [
+  "Philo Judaeus",
+  "De Sacrificiis Abelis Et Caini"
+ ],
+ "cts:tlg0018.tlg021": [
+  "Philo Judaeus",
+  "De Josepho"
+ ],
+ "cts:tlg0018.tlg006": [
+  "Philo Judaeus",
+  "De Posteritate Caini"
+ ],
+ "cts:tlg0018.tlg001": [
+  "Philo Judaeus",
+  "De Opificio Mundi"
+ ],
+ "cts:tlg0018.tlg012": [
+  "Philo Judaeus",
+  "De Sobrietate"
+ ],
+ "cts:tlg0018.tlg002": [
+  "Philo Judaeus",
+  "Legum Allegoriarum Libri I-III"
+ ],
+ "cts:tlg0018.tlg026": [
+  "Philo Judaeus",
+  "De Praemiis Et Poenis Et De Exsecrationibus"
+ ],
+ "cts:tlg0018.tlg024": [
+  "Philo Judaeus",
+  "De Specialibus Legibus (lib. i‑iv)"
+ ],
+ "cts:tlg0057.tlg008": [
+  "Galenus",
+  "De elementis ex Hippocrate"
+ ],
+ "cts:tlg0057.tlg010": [
+  "Galenus",
+  "De naturalibus facultatibus"
+ ],
+ "cts:tlg0057.tlg006": [
+  "Galenus",
+  "De constitutione artis medicae ad Patrophilum"
+ ],
+ "cts:tlg0057.tlg007": [
+  "Galenus",
+  "Ars Medica"
+ ],
+ "cts:tlg0015.tlg001": [
+  "Herodian",
+  "Ab excessu divi Marci"
+ ],
+ "cts:tlg0057.tlg009": [
+  "Galenus",
+  "De temperamentis"
+ ],
+ "cts:tlg0057.tlg011": [
+  "Galenus",
+  "De anatomicis administrationibus"
+ ],
+ "cts:stoa0033a.tlg043": [
+  "Pseudo-Aristotle",
+  "De spiritu"
+ ],
+ "cts:tlg0057.tlg024": [
+  "Galenus",
+  "De optima corporis nostri constitutione"
+ ],
+ "cts:tlg0048.tlg001": [
+  "Philip II, King of Macedonia",
+  "Epistulae"
+ ],
+ "cts:tlg0057.tlg019": [
+  "Galenus",
+  "De Victu Attenuante"
+ ],
+ "cts:tlg0026.tlg004": [
+  "Aeschines",
+  "Epistolae"
+ ],
+ "cts:tlg0057.tlg038": [
+  "Galenus",
+  "De rebus boni malique suci"
+ ],
+ "cts:tlg0053.tlg001": [
+  "Phalaridis Epistulae",
+  "Epistulae"
+ ],
+ "cts:tlg0006.tlg020": [
+  "Euripides",
+  "Fragmenta"
+ ],
+ "cts:tlg0057.tlg036": [
+  "Galenus",
+  "De sanitate tuenda"
+ ],
+ "cts:tlg0057.tlg041": [
+  "Galenus",
+  "De morborum differentiis"
+ ],
+ "cts:tlg0057.tlg044": [
+  "Galenus",
+  "De symptomatum causis"
+ ],
+ "cts:tlg0057.tlg018": [
+  "Galenus",
+  "De motu musculorum"
+ ],
+ "cts:tlg0057.tlg017": [
+  "Galenus",
+  "De usu partium corporis humani I-XI"
+ ],
+ "cts:tlg0057.tlg055": [
+  "Galenus",
+  "De inaequali intemperie"
+ ],
+ "cts:tlg0057.tlg050": [
+  "Galenus",
+  "De plenitudine"
+ ],
+ "cts:tlg0057.tlg031": [
+  "Galenus",
+  "De usu pulsuum"
+ ],
+ "cts:tlg0057.tlg032": [
+  "Galenus",
+  "De placitis Hippocratis et Platonis"
+ ],
+ "cts:tlg0057.tlg046": [
+  "Galenus",
+  "De morborum temporibus"
+ ],
+ "cts:tlg0057.tlg033": [
+  "Galenus",
+  "Thrasybulus sive utrum medicinae sit an gymnasticae hygieine"
+ ],
+ "cts:tlg0057.tlg061": [
+  "Galenus",
+  "De causis pulsuum"
+ ],
+ "cts:tlg0057.tlg062": [
+  "Galenus",
+  "De praesagitione ex pulsibus"
+ ],
+ "cts:tlg0061.tlg003": [
+  "Pseudo-Lucian",
+  "Demosthenis encomium"
+ ],
+ "cts:tlg0057.tlg057": [
+  "Galenus",
+  "De locis affectis"
+ ],
+ "cts:tlg0057.tlg074": [
+  "Galenus",
+  "Pro puero epileptico consilium"
+ ],
+ "cts:tlg0057.tlg075": [
+  "Galenus",
+  "De simplicium medicamentorum temperamentis ac facultatibus I-VI"
+ ],
+ "cts:tlg0057.tlg067": [
+  "Galenus",
+  "Ad Glauconem de methodo medendi"
+ ],
+ "cts:tlg0057.tlg066": [
+  "Galenus",
+  "De methodo medendi"
+ ],
+ "cts:tlg0057.tlg096": [
+  "Galenus",
+  "De Humero iis Modis Prolapso quos Hippocrates non Vidit"
+ ],
+ "cts:tlg0057.tlg100": [
+  "Galenus",
+  "In Hippocratis De fracturis"
+ ],
+ "cts:tlg0057.tlg101": [
+  "Galenus",
+  "In Hippocratis De officina medici"
+ ],
+ "cts:tlg0057.tlg085": [
+  "Galenus",
+  "In Hippocratis De natura hominis"
+ ],
+ "cts:tlg0057.tlg095": [
+  "Galenus",
+  "In Hippocratis De articulis"
+ ],
+ "cts:tlg0057.tlg086": [
+  "Galenus",
+  "In Hippocratis vel Polybi Opus de Salubri Victus Ratione Privatorum Commentarius"
+ ],
+ "cts:tlg0085.tlg005": [
+  "Aeschylus",
+  "Agamemnon"
+ ],
+ "cts:tlg0057.tlg087": [
+  "Galenus",
+  "In Hippocratis De victu acutorum"
+ ],
+ "cts:tlg0057.tlg076": [
+  "Galenus",
+  "De compositione medicamentorum secundum locos libri X"
+ ],
+ "cts:tlg0057.tlg077": [
+  "Galenus",
+  "De compositione medicamentorum per genera"
+ ],
+ "cts:tlg0081.tlg006": [
+  "Dionysius of Halicarnassus",
+  "De Demosthene"
+ ],
+ "cts:tlg0086.tlg002": [
+  "Aristotle",
+  "De anima"
+ ],
+ "cts:tlg0086.tlg005": [
+  "Aristotle",
+  "De caelo"
+ ],
+ "cts:tlg0086.tlg007": [
+  "Aristotle",
+  "De coloribus"
+ ],
+ "cts:tlg0086.tlg006": [
+  "Aristotle",
+  "Categoriae"
+ ],
+ "cts:tlg0085.tlg006": [
+  "Aeschylus",
+  "Libation Bearers"
+ ],
+ "cts:tlg0086.tlg011": [
+  "Aristotle",
+  "Epistulae"
+ ],
+ "cts:tlg0085.tlg007": [
+  "Aeschylus",
+  "Eumenides"
+ ],
+ "cts:tlg0086.tlg012": [
+  "Aristotle",
+  "De Generatione Animalium"
+ ],
+ "cts:tlg0086.tlg023": [
+  "Aristotle",
+  "Mechanica"
+ ],
+ "cts:tlg0081.tlg014": [
+  "Dionysius of Halicarnassus",
+  "De imitatione (fragmenta)"
+ ],
+ "cts:tlg0086.tlg001": [
+  "Aristotle",
+  "Analytica priora"
+ ],
+ "cts:tlg0086.tlg041": [
+  "Aristotle",
+  "De sensu et sensibilibus"
+ ],
+ "cts:tlg0086.tlg043": [
+  "Aristotle",
+  "De spiritu"
+ ],
+ "cts:tlg0086.tlg042": [
+  "Aristotle",
+  "De somno et vigilia"
+ ],
+ "cts:tlg0086.tlg047": [
+  "Aristotle",
+  "De Xenophane, de Zenone, de Gorgia"
+ ],
+ "cts:tlg0086.tlg030": [
+  "Aristotle",
+  "De partibus animalium"
+ ],
+ "cts:tlg0086.tlg014": [
+  "Aristotle",
+  "Historia animalium"
+ ],
+ "cts:tlg0086.tlg031": [
+  "Aristotle",
+  "Physica"
+ ],
+ "cts:tlg0086.tlg032": [
+  "Aristotle",
+  "Physiognomonica"
+ ],
+ "cts:tlg0363.tlg007": [
+  "Claudius Ptolemaeus",
+  "Tetrabiblos"
+ ],
+ "cts:tlg0093.tlg003": [
+  "Theophrastus",
+  "De sensu et sensibilibus"
+ ],
+ "cts:tlg0093.tlg001": [
+  "Theophrastus",
+  "Historia plantarum"
+ ],
+ "cts:tlg0627.tlg001": [
+  "Hippocrates",
+  "De prisca medicina"
+ ],
+ "cts:tlg0627.tlg005": [
+  "Hippocrates",
+  "De diaeta acutorum"
+ ],
+ "cts:tlg0099.tlg004": [
+  "Strabo",
+  "Geographiae Chrestomathia"
+ ],
+ "cts:tlg0521.tlg008": [
+  "Epicharmus",
+  "Fragmenta"
+ ],
+ "cts:tlg0627.tlg007": [
+  "Hippocrates",
+  "De capitis vulneribus"
+ ],
+ "cts:tlg0627.tlg009": [
+  "Hippocrates",
+  "De fracturis"
+ ],
+ "cts:tlg0627.tlg011": [
+  "Hippocrates",
+  "Vectiarius"
+ ],
+ "cts:tlg0530.tlg043": [
+  "Pseudo-Galen",
+  "De optima secta ad Thrasybulum"
+ ],
+ "cts:tlg0087.tlg022": [
+  "Aelius Herodianus",
+  "Περὶ τῶν εἰς μι"
+ ],
+ "cts:tlg0559.tlg012": [
+  "Hero of Alexandria",
+  "Belopoeica"
+ ],
+ "cts:tlg0623.tlg001": [
+  "Cratetis Epistulae",
+  "Epistulae"
+ ],
+ "cts:tlg0555.tlg002": [
+  "Clement of Alexandria",
+  "Paedagogus"
+ ],
+ "cts:tlg0627.tlg039": [
+  "Hippocrates",
+  "De exsectione foetus"
+ ],
+ "cts:tlg0627.tlg046": [
+  "Hippocrates",
+  "De alimento"
+ ],
+ "cts:tlg0627.tlg023": [
+  "Hippocrates",
+  "De morbis i-iii"
+ ],
+ "cts:tlg0627.tlg021": [
+  "Hippocrates",
+  "De flatibus"
+ ],
+ "cts:tlg0627.tlg022": [
+  "Hippocrates",
+  "De liquidorum usu"
+ ],
+ "cts:tlg0627.tlg031": [
+  "Hippocrates",
+  "De diaeta"
+ ],
+ "cts:tlg0627.tlg025": [
+  "Hippocrates",
+  "De affectionibus"
+ ],
+ "cts:tlg0627.tlg026": [
+  "Hippocrates",
+  "De locis in homine"
+ ],
+ "cts:tlg0627.tlg042": [
+  "Hippocrates",
+  "De glandulis"
+ ],
+ "cts:tlg0640.tlg001": [
+  "Alciphron",
+  "Epistulae"
+ ],
+ "cts:tlg0627.tlg032": [
+  "Hippocrates",
+  "De affectionibus interioribus"
+ ],
+ "cts:tlg0627.tlg035": [
+  "Hippocrates",
+  "De octimestri partu"
+ ],
+ "cts:tlg0627.tlg036": [
+  "Hippocrates",
+  "De muliebribus"
+ ],
+ "cts:tlg0732.tlg010": [
+  "Alexander of Aphrodisias",
+  "De anima"
+ ],
+ "cts:tlg0732.tlg007": [
+  "Alexander of Aphrodisias",
+  "In Librum De Sensu Commentarium"
+ ],
+ "cts:tlg0732.tlg011": [
+  "Alexander of Aphrodisias",
+  "De anima libri mantissa"
+ ],
+ "cts:tlg0628.tlg002": [
+  "Musonius Rufus",
+  "Fragmenta minora"
+ ],
+ "cts:tlg0644.tlg001": [
+  "Aristophanes of Byzantium",
+  "Historiae Animalium Epitome"
+ ],
+ "cts:tlg0732.tlg012": [
+  "Alexander of Aphrodisias",
+  "Quaestiones"
+ ],
+ "cts:tlg1247.tlg001": [
+  "Cebes",
+  "Cebetis tabula"
+ ],
+ "cts:tlg0615.tlg001": [
+  "Aspasius",
+  "In Ethica Nichomachea Commentaria"
+ ],
+ "cts:tlg1367.tlg001": [
+  "Euripides Epistulae",
+  "Epistulae"
+ ],
+ "cts:tlg0732.tlg003": [
+  "Alexander of Aphrodisias",
+  "De febribus [Sp.]"
+ ],
+ "cts:tlg0732.tlg005": [
+  "Alexander of Aphrodisias",
+  "In Aristotelis Analyticorum Priorum Librum I Commentarium"
+ ],
+ "cts:tlg0656.tlg001": [
+  "Dioscurides Pedianus",
+  "De materia medica"
+ ],
+ "cts:tlg1724.tlg001": [
+  "Theon Smyrnaeus",
+  "De utilitate mathematicae"
+ ],
+ "cts:tlg1699.tlg001": [
+  "Teles Megarenesis",
+  "Περὶ τοῦ δοκεῖν καὶ τοῦ εἶναι"
+ ],
+ "cts:tlg2023.tlg002": [
+  "Iamblichus",
+  "Protrepticus"
+ ],
+ "cts:tlg2034.tlg002": [
+  "Porphyrius",
+  "Vita Pythagorae"
+ ],
+ "cts:tlg2034.tlg003": [
+  "Porphyrius",
+  "De abstinentia"
+ ],
+ "cts:tlg2178.tlg001": [
+  "Cassius Longinus",
+  "Ars rhetorica"
+ ],
+ "cts:tlg2001.tlg041": [
+  "Themistius",
+  "(Sophoniae) In Parva Naturalia Commentarium"
+ ],
+ "cts:tlg2001.tlg042": [
+  "Themistius",
+  "Quae Fertur In Aristotelis Analyticorum Priorum Librum I"
+ ],
+ "cts:tlg2200.tlg00411": [
+  "Libanius",
+  "Oratio 11"
+ ],
+ "cts:tlg2021.tlg001": [
+  "Epiphanius",
+  "Ancoratus"
+ ],
+ "cts:tlg2200.tlg00513": [
+  "Libanius",
+  "Declamatio 13"
+ ],
+ "cts:tlg2200.tlg00401": [
+  "Libanius",
+  "Oratio 1"
+ ],
+ "cts:tlg2200.tlg00452": [
+  "Libanius",
+  "Oratio 52"
+ ],
+ "cts:tlg2200.tlg00519": [
+  "Libanius",
+  "Declamatio 19"
+ ],
+ "cts:tlg2035.tlg130": [
+  "Athanasius",
+  "Oratio I contra Arianos"
+ ],
+ "cts:tlg0006.tlg002": [
+  "Euripides",
+  "Alcestis"
+ ],
+ "cts:tlg4019.tlg003": [
+  "Olympiodorus",
+  "In Aristotelis Meteora Commentaria"
+ ],
+ "cts:tlg0006.tlg007": [
+  "Euripides",
+  "Hecuba"
+ ],
+ "cts:tlg0006.tlg001": [
+  "Euripides",
+  "Cyclops"
+ ],
+ "cts:tlg0006.tlg008": [
+  "Euripides",
+  "Supplices"
+ ],
+ "cts:tlg0006.tlg010": [
+  "Euripides",
+  "Ion"
+ ],
+ "cts:tlg0006.tlg013": [
+  "Euripides",
+  "Iphigenia Taurica"
+ ],
+ "cts:tlg4015.tlg004": [
+  "John Philoponus",
+  "In Aristotelis Analytica Posteriora Commentaria"
+ ],
+ "cts:tlg4034.tlg002": [
+  "Michael of Ephesus",
+  "In Parva Naturalia Commentaria"
+ ],
+ "cts:tlg4034.tlg005": [
+  "Michael of Ephesus",
+  "In librum de animalium incessu commentarium"
+ ],
+ "cts:tlg0006.tlg019": [
+  "Euripides",
+  "Rhesus"
+ ],
+ "cts:tlg0007.tlg016": [
+  "Plutarch",
+  "Caius Marcius Coriolanus"
+ ],
+ "cts:tlg0007.tlg003": [
+  "Plutarch",
+  "Comparison of Theseus and Romulus"
+ ],
+ "cts:tlg4016.tlg002": [
+  "Ammonius",
+  "In Aristotelis Categorias Commentarius"
+ ],
+ "cts:tlg0007.tlg017": [
+  "Plutarch",
+  "Comparison of Alcibiades and Coriolanus"
+ ],
+ "cts:tlg0007.tlg011": [
+  "Plutarch",
+  "Camillus"
+ ],
+ "cts:tlg0007.tlg035": [
+  "Plutarch",
+  "Cimon"
+ ],
+ "cts:tlg0007.tlg039": [
+  "Plutarch",
+  "Crassus"
+ ],
+ "cts:tlg0007.tlg045": [
+  "Plutarch",
+  "Pompey"
+ ],
+ "cts:tlg0007.tlg068": [
+  "Plutarch",
+  "Quomodo adolescens poetas audire debeat"
+ ],
+ "cts:tlg0007.tlg087": [
+  "Plutarch",
+  "De Alexandri magni fortuna aut virtute"
+ ],
+ "cts:tlg0007.tlg092": [
+  "Plutarch",
+  "De Defectu Oraculorum"
+ ],
+ "cts:tlg0007.tlg084a": [
+  "Plutarch",
+  "Quaestiones Romanae"
+ ],
+ "cts:tlg0007.tlg118": [
+  "Plutarch",
+  "Praecepta gerendae reipublicae"
+ ],
+ "cts:tlg0007.tlg094": [
+  "Plutarch",
+  "De Virtute Morali"
+ ],
+ "cts:tlg0007.tlg131": [
+  "Plutarch",
+  "De esu carnium I"
+ ],
+ "cts:tlg0007.tlg133": [
+  "Plutarch",
+  "Platonicae quaestiones"
+ ],
+ "cts:tlg0007.tlg136": [
+  "Plutarch",
+  "De Stoicorum repugnantiis"
+ ],
+ "cts:tlg0007.tlg127": [
+  "Plutarch",
+  "De primo frigido"
+ ],
+ "cts:tlg0007.tlg109": [
+  "Plutarch",
+  "De Genio Socratis"
+ ],
+ "cts:tlg0007.tlg139": [
+  "Plutarch",
+  "Non Posse Suaviter Vivi Secundum Epicurum"
+ ],
+ "cts:tlg0010.tlg011": [
+  "Isocrates",
+  "Panegyricus"
+ ],
+ "cts:tlg0011.tlg001": [
+  "Sophocles",
+  "Trachiniae"
+ ],
+ "cts:tlg0010.tlg019": [
+  "Isocrates",
+  "Antidosis"
+ ],
+ "cts:tlg0011.tlg005": [
+  "Sophocles",
+  "Electra"
+ ],
+ "cts:tlg0011.tlg007": [
+  "Sophocles",
+  "Oedipus at Colonus"
+ ],
+ "cts:tlg0017.tlg007": [
+  "Isaeus",
+  "On The Estate of Apollodorus"
+ ],
+ "cts:tlg0019.tlg001": [
+  "Aristophanes",
+  "Acharnians"
+ ],
+ "cts:tlg0019.tlg002": [
+  "Aristophanes",
+  "Knights"
+ ],
+ "cts:tlg0019.tlg008": [
+  "Aristophanes",
+  "Thesmophoriazusae"
+ ],
+ "cts:tlg0026.tlg003": [
+  "Aeschines",
+  "Against Ctesiphon"
+ ],
+ "cts:tlg0016.tlg001": [
+  "Herodotus",
+  "Histories"
+ ],
+ "cts:tlg0014.tlg013": [
+  "Demosthenes",
+  "On Organization"
+ ],
+ "cts:tlg0032.tlg001": [
+  "Xenophon",
+  "Hellenica"
+ ],
+ "cts:tlg0032.tlg003": [
+  "Xenophon",
+  "Oeconomicus"
+ ],
+ "cts:tlg0059.tlg007": [
+  "Plato",
+  "Sophist"
+ ],
+ "cts:tlg0032.tlg006": [
+  "Xenophon",
+  "Anabasis"
+ ],
+ "cts:tlg0059.tlg009": [
+  "Plato",
+  "Parmenides"
+ ],
+ "cts:tlg0059.tlg010": [
+  "Plato",
+  "Philebus"
+ ],
+ "cts:tlg0059.tlg012": [
+  "Plato",
+  "Phaedrus"
+ ],
+ "cts:tlg0059.tlg027": [
+  "Plato",
+  "Ion"
+ ],
+ "cts:tlg0059.tlg034": [
+  "Plato",
+  "Laws"
+ ],
+ "cts:tlg0059.tlg031": [
+  "Plato",
+  "Timaeus"
+ ],
+ "cts:tlg0062.tlg019": [
+  "Lucian of Samosata",
+  "Gallus"
+ ],
+ "cts:tlg0062.tlg015": [
+  "Lucian of Samosata",
+  "Symposium"
+ ],
+ "cts:tlg0062.tlg031": [
+  "Lucian of Samosata",
+  "Philopseudes sive incredulus"
+ ],
+ "cts:tlg0062.tlg021": [
+  "Lucian of Samosata",
+  "Icaromenippus"
+ ],
+ "cts:tlg0062.tlg018": [
+  "Lucian of Samosata",
+  "Juppiter Tragoedus"
+ ],
+ "cts:tlg0062.tlg026": [
+  "Lucian of Samosata",
+  "Bis accusatus sive tribunalia"
+ ],
+ "cts:tlg0062.tlg022": [
+  "Lucian of Samosata",
+  "Timon"
+ ],
+ "cts:tlg0062.tlg037": [
+  "Lucian of Samosata",
+  "Rhetorum praeceptor"
+ ],
+ "cts:tlg0062.tlg016": [
+  "Lucian of Samosata",
+  "Cataplus"
+ ],
+ "cts:tlg0062.tlg038": [
+  "Lucian of Samosata",
+  "Alexander"
+ ],
+ "cts:tlg0062.tlg039": [
+  "Lucian of Samosata",
+  "Imagines"
+ ],
+ "cts:tlg0062.tlg033": [
+  "Lucian of Samosata",
+  "De mercede"
+ ],
+ "cts:tlg0062.tlg034": [
+  "Lucian of Samosata",
+  "Anacharsis"
+ ],
+ "cts:tlg0062.tlg055": [
+  "Lucian of Samosata",
+  "Saturnalia"
+ ],
+ "cts:tlg0062.tlg053": [
+  "Lucian of Samosata",
+  "Quomodo historia conscribenda sit"
+ ],
+ "cts:tlg0062.tlg063": [
+  "Lucian of Samosata",
+  "Hermotimus"
+ ],
+ "cts:tlg0062.tlg059": [
+  "Lucian of Samosata",
+  "Apologia"
+ ],
+ "cts:tlg0062.tlg057": [
+  "Lucian of Samosata",
+  "Zeuxis"
+ ],
+ "cts:tlg0062.tlg064": [
+  "Lucian of Samosata",
+  "Prometheus es in verbis"
+ ],
+ "cts:tlg0059.tlg036": [
+  "Plato",
+  "Letters"
+ ],
+ "cts:tlg0062.tlg066": [
+  "Lucian of Samosata",
+  "Dialogi mortuorum"
+ ],
+ "cts:tlg0062.tlg065": [
+  "Lucian of Samosata",
+  "Navigium"
+ ],
+ "cts:tlg0086.tlg003": [
+  "Aristotle",
+  "Constitution of the Athenians"
+ ],
+ "cts:tlg0284.tlg010": [
+  "Aristides, Aelius",
+  "Orationes 10"
+ ],
+ "cts:tlg0284.tlg013": [
+  "Aristides, Aelius",
+  "Orationes 13"
+ ],
+ "cts:tlg0086.tlg034": [
+  "Aristotle",
+  "Poetics"
+ ],
+ "cts:tlg0284.tlg047": [
+  "Aristides, Aelius",
+  "Orationes 47"
+ ],
+ "cts:tlg0284.tlg046": [
+  "Aristides, Aelius",
+  "Orationes 46"
+ ],
+ "cts:tlg0284.tlg035": [
+  "Aristides, Aelius",
+  "Orationes 35"
+ ],
+ "cts:tlg0003.tlg001": [
+  "Thucydides",
+  "History of the Peloponnesian War"
+ ],
+ "cts:tlg0341.tlg002": [
+  "Lycophron",
+  "Alexandra"
+ ],
+ "cts:tlg0008.tlg001": [
+  "Athenaeus of Naucratis",
+  "Deipnosophistae"
+ ],
+ "cts:tlg0385.tlg001": [
+  "Cassius Dio Cocceianus",
+  "Historia Romana"
+ ],
+ "cts:tlg0540.tlg014": [
+  "Lysias",
+  "Against Alcibiades 1"
+ ],
+ "cts:tlg0551.tlg014": [
+  "Appianus of Alexandria",
+  "Mithridatic Wars"
+ ],
+ "cts:tlg0719.tlg003": [
+  "Aretaeus of Cappadocia",
+  "De curatione acutorum morborum libri duo"
+ ],
+ "cts:tlg2003.tlg007": [
+  "Julian, Emperor of Rome",
+  "To the Cynic Heracleios"
+ ],
+ "cts:tlg0555.tlg004": [
+  "Clement of Alexandria",
+  "Stromata"
+ ],
+ "cts:tlg0557.tlg003": [
+  "Epictetus",
+  "Fragments"
+ ],
+ "cts:tlg0557.tlg001": [
+  "Epictetus",
+  "Discourses"
+ ],
+ "cts:tlg0085.tlg004": [
+  "Aeschylus",
+  "Seven Against Thebes"
+ ],
+ "cts:tlg0057.tlg059": [
+  "Galenus",
+  "De differentiis pulsuum"
+ ],
+ "cts:tlg0007.tlg010": [
+  "Plutarch",
+  "Themistocles"
+ ],
+ "cts:tlg0081.tlg016": [
+  "Dionysius of Halicarnassus",
+  "Ars Rhetorica"
+ ],
+ "cts:tlg0006.tlg015": [
+  "Euripides",
+  "Phoenissae"
+ ],
+ "cts:tlg0638.tlg001": [
+  "Philostratus the Athenian",
+  "Life of Apollonius of Tyana"
+ ],
+ "cts:tlg0007.tlg076": [
+  "Plutarch",
+  "Consolatio ad Apollonium"
+ ],
+ "cts:tlg0007.tlg123": [
+  "Plutarch",
+  "De Heroditi malignate"
+ ],
+ "cts:tlg4102.tlg005": [
+  "Catenae (Novum Testamentum)",
+  "Catena In Joannem (Catena Integra) (e codd. Paris. Coislin. 23 + Oxon. Bodl. Auct. T.1.4)"
+ ],
+ "cts:tlg0010.tlg029": [
+  "Isocrates",
+  "To Antipater"
+ ],
+ "cts:tlg1701.tlg001": [
+  "Testamentum Abrahae",
+  "Testamentum Abrahae (recensio A)"
+ ],
+ "cts:tlg0014.tlg019": [
+  "Demosthenes",
+  "De Falsa Legatione"
+ ],
+ "cts:tlg2022.tlg011": [
+  "Gregory of Nazianzus",
+  "De Spiritu Sancto (Orat. 31)"
+ ],
+ "cts:tlg0014.tlg006": [
+  "Demosthenes",
+  "Second Philippic"
+ ],
+ "cts:tlg2200.tlg00526": [
+  "Libanius",
+  "Declamatio 26"
+ ],
+ "cts:tlg2200.tlg00516": [
+  "Libanius",
+  "Declamatio 16"
+ ],
+ "cts:tlg0014.tlg024": [
+  "Demosthenes",
+  "Against Timocrates"
+ ],
+ "cts:tlg0014.tlg021": [
+  "Demosthenes",
+  "Against Meidias"
+ ],
+ "cts:tlg0014.tlg057": [
+  "Demosthenes",
+  "Against Eubulides"
+ ],
+ "cts:tlg0014.tlg062": [
+  "Demosthenes",
+  "Exordia"
+ ],
+ "cts:tlg0029.tlg005": [
+  "Dinarchus",
+  "Against Aristogiton"
+ ],
+ "cts:tlg0032.tlg012": [
+  "Xenophon",
+  "On the Cavalry Commander"
+ ],
+ "cts:tlg2048.tlg001": [
+  "Sozomenus",
+  "Historia Ecclesiastica"
+ ],
+ "cts:tlg0059.tlg001": [
+  "Plato",
+  "Euthyphro"
+ ],
+ "cts:tlg0032.tlg010": [
+  "Xenophon",
+  "Constitution of the Lacedaimonians"
+ ],
+ "cts:tlg0059.tlg002": [
+  "Plato",
+  "Apology"
+ ],
+ "cts:tlg0059.tlg005": [
+  "Plato",
+  "Cratylus"
+ ],
+ "cts:tlg0059.tlg011": [
+  "Plato",
+  "Symposium"
+ ],
+ "cts:tlg0059.tlg006": [
+  "Plato",
+  "Theaetetus"
+ ],
+ "cts:tlg0059.tlg018": [
+  "Plato",
+  "Charmides"
+ ],
+ "cts:tlg0059.tlg013": [
+  "Plato",
+  "Alcibiades 1"
+ ],
+ "cts:tlg0059.tlg021": [
+  "Plato",
+  "Euthydemus"
+ ],
+ "cts:tlg0059.tlg020": [
+  "Plato",
+  "Lysis"
+ ],
+ "cts:tlg0081.tlg005": [
+  "Dionysius of Halicarnassus",
+  "De Isaeo"
+ ],
+ "cts:tlg0059.tlg024": [
+  "Plato",
+  "Meno"
+ ],
+ "cts:tlg0284.tlg037": [
+  "Aristides, Aelius",
+  "Orationes 37"
+ ],
+ "cts:tlg0551.tlg017": [
+  "Appianus of Alexandria",
+  "Civil Wars"
+ ],
+ "cts:tlg2003.tlg009": [
+  "Julian, Emperor of Rome",
+  "To the Uneducated Cynics"
+ ],
+ "cts:tlg0551.tlg007": [
+  "Appianus of Alexandria",
+  "Wars in Spain"
+ ],
+ "cts:tlg0562.tlg001": [
+  "Marcus Aurelius",
+  "Ad Se Ipsum"
+ ],
+ "cts:tlg0057.tlg051": [
+  "Galenus",
+  "De tremore, palpitatione, convulsione et rigore"
+ ],
+ "cts:tlg0007.tlg028": [
+  "Plutarch",
+  "Titus Flamininus"
+ ],
+ "cts:tlg5023.tlg016": [
+  "Scholia in Euripidem",
+  "Scholia in Euripidis Phoenissas (scholia vetera et scholia recentiora Thomae Magistri, Triclinii, Moschopuli et anonyma)"
+ ],
+ "cts:tlg0007.tlg095": [
+  "Plutarch",
+  "De cohibenda ira"
+ ],
+ "cts:tlg0086.tlg015": [
+  "Aristotle",
+  "De animalium incessu"
+ ],
+ "cts:tlg1617.tlg001": [
+  "Marcus Antonius Polemon",
+  "Declamationes"
+ ],
+ "cts:tlg1147.tlg003": [
+  "Antiphon of Athens",
+  "Fragmenta"
+ ],
+ "cts:tlg0007.tlg107": [
+  "Plutarch",
+  "De Sera Numinis Vindicta"
+ ],
+ "cts:tlg2001.tlg038": [
+  "Themistius",
+  "Analyticorum Posteriorum Paraphrasis"
+ ],
+ "cts:tlg2001.tlg039": [
+  "Themistius",
+  "In Aristotelis Physica Paraphrasis"
+ ],
+ "cts:tlg4034.tlg003": [
+  "Michael of Ephesus",
+  "In Libros De Partibus Animalium Commentaria"
+ ],
+ "cts:tlg0032.tlg014": [
+  "Xenophon",
+  "On Hunting"
+ ],
+ "cts:tlg0059.tlg008": [
+  "Plato",
+  "Statesman"
+ ],
+ "cts:tlg0059.tlg022": [
+  "Plato",
+  "Protagoras"
+ ],
+ "cts:tlg0081.tlg004": [
+  "Dionysius of Halicarnassus",
+  "De Isocrate"
+ ],
+ "cts:tlg0284.tlg025": [
+  "Aristides, Aelius",
+  "Orationes 25"
+ ],
+ "cts:tlg0284.tlg024": [
+  "Aristides, Aelius",
+  "Orationes 24"
+ ],
+ "cts:tlg0284.tlg023": [
+  "Aristides, Aelius",
+  "Orationes 23"
+ ],
+ "cts:tlg0592.tlg004": [
+  "Hermogenes",
+  "Περὶ ἰδεῶν λόγου"
+ ],
+ "cts:tlg0018.tlg005": [
+  "Philo Judaeus",
+  "Quod Deterius Potiori Insidiari Soleat"
+ ],
+ "cts:tlg0018.tlg007": [
+  "Philo Judaeus",
+  "De Gigantibus"
+ ],
+ "cts:tlg0018.tlg015": [
+  "Philo Judaeus",
+  "Quis Rerum Divinarum Heres Sit"
+ ],
+ "cts:tlg0018.tlg013": [
+  "Philo Judaeus",
+  "De Confusione Linguarum"
+ ],
+ "cts:tlg0018.tlg016": [
+  "Philo Judaeus",
+  "De Congressu Eruditionis Gratia"
+ ],
+ "cts:tlg0018.tlg008": [
+  "Philo Judaeus",
+  "Quod Deus Sit Immutabilis"
+ ],
+ "cts:tlg0018.tlg018": [
+  "Philo Judaeus",
+  "De Mutatione Nominum"
+ ],
+ "cts:tlg0018.tlg019": [
+  "Philo Judaeus",
+  "De Somniis (lib. i-ii)"
+ ],
+ "cts:tlg0018.tlg022": [
+  "Philo Judaeus",
+  "De Vita Mosis (Lib. I-II)"
+ ],
+ "cts:tlg0018.tlg023": [
+  "Philo Judaeus",
+  "De Decalogo"
+ ],
+ "cts:tlg0018.tlg029": [
+  "Philo Judaeus",
+  "De Aeternitate Mundi"
+ ],
+ "cts:tlg0018.tlg030": [
+  "Philo Judaeus",
+  "In Flaccum"
+ ],
+ "cts:tlg0018.tlg003": [
+  "Philo Judaeus",
+  "De Cherubim"
+ ],
+ "cts:tlg0018.tlg031": [
+  "Philo Judaeus",
+  "Legatio Ad Gaium"
+ ],
+ "cts:tlg0057.tlg004": [
+  "Galenus",
+  "De sectis ad eos qui introducuntur"
+ ],
+ "cts:tlg0018.tlg025": [
+  "Philo Judaeus",
+  "De Virtutibus"
+ ],
+ "cts:tlg0018.tlg027": [
+  "Philo Judaeus",
+  "Quod Omnis Probus Liber Sit"
+ ],
+ "cts:tlg0037.tlg001": [
+  "Anacharsis",
+  "Epistulae"
+ ],
+ "cts:tlg0057.tlg028": [
+  "Galenus",
+  "De propriorum animi cuiuslibet affectuum dignotione et curatione"
+ ],
+ "cts:tlg0057.tlg029": [
+  "Galenus",
+  "De animi cuiuslibet peccatorum dignotione et curatione"
+ ],
+ "cts:tlg0057.tlg030": [
+  "Galenus",
+  "De atra bile"
+ ],
+ "cts:tlg0057.tlg037": [
+  "Galenus",
+  "De alimentorum facultatibus"
+ ],
+ "cts:tlg0055.tlg001": [
+  "Themistocles",
+  "Epistulae"
+ ],
+ "cts:tlg0057.tlg043": [
+  "Galenus",
+  "De symptomatum differentiis"
+ ],
+ "cts:tlg0057.tlg042": [
+  "Galenus",
+  "De causis morborum"
+ ],
+ "cts:tlg0041.tlg001": [
+  "Chionis Epistulae",
+  "Epistulae"
+ ],
+ "cts:tlg0057.tlg045": [
+  "Galenus",
+  "De differentiis febrium"
+ ],
+ "cts:tlg0057.tlg053": [
+  "Galenus",
+  "De marcore"
+ ],
+ "cts:tlg0057.tlg054": [
+  "Galenus",
+  "De tumoribus praeter naturam"
+ ],
+ "cts:tlg0057.tlg069": [
+  "Galenus",
+  "De venae sectione adversus Erasistrateos Romae degentes"
+ ],
+ "cts:tlg0057.tlg070": [
+  "Galenus",
+  "De curandi ratione per venae sectionem"
+ ],
+ "cts:tlg0057.tlg083": [
+  "Galenus",
+  "De praenotione ad Epigenem"
+ ],
+ "cts:tlg0057.tlg071": [
+  "Galenus",
+  "De hirudinibus, revulsione, cucurbitula, incisione et scarificatione"
+ ],
+ "cts:tlg0057.tlg063": [
+  "Galenus",
+  "Synopsis librorum suorum de pulsibus"
+ ],
+ "cts:tlg0057.tlg060": [
+  "Galenus",
+  "De dignoscendis pulsibus"
+ ],
+ "cts:tlg0057.tlg107": [
+  "Galenus",
+  "De experientia medica"
+ ],
+ "cts:tlg0061.tlg005": [
+  "Pseudo-Lucian",
+  "Ocypus"
+ ],
+ "cts:tlg0057.tlg079": [
+  "Galenus",
+  "De theriaca ad Pisonem"
+ ],
+ "cts:tlg0057.tlg078": [
+  "Galenus",
+  "De antidotis"
+ ],
+ "cts:tlg0086.tlg017": [
+  "Aristotle",
+  "De interpretatione"
+ ],
+ "cts:tlg0086.tlg004": [
+  "Aristotle",
+  "De audibilibus"
+ ],
+ "cts:tlg0086.tlg020": [
+  "Aristotle",
+  "De longitudine et brevitate vitae"
+ ],
+ "cts:tlg0086.tlg013": [
+  "Aristotle",
+  "De generatione et corruptione"
+ ],
+ "cts:tlg0086.tlg019": [
+  "Aristotle",
+  "De lineis insecabilibus"
+ ],
+ "cts:tlg0086.tlg021": [
+  "Aristotle",
+  "De animalium motione"
+ ],
+ "cts:tlg0074.tlg008": [
+  "Arrian",
+  "Epistula ad Lucium Gellium"
+ ],
+ "cts:tlg0086.tlg024": [
+  "Aristotle",
+  "De memoria et reminiscentia"
+ ],
+ "cts:tlg0086.tlg040": [
+  "Aristotle",
+  "De sophisticis elenchis"
+ ],
+ "cts:tlg0086.tlg027": [
+  "Aristotle",
+  "Mirabilium auscultationes"
+ ],
+ "cts:tlg0086.tlg044": [
+  "Aristotle",
+  "Topica"
+ ],
+ "cts:tlg0087.tlg004": [
+  "Aelius Herodianus",
+  "Περὶ διχρόνων"
+ ],
+ "cts:tlg0086.tlg037": [
+  "Aristotle",
+  "De respiratione"
+ ],
+ "cts:tlg0085.tlg001": [
+  "Aeschylus",
+  "Supplices"
+ ],
+ "cts:tlg0086.tlg048": [
+  "Aristotle",
+  "Divisiones Aristoteleae"
+ ],
+ "cts:tlg0086.tlg052": [
+  "Aristotle",
+  "De anima (codicis E fragmenta recensionis a vulgata diversae)"
+ ],
+ "cts:tlg0087.tlg001": [
+  "Aelius Herodianus",
+  "De prosodia catholica"
+ ],
+ "cts:tlg0087.tlg026": [
+  "Aelius Herodianus",
+  "Περὶ παρωνύμων"
+ ],
+ "cts:tlg0087.tlg011": [
+  "Aelius Herodianus",
+  "Περὶ ὀρθογραφίας"
+ ],
+ "cts:tlg0093.tlg010x05": [
+  "Theophrastus",
+  "De Vertigine"
+ ],
+ "cts:tlg0093.tlg010x03": [
+  "Theophrastus",
+  "De Signis Tempestatum"
+ ],
+ "cts:tlg0087.tlg013": [
+  "Aelius Herodianus",
+  "Περὶ κλίσεως ὀνομάτων"
+ ],
+ "cts:tlg0093.tlg005": [
+  "Theophrastus",
+  "De igne"
+ ],
+ "cts:tlg0093.tlg006": [
+  "Theophrastus",
+  "Metaphysica"
+ ],
+ "cts:tlg0093.ogl002": [
+  "Theophrastus",
+  "De signis tempestatum"
+ ],
+ "cts:tlg0082.tlg002": [
+  "Apollonius Dyscolus",
+  "De adverbiis"
+ ],
+ "cts:tlg0082.tlg004": [
+  "Apollonius Dyscolus",
+  "De constructione"
+ ],
+ "cts:tlg0527.tlg010": [
+  "Old Testament",
+  "Ruth"
+ ],
+ "cts:tlg0082.tlg003": [
+  "Apollonius Dyscolus",
+  "De Conjuctionibus"
+ ],
+ "cts:tlg0082.tlg001": [
+  "Apollonius Dyscolus",
+  "De pronominibus"
+ ],
+ "cts:tlg0527.tlg021": [
+  "Old Testament",
+  "Tobias (Cod. Vaticanus + Cod. Alexandrinus)"
+ ],
+ "cts:tlg0527.tlg006": [
+  "Old Testament",
+  "Joshua"
+ ],
+ "cts:tlg0527.tlg032": [
+  "Old Testament",
+  "Job"
+ ],
+ "cts:tlg0527.tlg001": [
+  "Old Testament",
+  "Genesis"
+ ],
+ "cts:tlg0527.tlg012": [
+  "Old Testament",
+  "II Samuel"
+ ],
+ "cts:tlg0527.tlg023": [
+  "Old Testament",
+  "Machabaeorum i"
+ ],
+ "cts:tlg0527.tlg004": [
+  "Old Testament",
+  "Numbers"
+ ],
+ "cts:tlg0527.tlg056": [
+  "Old Testament",
+  "Daniel"
+ ],
+ "cts:tlg0527.tlg024": [
+  "Old Testament",
+  "Machabaeorum ii"
+ ],
+ "cts:tlg0527.tlg034": [
+  "Old Testament",
+  "Ecclesiasticus sive Siracides (Sapientia Jesu filii Sirach)"
+ ],
+ "cts:tlg0527.tlg058": [
+  "Old Testament",
+  "Bel et Draco (translatio Graeca)"
+ ],
+ "cts:tlg0527.tlg055": [
+  "Old Testament",
+  "Susanna (Theodotionis versio)"
+ ],
+ "cts:tlg0537.tlg010": [
+  "Epicurus",
+  "Epistula ad Herodotum"
+ ],
+ "cts:tlg0537.tlg013": [
+  "Epicurus",
+  "Ratae Sententiae"
+ ],
+ "cts:tlg0363.tlg001": [
+  "Claudius Ptolemaeus",
+  "Syntaxis mathematica"
+ ],
+ "cts:tlg0537.tlg014": [
+  "Epicurus",
+  "Gnomologium Vaticanum Epicureum"
+ ],
+ "cts:tlg0527.tlg059": [
+  "Old Testament",
+  "Bel et Draco (Theodotionis versio)"
+ ],
+ "cts:tlg0529.tlg002": [
+  "Arius Didymus",
+  "Liber de philosophorum sectis (epitome ap. Stobaeum)"
+ ],
+ "cts:tlg0555.tlg006": [
+  "Clement of Alexandria",
+  "Quis Dis Salvetur"
+ ],
+ "cts:tlg0527.tlg049": [
+  "Old Testament",
+  "Jeremiah"
+ ],
+ "cts:tlg0530.tlg012": [
+  "Pseudo-Galen",
+  "Introductio seu medicus"
+ ],
+ "cts:tlg0552.tlg007": [
+  "Archimedes",
+  "Quadratura parabolae"
+ ],
+ "cts:tlg0555.tlg005": [
+  "Clement of Alexandria",
+  "Eclogae propheticae"
+ ],
+ "cts:tlg0552.tlg003": [
+  "Archimedes",
+  "De conoidibus et sphaeroidibus"
+ ],
+ "cts:tlg0552.tlg001": [
+  "Archimedes",
+  "De sphaera et cylindro"
+ ],
+ "cts:tlg0559.tlg002": [
+  "Hero of Alexandria",
+  "De automatis"
+ ],
+ "cts:tlg0559.tlg011": [
+  "Hero of Alexandria",
+  "De mensuris"
+ ],
+ "cts:tlg0592.tlg001": [
+  "Hermogenes",
+  "Progymnasmata [Dub.]"
+ ],
+ "cts:tlg0592.tlg002": [
+  "Hermogenes",
+  "Περὶ στάσεων"
+ ],
+ "cts:tlg0627.tlg002": [
+  "Hippocrates",
+  "De aere, aquis, locis"
+ ],
+ "cts:tlg0627.tlg004": [
+  "Hippocrates",
+  "De diaeta in morbis acutis"
+ ],
+ "cts:tlg0559.tlg006": [
+  "Hero of Alexandria",
+  "Metrica"
+ ],
+ "cts:tlg0614.tlg001": [
+  "Valerius Babrius",
+  "Fabulae Aesopeae"
+ ],
+ "cts:tlg0626.tlg002": [
+  "Heraclitus of Ephesus",
+  "Fragmenta"
+ ],
+ "cts:tlg0627.tlg010": [
+  "Hippocrates",
+  "De articulis"
+ ],
+ "cts:tlg0627.tlg016": [
+  "Hippocrates",
+  "Prorrheticon I"
+ ],
+ "cts:tlg0627.tlg017": [
+  "Hippocrates",
+  "Coa praesagia"
+ ],
+ "cts:tlg0563.tlg001": [
+  "Maximus of Tyre",
+  "Dialexeis"
+ ],
+ "cts:tlg0627.tlg030": [
+  "Hippocrates",
+  "De fistulis"
+ ],
+ "cts:tlg0627.tlg037": [
+  "Hippocrates",
+  "De virginum morbis"
+ ],
+ "cts:tlg0564.tlg001": [
+  "Rufus of Ephesus",
+  "De renum et vesicae affectionibus"
+ ],
+ "cts:tlg0627.tlg038": [
+  "Hippocrates",
+  "De superfoetatione"
+ ],
+ "cts:tlg0627.tlg052": [
+  "Hippocrates",
+  "De crisibus"
+ ],
+ "cts:tlg0627.tlg050": [
+  "Hippocrates",
+  "De habitu decenti"
+ ],
+ "cts:tlg0592.tlg003": [
+  "Hermogenes",
+  "Περὶ εὑρέσεως [Sp.]"
+ ],
+ "cts:tlg0592.tlg005": [
+  "Hermogenes",
+  "Περὶ μεθόδου δεινότητος [Sp.]"
+ ],
+ "cts:tlg0633.tlg001": [
+  "Lysis",
+  "Epistula ad Hipparchum"
+ ],
+ "cts:tlg0627.tlg055": [
+  "Hippocrates",
+  "Epistulae, Decretum, Orationes"
+ ],
+ "cts:tlg0627.tlg033": [
+  "Hippocrates",
+  "De natura muliebri"
+ ],
+ "cts:tlg0671.tlg001": [
+  "Philumenus",
+  "De venenatis animalibus eorumque remediis"
+ ],
+ "cts:tlg0637.tlg001": [
+  "Socraticorum Epistulae",
+  "Epistulae"
+ ],
+ "cts:tlg0628.tlg001": [
+  "Musonius Rufus",
+  "Dissertationum a Lucio digestarum reliquiae"
+ ],
+ "cts:tlg0732.tlg001": [
+  "Alexander of Aphrodisias",
+  "De mixtione"
+ ],
+ "cts:tlg0732.tlgX01": [
+  "Alexander of Aphrodisias",
+  "In Aristotelis Sophisticos Elenchos Commentarius [Sp.]"
+ ],
+ "cts:tlg0732.tlg013": [
+  "Alexander of Aphrodisias",
+  "Ἠθικὰ προβλήματα [Sp.]"
+ ],
+ "cts:tlg0732.tlg014": [
+  "Alexander of Aphrodisias",
+  "De fato"
+ ],
+ "cts:tlg0645.tlg001": [
+  "Justin Martyr",
+  "Apologia I"
+ ],
+ "cts:tlg0645.tlg003": [
+  "Justin Martyr",
+  "Dialogue with Trypho"
+ ],
+ "cts:tlg0645.tlg002": [
+  "Justin Martyr",
+  "Apologia secunda"
+ ],
+ "cts:tlg1269.tlg002": [
+  "Cleanthes",
+  "Testimonia et Fragmenta"
+ ],
+ "cts:tlg1210.tlg002": [
+  "Autolycus",
+  "De Ortibus et Occasibus"
+ ],
+ "cts:tlg1286.tlg011": [
+  "Hermetica",
+  "Νοῦ πρὸς Ἑρμῆν"
+ ],
+ "cts:tlg1271.tlg011": [
+  "Clemens Romanus (Clement of Rome)",
+  "Pseudo‑Clementina (epitome altera auctore Symeone Metaphrasta) [Sp.]"
+ ],
+ "cts:tlg1271.tlg012": [
+  "Clemens Romanus (Clement of Rome)",
+  "Pseudo‑Clementina (epitome de gestis Petri praemetaphrastica) [Sp.]"
+ ],
+ "cts:tlg1271.tlg006": [
+  "Clemens Romanus (Clement of Rome)",
+  "Homiliae [Sp.]"
+ ],
+ "cts:tlg1271.tlg004": [
+  "Clemens Romanus (Clement of Rome)",
+  "Contestatio [Sp.]"
+ ],
+ "cts:tlg1325.tlg001": [
+  "Diogenes Sinopensis Epistulae",
+  "Epistulae"
+ ],
+ "cts:tlg1383.tlg001": [
+  "Geminus",
+  "Elementa astronomia"
+ ],
+ "cts:tlg1205.tlg001": [
+  "Athenagoras",
+  "Legatio sive Supplicatio pro Christianis"
+ ],
+ "cts:tlg0616.tlg002": [
+  "Polyaenus Macedo",
+  "Excerpta Polyaeni"
+ ],
+ "cts:tlg0616.tlg001": [
+  "Polyaenus Macedo",
+  "Strategemata"
+ ],
+ "cts:tlg1402.tlg001": [
+  "Hephaestion",
+  "Enchridion de Metris"
+ ],
+ "cts:tlg1304.tlg002": [
+  "Democritus",
+  "Fragmenta"
+ ],
+ "cts:tlg1287.tlg001": [
+  "Crantor",
+  "Fragmenta"
+ ],
+ "cts:tlg1542.tlg001": [
+  "Numenius of Apamea",
+  "Fragmenta"
+ ],
+ "cts:tlg1419.tlg001": [
+  "Hermas, 2nd cent.",
+  "The Shepherd of Hermas"
+ ],
+ "cts:tlg1595.tlg221": [
+  "Philodemus",
+  "De Musica Librorum Quae Exstant"
+ ],
+ "cts:tlg1595.tlg370": [
+  "Philodemus",
+  "Volumina Rhetorica"
+ ],
+ "cts:tlg1699.tlg003": [
+  "Teles Megarenesis",
+  "Περὶ φυγῆς"
+ ],
+ "cts:tlg1699.tlg004": [
+  "Teles Megarenesis",
+  "Περὶ συγκρίσεως πενίας καὶ πλούτου"
+ ],
+ "cts:tlg1699.tlg002": [
+  "Teles Megarenesis",
+  "Περὶ αὐταρκείας"
+ ],
+ "cts:tlg1669.tlg004": [
+  "Serapion Astrologus",
+  "Fragmenta"
+ ],
+ "cts:tlg1548.tlg001": [
+  "Oenomaus of Gadara",
+  "Fragmenta"
+ ],
+ "cts:tlg1553.tlg001": [
+  "Palaiphatos",
+  "De Incredibilibus"
+ ],
+ "cts:tlg1725.tlg001": [
+  "Theophilus",
+  "Ad Autolycum"
+ ],
+ "cts:tlg1765.tlg003": [
+  "Vitae Aesopi",
+  "Vita Aesopi Pl vel Accursiana (sub auctore Maximo Planude) (recensio 1)"
+ ],
+ "cts:tlg1805.tlg001": [
+  "Vitae Homeri",
+  "Vitae Herodotea"
+ ],
+ "cts:tlg2001.tlg040": [
+  "Themistius",
+  "In Aristotelis Libros De Anima Paraphrasis"
+ ],
+ "cts:tlg2022.tlg008": [
+  "Gregory of Nazianzus",
+  "De Theologia (Orat. 28)"
+ ],
+ "cts:tlg1482.tlg001": [
+  "Cyranides",
+  "Cyranides"
+ ],
+ "cts:tlg2018.tlg020": [
+  "Eusebius of Caesarea",
+  "Vita Constantini"
+ ],
+ "cts:tlg1805.tlg010": [
+  "Vitae Homeri",
+  "Sudae vita"
+ ],
+ "cts:tlg2022.tlg010": [
+  "Gregory of Nazianzus",
+  "De Filio (Orat. 30)"
+ ],
+ "cts:tlg1763.tlg001": [
+  "Tryphon II Grammaticus",
+  "De tropis (olim sub auctore Gregorio Corintho)"
+ ],
+ "cts:tlg2023.tlg004": [
+  "Iamblichus",
+  "In Nicomachi Arithmeticam Introductionem"
+ ],
+ "cts:tlg2023.tlg003": [
+  "Iamblichus",
+  "De communi mathematica scientia"
+ ],
+ "cts:tlg2027.tlg001": [
+  "Valerius Apsines",
+  "Ars rhetorica"
+ ],
+ "cts:tlg2035.tlg002": [
+  "Athanasius",
+  "De Incarnatione Verbi"
+ ],
+ "cts:tlg2032.tlg001": [
+  "Pappus Alexandrinus",
+  "Synagoge"
+ ],
+ "cts:tlg2034.tlg007": [
+  "Porphyrius",
+  "In Aristotelis Categorias Expositio Per Interrogationem Et Responsionem"
+ ],
+ "cts:tlg2042.tlg010": [
+  "Origenes",
+  "Fragmenta In Jeremiam (In Catenis)"
+ ],
+ "cts:tlg2042.tlg011": [
+  "Origenes",
+  "Fragmenta In Lamentationes (In Catenis de Prophetis)"
+ ],
+ "cts:tlg2018.tlg007": [
+  "Eusebius of Caesarea",
+  "Contra Marcellum"
+ ],
+ "cts:tlg2018.tlg009": [
+  "Eusebius of Caesarea",
+  "De Ecclesiastica Theologia"
+ ],
+ "cts:tlg2035.tlg117": [
+  "Athanasius",
+  "Oratio quarta contra Arianos [Sp.]"
+ ],
+ "cts:tlg2035.tlg131": [
+  "Athanasius",
+  "Oratio II contra Arianos"
+ ],
+ "cts:tlg2036.tlg001": [
+  "Dexippus",
+  "In Aristotelis Categorias Commentarium"
+ ],
+ "cts:tlg2035.tlg132": [
+  "Athanasius",
+  "Oratio III contra Arianos"
+ ],
+ "cts:tlg2042.tlg016": [
+  "Origenes",
+  "Homiliae In Lucam"
+ ],
+ "cts:tlg2042.tlg017": [
+  "Origenes",
+  "Fragmenta In Lucam (In Catenis)"
+ ],
+ "cts:tlg2042.tlg006": [
+  "Origenes",
+  "Fragmenta In Evangelium Joannis (In Catenis)"
+ ],
+ "cts:tlg2042.tlg009": [
+  "Origenes",
+  "In Jeremiam (Homiliae 1-11)"
+ ],
+ "cts:tlg2042.tlg007": [
+  "Origenes",
+  "Exhortatio ad martyrium"
+ ],
+ "cts:tlg2022.tlg007": [
+  "Gregory of Nazianzus",
+  "Adversus Eunomianos (Orat. 27)"
+ ],
+ "cts:tlg2021.tlg002": [
+  "Epiphanius",
+  "Panarion (Adversus Haereses)"
+ ],
+ "cts:tlg2042.tlg068": [
+  "Origenes",
+  "Adnotationes in Leviticum (fragmenta e catenis)"
+ ],
+ "cts:tlg2042.tlg073": [
+  "Origenes",
+  "Homiliae in Job (fragmenta in catenis, typus II)"
+ ],
+ "cts:tlg2042.tlg086": [
+  "Origenes",
+  "Homiliae in Job (fragmenta in catenis, typus I+II) (e codd. Vat.)"
+ ],
+ "cts:tlg2200.tlg00403": [
+  "Libanius",
+  "Oratio 3"
+ ],
+ "cts:tlg2200.tlg00405": [
+  "Libanius",
+  "Oratio 5"
+ ],
+ "cts:tlg2200.tlg00430": [
+  "Libanius",
+  "Oratio 30"
+ ],
+ "cts:tlg2200.tlg00431": [
+  "Libanius",
+  "Oratio 31"
+ ],
+ "cts:tlg2200.tlg00433": [
+  "Libanius",
+  "Oratio 33"
+ ],
+ "cts:tlg2200.tlg00438": [
+  "Libanius",
+  "Oratio 38"
+ ],
+ "cts:tlg2200.tlg00441": [
+  "Libanius",
+  "Oratio 41"
+ ],
+ "cts:tlg2200.tlg00439": [
+  "Libanius",
+  "Oratio 39"
+ ],
+ "cts:tlg2200.tlg00440": [
+  "Libanius",
+  "Oratio 40"
+ ],
+ "cts:tlg2200.tlg00451": [
+  "Libanius",
+  "Oratio 51"
+ ],
+ "cts:tlg2200.tlg001": [
+  "Libanius",
+  "Epistulae"
+ ],
+ "cts:tlg2200.tlg00402": [
+  "Libanius",
+  "Oratio 2"
+ ],
+ "cts:tlg2200.tlg00458": [
+  "Libanius",
+  "Oratio 58"
+ ],
+ "cts:tlg2200.tlg00457": [
+  "Libanius",
+  "Oratio 57"
+ ],
+ "cts:tlg2200.tlg00462": [
+  "Libanius",
+  "Oratio 62"
+ ],
+ "cts:tlg2200.tlg00463": [
+  "Libanius",
+  "Oratio 63"
+ ],
+ "cts:tlg2200.tlg00464": [
+  "Libanius",
+  "Oratio 64"
+ ],
+ "cts:tlg2200.tlg00506": [
+  "Libanius",
+  "Declamatio 6"
+ ],
+ "cts:tlg2200.tlg00501": [
+  "Libanius",
+  "Declamatio 1"
+ ],
+ "cts:tlg2200.tlg00503": [
+  "Libanius",
+  "Declamatio 3"
+ ],
+ "cts:tlg2200.tlg00504": [
+  "Libanius",
+  "Declamatio 4"
+ ],
+ "cts:tlg2200.tlg00517": [
+  "Libanius",
+  "Declamatio 17"
+ ],
+ "cts:tlg2200.tlg00532": [
+  "Libanius",
+  "Declamatio 32"
+ ],
+ "cts:tlg2200.tlg00549": [
+  "Libanius",
+  "Declamatio 49"
+ ],
+ "cts:tlg2200.tlg00533": [
+  "Libanius",
+  "Declamatio 33"
+ ],
+ "cts:tlg2200.tlg00546": [
+  "Libanius",
+  "Declamatio 46"
+ ],
+ "cts:tlg2200.tlg00547": [
+  "Libanius",
+  "Declamatio 47"
+ ],
+ "cts:tlg2200.tlg00541": [
+  "Libanius",
+  "Declamatio 41"
+ ],
+ "cts:tlg2200.tlg00544": [
+  "Libanius",
+  "Declamatio 44"
+ ],
+ "cts:tlg2042.tlg021": [
+  "Origenes",
+  "In Jeremiam (Homiliae 12-20)"
+ ],
+ "cts:tlg2042.tlg019": [
+  "Origenes",
+  "Philocalia"
+ ],
+ "cts:tlg2058.tlg001": [
+  "Philostorgius",
+  "Historia ecclesiastica (fragmenta ap. Photium)"
+ ],
+ "cts:tlg2115.tlg060": [
+  "Hippolytus",
+  "Refutatio Omnium Haeresium (= Philosophumena)"
+ ],
+ "cts:tlg2959.tlg001": [
+  "Methodius",
+  "Symposium Sive Convivium Decem Virginum"
+ ],
+ "cts:tlg2042.tlg001": [
+  "Origenes",
+  "Contra Celsum"
+ ],
+ "cts:tlg2640.tlg001": [
+  "Eusebius Myndius",
+  "Fragmenta"
+ ],
+ "cts:tlg2586.tlg001": [
+  "Menander Rhetor",
+  "Διαίρεσις τῶν ἐπιδεικτικῶν"
+ ],
+ "cts:tlg2586.tlg002": [
+  "Menander Rhetor",
+  "Περὶ ἐπιδεικτικῶν"
+ ],
+ "cts:tlg2233.tlg001": [
+  "Pseudo-Polemon",
+  "Physiognomonica (Epitome Adamantiana)"
+ ],
+ "cts:tlg4016.tlg001": [
+  "Ammonius",
+  "In Porphyrii Isagogen Sive Quinque Voces"
+ ],
+ "cts:tlg4016.tlg003": [
+  "Ammonius",
+  "In Aristotelis Librum De Interpretatione Commentarius"
+ ],
+ "cts:tlg4019.tlg001": [
+  "Olympiodorus",
+  "Prolegomena"
+ ],
+ "cts:tlg4019.tlg002": [
+  "Olympiodorus",
+  "In Categorias Commentarium"
+ ],
+ "cts:tlg4020.tlg001": [
+  "Elias Neoplatonicus",
+  "In Porphyrii Isagogen"
+ ],
+ "cts:tlg3156.tlg001": [
+  "Anonymi Exegesis in Hesiodi Theogoniam",
+  "Exegesis in Hesiodi theogoniam"
+ ],
+ "cts:tlg4013.tlg005": [
+  "Simplicius",
+  "In Aristotelis Libros De Anima Commentaria [Sp.?] (fort. auctore Prisciano Lydo)"
+ ],
+ "cts:tlg4015.tlg001": [
+  "John Philoponus",
+  "In Aristotelis Categorias Commentarium"
+ ],
+ "cts:tlg4013.tlg003": [
+  "Simplicius",
+  "In Aristotelis Categorias Commentarium"
+ ],
+ "cts:tlg4015.tlg006": [
+  "John Philoponus",
+  "In Aristotelis Libros De Generatione Et Corruptione Commentaria"
+ ],
+ "cts:tlg4015.tlg008": [
+  "John Philoponus",
+  "In Aristotelis Libros De Anima Commentaria"
+ ],
+ "cts:tlg4016.tlg005": [
+  "Ammonius",
+  "In Aristotelis analytica priora [Sp.]"
+ ],
+ "cts:tlg4016.tlg004": [
+  "Ammonius",
+  "In Aristotelis Analyticorum Priorum Librum I Commentarium"
+ ],
+ "cts:tlg4072.tlg001": [
+  "Eutocius",
+  "Commentarii in libros de sphaera et cylindro"
+ ],
+ "cts:tlg4034.tlg004": [
+  "Michael of Ephesus",
+  "In libros de animalium motione commentarium"
+ ],
+ "cts:tlg4021.tlg002": [
+  "David the Invincible",
+  "In Porphyrii Isagogen Commentarium"
+ ],
+ "cts:tlg2733.tlg001": [
+  "Evagrius, Scholasticus",
+  "Historia Ecclesiastica"
+ ],
+ "cts:tlg4024.tlg001": [
+  "Agathias Scholasticus",
+  "Historiae"
+ ],
+ "cts:tlg4102.tlg034": [
+  "Catenae (Novum Testamentum)",
+  "Catena In Epistulam I Ad Timotheum (E Cod. Paris. Coislin. 204)"
+ ],
+ "cts:tlg4030.tlg001": [
+  "Sophonias",
+  "In Aristotelis Libros De Anima Paraphrasis"
+ ],
+ "cts:tlg4102.tlg022": [
+  "Catenae (Novum Testamentum)",
+  "Catena In Epistulam Ad Colossenses (Typus Parisinus) (E Cod. Coislin. 204)"
+ ],
+ "cts:tlg4102.tlg023": [
+  "Catenae (Novum Testamentum)",
+  "Catena In Epistulam I Ad Thessalonicenses (Typus Parisinus)"
+ ],
+ "cts:tlg4102.tlg004": [
+  "Catenae (Novum Testamentum)",
+  "Catena In Lucam (Typus B) (e codd. Paris. Coislin. 23 + Oxon. Bodl. Misc. 182)"
+ ],
+ "cts:tlg4102.tlg003": [
+  "Catenae (Novum Testamentum)",
+  "Supplementum et varietas lectionis ad commentarium Chrysostomi in evangelium sancti Matthaei (e cod. Oxon. Bodl. Auct. T.1.4)"
+ ],
+ "cts:tlg4193.tlg012": [
+  "Anonymi In Aristotelis Sophisticos Elenchos",
+  "In Aristotelis Sophisticos Elenchos Paraphrasis"
+ ],
+ "cts:tlg5022.tlg002": [
+  "Scholia in Euclidem",
+  "Scholia in Euclidis Data"
+ ],
+ "cts:tlg4027.tlg001": [
+  "Anonymi In Aristotelis Categorias",
+  "Paraphrasis Categoriarum"
+ ],
+ "cts:tlg4102.tlgX03": [
+  "Catenae (Novum Testamentum)",
+  "Commentarius In Apocalypsin (Pseudo-Oecumenii) (E Cod. Coislin.)"
+ ],
+ "cts:tlg0006.tlg003": [
+  "Euripides",
+  "Medea"
+ ],
+ "cts:tlg4102.tlg013": [
+  "Catenae (Novum Testamentum)",
+  "Catena In Epistulam II Ad Corinthios (Catena Pseudo-Oecumenii)"
+ ],
+ "cts:tlg0006.tlg006": [
+  "Euripides",
+  "Andromache"
+ ],
+ "cts:tlg4102.tlg041": [
+  "Catenae (Novum Testamentum)",
+  "Catena in epistulam Petri i (catena Andreae) (e cod. Oxon. coll. nov. 58)"
+ ],
+ "cts:tlg4102.tlg019": [
+  "Catenae (Novum Testamentum)",
+  "Catena In Epistulam Ad Galatas (Typus Parisinus) (E Cod. Coislin. 204)"
+ ],
+ "cts:tlg0006.tlg011": [
+  "Euripides",
+  "Troades"
+ ],
+ "cts:tlg0006.tlg012": [
+  "Euripides",
+  "Electra"
+ ],
+ "cts:tlg4102.tlg007": [
+  "Catenae (Novum Testamentum)",
+  "Supplementum Et Varietas Lectionis Ad Catenam In Evangelium Sancti Joannis (e cod. Bodl. B.)"
+ ],
+ "cts:tlg0006.tlg016": [
+  "Euripides",
+  "Orestes"
+ ],
+ "cts:tlg0006.tlg014": [
+  "Euripides",
+  "Helena"
+ ],
+ "cts:tlg0006.tlg018": [
+  "Euripides",
+  "Iphigenia Aulidensis"
+ ],
+ "cts:tlg0007.tlg022": [
+  "Plutarch",
+  "Marcellus"
+ ],
+ "cts:tlg0007.tlg021": [
+  "Plutarch",
+  "Pelopidas"
+ ],
+ "cts:tlg0007.tlg036": [
+  "Plutarch",
+  "Lucullus"
+ ],
+ "cts:tlg0007.tlg001": [
+  "Plutarch",
+  "Theseus"
+ ],
+ "cts:tlg0007.tlg024": [
+  "Plutarch",
+  "Aristides"
+ ],
+ "cts:tlg0007.tlg042": [
+  "Plutarch",
+  "Sertorius"
+ ],
+ "cts:tlg0007.tlg031": [
+  "Plutarch",
+  "Caius Marius"
+ ],
+ "cts:tlg0007.tlg060": [
+  "Plutarch",
+  "Dion"
+ ],
+ "cts:tlg0007.tlg032": [
+  "Plutarch",
+  "Lysander"
+ ],
+ "cts:tlg0007.tlg061": [
+  "Plutarch",
+  "Brutus"
+ ],
+ "cts:tlg0007.tlg057": [
+  "Plutarch",
+  "Demetrius"
+ ],
+ "cts:tlg0007.tlg048": [
+  "Plutarch",
+  "Caesar"
+ ],
+ "cts:tlg0007.tlg047": [
+  "Plutarch",
+  "Alexander"
+ ],
+ "cts:tlg9004.tlg001": [
+  "Anonymi In Aristotelis Librum Alterum Analyticorum Posteriorum",
+  "Anonymi In Analyticorum Posteriorum Librum Alterum Commentarium"
+ ],
+ "cts:tlg0007.tlg049": [
+  "Plutarch",
+  "Phocion"
+ ],
+ "cts:tlg0007.tlg050": [
+  "Plutarch",
+  "Cato the Younger"
+ ],
+ "cts:tlg5034.tlg001a": [
+  "Scholia in Pindarum",
+  "Scholia in Pindarum Olympian Odes"
+ ],
+ "cts:tlg0007.tlg072": [
+  "Plutarch",
+  "De capienda ex inimicis utilitate"
+ ],
+ "cts:tlg0007.tlg066": [
+  "Plutarch",
+  "Otho"
+ ],
+ "cts:tlg0007.tlg069": [
+  "Plutarch",
+  "De recta ratione audiendi"
+ ],
+ "cts:tlg0007.tlg067": [
+  "Plutarch",
+  "De liberis educandis"
+ ],
+ "cts:tlg0007.tlg070": [
+  "Plutarch",
+  "Quomodo adulator ab amico internoscatur"
+ ],
+ "cts:tlg0007.tlg083": [
+  "Plutarch",
+  "Mulierum virtutes"
+ ],
+ "cts:tlg0007.tlg077": [
+  "Plutarch",
+  "De tuenda sanitate praecepta"
+ ],
+ "cts:tlg0007.tlg082": [
+  "Plutarch",
+  "Apophthegmata Laconica"
+ ],
+ "cts:tlg0007.tlg097": [
+  "Plutarch",
+  "De fraterno amore"
+ ],
+ "cts:tlg0007.tlg081": [
+  "Plutarch",
+  "Regum et imperatorum apophthegmata"
+ ],
+ "cts:tlg0007.tlg084b": [
+  "Plutarch",
+  "Quaestiones Graecae"
+ ],
+ "cts:tlg0007.tlg102": [
+  "Plutarch",
+  "De curiositate"
+ ],
+ "cts:tlg0007.tlg089": [
+  "Plutarch",
+  "De Iside et Osiride"
+ ],
+ "cts:tlg0007.tlg096": [
+  "Plutarch",
+  "De Tranquillitate Animi"
+ ],
+ "cts:tlg0007.tlg113": [
+  "Plutarch",
+  "Amatorius"
+ ],
+ "cts:tlg0007.tlg126": [
+  "Plutarch",
+  "De Facie Quae in orbe Lunae Apparet"
+ ],
+ "cts:tlg0007.tlg129": [
+  "Plutarch",
+  "De sollertia animalium"
+ ],
+ "cts:tlg0007.tlg134": [
+  "Plutarch",
+  "De animae procreatione in Timaeo"
+ ],
+ "cts:tlg4089.tlg004": [
+  "Theodoretus",
+  "Historia Religiosa"
+ ],
+ "cts:tlg0010.tlg005": [
+  "Isocrates",
+  "Trapeziticus"
+ ],
+ "cts:tlg0007.tlg138": [
+  "Plutarch",
+  "De communibus notitiis adversus Stoicos"
+ ],
+ "cts:tlg0007.tlg110": [
+  "Plutarch",
+  "De exilio"
+ ],
+ "cts:tlg4090.tlg001": [
+  "Cyril of Alexandria",
+  "In XII Prophetas"
+ ],
+ "cts:tlg0010.tlg010": [
+  "Isocrates",
+  "Busiris"
+ ],
+ "cts:tlg0010.tlg012": [
+  "Isocrates",
+  "Plataicus"
+ ],
+ "cts:tlg0011.tlg004": [
+  "Sophocles",
+  "Oedipus Tyrannus"
+ ],
+ "cts:tlg0010.tlg013": [
+  "Isocrates",
+  "To Nicocles"
+ ],
+ "cts:tlg0010.tlg020": [
+  "Isocrates",
+  "To Philip"
+ ],
+ "cts:tlg0010.tlg021": [
+  "Isocrates",
+  "Panathenaicus"
+ ],
+ "cts:tlg0011.tlg006": [
+  "Sophocles",
+  "Philoctetes"
+ ],
+ "cts:tlg0014.tlg001": [
+  "Demosthenes",
+  "First Olynthiac"
+ ],
+ "cts:tlg0014.tlg008": [
+  "Demosthenes",
+  "On the Chersonese"
+ ],
+ "cts:tlg0014.tlg014": [
+  "Demosthenes",
+  "On the Navy-Boards"
+ ],
+ "cts:tlg0014.tlg004": [
+  "Demosthenes",
+  "First Philippic"
+ ],
+ "cts:tlg0014.tlg016": [
+  "Demosthenes",
+  "For the People of Megalopolis"
+ ],
+ "cts:tlg0014.tlg009": [
+  "Demosthenes",
+  "Third Philippic"
+ ],
+ "cts:tlg0014.tlg010": [
+  "Demosthenes",
+  "Fourth Philippic"
+ ],
+ "cts:tlg0014.tlg032": [
+  "Demosthenes",
+  "Against Zenothemis"
+ ],
+ "cts:tlg0014.tlg025": [
+  "Demosthenes",
+  "Against Aristogeiton I"
+ ],
+ "cts:tlg0014.tlg027": [
+  "Demosthenes",
+  "Against Aphobus I"
+ ],
+ "cts:tlg0012.tlg003": [
+  "Homer",
+  "Epigrams"
+ ],
+ "cts:tlg0014.tlg033": [
+  "Demosthenes",
+  "Against Apaturius"
+ ],
+ "cts:tlg0014.tlg034": [
+  "Demosthenes",
+  "Against Phormio"
+ ],
+ "cts:tlg0014.tlg041": [
+  "Demosthenes",
+  "Against Spudias"
+ ],
+ "cts:tlg0014.tlg051": [
+  "Demosthenes",
+  "On the Trierarchic Crown"
+ ],
+ "cts:tlg0014.tlg047": [
+  "Demosthenes",
+  "Against Evergus and Mnesibulus"
+ ],
+ "cts:tlg0014.tlg050": [
+  "Demosthenes",
+  "Apollodorus Against Polycles"
+ ],
+ "cts:tlg0014.tlg042": [
+  "Demosthenes",
+  "Against Phaenippus"
+ ],
+ "cts:tlg0014.tlg044": [
+  "Demosthenes",
+  "Against Leochares"
+ ],
+ "cts:tlg0014.tlg017": [
+  "Demosthenes",
+  "On the Treaty with Alexander"
+ ],
+ "cts:tlg0014.tlg020": [
+  "Demosthenes",
+  "Against Leptines"
+ ],
+ "cts:tlg0014.tlg018": [
+  "Demosthenes",
+  "De Corona"
+ ],
+ "cts:tlg0014.tlg056": [
+  "Demosthenes",
+  "Against Dionysodorus"
+ ],
+ "cts:tlg0014.tlg054": [
+  "Demosthenes",
+  "Against Conon"
+ ],
+ "cts:tlg0014.tlg022": [
+  "Demosthenes",
+  "Against Androtion"
+ ],
+ "cts:tlg0014.tlg023": [
+  "Demosthenes",
+  "Against Aristocrates"
+ ],
+ "cts:tlg0017.tlg005": [
+  "Isaeus",
+  "On the Estate of Dicaeogenes"
+ ],
+ "cts:tlg0017.tlg006": [
+  "Isaeus",
+  "On the Estate of Philoctemon"
+ ],
+ "cts:tlg0017.tlg008": [
+  "Isaeus",
+  "On The Estate of Ciron"
+ ],
+ "cts:tlg0017.tlg002": [
+  "Isaeus",
+  "On the Estate of Menecles"
+ ],
+ "cts:tlg0017.tlg003": [
+  "Isaeus",
+  "On The Estate Of Pyrrhus"
+ ],
+ "cts:tlg0014.tlg059": [
+  "Demosthenes",
+  "Theomnestus and Apollodorus Against Neaera"
+ ],
+ "cts:tlg0017.tlg011": [
+  "Isaeus",
+  "On the Estate of Hagnias"
+ ],
+ "cts:tlg0019.tlg009": [
+  "Aristophanes",
+  "Frogs"
+ ],
+ "cts:tlg0019.tlg004": [
+  "Aristophanes",
+  "Wasps"
+ ],
+ "cts:tlg0019.tlg003": [
+  "Aristophanes",
+  "Clouds"
+ ],
+ "cts:tlg0019.tlg011": [
+  "Aristophanes",
+  "Wealth"
+ ],
+ "cts:tlg0019.tlg005": [
+  "Aristophanes",
+  "Peace"
+ ],
+ "cts:tlg0019.tlg010": [
+  "Aristophanes",
+  "Ecclesiazusae"
+ ],
+ "cts:tlg0019.tlg006": [
+  "Aristophanes",
+  "Birds"
+ ],
+ "cts:tlg0027.tlg002": [
+  "Andocides",
+  "On His Return"
+ ],
+ "cts:tlg0028.tlg002": [
+  "Antiphon",
+  "The First Tetralogy"
+ ],
+ "cts:tlg0028.tlg005": [
+  "Antiphon",
+  "On the murder of Herodes"
+ ],
+ "cts:tlg0026.tlg001": [
+  "Aeschines",
+  "Against Timarchus"
+ ],
+ "cts:tlg0026.tlg002": [
+  "Aeschines",
+  "On the Embassy"
+ ],
+ "cts:tlg0030.tlg002": [
+  "Hyperides",
+  "Against Philippides"
+ ],
+ "cts:tlg0027.tlg001": [
+  "Andocides",
+  "On the Mysteries"
+ ],
+ "cts:tlg0014.tlg063": [
+  "Demosthenes",
+  "Letters"
+ ],
+ "cts:tlg0029.tlg004": [
+  "Dinarchus",
+  "Against Demosthenes"
+ ],
+ "cts:tlg0028.tlg006": [
+  "Antiphon",
+  "On the Choreutes"
+ ],
+ "cts:tlg0031.tlg002": [
+  "New Testament",
+  "Mark"
+ ],
+ "cts:tlg0030.tlg004": [
+  "Hyperides",
+  "In Defence of Euxenippus"
+ ],
+ "cts:tlg0032.tlg013": [
+  "Xenophon",
+  "On the Art of Horsemanship"
+ ],
+ "cts:tlg0033.tlg001": [
+  "Pindar",
+  "Olympian"
+ ],
+ "cts:tlg0031.tlg004": [
+  "New Testament",
+  "John"
+ ],
+ "cts:tlg0031.tlg027": [
+  "New Testament",
+  "Revelation"
+ ],
+ "cts:tlg0032.tlg004": [
+  "Xenophon",
+  "Symposium"
+ ],
+ "cts:tlg0034.tlg001": [
+  "Lycurgus",
+  "Against Leocrates"
+ ],
+ "cts:tlg0058.tlg001": [
+  "Aeneas Tacticus",
+  "Poliorcetica"
+ ],
+ "cts:tlg0059.tlg015": [
+  "Plato",
+  "Hipparchus"
+ ],
+ "cts:tlg0059.tlg003": [
+  "Plato",
+  "Crito"
+ ],
+ "cts:tlg0059.tlg016": [
+  "Plato",
+  "Lovers"
+ ],
+ "cts:tlg0059.tlg017": [
+  "Plato",
+  "Theages"
+ ],
+ "cts:tlg0059.tlg019": [
+  "Plato",
+  "Laches"
+ ],
+ "cts:tlg0059.tlg025": [
+  "Plato",
+  "Greater Hippias"
+ ],
+ "cts:tlg0059.tlg028": [
+  "Plato",
+  "Menexenus"
+ ],
+ "cts:tlg0062.tlg017": [
+  "Lucian of Samosata",
+  "Juppiter Confutatus"
+ ],
+ "cts:tlg0062.tlg049": [
+  "Lucian of Samosata",
+  "Pseudologista"
+ ],
+ "cts:tlg0062.tlg032": [
+  "Lucian of Samosata",
+  "Dearum judicium"
+ ],
+ "cts:tlg0062.tlg044": [
+  "Lucian of Samosata",
+  "Toxaris vel amicitia"
+ ],
+ "cts:tlg0062.tlg045": [
+  "Lucian of Samosata",
+  "De saltatione"
+ ],
+ "cts:tlg0062.tlg068": [
+  "Lucian of Samosata",
+  "Dialogi deorum"
+ ],
+ "cts:tlg0062.tlg047": [
+  "Lucian of Samosata",
+  "Eunuchus"
+ ],
+ "cts:tlg0059.tlg035": [
+  "Plato",
+  "Epinomis"
+ ],
+ "cts:tlg0062.tlg070": [
+  "Lucian of Samosata",
+  "Soleocista"
+ ],
+ "cts:tlg0062.tlg067": [
+  "Lucian of Samosata",
+  "Dialogi Marini"
+ ],
+ "cts:tlg0074.tlg001": [
+  "Arrian",
+  "Ἀλεξάνδρου Ἀνάβασις"
+ ],
+ "cts:tlg0074.tlg003": [
+  "Arrian",
+  "Cynegeticus"
+ ],
+ "cts:tlg0081.tlg008": [
+  "Dionysius of Halicarnassus",
+  "Ad Ammaeum"
+ ],
+ "cts:tlg0010.tlg002": [
+  "Isocrates",
+  "Against Callimachus"
+ ],
+ "cts:tlg0081.tlg003": [
+  "Dionysius of Halicarnassus",
+  "De Lysia"
+ ],
+ "cts:tlg0081.tlg015": [
+  "Dionysius of Halicarnassus",
+  "Epistula ad Pompeium Geminum"
+ ],
+ "cts:tlg0074.tlg004": [
+  "Arrian",
+  "Periplus Ponti Euxini"
+ ],
+ "cts:tlg0284.tlg009": [
+  "Aristides, Aelius",
+  "Orationes 9"
+ ],
+ "cts:tlg0074.tlg005": [
+  "Arrian",
+  "Tactica"
+ ],
+ "cts:tlg0284.tlg026": [
+  "Aristides, Aelius",
+  "Orationes 26"
+ ],
+ "cts:tlg0284.tlg027": [
+  "Aristides, Aelius",
+  "Orationes 27"
+ ],
+ "cts:tlg0284.tlg030": [
+  "Aristides, Aelius",
+  "Orationes 30"
+ ],
+ "cts:tlg0284.tlg022": [
+  "Aristides, Aelius",
+  "Orationes 22"
+ ],
+ "cts:tlg0284.tlg032": [
+  "Aristides, Aelius",
+  "Orationes 32"
+ ],
+ "cts:tlg0284.tlg039": [
+  "Aristides, Aelius",
+  "Orationes 39"
+ ],
+ "cts:tlg0284.tlg033": [
+  "Aristides, Aelius",
+  "Orationes 33"
+ ],
+ "cts:tlg0086.tlg009": [
+  "Aristotle",
+  "Eudemian Ethics"
+ ],
+ "cts:tlg0086.tlg029": [
+  "Aristotle",
+  "Economics"
+ ],
+ "cts:tlg0284.tlg042": [
+  "Aristides, Aelius",
+  "Orationes 42"
+ ],
+ "cts:tlg0284.tlg049": [
+  "Aristides, Aelius",
+  "Orationes 49"
+ ],
+ "cts:tlg0284.tlg051": [
+  "Aristides, Aelius",
+  "Orationes 51"
+ ],
+ "cts:tlg0284.tlg045": [
+  "Aristides, Aelius",
+  "Orationes 45"
+ ],
+ "cts:tlg0284.tlg052": [
+  "Aristides, Aelius",
+  "Orationes 52"
+ ],
+ "cts:tlg0284.tlg048": [
+  "Aristides, Aelius",
+  "Orationes 48"
+ ],
+ "cts:tlg0540.tlg006": [
+  "Lysias",
+  "Against Andocides"
+ ],
+ "cts:tlg0540.tlg001": [
+  "Lysias",
+  "On the Murder of Eratosthenes"
+ ],
+ "cts:tlg0540.tlg003": [
+  "Lysias",
+  "Against Simon"
+ ],
+ "cts:tlg0540.tlg013": [
+  "Lysias",
+  "Against Agoratus"
+ ],
+ "cts:tlg0532.tlg001": [
+  "Achilles Tatius",
+  "Leucippe and Clitophon"
+ ],
+ "cts:tlg0540.tlg010": [
+  "Lysias",
+  "Against Theomnestus 1"
+ ],
+ "cts:tlg0540.tlg012": [
+  "Lysias",
+  "Against Eratosthenes"
+ ],
+ "cts:tlg0540.tlg026": [
+  "Lysias",
+  "On the Scrutiny of Evandros"
+ ],
+ "cts:tlg0540.tlg022": [
+  "Lysias",
+  "Against The Corn-Dealers"
+ ],
+ "cts:tlg0525.tlg001": [
+  "Pausanias",
+  "Description of Greece"
+ ],
+ "cts:tlg0540.tlg028": [
+  "Lysias",
+  "Against Ergocles"
+ ],
+ "cts:tlg0540.tlg032": [
+  "Lysias",
+  "Against Diogeiton"
+ ],
+ "cts:tlg0557.tlg002": [
+  "Epictetus",
+  "Encheiridion"
+ ],
+ "cts:tlg0540.tlg034": [
+  "Lysias",
+  "Against The Subversion of the Ancestral Constitution"
+ ],
+ "cts:tlg0561.tlg001": [
+  "Longus",
+  "Daphnis and Chloe"
+ ],
+ "cts:tlg0613.tlg001": [
+  "Demetrius of Phaleron",
+  "Libro de Elocutione"
+ ],
+ "cts:tlg0638.tlg007": [
+  "Philostratus the Athenian",
+  "De Gymnastica"
+ ],
+ "cts:tlg0545.tlg001": [
+  "Aelian",
+  "De Natura Animalium"
+ ],
+ "cts:tlg0545.tlg002": [
+  "Aelian",
+  "Varia Historia"
+ ],
+ "cts:tlg0719.tlg001": [
+  "Aretaeus of Cappadocia",
+  "De causis et signis acutorum morborum libri duo"
+ ],
+ "cts:tlg0638.tlg004": [
+  "Philostratus the Athenian",
+  "Heroicus"
+ ],
+ "cts:tlg2003.tlg006": [
+  "Julian, Emperor of Rome",
+  "Letter to Themistius the Philosopher"
+ ],
+ "cts:tlg2003.tlg011": [
+  "Julian, Emperor of Rome",
+  "Hymn to King Helios Dedicated to Sallust"
+ ],
+ "cts:tlg1799.tlg001": [
+  "Euclid",
+  "Elementa"
+ ],
+ "cts:tlg0719.tlg004": [
+  "Aretaeus of Cappadocia",
+  "De curatione diuturnorum morborum libri duo"
+ ],
+ "cts:tlg7000.tlg001": [
+  "Greek Anthology",
+  "Greek Anthology"
+ ],
+ "cts:tlg0648.tlg001": [
+  "Onasander",
+  "Strategicus"
+ ],
+ "cts:tlg2003.tlg012": [
+  "Julian, Emperor of Rome",
+  "Misopogon"
+ ],
+ "cts:tlg2003.tlg013": [
+  "Julian, Emperor of Rome",
+  "Epistolae"
+ ],
+ "cts:tlg2040.tlg002": [
+  "Basil, Saint, Bishop of Caesarea",
+  "De legendis gentilium libris"
+ ],
+ "cts:tlg2934.tlg066": [
+  "John of Damascus, Saint",
+  "Vita Barlaam et Joasaph"
+ ],
+ "cts:tlg5028.tlg001": [
+  "Scholia in Isocratem",
+  "Scholia in Isocratem (scholia vetera)"
+ ],
+ "cts:tlg4029.tlg001": [
+  "Procopius",
+  "De Bellis"
+ ],
+ "cts:tlg0018.tlg009": [
+  "Philo Judaeus",
+  "De Agricultura"
+ ],
+ "cts:tlg0018.tlg010": [
+  "Philo Judaeus",
+  "De Plantatione"
+ ],
+ "cts:tlg0554.tlg001": [
+  null,
+  null
+ ],
+ "cts:tlg0018.tlg011": [
+  "Philo Judaeus",
+  "De Ebrietate"
+ ],
+ "cts:tlg0018.tlg020": [
+  "Philo Judaeus",
+  "De Abrahamo"
+ ],
+ "cts:tlg0057.tlg002": [
+  "Galenus",
+  "De optima doctrina"
+ ],
+ "cts:tlg0057.tlg013": [
+  "Galenus",
+  "De venarum arteriarumque dissectione"
+ ],
+ "cts:tlg0057.tlg014": [
+  "Galenus",
+  "De nervorum dissectione"
+ ],
+ "cts:tlg0057.tlg023": [
+  "Galenus",
+  "An in arteriis sanguis contineatur"
+ ],
+ "cts:tlg0057.tlg027": [
+  "Galenus",
+  "Quod animi mores corporis temperamenta sequantur"
+ ],
+ "cts:tlg0057.tlg021": [
+  "Galenus",
+  "De semine"
+ ],
+ "cts:tlg0057.tlg016": [
+  "Galenus",
+  "De uteri dissectione"
+ ],
+ "cts:tlg0057.tlg047": [
+  "Galenus",
+  "De totius morbi temporibus"
+ ],
+ "cts:tlg0057.tlg022": [
+  "Galenus",
+  "De foetuum formatione"
+ ],
+ "cts:tlg0057.tlg081": [
+  "Galenus",
+  "Institutio logica"
+ ],
+ "cts:tlg0057.tlg058": [
+  "Galenus",
+  "De pulsibus ad tirones"
+ ],
+ "cts:tlg0057.tlg102": [
+  "Galenus",
+  "De musculorum dissectione ad tirones"
+ ],
+ "cts:tlg0057.tlg073": [
+  "Galenus",
+  "Quos quibus catharticis medicamentis et quando purgare oporteat"
+ ],
+ "cts:tlg0057.tlg093": [
+  "Galenus",
+  "Adversus Lycum"
+ ],
+ "cts:tlg0065.tlg001": [
+  "Scylax of Caryanda",
+  "Periplus Scylacis"
+ ],
+ "cts:tlg0086.tlg008": [
+  "Aristotle",
+  "De divinatione per somnum"
+ ],
+ "cts:tlg0087.tlg007": [
+  "Aelius Herodianus",
+  "Περὶ Ἰλιακῆς προσῳδίας"
+ ],
+ "cts:tlg0087.tlg021": [
+  "Aelius Herodianus",
+  "Περὶ ῥημάτων"
+ ],
+ "cts:tlg0087.tlg008": [
+  "Aelius Herodianus",
+  "Περὶ Ὀδυσσειακῆς προσῳδίας"
+ ],
+ "cts:tlg0087.tlg027": [
+  "Aelius Herodianus",
+  "Περὶ ῥηματικῶν ὀνομάτων"
+ ],
+ "cts:tlg0087.tlg009": [
+  "Aelius Herodianus",
+  "Περὶ παθῶν"
+ ],
+ "cts:tlg0087.tlg012": [
+  "Aelius Herodianus",
+  "Περὶ ὀνομάτων"
+ ],
+ "cts:tlg0087.tlg010": [
+  "Aelius Herodianus",
+  "Περὶ συντάξεως τῶν στοιχείων"
+ ],
+ "cts:tlg0093.tlg004": [
+  "Theophrastus",
+  "De lapidibus"
+ ],
+ "cts:tlg0527.tlg025": [
+  "Old Testament",
+  "Machabaeorum iii"
+ ],
+ "cts:tlg0358.tlg001": [
+  "Nicomachus Gerasenus",
+  "Introductio arithmetica"
+ ],
+ "cts:tlg0527.tlg052": [
+  "Old Testament",
+  "Epistula Jeremiae"
+ ],
+ "cts:tlg0627.tlg028": [
+  "Hippocrates",
+  "De ulceribus"
+ ],
+ "cts:tlg0530.tlg006": [
+  "Pseudo-Galen",
+  "Ad Gaurum quomodo animetur fetus"
+ ],
+ "cts:tlg0552.tlg005": [
+  "Archimedes",
+  "De planorum aequilibriis"
+ ],
+ "cts:tlg0627.tlg027": [
+  "Hippocrates",
+  "De morbo sacro"
+ ],
+ "cts:tlg0552.tlg006": [
+  "Archimedes",
+  "Arenarius"
+ ],
+ "cts:tlg0530.tlg032": [
+  "Pseudo-Galen",
+  "De theriaca ad Pamphilianum"
+ ],
+ "cts:tlg0552.tlg004": [
+  "Archimedes",
+  "De lineis spiralibus"
+ ],
+ "cts:tlg0610.tlg001": [
+  "Alcidamas",
+  "Odysseus"
+ ],
+ "cts:tlg0610.perseus002": [
+  "Alcidamas",
+  "Peri Sophiston"
+ ],
+ "cts:tlg0565.tlg003": [
+  "Soranus",
+  "De Fasciis"
+ ],
+ "cts:tlg0627.tlg043": [
+  "Hippocrates",
+  "De carnibus"
+ ],
+ "cts:tlg0627.tlg048": [
+  "Hippocrates",
+  "De natura ossium"
+ ],
+ "cts:tlg1188.tlg002": [
+  "Aristocles of Messene",
+  "Fragmenta"
+ ],
+ "cts:tlg0731.tlg001": [
+  "Adamantius Judaeus",
+  "Physiognomonica"
+ ],
+ "cts:tlg0643.tlg001": [
+  "Anonymus Londinensis",
+  "Iatrica"
+ ],
+ "cts:tlg1286.tlg012": [
+  "Hermetica",
+  "Περὶ νοῦ κοινοῦ πρὸς Τάτ"
+ ],
+ "cts:tlg1286.tlg004": [
+  "Hermetica",
+  "Πρὸς Τάτ ὁ κρατήρ ἡ μονάς"
+ ],
+ "cts:tlg1431.tlg003": [
+  "Hipparchus",
+  "In Arati et Eudoxi phaenomena commentariorum libri iii"
+ ],
+ "cts:tlg1390.tlg004": [
+  "Hecataeus of Abderita",
+  "Fragmenta"
+ ],
+ "cts:tlg2042.tlg051": [
+  "Origenes",
+  "Selecta in Leviticum"
+ ],
+ "cts:tlg1766.tlg001": [
+  "Tatianus",
+  "Oratio ad Graecos"
+ ],
+ "cts:tlg1634.tlg002": [
+  "Prodicus",
+  "Fragmenta"
+ ],
+ "cts:tlg0007.tlg119": [
+  "Plutarch",
+  "De unius in republica dominatione, populari statu, et paucorum imperio"
+ ],
+ "cts:tlg2137.tlg001": [
+  "Gaudentius",
+  "Harmonica introductio"
+ ],
+ "cts:tlg2200.tlg00518": [
+  "Libanius",
+  "Declamatio 18"
+ ],
+ "cts:tlg0010.tlg016": [
+  "Isocrates",
+  "Archidamus"
+ ],
+ "cts:tlg0010.tlg014": [
+  "Isocrates",
+  "Nicocles or the Cyprians"
+ ],
+ "cts:tlg0014.tlg026": [
+  "Demosthenes",
+  "Against Aristogeiton II"
+ ],
+ "cts:tlg0014.tlg011": [
+  "Demosthenes",
+  "Answer to Philip’s Letter"
+ ],
+ "cts:tlg0014.tlg036": [
+  "Demosthenes",
+  "For Phormio"
+ ],
+ "cts:tlg0014.tlg037": [
+  "Demosthenes",
+  "Against Pantaenetus"
+ ],
+ "cts:tlg5034.tlg001c": [
+  "Scholia in Pindarum",
+  "Scholia in Pindarum Nemean Odes"
+ ],
+ "cts:tlg2200.tlg00521": [
+  "Libanius",
+  "Declamatio 21"
+ ],
+ "cts:tlg0014.tlg039": [
+  "Demosthenes",
+  "Against Boeotus I"
+ ],
+ "cts:tlg0014.tlg045": [
+  "Demosthenes",
+  "Against Stephanus I"
+ ],
+ "cts:tlg0027.tlg003": [
+  "Andocides",
+  "On the Peace with Sparta"
+ ],
+ "cts:tlg0017.tlg010": [
+  "Isaeus",
+  "On The Estate of Aristarchus"
+ ],
+ "cts:tlg0032.tlg011": [
+  "Xenophon",
+  "Ways and Means"
+ ],
+ "cts:tlg0059.tlg014": [
+  "Plato",
+  "Alcibiades 2"
+ ],
+ "cts:tlg0062.tlg050": [
+  "Lucian of Samosata",
+  "Deorum concilium"
+ ],
+ "cts:tlg0284.tlg016": [
+  "Aristides, Aelius",
+  "Orationes 16"
+ ],
+ "cts:tlg0081.tlg002": [
+  "Dionysius of Halicarnassus",
+  "De antiquis oratoribus"
+ ],
+ "cts:tlg0284.tlg038": [
+  "Aristides, Aelius",
+  "Orationes 38"
+ ],
+ "cts:tlg0284.tlg050": [
+  "Aristides, Aelius",
+  "Orationes 50"
+ ],
+ "cts:tlg0284.tlg036": [
+  "Aristides, Aelius",
+  "Orationes 36"
+ ],
+ "cts:tlg0284.tlg054": [
+  "Aristides, Aelius",
+  "Orationes 54"
+ ],
+ "cts:tlg0284.tlg056": [
+  "Aristides, Aelius",
+  "Ars Rhetorica"
+ ],
+ "cts:tlg0526.tlg002": [
+  "Flavius Josephus",
+  "Life of Josephus"
+ ],
+ "cts:tlg0560.tlg001": [
+  "Longinus",
+  "On the Sublime"
+ ],
+ "cts:tlg0527.tlg003": [
+  "Old Testament",
+  "Leviticus"
+ ],
+ "cts:tlg0527.tlg015": [
+  "Old Testament",
+  "I Chronicles"
+ ],
+ "cts:tlg9019.tlg001": [
+  "Stephanus of Alexandria",
+  "In Aristotelis Librum De Interpretatione Commentarium"
+ ],
+ "cts:tlg0007.tlg019": [
+  "Plutarch",
+  "Aemilius Paulus"
+ ],
+ "cts:tlg0007.tlg005": [
+  "Plutarch",
+  "Numa"
+ ],
+ "cts:tlg0007.tlg018": [
+  "Plutarch",
+  "Timoleon"
+ ],
+ "cts:tlg0007.tlg055": [
+  "Plutarch",
+  "Cicero"
+ ],
+ "cts:tlg0609.tlg001": [
+  "Tryphon I Grammaticus",
+  "De tropis"
+ ],
+ "cts:tlg0555.tlg007": [
+  "Clement of Alexandria",
+  "Excerpta ex Theodoto"
+ ],
+ "cts:tlg1286.tlg018": [
+  "Hermetica",
+  "Περὶ τῆς ὑπὸ τοῦ πάθους τοῦ σώματος ἐμποδιζομένης ψυχῆς"
+ ],
+ "cts:tlg0007.tlg063": [
+  "Plutarch",
+  "Aratus"
+ ],
+ "cts:tlg1414.tlg001": [
+  "Heraclitus",
+  "Allegoriae (= Quaestiones Homericae)"
+ ],
+ "cts:tlg2200.tlg00428": [
+  "Libanius",
+  "Oratio 28"
+ ],
+ "cts:tlg2200.tlg00540": [
+  "Libanius",
+  "Declamatio 40"
+ ],
+ "cts:tlg0007.tlg100": [
+  "Plutarch",
+  "Animine an corporis affectiones sint peiores"
+ ],
+ "cts:tlg0007.tlg115": [
+  "Plutarch",
+  "Maxime Cum Principibus Viris Philosopho Esse Disserendum"
+ ],
+ "cts:tlg0007.tlg135": [
+  "Plutarch",
+  "Epitome libri de animae procreatione in Timaeo"
+ ],
+ "cts:tlg0007.tlg111": [
+  "Plutarch",
+  "Consolatio Ad Uxorem"
+ ],
+ "cts:tlg0010.tlg007": [
+  "Isocrates",
+  "To Demonicus"
+ ],
+ "cts:tlg0010.tlg017": [
+  "Isocrates",
+  "On the Peace"
+ ],
+ "cts:tlg0059.tlg026": [
+  "Plato",
+  "Lesser Hippias"
+ ],
+ "cts:tlg0526.tlg003": [
+  "Flavius Josephus",
+  "Against Apion"
+ ],
+ "cts:tlg2003.tlg002": [
+  "Julian, Emperor of Rome",
+  "Panegyric on the Empress Eusebia"
+ ],
+ "cts:tlg0007.tlg044": [
+  "Plutarch",
+  "Agesilaus"
+ ],
+ "cts:tlg0007.tlg058": [
+  "Plutarch",
+  "Antony"
+ ],
+ "cts:tlg0010.tlg009": [
+  "Isocrates",
+  "Helen"
+ ],
+ "cts:tlg0007.tlg091": [
+  "Plutarch",
+  "De Pythiae oraculis"
+ ],
+ "cts:tlg0010.tlg015": [
+  "Isocrates",
+  "Evagoras"
+ ],
+ "cts:tlg0010.tlg024": [
+  "Isocrates",
+  "To Archidamus"
+ ],
+ "cts:tlg0527.tlg046": [
+  "Old Testament",
+  "Zechariah"
+ ],
+ "cts:tlg0093.tlg010x02": [
+  "Theophrastus",
+  "De Ventis"
+ ],
+ "cts:tlg0284.tlg029": [
+  "Aristides, Aelius",
+  "Orationes 29"
+ ],
+ "cts:tlg1205.tlg002": [
+  "Athenagoras",
+  "De Resurrectione"
+ ],
+ "cts:tlg0627.tlg024b": [
+  "Hippocrates",
+  "De natura pueri"
+ ],
+ "cts:tlg2806.tlg001": [
+  "Marcus Diaconus",
+  "Vita Porphyrii episcopi Gazensis"
+ ],
+ "cts:tlg0007.tlg053": [
+  "Plutarch",
+  "Comparison of Agis and Cleomenes and the Gracchi"
+ ],
+ "cts:tlg0007.tlg051": [
+  "Plutarch",
+  "Agis and Cleomenes"
+ ],
+ "cts:tlg0007.tlg004": [
+  "Plutarch",
+  "Lycurgus"
+ ],
+ "cts:tlg0007.tlg054": [
+  "Plutarch",
+  "Demosthenes"
+ ],
+ "cts:tlg0007.tlg116": [
+  "Plutarch",
+  "Ad principem ineruditum"
+ ],
+ "cts:tlg2042.tlg078": [
+  "Origenes",
+  "Scholia in Lucam (fragmenta e cod. Venet. 28)"
+ ],
+ "cts:tlg0552.tlg008": [
+  "Archimedes",
+  "De corporibus fluitantibus"
+ ],
+ "cts:tlg0559.tlg001": [
+  "Hero of Alexandria",
+  "Pneumatica"
+ ],
+ "cts:tlg0062.tlg007": [
+  "Lucian of Samosata",
+  "Nigrinus"
+ ],
+ "cts:tlg2018.tlg021": [
+  "Eusebius of Caesarea",
+  "Constantini imperatoris oratio ad coetum sanctorum"
+ ],
+ "cts:tlg1320.tlg001": [
+  "Diogenes Babylonius",
+  "Testimonia et Fragmenta"
+ ],
+ "cts:tlg0555.tlg001": [
+  "Clement of Alexandria",
+  "Protrepticus"
+ ],
+ "cts:tlg4102.tlg043": [
+  "Catenae (Novum Testamentum)",
+  "Catena in epistulam Joannis i (catena Andreae) (e cod. Oxon. coll. nov. 58)"
+ ],
+ "cts:tlg2003.tlg001": [
+  "Julian, Emperor of Rome",
+  "Panegyric in Honor of the Emperor Constantinus"
+ ],
+ "cts:tlg0007.tlg098": [
+  "Plutarch",
+  "De Amore Prolis"
+ ],
+ "cts:tlg0007.tlg132": [
+  "Plutarch",
+  "De esu carnium II"
+ ],
+ "cts:tlg0031.tlg026": [
+  "New Testament",
+  "Jude"
+ ],
+ "cts:tlg0094.tlg003": [
+  "Pseudo-Plutarch",
+  "Placita Philosophorum"
+ ],
+ "cts:tlg0527.tlg026": [
+  "Old Testament",
+  "Machabaeorum iv"
+ ],
+ "cts:tlg0557.tlg005": [
+  "Epictetus",
+  "Gnomology (Books 3-4)"
+ ],
+ "cts:tlg2042.tlg029": [
+  "Origenes",
+  "Commentarium In Evangelium Matthaei (Lib. 10-11)"
+ ],
+ "cts:tlg0317.tlg001": [
+  "Acta Joannis",
+  "Acta Joannis"
+ ],
+ "cts:tlg1146.tlg001": [
+  "Antipater Tarsensis",
+  "Testimonia et Fragmenta"
+ ],
+ "cts:tlg1286.tlg002": [
+  "Hermetica",
+  "Dialogus (sine titulo)"
+ ],
+ "cts:tlg0636.tlg001": [
+  "Socrates Epistulae",
+  "Epistulae"
+ ],
+ "cts:tlg1551.tlg001": [
+  "Oracula Sibyllina",
+  "Oracula"
+ ],
+ "cts:tlg2038.tlg001": [
+  "Acta Thomae",
+  "Acta Thomae"
+ ],
+ "cts:tlg2042.tlg044": [
+  "Origenes",
+  "Fragmenta in Psalmos 1-150 [Dub.]"
+ ],
+ "cts:tlg4102.tlg046": [
+  "Catenae (Novum Testamentum)",
+  "Catena in epistulam Juda (catena Andreae) (e cod. Oxon. coll. nov. 58)"
+ ],
+ "cts:tlg2042.tlg075": [
+  "Origenes",
+  "Expositio in Proverbia (fragmenta e catenis)"
+ ],
+ "cts:tlg2042.tlg076": [
+  "Origenes",
+  "Scholia in Canticum canticorum"
+ ],
+ "cts:tlg2022.tlg003": [
+  "Gregory of Nazianzus",
+  "Christus Patiens [Dub.] (Fort. Auctore Constantino Manasse)"
+ ],
+ "cts:tlg2200.tlg00502": [
+  "Libanius",
+  "Declamatio 2"
+ ],
+ "cts:tlg0007.tlg007": [
+  "Plutarch",
+  "Solon"
+ ],
+ "cts:tlg2200.tlg00545": [
+  "Libanius",
+  "Declamatio 45"
+ ],
+ "cts:tlg0007.tlg140": [
+  "Plutarch",
+  "Adversus Coloten"
+ ],
+ "cts:tlg0062.tlg013": [
+  "Lucian of Samosata",
+  "Calumniae non temere credundum"
+ ],
+ "cts:tlg0062.tlg023": [
+  "Lucian of Samosata",
+  "Contemplantes"
+ ],
+ "cts:tlg0062.tlg030": [
+  "Lucian of Samosata",
+  "De parasito sive artem esse parasiticam"
+ ],
+ "cts:tlg4072.tlg002": [
+  "Eutocius",
+  "Commentarius in dimensionem circuli"
+ ],
+ "cts:tlg4174.tlg001": [
+  "Paraphrases in Dioynsium Periegetam",
+  "Paraphrases in Dioynsium Periegetam"
+ ],
+ "cts:tlg0062.tlg035": [
+  "Lucian of Samosata",
+  "Necyomantia"
+ ],
+ "cts:tlg0062.tlg042": [
+  "Lucian of Samosata",
+  "De Morte Peregrini"
+ ],
+ "cts:tlg5023.tlg013": [
+  "Scholia in Euripidem",
+  "Scholia in Euripidis Hippolytum"
+ ],
+ "cts:tlg5034.tlg001d": [
+  "Scholia in Pindarum",
+  "Scholia in Pindarum Isthmian Odes"
+ ],
+ "cts:tlg5034.tlg001b": [
+  "Scholia in Pindarum",
+  "Scholia in Pindarum Pythian Odes"
+ ],
+ "cts:tlg0086.tlg045": [
+  "Aristotle",
+  "On Virtues and Vices"
+ ],
+ "cts:tlg0062.tlg043": [
+  "Lucian of Samosata",
+  "Fugitivi"
+ ],
+ "cts:tlg0540.tlg002": [
+  "Lysias",
+  "Funeral Oration"
+ ],
+ "cts:tlg0094.tlg002": [
+  "Pseudo-Plutarch",
+  "De musica"
+ ],
+ "cts:tlg0006.tlg004": [
+  "Euripides",
+  "Heracleidae"
+ ],
+ "cts:tlg0627.tlg019": [
+  "Hippocrates",
+  "De natura hominis"
+ ],
+ "cts:tlg0579.tlg010": [
+  "Orphica",
+  "Fragmenta"
+ ],
+ "cts:stoa0121.stoa001": [
+  "Eutropius",
+  "Breviarium historiae romanae"
+ ],
+ "cts:tlg0087.tlg033": [
+  "Aelius Herodianus",
+  "Περὶ μονήρους λέξεως"
+ ],
+ "cts:tlg0014.tlg048": [
+  "Demosthenes",
+  "Against Olympiodorus"
+ ],
+ "cts:tlg0014.tlg053": [
+  "Demosthenes",
+  "Apollodorus Against Nicostratus"
+ ],
+ "cts:tlg0591.1st1K002": [
+  "Antisthenes",
+  "Odysseus"
+ ],
+ "cts:tlg2200.tlg00505": [
+  "Libanius",
+  "Declamatio 5"
+ ],
+ "cts:tlg2200.tlg00531": [
+  "Libanius",
+  "Declamatio 31"
+ ],
+ "cts:tlg2959.tlg002": [
+  "Methodius",
+  "De Libero Arbitrio"
+ ],
+ "cts:tlg3118.tlg002": [
+  "Syntipas",
+  "Narrationes de Syntipa"
+ ],
+ "cts:tlg0284.tlg055": [
+  "Aristides, Aelius",
+  "Orationes 55"
+ ],
+ "cts:tlg4029.tlg002": [
+  "Procopius",
+  "Historia Arcana"
+ ],
+ "cts:tlg0284.tlg001": [
+  "Aristides, Aelius",
+  "Orationes 1"
+ ],
+ "cts:tlg0556.tlg001": [
+  "Asclepiodotus",
+  "Tactica"
+ ],
+ "cts:tlg0540.tlg009": [
+  "Lysias",
+  "For The Soldier"
+ ],
+ "cts:tlg4102.tlg040": [
+  "Catenae (Novum Testamentum)",
+  "Catena In Epistulam Jacobi (Catena Andreae)"
+ ],
+ "cts:stoa0033a.tlg028": [
+  "Pseudo-Aristotle",
+  "De mundo"
+ ],
+ "cts:tlg0057.tlg003": [
+  "Galenus",
+  "Quod optimus medicus sit quoque philosophus"
+ ],
+ "cts:tlg0057.tlg034": [
+  "Galenus",
+  "De parvae pilae exercitio"
+ ],
+ "cts:tlg0057.tlg020": [
+  "Galenus",
+  "De utilitate respirationis"
+ ],
+ "cts:tlg0057.tlg052": [
+  "Galenus",
+  "De comate secundum Hippocratem"
+ ],
+ "cts:tlg0057.tlg015": [
+  "Galenus",
+  "De instrumento odoratus"
+ ],
+ "cts:tlg0057.tlg094": [
+  "Galenus",
+  "Adversus ea quae Juliano in Hippocratis Aphorismos enuntiata sunt"
+ ],
+ "cts:tlg0087.tlg002": [
+  "Aelius Herodianus",
+  "De enclisi"
+ ],
+ "cts:tlg0093.tlg010x09": [
+  "Theophrastus",
+  "Fragmenta varia"
+ ],
+ "cts:tlg0593.1st1K002": [
+  "Gorgias of Leontini",
+  "Defense of Palamedes"
+ ],
+ "cts:tlg0530.tlg005": [
+  "Pseudo-Galen",
+  "De fasciis"
+ ],
+ "cts:tlg0628.tlg003": [
+  "Musonius Rufus",
+  "Epistulae spuriae"
+ ],
+ "cts:tlg1134.tlg001": [
+  "Anonymous Iamblichi",
+  "Fragmenta"
+ ],
+ "cts:tlg1193.tlg001": [
+  "Ariston of Chios",
+  "Testimonia et Fragmenta"
+ ],
+ "cts:tlg2018.tlg010": [
+  "Eusebius of Caesarea",
+  "De Theophania (Fragmenta)"
+ ],
+ "cts:tlg0010.tlg008": [
+  "Isocrates",
+  "Against the Sophists"
+ ],
+ "cts:tlg1309.tlg001": [
+  "Dialexeis",
+  "Fragmenta"
+ ],
+ "cts:tlg2200.tlg00455": [
+  "Libanius",
+  "Oratio 55"
+ ],
+ "cts:tlg2200.tlg00407": [
+  "Libanius",
+  "Oratio 7"
+ ],
+ "cts:tlg0014.tlg007": [
+  "Demosthenes",
+  "On Halonnesus"
+ ],
+ "cts:tlg0014.tlg028": [
+  "Demosthenes",
+  "Against Aphobus II"
+ ],
+ "cts:tlg2200.tlg00523": [
+  "Libanius",
+  "Declamatio 23"
+ ],
+ "cts:tlg2601.tlg001": [
+  "Tiberius Rhetor",
+  "De figuris Demosthenicis"
+ ],
+ "cts:tlg4026.tlg003": [
+  "Anonymi in Aristotelis Artem Rhetoricam",
+  "Fragmentum paraphrasis in Aristotelis rhetorica"
+ ],
+ "cts:tlg4102.tlg042": [
+  "Catenae (Novum Testamentum)",
+  "Catena in epistulam Petri ii (catena Andreae) (e cod. Oxon. coll. nov. 58)"
+ ],
+ "cts:tlg0017.tlg001": [
+  "Isaeus",
+  "On The Estate of Cleonymus"
+ ],
+ "cts:tlg0284.tlg021": [
+  "Aristides, Aelius",
+  "Orationes 21"
+ ],
+ "cts:tlg0062.tlg069": [
+  "Lucian of Samosata",
+  "Dialogi meretricii"
+ ],
+ "cts:tlg0284.tlg053": [
+  "Aristides, Aelius",
+  "Orationes 53"
+ ],
+ "cts:tlg0540.tlg030": [
+  "Lysias",
+  "Against Nicomachus"
+ ],
+ "cts:tlg0007.tlg013": [
+  "Plutarch",
+  "Fabius Maximus"
+ ],
+ "cts:tlg0007.tlg141": [
+  "Plutarch",
+  "An Recte Dictum Sit Latenter Esse Vivendum"
+ ],
+ "cts:tlg0007.tlg117": [
+  "Plutarch",
+  "An seni respublica gerenda sit"
+ ],
+ "cts:tlg0007.tlg080": [
+  "Plutarch",
+  "De Superstitione"
+ ],
+ "cts:tlg0284.tlg008": [
+  "Aristides, Aelius",
+  "Orationes 8"
+ ],
+ "cts:tlg0641.tlg001": [
+  "Xenophon of Ephesus",
+  "Ephesiaca"
+ ],
+ "cts:tlg0652.tlg001": [
+  "Philostratus Minor",
+  "Imagines"
+ ],
+ "cts:tlg0061.tlg001": [
+  "Pseudo-Lucian",
+  "Asinus"
+ ],
+ "cts:tlg0527.tlg005": [
+  "Old Testament",
+  "Deuteronomy"
+ ],
+ "cts:tlg0527.tlg008": [
+  "Old Testament",
+  "Judges"
+ ],
+ "cts:tlg0527.tlg036": [
+  "Old Testament",
+  "Hosea"
+ ],
+ "cts:tlg0527.tlg039": [
+  "Old Testament",
+  "Joel"
+ ],
+ "cts:tlg0527.tlg013": [
+  "Old Testament",
+  "I Kings"
+ ],
+ "cts:tlg0527.tlg011": [
+  "Old Testament",
+  "I Samuel"
+ ],
+ "cts:tlg0018.tlg014": [
+  "Philo Judaeus",
+  "De Migratione Abrahami"
+ ],
+ "cts:tlg0527.tlg018": [
+  "Old Testament",
+  "2 Ezra"
+ ],
+ "cts:tlg0527.tlg020": [
+  "Old Testament",
+  "Judith"
+ ],
+ "cts:tlg0527.tlg027": [
+  "Old Testament",
+  "Psalms"
+ ],
+ "cts:tlg0527.tlg053": [
+  "Old Testament",
+  "Ezekiel"
+ ],
+ "cts:tlg0527.tlg048": [
+  "Old Testament",
+  "Isaiah"
+ ],
+ "cts:tlg0031.tlg001": [
+  "New Testament",
+  "Matthew"
+ ],
+ "cts:tlg0061.tlg004": [
+  "Pseudo-Lucian",
+  "Halcyon"
+ ],
+ "cts:tlg0031.tlg003": [
+  "New Testament",
+  "Luke"
+ ],
+ "cts:tlg0014.tlg060": [
+  "Demosthenes",
+  "The Funeral Speech"
+ ],
+ "cts:tlg3118.tlg001": [
+  "Syntipas",
+  "Syntipas (translatio Michael Andreopuli)"
+ ],
+ "cts:tlg2949.tlg001": [
+  "Acta Barnabae",
+  "Acta Barnabae"
+ ],
+ "cts:tlg1487.tlg002": [
+  "Maximus, Astrologus",
+  "Carminum de actionum auspiciis reliquiae (epitome)"
+ ],
+ "cts:tlg0086.tlg016": [
+  "Aristotle",
+  "De insomniis"
+ ],
+ "cts:tlg2034.tlg005": [
+  "Porphyrius",
+  "Ad Marcellam"
+ ],
+ "cts:tlg0066.tlg001": [
+  "Heraclides, Criticus",
+  "Descriptio Graeciae"
+ ],
+ "cts:tlg2200.tlg008": [
+  "Libanius",
+  "Characteres Epistolici [Sp.]"
+ ],
+ "cts:tlg2200.tlg00529": [
+  "Libanius",
+  "Declamatio 29"
+ ],
+ "cts:tlg0062.tlg020": [
+  "Lucian of Samosata",
+  "Prometheus"
+ ],
+ "cts:tlg0634.tlg001": [
+  "Xenocrates of Chalcedon",
+  "Fragmenta"
+ ],
+ "cts:tlg2018.tlg022": [
+  "Eusebius of Caesarea",
+  "De Laudibus Constantini"
+ ],
+ "cts:tlg2022.tlg009": [
+  "Gregory of Nazianzus",
+  "De Filio (Orat. 29)"
+ ],
+ "cts:tlg0638.tlg003": [
+  "Philostratus the Athenian",
+  "Lives of the Sophists"
+ ],
+ "cts:tlg0062.tlg008": [
+  "Lucian of Samosata",
+  "Demonax"
+ ],
+ "cts:tlg0007.tlg012": [
+  "Plutarch",
+  "Pericles"
+ ],
+ "cts:tlg0284.tlg003": [
+  "Aristides, Aelius",
+  "Orationes 3"
+ ],
+ "cts:tlg2200.tlg00512": [
+  "Libanius",
+  "Declamatio 12"
+ ],
+ "cts:tlg0007.tlg026": [
+  "Plutarch",
+  "Comparison of Aristides and Marcus Cato"
+ ],
+ "cts:tlg0007.tlg090": [
+  "Plutarch",
+  "De E apud Delphos"
+ ],
+ "cts:tlg0007.tlg130": [
+  "Plutarch",
+  "Bruta animalia ratione uti"
+ ],
+ "cts:tlg1447.tlg001": [
+  "Irenaeus, Saint, Bishop of Lyon",
+  "Libros quinque adversus haereses"
+ ],
+ "cts:tlg0031.tlg019": [
+  "New Testament",
+  "Hebrews"
+ ],
+ "cts:tlg0014.tlg061": [
+  "Demosthenes",
+  "The Erotic Essay"
+ ],
+ "cts:tlg0062.tlg014": [
+  "Lucian of Samosata",
+  "Judicium vocalium"
+ ],
+ "cts:tlg0284.tlg018": [
+  "Aristides, Aelius",
+  "Orationes 18"
+ ],
+ "cts:tlg0284.tlg044": [
+  "Aristides, Aelius",
+  "Orationes 44"
+ ],
+ "cts:tlg0719.tlg002": [
+  "Aretaeus of Cappadocia",
+  "De causis et signis diuturnorum morborum libri duo"
+ ],
+ "cts:tlg9006.tlg016": [
+  "Gregory II, of Cyprus, Patriarch of Constantinople",
+  "Declamatio de Atheniensium defensio (ad Libanii declamationem antilogia)"
+ ],
+ "cts:tlg0284.tlg031": [
+  "Aristides, Aelius",
+  "Orationes 31"
+ ],
+ "cts:tlg2003.tlg005": [
+  "Julian, Emperor of Rome",
+  "Letter to the Senate and the People of Athens"
+ ],
+ "cts:tlg0527.tlg019": [
+  "Old Testament",
+  "Esther"
+ ],
+ "cts:tlg0527.tlg038": [
+  "Old Testament",
+  "Micah"
+ ],
+ "cts:tlg0527.tlg041": [
+  "Old Testament",
+  "Jonah"
+ ],
+ "cts:tlg0527.tlg044": [
+  "Old Testament",
+  "Zephaniah"
+ ],
+ "cts:tlg1271.tlg002": [
+  "Clemens Romanus (Clement of Rome)",
+  "The Second Epistle of Clement to the Corinthians"
+ ],
+ "cts:tlg0527.tlg016": [
+  "Old Testament",
+  "II Chronicles"
+ ],
+ "cts:tlg1271.tlg001": [
+  "Clemens Romanus (Clement of Rome)",
+  "The First Epistle of Clement to the Corinthians"
+ ],
+ "cts:tlg0044.tlg001": [
+  "Antiochus Epistolographus",
+  "Epistulae"
+ ],
+ "cts:tlg0527.tlg035": [
+  "Old Testament",
+  "Psalmi Salomonis"
+ ],
+ "cts:tlg0527.tlg050": [
+  "Old Testament",
+  "Baruch"
+ ],
+ "cts:tlg0541.tlg042": [
+  "Menander",
+  "Sententiae (corresponds to version Men Ar I) (Greek)"
+ ],
+ "cts:tlg1443.tlg002": [
+  "Ignatius of Antioch",
+  "Epistulae interpolatae et epistulae suppositiciae (recensio longior) [Sp.]"
+ ],
+ "cts:tlg1551.tlg002": [
+  "Oracula Sibyllina",
+  "Fragmenta"
+ ],
+ "cts:tlg2035.tlg003": [
+  "Athanasius",
+  "De decretis Nicaenae synodi"
+ ],
+ "cts:tlg2018.tlg003": [
+  "Eusebius of Caesarea",
+  "De Martyribus Palaestinae (Recensio Brevior)"
+ ],
+ "cts:tlg2042.tlg054": [
+  "Origenes",
+  "Selecta in Jesum Nave"
+ ],
+ "cts:tlg0007.tlg079": [
+  "Plutarch",
+  "Septem sapientium convivium"
+ ],
+ "cts:tlg2959.tlg005": [
+  "Methodius",
+  "De Creatis (Fragmenta Ap. Photium, Bibl. Cod. 235)"
+ ],
+ "cts:tlg2042.tlg084": [
+  "Origenes",
+  "Fragmenta In Jeremiam (E Philocalia)"
+ ],
+ "cts:tlg2959.tlg006": [
+  "Methodius",
+  "Adversus Porphyrium (Fragmenta)"
+ ],
+ "cts:tlg0031.tlg011": [
+  "New Testament",
+  "Philippians"
+ ],
+ "cts:tlg2959.tlg007": [
+  "Methodius",
+  "Fragmenta In Job (In Catenis)"
+ ],
+ "cts:tlg0031.tlg023": [
+  "New Testament",
+  "1 John"
+ ],
+ "cts:tlg4102.tlg021": [
+  "Catenae (Novum Testamentum)",
+  "Catena In Epistulam Ad Philippenses (Typus Parisinus) (e cod. Coislin. 204)"
+ ],
+ "cts:tlg0031.tlg013": [
+  "New Testament",
+  "1 Thessalonians"
+ ],
+ "cts:tlg0031.tlg006": [
+  "New Testament",
+  "Romans"
+ ],
+ "cts:tlg0062.tlg029": [
+  "Lucian of Samosata",
+  "Somnium sive vita Luciani"
+ ],
+ "cts:tlg0014.tlg002": [
+  "Demosthenes",
+  "Second Olynthiac"
+ ],
+ "cts:tlg0031.tlg008": [
+  "New Testament",
+  "2 Corinthians"
+ ],
+ "cts:tlg2041.tlg001": [
+  "Marcellus of Ankara",
+  "Fragmenta"
+ ],
+ "cts:tlg0062.tlg062": [
+  "Lucian of Samosata",
+  "Scytha"
+ ],
+ "cts:tlg2003.tlg004": [
+  "Julian, Emperor of Rome",
+  "A Consolation to Himself Upon the Departure of the Excellent Sallust"
+ ],
+ "cts:tlg2200.tlg00511": [
+  "Libanius",
+  "Declamatio 11"
+ ],
+ "cts:tlg5023.tlg012": [
+  "Scholia in Euripidem",
+  "Scholia in Euripidis Troiades"
+ ],
+ "cts:tlg0007.tlg030": [
+  "Plutarch",
+  "Pyrrhus"
+ ],
+ "cts:tlg0007.tlg038": [
+  "Plutarch",
+  "Nicias"
+ ],
+ "cts:tlg0007.tlg108": [
+  "Plutarch",
+  "De Fato"
+ ],
+ "cts:tlg0057.tlg049": [
+  "Galenus",
+  "Adversus eos qui de typis scripserunt vel de circuitibus"
+ ],
+ "cts:tlg0010.tlg004": [
+  "Isocrates",
+  "Concerning the Team of Horses"
+ ],
+ "cts:tlg0593.1st1K001": [
+  "Gorgias of Leontini",
+  "Encomium of Helen"
+ ],
+ "cts:tlg0014.tlg015": [
+  "Demosthenes",
+  "For the Liberty of the Rhodians"
+ ],
+ "cts:tlg4102.tlg037": [
+  "Catenae (Novum Testamentum)",
+  "Catena In Epistulam Ad Philemonem (E Cod. Paris. Coislin. 204)"
+ ],
+ "cts:tlg2200.tlg00459": [
+  "Libanius",
+  "Oratio 59"
+ ],
+ "cts:tlg1665.tlg001": [
+  "Seniores Apud Irenaeum",
+  "Reliquiae plurium anonymorum"
+ ],
+ "cts:tlg5023.tlg011": [
+  "Scholia in Euripidem",
+  "Scholia in Euripidis Rhesum"
+ ],
+ "cts:tlg0014.tlg043": [
+  "Demosthenes",
+  "Against Macartatus"
+ ],
+ "cts:tlg0062.tlg001": [
+  "Lucian of Samosata",
+  "Phalaris"
+ ],
+ "cts:tlg0027.tlg004": [
+  "Andocides",
+  "Against Alcibiades"
+ ],
+ "cts:tlg0062.tlg025": [
+  "Lucian of Samosata",
+  "Piscator"
+ ],
+ "cts:tlg0062.tlg060": [
+  "Lucian of Samosata",
+  "Harmonides"
+ ],
+ "cts:tlg0062.tlg028": [
+  "Lucian of Samosata",
+  "Adversus indoctum et libros multos ementem"
+ ],
+ "cts:tlg0062.tlg052": [
+  "Lucian of Samosata",
+  "Abdicatus"
+ ],
+ "cts:tlg0284.tlg017": [
+  "Aristides, Aelius",
+  "Orationes 17"
+ ],
+ "cts:tlg0551.tlg004": [
+  "Appianus of Alexandria",
+  "Samnite History"
+ ],
+ "cts:tlg0551.tlg008": [
+  "Appianus of Alexandria",
+  "Hannibalic War"
+ ],
+ "cts:tlg0551.tlg005": [
+  "Appianus of Alexandria",
+  "Gallic History"
+ ],
+ "cts:tlg0527.tlg029": [
+  "Old Testament",
+  "Proverbs"
+ ],
+ "cts:tlg0527.tlg037": [
+  "Old Testament",
+  "Amos"
+ ],
+ "cts:tlg1216.tlg001": [
+  "Barnabae Epistula",
+  "The Epistle of Barnabas"
+ ],
+ "cts:tlg0086.tlg039": [
+  "Aristotle",
+  "De plantis"
+ ],
+ "cts:tlg0527.tlg028": [
+  "Old Testament",
+  "Odae"
+ ],
+ "cts:tlg0527.tlg057": [
+  "Old Testament",
+  "Daniel (Theodotionis versio)"
+ ],
+ "cts:tlg1286.tlg003": [
+  "Hermetica",
+  "Hieros logos"
+ ],
+ "cts:tlg1286.tlg001": [
+  "Hermetica",
+  "Poimandres"
+ ],
+ "cts:tlg1799.tlg012": [
+  "Euclid",
+  "Phaenomena"
+ ],
+ "cts:tlg1463.tlg001": [
+  "Liber Enoch",
+  "Apocalypsis Enochi"
+ ],
+ "cts:tlg1701.tlg002": [
+  "Testamentum Abrahae",
+  "Testamentum Abrahae (recensio B)"
+ ],
+ "cts:tlg1750.tlg001": [
+  "Vitae Prophetarum",
+  "De prophetarum vita et obitu (Dorothei recensio)"
+ ],
+ "cts:tlg0007.tlg015": [
+  "Plutarch",
+  "Alcibiades"
+ ],
+ "cts:tlg0007.tlg041": [
+  "Plutarch",
+  "Eumenes"
+ ],
+ "cts:tlg0031.tlg012": [
+  "New Testament",
+  "Colossians"
+ ],
+ "cts:tlg0031.tlg010": [
+  "New Testament",
+  "Ephesians"
+ ],
+ "cts:tlg0031.tlg020": [
+  "New Testament",
+  "James"
+ ],
+ "cts:tlg0062.tlg012": [
+  "Lucian of Samosata",
+  "Verae historiae"
+ ],
+ "cts:tlg1750.tlg002": [
+  "Vitae Prophetarum",
+  "De prophetarum vita et obitu (recensio anonyma)"
+ ],
+ "cts:tlg2042.tlg070": [
+  "Origenes",
+  "Adnotationes in Deuteronomium (fragmenta e catenis)"
+ ],
+ "cts:tlg2042.tlg045": [
+  "Origenes",
+  "Epistula ad Africanum"
+ ],
+ "cts:tlg2042.tlg053": [
+  "Origenes",
+  "Selecta in Deuteronomium"
+ ],
+ "cts:tlg4003.tlg001": [
+  "Marcianus, of Heraclea",
+  "Periplus maris exteri"
+ ],
+ "cts:tlg0548.tlg001": [
+  "Apollodorus",
+  "Library"
+ ],
+ "cts:tlg5031.tlg001": [
+  "Scholia in Nicandrum",
+  "Scholia et glossae in Nicandri theriaca (scholia vetera et recentiora)"
+ ],
+ "cts:tlg0018.tlg028": [
+  "Philo Judaeus",
+  "De Vita Contemplativa"
+ ],
+ "cts:tlg0057.tlg048": [
+  "Galenus",
+  "De typis"
+ ],
+ "cts:tlg0317.tlg002": [
+  "Acta Joannis",
+  "Acta Joannis (recensio)"
+ ],
+ "cts:tlg0656.tlg002": [
+  "Dioscurides Pedianus",
+  "Euporista vel De simplicibus medicinis"
+ ],
+ "cts:tlg2200.tlg00436": [
+  "Libanius",
+  "Oratio 36"
+ ],
+ "cts:tlg2200.tlg00426": [
+  "Libanius",
+  "Oratio 26"
+ ],
+ "cts:tlg0057.tlg103": [
+  "Galenus",
+  "De consuetudinibus"
+ ],
+ "cts:tlg2200.tlg00445": [
+  "Libanius",
+  "Oratio 45"
+ ],
+ "cts:tlg2200.tlg00427": [
+  "Libanius",
+  "Oratio 27"
+ ],
+ "cts:tlg2200.tlg00437": [
+  "Libanius",
+  "Oratio 37"
+ ],
+ "cts:tlg2200.tlg00454": [
+  "Libanius",
+  "Oratio 54"
+ ],
+ "cts:tlg2200.tlg00447": [
+  "Libanius",
+  "Oratio 47"
+ ],
+ "cts:tlg0006.tlg009": [
+  "Euripides",
+  "Hercules"
+ ],
+ "cts:tlg0006.tlg017": [
+  "Euripides",
+  "Bacchae"
+ ],
+ "cts:tlg0007.tlg052": [
+  "Plutarch",
+  "Tiberius and Caius Gracchus"
+ ],
+ "cts:tlg0028.tlg001": [
+  "Antiphon",
+  "Against the Stepmother for Poisoning"
+ ],
+ "cts:tlg4091.tlg001": [
+  "Callistratus",
+  "Descriptiones"
+ ],
+ "cts:tlg0284.tlg006": [
+  "Aristides, Aelius",
+  "Orationes 6"
+ ],
+ "cts:tlg2200.tlg00515": [
+  "Libanius",
+  "Declamatio 15"
+ ],
+ "cts:tlg2200.tlg00510": [
+  "Libanius",
+  "Declamatio 10"
+ ],
+ "cts:tlg2200.tlg00550": [
+  "Libanius",
+  "Declamatio 50"
+ ],
+ "cts:tlg0527.tlg031": [
+  "Old Testament",
+  "Canticle"
+ ],
+ "cts:tlg2200.tlg00542": [
+  "Libanius",
+  "Declamatio 42"
+ ],
+ "cts:tlg0646.tlg004": [
+  "Pseudo-Justinus Martyr",
+  "Epistula ad Diognetum"
+ ],
+ "cts:stoa0146d.stoa001": [
+  "Hegemonius",
+  "Acta Archelai"
+ ],
+ "cts:tlg0627.tlg024a": [
+  "Hippocrates",
+  "De genitura"
+ ],
+ "cts:tlg0537.tlg011": [
+  "Epicurus",
+  "Epistula ad Pythoclem"
+ ],
+ "cts:tlg1750.tlg003": [
+  "Vitae Prophetarum",
+  "De prophetarum vita et obitu (recensio scholiis Hesychii aliorumque patrum in prophetas adjecta)"
+ ],
+ "cts:tlg1286.tlg016": [
+  "Hermetica",
+  "Ὅροι Ἀσκληπιοῦ πρὸς Ἄμμωνα βασιλέα"
+ ],
+ "cts:tlg2042.tlg067": [
+  "Origenes",
+  "Adnotationes in Exodum"
+ ],
+ "cts:tlg2042.tlg077": [
+  "Origenes",
+  "Scholia in Matthaeum"
+ ],
+ "cts:tlg2200.tlg00432": [
+  "Libanius",
+  "Oratio 32"
+ ],
+ "cts:tlg2200.tlg00514": [
+  "Libanius",
+  "Declamatio 14"
+ ],
+ "cts:tlg2632.tlg001": [
+  "Comarius",
+  "De lapide philosophorum"
+ ],
+ "cts:tlg0074.tlg002": [
+  "Arrian",
+  "Indica"
+ ],
+ "cts:tlg2972.tlg001": [
+  "Anonymi de Terrae Motibus",
+  "Anonymi Dissertatio De Terrae Motibus"
+ ],
+ "cts:tlg4102.tlg024": [
+  "Catenae (Novum Testamentum)",
+  "Catena In Epistulam II Ad Thessalonicenses (Typus Parisinus)"
+ ],
+ "cts:tlg0284.tlg034": [
+  "Aristides, Aelius",
+  "Orationes 34"
+ ],
+ "cts:tlg0551.tlg006": [
+  "Appianus of Alexandria",
+  "Sicily and the Other Islands"
+ ],
+ "cts:tlg1600.tlg001": [
+  "Philostratus Sophista",
+  "Imagines"
+ ],
+ "cts:tlg5019.tlg001": [
+  "Scholia in Dionysium Periegetam",
+  "Scholia in Dionysii Byzantii per Bosporum navigationem (scholia vetera)"
+ ],
+ "cts:tlg0627.tlg008": [
+  "Hippocrates",
+  "De officina medici"
+ ],
+ "cts:tlg0086.tlg054": [
+  "Aristotle",
+  "Physica (textus alter)"
+ ],
+ "cts:tlg0363.tlg011": [
+  "Claudius Ptolemaeus",
+  "Musica"
+ ],
+ "cts:tlg0093.tlg010x04": [
+  "Theophrastus",
+  "De Lassitudine"
+ ],
+ "cts:tlg0559.tlg004": [
+  "Hero of Alexandria",
+  "Mechanicorum fragmenta"
+ ],
+ "cts:tlg0552.tlg010": [
+  "Archimedes",
+  "Ad Eratosthenem methodus"
+ ],
+ "cts:tlg0545.tlg004": [
+  "Aelian",
+  "Fragmenta"
+ ],
+ "cts:tlg1131.tlg001": [
+  "Anonymus Ad Avircium Marcellum contra Cataphrygas",
+  "Ad Avircium Marcellum contra Cataphrygas"
+ ],
+ "cts:tlg0559.tlg015": [
+  "Hero of Alexandria",
+  "Geodaesia [Sp.]"
+ ],
+ "cts:tlg1181.tlg001": [
+  "Aristarchus of Samos",
+  "De magnitudinibus et distantiis solis et lunae"
+ ],
+ "cts:tlg1264.tlg004": [
+  "Chrysippus",
+  "Fragmenta ad singulos libros relata"
+ ],
+ "cts:tlg1402.tlg003": [
+  "Hephaestion",
+  "De poematis"
+ ],
+ "cts:tlg1799.tlg011": [
+  "Euclid",
+  "Catoptrica (recensio Theonis?)"
+ ],
+ "cts:tlg1799.tlg009": [
+  "Euclid",
+  "Optica"
+ ],
+ "cts:tlg0014.tlg035": [
+  "Demosthenes",
+  "Against Lacritus"
+ ],
+ "cts:tlg0014.tlg040": [
+  "Demosthenes",
+  "Against Boeotus II"
+ ],
+ "cts:tlg1799.tlg015": [
+  "Euclid",
+  "Sectio canonis [Sp.]"
+ ],
+ "cts:tlg1799.tlg016": [
+  "Euclid",
+  "Fragmenta"
+ ],
+ "cts:tlg0014.tlg046": [
+  "Demosthenes",
+  "Against Stephanus II"
+ ],
+ "cts:tlg1719.tlg001": [
+  "Theodosius of Bithynia",
+  "Sphaerica"
+ ],
+ "cts:tlg2970.tlg001": [
+  "Severus Philosophus",
+  "Περὶ ψυχῆς (fragmentum)"
+ ],
+ "cts:tlg4072.tlg003": [
+  "Eutocius",
+  "Commentarius in libros de planorum aequilibriis"
+ ],
+ "cts:tlg5022.tlg004": [
+  "Scholia in Euclidem",
+  "Scholia in opticorum recensionem Theonis (scholia vetera)"
+ ],
+ "cts:tlg5022.tlg006": [
+  "Scholia in Euclidem",
+  "Scholia in Euclidis phaenomena"
+ ],
+ "cts:tlg0017.tlg009": [
+  "Isaeus",
+  "On the Estate of Astyphilus"
+ ],
+ "cts:tlg0031.tlg007": [
+  "New Testament",
+  "1 Corinthians"
+ ],
+ "cts:tlg0540.tlg020": [
+  "Lysias",
+  "For Polystratus"
+ ],
+ "cts:tlg0655.tlg001": [
+  "Parthenius of Nicaea",
+  "Narrationes Amatoriae"
+ ],
+ "cts:tlg0032.tlg008": [
+  "Xenophon",
+  "Hiero"
+ ],
+ "cts:tlg0062.tlg024": [
+  "Lucian of Samosata",
+  "Vitarum auctio"
+ ],
+ "cts:tlg0007.tlg037": [
+  "Plutarch",
+  "Comparison of Lucullus and Cimon"
+ ],
+ "cts:tlg2200.tlg00446": [
+  "Libanius",
+  "Oratio 46"
+ ],
+ "cts:tlg0007.tlg071": [
+  "Plutarch",
+  "Quomodo quis suos in virtute sentiat profectus"
+ ],
+ "cts:tlg0057.tlg040": [
+  "Galenus",
+  "De dignotione ex insomniis"
+ ],
+ "cts:tlg0057.tlg012": [
+  "Galenus",
+  "De ossibus ad tirones"
+ ],
+ "cts:tlg0057.tlg084": [
+  "Galenus",
+  "De substantia facultatum naturalium fragmentum"
+ ],
+ "cts:tlg0527.tlg040": [
+  "Old Testament",
+  "Obadiah"
+ ],
+ "cts:tlg0061.tlg002": [
+  "Pseudo-Lucian",
+  "Amores"
+ ],
+ "cts:tlg2042.tlg057": [
+  "Origenes",
+  "Selecta in Job"
+ ],
+ "cts:tlg0527.tlg045": [
+  "Old Testament",
+  "Haggai"
+ ],
+ "cts:tlg2200.tlg00530": [
+  "Libanius",
+  "Declamatio 30"
+ ],
+ "cts:tlg0693.tlg002": [
+  "Albinus",
+  "Introductio in Platonem"
+ ],
+ "cts:tlg2200.tlg00548": [
+  "Libanius",
+  "Declamatio 48"
+ ],
+ "cts:tlg0007.tlg085": [
+  "Plutarch",
+  "Parallela minora"
+ ],
+ "cts:tlg0559.tlg010": [
+  "Hero of Alexandria",
+  "Stereometrica"
+ ],
+ "cts:tlg0580.tlg001": [
+  "Paradoxographus Florentinus",
+  "Mirabilia de aquis"
+ ],
+ "cts:tlg2042.tlg066": [
+  "Origenes",
+  "Adnotationes in Genesim"
+ ],
+ "cts:tlg1271.tlg010": [
+  "Clemens Romanus (Clement of Rome)",
+  "Epistulae de virginitate [Sp.]"
+ ],
+ "cts:tlg2042.tlg013": [
+  "Origenes",
+  "De Engastrimytho (Homilia In I Reg. [I Sam.] 28.3-25)"
+ ],
+ "cts:tlg0057.tlg082": [
+  "Galenus",
+  "De sophismatis seu captionibus penes dictionem"
+ ],
+ "cts:tlg0627.tlg049": [
+  "Hippocrates",
+  "De medico"
+ ],
+ "cts:tlg0319.tlg004": [
+  "Critias",
+  "Fragmenta"
+ ],
+ "cts:tlg0007.tlg121": [
+  "Plutarch",
+  "Vitae decem oratorum"
+ ],
+ "cts:tlg1286.tlg006": [
+  "Hermetica",
+  "Ὅτι ἐν μόνῳ τῷ θεῷ τὸ ἀγαθόν ἐστιν, ἀλλαχόθι δὲ οὐδαμοῦ"
+ ],
+ "cts:tlg1286.tlg010": [
+  "Hermetica",
+  "Κλείς"
+ ],
+ "cts:tlg2027.tlg002": [
+  "Valerius Apsines",
+  "Περὶ τῶν ἐσχηματισμένων προβλημάτων"
+ ],
+ "cts:tlg0014.tlg003": [
+  "Demosthenes",
+  "Third Olynthiac"
+ ],
+ "cts:tlg0007.tlg128": [
+  "Plutarch",
+  "Aquane an ignis sit utilior"
+ ],
+ "cts:tlg0014.tlg029": [
+  "Demosthenes",
+  "Against Aphobus III"
+ ],
+ "cts:tlg0014.tlg030": [
+  "Demosthenes",
+  "Against Onetor I"
+ ],
+ "cts:tlg2034.tlg006": [
+  "Porphyrius",
+  "Isagoge Sive Quinque Voces"
+ ],
+ "cts:tlg0010.tlg001": [
+  "Isocrates",
+  "Against Euthynus"
+ ],
+ "cts:tlg2200.tlg00450": [
+  "Libanius",
+  "Oratio 50"
+ ],
+ "cts:tlg0081.tlg009": [
+  "Dionysius of Halicarnassus",
+  "De Dinarcho"
+ ],
+ "cts:tlg0081.tlg011": [
+  "Dionysius of Halicarnassus",
+  "De Thucydidis idiomatibus"
+ ],
+ "cts:tlg0548.tlg002": [
+  "Apollodorus",
+  "Epitome"
+ ],
+ "cts:tlg0007.tlg082a": [
+  "Plutarch",
+  "Instituta Laconia"
+ ],
+ "cts:tlg0032.tlg009": [
+  "Xenophon",
+  "Agesilaus"
+ ],
+ "cts:tlg0284.tlg012": [
+  "Aristides, Aelius",
+  "Orationes 12"
+ ],
+ "cts:tlg0010.tlg003": [
+  "Isocrates",
+  "Against Lochites"
+ ],
+ "cts:tlg0007.tlg101": [
+  "Plutarch",
+  "De Garrulitate"
+ ],
+ "cts:tlg0007.tlg125": [
+  "Plutarch",
+  "Quaestiones Naturales"
+ ],
+ "cts:tlg0032.tlg005": [
+  "Xenophon",
+  "Apology"
+ ],
+ "cts:tlg0059.tlg032": [
+  "Plato",
+  "Critias"
+ ],
+ "cts:tlg0062.tlg036": [
+  "Lucian of Samosata",
+  "De luctu"
+ ],
+ "cts:tlg1805.tlg007": [
+  "Vitae Homeri",
+  "Vita septima"
+ ],
+ "cts:tlg5031.tlg002": [
+  "Scholia in Nicandrum",
+  "Scholia et glossae in Nicandri alexipharmaca (scholia vetera et recentiora)"
+ ],
+ "cts:tlg0638.tlg006": [
+  "Philostratus the Athenian",
+  "Epistulae et dialexeis"
+ ],
+ "cts:tlg0731.tlg003": [
+  "Adamantius Judaeus",
+  "Physiognomonica (epitome Matritensis)"
+ ],
+ "cts:tlg0007.tlg008": [
+  "Plutarch",
+  "Publicola"
+ ],
+ "cts:tlg0007.tlg029": [
+  "Plutarch",
+  "Comparison of Philopoemen and Titus"
+ ],
+ "cts:tlg1692.tlg005": [
+  "Speusippus",
+  "Fragmenta"
+ ],
+ "cts:tlg0010.tlg006": [
+  "Isocrates",
+  "Aegineticus"
+ ],
+ "cts:tlg2042.tlg071": [
+  "Origenes",
+  "Adnotationes in Jesu filium Nave (fragmenta e catenis)"
+ ],
+ "cts:tlg0010.tlg026": [
+  "Isocrates",
+  "To Timotheus"
+ ],
+ "cts:tlg0010.tlg023": [
+  "Isocrates",
+  "To the Children of Jason"
+ ],
+ "cts:tlg1803.tlg001": [
+  "Bruti Epistulae",
+  "Epistulae"
+ ],
+ "cts:tlg2200.tlg00443": [
+  "Libanius",
+  "Oratio 43"
+ ],
+ "cts:tlg2200.tlg00525": [
+  "Libanius",
+  "Declamatio 25"
+ ],
+ "cts:tlg4003.tlg002": [
+  "Marcianus, of Heraclea",
+  "Menippi periplus maris interni (epitome Marciani)"
+ ],
+ "cts:tlg0010.tlg022": [
+  "Isocrates",
+  "To Dionysius"
+ ],
+ "cts:tlg0010.tlg027": [
+  "Isocrates",
+  "To Philip, I"
+ ],
+ "cts:tlg0017.tlg004": [
+  "Isaeus",
+  "On the Estate of Nicostratus"
+ ],
+ "cts:tlg0010.tlg028": [
+  "Isocrates",
+  "To Alexander"
+ ],
+ "cts:tlg0017.tlg012": [
+  "Isaeus",
+  "On Behalf of Euphiletus"
+ ],
+ "cts:tlg0014.tlg058": [
+  "Demosthenes",
+  "Against Theocrines"
+ ],
+ "cts:tlg0030.tlg001": [
+  "Hyperides",
+  "In Defence of Lycophron"
+ ],
+ "cts:tlg0030.tlg003": [
+  "Hyperides",
+  "Against Athenogenes"
+ ],
+ "cts:tlg0284.tlg015": [
+  "Aristides, Aelius",
+  "Orationes 15"
+ ],
+ "cts:tlg0540.tlg019": [
+  "Lysias",
+  "On the Property of Aristophanes"
+ ],
+ "cts:tlg0001.tlg001": [
+  "Apollonius Rhodius",
+  "Argonautica"
+ ],
+ "cts:tlg0284.tlg007": [
+  "Aristides, Aelius",
+  "Orationes 7"
+ ],
+ "cts:tlg0007.tlg103": [
+  "Plutarch",
+  "De Cupiditate Divitiarum"
+ ],
+ "cts:tlg0094.tlg001": [
+  "Pseudo-Plutarch",
+  "De Fluviis"
+ ],
+ "cts:tlg0545.tlg003": [
+  "Aelian",
+  "Epistulae Rusticae"
+ ],
+ "cts:tlg0007.tlg078": [
+  "Plutarch",
+  "Conjugalia Praecepta"
+ ],
+ "cts:tlg1799.tlg007": [
+  "Euclid",
+  "Data"
+ ],
+ "cts:tlg0007.tlg122": [
+  "Plutarch",
+  "Comparationis Aristophanis et Menandri compendium"
+ ],
+ "cts:tlg2583.tlg001": [
+  "Manetho Astrologus",
+  "Apotelesmatica"
+ ],
+ "cts:tlg0527.tlg033": [
+  "Old Testament",
+  "Sapientia Salomonis"
+ ],
+ "cts:tlg0527.tlg051": [
+  "Old Testament",
+  "Lamentations"
+ ],
+ "cts:tlg2042.tlg014": [
+  "Origenes",
+  "Fragmenta in Librum Primum Regnorum (In Catenis de Samuelis et Regnorum)"
+ ],
+ "cts:tlg2178.tlg002": [
+  "Cassius Longinus",
+  "Excerpta"
+ ],
+ "cts:tlg0007.tlg027": [
+  "Plutarch",
+  "Philopoemen"
+ ],
+ "cts:tlg0061.tlg007": [
+  "Pseudo-Lucian",
+  "Philopatris"
+ ],
+ "cts:tlg0627.tlg003": [
+  "Hippocrates",
+  "Prognosticon"
+ ],
+ "cts:tlg2042.tlg061": [
+  "Origenes",
+  "Fragmenta ex commentariis in Ezechielem"
+ ],
+ "cts:tlg0057.tlg039": [
+  "Galenus",
+  "De ptisana"
+ ],
+ "cts:tlg0031.tlg009": [
+  "New Testament",
+  "Galatians"
+ ],
+ "cts:tlg0031.tlg021": [
+  "New Testament",
+  "1 Peter"
+ ],
+ "cts:tlg0057.tlg068": [
+  "Galenus",
+  "De venae sectione adversus Erasistratum"
+ ],
+ "cts:tlg0627.tlg015": [
+  "Hippocrates",
+  "De humoribus"
+ ],
+ "cts:tlg0751.tlg034": [
+  "Pseudo-Hippocrates",
+  "De septimestri partu"
+ ],
+ "cts:tlg0627.tlg053": [
+  "Hippocrates",
+  "De diebus criticis"
+ ],
+ "cts:tlg0062.tlg051": [
+  "Lucian of Samosata",
+  "Tyrannicida"
+ ],
+ "cts:tlg4037.tlg001": [
+  "Anonymi Paradoxographi",
+  "De Incredibilibus (excerpta Vaticana)"
+ ],
+ "cts:tlg1286.tlg007": [
+  "Hermetica",
+  "Ὅτι μέγιστον κακὸν ἐν ἀνθρώποις ἡ περὶ τοῦ θεοῦ ἀγνωσία"
+ ],
+ "cts:tlg0061.tlg008": [
+  "Pseudo-Lucian",
+  "Charidemus"
+ ],
+ "cts:tlg0014.tlg012": [
+  "Demosthenes",
+  "Philip’s Letter"
+ ],
+ "cts:tlg0062.tlg009": [
+  "Lucian of Samosata",
+  "De Domo"
+ ],
+ "cts:tlg0284.tlg041": [
+  "Aristides, Aelius",
+  "Orationes 41"
+ ],
+ "cts:tlg0540.tlg007": [
+  "Lysias",
+  "On the Olive Stump"
+ ],
+ "cts:tlg0093.tlg010x06": [
+  "Theophrastus",
+  "De Sudore"
+ ],
+ "cts:tlg1129.tlg001": [
+  "Anonymi de Barbarismo et Soloecismo",
+  "De barbarismo et soloecismo"
+ ],
+ "cts:tlg0540.tlg015": [
+  "Lysias",
+  "Against Alcibiades 2"
+ ],
+ "cts:tlg2200.tlg00520": [
+  "Libanius",
+  "Declamatio 20"
+ ],
+ "cts:tlg2200.tlg00543": [
+  "Libanius",
+  "Declamatio 43"
+ ],
+ "cts:tlg2016.tlg001": [
+  "Martyrium Perpetuae et Felcitatis",
+  "Passio Perpetuae et Felicitatis"
+ ],
+ "cts:tlg0069.tlg001": [
+  "Dionysius, Calliphontis",
+  "Descriptio Graeciae"
+ ],
+ "cts:tlg0059.tlg033": [
+  "Plato",
+  "Minos"
+ ],
+ "cts:tlg0014.tlg049": [
+  "Demosthenes",
+  "Apollodorus Against Timotheus"
+ ],
+ "cts:tlg0552.tlg009": [
+  "Archimedes",
+  "Stomachion"
+ ],
+ "cts:tlg0627.tlg018": [
+  "Hippocrates",
+  "De arte"
+ ],
+ "cts:tlg1210.tlg001": [
+  "Autolycus",
+  "De Sphaera Quae Movetur"
+ ],
+ "cts:tlg0620.tlg002": [
+  "Archytas of Tarentum",
+  "Fragmenta"
+ ],
+ "cts:tlg0509.tlg001": [
+  "Myia",
+  "Epistula ad Phyllidem"
+ ],
+ "cts:tlg1750.tlg004": [
+  "Vitae Prophetarum",
+  "Index apostolorum discipulorumque Domini"
+ ],
+ "cts:tlg0649.tlg002": [
+  "Lesbonax (Rhetorician)",
+  "Protrepticus A"
+ ],
+ "cts:tlg1626.tlg001": [
+  "Polycrates Ephesius",
+  "Fragmentum Synodicae Epistulae"
+ ],
+ "cts:tlg0540.tlg024": [
+  "Lysias",
+  "On The Refusal Of A Pension"
+ ],
+ "cts:tlg2042.tlg050": [
+  "Origenes",
+  "Selecta in Exodum"
+ ],
+ "cts:tlg0007.tlg065": [
+  "Plutarch",
+  "Galba"
+ ],
+ "cts:tlg0007.tlg034": [
+  "Plutarch",
+  "Comparison of Lysander and Sulla"
+ ],
+ "cts:tlg0007.tlg105": [
+  "Plutarch",
+  "De Invidia et Odio"
+ ],
+ "cts:tlg0062.tlg003": [
+  "Lucian of Samosata",
+  "Bacchus"
+ ],
+ "cts:tlg0019.tlg007": [
+  "Aristophanes",
+  "Lysistrata"
+ ],
+ "cts:tlg0284.tlg043": [
+  "Aristides, Aelius",
+  "Orationes 43"
+ ],
+ "cts:tlg0030.tlg005": [
+  "Hyperides",
+  "Against Demosthenes"
+ ],
+ "cts:tlg1271.tlg005": [
+  "Clemens Romanus (Clement of Rome)",
+  "Epistula Clementis ad Jacobum [Sp.]"
+ ],
+ "cts:tlg0057.tlg114": [
+  "Galenus",
+  "De causis respirationis"
+ ],
+ "cts:tlg5023.tlg010": [
+  "Scholia in Euripidem",
+  "Vitae Euripidis"
+ ],
+ "cts:tlg0537.tlg012": [
+  "Epicurus",
+  "Epistula ad Menoeceum"
+ ],
+ "cts:tlg0014.tlg052": [
+  "Demosthenes",
+  "Apollodorus Against Callippus"
+ ],
+ "cts:tlg0627.tlg041": [
+  "Hippocrates",
+  "De dentitione"
+ ],
+ "cts:tlg2034.tlg027": [
+  "Porphyrius",
+  "Historia philosophiae (fragmenta)"
+ ],
+ "cts:tlg0071.tlg001": [
+  "Pseudo-Arrianus",
+  "Anonymi (Arriani, ut fertur) periplus maris Erythraei"
+ ],
+ "cts:tlg0031.tlg015": [
+  "New Testament",
+  "1 Timothy"
+ ],
+ "cts:tlg0031.tlg018": [
+  "New Testament",
+  "Philemon"
+ ],
+ "cts:tlg0540.tlg008": [
+  "Lysias",
+  "Accusation of Calumny"
+ ],
+ "cts:tlg2200.tlg00442": [
+  "Libanius",
+  "Oratio 42"
+ ],
+ "cts:tlg1443.tlg001": [
+  "Ignatius of Antioch",
+  "Epistles"
+ ],
+ "cts:tlg0086.tlg018": [
+  "Aristotle",
+  "De iuventute et senectute, De vita et morte"
+ ],
+ "cts:tlg0062.tlg027": [
+  "Lucian of Samosata",
+  "De Sacrificiis"
+ ],
+ "cts:tlg2021.tlg003": [
+  "Epiphanius",
+  "Anacephalaeosis [Sp.]"
+ ],
+ "cts:tlg2135.tlg001": [
+  "Alypius",
+  "Isagoge musica"
+ ],
+ "cts:tlg0014.tlg005": [
+  "Demosthenes",
+  "On the Peace"
+ ],
+ "cts:tlg0649.tlg003": [
+  "Lesbonax (Rhetorician)",
+  "Protrepticus B"
+ ],
+ "cts:tlg0527.tlg054": [
+  "Old Testament",
+  "Susanna (translatio Graeca)"
+ ],
+ "cts:tlg0062.tlg006": [
+  "Lucian of Samosata",
+  "Muscae Encomium"
+ ],
+ "cts:tlg0062.tlg040": [
+  "Lucian of Samosata",
+  "Pro imaginibus"
+ ],
+ "cts:tlg2200.tlg00410": [
+  "Libanius",
+  "Oratio 10"
+ ],
+ "cts:tlg0014.tlg055": [
+  "Demosthenes",
+  "Against Callicles"
+ ],
+ "cts:tlg2200.tlg00409": [
+  "Libanius",
+  "Oratio 9"
+ ],
+ "cts:tlg2200.tlg00429": [
+  "Libanius",
+  "Oratio 29"
+ ],
+ "cts:tlg4026.tlg002": [
+  "Anonymi in Aristotelis Artem Rhetoricam",
+  "Fragmentum commentarii in Aristotelis rhetorica"
+ ],
+ "cts:tlg0540.tlg011": [
+  "Lysias",
+  "Against Theomnestus 2"
+ ],
+ "cts:tlg0007.tlg086": [
+  "Plutarch",
+  "De fortuna Romanorum"
+ ],
+ "cts:tlg0062.tlg046": [
+  "Lucian of Samosata",
+  "Lexiphanes"
+ ],
+ "cts:tlg0068.tlg001": [
+  "Pseudo-Scymnus",
+  "Ad Nicomedem regem, vv. 1-980"
+ ],
+ "cts:tlg0077.tlg001": [
+  "Stadiasmus Magni Maris",
+  "Stadiasmus Magni Maris"
+ ],
+ "cts:tlg0540.tlg025": [
+  "Lysias",
+  "Defense Against a Charge of Subverting the Democracy"
+ ],
+ "cts:tlg0031.tlg014": [
+  "New Testament",
+  "2 Thessalonians"
+ ],
+ "cts:tlg2200.tlg00537": [
+  "Libanius",
+  "Declamatio 37"
+ ],
+ "cts:tlg2200.tlg00456": [
+  "Libanius",
+  "Oratio 56"
+ ],
+ "cts:tlg2200.tlg00538": [
+  "Libanius",
+  "Declamatio 38"
+ ],
+ "cts:tlg0007.tlg006": [
+  "Plutarch",
+  "Comparison of Lycurgus and Numa"
+ ],
+ "cts:tlg0007.tlg088": [
+  "Plutarch",
+  "De gloria Atheniensium"
+ ],
+ "cts:tlg0007.tlg062": [
+  "Plutarch",
+  "Comparison of Dion and Brutus"
+ ],
+ "cts:tlg0062.tlg056": [
+  "Lucian of Samosata",
+  "Herodotus"
+ ],
+ "cts:tlg1311.tlg001": [
+  "Didache",
+  "Didache"
+ ],
+ "cts:tlg2200.tlg00522": [
+  "Libanius",
+  "Declamatio 22"
+ ],
+ "cts:tlg2200.tlg00508": [
+  "Libanius",
+  "Declamatio 8"
+ ],
+ "cts:tlg0059.tlg029": [
+  "Plato",
+  "Cleitophon"
+ ],
+ "cts:tlg0653.tlg001": [
+  "Aratus Solensis",
+  "Phaenomena"
+ ],
+ "cts:tlg1409.opp003": [
+  "Heraclides Ponticus",
+  "Epitoma to Res Publica Atheniensium"
+ ],
+ "cts:tlg1252.tlg002": [
+  "Certamen Homeri et Hesiodi",
+  "Certamen Homeri et Hesiodi"
+ ],
+ "cts:tlg0358.tlg002": [
+  "Nicomachus Gerasenus",
+  "Harmonicum enchiridion"
+ ],
+ "cts:tlg2200.tlg00453": [
+  "Libanius",
+  "Oratio 53"
+ ],
+ "cts:tlg2200.tlg00460": [
+  "Libanius",
+  "Oratio 60"
+ ],
+ "cts:tlg4075.tlg002": [
+  "Marinus, 5th century",
+  "Commentarium in Euclidis data"
+ ],
+ "cts:tlg0007.tlg040": [
+  "Plutarch",
+  "Comparison of Nicias and Crassus"
+ ],
+ "cts:tlg0358.tlg005": [
+  "Nicomachus Gerasenus",
+  "Problemata arithmetica"
+ ],
+ "cts:tlg1664.tlg001": [
+  "Seniores Alexandrini",
+  "Fragmenta"
+ ],
+ "cts:tlg0007.tlg046": [
+  "Plutarch",
+  "Comparison of Agesilaus and Pompey"
+ ],
+ "cts:tlg0029.tlg006": [
+  "Dinarchus",
+  "Against Philocles"
+ ],
+ "cts:tlg0535.tlg001": [
+  "Demades",
+  "On the Twelve Years"
+ ],
+ "cts:tlg0540.tlg005": [
+  "Lysias",
+  "For Callias"
+ ],
+ "cts:tlg2200.tlg00536": [
+  "Libanius",
+  "Declamatio 36"
+ ],
+ "cts:tlg0540.tlg029": [
+  "Lysias",
+  "Against Philocrates"
+ ],
+ "cts:tlg1681.tlg001": [
+  "Solonis Epistulae",
+  "Epistulae"
+ ],
+ "cts:tlg2200.tlg00539": [
+  "Libanius",
+  "Declamatio 39"
+ ],
+ "cts:tlg0540.tlg031": [
+  "Lysias",
+  "Against Philon"
+ ],
+ "cts:tlg0007.tlg120": [
+  "Plutarch",
+  "De vitando aere alieno"
+ ],
+ "cts:tlg0085.tlg003": [
+  "Aeschylus",
+  "Prometheus Bound"
+ ],
+ "cts:tlg2200.tlg00524": [
+  "Libanius",
+  "Declamatio 24"
+ ],
+ "cts:tlg0551.tlg002": [
+  "Appianus of Alexandria",
+  "Kings"
+ ],
+ "cts:tlg1801.tlg001": [
+  "Parodica Anonyma",
+  "Incertorum fragmenta"
+ ],
+ "cts:tlg0007.tlg074": [
+  "Plutarch",
+  "De fortuna"
+ ],
+ "cts:tlg0087.tlg018": [
+  "Aelius Herodianus",
+  "Μονόβιβλον περὶ τοῦ μὴ πάντα τὰ ῥήματα κλίνεσθαι εἰς πάντας τοὺς χρόνους"
+ ],
+ "cts:tlg0357.tlg001": [
+  "Didymus Alexandrinus",
+  "Mensurae marmorum ac lignorum"
+ ],
+ "cts:tlg0092.tlg001": [
+  "Anonymi Geographiae Expositio Compendiaria",
+  "Geographiae expositio compendiaria"
+ ],
+ "cts:tlg0550.tlg001": [
+  "Apollonius of Perga",
+  "Conica"
+ ],
+ "cts:tlg0361.tlg001": [
+  "Cleonides",
+  "Introductio Harmonica"
+ ],
+ "cts:tlg0284.tlg002": [
+  "Aristides, Aelius",
+  "Orationes 2"
+ ],
+ "cts:tlg0540.tlg033": [
+  "Lysias",
+  "Olympic Oration"
+ ],
+ "cts:tlg0284.tlg040": [
+  "Aristides, Aelius",
+  "Orationes 40"
+ ],
+ "cts:tlg0540.tlg018": [
+  "Lysias",
+  "On the Confiscation of the Property Of The Brother Of Nicias"
+ ],
+ "cts:tlg0540.tlg016": [
+  "Lysias",
+  "In Defense of Mantitheus"
+ ],
+ "cts:tlg0551.tlg013": [
+  "Appianus of Alexandria",
+  "Syrian Wars"
+ ],
+ "cts:tlg0540.tlg021": [
+  "Lysias",
+  "Defense Against A Charge Of Taking Bribes"
+ ],
+ "cts:tlg0540.tlg027": [
+  "Lysias",
+  "Against Epicrates and his Fellow-envoys"
+ ],
+ "cts:tlg1805.tlg005": [
+  "Vitae Homeri",
+  "Vita quinta"
+ ],
+ "cts:tlg0033.tlg002": [
+  "Pindar",
+  "Pythian"
+ ],
+ "cts:tlg0081.tlg007": [
+  "Dionysius of Halicarnassus",
+  "Libri secundi de antiquis oratoribus reliquiae"
+ ],
+ "cts:tlg0551.tlg012": [
+  "Appianus of Alexandria",
+  "Illyrian Wars"
+ ],
+ "cts:tlg2178.tlg004": [
+  "Cassius Longinus",
+  "Fragmenta"
+ ],
+ "cts:tlg0552.tlg013": [
+  "Archimedes",
+  "Fragmenta"
+ ],
+ "cts:tlg0007.tlg009": [
+  "Plutarch",
+  "Comparison of Solon and Publicola"
+ ],
+ "cts:tlg0062.tlg011": [
+  "Lucian of Samosata",
+  "Macrobii"
+ ],
+ "cts:tlg0540.tlg004": [
+  "Lysias",
+  "On A Wound By Premeditation"
+ ],
+ "cts:tlg0010.tlg030": [
+  "Isocrates",
+  "To Philip, II"
+ ],
+ "cts:tlg0540.tlg023": [
+  "Lysias",
+  "Against Pancleon"
+ ],
+ "cts:tlg0087.tlg035": [
+  "Aelius Herodianus",
+  "De Figuris"
+ ],
+ "cts:tlg2039.tlg004": [
+  "Diophantus Alexandrinus",
+  "Fragmentum [Sp.] (e cod. Paris. 453)"
+ ],
+ "cts:tlg2691.tlg002": [
+  "Musaeus, Eleusinius",
+  "Fragmenta"
+ ],
+ "cts:tlg4102.tlg036": [
+  "Catenae (Novum Testamentum)",
+  "Catena In Epistulam Ad Titum (E Cod. Paris. Coislin. 204)"
+ ],
+ "cts:tlg4102.tlg006": [
+  "Catenae (Novum Testamentum)",
+  "Supplementum et varietas lectionis ad catenam in evangelium sancti Lucae (e cod. Oxon. Bodl. Laud. 33)"
+ ],
+ "cts:tlg0006.tlg005": [
+  "Euripides",
+  "Hippolytus"
+ ],
+ "cts:tlg5022.tlg005": [
+  "Scholia in Euclidem",
+  "Scholia in Euclidis catoptrica (scholia vetera)"
+ ],
+ "cts:tlg0012.tlg001": [
+  "Homer",
+  "Iliad"
+ ],
+ "cts:tlg0012.tlg002": [
+  "Homer",
+  "Odyssey"
+ ],
+ "cts:tlg0199.tlg001": [
+  "Bacchylides",
+  "Epinicians"
+ ],
+ "cts:tlg0606.tlg001": [
+  "Rufus Soph.",
+  "Ars rhetorica"
+ ],
+ "cts:tlg0007.tlg104": [
+  "Plutarch",
+  "De Vitioso Pudore"
+ ],
+ "cts:tlg0007.tlg056": [
+  "Plutarch",
+  "Comparison of Demosthenes and Cicero"
+ ],
+ "cts:tlg0551.tlg011": [
+  "Appianus of Alexandria",
+  "Macedonian Affairs"
+ ],
+ "cts:tlg2200.tlg00461": [
+  "Libanius",
+  "Oratio 61"
+ ],
+ "cts:tlg2200.tlg00509": [
+  "Libanius",
+  "Declamatio 9"
+ ],
+ "cts:tlg0014.tlg031": [
+  "Demosthenes",
+  "Against Onetor II"
+ ],
+ "cts:tlg2042.tlg012": [
+  "Origenes",
+  "Fragmentum In Lamentationes (In Catenis de Octateucho)"
+ ],
+ "cts:tlg0284.tlg005": [
+  "Aristides, Aelius",
+  "Orationes 5"
+ ],
+ "cts:tlg0045.tlg001": [
+  "Artaxerxis Epistulae",
+  "Epistulae"
+ ],
+ "cts:tlg0618.tlg001": [
+  "Antigoni Epistula",
+  "Epistula"
+ ],
+ "cts:tlg0093.tlg010x07": [
+  "Theophrastus",
+  "De Animi Defectione"
+ ],
+ "cts:tlg1699.tlg005": [
+  "Teles Megarenesis",
+  "Περὶ συγκρίσεως πενίας καὶ πλούτου"
+ ],
+ "cts:tlg0013.tlg003": [
+  "Hymni Homerici",
+  "Hymn 3 to Delian and Pythian Apollo"
+ ],
+ "cts:tlg0005.tlg001": [
+  "Theocritus",
+  "Εἰδύλλια"
+ ],
+ "cts:tlg0005.tlg002": [
+  "Theocritus",
+  "Ἐπιγράμματα"
+ ],
+ "cts:tlg0013.tlg004": [
+  "Hymni Homerici",
+  "Hymn 4 to Hermes"
+ ],
+ "cts:tlg0022.tlg001": [
+  "Nicander of Colophon",
+  "Theriaca"
+ ],
+ "cts:tlg4102.tlgX01": [
+  "Catenae (Novum Testamentum)",
+  "Prooemium Pseudo-Oecumenii In Apocalypsin Commentarii (E Cod.)"
+ ],
+ "cts:tlg0013.tlg005": [
+  "Hymni Homerici",
+  "Hymn 5 to Aphrodite"
+ ],
+ "cts:tlg0084.tlg001": [
+  "Dionysius Periegetes",
+  "Orbis Descriptio"
+ ],
+ "cts:tlg0013.tlg007": [
+  "Hymni Homerici",
+  "Hymn 7 to Dionysus"
+ ],
+ "cts:tlg0020.tlg001": [
+  "Hesiod",
+  "Theogony"
+ ],
+ "cts:tlg0024.tlg001": [
+  "Oppian of Apamea",
+  "Cynegetica"
+ ],
+ "cts:tlg0013.tlg019": [
+  "Hymni Homerici",
+  "Hymn 19 to Pan"
+ ],
+ "cts:tlg0035.tlg004": [
+  "Moschus",
+  "Megara"
+ ],
+ "cts:tlg0647.tlg001": [
+  "Tryphiodorus",
+  "The Taking of Ilios"
+ ],
+ "cts:tlg2046.tlg001": [
+  "Quintus Smyrnaeus",
+  "Fall of Troy"
+ ],
+ "cts:tlg2045.tlg001": [
+  "Nonnus of Panopolis",
+  "Dionysiaca"
+ ],
+ "cts:tlg0062.tlg058": [
+  "Lucian of Samosata",
+  "Pro lapsu inter salutandum"
+ ],
+ "cts:tlg0061.tlg006": [
+  "Pseudo-Lucian",
+  "Cynicus"
+ ],
+ "cts:tlg0062.tlg004": [
+  "Lucian of Samosata",
+  "Hercules"
+ ],
+ "cts:tlg5022.tlg003": [
+  "Scholia in Euclidem",
+  "Scholia in Euclidis optica (scholia vetera)"
+ ],
+ "cts:tlg1447.tlg009": [
+  "Irenaeus, Saint, Bishop of Lyon",
+  "Fragmenta Synodicae Epistulae."
+ ],
+ "cts:tlg0527.tlg042": [
+  "Old Testament",
+  "Nahum"
+ ],
+ "cts:tlg1271.tlg003": [
+  "Clemens Romanus (Clement of Rome)",
+  "Epistula Petri ad Jacobum [Sp.]"
+ ],
+ "cts:tlg0062.tlg002": [
+  "Lucian of Samosata",
+  "Hippias"
+ ],
+ "cts:tlg1319.tlg002": [
+  "Diogenes of Apollonia",
+  "Fragmenta"
+ ],
+ "cts:tlg0627.tlg020": [
+  "Hippocrates",
+  "De salubri diaeta"
+ ],
+ "cts:tlg2200.tlg00435": [
+  "Libanius",
+  "Oratio 35"
+ ],
+ "cts:ogl0001.ogl001": [
+  "Pinytus, Saint, Bishop of Knossos",
+  "De Epistola Pinyti ad Dionysium"
+ ],
+ "cts:tlg0093.tlg010x08": [
+  "Theophrastus",
+  "De Nervorum Resolutione"
+ ],
+ "cts:tlg2029.tlg001": [
+  "Anonymi summaria ratio geographiae in sphaera intelligendae",
+  "Anonymi summaria ratio geographiae in sphaera intelligendae"
+ ],
+ "cts:tlg0627.tlg047": [
+  "Hippocrates",
+  "De visu"
+ ],
+ "cts:tlg0023.tlg001": [
+  "Oppian",
+  "Halieutica"
+ ],
+ "cts:tlg0527.tlg047": [
+  "Old Testament",
+  "Malachi"
+ ],
+ "cts:tlg0011.tlg002": [
+  "Sophocles",
+  "Antigone"
+ ],
+ "cts:tlg0028.tlg003": [
+  "Antiphon",
+  "The Second Tetralogy"
+ ],
+ "cts:tlg0540.tlg017": [
+  "Lysias",
+  "On The Property Of Eraton"
+ ],
+ "cts:tlg0022.tlg002": [
+  "Nicander of Colophon",
+  "Alexipharmaca"
+ ],
+ "cts:tlg0062.tlg010": [
+  "Lucian of Samosata",
+  "Patriae encomium"
+ ],
+ "cts:tlg0064.tlg001": [
+  "Hanno",
+  "Periplus Hannonis"
+ ],
+ "cts:tlg0062.tlg054": [
+  "Lucian of Samosata",
+  "Dipsades"
+ ],
+ "cts:tlg0062.tlg061": [
+  "Lucian of Samosata",
+  "Hesiod"
+ ],
+ "cts:tlg0014.tlg038": [
+  "Demosthenes",
+  "Against Nausimachus and Xenopeithes"
+ ],
+ "cts:tlg1765.tlg004": [
+  "Vitae Aesopi",
+  "Vita Aesopi (fort. auctore Aphthonio)"
+ ],
+ "cts:tlg2050.tlg001": [
+  "Eunapius",
+  "Vitae Sophistarum"
+ ],
+ "cts:tlg0046.tlg001": [
+  "Niciae Epistula",
+  "Epistula"
+ ],
+ "cts:tlg2200.tlg00404": [
+  "Libanius",
+  "Oratio 4"
+ ],
+ "cts:tlg0062.tlg041": [
+  "Lucian of Samosata",
+  "De Syria dea"
+ ],
+ "cts:tlg0028.tlg004": [
+  "Antiphon",
+  "The Third Tetralogy"
+ ],
+ "cts:tlg0059.tlg037": [
+  "Plato",
+  "Definitiones"
+ ],
+ "cts:tlg9006.tlg001": [
+  "Gregory II, of Cyprus, Patriarch of Constantinople",
+  "Paroemiae"
+ ],
+ "cts:tlg2200.tlg00535": [
+  "Libanius",
+  "Declamatio 35"
+ ],
+ "cts:tlg0627.tlg029": [
+  "Hippocrates",
+  "De haemorrhoidibus"
+ ],
+ "cts:tlg0057.tlg035": [
+  "Galenus",
+  "De venereis"
+ ],
+ "cts:tlg0751.tlg005": [
+  "Pseudo-Hippocrates",
+  "Ἑρμηνεία περὶ ἐνεργῶν λίθων"
+ ],
+ "cts:tlg2200.tlg00527": [
+  "Libanius",
+  "Declamatio 27"
+ ],
+ "cts:tlg0075.tlg001": [
+  "Pseudo-Arrianus",
+  "Anonymi (Arriani, ut fertur) periplus ponti Euxini"
+ ],
+ "cts:tlg2200.tlg00434": [
+  "Libanius",
+  "Oratio 34"
+ ],
+ "cts:tlg2200.tlg00551": [
+  "Libanius",
+  "Declamatio 51"
+ ],
+ "cts:tlg1699.tlg008": [
+  "Teles Megarenesis",
+  "Περὶ ἀπαθείας"
+ ],
+ "cts:tlg0062.tlg005": [
+  "Lucian of Samosata",
+  "Electrum"
+ ],
+ "cts:tlg0036.tlg001": [
+  "Bion of Phlossa",
+  "Epitaphius Adonis"
+ ],
+ "cts:tlg0007.tlg137": [
+  "Plutarch",
+  "Compendium argumenti Stoicos absurdiora poetis dicere"
+ ],
+ "cts:tlg0007.tlg020": [
+  "Plutarch",
+  "Comparison of Timoleon and Aemilius"
+ ],
+ "cts:tlg0284.tlg004": [
+  "Aristides, Aelius",
+  "Orationes 4"
+ ],
+ "cts:tlg0551.tlg003": [
+  "Appianus of Alexandria",
+  "Italy"
+ ],
+ "cts:tlg0638.tlg005": [
+  "Philostratus the Athenian",
+  "Nero"
+ ],
+ "cts:tlg1286.tlg005": [
+  "Hermetica",
+  "Πρὸς Τὰτ υἱόν ὅτι ἀφανὴς θεὸς φανερώτατός ἐστιν"
+ ],
+ "cts:tlg2200.tlg00448": [
+  "Libanius",
+  "Oratio 48"
+ ],
+ "cts:tlg0036.tlg003": [
+  "Bion of Phlossa",
+  "Fragmenta"
+ ],
+ "cts:tlg0632.tlg002": [
+  "Pythagoras",
+  "Epistulae"
+ ],
+ "cts:tlg2136.tlg001": [
+  "Bacchius Geron",
+  "Isagoge artis musicae"
+ ],
+ "cts:tlg0007.tlg114": [
+  "Plutarch",
+  "Amatoriae Narrationes"
+ ],
+ "cts:tlg0007.tlg106": [
+  "Plutarch",
+  "De Se Ipsum Citra Invidiam Laudando"
+ ],
+ "cts:tlg2200.tlg00507": [
+  "Libanius",
+  "Declamatio 7"
+ ],
+ "cts:tlg2039.tlg005": [
+  "Diophantus Alexandrinus",
+  "Fragmentum [Sp.] (e cod. Paris. gr. 2448)"
+ ],
+ "cts:tlg0284.tlg011": [
+  "Aristides, Aelius",
+  "Orationes 11"
+ ],
+ "cts:tlg4036.tlg023": [
+  "Proclus",
+  "Chrestomathy"
+ ],
+ "cts:tlg1562.tlg002": [
+  "Parmenides",
+  "Fragmenta"
+ ],
+ "cts:tlg4102.tlg045": [
+  "Catenae (Novum Testamentum)",
+  "Catena in epistulam Joannis iii (catena Andreae) (e cod. Oxon. coll. nov. 58)"
+ ],
+ "cts:tlg1596.tlg002": [
+  "Philolaus of Croton",
+  "Fragmenta"
+ ],
+ "cts:tlg0575.tlg001": [
+  "Moschion Gnomologus",
+  "Sententiae"
  ]
 }

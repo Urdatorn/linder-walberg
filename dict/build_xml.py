@@ -339,7 +339,7 @@ def compile_entries(entries_path: Path, pages: Path, with_greek: bool = True) ->
     for eid, head, rest, e in parsed:
         where.setdefault((fold(head), e["page"]), eid)
         where.setdefault((fold(re.sub(r"\(([^)]*)\)", "", head)), e["page"]), eid)
-    return out + front_matter(pages) + index_locorum(where)
+    return out + front_matter(pages) + index_locorum(where) + author_entries()
 
 
 def write_apple(records: list[dict], path: Path) -> None:
@@ -398,15 +398,47 @@ def index_locorum(where: dict[tuple[str, str], str]) -> list[dict]:
                              f'{esc(w["title"])}</div>')
             for l in w["loci"]:
                 n += 1
-                parts.append(f'<div class="locus"><span class="gk">{esc(l["greek"])}</span> → '
+                # passages as LSJ gives them: "18.200" for a speech, "1.2.3" for book, chapter, section
+                cites = [f'{w["abbr"]}.{c}' if w["abbr"].isdigit() and c else c for c in l.get("cites", [])]
+                cite = f'<span class="loc-cite">{esc(", ".join(cites))}</span> ' if cites else ""
+                parts.append(f'<div class="locus">{cite}<span class="gk">{esc(l["greek"])}</span> → '
                              + ", ".join(link(e) for e in l["entries"]) + '</div>')
     intro = (f'<p class="note">{n} grekiska exempel ur lexikonet, återfunna ordagrant hos {len(authors)} antika '
-             'författare (i alfabetisk ordning, namn och förkortningar enligt LSJ) genom jämförelse med korpusen '
-             'AncientGreek. Varje ställe länkar till de artiklar där exemplet står. Fraser som förekommer i fler än tio '
-             'texter räknas som gängse uttryck och är inte med.</p>')
+             'författare, i alfabetisk ordning med namn och förkortningar enligt LSJ. Ställena är sökta i de grekiska '
+             'texterna i Perseus och First1KGreek, och hänvisningarna följer dessa utgåvors indelning. Varje ställe '
+             'länkar till de artiklar där exemplet står. Fraser som förekommer hos fler än tre författare räknas som '
+             'gängse uttryck och är inte med.</p>')
     return [{"id": "lw_locorum", "title": "Index locorum",
              "keys": [("Index locorum", "Index locorum"), ("Ställeregister", "Index locorum")],
              "html": f'<h1 class="hw">Index locorum</h1>\n{intro}<div class="loci">{keep_spaces("".join(parts))}</div>\n'}]
+
+
+def author_entries() -> list[dict]:
+    """The two authors, from their Swedish Wikipedia articles (dict/authors.json,
+    CC BY-SA 4.0, with the revision the text was taken from)."""
+    path = HERE / "authors.json"
+    if not path.exists():
+        return []
+    out = []
+    for a in json.loads(path.read_text(encoding="utf-8")):
+        first, last = a["title"].rsplit(" ", 1)
+        body = []
+        for block in re.split(r"\n\s*\n", a["text"]):
+            for line in block.split("\n"):
+                line = line.strip()
+                h = re.fullmatch(r"(=+)\s*(.*?)\s*=+", line)
+                if h:
+                    body.append(f'<h3 class="bio-head">{html.escape(h.group(2))}</h3>')
+                elif line:
+                    body.append(f"<p>{html.escape(line)}</p>")
+        credit = (f'<p class="note">Text från svenska Wikipedia, artikeln '
+                  f'<a href="{html.escape(a["url"], quote=True)}">{html.escape(a["title"])}</a> '
+                  f'(version {a["revid"]}, {a["timestamp"][:10]}), licens CC BY-SA 4.0.</p>')
+        out.append({"id": f"lw_{last.lower()}", "title": f"{last}, {first}",
+                    "keys": [(f"{last}, {first}", f"{last}, {first}"), (a["title"], f"{last}, {first}"),
+                             (last, f"{last}, {first}")],
+                    "html": f'<h1 class="hw">{html.escape(a["title"])}</h1>\n<div class="front">{"".join(body)}{credit}</div>\n'})
+    return out
 
 
 def front_matter(pages: Path) -> list[dict]:
@@ -422,7 +454,7 @@ def front_matter(pages: Path) -> list[dict]:
         {"id": "front_matter", "title": "Svenskt-grekiskt lexikon",
          "keys": [("Svenskt-grekiskt lexikon", "Svenskt-grekiskt lexikon"), ("Linder Walberg", "Linder Walberg")],
          "html": '<h1 class="hw">Svenskt-grekiskt lexikon</h1>\n'
-                 '<div class="front"><p class="byline">af C. Linder och C. W. Walberg. Upsala 1862.</p>'
+                 '<div class="front"><p class="byline">af <a href="x-dictionary:r:lw_linder">C. W. Linder</a> och <a href="x-dictionary:r:lw_walberg">C. A. Walberg</a>. Upsala 1862.</p>'
                  '<p>Uppslag på svenska ord; grekiska ord söks fram till de svenska artiklar som återger dem. '
                  'Se <a href="x-dictionary:r:lw_preface">Förord</a>, <a href="x-dictionary:r:lw_abbr">Förkortningar</a> '
                  'och <a href="x-dictionary:r:lw_locorum">Index locorum</a>.</p>'
