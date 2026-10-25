@@ -20,3 +20,6 @@ page	printed_page	column	line	entry	printed	corrected	source	status	note
 0009	5			Afledning	ἔξαγωγή	ἐξαγωγή	proofreading	accepted	checked in a physical copy: rough breathing as printed
 0009	5			Aflelse	σύλληψις, ἡ..	σύλληψις, ἡ.	proofreading	accepted	double stop
 0009	5			Aflysa	νόμον. ψήφισμα	νόμον, ψήφισμα	proofreading	ambiguous	full stop between list items where a comma is expected; the book also separates alternatives with full stops
+0252	248			Lit	sätta stor l. till ngu	sätta stor l. till ngn	proofreading	accepted	ngu for ngn (någon), as printed; confirmed by the editor
+0263	259			Läskdryck	gifva ngu en l.	gifva ngn en l.	proofreading	accepted	ngu for ngn (någon), as printed; confirmed by the editor
+0355	351			Reda	taga r. på ngu	taga r. på ngn	proofreading	accepted	ngu for ngn (någon), as printed; confirmed by the editor

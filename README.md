@@ -21,33 +21,33 @@ För den som är intresserad av att fortsätta förbättra OCR-modeller för ant
 
 ## Metod
 
-Every page exists in two layers, aligned strip by strip:
+Varje sida finns i två lager, som är alignade remsa för remsa:
 
-- **diplomatic**: what the page prints, letter for letter, with accents, breathings and the
-  printer's misprints;
-- **corrected**: the same text with the editorial corrections applied, from three sources:
-  - the book's own *Tryckfel* list;
-  - misprints found in proofreading;
-  - accent, breathing and spelling fixes to the Greek that formal rules or the attested corpus of
-    Greek forms leave no doubt about.
+- **diplomatiskt**: det som står tryckt på sidan, bokstav för bokstav, med accenter, spiritus och
+  sättarens tryckfel;
+- **rättat**: samma text med de redaktionella rättelserna införda, hämtade ur tre källor:
+  - bokens egen *Tryckfel*-förteckning;
+  - tryckfel som upptäcktes vid korrekturläsningen;
+  - rättelser av accenter, spiritus och stavning i grekiskan, där de formella reglerna eller den
+    belagda korpusen av grekiska former inte lämnar något tvivel.
 
-The 1862 spelling is kept (*hvar*, *af*, *qvinna*). The search finds modern spellings too. The
-book's abbreviations are explained where they occur, from its own list on p. 540.
+Stavningen från 1862 behålls (*hvar*, *af*, *qvinna*), men sökningen hittar även moderna stavningar.
+Bokens förkortningar förklaras där de förekommer, utifrån dess egen förteckning på s. 540.
 
-## How it was made
+## Så gjordes utgåvan
 
-| step | where | |
+| steg | var | |
 |---|---|---|
-| OCR | [`ocr/`](ocr/) | Each page cut into strips and read by a vision-language model fine-tuned for Greek and Latin print ([CLLG/Qwen3VL-8B-synth_real](https://huggingface.co/CLLG/Qwen3VL-8B-synth_real)). Decoding was constrained so that Swedish headwords cannot come out in Greek letters. |
-| cleaning | [`ocr/clean.py`](ocr/clean.py) | Word-level alignment with Runeberg's 2013 OCR, to settle the Swedish |
-| proofreading | [`proof/`](proof/) | All 540 pages proofread strip by strip by language-model agents (Claude), each comparing the text with the page image |
-| the Greek | [`ocr/greek_checks.py`](ocr/greek_checks.py), [`corrections/`](corrections/) | Checks of breathings, accents and their place, grave before a following word, enclitics, and attestation of every form in a 6.5-million-form lexicon and in LSJ |
-| corrections | [`ocr/apply_corrections.py`](ocr/apply_corrections.py) | Each correction checked in context, and rejected if it adds a problem elsewhere |
-| Index locorum | [`locorum/`](locorum/) | The Greek quotations traced to their sources by searching the Perseus and First1KGreek texts. They are cited by LSJ's names and abbreviations, and a quotation counts only if it has at least two nouns or verbs, as tagged by [Stoicheia](https://huggingface.co/Ericu950/Stoicheia-tagger-parser). There are 77 authors. |
-| editions | [`dict/`](dict/), [`app/`](app/), [`hf/`](hf/) | Dictionary.app, StarDict, MDict, the web app and the dataset, all built from `text/corrected` |
+| OCR | [`ocr/`](ocr/) | Varje sida delades upp i remsor som lästes av en vision-language-modell finetunad för grekiskt och latinskt tryck ([CLLG/Qwen3VL-8B-synth_real](https://huggingface.co/CLLG/Qwen3VL-8B-synth_real)). Avkodningen begränsades så att svenska uppslagsord inte kan komma ut med grekiska bokstäver. |
+| tvätt | [`ocr/clean.py`](ocr/clean.py) | Alignment på ordnivå mot Runebergs OCR från 2013, för att fastställa svenskan |
+| korrekturläsning | [`proof/`](proof/) | Alla 540 sidor korrekturlästa remsa för remsa av språkmodellsagenter (Claude), som var och en jämförde texten med sidbilden |
+| grekiskan | [`ocr/greek_checks.py`](ocr/greek_checks.py), [`corrections/`](corrections/) | Kontroll av spiritus, accenter och deras placering, gravis före följande ord, enklitika, samt att varje form är belagd i ett lexikon med 6,5 miljoner former och i LSJ |
+| rättelser | [`ocr/apply_corrections.py`](ocr/apply_corrections.py) | Varje rättelse prövades i sitt sammanhang och avvisades om den skapade ett problem någon annanstans |
+| Index locorum | [`locorum/`](locorum/) | De grekiska citaten spårades till sina källor genom sökning i texterna från Perseus och First1KGreek. De anförs med LSJ:s namn och förkortningar, och ett citat räknas bara om det innehåller minst två substantiv eller verb, enligt taggningen från [Stoicheia](https://huggingface.co/Ericu950/Stoicheia-tagger-parser). Sammanlagt 77 författare. |
+| utgåvor | [`dict/`](dict/), [`app/`](app/), [`hf/`](hf/) | Dictionary.app, StarDict, MDict, webbappen och datasetet, alla byggda från `text/corrected` |
 
-The two authors have entries of their own, from *Svenskt biografiskt handlexikon* (1906), with
-their portraits.
+De två författarna har egna artiklar, hämtade ur *Svenskt biografiskt handlexikon* (1906), med
+sina porträtt.
 
 ## Building
 
