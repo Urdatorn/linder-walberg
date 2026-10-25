@@ -407,7 +407,8 @@ def index_locorum(where: dict[tuple[str, str], str]) -> list[dict]:
              'författare, i alfabetisk ordning med namn och förkortningar enligt LSJ. Ställena är sökta i de grekiska '
              'texterna i Perseus och First1KGreek, och hänvisningarna följer dessa utgåvors indelning. Varje ställe '
              'länkar till de artiklar där exemplet står. Fraser som förekommer hos fler än tre författare räknas som '
-             'gängse uttryck och är inte med.</p>')
+             'gängse uttryck och är inte med, inte heller fraser med färre än två substantiv eller verb '
+             '(ordklasser enligt Stoicheia).</p>')
     return [{"id": "lw_locorum", "title": "Index locorum",
              "keys": [("Index locorum", "Index locorum"), ("Ställeregister", "Index locorum")],
              "html": f'<h1 class="hw">Index locorum</h1>\n{intro}<div class="loci">{keep_spaces("".join(parts))}</div>\n'}]
