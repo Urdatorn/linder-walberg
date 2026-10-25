@@ -111,7 +111,7 @@ const Sync = (() => {
                    file(FILE, JSON.stringify({ format: "linder-walberg favoriter 1", items }, null, 1))];
     if (first) lines.push(file("README.md",
       "Favoriter från Svenskt-grekiskt lexikon (Linder & Walberg 1862), sparade av appen\n" +
-      "https://urdatorn-svenskt-grekiskt-lexikon.static.hf.space så att de följer med mellan enheter.\n" +
+      "https://urdatorn-linder-walberg.static.hf.space så att de följer med mellan enheter.\n" +
       "Datasetet kan raderas; favoriterna finns kvar på enheterna.\n"));
     const r = await api(`/api/datasets/${account().user}/${REPO}/commit/main`, {
       method: "POST", headers: { "Content-Type": "application/x-ndjson" },
