@@ -175,9 +175,11 @@ def run(entries: list[dict], known, lsj: set[str]) -> list[dict]:
         for w_i, k in enumerate(words):
             s, end, w = toks[k]
             # prefixes and endings cited as such: "ἀπο-", "-σθαι", "(δια)κρίνειν"
+            # prefixes and endings cited as such: "ἀπο-", "-σθαι", "(δια)κρίνειν", "(ἀπο-, κατα)σφάττειν",
+            # and the rest of a compound after a bracket ("δι(εξ)ελθεῖν")
             if script(w) != "greek" or text[end:end + 1] in "-‐" or (s and text[s - 1] in "-‐") \
-                    or (text[end:end + 1] == ")" and s and text[s - 1] == "(" and
-                        re.match(r"[^\W\d_]", text[end + 1:end + 2] or " ")):
+                    or (text[end:end + 1] == ")" and re.match(r"[^\W\d_]", text[end + 1:end + 2] or " ")) \
+                    or (s and text[s - 1] == ")" and s > 1 and re.match(r"[^\W\d_]", text[s - 2])):
                 continue
             # "(δι)εσχίσθαι", "(ἐν-, ἐφ-, προσ)αρμόττειν": prefixes in brackets belong to the word
             pre = re.search(r"\((?:[^()]*?[\s,-])?([^\W\d_]+)\)$", text[:s])

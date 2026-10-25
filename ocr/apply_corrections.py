@@ -5,7 +5,9 @@ Sources, in order (a later edit to the same spot is skipped, not stacked):
   corrections/errata.tsv          the Tryckfel list and confirmed misprints
   corrections/auto.tsv            obvious fixes from errata.py
   corrections/review_items.json   the remaining findings; every one with a
-                                  clean proposal is accepted (misprints,
+                                  clean proposal is accepted, unless it would
+                                  add an accent or breathing error the print
+                                  does not have (then it is rejected) (misprints,
                                   diacritic, accent-rule and one-letter
                                   suspects). Proposals that are notes rather
                                   than text ("possibly an old spelling",
@@ -77,19 +79,46 @@ def merge_edit(x: str, y: str) -> str | None:
 GREEK_LETTER = re.compile(r"[\u0370-\u03ff\u1f00-\u1fff]")
 
 
-def place_accent(word: str, after: str) -> str:
-    """A grave on the last word of a correction stays only before another Greek
-    word; before punctuation, Swedish or the end it is an acute (a proposal
-    taken from a lexicon may carry the grave of running text: προσβατὸς)."""
-    d = unicodedata.normalize("NFD", word)
-    i = d.rfind("\u0300")
-    if i < 0 or not GREEK_LETTER.search(word):
-        return word
-    tail = d[i + 1:]
-    last_syllable = not any(unicodedata.normalize("NFD", c)[0] in "αεηιουω" for c in tail if not unicodedata.combining(c))
-    if last_syllable and re.match(r"\s+[\u0370-\u03ff\u1f00-\u1fff]", after):
-        return word
-    return unicodedata.normalize("NFC", d[:i] + "\u0301" + d[i + 1:])
+def place_accent(new: str, after: str) -> str:
+    """The last word of a correction keeps a grave only before another Greek word;
+    before punctuation, Swedish or the end it takes an acute (a proposal taken
+    from a lexicon may carry the grave of running text: προσβατὸς). Words
+    inside the correction are left as proposed (κατὰ τὴν χώραν)."""
+    m = re.search(r"(\S+)$", new)
+    if not m or not GREEK_LETTER.search(m.group(1)):
+        return new
+    word = unicodedata.normalize("NFD", m.group(1))
+    i = word.rfind("\u0300")
+    if i < 0 or re.match(r"\s+[\u0370-\u03ff\u1f00-\u1fff]", after):
+        return new
+    tail = word[i + 1:]
+    if any(unicodedata.normalize("NFD", c)[0] in "αεηιουω" for c in tail if not unicodedata.combining(c)):
+        return new                         # not the last syllable: leave it
+    return new[:m.start()] + unicodedata.normalize("NFC", word[:i] + "\u0301" + word[i + 1:])
+
+
+def _problems(text: str, start: int, end: int) -> collections.Counter:
+    """Formal accent and breathing findings for the Greek words overlapping text[start:end]."""
+    from clean import WORD, script, tokens
+    from greek_checks import word_findings
+    toks = [t for t in tokens(text) if WORD.match(t[2])]
+    out = collections.Counter()
+    for k, (s0, e0, w) in enumerate(toks):
+        if e0 <= start or s0 >= end or script(w) != "greek":
+            continue
+        nxt = toks[k + 1] if k + 1 < len(toks) else None
+        gap = text[e0:nxt[0]] if nxt else "."
+        prev = toks[k - 1][2] if k else None
+        out.update(f"{kind} ({w})" for kind, _ in word_findings(w, prev, nxt[2] if nxt else None, gap))
+    return out
+
+
+def new_problems(text: str, start: int, end: int, new: str) -> str:
+    """What a correction would break: findings in the corrected passage that the printed one lacks."""
+    before = _problems(text, start, end)
+    after = _problems(text[:start] + new + text[end:], start, start + len(new))
+    worse = after - before
+    return ", ".join(sorted(worse)) if worse else ""
 
 
 def clean_proposal(item: dict) -> str | None:
@@ -139,12 +168,17 @@ def main() -> None:
         sid, start = found
         end = start + len(printed)
         new = place_accent(new, strips[sid][end:end + 3])
+        worse = new_problems(strips[sid], start, end, new)
+        if worse:
+            row.update(strip=sid, status="rejected", note=(row.get("note") or "") + f" [rejected: would add {worse}]")
+            return
         row["strip"] = sid
         if any(not (end <= a or start >= b) for a, b, _ in edits[sid]):
             row["status"] = "overlap"
             return
         edits[sid].append((start, end, new))
         row["status"] = "applied"
+        row["_edit"] = (start, end, new)
 
     def near(page: str, strip: str | None = None) -> list[str]:
         pages = [f"{int(page) + d:04d}" for d in (0, -1, 1)]
@@ -178,11 +212,35 @@ def main() -> None:
             place(row, near(it["p"], strip), it["x"].strip().removeprefix("~ "), new, it.get("ctx", "").strip("…").strip())
         rows.append(row)
 
+    # Each edit was checked alone; edits near each other can still combine badly
+    # (λευκαί l. πολιαὶ -> λευκαὶ l. πολιαί). Check every corrected strip against
+    # the printed one and undo, one at a time, edits that leave new problems.
     args.out.mkdir(parents=True, exist_ok=True)
-    for sid, t in strips.items():
-        for start, end, new in sorted(edits[sid], reverse=True):
-            t = t[:start] + new + t[end:]
-        (args.out / f"{sid}.txt").write_text(t, encoding="utf-8")
+    undone = 0
+    for sid, t0 in strips.items():
+        kept = sorted(edits[sid])
+        def build(es):
+            t = t0
+            for start, end, new in sorted(es, reverse=True):
+                t = t[:start] + new + t[end:]
+            return t
+        base = _problems(t0, 0, len(t0))
+        extra = _problems(build(kept), 0, len(build(kept))) - base
+        while extra and kept:
+            best = min(range(len(kept)), key=lambda i: sum(
+                (_problems(build(kept[:i] + kept[i + 1:]), 0, 10 ** 9) - base).values()))
+            trial = kept[:best] + kept[best + 1:]
+            trial_extra = _problems(build(trial), 0, 10 ** 9) - base
+            if sum(trial_extra.values()) >= sum(extra.values()):
+                break
+            for r in rows:
+                if r.get("strip") == sid and r.get("status") == "applied" and r.get("_edit") == kept[best]:
+                    r["status"] = "rejected"
+                    r["note"] = (r.get("note") or "") + " [rejected: combined with a nearby correction it adds an accent error]"
+            kept, extra = trial, trial_extra
+            undone += 1
+        (args.out / f"{sid}.txt").write_text(build(kept), encoding="utf-8")
+    print("edits undone after checking whole strips:", undone)
 
     db = args.corrections / "errata.sqlite"
     db.unlink(missing_ok=True)
