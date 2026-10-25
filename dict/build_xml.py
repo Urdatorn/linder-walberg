@@ -81,7 +81,7 @@ def headword_of(text: str) -> tuple[str, str]:
     """The headword and the rest of the entry."""
     # the headword ends at its comma, or at a stop the printer set in its place
     # before the Greek ("Hufvudsats. ἡ πρώτη θέσις")
-    m = re.match(rf"([^,;:(]+?(?:\([^)]{{1,4}}\)[^,;:(]*)?)(,\s*|\.\s+(?=[{GREEK}(])|\s+(?=se\s)|\s*(?=\()|$)", text)
+    m = re.match(rf"([^,;:(]+?(?:\([^)]{{1,4}}\)[^,;:(]*)?)(,\s*|\.\s+(?=[{GREEK}(])|\s+(?=[{GREEK}])|\s+(?=se\s)|\s*(?=\()|$)", text)
     if not m:
         return text.split(" ", 1)[0], text.split(" ", 1)[1] if " " in text else ""
     return m.group(1).strip(), text[m.end():]
@@ -98,7 +98,11 @@ def index_forms(head: str, rest: str) -> list[str]:
             k = max((i for i in range(1, len(stem)) if stem[i:].lower() and suffix[:1] == stem[i:i + 1].lower()),
                     default=None)
             forms.append(stem[:k] + suffix if k else stem + suffix)
-    return list(dict.fromkeys(f.strip() for f in forms if f.strip()))
+    out = {}
+    for f in (f.strip() for f in forms):
+        if f:
+            out.setdefault(fold(f), f)      # one key per form as the index folds it
+    return list(out.values())
 
 
 def load_modern() -> dict[str, list[str]]:
@@ -112,6 +116,11 @@ def load_modern() -> dict[str, list[str]]:
         key, modern = line.split("\t")
         out[key] = [m for m in modern.split(" | ") if m]
     return out
+
+
+def fold(s: str) -> str:
+    """A string as Dictionary.app's index compares it: no case, no accents."""
+    return "".join(c for c in unicodedata.normalize("NFD", s.lower()) if not unicodedata.combining(c))
 
 
 def entry_id(n: int) -> str:
@@ -266,11 +275,21 @@ def keep_spaces(markup: str) -> str:
     return re.sub(r"((?:</(?:span|a|b|i)>)+)([ \t]+)(?=<)", r"\2\1", markup)
 
 
+def citation_form(w: str) -> str:
+    """A Greek word as one looks it up: the grave of running text made acute,
+    and the extra accent an enclitic throws onto it (ἐκδύεσθαί τι) dropped."""
+    d = unicodedata.normalize("NFD", w).replace("\u0300", "\u0301")
+    accents = [k for k, c in enumerate(d) if c in "\u0301\u0342"]
+    if len(accents) == 2:
+        d = d[:accents[1]] + d[accents[1] + 1:]
+    return unicodedata.normalize("NFC", d)
+
+
 def greek_index(text: str) -> list[str]:
-    """Greek words worth looking up: content words of the entry, lemma-like."""
+    """Greek words worth looking up: content words of the entry, in citation form."""
     words = []
-    for w in re.findall(rf"[{GREEK}][{GREEK}̀-ͯ]+", text):
-        w = unicodedata.normalize("NFC", w)
+    for w in re.findall(rf"[{GREEK}][{GREEK}\u0300-\u036f]+", text):
+        w = citation_form(unicodedata.normalize("NFC", w))
         if len(w) >= 3 and w not in STOP_INDEX:
             words.append(w)
     return list(dict.fromkeys(words))
@@ -308,8 +327,13 @@ def main() -> None:
             for f in forms:
                 out.write(f'<d:index d:value="{html.escape(f, quote=True)}" d:title="{html.escape(f, quote=True)}"/>\n')
             # the same word in modern spelling (Avbryta for Afbryta) finds it too
+            # Dictionary.app folds case and accents in its index: a modern form
+            # that differs only so ("Kanon" for the stress-marked "Kánon") would
+            # be a duplicate key, skipped with a warning
+            folded = {fold(f) for f in forms}
             for m in modern.get(" | ".join(forms), []):
-                if m not in forms:
+                if fold(m) not in folded:
+                    folded.add(fold(m))
                     out.write(f'<d:index d:value="{html.escape(m, quote=True)}" d:title="{title}"/>\n')
             if not args.no_greek_index:
                 for w in greek_index(rest):
