@@ -1,6 +1,7 @@
 # Build the Linder-Walberg dictionary for macOS Dictionary.app.
 #   make          generate the XML and compile the bundle
 #   make install  copy it to ~/Library/Dictionaries
+#   make release  zip the bundle for a GitHub release (../../dist/LinderWalberg-macOS.zip)
 # Needs Apple's Dictionary Development Kit ("Additional Tools for Xcode").
 
 DICT_NAME      = LinderWalberg
@@ -14,7 +15,7 @@ export MACOSX_DEPLOYMENT_TARGET = 10.13
 # build_dict.sh fetches the plist DTD over the network; use the local copy
 export XML_CATALOG_FILES = $(CURDIR)/xml-catalog.xml
 
-.PHONY: all xml install clean
+.PHONY: all xml install release clean
 
 all: xml
 	$(BUILD_DICT) $(DICT_NAME) $(DICT_SRC) $(DICT_CSS) $(DICT_PLIST)
@@ -29,6 +30,13 @@ install: all
 	rm -rf "$(INSTALL_DIR)/$(DICT_NAME).dictionary"
 	cp -R $(DICT_NAME).dictionary "$(INSTALL_DIR)/"
 	@echo "Installed. Enable 'Svenskt-grekiskt lexikon' in Dictionary > Settings."
+
+# ditto, not zip: it packs a bundle so that it unpacks intact on another Mac
+release: all
+	mkdir -p ../../dist
+	rm -f ../../dist/$(DICT_NAME)-macOS.zip
+	ditto -c -k --keepParent $(DICT_NAME).dictionary ../../dist/$(DICT_NAME)-macOS.zip
+	@echo "Written: dist/$(DICT_NAME)-macOS.zip"
 
 clean:
 	rm -rf objects $(DICT_NAME).dictionary $(DICT_SRC)

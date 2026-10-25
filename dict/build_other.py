@@ -117,6 +117,11 @@ def main() -> None:
     titles = {r["id"]: r["title"] for r in records}
     stardict(records, titles, args.out / "stardict/LinderWalberg")
     mdict(records, titles, args.out / "mdict")
+    # one zip per format for a release: LinderWalberg-StarDict.zip, LinderWalberg-MDict.zip
+    for name, folder in (("StarDict", args.out / "stardict"), ("MDict", args.out / "mdict")):
+        zipped = args.out / f"LinderWalberg-{name}.zip"
+        zipped.unlink(missing_ok=True)
+        shutil.make_archive(str(zipped.with_suffix("")), "zip", folder)
     print("written", *sorted(str(p.relative_to(args.out)) for p in args.out.rglob("*") if p.is_file()), sep="\n  ")
 
 
