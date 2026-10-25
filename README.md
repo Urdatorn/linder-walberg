@@ -26,6 +26,14 @@ För den som är intresserad av att fortsätta förbättra OCR-modeller för ant
 - Bokens **förkortningar förklaras** där de förekommer, även de som inte inkluderas i dess egen förteckning på s. 540.
 - De av Linder och Walbergs exempelfraser som förekommer i klassiska källtexter har samlats i en _index locorum_. 
 
+## Mitt exemplar
+
+<p align="center">
+  <img src="docs/mitt-exemplar.jpg" alt="Titelbladet i mitt exemplar, med namnteckning ovanför SVENSKT-GREKISKT" width="640">
+</p>
+
+<!-- Text om exemplaret -->
+
 ## Så gjordes utgåvan
 
 | steg | var | |
