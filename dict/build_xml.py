@@ -297,15 +297,10 @@ def greek_index(text: str) -> list[str]:
     return list(dict.fromkeys(words))
 
 
-def main() -> None:
-    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--entries", type=Path, default=ROOT / "text/corrected/entries.jsonl")
-    ap.add_argument("--pages", type=Path, default=ROOT / "text/corrected/pages")
-    ap.add_argument("--out", type=Path, default=HERE / "src/LinderWalberg.xml")
-    ap.add_argument("--no-greek-index", action="store_true")
-    args = ap.parse_args()
-
-    entries = [json.loads(l) for l in args.entries.read_text(encoding="utf-8").splitlines()]
+def compile_entries(entries_path: Path, pages: Path, with_greek: bool = True) -> list[dict]:
+    """Every entry as {id, title, keys: [(value, label)], html}: the one source
+    of the Apple, StarDict and MDict editions."""
+    entries = [json.loads(l) for l in entries_path.read_text(encoding="utf-8").splitlines()]
     entries = [e for e in entries if not re.fullmatch(r"[A-ZÅÄÖ][.)]?", e["text"].strip())]   # letter headings
     parsed = []
     heads: dict[str, str] = {}
@@ -316,48 +311,64 @@ def main() -> None:
             heads.setdefault(f.lower(), entry_id(n))
     r = Renderer(heads)
     modern = load_modern()
+    out = []
+    for eid, head, rest, e in parsed:
+        title = re.sub(r"\(([^)]*)\)", "", head)
+        forms = index_forms(head, rest)
+        keys = [(f, f) for f in forms]
+        # the same word in modern spelling (Avbryta for Afbryta) finds it too;
+        # Dictionary.app folds case and accents in its index, so a form that
+        # differs only so ("Kanon" for the stress-marked "Kánon") is left out
+        folded = {fold(f) for f in forms}
+        for m in modern.get(" | ".join(forms), []):
+            if fold(m) not in folded:
+                folded.add(fold(m))
+                keys.append((m, title))
+        # words the book stars as lacking ancient authority: "*" finds them all,
+        # "*τυπογραφεῖον" finds each
+        starred = list(dict.fromkeys(citation_form(w) for w in STARRED.findall(rest)))
+        if starred:
+            keys.append(("*", "*" + ", *".join(starred) + " → " + title))
+            keys += [("*" + w, f"*{w} → {title}") for w in starred]
+        greek = [(w, f"{w} → {title}") for w in greek_index(rest)] if with_greek else []
+        body = (f'<h1 class="hw">{html.escape(head)}</h1>\n'
+                f'<div class="entry">{keep_spaces(r.body(rest, head, int(eid[3:])))}</div>\n'
+                f'<div class="src">Linder &amp; Walberg 1862, s. {int(e["page"]) - 4}</div>\n')
+        out.append({"id": eid, "title": title, "keys": keys, "greek": greek, "html": body})
+    return out + front_matter(pages)
 
-    args.out.parent.mkdir(parents=True, exist_ok=True)
-    with open(args.out, "w", encoding="utf-8") as out:
+
+def write_apple(records: list[dict], path: Path) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    esc = lambda v: html.escape(v, quote=True)
+    with open(path, "w", encoding="utf-8") as out:
         out.write('<?xml version="1.0" encoding="UTF-8"?>\n'
                   '<d:dictionary xmlns="http://www.w3.org/1999/xhtml" '
                   'xmlns:d="http://www.apple.com/DTDs/DictionaryService-1.0.rng">\n')
-        for eid, head, rest, e in parsed:
-            title = html.escape(re.sub(r"\(([^)]*)\)", "", head), quote=True)
-            out.write(f'<d:entry id="{eid}" d:title="{title}">\n')
-            forms = index_forms(head, rest)
-            for f in forms:
-                out.write(f'<d:index d:value="{html.escape(f, quote=True)}" d:title="{html.escape(f, quote=True)}"/>\n')
-            # the same word in modern spelling (Avbryta for Afbryta) finds it too
-            # Dictionary.app folds case and accents in its index: a modern form
-            # that differs only so ("Kanon" for the stress-marked "Kánon") would
-            # be a duplicate key, skipped with a warning
-            folded = {fold(f) for f in forms}
-            for m in modern.get(" | ".join(forms), []):
-                if fold(m) not in folded:
-                    folded.add(fold(m))
-                    out.write(f'<d:index d:value="{html.escape(m, quote=True)}" d:title="{title}"/>\n')
-            # words the book stars as lacking ancient authority: "*" finds them all,
-            # "*τυπογραφεῖον" finds each
-            starred = list(dict.fromkeys(citation_form(w) for w in STARRED.findall(rest)))
-            if starred:
-                out.write(f'<d:index d:value="*" d:title="{html.escape("*" + ", *".join(starred), quote=True)} → {title}"/>\n')
-                for w in starred:
-                    out.write(f'<d:index d:value="*{html.escape(w, quote=True)}" d:title="*{html.escape(w, quote=True)} → {title}"/>\n')
-            if not args.no_greek_index:
-                for w in greek_index(rest):
-                    out.write(f'<d:index d:value="{html.escape(w, quote=True)}" d:title="{html.escape(w, quote=True)} → {title}" d:priority="2"/>\n')
-            printed = int(e["page"]) - 4
-            out.write(f'<h1 class="hw">{html.escape(head)}</h1>\n')
-            out.write(f'<div class="entry">{keep_spaces(r.body(rest, head, int(eid[3:])))}</div>\n')
-            out.write(f'<div class="src">Linder &amp; Walberg 1862, s. {printed}</div>\n')
+        for rec in records:
+            out.write(f'<d:entry id="{rec["id"]}" d:title="{esc(rec["title"])}">\n')
+            for v, label in rec["keys"]:
+                out.write(f'<d:index d:value="{esc(v)}" d:title="{esc(label)}"/>\n')
+            for v, label in rec.get("greek", []):
+                out.write(f'<d:index d:value="{esc(v)}" d:title="{esc(label)}" d:priority="2"/>\n')
+            out.write(rec["html"])
             out.write('</d:entry>\n')
-        out.write(front_matter(args.pages))
         out.write('</d:dictionary>\n')
-    print(f"{len(parsed)} entries -> {args.out}")
 
 
-def front_matter(pages: Path) -> str:
+def main() -> None:
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--entries", type=Path, default=ROOT / "text/corrected/entries.jsonl")
+    ap.add_argument("--pages", type=Path, default=ROOT / "text/corrected/pages")
+    ap.add_argument("--out", type=Path, default=HERE / "src/LinderWalberg.xml")
+    ap.add_argument("--no-greek-index", action="store_true")
+    args = ap.parse_args()
+    records = compile_entries(args.entries, args.pages, not args.no_greek_index)
+    write_apple(records, args.out)
+    print(f"{len(records) - 3} entries -> {args.out}")
+
+
+def front_matter(pages: Path) -> list[dict]:
     """The title page, preface and list of abbreviations as entries of their own."""
     def paras(p: str) -> str:
         text = (pages / f"{p}.txt").read_text(encoding="utf-8") if (pages / f"{p}.txt").exists() else ""
@@ -366,21 +377,21 @@ def front_matter(pages: Path) -> str:
     rows = "".join(
         f'<tr><td class="abbr-col">{html.escape(a)}</td><td>{html.escape(x)}</td></tr>'
         for a, x, _ in (l.split("\t") for l in (HERE / "abbreviations.tsv").read_text(encoding="utf-8").splitlines()[1:]))
-    return (
-        '<d:entry id="front_matter" d:title="Svenskt-grekiskt lexikon">\n'
-        '<d:index d:value="Svenskt-grekiskt lexikon"/><d:index d:value="Linder Walberg"/>\n'
-        '<h1 class="hw">Svenskt-grekiskt lexikon</h1>\n'
-        '<div class="front"><p class="byline">af C. Linder och C. W. Walberg. Upsala 1862.</p>'
-        '<p>Uppslag på svenska ord; grekiska ord söks fram till de svenska artiklar som återger dem. '
-        f'Se <a href="x-dictionary:r:lw_preface">Förord</a> och <a href="x-dictionary:r:lw_abbr">Förkortningar</a>.</p>'
-        '<p class="note">Texten är korrekturläst mot sidbilderna; tryckfel är rättade enligt bokens '
-        'tryckfelsförteckning och en formell granskning av grekiskan. Ordet efter * saknar auktoritet hos de '
-        'gamle författarne.</p></div>\n</d:entry>\n'
-        '<d:entry id="lw_preface" d:title="Förord">\n<d:index d:value="Förord"/>\n'
-        f'<h1 class="hw">Förord</h1>\n<div class="front">{preface}</div>\n</d:entry>\n'
-        '<d:entry id="lw_abbr" d:title="Förkortningar">\n<d:index d:value="Förkortningar"/>\n'
-        f'<h1 class="hw">Förkortningar</h1>\n<table class="abbrs">{rows}</table>\n</d:entry>\n'
-    )
+    return [
+        {"id": "front_matter", "title": "Svenskt-grekiskt lexikon",
+         "keys": [("Svenskt-grekiskt lexikon", "Svenskt-grekiskt lexikon"), ("Linder Walberg", "Linder Walberg")],
+         "html": '<h1 class="hw">Svenskt-grekiskt lexikon</h1>\n'
+                 '<div class="front"><p class="byline">af C. Linder och C. W. Walberg. Upsala 1862.</p>'
+                 '<p>Uppslag på svenska ord; grekiska ord söks fram till de svenska artiklar som återger dem. '
+                 'Se <a href="x-dictionary:r:lw_preface">Förord</a> och <a href="x-dictionary:r:lw_abbr">Förkortningar</a>.</p>'
+                 '<p class="note">Texten är korrekturläst mot sidbilderna; tryckfel är rättade enligt bokens '
+                 'tryckfelsförteckning och en formell granskning av grekiskan. Ordet efter * saknar auktoritet hos de '
+                 'gamle författarne.</p></div>\n'},
+        {"id": "lw_preface", "title": "Förord", "keys": [("Förord", "Förord")],
+         "html": f'<h1 class="hw">Förord</h1>\n<div class="front">{preface}</div>\n'},
+        {"id": "lw_abbr", "title": "Förkortningar", "keys": [("Förkortningar", "Förkortningar")],
+         "html": f'<h1 class="hw">Förkortningar</h1>\n<table class="abbrs">{rows}</table>\n'},
+    ]
 
 
 if __name__ == "__main__":

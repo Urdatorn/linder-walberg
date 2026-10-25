@@ -7,3 +7,4 @@ __pycache__/
 dict/src/LinderWalberg.xml
 dict/src/objects/
 dict/src/*.dictionary
+dist/
