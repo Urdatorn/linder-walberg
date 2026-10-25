@@ -15,23 +15,11 @@ På tretton år korrlästes bara de första fem sidorna på Projekt Runeberg.
 
 Två huvudsakliga tekniska framsteg gjorde det möjligt att relativt enkelt för en person att genomföra en komplett OCR och korrläsning av hela texten år 2026. För det första så har det kommit öppna OCR-modeller som är finetunade för antik grekiska ([Angleraud et al 2026](https://arxiv.org/abs/2603.02803)), och för det andra så kan man förhållandevis snabbt dubbelkolla den öppna modellens resulterande OCR-text från alla 536 sidor mot källbilderna med en svärm av Claude-agenter.
 
- The text was read afresh from the page
-images, proofread against them page by page, and corrected after the book's own list of misprints
-and a systematic check of the Greek.
+Ordboken tillgängliggörs härmed i ett antal olika format. För det första så kan den som använder Macbook integrera denna nya Linder-Walberg i Mac OS' inbyggda ordbok (för Linux/PC finns motsvarande alternativ), genom att ladda ner rätt fil i "Releases" i denna repository. För det andra så finns det en [webb app](https://albinthorncleland.com/linder-walberg/) som rekommenderas för mobilanvändare, och som är skräddarsydd för att sparas som en app på hemskärmen på iPhone.
 
-- **Web app**: [albinthorncleland.com/linder-walberg](https://albinthorncleland.com/linder-walberg/).
-  - Search in Swedish (1862 or modern spelling) or Greek, with or without accents.
-  - Favourites, a word of the day, the Index locorum, and the abbreviations explained on a tap.
-  - Install it on an iPhone with Safari's *Lägg till på hemskärmen*; it then works offline.
-- **macOS Dictionary.app**: see [`dict/`](dict/). StarDict and MDict editions, for dictionary apps
-  on iOS, Android and Windows, are built by `dict/build_other.py`.
-- **Dataset**: [huggingface.co/datasets/Urdatorn/linder-walberg](https://huggingface.co/datasets/Urdatorn/linder-walberg).
-  It holds every page image with its diplomatic and corrected transcription, the text strip by
-  strip and entry by entry, and every correction with its reason.
-- **First electronic edition**: [runeberg.org/svegrek](https://runeberg.org/svegrek/), scanned by
-  Johan Winge for Project Runeberg in January 2013 and given a first OCR in October that year.
+För den som är intresserad av att fortsätta förbättra OCR-modeller för antik grekiska så tillgängliggörs bilder och alignad text på [Hugging Face](https://huggingface.co/datasets/Urdatorn/linder-walberg). 
 
-## The text
+## Metod
 
 Every page exists in two layers, aligned strip by strip:
 
