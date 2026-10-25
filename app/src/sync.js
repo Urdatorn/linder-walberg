@@ -5,10 +5,8 @@
 // created. Without signing in nothing here runs and favourites stay on the device.
 //
 // Sign-in is OAuth with PKCE as in huggingface.js (oauthLoginUrl, oauthHandleRedirect),
-// through one OAuth app (CLIENT_ID) whose redirect URLs are both homes of the app,
-// albinthorncleland.com/linder-walberg/ (GitHub Pages) and the Hugging Face Space, so
-// that both reach the same dataset. Until it is set, a static Space's own sign-in
-// (window.huggingface.variables) is used.
+// through the OAuth app "Svenskt-grekiskt lexikon" (CLIENT_ID), whose redirect URL is
+// the app's address, https://albinthorncleland.com/linder-walberg/.
 "use strict";
 
 const Sync = (() => {
@@ -16,7 +14,7 @@ const Sync = (() => {
   const REPO = window.LW_SYNC_REPO || "linder-walberg-favoriter";
   const FILE = "favoriter.json";
   const AUTH = "lw-hf", NONCE = "lw-hf-nonce", VERIFIER = "lw-hf-verifier";
-  const CLIENT_ID = "";                // the OAuth app at huggingface.co/settings/connected-applications
+  const CLIENT_ID = "d6886622-eead-4e4e-a6ca-56111f1773f0";    // public; PKCE, no secret
   const SCOPES = "openid profile contribute-repos";
   const APP = location.origin + location.pathname.replace(/index\.html$/, "");
 
@@ -24,9 +22,8 @@ const Sync = (() => {
   let status = { state: "off" };       // off | syncing | ok | offline | expired | error
   const listeners = [];
 
-  const vars = () => CLIENT_ID ? { OAUTH_CLIENT_ID: CLIENT_ID, OAUTH_SCOPES: SCOPES }
-                                : (window.huggingface && window.huggingface.variables) || null;
-  const available = () => !!(vars() && vars().OAUTH_CLIENT_ID);
+  // sign-in only where the OAuth app may send the reader back to (not on a local test server)
+  const available = () => location.origin === "https://albinthorncleland.com" || !!window.LW_SYNC_TEST;
   const read = (k) => { try { return JSON.parse(localStorage.getItem(k)); } catch { return null; } };
   const write = (k, v) => { try { v === null ? localStorage.removeItem(k) : localStorage.setItem(k, JSON.stringify(v)); } catch { /* private mode */ } };
   const account = () => read(AUTH);                                    // {token, expires, user}
@@ -37,13 +34,12 @@ const Sync = (() => {
   // ------------------------------------------------------------ sign in and out
 
   async function login() {
-    const v = vars();
     const nonce = crypto.randomUUID(), verifier = crypto.randomUUID() + crypto.randomUUID();
     write(NONCE, nonce); write(VERIFIER, verifier);
     const digest = new Uint8Array(await crypto.subtle.digest("SHA-256", new TextEncoder().encode(verifier)));
     const challenge = btoa(String.fromCharCode(...digest)).replace(/\+/g, "-").replace(/\//g, "_").replace(/=/g, "");
     location.href = `${HF}/oauth/authorize?` + new URLSearchParams({
-      client_id: v.OAUTH_CLIENT_ID, scope: v.OAUTH_SCOPES || "openid profile", response_type: "code",
+      client_id: CLIENT_ID, scope: SCOPES, response_type: "code",
       redirect_uri: APP, state: JSON.stringify({ nonce, back: location.hash }),
       code_challenge: challenge, code_challenge_method: "S256",
     });
@@ -117,7 +113,7 @@ const Sync = (() => {
                    file(FILE, JSON.stringify({ format: "linder-walberg favoriter 1", items }, null, 1))];
     if (first) lines.push(file("README.md",
       "Favoriter från Svenskt-grekiskt lexikon (Linder & Walberg 1862), sparade av appen\n" +
-      "https://urdatorn-linder-walberg.static.hf.space så att de följer med mellan enheter.\n" +
+      "https://albinthorncleland.com/linder-walberg/ så att de följer med mellan enheter.\n" +
       "Datasetet kan raderas; favoriterna finns kvar på enheterna.\n"));
     const r = await api(`/api/datasets/${account().user}/${REPO}/commit/main`, {
       method: "POST", headers: { "Content-Type": "application/x-ndjson" },

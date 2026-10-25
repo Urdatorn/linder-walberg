@@ -2,7 +2,7 @@
 entries as the Dictionary.app edition (dict/build_xml.compile_entries).
 
   app/dist/              the site, ready to serve as static files
-    index.html app.js app.css sw.js manifest.webmanifest front.png icons/ fonts/ img/
+    index.html app.js sync.js app.css sw.js manifest.webmanifest front.png icons/ fonts/ img/ .nojekyll
     data/meta.json       titles of all entries, the daily-word candidates
     data/k/<hex>.json    the search index by first letter: [folded key, key, entry number], sorted
     data/e/NN.json       entry pages, 1000 per file
@@ -80,10 +80,10 @@ def main() -> None:
     for f in (HERE / "src").iterdir():
         (shutil.copytree if f.is_dir() else shutil.copy)(f, DIST / f.name)
     shutil.copytree(ROOT / "dict/src/OtherResources/Images", DIST / "img")
-    shutil.copy(HERE / "space_README.md", DIST / "README.md")      # the Hugging Face Space's card
+    (DIST / ".nojekyll").touch()                                   # GitHub Pages: serve as is
     css = (ROOT / "dict/src/LinderWalberg.css").read_text(encoding="utf-8")
     (DIST / "dictionary.css").write_text(css, encoding="utf-8")
-    files = sorted(str(p.relative_to(DIST)) for p in DIST.rglob("*") if p.is_file() and p.name not in ("sw.js", "README.md"))
+    files = sorted(str(p.relative_to(DIST)) for p in DIST.rglob("*") if p.is_file() and p.name != "sw.js")
     version = str(abs(hash(tuple((f, (DIST / f).stat().st_size) for f in files))) % 10 ** 8)
     sw = (DIST / "sw.js").read_text(encoding="utf-8")
     (DIST / "sw.js").write_text(sw.replace("__VERSION__", version).replace('"__FILES__"', json.dumps(files)),
