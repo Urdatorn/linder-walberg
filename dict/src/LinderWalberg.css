@@ -126,3 +126,5 @@ div.locus { margin: 1px 0 1px 1.4em; text-indent: -0.8em; padding-left: 0.8em; }
 span.loc-page { color: var(--muted); font-size: 0.85em; }
 span.loc-cite { font-variant-numeric: tabular-nums; color: var(--num); margin-right: 3px; }
 h3.bio-head { font-size: 1em; margin: 12px 0 4px 0; color: var(--muted); }
+img.portrait { float: left; width: 110px; height: auto; margin: 4px 14px 6px 0; border: 1px solid var(--rule); }
+div.bio::after { content: ""; display: block; clear: both; }

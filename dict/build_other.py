@@ -32,6 +32,7 @@ from pathlib import Path
 from build_xml import HERE, ROOT, compile_entries
 
 CSS = HERE / "src/LinderWalberg.css"
+IMAGES = HERE / "src/OtherResources/Images"
 TITLE = "Svenskt-grekiskt lexikon (Linder & Walberg 1862)"
 DESCRIPTION = ("C. W. Linder & C. A. Walberg, Svenskt-grekiskt lexikon, Upsala 1862. Proofread against the scans, "
                "with the book's errata and a formal review of the Greek applied. Public domain; transcription CC0. "
@@ -44,6 +45,7 @@ def relink(markup: str, titles: dict[str, str], scheme: str) -> str:
         kind, target = m.group(1), m.group(2)
         word = titles.get(target, target) if kind == "r" else html.unescape(target)
         return f'href="{scheme}{html.escape(word, quote=True)}"'
+    markup = markup.replace('src="Images/', 'src="')          # images sit beside the stylesheet
     return re.sub(r'href="x-dictionary:([rd]):([^"]*)"', repl, markup)
 
 
@@ -62,6 +64,8 @@ def stardict(records: list[dict], titles: dict[str, str], out: Path) -> None:
         g.addEntry(g.newEntry(list(dict.fromkeys(words)), link + relink(rec["html"], titles, "bword://"),
                               defiFormat="h"))
     g.addEntry(g.newDataEntry("LinderWalberg.css", CSS.read_bytes()))
+    for img in IMAGES.glob("*.png"):
+        g.addEntry(g.newDataEntry(img.name, img.read_bytes()))
     out.mkdir(parents=True, exist_ok=True)
     g.write(str(out / "LinderWalberg.ifo"), formatName="Stardict", dictzip=True, sametypesequence="h")
 
@@ -93,6 +97,8 @@ def mdict(records: list[dict], titles: dict[str, str], out: Path) -> None:
     res = out / "res"
     res.mkdir(exist_ok=True)
     shutil.copy(CSS, res / "LinderWalberg.css")
+    for img in IMAGES.glob("*.png"):
+        shutil.copy(img, res / img.name)
     tool = shutil.which("mdict") or str(Path(sys.executable).parent / "mdict")
     for args in (["-a", str(src), "--title", str(out / "title.html"), "--description",
                   str(out / "description.html"), str(out / "LinderWalberg.mdx")],

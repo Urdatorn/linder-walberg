@@ -414,30 +414,27 @@ def index_locorum(where: dict[tuple[str, str], str]) -> list[dict]:
 
 
 def author_entries() -> list[dict]:
-    """The two authors, from their Swedish Wikipedia articles (dict/authors.json,
-    CC BY-SA 4.0, with the revision the text was taken from)."""
+    """The two authors, from their articles in Svenskt biografiskt handlexikon
+    (1906; dict/authors.json, transcribed from the scans at Project Runeberg),
+    with the book's portraits (src/OtherResources/Images)."""
     path = HERE / "authors.json"
     if not path.exists():
         return []
+    targets = {"linder": "lw_linder", "walberg": "lw_walberg", "lexikon": "front_matter"}
     out = []
     for a in json.loads(path.read_text(encoding="utf-8")):
-        first, last = a["title"].rsplit(" ", 1)
-        body = []
-        for block in re.split(r"\n\s*\n", a["text"]):
-            for line in block.split("\n"):
-                line = line.strip()
-                h = re.fullmatch(r"(=+)\s*(.*?)\s*=+", line)
-                if h:
-                    body.append(f'<h3 class="bio-head">{html.escape(h.group(2))}</h3>')
-                elif line:
-                    body.append(f"<p>{html.escape(line)}</p>")
-        credit = (f'<p class="note">Text från svenska Wikipedia, artikeln '
-                  f'<a href="{html.escape(a["url"], quote=True)}">{html.escape(a["title"])}</a> '
-                  f'(version {a["revid"]}, {a["timestamp"][:10]}), licens CC BY-SA 4.0.</p>')
-        out.append({"id": f"lw_{last.lower()}", "title": f"{last}, {first}",
-                    "keys": [(f"{last}, {first}", f"{last}, {first}"), (a["title"], f"{last}, {first}"),
-                             (last, f"{last}, {first}")],
-                    "html": f'<h1 class="hw">{html.escape(a["title"])}</h1>\n<div class="front">{"".join(body)}{credit}</div>\n'})
+        text = re.sub(r"\{(\w+):([^}]+)\}",
+                      lambda m: f'<a href="x-dictionary:r:{targets[m.group(1)]}">{m.group(2)}</a>', a["html"])
+        last, first = a["sort"].split(", ")
+        note = f' Rättat: {html.escape(a["corrections"])}.' if a.get("corrections") else ""
+        credit = (f'<p class="note">Ur {html.escape(a["source"])}, efter faksimilet hos '
+                  f'<a href="{html.escape(a["url"], quote=True)}">Project Runeberg</a>.{note}</p>')
+        img = (f'<img class="portrait" src="Images/{a["image"]}" alt="{html.escape(a["name"], quote=True)}"/>'
+               if a.get("image") else "")
+        out.append({"id": a["id"], "title": a["sort"],
+                    "keys": [(a["sort"], a["sort"]), (a["name"], a["sort"]), (last, a["sort"])],
+                    "html": keep_spaces(f'<h1 class="hw">{html.escape(a["name"])}</h1>\n<div class="front bio">{img}'
+                                        f'<p>{text}</p>{credit}</div>\n')})
     return out
 
 

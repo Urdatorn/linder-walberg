@@ -25,4 +25,4 @@ What the build does with the book's conventions:
   abbreviation expanded on hover from the book's own list (`abbreviations.tsv`)
 - the headword's initial standing for the headword ("göra a.") marked and expanded
 - "se X", "Jfr X" as links; "se Föreg.", "se Följ." to the neighbouring entries
-- the preface and the list of abbreviations as front matter
+- the preface, the list of abbreviations, the Index locorum and the two authors (from Svenskt biografiskt handlexikon, with portraits) as front matter
