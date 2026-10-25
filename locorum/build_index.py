@@ -107,10 +107,37 @@ def lsj_cite(author: dict, w: str, full: str, cite: str) -> tuple[str, str, str]
         w, full, cite = "APo.", author["works"].get("APo.", "Analytica Posteriora"), cite[len("posteriora."):]
     elif author["abbr"] == "Arist." and cite.startswith("priora."):
         cite = cite[len("priora."):]
-    if author["abbr"] == "D.Chr." and "." in cite:                  # all orations in one TLG work
-        w, cite = cite.split(".", 1)
-        w, full = w.replace("_", "/"), ""
+    if author["abbr"] == "D.Chr." and "." in cite:                  # all orations in one TLG work: D.Chr. 77/78.33
+        n, rest = cite.split(".", 1)
+        w, full, cite = "", "", f'{n.replace("_", "/")}.{rest}'
+    if author["abbr"] == "Lib." and w.isdigit():                    # Lib. Or. 1.23, Lib. Decl. 1.5
+        kind, n = re.match(r"(Oratio|Declamatio)\s+(\d+)", full or "Oratio " + w).groups()
+        w, full = ("Or.", "Orationes") if kind == "Oratio" else ("Decl.", "Declamationes")
+        cite = f"{n}.{cite}" if cite else n
     return w, full, cite
+
+
+def _titles() -> dict:
+    rows = (HERE / "speech_titles.tsv").read_text(encoding="utf-8").splitlines()[1:]
+    return {(a, int(n)): t for a, n, t in (r.split("\t") for r in rows)}
+
+
+TITLES = _titles()
+ISOCRATES = {"panegyricus": 4, "evagoras": 9, "archidamus": 6, "antidosis": 15, "to philip": 5, "panathenaicus": 12,
+             "to demonicus": 1, "to nicocles": 2, "nicocles or the cyprians": 3, "areopagiticus": 7,
+             "on the peace": 8, "helen": 10, "busiris": 11, "against the sophists": 13, "plataicus": 14,
+             "concerning the team of horses": 16, "trapeziticus": 17, "against callimachus": 18,
+             "aegineticus": 19, "against lochites": 20, "against euthynus": 21}
+
+
+def speech(abbr: str, number: int, catalogue_title: str | None) -> tuple[str, str]:
+    """Speech number as LSJ cites it, and its Latin title. Perseus numbers Isocrates
+    in its own order, so his speech number comes from the title."""
+    if abbr == "Isoc." and catalogue_title:
+        number = ISOCRATES.get(fold(catalogue_title).strip(), number)
+    if abbr == "Lib.":
+        return str(number), catalogue_title or ""
+    return str(number), TITLES.get((abbr, number), catalogue_title or "")
 
 
 def cite_key(c: str) -> tuple:
@@ -185,7 +212,8 @@ def main() -> None:
             if w_abbr:
                 w, full = lsj.work(author, w_abbr)
             elif author["abbr"] in NUMBERED:
-                w, full = str(int(work.split(".")[1][3:])), ""
+                # LSJ cites the speech by number; its Latin title says which it is
+                w, full = speech(author["abbr"], int(work.split(".")[1][3:]), names.cts(group, work.split(".")[1])[1])
             elif sum(x.startswith(group + ".") for x in lsj.tlg_work) <= 1:
                 w, full = "", ""                               # one work (Th.): cited without title
             else:
