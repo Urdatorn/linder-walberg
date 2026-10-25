@@ -335,7 +335,11 @@ def compile_entries(entries_path: Path, pages: Path, with_greek: bool = True) ->
                 f'<div class="entry">{keep_spaces(r.body(rest, head, int(eid[3:])))}</div>\n'
                 f'<div class="src">Linder &amp; Walberg 1862, s. {int(e["page"]) - 4}</div>\n')
         out.append({"id": eid, "title": title, "keys": keys, "greek": greek, "html": body})
-    return out + front_matter(pages)
+    where = {}
+    for eid, head, rest, e in parsed:
+        where.setdefault((fold(head), e["page"]), eid)
+        where.setdefault((fold(re.sub(r"\(([^)]*)\)", "", head)), e["page"]), eid)
+    return out + front_matter(pages) + index_locorum(where)
 
 
 def write_apple(records: list[dict], path: Path) -> None:
@@ -365,7 +369,44 @@ def main() -> None:
     args = ap.parse_args()
     records = compile_entries(args.entries, args.pages, not args.no_greek_index)
     write_apple(records, args.out)
-    print(f"{len(records) - 3} entries -> {args.out}")
+    print(f"{sum(r['id'].startswith('lw_') and r['id'][3:].isdigit() for r in records)} entries -> {args.out}")
+
+
+def index_locorum(where: dict[tuple[str, str], str]) -> list[dict]:
+    """The Index locorum entry: ancient authors in alphabetical order (LSJ's
+    names and abbreviations), their works, and for each passage the Greek as
+    the dictionary gives it with links to the entries that use it."""
+    path = ROOT / "locorum/index_locorum.json"
+    if not path.exists():
+        return []
+    authors = json.loads(path.read_text(encoding="utf-8"))
+    esc = html.escape
+
+    def link(e: dict) -> str:
+        eid = where.get((fold(e["headword"]), e["page"]))
+        label = f'{esc(e["headword"])}'
+        return (f'<a class="xref" href="x-dictionary:r:{eid}">{label}</a>' if eid else label) + \
+            f'<span class="loc-page"> s. {int(e["page"]) - 4}</span>'
+
+    parts, n = [], 0
+    for a in authors:
+        parts.append(f'<div class="loc-author"><span class="loc-name">{esc(a["name"])}</span> '
+                     f'<span class="loc-desc">{esc(a["desc"])}</span> <span class="loc-abbr">[{esc(a["abbr"])}]</span></div>')
+        for w in a["works"]:
+            if w["abbr"] or w["title"]:
+                parts.append(f'<div class="loc-work"><span class="loc-wabbr">{esc(w["abbr"])}</span> '
+                             f'{esc(w["title"])}</div>')
+            for l in w["loci"]:
+                n += 1
+                parts.append(f'<div class="locus"><span class="gk">{esc(l["greek"])}</span> → '
+                             + ", ".join(link(e) for e in l["entries"]) + '</div>')
+    intro = (f'<p class="note">{n} grekiska exempel ur lexikonet, återfunna ordagrant hos {len(authors)} antika '
+             'författare (i alfabetisk ordning, namn och förkortningar enligt LSJ) genom jämförelse med korpusen '
+             'AncientGreek. Varje ställe länkar till de artiklar där exemplet står. Fraser som förekommer i fler än tio '
+             'texter räknas som gängse uttryck och är inte med.</p>')
+    return [{"id": "lw_locorum", "title": "Index locorum",
+             "keys": [("Index locorum", "Index locorum"), ("Ställeregister", "Index locorum")],
+             "html": f'<h1 class="hw">Index locorum</h1>\n{intro}<div class="loci">{keep_spaces("".join(parts))}</div>\n'}]
 
 
 def front_matter(pages: Path) -> list[dict]:
@@ -383,7 +424,8 @@ def front_matter(pages: Path) -> list[dict]:
          "html": '<h1 class="hw">Svenskt-grekiskt lexikon</h1>\n'
                  '<div class="front"><p class="byline">af C. Linder och C. W. Walberg. Upsala 1862.</p>'
                  '<p>Uppslag på svenska ord; grekiska ord söks fram till de svenska artiklar som återger dem. '
-                 'Se <a href="x-dictionary:r:lw_preface">Förord</a> och <a href="x-dictionary:r:lw_abbr">Förkortningar</a>.</p>'
+                 'Se <a href="x-dictionary:r:lw_preface">Förord</a>, <a href="x-dictionary:r:lw_abbr">Förkortningar</a> '
+                 'och <a href="x-dictionary:r:lw_locorum">Index locorum</a>.</p>'
                  '<p class="note">Texten är korrekturläst mot sidbilderna; tryckfel är rättade enligt bokens '
                  'tryckfelsförteckning och en formell granskning av grekiskan. Ordet efter * saknar auktoritet hos de '
                  'gamle författarne.</p></div>\n'},

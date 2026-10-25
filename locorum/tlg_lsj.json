@@ -1,0 +1,7535 @@
+{
+"group": {
+"tlg0063": "D.T.",
+"tlg0552": "Archim.",
+"tlg0161": "Democr.",
+"tlg0012": "Il.",
+"tlg0006": "E.",
+"tlg0011": "S.",
+"tlg0033": "Pi.",
+"tlg0019": "Ar.",
+"tlg0059": "Pl.",
+"tlg0085": "A.",
+"tlg0406": "Anaxil.",
+"tlg0533": "Call.",
+"tlg0385": "D.C.",
+"tlg0650": "Herod.",
+"tlg0032": "X.",
+"tlg0410": "Antiph.",
+"tlg0515": "Timocl.",
+"tlg4000": "Aristaenet.",
+"tlg0532": "Ach.Tat.",
+"tlg0018": "Ph.",
+"tlg0541": "Men.",
+"tlg0545": "Ael.",
+"tlg0005": "Theoc.",
+"tlg0512": "Theophil.",
+"tlg0086": "Arist.",
+"tlg0363": "Ptol.",
+"tlg0062": "Luc.",
+"tlg0008": "Ath.",
+"tlg0405": "Anaxandr.",
+"tlg0291": "Alcm.",
+"tlg0237": "Anacr.",
+"tlg0542": "Poll.",
+"tlg0320": "Diog.Ath.",
+"tlg0428": "Canthar.",
+"tlg0178": "Duris",
+"tlg0088": "Aristox.",
+"tlg1497": "Menaechm.",
+"tlg0638": "Philostr.",
+"tlg2032": "Papp.",
+"tlg2001": "Them.",
+"tlg2003": "Jul.",
+"tlg0563": "Max.Tyr.",
+"tlg0007": "Plu.",
+"tlg0014": "D.",
+"tlg0543": "Plb.",
+"tlg1414": "Heraclit.",
+"tlg0559": "Hero",
+"tlg0733": "Cass.",
+"tlg0527": "LXX",
+"tlg0538": "Hecat.",
+"tlg0093": "Thphr.",
+"tlg0486": "Pherecr.",
+"tlg0087": "Hdn.",
+"tlg0614": "Babr.",
+"tlg4083": "Eust.",
+"tlg0598": "Rh.",
+"tlg2034": "Porph.",
+"tlg0422": "Athenio",
+"tlg0445": "Dionys.Com.",
+"tlg0544": "S.E.",
+"tlg0612": "D.Chr.",
+"tlg1599": "Ph.",
+"tlg0402": "Alex.",
+"tlg0096": "Aesop.",
+"tlg0553": "Artem.",
+"tlg1486": "Matro",
+"tlg1220": "Batr.",
+"tlg0016": "Hdt.",
+"tlg0482": "Nicom.Com.",
+"tlg2050": "Eun.",
+"tlg0627": "Hp.",
+"tlg1270": "Clearch.",
+"tlg0061": "Luc.",
+"tlg0548": "Apollod.",
+"tlg0004": "D.L.",
+"tlg1605": "Ps.-Phoc.",
+"tlg0434": "Cratin.",
+"tlg0521": "Epich.",
+"tlg1250": "Cerc.",
+"tlg0722": "Orib.",
+"tlg0071": "Peripl.M.Rubr.",
+"tlg0252": "Hermipp.",
+"tlg0458": "Eub.",
+"tlg0579": "Orph.",
+"tlg0732": "Alex.Aphr.",
+"tlg4015": "Phlp.",
+"tlg0099": "Str.",
+"tlg1606": "Phoen.",
+"tlg1415": "Heraclit.",
+"tlg0845": "Ctes.",
+"tlg9022": "Tz.",
+"tlg0718": "Aët.",
+"tlg0715": "Paul.Aeg.",
+"tlg0724": "Steph.",
+"tlg0561": "Longus",
+"tlg0587": "Sotion",
+"tlg0738": "Hippiatr.",
+"tlg0232": "Archil.",
+"tlg0020": "Hes.",
+"tlg0537": "Epicur.",
+"tlg0596": "Zen.",
+"tlg0526": "J.",
+"tlg0305": "Aristias",
+"tlg0496": "Phryn.Com.",
+"tlg0497": "Pl.Com.",
+"tlg1240": "Callix.",
+"tlg1388": "Harmod.",
+"tlg1227": "Blaes.",
+"tlg1342": "Emp.",
+"tlg0003": "Th.",
+"tlg0010": "Isoc.",
+"tlg0487": "Philem.",
+"tlg0620": "Archyt.",
+"tlg1272": "Cleom.",
+"tlg4066": "Dam.",
+"tlg1595": "Phld.",
+"tlg1247": "Ceb.",
+"tlg2049": "Sallust.",
+"tlg0562": "M.Ant.",
+"tlg2018": "Eus.",
+"tlg2023": "Iamb.",
+"tlg0536": "Ephor.",
+"tlg0035": "Mosch.",
+"tlg0060": "D.S.",
+"tlg0383": "Alc.",
+"tlg0201": "Isyll.",
+"tlg0565": "Sor.",
+"tlg0084": "D.P.",
+"tlg1600": "Philostr.",
+"tlg2045": "Nonn.",
+"tlg0023": "Opp.",
+"tlg0057": "Gal.",
+"tlg1738": "Trag.Adesp.",
+"tlg0001": "A.R.",
+"tlg0022": "Nic.",
+"tlg0494": "Philyll.",
+"tlg0640": "Alciphr.",
+"tlg0654": "Corn.",
+"tlg0199": "B.",
+"tlg0036": "Bion",
+"tlg0525": "Paus.",
+"tlg0260": "Semon.",
+"tlg0647": "Tryph.",
+"tlg0009": "Sapph.",
+"tlg0744": "Alex.Trall.",
+"tlg4081": "Coluth.",
+"tlg2578": "Jo.Gaz.",
+"tlg0081": "D.H.",
+"tlg0417": "Archipp.",
+"tlg0263": "Sol.",
+"tlg0447": "Diph.",
+"tlg4013": "Simp.",
+"tlg0028": "Antipho",
+"tlg0540": "Lys.",
+"tlg2734": "Just.",
+"tlg2583": "Man.",
+"tlg0508": "Stratt.",
+"tlg0074": "Arr.",
+"tlg0216": "Alex.Aet.",
+"tlg0213": "Hermesian.",
+"tlg0376": "Tim.",
+"tlg0524": "Sophr.",
+"tlg1264": "Chrysipp.Stoic.",
+"tlg4080": "Gp.",
+"tlg2642": "Astramps.",
+"tlg0719": "Aret.",
+"tlg4093": "Choerob.",
+"tlg0082": "A.D.",
+"tlg2043": "Heph.Astr.",
+"tlg0547": "Arist.",
+"tlg4029": "Procop.",
+"tlg4036": "Procl.",
+"tlg0490": "Philippid.",
+"tlg0053": "Phalar.",
+"tlg2133": "Ach.Tat.",
+"tlg0067": "Agatharch.",
+"tlg0266": "Tyrt.",
+"tlg0017": "Is.",
+"tlg2000": "Plot.",
+"tlg0664": "Diocl.Fr.",
+"tlg1601": "Philox.",
+"tlg1764": "Vett.Val.",
+"tlg0361": "Cleonid.",
+"tlg0329": "Theodect.",
+"tlg0555": "Clem.Al.",
+"tlg0309": "Achae.",
+"tlg4040": "Phot.",
+"tlg0564": "Ruf.",
+"tlg1645": "Ptol.Euerg.",
+"tlg0233": "Hippon.",
+"tlg0408": "Com.Adesp.",
+"tlg0513": "Theopomp.Com.",
+"tlg0461": "Eup.",
+"tlg0653": "Arat.",
+"tlg1608": "Phryn.",
+"tlg0058": "Aen.Tact.",
+"tlg0426": "Call.Com.",
+"tlg0658": "Hld.",
+"tlg0510": "Telecl.",
+"tlg1323": "Ael.Dion.",
+"tlg1544": "Nymphis",
+"tlg0479": "Nico",
+"tlg0480": "Nicoch.",
+"tlg1562": "Parm.",
+"tlg0267": "Xenoph.",
+"tlg0261": "Simon.",
+"tlg1620": "Polyaen.",
+"tlg0026": "Aeschin.",
+"tlg0641": "X.Eph.",
+"tlg2051": "Him.",
+"tlg0337": "Python",
+"tlg0027": "And.",
+"tlg2046": "Q.S.",
+"tlg0070": "Isid.Char.",
+"tlg0303": "Phryn.Trag.",
+"tlg2595": "Ph.Byz.",
+"tlg2627": "Damian.",
+"tlg0609": "Trypho",
+"tlg0476": "Mnesim.",
+"tlg0411": "Apollod.Car.",
+"tlg0403": "Amips.",
+"tlg0551": "App.",
+"tlg0284": "Aristid.",
+"tlg1733": "Timae.",
+"tlg0688": "Agathocl.",
+"tlg4019": "Olymp.",
+"tlg0652": "Philostr.Jun.",
+"tlg0577": "Nic.Dam.",
+"tlg0655": "Parth.",
+"tlg0310": "Carc.",
+"tlg0030": "Hyp.",
+"tlg1555": "Pancrat.",
+"tlg2200": "Lib.",
+"tlg1204": "Ath.Mech.",
+"tlg2450": "Palaeph.",
+"tlg1322": "Diogenian.Epicur.",
+"tlg0377": "Telest.",
+"tlg2317": "Herm.",
+"tlg0660": "Apollon.Cit.",
+"tlg1617": "Polem.Phgn.",
+"tlg0292": "Stesich.",
+"tlg0029": "Din.",
+"tlg0484": "Nicostr.Com.",
+"tlg0502": "Sophil.",
+"tlg0473": "Macho",
+"tlg0500": "Posidipp.",
+"tlg0557": "Epict.",
+"tlg0679": "Aeschrio",
+"tlg0024": "Opp.",
+"tlg1663": "Semus",
+"tlg0613": "Demetr.",
+"tlg0015": "Hdn.",
+"tlg0404": "Amphis",
+"tlg4024": "Agath.",
+"tlg0651": "Ant.Lib.",
+"tlg2586": "Men.Rh.",
+"tlg0294": "Corinn.",
+"tlg1635": "Protag.",
+"tlg1165": "Apollod.",
+"tlg0264": "Sus.",
+"tlg0243": "Callin.",
+"tlg0592": "Hermog.",
+"tlg0593": "Gorg.",
+"tlg1402": "Heph.",
+"tlg1147": "Antipho Soph.",
+"tlg0221": "Euph.",
+"tlg0554": "Charito",
+"tlg1026": "Petron.",
+"tlg1358": "Eudox.",
+"tlg1634": "Prodic.",
+"tlg2571": "Hierocl.",
+"tlg0281": "Marc.Sid.",
+"tlg4016": "Ammon.",
+"tlg0438": "Damox.",
+"tlg0203": "Limen.",
+"tlg0358": "Nicom.",
+"tlg0518": "Xenarch.",
+"tlg1734": "Ti.Locr.",
+"tlg0343": "Ezek.",
+"tlg1383": "Gem.",
+"tlg0066": "Dicaearch.",
+"tlg0498": "Polioch.",
+"tlg0068": "Scymn.",
+"tlg0328": "Chaerem.",
+"tlg0219": "Rhian.",
+"tlg0413": "Apollod.Com.",
+"tlg0065": "Scyl.",
+"tlg0214": "Phanocl.",
+"tlg2037": "Nicostr.",
+"tlg0319": "Critias",
+"tlg2178": "Longin.",
+"tlg0407": "Anaxipp.",
+"tlg1866": "Posidon.",
+"tlg2329": "Pherecyd.",
+"tlg0433": "Crates Com.",
+"tlg0454": "Epin.",
+"tlg1545": "Ocell.",
+"tlg2054": "Aristid.Quint.",
+"tlg0366": "Lasus",
+"tlg0483": "Nicopho",
+"tlg1254": "Charax",
+"tlg2580": "Lyd.",
+"tlg0420": "Aristonym.",
+"tlg0255": "Mimn.",
+"tlg0615": "Asp.",
+"tlg1319": "Diog.Apoll.",
+"tlg0350": "Dionys.Trag.",
+"tlg1557": "Panyas.",
+"tlg1210": "Autol.",
+"tlg0546": "Ael.",
+"tlg2039": "Dioph.",
+"tlg0530": "Porph.",
+"tlg1799": "Euc.",
+"tlg1146": "Antip.Stoic.",
+"tlg0507": "Strato Com.",
+"tlg2687": "Zos.",
+"tlg2136": "Bacch.",
+"tlg1596": "Philol.",
+"tlg1660": "Satyr.",
+"tlg4063": "Eratosth.",
+"tlg1431": "Hipparch.",
+"tlg1591": "Philist.",
+"tlg1487": "Max.",
+"tlg0204": "Aristonous",
+"tlg0318": "Agatho",
+"tlg1386": "Ps.-Callisth.",
+"tlg1367": "E.",
+"tlg1604": "Phoc.",
+"tlg0504": "Sosip.",
+"tlg4017": "Syrian.",
+"tlg0424": "Axionic.",
+"tlg1321": "Diog.Oen.",
+"tlg1407": "Heraclid.",
+"tlg1965": "Lysim.",
+"tlg0748": "Sever.",
+"tlg0643": "Anon.Lond.",
+"tlg1325": "Diog.",
+"tlg1181": "Aristarch.Sam.",
+"tlg0034": "Lycurg.",
+"tlg1494": "Meliss.",
+"tlg4105": "Anacreont.",
+"tlg1628": "Polystr.",
+"tlg1285": "Conon",
+"tlg0055": "Themist.",
+"tlg4001": "Aen.Gaz.",
+"tlg1609": "Phylarch.",
+"tlg0566": "Theopomp.Hist.",
+"tlg0576": "Musae.",
+"tlg0607": "Theon",
+"tlg4076": "Men.Prot.",
+"tlg0726": "Pall.",
+"tlg2116": "Arc.",
+"tlg0731": "Adam.",
+"tlg0708": "Ammon.",
+"tlg9009": "Apostol.",
+"tlg2115": "Hippol.",
+"tlg1636": "Protagorid.",
+"tlg0419": "Aristomen.",
+"tlg0444": "Diod.Com.",
+"tlg0340": "Sosith.",
+"tlg0671": "Philum.",
+"tlg0637": "Socr.",
+"tlg0586": "Polem.Hist.",
+"tlg1255": "Chares",
+"tlg1263": "Choeril.",
+"tlg4034": "Mich.",
+"tlg2042": "Origenes",
+"tlg1306": "Ps.-Democr.",
+"tlg1148": "Ant.Diog.",
+"tlg1248": "Cels.",
+"tlg1200": "Asclep.Tragil.",
+"tlg1875": "Aristodem.",
+"tlg0208": "Dosiad.",
+"tlg2141": "Dexipp.",
+"tlg1691": "Sotad.",
+"tlg1496": "Memn.",
+"tlg2052": "Horap.",
+"tlg2598": "Procop.Gaz.",
+"tlg0443": "Diocl.Com.",
+"tlg1175": "Archestr.",
+"tlg0539": "Hellanic.",
+"tlg0583": "Philoch.",
+"tlg1751": "Xanth.",
+"tlg1411": "Heraclit.",
+"tlg0457": "Eubulid.",
+"tlg9020": "Steph.",
+"tlg1687": "Sosicr.Hist.",
+"tlg0450": "Ephipp.",
+"tlg0239": "Antim.",
+"tlg0673": "Aeschin.Socr.",
+"tlg0492": "Philonid.",
+"tlg1355": "Erinn.",
+"tlg1392": "Hegesand.",
+"tlg0415": "Arar.",
+"tlg1682": "Sopat.",
+"tlg2643": "Aus.",
+"tlg2596": "Phoeb.",
+"tlg2020": "Theodos.",
+"tlg1649": "Pythaen.",
+"tlg4175": "Diom.",
+"tlg0568": "Antig.",
+"tlg0373": "Melanipp.",
+"tlg2036": "Dexipp.",
+"tlg0299": "Terp.",
+"tlg0446": "Diox.",
+"tlg0382": "Castorio",
+"tlg0501": "Sannyr.",
+"tlg0429": "Cephisod.",
+"tlg1125": "Androt.",
+"tlg0578": "Nymphod.",
+"tlg4243": "Zonae.",
+"tlg1724": "Theo Sm.",
+"tlg1176": "Archyt.Amph.",
+"tlg1315": "Dinol.",
+"tlg1344": "Epic.Alex.Adesp.",
+"tlg0499": "Polyzel.",
+"tlg0472": "Lysipp.",
+"tlg0414": "Apolloph.",
+"tlg0400": "Alc.Com.",
+"tlg0520": "Arcesil.",
+"tlg0474": "Magn.",
+"tlg0268": "Mesom.",
+"tlg0238": "Anan.",
+"tlg0451": "Epicr.",
+"tlg2640": "Eus.Mynd.",
+"tlg0516": "Timostr.",
+"tlg0676": "Aglaïas",
+"tlg1521": "Secund.",
+"tlg0435": "Cratin.Jun.",
+"tlg0301": "Thespis",
+"tlg0594": "Alex.",
+"tlg0630": "Pherecyd.Syr.",
+"tlg1654": "Rhinth.",
+"tlg1222": "Beros.",
+"tlg0648": "Onos.",
+"tlg1009": "Xenocr.",
+"tlg0488": "Philem.Jun.",
+"tlg0421": "Aristopho",
+"tlg9023": "Thom.Mag.",
+"tlg1245": "Caryst.",
+"tlg1699": "Teles",
+"tlg2397": "Boeth.Stoic.",
+"tlg4077": "Metrod.",
+"tlg1168": "Apollon.",
+"tlg0230": "Lyr.Alex.Adesp.",
+"tlg4031": "Eustr.",
+"tlg4033": "Heliod.",
+"tlg0423": "Autocr.",
+"tlg1623": "Polycharm.",
+"tlg1193": "AristoStoic.",
+"tlg0468": "Hipparch.Com.",
+"tlg1357": "Eudem.",
+"tlg0465": "Henioch.",
+"tlg4020": "Elias",
+"tlg0478": "Nausicr.",
+"tlg1450": "Ister",
+"tlg1226": "Bito",
+"tlg2424": "Chaerem.Hist.",
+"tlg1515": "Moer.",
+"tlg0431": "Chionid.",
+"tlg1316": "Dinon",
+"tlg1489": "Megasth.",
+"tlg1693": "Sphaer.Stoic.",
+"tlg1249": "Cephalio",
+"tlg1313": "Dieuchid.",
+"tlg0083": "Dion.Byz.",
+"tlg1269": "Cleanth.Stoic.",
+"tlg0550": "Apollon.Perg.",
+"tlg1320": "Diog.Bab.Stoic.",
+"tlg0716": "Erot.",
+"tlg1124": "Andronic.Rhod.",
+"tlg0697": "Alex.Polyh.",
+"tlg4018": "Ascl.",
+"tlg2403": "Pers.Stoic.",
+"tlg1303": "Democh.",
+"tlg0471": "Lync.",
+"tlg9008": "Macar.",
+"tlg2585": "Marcellin.",
+"tlg0288": "Pisand.",
+"tlg0215": "Antag.",
+"tlg0693": "Alcin.",
+"tlg2274": "Hsch.Mil.",
+"tlg1506": "Menodot.",
+"tlg1441": "Iamb.Bab.",
+"tlg1286": "Corp.Herm.",
+"tlg0585": "Phleg.",
+"tlg1688": "Sostrat.",
+"tlg1187": "Aristobul.",
+"tlg2591": "Orion",
+"tlg0295": "Carm.Pop.",
+"tlg0097": "Diogenian.",
+"tlg1833": "Pratin.",
+"tlg1499": "Menecl.",
+"tlg1347": "Epimenid.",
+"tlg1429": "Hierocl.",
+"tlg0766": "Alcmaeon",
+"tlg1300": "Demetr.Lac.",
+"tlg0535": "Demad.",
+"tlg0425": "Bato",
+"tlg0297": "Lyr.Adesp.",
+"tlg0569": "Apollon.",
+"tlg2334": "Nausiph.",
+"tlg1709": "Theagen.",
+"tlg0619": "Ap.Ty.",
+"tlg0517": "Tim.Com.",
+"tlg0242": "Asius",
+"tlg2135": "Alyp.",
+"tlg1261": "Chilo",
+"tlg1337": "Doroth.",
+"tlg0460": "Euphro",
+"tlg1759": "Demoph.",
+"tlg4085": "Id.",
+"tlg0222": "Eratosth.",
+"tlg0202": "Maced.",
+"tlg1140": "Anticl.",
+"tlg0505": "Sotad.Com.",
+"tlg0610": "Alcid.",
+"tlg1427": "Herodor.",
+"tlg1421": "Hermipp.Hist.",
+"tlg1475": "Maiist.",
+"tlg0064": "Hanno",
+"tlg2956": "Afric.",
+"tlg0135": "Artemid.",
+"tlg2590": "Olymp.Hist.",
+"tlg2137": "Gaud.Harm.",
+"tlg0575": "Epict.",
+"tlg1754": "X.",
+"tlg0307": "Neophr.",
+"tlg1803": "Brut.",
+"tlg0489": "Philetaer.",
+"tlg0453": "Epil.",
+"tlg0298": "Eumel.",
+"tlg1581": "PHal.",
+"tlg1182": "Aristeas Epic.",
+"tlg4091": "Callistr.",
+"tlg1203": "Pae.Delph.",
+"tlg1390": "Hecat.Abd.",
+"tlg4021": "David",
+"tlg0511": "Theognet.",
+"tlg4003": "Marcian.",
+"tlg4092": "Greg.Cor.",
+"tlg0686": "Aethlius",
+"tlg4014": "Prisc.Lyd.",
+"tlg0657": "Crateuas",
+"tlg0644": "Ar.Byz.",
+"tlg0481": "Nicol.Com.",
+"tlg0418": "Aristag.",
+"tlg1413": "Heraclit.",
+"tlg2904": "Nicol.",
+"tlg0251": "Even.",
+"tlg1498": "Men.Eph.",
+"tlg1309": "Dialex.",
+"tlg0523": "Menecr.",
+"tlg0649": "Lesb.Rh.",
+"tlg9019": "Steph.",
+"tlg2169": "Herill.Stoic.",
+"tlg0503": "Sosicr.",
+"tlg0725": "Anaximand.",
+"tlg1167": "Apollon.",
+"tlg2185": "Dionys.Stoic.",
+"tlg1705": "Thal.",
+"tlg0436": "Crito Com.",
+"tlg1409": "Heraclid.Pont.",
+"tlg0265": "Timocr.",
+"tlg0439": "Demetr.Com.Vet.",
+"tlg0595": "Zeno Eleat.",
+"tlg1640": "Ptol.",
+"tlg1514": "Mnaseas",
+"tlg1541": "Nosti",
+"tlg0509": "Myia",
+"tlg0437": "Crobyl.",
+"tlg1615": "Platon.",
+"tlg0628": "Muson.",
+"tlg0041": "Chio",
+"tlg1166": "Apollod.Stoic.",
+"tlg0205": "Philod.Scarph.",
+"tlg0392": "Acus.",
+"tlg3136": "Zonar.",
+"tlg1460": "Lesb.Gramm.",
+"tlg0477": "Myrtil.",
+"tlg0519": "Xeno",
+"tlg1575": "Pers.",
+"tlg4028": "St.Byz.",
+"tlg2658": "Arion",
+"tlg0448": "Dromo",
+"tlg2601": "Tib.",
+"tlg1126": "Anub.",
+"tlg1503": "Menecr.Xanth.",
+"tlg0495": "Phoenicid.",
+"tlg0475": "Metag.",
+"tlg0371": "Diagor.",
+"tlg0456": "Euang.",
+"tlg1523": "Myro",
+"tlg1283": "Colot.",
+"tlg1583": "Phanod.",
+"tlg0464": "Hegesipp.Com.",
+"tlg0313": "Thgn.Trag.",
+"tlg0466": "Heraclid.Com.",
+"tlg0617": "Anaximen.",
+"tlg1638": "Proxen.",
+"tlg2589": "Olymp.Alch.",
+"tlg0218": "Nicaenet.",
+"tlg2482": "Daimachus",
+"tlg1525": "Neanth.",
+"tlg0416": "Arched.",
+"tlg0432": "Clearch.Com.",
+"tlg0462": "Euthycl.",
+"tlg1406": "Heraclid.Cum.",
+"tlg0381": "Lycophronid.",
+"tlg1239": "Callistr.Hist.",
+"tlg1737": "Titanomach.",
+"tlg1416": "Ph.Bybl.",
+"tlg1396": "Hegesipp.",
+"tlg0459": "Eunic.",
+"tlg0399": "Eudox.Com.",
+"tlg1685": "Sosib.",
+"tlg1258": "Charon",
+"tlg0351": "Hippothoon",
+"tlg1252": "Certamen",
+"tlg1712": "Thebaïs",
+"tlg1656": "Id.",
+"tlg0455": "Eriph.",
+"tlg0372": "Praxill.",
+"tlg0378": "Ariphron",
+"tlg0341": "Lyc.",
+"tlg0147": "Call.",
+"tlg0667": "Marcellin.",
+"tlg0606": "Ruf.Rh.",
+"tlg0582": "Anon.Vat.",
+"tlg0054": "Theano",
+"tlg1308": "Dem.Bith.",
+"tlg0246": "Dionys.Eleg.",
+"tlg0244": "Cleobulina",
+"tlg0584": "Philosteph.Hist.",
+"tlg0077": "Stad.",
+"tlg1289": "Crates Hist.",
+"tlg1256": "Chares Iamb.",
+"tlg1598": "Philomnest.",
+"tlg0338": "Sosiph.",
+"tlg0369": "Telesill.",
+"tlg4264": "Thrasym.",
+"tlg2330": "Scamon",
+"tlg2594": "Phillis",
+"tlg1288": "Crater.",
+"tlg0144": "Besant.",
+"tlg0714": "Anaxarch.",
+"tlg2387": "Athanis",
+"tlg2384": "Herm.Hist.",
+"tlg2181": "Id.",
+"tlg2302": "Aristocl.Hist.",
+"tlg1305": "Democr.Eph.",
+"tlg0293": "Ibyc.",
+"tlg0179": "Epig.",
+"tlg0037": "Anach.",
+"tlg1338": "Dosiad.Hist.",
+"tlg1679": "Socr.Rhod.",
+"tlg0370": "Lamprocl.",
+"tlg4167": "Leont.",
+"tlg2194": "Aristid.Mil.",
+"tlg1528": "Nestor",
+"tlg1296": "Cypr.",
+"tlg2168": "Apolloph.Stoic.",
+"tlg2456": "Nessas",
+"tlg2027": "Aps.",
+"tlg0051": "Melissa",
+"tlg0334": "Diog.Sinop.",
+"tlg0323": "Antipho Trag.",
+"tlg0289": "Ammon.",
+"tlg0463": "Hegem.",
+"tlg0631": "Pittac.",
+"tlg4099": "Id.",
+"tlg2449": "Tim.Gaz.",
+"tlg1282": "Clytus",
+"tlg2970": "Sever.",
+"tlg1505": "Menesth.",
+"tlg1400": "Heliod.Hist.",
+"tlg1779": "Vit.Philonid.",
+"tlg0352": "Isid.Trag.",
+"tlg2573": "Paus.Dam.",
+"tlg0302": "Choeril.Trag.",
+"tlg0514": "Thugen.",
+"tlg0409": "Antid.",
+"tlg1625": "Polyclit.",
+"tlg1689": "Sosyl.",
+"tlg0325": "Astyd.",
+"tlg0136": "Artemo",
+"tlg0591": "Antisth.",
+"tlg1219": "Bato Sinop.",
+"tlg1174": "Archemach.",
+"tlg0493": "Philosteph.Com.",
+"tlg0441": "Demonic.",
+"tlg1526": "Neoptol.",
+"tlg0398": "Simyl.",
+"tlg0491": "Philisc.Com.",
+"tlg0374": "Licymn.",
+"tlg1444": "Il.Parv.",
+"tlg0296": "Scol.",
+"tlg1307": "Demon",
+"tlg0506": "Steph.Com.",
+"tlg2508": "Creon",
+"tlg1438": "Hippys",
+"tlg2593": "Petr.Patr.",
+"tlg0346": "Pomp.Mac.",
+"tlg1445": "Il.Pers.",
+"tlg0401": "Alexand.Com.",
+"tlg1713": "Themiso Hist.",
+"tlg1511": "Mimn.Trag.",
+"tlg0632": "Pythag.",
+"tlg1565": "Parmeno",
+"tlg1279": "Clitarch.",
+"tlg1534": "Nicocl.",
+"tlg1662": "Sciras",
+"tlg0485": "Ophel.",
+"tlg2357": "Gorgon",
+"tlg1420": "Herm.Iamb.",
+"tlg1513": "Id.",
+"tlg0368": "Cydias",
+"tlg0227": "Hymn.Curet.",
+"tlg1942": "Nearch.",
+"tlg1235": "Call.Hist.",
+"tlg2461": "Uran.",
+"tlg0449": "Ecphantid.",
+"tlg0013": "Hom.",
+"tlg1589": "Phil.",
+"tlg2182": "Staphyl.",
+"tlg0633": "Lysis",
+"tlg0231": "Eleg.Alex.Adesp.",
+"tlg1643": "Ptol.Ascal.",
+"tlg1461": "Leucipp.",
+"tlg9006": "Greg.Cypr.",
+"tlg0253": "Margites",
+"tlg1387": "Dercyl.",
+"tlg0116": "Abyd.",
+"tlg2273": "Damon",
+"tlg2262": "Lysimachid.",
+"tlg1550": "Orac.Chald.",
+"tlg1123": "Andron",
+"tlg1275": "Cleostrat.",
+"tlg2409": "Diosc.Hist.",
+"tlg1435": "Hippias Erythr.",
+"tlg1923": "Stesimbr.",
+"tlg1173": "Arched.Stoic.",
+"tlg0069": "Dion.Calliph.",
+"tlg1394": "Hegesias",
+"tlg0324": "Patrocl.",
+"tlg1434": "Hippias Eleus",
+"tlg1273": "Cleon Sic.",
+"tlg0031": "Id.",
+"tlg0680": "Apollon.",
+"tlg4052": "Isid.",
+"tlg1491": "Melanth.Hist.",
+"tlg0220": "Moero",
+"tlg1516": "Molpis",
+"tlg0635": "ZenoStoic.",
+"tlg1567": "Parrhas.",
+"tlg1477": "Man.Hist.",
+"tlg1953": "Hieronym.Hist.",
+"tlg2582": "Malch.",
+"tlg1648": "Pyrgio",
+"tlg1752": "Xenag.",
+"tlg0210": "Euphron.",
+"tlg9010": "Id.",
+"tlg1556": "Id.",
+"tlg0430": "Chariclid.",
+"tlg0624": "Dem.Phal."
+},
+"work": {
+"tlg0063.tlg001": [
+"D.T.",
+""
+],
+"tlg0552.tlg004": [
+"Archim.",
+"Spir."
+],
+"tlg0161.tlg001": [
+"Democr.",
+""
+],
+"tlg0012.tlg001": [
+"Il.",
+""
+],
+"tlg0006.tlg003": [
+"E.",
+"Med."
+],
+"tlg0011.tlg003": [
+"S.",
+"Aj."
+],
+"tlg0033.tlg003": [
+"Pi.",
+"N."
+],
+"tlg0019.tlg001": [
+"Ar.",
+"Ach."
+],
+"tlg0059.tlg030": [
+"Pl.",
+"R."
+],
+"tlg0011.tlg005": [
+"S.",
+"El."
+],
+"tlg0019.tlg002": [
+"Ar.",
+"Eq."
+],
+"tlg0059.tlg006": [
+"Pl.",
+"Tht."
+],
+"tlg0019.tlg008": [
+"Ar.",
+"Th."
+],
+"tlg0085.tlg005": [
+"A.",
+"Ag."
+],
+"tlg0006.tlg001": [
+"E.",
+"Cyc."
+],
+"tlg0059.tlg022": [
+"Pl.",
+"Prt."
+],
+"tlg0406.tlg001": [
+"Anaxil.",
+""
+],
+"tlg0533.tlg003": [
+"Call.",
+"Epigr."
+],
+"tlg0385.tlg001": [
+"D.C.",
+""
+],
+"tlg0650.tlg001": [
+"Herod.",
+""
+],
+"tlg0019.tlg009": [
+"Ar.",
+"Ra."
+],
+"tlg0032.tlg002": [
+"X.",
+"Mem."
+],
+"tlg0410.tlg001": [
+"Antiph.",
+""
+],
+"tlg0515.tlg001": [
+"Timocl.",
+""
+],
+"tlg4000.tlg001": [
+"Aristaenet.",
+""
+],
+"tlg0532.tlg001": [
+"Ach.Tat.",
+""
+],
+"tlg0018.tlg001": [
+"Ph.",
+""
+],
+"tlg0059.tlg023": [
+"Pl.",
+"Grg."
+],
+"tlg0541.tlg001": [
+"Men.",
+""
+],
+"tlg0533.tlg001": [
+"Call.",
+"Fr."
+],
+"tlg0545.tlg001": [
+"Ael.",
+"NA"
+],
+"tlg0011.tlg004": [
+"S.",
+"OT"
+],
+"tlg0011.tlg002": [
+"S.",
+"Ant."
+],
+"tlg0085.tlg001": [
+"A.",
+"Supp."
+],
+"tlg0005.tlg001": [
+"Theoc.",
+""
+],
+"tlg0512.tlg001": [
+"Theophil.",
+""
+],
+"tlg0086.tlg036": [
+"Arist.",
+"Pr."
+],
+"tlg0363.tlg010": [
+"Ptol.",
+"Harm."
+],
+"tlg0062.tlg068": [
+"Luc.",
+"DDeor."
+],
+"tlg0008.tlg001": [
+"Ath.",
+""
+],
+"tlg0011.tlg008": [
+"S.",
+"Fr."
+],
+"tlg0032.tlg006": [
+"X.",
+"An."
+],
+"tlg0405.tlg001": [
+"Anaxandr.",
+""
+],
+"tlg0291.tlg001": [
+"Alcm.",
+""
+],
+"tlg0237.tlg001": [
+"Anacr.",
+""
+],
+"tlg0542.tlg001": [
+"Poll.",
+""
+],
+"tlg0320.tlg001": [
+"Diog.Ath.",
+""
+],
+"tlg0428.tlg001": [
+"Canthar.",
+""
+],
+"tlg0178.tlg001": [
+"Duris",
+""
+],
+"tlg0088.tlg004": [
+"Aristox.",
+"Fr.Hist."
+],
+"tlg1497.tlg001": [
+"Menaechm.",
+""
+],
+"tlg0638.tlg003": [
+"Philostr.",
+"VS"
+],
+"tlg2032.tlg001": [
+"Papp.",
+""
+],
+"tlg0059.tlg034": [
+"Pl.",
+"Lg."
+],
+"tlg2001.tlg026": [
+"Them.",
+"Or."
+],
+"tlg2003.tlg017": [
+"Jul.",
+"Gal."
+],
+"tlg0563.tlg001": [
+"Max.Tyr.",
+""
+],
+"tlg0007.tlg058": [
+"Plu.",
+"Ant."
+],
+"tlg2001.tlg005": [
+"Them.",
+"Or."
+],
+"tlg0019.tlg011": [
+"Ar.",
+"Pl."
+],
+"tlg0014.tlg025": [
+"D.",
+""
+],
+"tlg0543.tlg001": [
+"Plb.",
+""
+],
+"tlg1414.tlg001": [
+"Heraclit.",
+"All."
+],
+"tlg0559.tlg012": [
+"Hero",
+"Bel."
+],
+"tlg0019.tlg004": [
+"Ar.",
+"V."
+],
+"tlg0733.tlg001": [
+"Cass.",
+"Pr."
+],
+"tlg0527.tlg004": [
+"LXX",
+"Nu."
+],
+"tlg0538.tlg001": [
+"Hecat.",
+""
+],
+"tlg0093.tlg001": [
+"Thphr.",
+"HP"
+],
+"tlg0086.tlg051": [
+"Arist.",
+"Fr."
+],
+"tlg0486.tlg001": [
+"Pherecr.",
+""
+],
+"tlg0087.tlg036": [
+"Hdn.",
+"Epim."
+],
+"tlg0086.tlg014": [
+"Arist.",
+"HA"
+],
+"tlg0614.tlg001": [
+"Babr.",
+""
+],
+"tlg0527.tlg053": [
+"LXX",
+"Ez."
+],
+"tlg0093.tlg009": [
+"Thphr.",
+"Char."
+],
+"tlg4083.tlg001": [
+"Eust.",
+""
+],
+"tlg0598.tlg001": [
+"Rh.",
+""
+],
+"tlg2034.tlg003": [
+"Porph.",
+"Abst."
+],
+"tlg0527.tlg051": [
+"LXX",
+"La."
+],
+"tlg0059.tlg033": [
+"Pl.",
+"Min."
+],
+"tlg0086.tlg043": [
+"Arist.",
+"Spir."
+],
+"tlg0007.tlg004": [
+"Plu.",
+"Lyc."
+],
+"tlg0422.tlg001": [
+"Athenio",
+""
+],
+"tlg0059.tlg008": [
+"Pl.",
+"Plt."
+],
+"tlg0445.tlg001": [
+"Dionys.Com.",
+""
+],
+"tlg0544.tlg001": [
+"S.E.",
+"P."
+],
+"tlg0527.tlg011": [
+"LXX",
+"1 Ki."
+],
+"tlg0059.tlg021": [
+"Pl.",
+"Euthd."
+],
+"tlg0612.tlg001": [
+"D.Chr.",
+""
+],
+"tlg1599.tlg001": [
+"Ph.",
+"Bel."
+],
+"tlg0402.tlg001": [
+"Alex.",
+""
+],
+"tlg0096.tlg002": [
+"Aesop.",
+""
+],
+"tlg0553.tlg001": [
+"Artem.",
+""
+],
+"tlg1486.tlg001": [
+"Matro",
+"Conv."
+],
+"tlg1220.tlg001": [
+"Batr.",
+""
+],
+"tlg0016.tlg001": [
+"Hdt.",
+""
+],
+"tlg0482.tlg001": [
+"Nicom.Com.",
+""
+],
+"tlg2050.tlg001": [
+"Eun.",
+"VS"
+],
+"tlg0006.tlg008": [
+"E.",
+"Supp."
+],
+"tlg0627.tlg027": [
+"Hp.",
+"Morb.Sacr."
+],
+"tlg0363.tlg007": [
+"Ptol.",
+"Tetr."
+],
+"tlg0007.tlg064": [
+"Plu.",
+"Art."
+],
+"tlg0638.tlg001": [
+"Philostr.",
+"VA"
+],
+"tlg0006.tlg013": [
+"E.",
+"IT"
+],
+"tlg0007.tlg005": [
+"Plu.",
+"Num."
+],
+"tlg1270.tlg001": [
+"Clearch.",
+""
+],
+"tlg0061.tlg001": [
+"Luc.",
+"Asin."
+],
+"tlg0548.tlg001": [
+"Apollod.",
+""
+],
+"tlg0019.tlg003": [
+"Ar.",
+"Nu."
+],
+"tlg0007.tlg010": [
+"Plu.",
+"Them."
+],
+"tlg0004.tlg001": [
+"D.L.",
+""
+],
+"tlg1605.tlg001": [
+"Ps.-Phoc.",
+""
+],
+"tlg0527.tlg035": [
+"LXX",
+"Wi."
+],
+"tlg0527.tlg009": [
+"LXX",
+"Jd."
+],
+"tlg0019.tlg012": [
+"Ar.",
+"Fr."
+],
+"tlg0627.tlg036": [
+"Hp.",
+"Mul."
+],
+"tlg0434.tlg001": [
+"Cratin.",
+""
+],
+"tlg0521.tlg001": [
+"Epich.",
+""
+],
+"tlg1250.tlg001": [
+"Cerc.",
+""
+],
+"tlg0722.tlg001": [
+"Orib.",
+""
+],
+"tlg0071.tlg001": [
+"Peripl.M.Rubr.",
+""
+],
+"tlg0085.tlg002": [
+"A.",
+"Pers."
+],
+"tlg0033.tlg002": [
+"Pi.",
+"P."
+],
+"tlg0252.tlg001": [
+"Hermipp.",
+""
+],
+"tlg0059.tlg027": [
+"Pl.",
+"Ion"
+],
+"tlg0458.tlg001": [
+"Eub.",
+""
+],
+"tlg0627.tlg032": [
+"Hp.",
+"Int."
+],
+"tlg0579.tlg003": [
+"Orph.",
+"L."
+],
+"tlg0732.tlg002": [
+"Alex.Aphr.",
+"Pr."
+],
+"tlg4015.tlg009": [
+"Phlp.",
+"in Ph."
+],
+"tlg0093.tlg004": [
+"Thphr.",
+"Lap."
+],
+"tlg0099.tlg001": [
+"Str.",
+""
+],
+"tlg1606.tlg001": [
+"Phoen.",
+""
+],
+"tlg1415.tlg001": [
+"Heraclit.",
+""
+],
+"tlg0006.tlg016": [
+"E.",
+"Or."
+],
+"tlg0845.tlg002": [
+"Ctes.",
+"Fr."
+],
+"tlg9022.tlg001": [
+"Tz.",
+"H."
+],
+"tlg0627.tlg015": [
+"Hp.",
+"Hum."
+],
+"tlg0627.tlg006": [
+"Hp.",
+"Epid."
+],
+"tlg0527.tlg018": [
+"LXX",
+"Ne."
+],
+"tlg0718.tlg007": [
+"Aët.",
+""
+],
+"tlg0715.tlg001": [
+"Paul.Aeg.",
+""
+],
+"tlg0724.tlg002": [
+"Steph.",
+"in Hp."
+],
+"tlg0561.tlg001": [
+"Longus",
+""
+],
+"tlg0587.tlg001": [
+"Sotion",
+""
+],
+"tlg0527.tlg003": [
+"LXX",
+"Le."
+],
+"tlg0738.tlg001": [
+"Hippiatr.",
+""
+],
+"tlg0093.tlg002": [
+"Thphr.",
+"CP"
+],
+"tlg0527.tlg012": [
+"LXX",
+"2 Ki."
+],
+"tlg0232.tlg001": [
+"Archil.",
+""
+],
+"tlg0020.tlg002": [
+"Hes.",
+"Op."
+],
+"tlg0012.tlg003": [
+"Hom.",
+"Epigr."
+],
+"tlg0627.tlg001": [
+"Hp.",
+"VM"
+],
+"tlg0019.tlg010": [
+"Ar.",
+"Ec."
+],
+"tlg0032.tlg007": [
+"X.",
+"Cyr."
+],
+"tlg0537.tlg006": [
+"Epicur.",
+"Ep."
+],
+"tlg0596.tlg001": [
+"Zen.",
+""
+],
+"tlg0527.tlg058": [
+"LXX",
+"Bel"
+],
+"tlg0526.tlg001": [
+"J.",
+"AJ"
+],
+"tlg0305.tlg001": [
+"Aristias",
+""
+],
+"tlg0093.tlg010": [
+"Thphr.",
+"Fr."
+],
+"tlg0496.tlg001": [
+"Phryn.Com.",
+""
+],
+"tlg0497.tlg001": [
+"Pl.Com.",
+""
+],
+"tlg1240.tlg001": [
+"Callix.",
+""
+],
+"tlg1388.tlg001": [
+"Harmod.",
+""
+],
+"tlg0012.tlg002": [
+"Od.",
+""
+],
+"tlg0627.tlg004": [
+"Hp.",
+"Acut."
+],
+"tlg0627.tlg023": [
+"Hp.",
+"Morb."
+],
+"tlg2003.tlg001": [
+"Jul.",
+"Or."
+],
+"tlg1227.tlg001": [
+"Blaes.",
+""
+],
+"tlg1342.tlg001": [
+"Emp.",
+""
+],
+"tlg0011.tlg006": [
+"S.",
+"Ph."
+],
+"tlg0059.tlg011": [
+"Pl.",
+"Smp."
+],
+"tlg0003.tlg001": [
+"Th.",
+""
+],
+"tlg0059.tlg019": [
+"Pl.",
+"La."
+],
+"tlg0010.tlg021": [
+"Isoc.",
+""
+],
+"tlg0487.tlg001": [
+"Philem.",
+""
+],
+"tlg0620.tlg001": [
+"Archyt.",
+""
+],
+"tlg1272.tlg001": [
+"Cleom.",
+""
+],
+"tlg4066.tlg003": [
+"Dam.",
+"Pr."
+],
+"tlg0059.tlg031": [
+"Pl.",
+"Ti."
+],
+"tlg0059.tlg007": [
+"Pl.",
+"Sph."
+],
+"tlg0086.tlg031": [
+"Arist.",
+"Ph."
+],
+"tlg1595.tlg602": [
+"Phld.",
+"Acad.Ind."
+],
+"tlg1247.tlg001": [
+"Ceb.",
+""
+],
+"tlg0086.tlg025": [
+"Arist.",
+"Metaph."
+],
+"tlg0086.tlg010": [
+"Arist.",
+"EN"
+],
+"tlg0086.tlg001": [
+"Arist.",
+"APr."
+],
+"tlg0544.tlg002": [
+"S.E.",
+"M."
+],
+"tlg2049.tlg001": [
+"Sallust.",
+""
+],
+"tlg0562.tlg001": [
+"M.Ant.",
+""
+],
+"tlg2018.tlg001": [
+"Eus.",
+"PE"
+],
+"tlg2034.tlg002": [
+"Porph.",
+"VP"
+],
+"tlg2023.tlg001": [
+"Iamb.",
+"VP"
+],
+"tlg0011.tlg001": [
+"S.",
+"Tr."
+],
+"tlg0536.tlg001": [
+"Ephor.",
+""
+],
+"tlg0059.tlg002": [
+"Pl.",
+"Ap."
+],
+"tlg0086.tlg035": [
+"Arist.",
+"Pol."
+],
+"tlg0035.tlg001": [
+"Mosch.",
+""
+],
+"tlg0059.tlg024": [
+"Pl.",
+"Men."
+],
+"tlg0060.tlg001": [
+"D.S.",
+""
+],
+"tlg0383.tlg001": [
+"Alc.",
+""
+],
+"tlg0006.tlg005": [
+"E.",
+"Hipp."
+],
+"tlg0006.tlg002": [
+"E.",
+"Alc."
+],
+"tlg0085.tlg006": [
+"A.",
+"Ch."
+],
+"tlg0201.tlg001": [
+"Isyll.",
+""
+],
+"tlg0565.tlg001": [
+"Sor.",
+""
+],
+"tlg0020.tlg001": [
+"Hes.",
+"Th."
+],
+"tlg0084.tlg001": [
+"D.P.",
+""
+],
+"tlg1600.tlg001": [
+"Philostr.",
+"Im."
+],
+"tlg2045.tlg001": [
+"Nonn.",
+"D."
+],
+"tlg2023.tlg006": [
+"Iamb.",
+"Myst."
+],
+"tlg0019.tlg007": [
+"Ar.",
+"Lys."
+],
+"tlg0023.tlg001": [
+"Opp.",
+"H."
+],
+"tlg0057.tlg010": [
+"Gal.",
+"Nat.Fac."
+],
+"tlg2034.tlg001": [
+"Porph.",
+"Plot."
+],
+"tlg1738.tlg001": [
+"Trag.Adesp.",
+""
+],
+"tlg0014.tlg049": [
+"D.",
+""
+],
+"tlg0527.tlg032": [
+"LXX",
+"Jb."
+],
+"tlg0001.tlg001": [
+"A.R.",
+""
+],
+"tlg0022.tlg001": [
+"Nic.",
+"Th."
+],
+"tlg0033.tlg001": [
+"Pi.",
+"O."
+],
+"tlg0006.tlg017": [
+"E.",
+"Ba."
+],
+"tlg0085.tlg008": [
+"A.",
+"Fr."
+],
+"tlg0085.tlg007": [
+"A.",
+"Eu."
+],
+"tlg0006.tlg011": [
+"E.",
+"Tr."
+],
+"tlg0494.tlg001": [
+"Philyll.",
+""
+],
+"tlg0640.tlg001": [
+"Alciphr.",
+""
+],
+"tlg0654.tlg002": [
+"Corn.",
+"ND"
+],
+"tlg0199.tlg004": [
+"B.",
+"Scol.Oxy."
+],
+"tlg0085.tlg003": [
+"A.",
+"Pr."
+],
+"tlg0036.tlg001": [
+"Bion",
+""
+],
+"tlg0085.tlg004": [
+"A.",
+"Th."
+],
+"tlg0525.tlg001": [
+"Paus.",
+""
+],
+"tlg0011.tlg007": [
+"S.",
+"OC"
+],
+"tlg0062.tlg028": [
+"Luc.",
+"Ind."
+],
+"tlg0006.tlg015": [
+"E.",
+"Ph."
+],
+"tlg0260.tlg001": [
+"Semon.",
+""
+],
+"tlg0062.tlg052": [
+"Luc.",
+"Abd."
+],
+"tlg0647.tlg001": [
+"Tryph.",
+""
+],
+"tlg0086.tlg027": [
+"Arist.",
+"Mir."
+],
+"tlg0718.tlg015": [
+"Aët.",
+""
+],
+"tlg0006.tlg010": [
+"E.",
+"Ion"
+],
+"tlg0032.tlg001": [
+"X.",
+"HG"
+],
+"tlg0579.tlg001": [
+"Orph.",
+"H."
+],
+"tlg0062.tlg019": [
+"Luc.",
+"Gall."
+],
+"tlg0009.tlg001": [
+"Sapph.",
+"Supp."
+],
+"tlg0033.tlg005": [
+"Pi.",
+"Fr."
+],
+"tlg0059.tlg005": [
+"Pl.",
+"Cra."
+],
+"tlg0744.tlg001": [
+"Alex.Trall.",
+""
+],
+"tlg0533.tlg002": [
+"Call.",
+"Dian."
+],
+"tlg4081.tlg001": [
+"Coluth.",
+""
+],
+"tlg2578.tlg001": [
+"Jo.Gaz.",
+"Ecphr."
+],
+"tlg0081.tlg001": [
+"D.H.",
+""
+],
+"tlg0007.tlg002": [
+"Plu.",
+"Rom."
+],
+"tlg0007.tlg047": [
+"Plu.",
+"Alex."
+],
+"tlg0417.tlg001": [
+"Archipp.",
+""
+],
+"tlg0006.tlg014": [
+"E.",
+"Hel."
+],
+"tlg0019.tlg006": [
+"Ar.",
+"Av."
+],
+"tlg0263.tlg001": [
+"Sol.",
+""
+],
+"tlg0447.tlg001": [
+"Diph.",
+""
+],
+"tlg0006.tlg009": [
+"E.",
+"HF"
+],
+"tlg0033.tlg004": [
+"Pi.",
+"I."
+],
+"tlg0059.tlg004": [
+"Pl.",
+"Phd."
+],
+"tlg0062.tlg063": [
+"Luc.",
+"Herm."
+],
+"tlg0059.tlg025": [
+"Pl.",
+"Hp.Ma."
+],
+"tlg4013.tlg002": [
+"Simp.",
+"in Cael."
+],
+"tlg0028.tlg002": [
+"Antipho",
+""
+],
+"tlg0540.tlg002": [
+"Lys.",
+""
+],
+"tlg0032.tlg014": [
+"X.",
+"Cyn."
+],
+"tlg1595.tlg080": [
+"Phld.",
+"Piet."
+],
+"tlg0541.tlg025": [
+"Men.",
+"Pk."
+],
+"tlg0541.tlg018": [
+"Men.",
+"Kith.Fr."
+],
+"tlg1595.tlg113": [
+"Phld.",
+"Mort."
+],
+"tlg2734.tlg013": [
+"Just.",
+"Nov."
+],
+"tlg0086.tlg038": [
+"Arist.",
+"Rh."
+],
+"tlg0059.tlg012": [
+"Pl.",
+"Phdr."
+],
+"tlg0537.tlg002": [
+"Epicur.",
+"Sent.Vat."
+],
+"tlg0010.tlg017": [
+"Isoc.",
+""
+],
+"tlg0010.tlg015": [
+"Isoc.",
+""
+],
+"tlg2583.tlg001": [
+"Man.",
+""
+],
+"tlg0062.tlg069": [
+"Luc.",
+"DMeretr."
+],
+"tlg0062.tlg031": [
+"Luc.",
+"Philops."
+],
+"tlg0007.tlg041": [
+"Plu.",
+"Eum."
+],
+"tlg0508.tlg001": [
+"Stratt.",
+""
+],
+"tlg0074.tlg001": [
+"Arr.",
+"An."
+],
+"tlg0007.tlg051": [
+"Plu.",
+"Cleom."
+],
+"tlg0216.tlg001": [
+"Alex.Aet.",
+""
+],
+"tlg0062.tlg061": [
+"Luc.",
+"Hes."
+],
+"tlg0020.tlg007": [
+"Hes.",
+"Fr."
+],
+"tlg0213.tlg001": [
+"Hermesian.",
+""
+],
+"tlg0062.tlg046": [
+"Luc.",
+"Lex."
+],
+"tlg1595.tlg150": [
+"Phld.",
+"Vit."
+],
+"tlg0376.tlg001": [
+"Tim.",
+"Pers."
+],
+"tlg0014.tlg018": [
+"D.",
+""
+],
+"tlg0627.tlg024": [
+"Hp.",
+"Nat.Puer."
+],
+"tlg2034.tlg023": [
+"Porph.",
+"Chr."
+],
+"tlg0086.tlg032": [
+"Arist.",
+"Phgn."
+],
+"tlg0074.tlg002": [
+"Arr.",
+"Ind."
+],
+"tlg0579.tlg002": [
+"Orph.",
+"A."
+],
+"tlg0732.tlg006": [
+"Alex.Aphr.",
+"in Top."
+],
+"tlg0527.tlg050": [
+"LXX",
+"Ba."
+],
+"tlg0524.tlg001": [
+"Sophr.",
+""
+],
+"tlg0086.tlg030": [
+"Arist.",
+"PA"
+],
+"tlg0527.tlg034": [
+"LXX",
+"Si."
+],
+"tlg1264.tlg001": [
+"Chrysipp.Stoic.",
+""
+],
+"tlg0527.tlg006": [
+"LXX",
+"Jo."
+],
+"tlg4080.tlg001": [
+"Gp.",
+""
+],
+"tlg2642.tlg002": [
+"Astramps.",
+"Orac."
+],
+"tlg0526.tlg004": [
+"J.",
+"BJ"
+],
+"tlg0719.tlg002": [
+"Aret.",
+"SD"
+],
+"tlg0527.tlg029": [
+"LXX",
+"Pr."
+],
+"tlg0527.tlg002": [
+"LXX",
+"Ex."
+],
+"tlg0638.tlg007": [
+"Philostr.",
+"Gym."
+],
+"tlg4093.tlg001": [
+"Choerob.",
+"in Theod."
+],
+"tlg0082.tlg001": [
+"A.D.",
+"Pron."
+],
+"tlg2003.tlg013": [
+"Jul.",
+"Ep."
+],
+"tlg2043.tlg001": [
+"Heph.Astr.",
+""
+],
+"tlg0010.tlg014": [
+"Isoc.",
+""
+],
+"tlg0547.tlg001": [
+"Arist.",
+"Rh.Al."
+],
+"tlg0627.tlg010": [
+"Hp.",
+"Art."
+],
+"tlg0521.tlg005": [
+"Axiop.",
+""
+],
+"tlg4029.tlg001": [
+"Procop.",
+"Goth."
+],
+"tlg4036.tlg008": [
+"Procl.",
+"in Prm."
+],
+"tlg0062.tlg065": [
+"Luc.",
+"Nav."
+],
+"tlg0059.tlg010": [
+"Pl.",
+"Phlb."
+],
+"tlg0006.tlg007": [
+"E.",
+"Hec."
+],
+"tlg0032.tlg009": [
+"X.",
+"Ages."
+],
+"tlg0490.tlg001": [
+"Philippid.",
+""
+],
+"tlg0086.tlg034": [
+"Arist.",
+"Po."
+],
+"tlg0081.tlg012": [
+"D.H.",
+"Comp."
+],
+"tlg0082.tlg002": [
+"A.D.",
+"Adv."
+],
+"tlg0053.tlg001": [
+"Phalar.",
+"Ep."
+],
+"tlg0010.tlg011": [
+"Isoc.",
+""
+],
+"tlg2133.tlg001": [
+"Ach.Tat.",
+"Intr.Arat."
+],
+"tlg0081.tlg006": [
+"D.H.",
+"Dem."
+],
+"tlg0627.tlg016": [
+"Hp.",
+"Prorrh."
+],
+"tlg0527.tlg005": [
+"LXX",
+"De."
+],
+"tlg1595.tlg271": [
+"Phld.",
+"Lib."
+],
+"tlg0527.tlg024": [
+"LXX",
+"2 Ma."
+],
+"tlg0627.tlg043": [
+"Hp.",
+"Carn."
+],
+"tlg0067.tlg001": [
+"Agatharch.",
+""
+],
+"tlg0527.tlg030": [
+"LXX",
+"Ec."
+],
+"tlg0527.tlg027": [
+"LXX",
+"Ps."
+],
+"tlg0032.tlg003": [
+"X.",
+"Oec."
+],
+"tlg0744.tlg002": [
+"Alex.Trall.",
+"Febr."
+],
+"tlg0059.tlg009": [
+"Pl.",
+"Prm."
+],
+"tlg0019.tlg005": [
+"Ar.",
+"Pax"
+],
+"tlg0266.tlg001": [
+"Tyrt.",
+""
+],
+"tlg0028.tlg005": [
+"Antipho",
+""
+],
+"tlg0006.tlg012": [
+"E.",
+"El."
+],
+"tlg0017.tlg004": [
+"Is.",
+""
+],
+"tlg0086.tlg044": [
+"Arist.",
+"Top."
+],
+"tlg4013.tlg004": [
+"Simp.",
+"in Ph."
+],
+"tlg0017.tlg002": [
+"Is.",
+""
+],
+"tlg0014.tlg020": [
+"D.",
+""
+],
+"tlg0014.tlg021": [
+"D.",
+""
+],
+"tlg2000.tlg001": [
+"Plot.",
+""
+],
+"tlg0014.tlg063": [
+"D.",
+"Ep."
+],
+"tlg0545.tlg002": [
+"Ael.",
+"VH"
+],
+"tlg4029.tlg002": [
+"Procop.",
+"Arc."
+],
+"tlg0006.tlg018": [
+"E.",
+"IA"
+],
+"tlg0540.tlg010": [
+"Lys.",
+""
+],
+"tlg0032.tlg004": [
+"X.",
+"Smp."
+],
+"tlg0014.tlg011": [
+"D.",
+""
+],
+"tlg0007.tlg052": [
+"Plu.",
+"TG"
+],
+"tlg0527.tlg001": [
+"LXX",
+"Ge."
+],
+"tlg0664.tlg001": [
+"Diocl.Fr.",
+""
+],
+"tlg0014.tlg024": [
+"D.",
+""
+],
+"tlg0032.tlg005": [
+"X.",
+"Ap."
+],
+"tlg0086.tlg012": [
+"Arist.",
+"GA"
+],
+"tlg1601.tlg001": [
+"Philox.",
+""
+],
+"tlg0014.tlg047": [
+"D.",
+""
+],
+"tlg0059.tlg032": [
+"Pl.",
+"Criti."
+],
+"tlg0541.tlg028": [
+"Men.",
+"Per.Fr."
+],
+"tlg0086.tlg004": [
+"Arist.",
+"Aud."
+],
+"tlg1764.tlg001": [
+"Vett.Val.",
+""
+],
+"tlg0361.tlg001": [
+"Cleonid.",
+"Harm."
+],
+"tlg0086.tlg002": [
+"Arist.",
+"de An."
+],
+"tlg0086.tlg026": [
+"Arist.",
+"Mete."
+],
+"tlg0007.tlg066": [
+"Plu.",
+"Oth."
+],
+"tlg0329.tlg001": [
+"Theodect.",
+""
+],
+"tlg0527.tlg026": [
+"LXX",
+"4 Ma."
+],
+"tlg0718.tlg005": [
+"Aët.",
+""
+],
+"tlg0007.tlg012": [
+"Plu.",
+"Per."
+],
+"tlg0627.tlg031": [
+"Hp.",
+"Vict."
+],
+"tlg0062.tlg034": [
+"Luc.",
+"Anach."
+],
+"tlg0627.tlg012": [
+"Hp.",
+"Aph."
+],
+"tlg0555.tlg002": [
+"Clem.Al.",
+"Paed."
+],
+"tlg0062.tlg038": [
+"Luc.",
+"Alex."
+],
+"tlg0020.tlg003": [
+"Hes.",
+"Sc."
+],
+"tlg0309.tlg001": [
+"Achae.",
+""
+],
+"tlg4040.tlg001": [
+"Phot.",
+"Bibl."
+],
+"tlg0564.tlg003": [
+"Ruf.",
+"Onom."
+],
+"tlg1645.tlg001": [
+"Ptol.Euerg.",
+""
+],
+"tlg0014.tlg029": [
+"D.",
+""
+],
+"tlg0233.tlg001": [
+"Hippon.",
+""
+],
+"tlg0014.tlg046": [
+"D.",
+""
+],
+"tlg0719.tlg001": [
+"Aret.",
+"SA"
+],
+"tlg0408.tlg001": [
+"Com.Adesp.",
+""
+],
+"tlg0059.tlg036": [
+"Pl.",
+"Ep."
+],
+"tlg0627.tlg028": [
+"Hp.",
+"Ulc."
+],
+"tlg0513.tlg001": [
+"Theopomp.Com.",
+""
+],
+"tlg0461.tlg001": [
+"Eup.",
+""
+],
+"tlg0074.tlg005": [
+"Arr.",
+"Tact."
+],
+"tlg0627.tlg038": [
+"Hp.",
+"Superf."
+],
+"tlg0719.tlg003": [
+"Aret.",
+"CA"
+],
+"tlg0719.tlg004": [
+"Aret.",
+"CD"
+],
+"tlg0718.tlg009": [
+"Aët.",
+""
+],
+"tlg0022.tlg002": [
+"Nic.",
+"Al."
+],
+"tlg0653.tlg001": [
+"Arat.",
+""
+],
+"tlg0014.tlg009": [
+"D.",
+""
+],
+"tlg2001.tlg004": [
+"Them.",
+"Or."
+],
+"tlg1608.tlg001": [
+"Phryn.",
+"PS"
+],
+"tlg0058.tlg001": [
+"Aen.Tact.",
+""
+],
+"tlg0005.tlg002": [
+"Theoc.",
+"Ep."
+],
+"tlg0718.tlg012": [
+"Aët.",
+""
+],
+"tlg0426.tlg001": [
+"Call.Com.",
+""
+],
+"tlg0541.tlg029": [
+"Men.",
+"Sam."
+],
+"tlg0537.tlg003": [
+"Epicur.",
+"Fr."
+],
+"tlg0658.tlg001": [
+"Hld.",
+""
+],
+"tlg0510.tlg001": [
+"Telecl.",
+""
+],
+"tlg0059.tlg039": [
+"Pl.",
+"Epigr."
+],
+"tlg0627.tlg026": [
+"Hp.",
+"Loc.Hom."
+],
+"tlg0014.tlg010": [
+"D.",
+""
+],
+"tlg0061.tlg003": [
+"Luc.",
+"Dem.Enc."
+],
+"tlg1323.tlg001": [
+"Ael.Dion.",
+"Fr."
+],
+"tlg1544.tlg001": [
+"Nymphis",
+""
+],
+"tlg0479.tlg001": [
+"Nico",
+""
+],
+"tlg0480.tlg001": [
+"Nicoch.",
+""
+],
+"tlg1562.tlg001": [
+"Parm.",
+""
+],
+"tlg0267.tlg001": [
+"Xenoph.",
+""
+],
+"tlg0059.tlg001": [
+"Pl.",
+"Euthphr."
+],
+"tlg0261.tlg001": [
+"Simon.",
+""
+],
+"tlg0545.tlg004": [
+"Ael.",
+"Fr."
+],
+"tlg0006.tlg004": [
+"E.",
+"Heracl."
+],
+"tlg0527.tlg017": [
+"LXX",
+"1 Es."
+],
+"tlg0007.tlg035": [
+"Plu.",
+"Cim."
+],
+"tlg0627.tlg003": [
+"Hp.",
+"Prog."
+],
+"tlg0010.tlg007": [
+"Isoc.",
+""
+],
+"tlg0010.tlg020": [
+"Isoc.",
+""
+],
+"tlg0007.tlg063": [
+"Plu.",
+"Arat."
+],
+"tlg1620.tlg001": [
+"Polyaen.",
+""
+],
+"tlg0086.tlg037": [
+"Arist.",
+"Resp."
+],
+"tlg0722.tlg004": [
+"Orib.",
+"Syn."
+],
+"tlg0026.tlg001": [
+"Aeschin.",
+""
+],
+"tlg0086.tlg005": [
+"Arist.",
+"Cael."
+],
+"tlg0540.tlg006": [
+"Lys.",
+""
+],
+"tlg0010.tlg016": [
+"Isoc.",
+""
+],
+"tlg0026.tlg003": [
+"Aeschin.",
+""
+],
+"tlg0641.tlg001": [
+"X.Eph.",
+""
+],
+"tlg2051.tlg001": [
+"Him.",
+"Or."
+],
+"tlg0086.tlg003": [
+"Arist.",
+"Ath."
+],
+"tlg0638.tlg004": [
+"Philostr.",
+"Her."
+],
+"tlg0062.tlg018": [
+"Luc.",
+"JTr."
+],
+"tlg0062.tlg048": [
+"Luc.",
+"Astr."
+],
+"tlg0006.tlg006": [
+"E.",
+"Andr."
+],
+"tlg0006.tlg019": [
+"E.",
+"Rh."
+],
+"tlg0337.tlg001": [
+"Python",
+""
+],
+"tlg0027.tlg001": [
+"And.",
+""
+],
+"tlg0579.tlg011": [
+"Orph.",
+"Fr."
+],
+"tlg0007.tlg045": [
+"Plu.",
+"Pomp."
+],
+"tlg2046.tlg001": [
+"Q.S.",
+""
+],
+"tlg0007.tlg030": [
+"Plu.",
+"Pyrrh."
+],
+"tlg0007.tlg013": [
+"Plu.",
+"Fab."
+],
+"tlg0086.tlg018": [
+"Arist.",
+"Juv."
+],
+"tlg0070.tlg001": [
+"Isid.Char.",
+""
+],
+"tlg0303.tlg001": [
+"Phryn.Trag.",
+""
+],
+"tlg1595.tlg290": [
+"Phld.",
+"Po."
+],
+"tlg0007.tlg048": [
+"Plu.",
+"Caes."
+],
+"tlg2595.tlg001": [
+"Ph.Byz.",
+"Mir."
+],
+"tlg0199.tlg001": [
+"B.",
+""
+],
+"tlg2627.tlg001": [
+"Damian.",
+"Opt."
+],
+"tlg2001.tlg020": [
+"Them.",
+"Or."
+],
+"tlg0609.tlg001": [
+"Trypho",
+"Trop."
+],
+"tlg0476.tlg001": [
+"Mnesim.",
+""
+],
+"tlg0411.tlg001": [
+"Apollod.Car.",
+""
+],
+"tlg0017.tlg008": [
+"Is.",
+""
+],
+"tlg0014.tlg019": [
+"D.",
+""
+],
+"tlg0014.tlg057": [
+"D.",
+""
+],
+"tlg0028.tlg006": [
+"Antipho",
+""
+],
+"tlg0032.tlg011": [
+"X.",
+"Vect."
+],
+"tlg0017.tlg0011": [
+"Is.",
+""
+],
+"tlg0059.tlg038": [
+"Pl.",
+"Ax."
+],
+"tlg0403.tlg001": [
+"Amips.",
+""
+],
+"tlg0540.tlg019": [
+"Lys.",
+""
+],
+"tlg0540.tlg013": [
+"Lys.",
+""
+],
+"tlg0017.tlg009": [
+"Is.",
+""
+],
+"tlg0062.tlg027": [
+"Luc.",
+"Sacr."
+],
+"tlg0014.tlg054": [
+"D.",
+""
+],
+"tlg4036.tlg022": [
+"Procl.",
+"Par.Ptol."
+],
+"tlg0551.tlg017": [
+"App.",
+"BC"
+],
+"tlg0028.tlg001": [
+"Antipho",
+""
+],
+"tlg0540.tlg003": [
+"Lys.",
+""
+],
+"tlg0014.tlg027": [
+"D.",
+""
+],
+"tlg0564.tlg004": [
+"Ruf.",
+"Anat."
+],
+"tlg0057.tlg017": [
+"Gal.",
+"UP"
+],
+"tlg0284.tlg001": [
+"Aristid.",
+"Or."
+],
+"tlg0718.tlg013": [
+"Aët.",
+""
+],
+"tlg1733.tlg001": [
+"Timae.",
+""
+],
+"tlg0014.tlg032": [
+"D.",
+""
+],
+"tlg0688.tlg001": [
+"Agathocl.",
+""
+],
+"tlg0032.tlg010": [
+"X.",
+"Lac."
+],
+"tlg4019.tlg004": [
+"Olymp.",
+"in Alc."
+],
+"tlg0652.tlg001": [
+"Philostr.Jun.",
+"Im."
+],
+"tlg0577.tlg001": [
+"Nic.Dam.",
+""
+],
+"tlg0655.tlg001": [
+"Parth.",
+""
+],
+"tlg0310.tlg001": [
+"Carc.",
+""
+],
+"tlg0030.tlg007": [
+"Hyp.",
+"Fr."
+],
+"tlg0026.tlg002": [
+"Aeschin.",
+""
+],
+"tlg0540.tlg001": [
+"Lys.",
+""
+],
+"tlg0062.tlg056": [
+"Luc.",
+"Herod."
+],
+"tlg0062.tlg040": [
+"Luc.",
+"Pr.Im."
+],
+"tlg1555.tlg001": [
+"Pancrat.",
+"Oxy."
+],
+"tlg0527.tlg048": [
+"LXX",
+"Is."
+],
+"tlg0062.tlg022": [
+"Luc.",
+"Tim."
+],
+"tlg2200.tlg005": [
+"Lib.",
+"Decl."
+],
+"tlg0062.tlg015": [
+"Luc.",
+"Symp."
+],
+"tlg0061.tlg002": [
+"Luc.",
+"Am."
+],
+"tlg0545.tlg003": [
+"Ael.",
+"Ep."
+],
+"tlg1204.tlg001": [
+"Ath.Mech.",
+""
+],
+"tlg0724.tlg001": [
+"Steph.",
+"in Gal."
+],
+"tlg0062.tlg036": [
+"Luc.",
+"Luct."
+],
+"tlg2450.tlg001": [
+"Palaeph.",
+""
+],
+"tlg0627.tlg051": [
+"Hp.",
+"Praec."
+],
+"tlg1322.tlg001": [
+"Diogenian.Epicur.",
+""
+],
+"tlg0377.tlg001": [
+"Telest.",
+""
+],
+"tlg2317.tlg001": [
+"Herm.",
+"in Phdr."
+],
+"tlg0062.tlg066": [
+"Luc.",
+"DMort."
+],
+"tlg0660.tlg001": [
+"Apollon.Cit.",
+""
+],
+"tlg0014.tlg001": [
+"D.",
+""
+],
+"tlg1617.tlg001": [
+"Polem.Phgn.",
+""
+],
+"tlg0057.tlg001": [
+"Gal.",
+"Protr."
+],
+"tlg0527.tlg025": [
+"LXX",
+"3 Ma."
+],
+"tlg0527.tlg049": [
+"LXX",
+"Je."
+],
+"tlg0292.tlg001": [
+"Stesich.",
+""
+],
+"tlg0029.tlg007": [
+"Din.",
+"Fr."
+],
+"tlg0541.tlg009": [
+"Men.",
+"Epit."
+],
+"tlg0484.tlg001": [
+"Nicostr.Com.",
+""
+],
+"tlg0502.tlg001": [
+"Sophil.",
+""
+],
+"tlg0473.tlg001": [
+"Macho",
+""
+],
+"tlg0014.tlg015": [
+"D.",
+""
+],
+"tlg0032.tlg013": [
+"X.",
+"Eq."
+],
+"tlg0007.tlg060": [
+"Plu.",
+"Dio"
+],
+"tlg0500.tlg001": [
+"Posidipp.",
+""
+],
+"tlg0062.tlg025": [
+"Luc.",
+"Pisc."
+],
+"tlg0627.tlg049": [
+"Hp.",
+"Medic."
+],
+"tlg0007.tlg061": [
+"Plu.",
+"Brut."
+],
+"tlg0007.tlg054": [
+"Plu.",
+"Dem."
+],
+"tlg0062.tlg037": [
+"Luc.",
+"Rh.Pr."
+],
+"tlg0007.tlg033": [
+"Plu.",
+"Sull."
+],
+"tlg0540.tlg030": [
+"Lys.",
+""
+],
+"tlg0557.tlg002": [
+"Epict.",
+"Ench."
+],
+"tlg0059.tlg028": [
+"Pl.",
+"Mx."
+],
+"tlg0679.tlg001": [
+"Aeschrio",
+""
+],
+"tlg0540.tlg007": [
+"Lys.",
+""
+],
+"tlg0014.tlg004": [
+"D.",
+""
+],
+"tlg0010.tlg009": [
+"Isoc.",
+""
+],
+"tlg0718.tlg011": [
+"Aët.",
+""
+],
+"tlg0024.tlg001": [
+"Opp.",
+"C."
+],
+"tlg1663.tlg001": [
+"Semus",
+""
+],
+"tlg0551.tlg005": [
+"App.",
+"Gall."
+],
+"tlg0059.tlg020": [
+"Pl.",
+"Ly."
+],
+"tlg0007.tlg028": [
+"Plu.",
+"Flam."
+],
+"tlg0613.tlg001": [
+"Demetr.",
+"Eloc."
+],
+"tlg0015.tlg001": [
+"Hdn.",
+""
+],
+"tlg0081.tlg010": [
+"D.H.",
+"Th."
+],
+"tlg0551.tlg007": [
+"App.",
+"Hisp."
+],
+"tlg0404.tlg001": [
+"Amphis",
+""
+],
+"tlg4024.tlg001": [
+"Agath.",
+""
+],
+"tlg0638.tlg002": [
+"Philostr.",
+"Ep."
+],
+"tlg0007.tlg001": [
+"Plu.",
+"Thes."
+],
+"tlg0062.tlg055": [
+"Luc.",
+"Sat."
+],
+"tlg0062.tlg013": [
+"Luc.",
+"Cal."
+],
+"tlg4036.tlg007": [
+"Procl.",
+"in Alc."
+],
+"tlg0086.tlg042": [
+"Arist.",
+"Somn.Vig."
+],
+"tlg0093.tlg005": [
+"Thphr.",
+"Ign."
+],
+"tlg0651.tlg001": [
+"Ant.Lib.",
+""
+],
+"tlg0062.tlg059": [
+"Luc.",
+"Apol."
+],
+"tlg0062.tlg039": [
+"Luc.",
+"Im."
+],
+"tlg2586.tlg001": [
+"Men.Rh.",
+""
+],
+"tlg0007.tlg015": [
+"Plu.",
+"Alc."
+],
+"tlg0007.tlg044": [
+"Plu.",
+"Ages."
+],
+"tlg0030.tlg006": [
+"Hyp.",
+"Epit."
+],
+"tlg0527.tlg020": [
+"LXX",
+"Ju."
+],
+"tlg0294.tlg001": [
+"Corinn.",
+""
+],
+"tlg0086.tlg028": [
+"Arist.",
+"Mu."
+],
+"tlg0081.tlg004": [
+"D.H.",
+"Isoc."
+],
+"tlg0551.tlg013": [
+"App.",
+"Syr."
+],
+"tlg0199.tlg002": [
+"B.",
+""
+],
+"tlg0028.tlg004": [
+"Antipho",
+""
+],
+"tlg1635.tlg001": [
+"Protag.",
+""
+],
+"tlg0010.tlg013": [
+"Isoc.",
+""
+],
+"tlg1165.tlg001": [
+"Apollod.",
+"Poliorc."
+],
+"tlg0062.tlg053": [
+"Luc.",
+"Hist.Conscr."
+],
+"tlg0062.tlg006": [
+"Luc.",
+"Musc.Enc."
+],
+"tlg0014.tlg023": [
+"D.",
+""
+],
+"tlg0030.tlg003": [
+"Hyp.",
+"Eux."
+],
+"tlg0032.tlg008": [
+"X.",
+"Hier."
+],
+"tlg2023.tlg004": [
+"Iamb.",
+"in Nic."
+],
+"tlg0062.tlg057": [
+"Luc.",
+"Zeux."
+],
+"tlg0264.tlg001": [
+"Sus.",
+""
+],
+"tlg2034.tlg004": [
+"Porph.",
+"Antr."
+],
+"tlg0243.tlg001": [
+"Callin.",
+""
+],
+"tlg0014.tlg002": [
+"D.",
+""
+],
+"tlg0718.tlg016": [
+"Aët.",
+""
+],
+"tlg0059.tlg018": [
+"Pl.",
+"Chrm."
+],
+"tlg0592.tlg004": [
+"Hermog.",
+"Id."
+],
+"tlg0593.tlg001": [
+"Gorg.",
+""
+],
+"tlg2023.tlg003": [
+"Iamb.",
+"Comm.Math."
+],
+"tlg0082.tlg004": [
+"A.D.",
+"Synt."
+],
+"tlg1402.tlg001": [
+"Heph.",
+""
+],
+"tlg2034.tlg008": [
+"Porph.",
+"Sent."
+],
+"tlg0527.tlg056": [
+"LXX",
+"Da."
+],
+"tlg0540.tlg022": [
+"Lys.",
+""
+],
+"tlg0017.tlg0010": [
+"Is.",
+""
+],
+"tlg0036.tlg003": [
+"Bion",
+"Fr."
+],
+"tlg2001.tlg022": [
+"Them.",
+"Or."
+],
+"tlg0062.tlg007": [
+"Luc.",
+"Nigr."
+],
+"tlg2001.tlg002": [
+"Them.",
+"Or."
+],
+"tlg0086.tlg013": [
+"Arist.",
+"GC"
+],
+"tlg4036.tlg005": [
+"Procl.",
+"Inst."
+],
+"tlg1147.tlg001": [
+"Antipho Soph.",
+""
+],
+"tlg0221.tlg001": [
+"Euph.",
+""
+],
+"tlg0551.tlg009": [
+"App.",
+"Pun."
+],
+"tlg0014.tlg026": [
+"D.",
+""
+],
+"tlg0554.tlg001": [
+"Charito",
+""
+],
+"tlg0057.tlg004": [
+"Gal.",
+"Sect.Intr."
+],
+"tlg0057.tlg104": [
+"Gal.",
+"Libr.Propr."
+],
+"tlg1026.tlg001": [
+"Petron.",
+""
+],
+"tlg0592.tlg005": [
+"Hermog.",
+"Meth."
+],
+"tlg0592.tlg002": [
+"Hermog.",
+"Stat."
+],
+"tlg1358.tlg003": [
+"Eudox.",
+"Ars"
+],
+"tlg1634.tlg001": [
+"Prodic.",
+""
+],
+"tlg2571.tlg001": [
+"Hierocl.",
+"in CA"
+],
+"tlg0007.tlg039": [
+"Plu.",
+"Crass."
+],
+"tlg0281.tlg001": [
+"Marc.Sid.",
+""
+],
+"tlg2003.tlg012": [
+"Jul.",
+"Mis."
+],
+"tlg4015.tlg007": [
+"Phlp.",
+"in GA"
+],
+"tlg4016.tlg004": [
+"Ammon.",
+"in APr."
+],
+"tlg0627.tlg009": [
+"Hp.",
+"Fract."
+],
+"tlg0062.tlg070": [
+"Luc.",
+"Sol."
+],
+"tlg0527.tlg036": [
+"LXX",
+"Ho."
+],
+"tlg0062.tlg041": [
+"Luc.",
+"Syr.D."
+],
+"tlg2003.tlg003": [
+"Jul.",
+"Caes."
+],
+"tlg0438.tlg001": [
+"Damox.",
+""
+],
+"tlg0093.tlg003": [
+"Thphr.",
+"Sens."
+],
+"tlg0203.tlg001": [
+"Limen.",
+""
+],
+"tlg0358.tlg001": [
+"Nicom.",
+"Ar."
+],
+"tlg4036.tlg015": [
+"Procl.",
+"H."
+],
+"tlg0017.tlg013": [
+"Is.",
+"Fr."
+],
+"tlg0082.tlg003": [
+"A.D.",
+"Conj."
+],
+"tlg1595.tlg241": [
+"Phld.",
+"Oec."
+],
+"tlg0028.tlg003": [
+"Antipho",
+""
+],
+"tlg0541.tlg003": [
+"Men.",
+"Georg."
+],
+"tlg0010.tlg019": [
+"Isoc.",
+""
+],
+"tlg0017.tlg005": [
+"Is.",
+""
+],
+"tlg0007.tlg027": [
+"Plu.",
+"Phil."
+],
+"tlg0062.tlg030": [
+"Luc.",
+"Par."
+],
+"tlg2200.tlg006": [
+"Lib.",
+"Descr."
+],
+"tlg0518.tlg001": [
+"Xenarch.",
+""
+],
+"tlg0007.tlg031": [
+"Plu.",
+"Mar."
+],
+"tlg1734.tlg001": [
+"Ti.Locr.",
+""
+],
+"tlg0627.tlg034": [
+"Hp.",
+"Septim."
+],
+"tlg0343.tlg001": [
+"Ezek.",
+"Exag."
+],
+"tlg0014.tlg050": [
+"D.",
+""
+],
+"tlg1383.tlg001": [
+"Gem.",
+""
+],
+"tlg0086.tlg006": [
+"Arist.",
+"Cat."
+],
+"tlg0066.tlg001": [
+"Dicaearch.",
+""
+],
+"tlg0559.tlg001": [
+"Hero",
+"Spir."
+],
+"tlg0014.tlg048": [
+"D.",
+""
+],
+"tlg0498.tlg001": [
+"Polioch.",
+""
+],
+"tlg0527.tlg013": [
+"LXX",
+"3 Ki."
+],
+"tlg0081.tlg015": [
+"D.H.",
+"Pomp."
+],
+"tlg4036.tlg002": [
+"Procl.",
+"Hyp."
+],
+"tlg0068.tlg001": [
+"Scymn.",
+""
+],
+"tlg2200.tlg004": [
+"Lib.",
+"Or."
+],
+"tlg0086.tlg007": [
+"Arist.",
+"Col."
+],
+"tlg0328.tlg001": [
+"Chaerem.",
+""
+],
+"tlg0062.tlg016": [
+"Luc.",
+"Cat."
+],
+"tlg0219.tlg001": [
+"Rhian.",
+""
+],
+"tlg0007.tlg036": [
+"Plu.",
+"Luc."
+],
+"tlg0627.tlg007": [
+"Hp.",
+"VC"
+],
+"tlg0413.tlg001": [
+"Apollod.Com.",
+""
+],
+"tlg0065.tlg001": [
+"Scyl.",
+""
+],
+"tlg0358.tlg002": [
+"Nicom.",
+"Harm."
+],
+"tlg0214.tlg001": [
+"Phanocl.",
+""
+],
+"tlg0032.tlg015": [
+"X.",
+"Ath."
+],
+"tlg0014.tlg061": [
+"D.",
+""
+],
+"tlg0007.tlg055": [
+"Plu.",
+"Cic."
+],
+"tlg2037.tlg001": [
+"Nicostr.",
+""
+],
+"tlg0718.tlg006": [
+"Aët.",
+""
+],
+"tlg0319.tlg001": [
+"Critias",
+""
+],
+"tlg2178.tlg001": [
+"Longin.",
+"Rh."
+],
+"tlg2023.tlg002": [
+"Iamb.",
+"Protr."
+],
+"tlg0059.tlg029": [
+"Pl.",
+"Clit."
+],
+"tlg0407.tlg001": [
+"Anaxipp.",
+""
+],
+"tlg1866.tlg001": [
+"Posidon.",
+""
+],
+"tlg0627.tlg025": [
+"Hp.",
+"Aff."
+],
+"tlg2329.tlg001": [
+"Pherecyd.",
+""
+],
+"tlg0718.tlg004": [
+"Aët.",
+""
+],
+"tlg0014.tlg008": [
+"D.",
+""
+],
+"tlg0081.tlg003": [
+"D.H.",
+"Lys."
+],
+"tlg0433.tlg001": [
+"Crates Com.",
+""
+],
+"tlg0454.tlg001": [
+"Epin.",
+""
+],
+"tlg0062.tlg024": [
+"Luc.",
+"Vit.Auct."
+],
+"tlg0007.tlg038": [
+"Plu.",
+"Nic."
+],
+"tlg0014.tlg006": [
+"D.",
+""
+],
+"tlg0030.tlg005": [
+"Hyp.",
+"Ath."
+],
+"tlg0029.tlg001": [
+"Din.",
+""
+],
+"tlg0014.tlg035": [
+"D.",
+""
+],
+"tlg0086.tlg008": [
+"Arist.",
+"Div.Somn."
+],
+"tlg2034.tlg028": [
+"Porph.",
+"in Ptol."
+],
+"tlg0088.tlg001": [
+"Aristox.",
+"Harm."
+],
+"tlg1545.tlg001": [
+"Ocell.",
+""
+],
+"tlg2054.tlg001": [
+"Aristid.Quint.",
+""
+],
+"tlg0366.tlg001": [
+"Lasus",
+""
+],
+"tlg2001.tlg001": [
+"Them.",
+"Or."
+],
+"tlg0540.tlg021": [
+"Lys.",
+""
+],
+"tlg0627.tlg055": [
+"Hp.",
+"Ep."
+],
+"tlg0018.tlg040": [
+"Ph.",
+"Fr."
+],
+"tlg0483.tlg001": [
+"Nicopho",
+""
+],
+"tlg1254.tlg001": [
+"Charax",
+""
+],
+"tlg2580.tlg002": [
+"Lyd.",
+"Mens."
+],
+"tlg0420.tlg001": [
+"Aristonym.",
+""
+],
+"tlg0032.tlg012": [
+"X.",
+"Eq.Mag."
+],
+"tlg0062.tlg045": [
+"Luc.",
+"Salt."
+],
+"tlg0086.tlg041": [
+"Arist.",
+"Sens."
+],
+"tlg0062.tlg044": [
+"Luc.",
+"Tox."
+],
+"tlg0084.tlg003": [
+"Dionys.",
+"Av."
+],
+"tlg0593.tlg003": [
+"Gorg.",
+"Hel."
+],
+"tlg0027.tlg004": [
+"And.",
+""
+],
+"tlg0255.tlg001": [
+"Mimn.",
+""
+],
+"tlg0615.tlg001": [
+"Asp.",
+"in EN"
+],
+"tlg0061.tlg008": [
+"Luc.",
+"Charid."
+],
+"tlg0086.tlg045": [
+"Arist.",
+"VV"
+],
+"tlg0059.tlg003": [
+"Pl.",
+"Cri."
+],
+"tlg0017.tlg001": [
+"Is.",
+""
+],
+"tlg0540.tlg034": [
+"Lys.",
+""
+],
+"tlg1319.tlg001": [
+"Diog.Apoll.",
+""
+],
+"tlg0085.tlg009": [
+"A.",
+"Eleg."
+],
+"tlg0350.tlg001": [
+"Dionys.Trag.",
+""
+],
+"tlg1557.tlg001": [
+"Panyas.",
+""
+],
+"tlg0007.tlg049": [
+"Plu.",
+"Phoc."
+],
+"tlg0718.tlg008": [
+"Aët.",
+""
+],
+"tlg1595.tlg512": [
+"Phld.",
+"Sto."
+],
+"tlg1210.tlg001": [
+"Autol.",
+""
+],
+"tlg0014.tlg012": [
+"D.",
+""
+],
+"tlg0546.tlg001": [
+"Ael.",
+"Tact."
+],
+"tlg0527.tlg023": [
+"LXX",
+"1 Ma."
+],
+"tlg2039.tlg001": [
+"Dioph.",
+""
+],
+"tlg0086.tlg022": [
+"Arist.",
+"MM"
+],
+"tlg0014.tlg056": [
+"D.",
+""
+],
+"tlg0014.tlg034": [
+"D.",
+""
+],
+"tlg0059.tlg016": [
+"Pl.",
+"Amat."
+],
+"tlg0530.tlg006": [
+"Porph.",
+"Gaur."
+],
+"tlg0014.tlg043": [
+"D.",
+""
+],
+"tlg0062.tlg033": [
+"Luc.",
+"Merc.Cond."
+],
+"tlg0014.tlg042": [
+"D.",
+""
+],
+"tlg0527.tlg014": [
+"LXX",
+"4 Ki."
+],
+"tlg0057.tlg033": [
+"Gal.",
+"Thras."
+],
+"tlg0081.tlg005": [
+"D.H.",
+"Is."
+],
+"tlg2001.tlg021": [
+"Them.",
+"Or."
+],
+"tlg0014.tlg041": [
+"D.",
+""
+],
+"tlg1595.tlg472": [
+"Phld.",
+"Sign."
+],
+"tlg0014.tlg059": [
+"D.",
+""
+],
+"tlg0552.tlg005": [
+"Archim.",
+"Aequil."
+],
+"tlg1799.tlg001": [
+"Euc.",
+""
+],
+"tlg1146.tlg001": [
+"Antip.Stoic.",
+""
+],
+"tlg0014.tlg036": [
+"D.",
+""
+],
+"tlg0014.tlg044": [
+"D.",
+""
+],
+"tlg0014.tlg003": [
+"D.",
+""
+],
+"tlg0507.tlg001": [
+"Strato Com.",
+""
+],
+"tlg0551.tlg008": [
+"App.",
+"Hann."
+],
+"tlg2687.tlg001": [
+"Zos.",
+""
+],
+"tlg0540.tlg029": [
+"Lys.",
+""
+],
+"tlg0014.tlg039": [
+"D.",
+""
+],
+"tlg0010.tlg008": [
+"Isoc.",
+""
+],
+"tlg0555.tlg004": [
+"Clem.Al.",
+"Strom."
+],
+"tlg1799.tlg015": [
+"Euc.",
+"Sect.Can."
+],
+"tlg2136.tlg001": [
+"Bacch.",
+"Harm."
+],
+"tlg1596.tlg001": [
+"Philol.",
+""
+],
+"tlg1660.tlg001": [
+"Satyr.",
+""
+],
+"tlg4063.tlg001": [
+"Eratosth.",
+""
+],
+"tlg1799.tlg012": [
+"Euc.",
+"Phaen."
+],
+"tlg1431.tlg001": [
+"Hipparch.",
+""
+],
+"tlg1591.tlg001": [
+"Philist.",
+""
+],
+"tlg0007.tlg022": [
+"Plu.",
+"Marc."
+],
+"tlg0565.tlg003": [
+"Sor.",
+"Fasc."
+],
+"tlg0627.tlg048": [
+"Hp.",
+"Oss."
+],
+"tlg0732.tlg003": [
+"Alex.Aphr.",
+"Febr."
+],
+"tlg1487.tlg002": [
+"Max.",
+"Epit."
+],
+"tlg0204.tlg001": [
+"Aristonous",
+""
+],
+"tlg0318.tlg001": [
+"Agatho",
+""
+],
+"tlg0086.tlg023": [
+"Arist.",
+"Mech."
+],
+"tlg1386.tlg001": [
+"Ps.-Callisth.",
+""
+],
+"tlg0014.tlg053": [
+"D.",
+""
+],
+"tlg1367.tlg001": [
+"E.",
+"Ep."
+],
+"tlg1604.tlg001": [
+"Phoc.",
+""
+],
+"tlg0087.tlg035": [
+"Hdn.",
+"Fig."
+],
+"tlg0504.tlg001": [
+"Sosip.",
+""
+],
+"tlg4017.tlg004": [
+"Syrian.",
+"in Hermog."
+],
+"tlg0062.tlg008": [
+"Luc.",
+"Demon."
+],
+"tlg0007.tlg018": [
+"Plu.",
+"Tim."
+],
+"tlg0424.tlg001": [
+"Axionic.",
+""
+],
+"tlg1321.tlg001": [
+"Diog.Oen.",
+""
+],
+"tlg1407.tlg001": [
+"Heraclid.",
+"Pol."
+],
+"tlg0059.tlg035": [
+"Pl.",
+"Epin."
+],
+"tlg1965.tlg001": [
+"Lysim.",
+""
+],
+"tlg0007.tlg008": [
+"Plu.",
+"Publ."
+],
+"tlg0638.tlg005": [
+"Luc.",
+"Ner."
+],
+"tlg0010.tlg005": [
+"Isoc.",
+""
+],
+"tlg0540.tlg025": [
+"Lys.",
+""
+],
+"tlg0014.tlg052": [
+"D.",
+""
+],
+"tlg0748.tlg001": [
+"Sever.",
+"Clyst."
+],
+"tlg0609.tlg002": [
+"Trypho",
+"Pass."
+],
+"tlg0551.tlg014": [
+"App.",
+"Mith."
+],
+"tlg0643.tlg001": [
+"Anon.Lond.",
+""
+],
+"tlg1325.tlg001": [
+"Diog.",
+"Ep."
+],
+"tlg0062.tlg035": [
+"Luc.",
+"Nec."
+],
+"tlg0061.tlg006": [
+"Luc.",
+"Cyn."
+],
+"tlg0062.tlg021": [
+"Luc.",
+"Icar."
+],
+"tlg0062.tlg042": [
+"Luc.",
+"Peregr."
+],
+"tlg0627.tlg017": [
+"Hp.",
+"Coac."
+],
+"tlg1181.tlg001": [
+"Aristarch.Sam.",
+""
+],
+"tlg0062.tlg023": [
+"Luc.",
+"Cont."
+],
+"tlg0627.tlg033": [
+"Hp.",
+"Nat.Mul."
+],
+"tlg0034.tlg001": [
+"Lycurg.",
+""
+],
+"tlg1494.tlg001": [
+"Meliss.",
+""
+],
+"tlg0062.tlg009": [
+"Luc.",
+"Dom."
+],
+"tlg0007.tlg024": [
+"Plu.",
+"Arist."
+],
+"tlg4019.tlg003": [
+"Olymp.",
+"in Mete."
+],
+"tlg0059.tlg037": [
+"Pl.",
+"Def."
+],
+"tlg0540.tlg036": [
+"Lys.",
+"Fr."
+],
+"tlg2034.tlg005": [
+"Porph.",
+"Marc."
+],
+"tlg0014.tlg037": [
+"D.",
+""
+],
+"tlg4105.tlg001": [
+"Anacreont.",
+""
+],
+"tlg0540.tlg016": [
+"Lys.",
+""
+],
+"tlg0010.tlg002": [
+"Isoc.",
+""
+],
+"tlg1628.tlg001": [
+"Polystr.",
+""
+],
+"tlg1285.tlg001": [
+"Conon",
+""
+],
+"tlg0055.tlg001": [
+"Themist.",
+"Ep."
+],
+"tlg4001.tlg001": [
+"Aen.Gaz.",
+"Thphr."
+],
+"tlg1609.tlg001": [
+"Phylarch.",
+""
+],
+"tlg0566.tlg001": [
+"Theopomp.Hist.",
+""
+],
+"tlg0576.tlg001": [
+"Musae.",
+""
+],
+"tlg0007.tlg065": [
+"Plu.",
+"Galb."
+],
+"tlg0541.tlg047": [
+"Men.",
+"Mon."
+],
+"tlg0014.tlg030": [
+"D.",
+""
+],
+"tlg0086.tlg039": [
+"Arist.",
+"SE"
+],
+"tlg0607.tlg001": [
+"Theon",
+"Prog."
+],
+"tlg4076.tlg001": [
+"Men.Prot.",
+""
+],
+"tlg0726.tlg001": [
+"Pall.",
+"in Hp."
+],
+"tlg0540.tlg009": [
+"Lys.",
+""
+],
+"tlg0014.tlg062": [
+"D.",
+"Prooem."
+],
+"tlg0014.tlg028": [
+"D.",
+""
+],
+"tlg0541.tlg004": [
+"Men.",
+"Georg.Fr."
+],
+"tlg0540.tlg020": [
+"Lys.",
+""
+],
+"tlg2116.tlg001": [
+"Arc.",
+""
+],
+"tlg0592.tlg003": [
+"Hermog.",
+"Inv."
+],
+"tlg0540.tlg031": [
+"Lys.",
+""
+],
+"tlg0732.tlg008": [
+"Alex.Aphr.",
+"in Mete."
+],
+"tlg0057.tlg034": [
+"Gal.",
+"Parv.Pil."
+],
+"tlg0027.tlg002": [
+"And.",
+""
+],
+"tlg0731.tlg002": [
+"Adam.",
+"Vent."
+],
+"tlg0086.tlg017": [
+"Arist.",
+"Int."
+],
+"tlg0708.tlg001": [
+"Ammon.",
+"Diff."
+],
+"tlg2034.tlg007": [
+"Porph.",
+"in Cat."
+],
+"tlg0007.tlg025": [
+"Plu.",
+"Cat.Ma."
+],
+"tlg9009.tlg001": [
+"Apostol.",
+""
+],
+"tlg0627.tlg050": [
+"Hp.",
+"Decent."
+],
+"tlg0540.tlg024": [
+"Lys.",
+""
+],
+"tlg0081.tlg016": [
+"D.H.",
+"Rh."
+],
+"tlg0007.tlg057": [
+"Plu.",
+"Demetr."
+],
+"tlg0074.tlg018": [
+"Arr.",
+"Fr."
+],
+"tlg0062.tlg043": [
+"Luc.",
+"Fug."
+],
+"tlg4019.tlg006": [
+"Olymp.",
+"in Phd."
+],
+"tlg0732.tlg010": [
+"Alex.Aphr.",
+"de An."
+],
+"tlg2001.tlg013": [
+"Them.",
+"Or."
+],
+"tlg0526.tlg002": [
+"J.",
+"Vit."
+],
+"tlg2115.tlg001": [
+"Hippol.",
+"Haer."
+],
+"tlg0540.tlg012": [
+"Lys.",
+""
+],
+"tlg0086.tlg015": [
+"Arist.",
+"IA"
+],
+"tlg0014.tlg013": [
+"D.",
+""
+],
+"tlg0014.tlg055": [
+"D.",
+""
+],
+"tlg1636.tlg001": [
+"Protagorid.",
+""
+],
+"tlg4036.tlg011": [
+"Procl.",
+"in Euc."
+],
+"tlg0363.tlg009": [
+"Ptol.",
+"Geog."
+],
+"tlg0540.tlg005": [
+"Lys.",
+""
+],
+"tlg0010.tlg025": [
+"Isoc.",
+"Ep."
+],
+"tlg0086.tlg029": [
+"Arist.",
+"Oec."
+],
+"tlg0062.tlg050": [
+"Luc.",
+"Deor.Conc."
+],
+"tlg0419.tlg001": [
+"Aristomen.",
+""
+],
+"tlg0007.tlg003": [
+"Plu.",
+"Comp.Thes.Rom."
+],
+"tlg0732.tlg004": [
+"Alex.Aphr.",
+"in Metaph."
+],
+"tlg0444.tlg001": [
+"Diod.Com.",
+""
+],
+"tlg0340.tlg001": [
+"Sosith.",
+""
+],
+"tlg0627.tlg008": [
+"Hp.",
+"Off."
+],
+"tlg4013.tlg006": [
+"Simp.",
+"in Epict."
+],
+"tlg0007.tlg007": [
+"Plu.",
+"Sol."
+],
+"tlg0007.tlg032": [
+"Plu.",
+"Lys."
+],
+"tlg0014.tlg033": [
+"D.",
+""
+],
+"tlg0014.tlg045": [
+"D.",
+""
+],
+"tlg0671.tlg001": [
+"Philum.",
+"Ven."
+],
+"tlg0637.tlg001": [
+"Socr.",
+"Ep."
+],
+"tlg0010.tlg010": [
+"Isoc.",
+""
+],
+"tlg0586.tlg001": [
+"Polem.Hist.",
+""
+],
+"tlg0552.tlg006": [
+"Archim.",
+"Aren."
+],
+"tlg0010.tlg012": [
+"Isoc.",
+""
+],
+"tlg1255.tlg001": [
+"Chares",
+""
+],
+"tlg1263.tlg001": [
+"Choeril.",
+""
+],
+"tlg4034.tlg002": [
+"Mich.",
+"in PN"
+],
+"tlg0564.tlg001": [
+"Ruf.",
+"Ren.Ves."
+],
+"tlg2042.tlg001": [
+"Origenes",
+"Cels."
+],
+"tlg1306.tlg001": [
+"Ps.-Democr.",
+""
+],
+"tlg1148.tlg001": [
+"Ant.Diog.",
+""
+],
+"tlg1248.tlg001": [
+"Cels.",
+""
+],
+"tlg0559.tlg002": [
+"Hero",
+"Aut."
+],
+"tlg1200.tlg001": [
+"Asclep.Tragil.",
+""
+],
+"tlg1875.tlg001": [
+"Aristodem.",
+""
+],
+"tlg0208.tlg001": [
+"Dosiad.",
+"Ara"
+],
+"tlg0017.tlg0012": [
+"Is.",
+""
+],
+"tlg0014.tlg022": [
+"D.",
+""
+],
+"tlg0527.tlg016": [
+"LXX",
+"2 Ch."
+],
+"tlg0014.tlg040": [
+"D.",
+""
+],
+"tlg2141.tlg001": [
+"Dexipp.",
+""
+],
+"tlg1691.tlg001": [
+"Sotad.",
+""
+],
+"tlg1496.tlg001": [
+"Memn.",
+""
+],
+"tlg0627.tlg021": [
+"Hp.",
+"Flat."
+],
+"tlg2052.tlg001": [
+"Horap.",
+""
+],
+"tlg0057.tlg029": [
+"Gal.",
+"Anim.Pass."
+],
+"tlg0540.tlg033": [
+"Lys.",
+""
+],
+"tlg0552.tlg009": [
+"Archim.",
+"Stom."
+],
+"tlg0010.tlg018": [
+"Isoc.",
+""
+],
+"tlg2598.tlg019": [
+"Procop.Gaz.",
+"Ep."
+],
+"tlg0552.tlg012": [
+"Archim.",
+"Bov."
+],
+"tlg0718.tlg003": [
+"Aët.",
+""
+],
+"tlg0443.tlg001": [
+"Diocl.Com.",
+""
+],
+"tlg2200.tlg001": [
+"Lib.",
+"Ep."
+],
+"tlg1175.tlg001": [
+"Archestr.",
+"Fr."
+],
+"tlg1487.tlg001": [
+"Max.",
+""
+],
+"tlg2001.tlg023": [
+"Them.",
+"Or."
+],
+"tlg0539.tlg001": [
+"Hellanic.",
+""
+],
+"tlg0583.tlg001": [
+"Philoch.",
+""
+],
+"tlg1751.tlg001": [
+"Xanth.",
+""
+],
+"tlg1411.tlg001": [
+"Heraclit.",
+"Ep."
+],
+"tlg0527.tlg021": [
+"LXX",
+"To."
+],
+"tlg0457.tlg001": [
+"Eubulid.",
+""
+],
+"tlg0540.tlg027": [
+"Lys.",
+""
+],
+"tlg0010.tlg027": [
+"Isoc.",
+"Ep."
+],
+"tlg0540.tlg032": [
+"Lys.",
+""
+],
+"tlg0017.tlg006": [
+"Is.",
+""
+],
+"tlg0540.tlg017": [
+"Lys.",
+""
+],
+"tlg0034.tlg002": [
+"Lycurg.",
+"Fr."
+],
+"tlg0540.tlg026": [
+"Lys.",
+""
+],
+"tlg0007.tlg050": [
+"Plu.",
+"Cat.Mi."
+],
+"tlg0527.tlg019": [
+"LXX",
+"Es."
+],
+"tlg4066.tlg002": [
+"Dam.",
+"Isid."
+],
+"tlg0007.tlg042": [
+"Plu.",
+"Sert."
+],
+"tlg4036.tlg010": [
+"Procl.",
+"in Ti."
+],
+"tlg2598.tlg010": [
+"Procop.Gaz.",
+"Ecphr."
+],
+"tlg9020.tlg001": [
+"Steph.",
+"in Rh."
+],
+"tlg0086.tlg024": [
+"Arist.",
+"Mem."
+],
+"tlg0526.tlg003": [
+"J.",
+"Ap."
+],
+"tlg0059.tlg026": [
+"Pl.",
+"Hp.Mi."
+],
+"tlg0086.tlg016": [
+"Arist.",
+"Insomn."
+],
+"tlg0540.tlg018": [
+"Lys.",
+""
+],
+"tlg0527.tlg046": [
+"LXX",
+"Za."
+],
+"tlg0627.tlg022": [
+"Hp.",
+"Liqu."
+],
+"tlg1687.tlg001": [
+"Sosicr.Hist.",
+""
+],
+"tlg0450.tlg001": [
+"Ephipp.",
+""
+],
+"tlg0239.tlg001": [
+"Antim.",
+"Eleg."
+],
+"tlg4036.tlg019": [
+"Procl.",
+"Theol.Plat."
+],
+"tlg0062.tlg020": [
+"Luc.",
+"Prom."
+],
+"tlg0559.tlg007": [
+"Hero",
+"Dioptr."
+],
+"tlg0028.tlg007": [
+"Antipho",
+"Fr."
+],
+"tlg0673.tlg001": [
+"Aeschin.Socr.",
+""
+],
+"tlg0492.tlg001": [
+"Philonid.",
+""
+],
+"tlg1355.tlg001": [
+"Erinn.",
+""
+],
+"tlg1392.tlg001": [
+"Hegesand.",
+""
+],
+"tlg0527.tlg031": [
+"LXX",
+"Ca."
+],
+"tlg0559.tlg006": [
+"Hero",
+"Metr."
+],
+"tlg0007.tlg011": [
+"Plu.",
+"Cam."
+],
+"tlg0086.tlg009": [
+"Arist.",
+"EE"
+],
+"tlg0415.tlg001": [
+"Arar.",
+""
+],
+"tlg1682.tlg001": [
+"Sopat.",
+""
+],
+"tlg2643.tlg001": [
+"Aus.",
+"Ep."
+],
+"tlg1595.tlg492": [
+"Phld.",
+"Hom."
+],
+"tlg4066.tlg001": [
+"Dam.",
+""
+],
+"tlg4029.tlg003": [
+"Procop.",
+"Aed."
+],
+"tlg2001.tlg039": [
+"Them.",
+"in Ph."
+],
+"tlg0017.tlg007": [
+"Is.",
+""
+],
+"tlg2596.tlg001": [
+"Phoeb.",
+"Fig."
+],
+"tlg0007.tlg021": [
+"Plu.",
+"Pel."
+],
+"tlg2020.tlg001": [
+"Theodos.",
+"Can."
+],
+"tlg1649.tlg001": [
+"Pythaen.",
+""
+],
+"tlg4175.tlg002": [
+"Diom.",
+""
+],
+"tlg0568.tlg001": [
+"Antig.",
+"Mir."
+],
+"tlg0718.tlg002": [
+"Aët.",
+""
+],
+"tlg0373.tlg001": [
+"Melanipp.",
+""
+],
+"tlg2036.tlg001": [
+"Dexipp.",
+"in Cat."
+],
+"tlg0718.tlg001": [
+"Aët.",
+""
+],
+"tlg0299.tlg001": [
+"Terp.",
+""
+],
+"tlg0446.tlg001": [
+"Diox.",
+""
+],
+"tlg0382.tlg001": [
+"Castorio",
+""
+],
+"tlg0007.tlg145": [
+"Plu.",
+"Fr."
+],
+"tlg4019.tlg005": [
+"Olymp.",
+"in Grg."
+],
+"tlg0062.tlg029": [
+"Luc.",
+"Somn."
+],
+"tlg0501.tlg001": [
+"Sannyr.",
+""
+],
+"tlg0429.tlg001": [
+"Cephisod.",
+""
+],
+"tlg0239.tlg002": [
+"Antim.",
+""
+],
+"tlg1125.tlg001": [
+"Androt.",
+""
+],
+"tlg0014.tlg060": [
+"D.",
+""
+],
+"tlg0578.tlg001": [
+"Nymphod.",
+""
+],
+"tlg0062.tlg064": [
+"Luc.",
+"Prom.Es"
+],
+"tlg0541.tlg010": [
+"Men.",
+"Her."
+],
+"tlg0564.tlg007": [
+"Ruf.",
+"Syn.Puls."
+],
+"tlg4243.tlg001": [
+"Zonae.",
+"Fig."
+],
+"tlg2050.tlg002": [
+"Eun.",
+"Hist."
+],
+"tlg1724.tlg001": [
+"Theo Sm.",
+"in Ptol."
+],
+"tlg2001.tlg016": [
+"Them.",
+"Or."
+],
+"tlg1176.tlg001": [
+"Archyt.Amph.",
+""
+],
+"tlg1315.tlg001": [
+"Dinol.",
+""
+],
+"tlg1344.tlg001": [
+"Epic.Alex.Adesp.",
+""
+],
+"tlg0499.tlg001": [
+"Polyzel.",
+""
+],
+"tlg0472.tlg001": [
+"Lysipp.",
+""
+],
+"tlg0414.tlg001": [
+"Apolloph.",
+""
+],
+"tlg0400.tlg001": [
+"Alc.Com.",
+""
+],
+"tlg0520.tlg001": [
+"Arcesil.",
+""
+],
+"tlg0627.tlg018": [
+"Hp.",
+"de Arte"
+],
+"tlg0474.tlg001": [
+"Magn.",
+""
+],
+"tlg0540.tlg014": [
+"Lys.",
+""
+],
+"tlg0268.tlg001": [
+"Mesom.",
+"Sol."
+],
+"tlg0238.tlg001": [
+"Anan.",
+""
+],
+"tlg0074.tlg003": [
+"Arr.",
+"Cyn."
+],
+"tlg0451.tlg001": [
+"Epicr.",
+""
+],
+"tlg2640.tlg001": [
+"Eus.Mynd.",
+""
+],
+"tlg0627.tlg037": [
+"Hp.",
+"Virg."
+],
+"tlg0516.tlg001": [
+"Timostr.",
+""
+],
+"tlg0676.tlg001": [
+"Aglaïas",
+""
+],
+"tlg1521.tlg002": [
+"Secund.",
+"Sent."
+],
+"tlg0435.tlg001": [
+"Cratin.Jun.",
+""
+],
+"tlg0301.tlg001": [
+"Thespis",
+""
+],
+"tlg0062.tlg067": [
+"Luc.",
+"DMar."
+],
+"tlg0594.tlg002": [
+"Alex.",
+"Fig."
+],
+"tlg0030.tlg002": [
+"Hyp.",
+"Lyc."
+],
+"tlg0630.tlg001": [
+"Pherecyd.Syr.",
+""
+],
+"tlg1654.tlg001": [
+"Rhinth.",
+""
+],
+"tlg0007.tlg016": [
+"Plu.",
+"Cor."
+],
+"tlg0010.tlg004": [
+"Isoc.",
+""
+],
+"tlg0627.tlg045": [
+"Hp.",
+"Cord."
+],
+"tlg1222.tlg001": [
+"Beros.",
+""
+],
+"tlg0557.tlg004": [
+"Epict.",
+"Gnom."
+],
+"tlg0648.tlg001": [
+"Onos.",
+""
+],
+"tlg1009.tlg001": [
+"Xenocr.",
+""
+],
+"tlg0005.tlg004": [
+"Theoc.",
+"Beren."
+],
+"tlg2001.tlg019": [
+"Them.",
+"Or."
+],
+"tlg0488.tlg001": [
+"Philem.Jun.",
+""
+],
+"tlg0421.tlg001": [
+"Aristopho",
+""
+],
+"tlg9023.tlg001": [
+"Thom.Mag.",
+""
+],
+"tlg2001.tlg015": [
+"Them.",
+"Or."
+],
+"tlg4015.tlg006": [
+"Phlp.",
+"in GC"
+],
+"tlg0627.tlg046": [
+"Hp.",
+"Alim."
+],
+"tlg0062.tlg058": [
+"Luc.",
+"Laps."
+],
+"tlg1245.tlg001": [
+"Caryst.",
+""
+],
+"tlg1699.tlg001": [
+"Teles",
+""
+],
+"tlg0061.tlg005": [
+"Luc.",
+"Ocyp."
+],
+"tlg0014.tlg017": [
+"D.",
+""
+],
+"tlg0014.tlg058": [
+"D.",
+""
+],
+"tlg0086.tlg021": [
+"Arist.",
+"MA"
+],
+"tlg2397.tlg001": [
+"Boeth.Stoic.",
+""
+],
+"tlg4077.tlg001": [
+"Metrod.",
+""
+],
+"tlg2001.tlg018": [
+"Them.",
+"Or."
+],
+"tlg1168.tlg001": [
+"Apollon.",
+"Lex."
+],
+"tlg0230.tlg001": [
+"Lyr.Alex.Adesp.",
+""
+],
+"tlg4031.tlg002": [
+"Eustr.",
+"in EN"
+],
+"tlg4036.tlg009": [
+"Procl.",
+"in Cra."
+],
+"tlg4033.tlg003": [
+"Heliod.",
+"in EN"
+],
+"tlg0423.tlg001": [
+"Autocr.",
+""
+],
+"tlg1623.tlg001": [
+"Polycharm.",
+""
+],
+"tlg2001.tlg027": [
+"Them.",
+"Or."
+],
+"tlg1193.tlg001": [
+"AristoStoic.",
+""
+],
+"tlg0027.tlg00139": [
+"And.",
+""
+],
+"tlg0468.tlg001": [
+"Hipparch.Com.",
+""
+],
+"tlg0027.tlg003": [
+"And.",
+""
+],
+"tlg0007.tlg019": [
+"Plu.",
+"Aem."
+],
+"tlg1357.tlg001": [
+"Eudem.",
+"Fr."
+],
+"tlg0465.tlg001": [
+"Henioch.",
+""
+],
+"tlg0062.tlg047": [
+"Luc.",
+"Eun."
+],
+"tlg0010.tlg003": [
+"Isoc.",
+""
+],
+"tlg0062.tlg051": [
+"Luc.",
+"Tyr."
+],
+"tlg4020.tlg002": [
+"Elias",
+"in Cat."
+],
+"tlg0527.tlg037": [
+"LXX",
+"Am."
+],
+"tlg0478.tlg001": [
+"Nausicr.",
+""
+],
+"tlg1450.tlg001": [
+"Ister",
+""
+],
+"tlg1226.tlg001": [
+"Bito",
+""
+],
+"tlg0627.tlg041": [
+"Hp.",
+"Dent."
+],
+"tlg2424.tlg001": [
+"Chaerem.Hist.",
+""
+],
+"tlg1515.tlg001": [
+"Moer.",
+""
+],
+"tlg0431.tlg001": [
+"Chionid.",
+""
+],
+"tlg0061.tlg004": [
+"Luc.",
+"Halc."
+],
+"tlg1316.tlg001": [
+"Dinon",
+""
+],
+"tlg4031.tlg001": [
+"Eustr.",
+"in APo."
+],
+"tlg1489.tlg001": [
+"Megasth.",
+""
+],
+"tlg1693.tlg001": [
+"Sphaer.Stoic.",
+""
+],
+"tlg0062.tlg011": [
+"Luc.",
+"Macr."
+],
+"tlg1249.tlg001": [
+"Cephalio",
+""
+],
+"tlg0081.tlg009": [
+"D.H.",
+"Din."
+],
+"tlg1313.tlg001": [
+"Dieuchid.",
+""
+],
+"tlg0007.tlg026": [
+"Id.",
+"Comp.Aristid.Cat."
+],
+"tlg0083.tlg003": [
+"Dion.Byz.",
+""
+],
+"tlg0527.tlg010": [
+"LXX",
+"Ru."
+],
+"tlg0551.tlg001": [
+"App.",
+"Praef."
+],
+"tlg0627.tlg019": [
+"Hp.",
+"Nat.Hom."
+],
+"tlg0552.tlg001": [
+"Archim.",
+"Sph.Cyl."
+],
+"tlg0010.tlg006": [
+"Isoc.",
+""
+],
+"tlg1269.tlg001": [
+"Cleanth.Stoic.",
+""
+],
+"tlg0550.tlg001": [
+"Apollon.Perg.",
+"Con."
+],
+"tlg0088.tlg002": [
+"Aristox.",
+"Rhyth."
+],
+"tlg0537.tlg001": [
+"Epicur.",
+"Sent."
+],
+"tlg0027.tlg0020": [
+"And.",
+""
+],
+"tlg0577.tlg002": [
+"Nic.Dam.",
+"Vit.Caes."
+],
+"tlg1486.tlg002": [
+"Matro",
+"Parod.Fr."
+],
+"tlg0014.tlg016": [
+"D.",
+""
+],
+"tlg0027.tlg0034": [
+"And.",
+""
+],
+"tlg0093.tlg006": [
+"Thphr.",
+"Metaph."
+],
+"tlg0551.tlg004": [
+"App.",
+"Sam."
+],
+"tlg4013.tlg003": [
+"Simp.",
+"in Cat."
+],
+"tlg1320.tlg001": [
+"Diog.Bab.Stoic.",
+""
+],
+"tlg0716.tlg001": [
+"Erot.",
+""
+],
+"tlg1124.tlg001": [
+"Andronic.Rhod.",
+""
+],
+"tlg0697.tlg001": [
+"Alex.Polyh.",
+""
+],
+"tlg0014.tlg014": [
+"D.",
+""
+],
+"tlg4018.tlg001": [
+"Ascl.",
+"in Metaph."
+],
+"tlg0540.tlg004": [
+"Lys.",
+""
+],
+"tlg0627.tlg014": [
+"Hp.",
+"Lex"
+],
+"tlg0014.tlg005": [
+"D.",
+""
+],
+"tlg2403.tlg001": [
+"Pers.Stoic.",
+""
+],
+"tlg1303.tlg001": [
+"Democh.",
+""
+],
+"tlg0471.tlg001": [
+"Lync.",
+""
+],
+"tlg9008.tlg001": [
+"Macar.",
+""
+],
+"tlg2585.tlg001": [
+"Marcellin.",
+"Vit. Thuc."
+],
+"tlg0288.tlg001": [
+"Pisand.",
+""
+],
+"tlg0215.tlg001": [
+"Antag.",
+""
+],
+"tlg0035.tlg005": [
+"Mosch.",
+"Fr."
+],
+"tlg0693.tlg002": [
+"Alcin.",
+"Intr."
+],
+"tlg0007.tlg006": [
+"Plu.",
+"Comp.Lyc.Num."
+],
+"tlg0609.tlg003": [
+"Trypho",
+"Fr."
+],
+"tlg0088.tlg005": [
+"Anon.Rhythm.",
+"Oxy."
+],
+"tlg0062.tlg049": [
+"Luc.",
+"Pseudol."
+],
+"tlg0592.tlg001": [
+"Hermog.",
+"Prog."
+],
+"tlg1486.tlg003": [
+"Matro",
+"Fr."
+],
+"tlg0284.tlg056": [
+"Aristid.",
+"Rh."
+],
+"tlg2274.tlg001": [
+"Hsch.Mil.",
+""
+],
+"tlg1506.tlg001": [
+"Menodot.",
+""
+],
+"tlg0527.tlg042": [
+"LXX",
+"Na."
+],
+"tlg1441.tlg001": [
+"Iamb.Bab.",
+""
+],
+"tlg1383.tlg002": [
+"Gem.",
+"Calend."
+],
+"tlg1342.tlg002": [
+"Emp.",
+"Sphaer."
+],
+"tlg1286.tlg001": [
+"Corp.Herm.",
+""
+],
+"tlg0062.tlg054": [
+"Luc.",
+"Dips."
+],
+"tlg0027.tlg00138": [
+"And.",
+""
+],
+"tlg0527.tlg052": [
+"LXX",
+"Ep.Je."
+],
+"tlg0585.tlg001": [
+"Phleg.",
+"Mir."
+],
+"tlg1688.tlg001": [
+"Sostrat.",
+""
+],
+"tlg1187.tlg001": [
+"Aristobul.",
+""
+],
+"tlg2591.tlg001": [
+"Orion",
+""
+],
+"tlg0527.tlg015": [
+"LXX",
+"1 Ch."
+],
+"tlg0295.tlg001": [
+"Carm.Pop.",
+""
+],
+"tlg0097.tlg001": [
+"Diogenian.",
+""
+],
+"tlg1833.tlg001": [
+"Pratin.",
+""
+],
+"tlg1499.tlg001": [
+"Menecl.",
+""
+],
+"tlg1347.tlg001": [
+"Epimenid.",
+""
+],
+"tlg1429.tlg001": [
+"Hierocl.",
+""
+],
+"tlg0766.tlg001": [
+"Alcmaeon",
+""
+],
+"tlg0059.tlg017": [
+"Pl.",
+"Thg."
+],
+"tlg0555.tlg001": [
+"Clem.Al.",
+"Protr."
+],
+"tlg1300.tlg001": [
+"Demetr.Lac.",
+""
+],
+"tlg0062.tlg017": [
+"Luc.",
+"JConf."
+],
+"tlg0535.tlg001": [
+"Demad.",
+"Fr."
+],
+"tlg0425.tlg001": [
+"Bato",
+""
+],
+"tlg0297.tlg001": [
+"Lyr.Adesp.",
+""
+],
+"tlg0569.tlg001": [
+"Apollon.",
+"Mir."
+],
+"tlg2001.tlg006": [
+"Them.",
+"Or."
+],
+"tlg2334.tlg001": [
+"Nausiph.",
+""
+],
+"tlg1709.tlg001": [
+"Theagen.",
+""
+],
+"tlg0619.tlg003": [
+"Ap.Ty.",
+"Ep."
+],
+"tlg0010.tlg001": [
+"Isoc.",
+""
+],
+"tlg0627.tlg029": [
+"Hp.",
+"Haem."
+],
+"tlg0062.tlg062": [
+"Luc.",
+"Scyth."
+],
+"tlg0627.tlg042": [
+"Hp.",
+"Gland."
+],
+"tlg0517.tlg001": [
+"Tim.Com.",
+""
+],
+"tlg0014.tlg031": [
+"D.",
+""
+],
+"tlg0017.tlg003": [
+"Is.",
+""
+],
+"tlg0242.tlg001": [
+"Asius",
+""
+],
+"tlg2135.tlg001": [
+"Alyp.",
+""
+],
+"tlg0010.tlg023": [
+"Isoc.",
+"Ep."
+],
+"tlg0010.tlg022": [
+"Isoc.",
+"Ep."
+],
+"tlg2001.tlg011": [
+"Them.",
+"Or."
+],
+"tlg0551.tlg012": [
+"App.",
+"Ill."
+],
+"tlg1261.tlg001": [
+"Chilo",
+""
+],
+"tlg2001.tlg024": [
+"Them.",
+"Or."
+],
+"tlg2001.tlg007": [
+"Them.",
+"Or."
+],
+"tlg1337.tlg001": [
+"Doroth.",
+""
+],
+"tlg0027.tlg009": [
+"And.",
+""
+],
+"tlg0027.tlg0076": [
+"And.",
+""
+],
+"tlg0460.tlg001": [
+"Euphro",
+""
+],
+"tlg1759.tlg001": [
+"Demoph.",
+"Sent."
+],
+"tlg2034.tlg006": [
+"Porph.",
+"Intr."
+],
+"tlg4085.tlg001": [
+"Id.",
+""
+],
+"tlg0027.tlg008": [
+"And.",
+""
+],
+"tlg0222.tlg001": [
+"Eratosth.",
+"Cat."
+],
+"tlg0551.tlg011": [
+"App.",
+"Mac."
+],
+"tlg0202.tlg001": [
+"Maced.",
+"Pae."
+],
+"tlg0627.tlg020": [
+"Hp.",
+"Salubr."
+],
+"tlg1140.tlg001": [
+"Anticl.",
+""
+],
+"tlg0505.tlg001": [
+"Sotad.Com.",
+""
+],
+"tlg0627.tlg030": [
+"Hp.",
+"Fist."
+],
+"tlg0610.tlg001": [
+"Alcid.",
+"Soph."
+],
+"tlg0551.tlg015": [
+"App.",
+"Fr."
+],
+"tlg1427.tlg001": [
+"Herodor.",
+""
+],
+"tlg1421.tlg001": [
+"Hermipp.Hist.",
+""
+],
+"tlg0030.tlg004": [
+"Hyp.",
+"Phil."
+],
+"tlg0027.tlg00130": [
+"And.",
+""
+],
+"tlg1475.tlg001": [
+"Maiist.",
+""
+],
+"tlg2580.tlg003": [
+"Lyd.",
+"Ost."
+],
+"tlg4017.tlg001": [
+"Syrian.",
+"in Metaph."
+],
+"tlg0064.tlg001": [
+"Hanno",
+"Peripl."
+],
+"tlg0540.tlg028": [
+"Lys.",
+""
+],
+"tlg0014.tlg051": [
+"D.",
+""
+],
+"tlg0716.tlg002": [
+"Erot.",
+"Fr."
+],
+"tlg2956.tlg002": [
+"Afric.",
+"Cest."
+],
+"tlg0527.tlg038": [
+"LXX",
+"Mi."
+],
+"tlg0135.tlg001": [
+"Artemid.",
+""
+],
+"tlg0541.tlg008": [
+"Men.",
+"Epit.Fr."
+],
+"tlg2001.tlg003": [
+"Them.",
+"Or."
+],
+"tlg0086.tlg046": [
+"Arist.",
+"Vent."
+],
+"tlg2590.tlg001": [
+"Olymp.Hist.",
+""
+],
+"tlg2018.tlg005": [
+"Eus.",
+"DE"
+],
+"tlg0027.tlg0077": [
+"And.",
+""
+],
+"tlg2137.tlg001": [
+"Gaud.Harm.",
+""
+],
+"tlg4066.tlg006": [
+"Olymp.",
+"in Phlb."
+],
+"tlg0575.tlg001": [
+"Epict.",
+"Sent."
+],
+"tlg1754.tlg001": [
+"X.",
+"Ep."
+],
+"tlg4015.tlg001": [
+"Phlp.",
+"in Cat."
+],
+"tlg0307.tlg001": [
+"Neophr.",
+""
+],
+"tlg0010.tlg026": [
+"Isoc.",
+"Ep."
+],
+"tlg1803.tlg001": [
+"Brut.",
+"Ep."
+],
+"tlg0014.tlg007": [
+"D.",
+""
+],
+"tlg2001.tlg017": [
+"Them.",
+"Or."
+],
+"tlg0489.tlg001": [
+"Philetaer.",
+""
+],
+"tlg0027.tlg0012": [
+"And.",
+""
+],
+"tlg4040.tlg029": [
+"Phot.",
+""
+],
+"tlg0026.tlg004": [
+"Aeschin.",
+"Ep."
+],
+"tlg0453.tlg001": [
+"Epil.",
+""
+],
+"tlg4019.tlg002": [
+"Olymp.",
+"in Cat."
+],
+"tlg2001.tlg008": [
+"Them.",
+"Or."
+],
+"tlg0298.tlg001": [
+"Eumel.",
+""
+],
+"tlg0007.tlg059": [
+"Plu.",
+"Comp.Demetr.Ant."
+],
+"tlg0027.tlg0027": [
+"And.",
+""
+],
+"tlg0062.tlg002": [
+"Luc.",
+"Hipp."
+],
+"tlg1581.tlg001": [
+"PHal.",
+""
+],
+"tlg1182.tlg001": [
+"Aristeas Epic.",
+""
+],
+"tlg0027.tlg0043": [
+"And.",
+""
+],
+"tlg0027.tlg00148": [
+"And.",
+""
+],
+"tlg0027.tlg00125": [
+"And.",
+""
+],
+"tlg0027.tlg0047": [
+"And.",
+""
+],
+"tlg0059.tlg015": [
+"Pl.",
+"Hipparch."
+],
+"tlg0027.tlg0082": [
+"And.",
+""
+],
+"tlg0081.tlg002": [
+"D.H.",
+"Orat.Vett."
+],
+"tlg0027.tlg0088": [
+"And.",
+""
+],
+"tlg0027.tlg00103": [
+"And.",
+""
+],
+"tlg0027.tlg0045": [
+"And.",
+""
+],
+"tlg0540.tlg015": [
+"Lys.",
+""
+],
+"tlg4091.tlg001": [
+"Callistr.",
+"Stat."
+],
+"tlg0527.tlg039": [
+"LXX",
+"Jl."
+],
+"tlg0027.tlg00101": [
+"And.",
+""
+],
+"tlg0086.tlg047": [
+"Arist.",
+"Xen."
+],
+"tlg0007.tlg017": [
+"Plu.",
+"Comp.Alc.Cor."
+],
+"tlg0541.tlg011": [
+"Men.",
+"Her.Fr."
+],
+"tlg1203.tlg001": [
+"Pae.Delph.",
+""
+],
+"tlg0027.tlg0056": [
+"And.",
+""
+],
+"tlg0732.tlg013": [
+"Alex.Aphr.",
+"Quaest."
+],
+"tlg0732.tlg014": [
+"Alex.Aphr.",
+"Fat."
+],
+"tlg1390.tlg001": [
+"Hecat.Abd.",
+""
+],
+"tlg0627.tlg052": [
+"Hp.",
+"Judic."
+],
+"tlg4021.tlg002": [
+"David",
+"in Porph."
+],
+"tlg0027.tlg00108": [
+"And.",
+""
+],
+"tlg0511.tlg001": [
+"Theognet.",
+""
+],
+"tlg4015.tlg005": [
+"Phlp.",
+"in Mete."
+],
+"tlg2598.tlg011": [
+"Procop.Gaz.",
+"Pan."
+],
+"tlg4003.tlg001": [
+"Marcian.",
+"Peripl."
+],
+"tlg0027.tlg00131": [
+"And.",
+""
+],
+"tlg0527.tlg045": [
+"LXX",
+"Hg."
+],
+"tlg0027.tlg0074": [
+"And.",
+""
+],
+"tlg4092.tlg001": [
+"Greg.Cor.",
+""
+],
+"tlg0686.tlg001": [
+"Aethlius",
+""
+],
+"tlg4014.tlg001": [
+"Prisc.Lyd.",
+""
+],
+"tlg2001.tlg032": [
+"Them.",
+"Or."
+],
+"tlg0657.tlg001": [
+"Crateuas",
+"Fr."
+],
+"tlg0062.tlg014": [
+"Luc.",
+"Jud.Voc."
+],
+"tlg0541.tlg027": [
+"Men.",
+"Per."
+],
+"tlg0644.tlg001": [
+"Ar.Byz.",
+"Epit."
+],
+"tlg4016.tlg003": [
+"Ammon.",
+"in Int."
+],
+"tlg0027.tlg00127": [
+"And.",
+""
+],
+"tlg0527.tlg054": [
+"LXX",
+"Su."
+],
+"tlg0718.tlg014": [
+"Aët.",
+""
+],
+"tlg0481.tlg001": [
+"Nicol.Com.",
+""
+],
+"tlg0638.tlg006": [
+"Philostr.",
+"Dial."
+],
+"tlg0418.tlg001": [
+"Aristag.",
+""
+],
+"tlg0027.tlg005": [
+"And.",
+"Fr."
+],
+"tlg1413.tlg001": [
+"Heraclit.",
+"Incred."
+],
+"tlg4034.tlg001": [
+"Mich.",
+"in EN"
+],
+"tlg2904.tlg001": [
+"Nicol.",
+"Prog."
+],
+"tlg0007.tlg056": [
+"Plu.",
+"Comp.Dem.Cic."
+],
+"tlg0251.tlg001": [
+"Even.",
+""
+],
+"tlg0027.tlg0050": [
+"And.",
+""
+],
+"tlg1498.tlg001": [
+"Men.Eph.",
+""
+],
+"tlg1799.tlg009": [
+"Euc.",
+"Opt."
+],
+"tlg0027.tlg0064": [
+"And.",
+""
+],
+"tlg0527.tlg047": [
+"LXX",
+"Ma."
+],
+"tlg0007.tlg040": [
+"Plu.",
+"Comp.Nic.Crass."
+],
+"tlg0027.tlg0029": [
+"And.",
+""
+],
+"tlg1309.tlg001": [
+"Dialex.",
+""
+],
+"tlg4021.tlg001": [
+"David",
+"Proll."
+],
+"tlg0523.tlg001": [
+"Menecr.",
+""
+],
+"tlg0627.tlg044": [
+"Hp.",
+"Hebd."
+],
+"tlg0062.tlg003": [
+"Luc.",
+"Bacch."
+],
+"tlg2200.tlg008": [
+"Epist.Charact.",
+""
+],
+"tlg0649.tlg001": [
+"Lesb.Rh.",
+""
+],
+"tlg0027.tlg0079": [
+"And.",
+""
+],
+"tlg0540.tlg023": [
+"Lys.",
+""
+],
+"tlg0540.tlg008": [
+"Lys.",
+""
+],
+"tlg2178.tlg004": [
+"Longin.",
+"Fr."
+],
+"tlg2042.tlg083": [
+"Sm.",
+""
+],
+"tlg0732.tlg007": [
+"Alex.Aphr.",
+"in Sens."
+],
+"tlg9019.tlg001": [
+"Steph.",
+"in Int."
+],
+"tlg0530.tlg042": [
+"Gal.",
+"Phil.Hist."
+],
+"tlg0007.tlg034": [
+"Plu.",
+"Comp.Lys.Sull."
+],
+"tlg0027.tlg00134": [
+"And.",
+""
+],
+"tlg2169.tlg001": [
+"Herill.Stoic.",
+""
+],
+"tlg4016.tlg002": [
+"Ammon.",
+"in Cat."
+],
+"tlg0503.tlg001": [
+"Sosicr.",
+""
+],
+"tlg0725.tlg001": [
+"Anaximand.",
+""
+],
+"tlg9022.tlg004": [
+"Tz.",
+"Diff. Poet."
+],
+"tlg1167.tlg001": [
+"Apollon.",
+"Vit.Aeschin."
+],
+"tlg0027.tlg00132": [
+"And.",
+""
+],
+"tlg0027.tlg00143": [
+"And.",
+""
+],
+"tlg0552.tlg003": [
+"Archim.",
+"Con.Sph."
+],
+"tlg4015.tlg002": [
+"Phlp.",
+"in APr."
+],
+"tlg2185.tlg001": [
+"Dionys.Stoic.",
+""
+],
+"tlg0027.tlg00117": [
+"And.",
+""
+],
+"tlg0027.tlg0059": [
+"And.",
+""
+],
+"tlg0027.tlg00122": [
+"And.",
+""
+],
+"tlg0011.tlg009": [
+"S.",
+"Eleg."
+],
+"tlg0086.tlg020": [
+"Arist.",
+"Long."
+],
+"tlg2001.tlg033": [
+"Them.",
+"Or."
+],
+"tlg2001.tlg025": [
+"Them.",
+"Or."
+],
+"tlg0027.tlg00107": [
+"And.",
+""
+],
+"tlg4016.tlg001": [
+"Ammon.",
+"in Porph."
+],
+"tlg0087.tlg040": [
+"Hdn.",
+"Vers."
+],
+"tlg0027.tlg00126": [
+"And.",
+""
+],
+"tlg2001.tlg010": [
+"Them.",
+"Or."
+],
+"tlg1705.tlg001": [
+"Thal.",
+""
+],
+"tlg0565.tlg002": [
+"Sor.",
+"Fract."
+],
+"tlg0027.tlg0067": [
+"And.",
+""
+],
+"tlg0436.tlg001": [
+"Crito Com.",
+""
+],
+"tlg1409.tlg001": [
+"Heraclid.Pont.",
+"Fr."
+],
+"tlg0265.tlg001": [
+"Timocr.",
+""
+],
+"tlg0007.tlg062": [
+"Plu.",
+"Comp.Dion.Brut."
+],
+"tlg0439.tlg001": [
+"Demetr.Com.Vet.",
+""
+],
+"tlg0595.tlg001": [
+"Zeno Eleat.",
+""
+],
+"tlg0027.tlg0023": [
+"And.",
+""
+],
+"tlg0027.tlg00147": [
+"And.",
+""
+],
+"tlg0027.tlg00109": [
+"And.",
+""
+],
+"tlg0027.tlg0097": [
+"And.",
+""
+],
+"tlg0552.tlg007": [
+"Archim.",
+"Quadr."
+],
+"tlg0527.tlg041": [
+"LXX",
+"Jn."
+],
+"tlg0541.tlg023": [
+"Men.",
+"Mis."
+],
+"tlg1640.tlg001": [
+"Ptol.",
+""
+],
+"tlg1514.tlg001": [
+"Mnaseas",
+""
+],
+"tlg1541.tlg001": [
+"Nosti",
+"Fr."
+],
+"tlg0509.tlg001": [
+"Myia",
+"Ep."
+],
+"tlg0062.tlg005": [
+"Luc.",
+"Electr."
+],
+"tlg0437.tlg001": [
+"Crobyl.",
+""
+],
+"tlg1615.tlg001": [
+"Platon.",
+"Diff.Com."
+],
+"tlg0007.tlg009": [
+"Plu.",
+"Comp.Sol.Publ."
+],
+"tlg2001.tlg028": [
+"Them.",
+"Or."
+],
+"tlg0643.tlg002": [
+"Anon.Lond.",
+"Fr."
+],
+"tlg2034.tlg021": [
+"Porph.",
+"in Harm."
+],
+"tlg0627.tlg039": [
+"Hp.",
+"Foet.Exsect."
+],
+"tlg0628.tlg003": [
+"Muson.",
+"Ep."
+],
+"tlg0041.tlg001": [
+"Chio",
+"Ep."
+],
+"tlg1166.tlg001": [
+"Apollod.Stoic.",
+""
+],
+"tlg2001.tlg034": [
+"Them.",
+"Or."
+],
+"tlg0205.tlg001": [
+"Philod.Scarph.",
+""
+],
+"tlg0392.tlg001": [
+"Acus.",
+""
+],
+"tlg1407.tlg002": [
+"Heraclid.Lemb.",
+""
+],
+"tlg3136.tlg001": [
+"Zonar.",
+""
+],
+"tlg0017.tlg0042": [
+"Is.",
+""
+],
+"tlg0062.tlg060": [
+"Luc.",
+"Harm."
+],
+"tlg0087.tlg037": [
+"Hdn.",
+"Philet."
+],
+"tlg1460.tlg001": [
+"Lesb.Gramm.",
+""
+],
+"tlg0477.tlg001": [
+"Myrtil.",
+""
+],
+"tlg0519.tlg001": [
+"Xeno",
+""
+],
+"tlg1575.tlg001": [
+"Pers.",
+""
+],
+"tlg4028.tlg001": [
+"St.Byz.",
+""
+],
+"tlg2658.tlg001": [
+"Arion",
+""
+],
+"tlg0448.tlg001": [
+"Dromo",
+""
+],
+"tlg0007.tlg143": [
+"Plu.",
+"Lib."
+],
+"tlg2601.tlg001": [
+"Tib.",
+"Fig."
+],
+"tlg2001.tlg031": [
+"Them.",
+"Or."
+],
+"tlg1126.tlg001": [
+"Anub.",
+""
+],
+"tlg1503.tlg001": [
+"Menecr.Xanth.",
+""
+],
+"tlg0495.tlg001": [
+"Phoenicid.",
+""
+],
+"tlg2001.tlg029": [
+"Them.",
+"Or."
+],
+"tlg0594.tlg001": [
+"Alex.",
+"Rh."
+],
+"tlg0627.tlg035": [
+"Hp.",
+"Oct."
+],
+"tlg0475.tlg001": [
+"Metag.",
+""
+],
+"tlg0371.tlg001": [
+"Diagor.",
+""
+],
+"tlg0456.tlg001": [
+"Euang.",
+""
+],
+"tlg4015.tlg003": [
+"Phlp.",
+"in APo."
+],
+"tlg1523.tlg001": [
+"Myro",
+""
+],
+"tlg0007.tlg053": [
+"Plu.",
+"Comp.Ag.Gracch."
+],
+"tlg1283.tlg001": [
+"Colot.",
+"in Euthd."
+],
+"tlg1583.tlg001": [
+"Phanod.",
+""
+],
+"tlg0464.tlg001": [
+"Hegesipp.Com.",
+""
+],
+"tlg0313.tlg001": [
+"Thgn.Trag.",
+""
+],
+"tlg0067.tlg002": [
+"Agatharch.",
+"Fr.Hist."
+],
+"tlg0466.tlg001": [
+"Heraclid.Com.",
+""
+],
+"tlg0617.tlg001": [
+"Anaximen.",
+""
+],
+"tlg0007.tlg014": [
+"Plu.",
+"Comp.Per.Fab."
+],
+"tlg1638.tlg001": [
+"Proxen.",
+""
+],
+"tlg2589.tlg001": [
+"Olymp.Alch.",
+""
+],
+"tlg0218.tlg001": [
+"Nicaenet.",
+""
+],
+"tlg0392.tlg002": [
+"Acus.",
+"Fr."
+],
+"tlg2482.tlg001": [
+"Daimachus",
+""
+],
+"tlg0062.tlg010": [
+"Luc.",
+"Patr.Enc."
+],
+"tlg1525.tlg001": [
+"Neanth.",
+""
+],
+"tlg0416.tlg001": [
+"Arched.",
+""
+],
+"tlg0432.tlg001": [
+"Clearch.Com.",
+""
+],
+"tlg0627.tlg040": [
+"Hp.",
+"Anat."
+],
+"tlg2001.tlg009": [
+"Them.",
+"Or."
+],
+"tlg0057.tlg103": [
+"Gal.",
+"Consuet."
+],
+"tlg0462.tlg001": [
+"Euthycl.",
+""
+],
+"tlg0242.tlg002": [
+"Asius",
+"Fr.Ep."
+],
+"tlg0014.tlg038": [
+"D.",
+""
+],
+"tlg0551.tlg006": [
+"App.",
+"Sic."
+],
+"tlg1406.tlg001": [
+"Heraclid.Cum.",
+""
+],
+"tlg0381.tlg001": [
+"Lycophronid.",
+""
+],
+"tlg1239.tlg001": [
+"Callistr.Hist.",
+""
+],
+"tlg1737.tlg001": [
+"Titanomach.",
+"Fr."
+],
+"tlg1416.tlg001": [
+"Ph.Bybl.",
+""
+],
+"tlg1396.tlg001": [
+"Hegesipp.",
+""
+],
+"tlg0459.tlg001": [
+"Eunic.",
+""
+],
+"tlg0541.tlg020": [
+"Men.",
+"Kol.Fr."
+],
+"tlg4036.tlg023": [
+"Procl.",
+"Chr."
+],
+"tlg1799.tlg007": [
+"Euc.",
+"Dat."
+],
+"tlg0007.tlg023": [
+"Plu.",
+"Comp.Pel.Marc."
+],
+"tlg0732.tlg017": [
+"Alex.Aphr.",
+"Pr.Anecd."
+],
+"tlg0399.tlg001": [
+"Eudox.Com.",
+""
+],
+"tlg1685.tlg001": [
+"Sosib.",
+""
+],
+"tlg0007.tlg037": [
+"Plu.",
+"Comp.Cim.Luc."
+],
+"tlg0627.tlg047": [
+"Hp.",
+"Vid.Ac."
+],
+"tlg1258.tlg001": [
+"Charon",
+""
+],
+"tlg0564.tlg002": [
+"Ruf.",
+"Sat.Gon."
+],
+"tlg0057.tlg003": [
+"Gal.",
+"Med.Phil."
+],
+"tlg0351.tlg001": [
+"Hippothoon",
+""
+],
+"tlg1252.tlg001": [
+"Certamen",
+""
+],
+"tlg1712.tlg001": [
+"Thebaïs",
+"Fr."
+],
+"tlg1656.tlg001": [
+"Id.",
+""
+],
+"tlg0744.tlg004": [
+"Alex.Trall.",
+"Verm."
+],
+"tlg0552.tlg008": [
+"Archim.",
+"Fluit."
+],
+"tlg0455.tlg001": [
+"Eriph.",
+""
+],
+"tlg0372.tlg001": [
+"Praxill.",
+""
+],
+"tlg0378.tlg001": [
+"Ariphron",
+""
+],
+"tlg0341.tlg001": [
+"Lyc.",
+"Fr."
+],
+"tlg0147.tlg001": [
+"Call.",
+"in *dihgh/seis"
+],
+"tlg0667.tlg001": [
+"Marcellin.",
+"Puls."
+],
+"tlg0007.tlg046": [
+"Plu.",
+"Comp.Ages.Pomp."
+],
+"tlg0551.tlg002": [
+"App.",
+"Reg."
+],
+"tlg0010.tlg024": [
+"Isoc.",
+"Ep."
+],
+"tlg1258.tlg002": [
+"Charon",
+"Fr."
+],
+"tlg0606.tlg001": [
+"Ruf.Rh.",
+""
+],
+"tlg0007.tlg029": [
+"Plu.",
+"Comp.Phil.Flam."
+],
+"tlg0582.tlg001": [
+"Anon.Vat.",
+""
+],
+"tlg1255.tlg002": [
+"Chares",
+"Fr."
+],
+"tlg0010.tlg029": [
+"Isoc.",
+"Ep."
+],
+"tlg0057.tlg019": [
+"Gal.",
+"Vict.Att."
+],
+"tlg0054.tlg001": [
+"Theano",
+"Ep."
+],
+"tlg2001.tlg030": [
+"Them.",
+"Or."
+],
+"tlg0062.tlg004": [
+"Luc.",
+"Herc."
+],
+"tlg0527.tlg040": [
+"LXX",
+"Ob."
+],
+"tlg4020.tlg001": [
+"Elias",
+"in Porph."
+],
+"tlg4019.tlg001": [
+"Olymp.",
+"Proll."
+],
+"tlg0221.tlg003": [
+"Euph.",
+"Fr.Hist."
+],
+"tlg1308.tlg001": [
+"Dem.Bith.",
+""
+],
+"tlg0246.tlg001": [
+"Dionys.Eleg.",
+""
+],
+"tlg0244.tlg001": [
+"Cleobulina",
+""
+],
+"tlg2642.tlg001": [
+"Astramps.",
+"Onir."
+],
+"tlg0584.tlg001": [
+"Philosteph.Hist.",
+""
+],
+"tlg0077.tlg001": [
+"Stad.",
+""
+],
+"tlg1289.tlg001": [
+"Crates Hist.",
+""
+],
+"tlg0057.tlg105": [
+"Gal.",
+"Libr.Ord."
+],
+"tlg1256.tlg001": [
+"Chares Iamb.",
+""
+],
+"tlg1598.tlg001": [
+"Philomnest.",
+""
+],
+"tlg0527.tlg044": [
+"LXX",
+"Ze."
+],
+"tlg0338.tlg001": [
+"Sosiph.",
+""
+],
+"tlg0074.tlg004": [
+"Arr.",
+"Peripl.M.Eux."
+],
+"tlg0358.tlg004": [
+"Nicom.",
+"Exc."
+],
+"tlg0010.tlg028": [
+"Isoc.",
+"Ep."
+],
+"tlg0369.tlg001": [
+"Telesill.",
+""
+],
+"tlg0731.tlg001": [
+"Adam.",
+"Phgn."
+],
+"tlg4264.tlg001": [
+"Thrasym.",
+""
+],
+"tlg0007.tlg043": [
+"Plu.",
+"Comp.Eum.Sert."
+],
+"tlg2330.tlg001": [
+"Scamon",
+""
+],
+"tlg2594.tlg001": [
+"Phillis",
+""
+],
+"tlg1288.tlg001": [
+"Crater.",
+""
+],
+"tlg0541.tlg019": [
+"Men.",
+"Kol."
+],
+"tlg0086.tlg049": [
+"Arist.",
+"Frr."
+],
+"tlg0540.tlg011": [
+"Lys.",
+""
+],
+"tlg0144.tlg001": [
+"Besant.",
+"Ara"
+],
+"tlg0714.tlg001": [
+"Anaxarch.",
+""
+],
+"tlg0363.tlg008": [
+"Ptol.",
+"Judic."
+],
+"tlg2387.tlg001": [
+"Athanis",
+""
+],
+"tlg2384.tlg001": [
+"Herm.Hist.",
+""
+],
+"tlg2181.tlg001": [
+"Id.",
+""
+],
+"tlg2302.tlg001": [
+"Aristocl.Hist.",
+""
+],
+"tlg1305.tlg001": [
+"Democr.Eph.",
+""
+],
+"tlg4013.tlg001": [
+"Id.",
+""
+],
+"tlg2001.tlg038": [
+"Them.",
+"in APo."
+],
+"tlg0293.tlg001": [
+"Ibyc.",
+"Oxy."
+],
+"tlg0179.tlg001": [
+"Epig.",
+""
+],
+"tlg0037.tlg001": [
+"Anach.",
+""
+],
+"tlg1338.tlg001": [
+"Dosiad.Hist.",
+""
+],
+"tlg1679.tlg001": [
+"Socr.Rhod.",
+""
+],
+"tlg0370.tlg001": [
+"Lamprocl.",
+""
+],
+"tlg4167.tlg001": [
+"Leont.",
+"in Arat."
+],
+"tlg0074.tlg006": [
+"Arr.",
+"Alan."
+],
+"tlg2194.tlg001": [
+"Aristid.Mil.",
+""
+],
+"tlg1528.tlg001": [
+"Nestor",
+""
+],
+"tlg1187.tlg002": [
+"Aristobul.",
+"Fr."
+],
+"tlg1296.tlg001": [
+"Cypr.",
+""
+],
+"tlg2168.tlg001": [
+"Apolloph.Stoic.",
+""
+],
+"tlg2456.tlg001": [
+"Nessas",
+""
+],
+"tlg0086.tlg019": [
+"Arist.",
+"LI"
+],
+"tlg2027.tlg001": [
+"Aps.",
+"Rh."
+],
+"tlg0051.tlg001": [
+"Melissa",
+"Ep."
+],
+"tlg0334.tlg001": [
+"Diog.Sinop.",
+""
+],
+"tlg0323.tlg001": [
+"Antipho Trag.",
+""
+],
+"tlg0289.tlg001": [
+"Ammon.",
+""
+],
+"tlg0463.tlg001": [
+"Hegem.",
+""
+],
+"tlg0057.tlg081": [
+"Gal.",
+"Inst.Log."
+],
+"tlg0631.tlg001": [
+"Pittac.",
+""
+],
+"tlg0008.tlg003": [
+"Ath.",
+"Epit."
+],
+"tlg4099.tlg001": [
+"Id.",
+""
+],
+"tlg2449.tlg001": [
+"Tim.Gaz.",
+""
+],
+"tlg1282.tlg001": [
+"Clytus",
+""
+],
+"tlg2970.tlg001": [
+"Sever.",
+""
+],
+"tlg0612.tlg003": [
+"D.Chr.",
+"Fr."
+],
+"tlg2643.tlg002": [
+"Aus.",
+"Epigr."
+],
+"tlg0057.tlg002": [
+"Gal.",
+"Opt.Doctr."
+],
+"tlg0620.tlg002": [
+"Archyt.",
+"Fr."
+],
+"tlg0527.tlg043": [
+"LXX",
+"Hb."
+],
+"tlg1505.tlg001": [
+"Menesth.",
+""
+],
+"tlg1400.tlg001": [
+"Heliod.Hist.",
+""
+],
+"tlg1779.tlg003": [
+"Vit.Philonid.",
+""
+],
+"tlg2580.tlg001": [
+"Lyd.",
+""
+],
+"tlg0352.tlg001": [
+"Isid.Trag.",
+""
+],
+"tlg2573.tlg001": [
+"Paus.Dam.",
+""
+],
+"tlg2200.tlg007": [
+"Lib.",
+"Arg.D."
+],
+"tlg0627.tlg053": [
+"Hp.",
+"Dieb.Judic."
+],
+"tlg0302.tlg001": [
+"Choeril.Trag.",
+""
+],
+"tlg0514.tlg001": [
+"Thugen.",
+""
+],
+"tlg0409.tlg001": [
+"Antid.",
+""
+],
+"tlg1625.tlg001": [
+"Polyclit.",
+""
+],
+"tlg1689.tlg001": [
+"Sosyl.",
+""
+],
+"tlg0325.tlg001": [
+"Astyd.",
+"Eleg."
+],
+"tlg0030.tlg001": [
+"Hyp.",
+"Dem."
+],
+"tlg0136.tlg001": [
+"Artemo",
+""
+],
+"tlg9022.tlg003": [
+"Tz.",
+"Proll.Com."
+],
+"tlg0591.tlg001": [
+"Antisth.",
+"Od."
+],
+"tlg1219.tlg001": [
+"Bato Sinop.",
+""
+],
+"tlg1174.tlg001": [
+"Archemach.",
+""
+],
+"tlg0493.tlg001": [
+"Philosteph.Com.",
+""
+],
+"tlg0441.tlg001": [
+"Demonic.",
+""
+],
+"tlg0732.tlg005": [
+"Alex.Aphr.",
+"in APr."
+],
+"tlg1526.tlg001": [
+"Neoptol.",
+""
+],
+"tlg4001.tlg002": [
+"Aen.Gaz.",
+"Ep."
+],
+"tlg0398.tlg001": [
+"Simyl.",
+""
+],
+"tlg0551.tlg003": [
+"App.",
+"Ital."
+],
+"tlg2001.tlg041": [
+"Them.",
+"in PN"
+],
+"tlg0491.tlg001": [
+"Philisc.Com.",
+""
+],
+"tlg0374.tlg001": [
+"Licymn.",
+""
+],
+"tlg1444.tlg001": [
+"Il.Parv.",
+""
+],
+"tlg2001.tlg014": [
+"Them.",
+"Or."
+],
+"tlg0296.tlg001": [
+"Scol.",
+""
+],
+"tlg2734.tlg001": [
+"Just.",
+""
+],
+"tlg1140.tlg002": [
+"Anticl.",
+"Fr."
+],
+"tlg1307.tlg001": [
+"Demon",
+""
+],
+"tlg0506.tlg001": [
+"Steph.Com.",
+""
+],
+"tlg2508.tlg001": [
+"Creon",
+""
+],
+"tlg1438.tlg001": [
+"Hippys",
+""
+],
+"tlg2593.tlg001": [
+"Petr.Patr.",
+""
+],
+"tlg0346.tlg001": [
+"Pomp.Mac.",
+""
+],
+"tlg1445.tlg001": [
+"Il.Pers.",
+""
+],
+"tlg0401.tlg001": [
+"Alexand.Com.",
+""
+],
+"tlg1713.tlg001": [
+"Themiso Hist.",
+""
+],
+"tlg1511.tlg001": [
+"Mimn.Trag.",
+""
+],
+"tlg0632.tlg001": [
+"Pythag.",
+""
+],
+"tlg1609.tlg002": [
+"Phylarch.",
+"Fr."
+],
+"tlg1565.tlg001": [
+"Parmeno",
+""
+],
+"tlg1279.tlg001": [
+"Clitarch.",
+""
+],
+"tlg1534.tlg001": [
+"Nicocl.",
+""
+],
+"tlg1662.tlg001": [
+"Sciras",
+""
+],
+"tlg0485.tlg001": [
+"Ophel.",
+""
+],
+"tlg0732.tlg009": [
+"Alex.Aphr.",
+"in SE"
+],
+"tlg2357.tlg001": [
+"Gorgon",
+""
+],
+"tlg1420.tlg001": [
+"Herm.Iamb.",
+""
+],
+"tlg1513.tlg001": [
+"Id.",
+""
+],
+"tlg0368.tlg001": [
+"Cydias",
+""
+],
+"tlg0227.tlg001": [
+"Hymn.Curet.",
+""
+],
+"tlg1942.tlg001": [
+"Nearch.",
+""
+],
+"tlg1235.tlg001": [
+"Call.Hist.",
+""
+],
+"tlg2461.tlg001": [
+"Uran.",
+""
+],
+"tlg0449.tlg001": [
+"Ecphantid.",
+""
+],
+"tlg0013.tlg001": [
+"Hom.",
+""
+],
+"tlg0541.tlg033": [
+"Men.",
+"Phasm."
+],
+"tlg1589.tlg001": [
+"Phil.",
+""
+],
+"tlg0732.tlg001": [
+"Alex.Aphr.",
+"Mixt."
+],
+"tlg2182.tlg001": [
+"Staphyl.",
+""
+],
+"tlg0633.tlg001": [
+"Lysis",
+"Ep."
+],
+"tlg0627.tlg013": [
+"Hp.",
+"Jusj."
+],
+"tlg0231.tlg001": [
+"Eleg.Alex.Adesp.",
+""
+],
+"tlg2018.tlg002": [
+"Eus.",
+"HE"
+],
+"tlg1617.tlg002": [
+"Polem.",
+"Phgn."
+],
+"tlg1643.tlg001": [
+"Ptol.Ascal.",
+""
+],
+"tlg0541.tlg030": [
+"Men.",
+"Sam.Fr."
+],
+"tlg4003.tlg003": [
+"Marcian.",
+"Epit."
+],
+"tlg1461.tlg001": [
+"Leucipp.",
+""
+],
+"tlg9006.tlg001": [
+"Greg.Cypr.",
+""
+],
+"tlg0253.tlg001": [
+"Margites",
+""
+],
+"tlg1387.tlg001": [
+"Dercyl.",
+""
+],
+"tlg0116.tlg001": [
+"Abyd.",
+""
+],
+"tlg2273.tlg001": [
+"Damon",
+""
+],
+"tlg2262.tlg001": [
+"Lysimachid.",
+""
+],
+"tlg1550.tlg001": [
+"Orac.Chald.",
+""
+],
+"tlg1123.tlg001": [
+"Andron",
+""
+],
+"tlg1275.tlg001": [
+"Cleostrat.",
+""
+],
+"tlg2409.tlg001": [
+"Diosc.Hist.",
+""
+],
+"tlg1435.tlg001": [
+"Hippias Erythr.",
+""
+],
+"tlg1923.tlg001": [
+"Stesimbr.",
+""
+],
+"tlg2598.tlg001": [
+"Procop.Gaz.",
+""
+],
+"tlg1173.tlg001": [
+"Arched.Stoic.",
+""
+],
+"tlg0552.tlg010": [
+"Archim.",
+"Eratosth."
+],
+"tlg2039.tlg002": [
+"Dioph.",
+"Polyg."
+],
+"tlg0069.tlg001": [
+"Dion.Calliph.",
+""
+],
+"tlg0541.tlg017": [
+"Men.",
+"Kith."
+],
+"tlg0010.tlg030": [
+"Isoc.",
+"Ep."
+],
+"tlg1394.tlg001": [
+"Hegesias",
+""
+],
+"tlg0324.tlg001": [
+"Patrocl.",
+""
+],
+"tlg1434.tlg001": [
+"Hippias Eleus",
+""
+],
+"tlg2329.tlg002": [
+"Pherecyd.",
+"Fr."
+],
+"tlg0718.tlg010": [
+"Aët.",
+""
+],
+"tlg1273.tlg001": [
+"Cleon Sic.",
+""
+],
+"tlg0031.tlg002": [
+"Id.",
+""
+],
+"tlg0628.tlg001": [
+"Muson.",
+""
+],
+"tlg0680.tlg001": [
+"Apollon.",
+""
+],
+"tlg0086.tlg011": [
+"Arist.",
+"Ep."
+],
+"tlg4052.tlg001": [
+"Isid.",
+""
+],
+"tlg1491.tlg001": [
+"Melanth.Hist.",
+""
+],
+"tlg0552.tlg002": [
+"Archim.",
+"Circ."
+],
+"tlg0220.tlg001": [
+"Moero",
+""
+],
+"tlg1516.tlg001": [
+"Molpis",
+""
+],
+"tlg0635.tlg001": [
+"ZenoStoic.",
+""
+],
+"tlg1567.tlg001": [
+"Parrhas.",
+""
+],
+"tlg0541.tlg021": [
+"Men.",
+"Kon."
+],
+"tlg1477.tlg001": [
+"Man.Hist.",
+""
+],
+"tlg1953.tlg001": [
+"Hieronym.Hist.",
+""
+],
+"tlg0017.tlg0033": [
+"Is.",
+""
+],
+"tlg2034.tlg025": [
+"Porph.",
+"Fr.Hist."
+],
+"tlg2582.tlg001": [
+"Malch.",
+""
+],
+"tlg1648.tlg001": [
+"Pyrgio",
+""
+],
+"tlg0527.tlg028": [
+"LXX",
+"Prec.Man."
+],
+"tlg1752.tlg001": [
+"Xenag.",
+""
+],
+"tlg0210.tlg001": [
+"Euphron.",
+""
+],
+"tlg9010.tlg001": [
+"Id.",
+""
+],
+"tlg1556.tlg001": [
+"Id.",
+""
+],
+"tlg0430.tlg001": [
+"Chariclid.",
+""
+],
+"tlg0624.tlg001": [
+"Dem.Phal.",
+""
+]
+}
+}

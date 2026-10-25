@@ -1,0 +1,7395 @@
+[
+{
+"name": "Abydenus",
+"desc": "Historicus",
+"abbr": "Abyd.",
+"works": {}
+},
+{
+"name": "Aceratus",
+"desc": "Epigrammaticus",
+"abbr": "Acerat.",
+"works": {}
+},
+{
+"name": "Acesander",
+"desc": "Historicus",
+"abbr": "Acesand.",
+"works": {}
+},
+{
+"name": "Achaeus",
+"desc": "Tragicus",
+"abbr": "Achae.",
+"works": {}
+},
+{
+"name": "Achilles Tatius",
+"desc": "Astronomus",
+"abbr": "Ach.Tat.",
+"works": {}
+},
+{
+"name": "Achilles Tatius",
+"desc": "Scriptor Eroticus",
+"abbr": "Ach.Tat.",
+"works": {}
+},
+{
+"name": "Acusilaus",
+"desc": "Historicus",
+"abbr": "Acus.",
+"works": {}
+},
+{
+"name": "Adamantius",
+"desc": "Physiognomonicus",
+"abbr": "Adam.",
+"works": {}
+},
+{
+"name": "Aelianus",
+"desc": "",
+"abbr": "Ael.",
+"works": {
+"Ep.": "Epistulae",
+"Fr.": "Fragmenta",
+"NA": "De Natura Animalium",
+"Tact.": "Tactica",
+"VH": "Varia Historia"
+}
+},
+{
+"name": "Aelius Dionysius",
+"desc": "Grammaticus",
+"abbr": "Ael.Dion.",
+"works": {}
+},
+{
+"name": "Aemilianus",
+"desc": "Epigrammaticus",
+"abbr": "Aemil.",
+"works": {}
+},
+{
+"name": "Aeneas Gazaeus",
+"desc": "Rhetor",
+"abbr": "Aen.Gaz.",
+"works": {}
+},
+{
+"name": "Aeneas Tacticus",
+"desc": "",
+"abbr": "Aen.Tact.",
+"works": {}
+},
+{
+"name": "Aesara",
+"desc": "Philosophus",
+"abbr": "Aesar.",
+"works": {}
+},
+{
+"name": "Aeschines",
+"desc": "Orator",
+"abbr": "Aeschin.",
+"works": {
+"Ep.": "Epistulae"
+}
+},
+{
+"name": "Aeschines Socraticus",
+"desc": "Philosophus",
+"abbr": "Aeschin.Socr.",
+"works": {}
+},
+{
+"name": "Aeschylus",
+"desc": "Tragicus",
+"abbr": "A.",
+"works": {
+"Ag.": "Agamemnon",
+"Ch.": "Choephori",
+"Eleg.": "Fragmenta Elegiaca",
+"Eu.": "Eumenides",
+"Fr.": "Fragmenta",
+"Pers.": "Persae",
+"Pr.": "Prometheus Vinctus",
+"Supp.": "Supplices",
+"Th.": "Septem contra Thebas"
+}
+},
+{
+"name": "Aeschylus Alexandrinus",
+"desc": "Tragicus",
+"abbr": "Aesch.Alex.",
+"works": {}
+},
+{
+"name": "Aesopus",
+"desc": "Fabularum Scriptor",
+"abbr": "Aesop.",
+"works": {
+"Prov.": "Proverbia"
+}
+},
+{
+"name": "Aëtius",
+"desc": "Medicus",
+"abbr": "Aët.",
+"works": {}
+},
+{
+"name": "Africanus, Julius",
+"desc": "Historicus",
+"abbr": "Afric.",
+"works": {}
+},
+{
+"name": "Agaclytus",
+"desc": "Historicus",
+"abbr": "Agaclyt.",
+"works": {}
+},
+{
+"name": "Agatharchides",
+"desc": "Geographus",
+"abbr": "Agatharch.",
+"works": {
+"Fr.Hist.": "Fragmenta Historica"
+}
+},
+{
+"name": "Agathemerus",
+"desc": "Geographus",
+"abbr": "Agathem.",
+"works": {}
+},
+{
+"name": "Agathias",
+"desc": "Historicus et Epigrammaticus",
+"abbr": "Agath.",
+"works": {}
+},
+{
+"name": "Agathinus",
+"desc": "Medicus",
+"abbr": "Agathin.",
+"works": {}
+},
+{
+"name": "Agathocles",
+"desc": "Historicus",
+"abbr": "Agathocl.",
+"works": {}
+},
+{
+"name": "Albinus",
+"desc": "Philosophus",
+"abbr": "Alb.",
+"works": {}
+},
+{
+"name": "Alcaeus",
+"desc": "Comicus",
+"abbr": "Alc.Com.",
+"works": {}
+},
+{
+"name": "Alcaeus",
+"desc": "Lyricus",
+"abbr": "Alc.",
+"works": {}
+},
+{
+"name": "Alcaeus Messenius",
+"desc": "Epigrammaticus",
+"abbr": "Alc.Mess.",
+"works": {}
+},
+{
+"name": "Alcidamas",
+"desc": "Rhetor",
+"abbr": "Alcid.",
+"works": {}
+},
+{
+"name": "Alcinous",
+"desc": "Philosophus",
+"abbr": "Alcin.",
+"works": {}
+},
+{
+"name": "Alciphro",
+"desc": "Epistolographus",
+"abbr": "Alciphr.",
+"works": {}
+},
+{
+"name": "Alcman",
+"desc": "Lyricus",
+"abbr": "Alcm.",
+"works": {}
+},
+{
+"name": "Alexander",
+"desc": "Comicus",
+"abbr": "Alexand.Com.",
+"works": {}
+},
+{
+"name": "Alexander Aetolus",
+"desc": "Elegiacus",
+"abbr": "Alex.Aet.",
+"works": {}
+},
+{
+"name": "Alexander Aphrodisiensis",
+"desc": "Philosophus",
+"abbr": "Alex.Aphr.",
+"works": {
+"de An.": "de Anima liber",
+"Fat.": "de Fato",
+"Febr.": "de febribus",
+"in APr.": "in Aristotelis Analyticorum Priorum librum I commentarium",
+"in Metaph.": "in Aristotelis Metaphysica commentaria",
+"in Mete.": "in Aristotelis Meteorologicorum libros commentaria",
+"in SE": "in Aristotelis Sophisticos Elenchos commentarium",
+"in Sens.": "in librum de sensu commentarium",
+"in Top.": "in Aristotelis Topicorum libros octo commentaria",
+"Mixt.": "de Mixtione",
+"Pr.": "Problemata",
+"Quaest.": "Quaestiones"
+}
+},
+{
+"name": "Alexander Ephesius",
+"desc": "Epicus",
+"abbr": "Alex.Eph.",
+"works": {}
+},
+{
+"name": "Alexander Polyhistor",
+"desc": "Historicus",
+"abbr": "Alex.Polyh.",
+"works": {}
+},
+{
+"name": "Alexander",
+"desc": "Rhetor",
+"abbr": "Alex.",
+"works": {}
+},
+{
+"name": "Alexander Trallianus",
+"desc": "Medicus",
+"abbr": "Alex.Trall.",
+"works": {
+"Febr.": "de febribus",
+"Verm.": "epistula de vermibus"
+}
+},
+{
+"name": "Alexis",
+"desc": "Comicus",
+"abbr": "Alex.",
+"works": {}
+},
+{
+"name": "Alpheus",
+"desc": "Epigrammaticus",
+"abbr": "Alph.",
+"works": {}
+},
+{
+"name": "Alypius",
+"desc": "Musicus",
+"abbr": "Alyp.",
+"works": {}
+},
+{
+"name": "Amipsias",
+"desc": "Comicus",
+"abbr": "Amips.",
+"works": {}
+},
+{
+"name": "Ammianus",
+"desc": "Epigrammaticus",
+"abbr": "Ammian.",
+"works": {}
+},
+{
+"name": "Ammianus Marcellinus",
+"desc": "Historicus",
+"abbr": "Amm.Marc.",
+"works": {}
+},
+{
+"name": "Ammonius",
+"desc": "Epigrammaticus",
+"abbr": "Ammon.",
+"works": {}
+},
+{
+"name": "Ammonius",
+"desc": "Grammaticus",
+"abbr": "Ammon.",
+"works": {}
+},
+{
+"name": "Ammonius",
+"desc": "Philosophus",
+"abbr": "Ammon.",
+"works": {
+"in APr.": "in Aristotelis Analyticorum Priorum librum I commentarium",
+"in Cat.": "in Aristotelis Categorias commentarius",
+"in Int.": "in Aristotelis de Interpretatione commentarius",
+"in Porph.": "in Porphyrii Isagogen sive V voces"
+}
+},
+{
+"name": "Anacharsis",
+"desc": "Epistolographus",
+"abbr": "Anach.",
+"works": {}
+},
+{
+"name": "Anacreon",
+"desc": "Lyricus",
+"abbr": "Anacr.",
+"works": {}
+},
+{
+"name": "Anacreontea",
+"desc": "",
+"abbr": "Anacreont.",
+"works": {}
+},
+{
+"name": "Ananius",
+"desc": "Lyricus",
+"abbr": "Anan.",
+"works": {}
+},
+{
+"name": "Anaxagoras",
+"desc": "Philosophus",
+"abbr": "Anaxag.",
+"works": {}
+},
+{
+"name": "Anaxandrides",
+"desc": "Comicus",
+"abbr": "Anaxandr.",
+"works": {}
+},
+{
+"name": "Anaxandrides",
+"desc": "Historicus",
+"abbr": "Anaxandr.Hist.",
+"works": {}
+},
+{
+"name": "Anaxarchus",
+"desc": "Philosophus",
+"abbr": "Anaxarch.",
+"works": {}
+},
+{
+"name": "Anaxilas",
+"desc": "Comicus",
+"abbr": "Anaxil.",
+"works": {}
+},
+{
+"name": "Anaximander",
+"desc": "Historicus",
+"abbr": "Anaximand.Hist.",
+"works": {}
+},
+{
+"name": "Anaximander",
+"desc": "Philosophus",
+"abbr": "Anaximand.",
+"works": {}
+},
+{
+"name": "Anaximenes",
+"desc": "Philosophus",
+"abbr": "Anaximen.",
+"works": {}
+},
+{
+"name": "Anaxippus",
+"desc": "Comicus",
+"abbr": "Anaxipp.",
+"works": {}
+},
+{
+"name": "Andocides",
+"desc": "Orator",
+"abbr": "And.",
+"works": {}
+},
+{
+"name": "Andromachus",
+"desc": "Poeta Medicus",
+"abbr": "Androm.",
+"works": {}
+},
+{
+"name": "Andronicus",
+"desc": "Epigrammaticus",
+"abbr": "Andronic.",
+"works": {}
+},
+{
+"name": "Andronicus Rhodius",
+"desc": "Philosophus",
+"abbr": "Andronic.Rhod.",
+"works": {}
+},
+{
+"name": "Androtion",
+"desc": "Historicus",
+"abbr": "Androt.",
+"works": {}
+},
+{
+"name": "Anecdota Graeca",
+"desc": "e codd. MSS. Bibl. reg. Parisin., ed. L. Bachmann, Leipzig 1828-9.",
+"abbr": "An.Bachm.",
+"works": {}
+},
+{
+"name": "Anecdota Graeca",
+"desc": "ed. I. Bekker, 3 vols., Berlin 1814-21.",
+"abbr": "AB",
+"works": {}
+},
+{
+"name": "Anecdota Graeca",
+"desc": "e codd. MSS. Bibl. Oxon., ed. J. A. Cramer, 4 vols., Oxford 1835-7.",
+"abbr": "An.Ox.",
+"works": {}
+},
+{
+"name": "Anecdota Graeca",
+"desc": "e codd. MSS. Bibl. Reg. Parisiensis, ed. J. A. Cramer, 4 vols., Oxford 1839-41.",
+"abbr": "An.Par.",
+"works": {}
+},
+{
+"name": "Anecdota Graeca et Latina",
+"desc": "",
+"abbr": "Anecd.Stud.",
+"works": {}
+},
+{
+"name": "Anonymus vel Anonymi",
+"desc": "",
+"abbr": "Anon.",
+"works": {
+"Geog.Comp.": "Geographiae Expositio Compendiaria"
+}
+},
+{
+"name": "Anonymus Londnensis",
+"desc": "",
+"abbr": "Anon.Lond.",
+"works": {}
+},
+{
+"name": "Anonymus Rhythmicus",
+"desc": "",
+"abbr": "Anon.Rhythm.",
+"works": {
+"Oxy.": "POxy."
+}
+},
+{
+"name": "Anonymus Vaticanus",
+"desc": "",
+"abbr": "Anon.Vat.",
+"works": {}
+},
+{
+"name": "Antagoras",
+"desc": "Elegiacus",
+"abbr": "Antag.",
+"works": {}
+},
+{
+"name": "Anthemius",
+"desc": "Paradoxographus",
+"abbr": "Anthem.",
+"works": {}
+},
+{
+"name": "Anticlides",
+"desc": "Historicus",
+"abbr": "Anticl.",
+"works": {}
+},
+{
+"name": "Antidotus",
+"desc": "Comicus",
+"abbr": "Antid.",
+"works": {}
+},
+{
+"name": "Antigonus Carystius",
+"desc": "Paradoxographus",
+"abbr": "Antig.",
+"works": {}
+},
+{
+"name": "Antigonus Nicaeanus",
+"desc": "Astrologus",
+"abbr": "Antig.Nic.",
+"works": {}
+},
+{
+"name": "Antimachus Colophonius",
+"desc": "Elegiacuset Epicus",
+"abbr": "Antim.",
+"works": {}
+},
+{
+"name": "Antiochus Atheniensis",
+"desc": "Astrologus",
+"abbr": "Antioch.Astr.",
+"works": {}
+},
+{
+"name": "Antiochus",
+"desc": "Epigrammaticus",
+"abbr": "Antioch.",
+"works": {}
+},
+{
+"name": "Antiochus",
+"desc": "Historicus",
+"abbr": "Antioch.Hist.",
+"works": {}
+},
+{
+"name": "Antipater Sidonius",
+"desc": "Epigrammaticus",
+"abbr": "Antip.Sid.",
+"works": {}
+},
+{
+"name": "Antipater Tarsensis",
+"desc": "Stoicus",
+"abbr": "Antip.Stoic.",
+"works": {}
+},
+{
+"name": "Antipater Thessalonicensis",
+"desc": "Epigrammaticus",
+"abbr": "Antip.Thess.",
+"works": {}
+},
+{
+"name": "Antiphanes",
+"desc": "Comicus",
+"abbr": "Antiph.",
+"works": {}
+},
+{
+"name": "Antiphanes Macedo",
+"desc": "Epigrammaticus",
+"abbr": "Antiphan.",
+"works": {}
+},
+{
+"name": "Antiphanes Megalopolitanus",
+"desc": "Epigrammaticus",
+"abbr": "Antiphan.",
+"works": {}
+},
+{
+"name": "Antiphilus",
+"desc": "Epigrammaticus",
+"abbr": "Antiphil.",
+"works": {}
+},
+{
+"name": "Antipho Sophista",
+"desc": "",
+"abbr": "Antipho Soph.",
+"works": {}
+},
+{
+"name": "Antipho",
+"desc": "Tragicus",
+"abbr": "Antipho Trag.",
+"works": {}
+},
+{
+"name": "Antisthenes",
+"desc": "Rhetor",
+"abbr": "Antisth.",
+"works": {}
+},
+{
+"name": "Antistius",
+"desc": "Epigrammaticus",
+"abbr": "Antist.",
+"works": {}
+},
+{
+"name": "Antoninus Liberalis",
+"desc": "Mythographus",
+"abbr": "Ant.Lib.",
+"works": {}
+},
+{
+"name": "Antonius Argivus",
+"desc": "Epigrammaticus",
+"abbr": "Anton.Arg.",
+"works": {}
+},
+{
+"name": "Antonius Diogenes",
+"desc": "Scriptor Eroticus",
+"abbr": "Ant.Diog.",
+"works": {}
+},
+{
+"name": "Antyllus",
+"desc": "Medicus",
+"abbr": "Antyll.",
+"works": {}
+},
+{
+"name": "Anubion",
+"desc": "Poeta Astrologus",
+"abbr": "Anub.",
+"works": {}
+},
+{
+"name": "Anyte",
+"desc": "Epigrammatica",
+"abbr": "Anyt.",
+"works": {}
+},
+{
+"name": "Aphthonius",
+"desc": "Rhetor",
+"abbr": "Aphth.",
+"works": {}
+},
+{
+"name": "Apollinarius",
+"desc": "Epigrammaticus",
+"abbr": "Apollinar.",
+"works": {}
+},
+{
+"name": "Apollodorus",
+"desc": "Comicus",
+"abbr": "Apollod.Com.",
+"works": {}
+},
+{
+"name": "Apollodorus Carystius",
+"desc": "Comicus",
+"abbr": "Apollod.Car.",
+"works": {}
+},
+{
+"name": "Apollodorus Gelous",
+"desc": "Comicus",
+"abbr": "Apollod.Gel.",
+"works": {}
+},
+{
+"name": "Apollodorus",
+"desc": "Mythographus",
+"abbr": "Apollod.",
+"works": {}
+},
+{
+"name": "Apollodorus Damascenus",
+"desc": "Mechanicus",
+"abbr": "Apollod.",
+"works": {}
+},
+{
+"name": "Apollodorus",
+"desc": "Lyricus",
+"abbr": "Apollod.Lyr.",
+"works": {}
+},
+{
+"name": "Apollodorus Seleuciensis",
+"desc": "Stoicus",
+"abbr": "Apollod.Stoic.",
+"works": {}
+},
+{
+"name": "Apollonides",
+"desc": "Epigrammaticus",
+"abbr": "Apollonid.",
+"works": {}
+},
+{
+"name": "Apollonides",
+"desc": "Tragicus",
+"abbr": "Apollonid.Trag.",
+"works": {}
+},
+{
+"name": "Apollonius",
+"desc": "Biographus",
+"abbr": "Apollon.",
+"works": {
+"Vit.Aeschin.": "Vita Aeschinis"
+}
+},
+{
+"name": "Apollonius",
+"desc": "Paradoxographus",
+"abbr": "Apollon.",
+"works": {}
+},
+{
+"name": "Apollonius Citiensis",
+"desc": "Medicus",
+"abbr": "Apollon.Cit.",
+"works": {}
+},
+{
+"name": "Apollonius Dyscolus",
+"desc": "Grammaticus",
+"abbr": "A.D.",
+"works": {
+"Adv.": "de Adverbiis;",
+"Conj.": "de Conjunctionibus;",
+"Pron.": "de Pronominibus;",
+"Synt.": "de Syntaxi;"
+}
+},
+{
+"name": "Apollonius Pergaeus",
+"desc": "Geometra",
+"abbr": "Apollon.Perg.",
+"works": {}
+},
+{
+"name": "Apollonius",
+"desc": "Medicus",
+"abbr": "Apollon.",
+"works": {}
+},
+{
+"name": "Apollonius Rhodius",
+"desc": "Epicus",
+"abbr": "A.R.",
+"works": {}
+},
+{
+"name": "Apollonius",
+"desc": "Sophista",
+"abbr": "Apollon.",
+"works": {}
+},
+{
+"name": "Apollonius Tyanensis",
+"desc": "Epistolographus",
+"abbr": "Ap.Ty.",
+"works": {}
+},
+{
+"name": "Apollophanes",
+"desc": "Comicus",
+"abbr": "Apolloph.",
+"works": {}
+},
+{
+"name": "Apollophanes",
+"desc": "Stoicus",
+"abbr": "Apolloph.Stoic.",
+"works": {}
+},
+{
+"name": "Apostolius",
+"desc": "Paroemiographus",
+"abbr": "Apostol.",
+"works": {}
+},
+{
+"name": "Appianus",
+"desc": "Historicus",
+"abbr": "App.",
+"works": {
+"BC": "Bella Civilia",
+"Praef.": "Praefatio"
+}
+},
+{
+"name": "Apsines",
+"desc": "Rhetor",
+"abbr": "Aps.",
+"works": {
+"Rh.": "Ars Rhetorica"
+}
+},
+{
+"name": "Apuleius",
+"desc": "Scriptor Botanicus",
+"abbr": "Apul.",
+"works": {}
+},
+{
+"name": "Aquila",
+"desc": "Interpres Veteris Testamenti",
+"abbr": "Aq.",
+"works": {}
+},
+{
+"name": "Arabius",
+"desc": "Epigrammaticus",
+"abbr": "Arab.",
+"works": {}
+},
+{
+"name": "Araros",
+"desc": "Comicus",
+"abbr": "Arar.",
+"works": {}
+},
+{
+"name": "Aratus",
+"desc": "Epicus",
+"abbr": "Arat.",
+"works": {}
+},
+{
+"name": "Arcadius",
+"desc": "Grammaticus",
+"abbr": "Arc.",
+"works": {}
+},
+{
+"name": "Arcesilaus",
+"desc": "Comicus",
+"abbr": "Arcesil.",
+"works": {}
+},
+{
+"name": "Archedicus",
+"desc": "Comicus",
+"abbr": "Arched.",
+"works": {}
+},
+{
+"name": "Archedemus Tarsensis",
+"desc": "Stoicus",
+"abbr": "Arched.Stoic.",
+"works": {}
+},
+{
+"name": "Archemachus",
+"desc": "Historicus",
+"abbr": "Archemach.",
+"works": {}
+},
+{
+"name": "Archestratus",
+"desc": "Epicus",
+"abbr": "Archestr.",
+"works": {}
+},
+{
+"name": "Archias",
+"desc": "(unus vel plures) Epigrammaticus",
+"abbr": "Arch.",
+"works": {}
+},
+{
+"name": "Archias Junior",
+"desc": "Epigrammaticus",
+"abbr": "Arch.Jun.",
+"works": {}
+},
+{
+"name": "Archigenes",
+"desc": "Medicus",
+"abbr": "Archig.",
+"works": {}
+},
+{
+"name": "Archilochus",
+"desc": "Lyricus",
+"abbr": "Archil.",
+"works": {}
+},
+{
+"name": "Archimedes",
+"desc": "Geometra",
+"abbr": "Archim.",
+"works": {
+"Fr.": "Fragmenta"
+}
+},
+{
+"name": "Archimelus",
+"desc": "Epigrammaticus",
+"abbr": "Archimel.",
+"works": {}
+},
+{
+"name": "Archippus",
+"desc": "Comicus",
+"abbr": "Archipp.",
+"works": {}
+},
+{
+"name": "Archytas Amphissensis",
+"desc": "Epicus",
+"abbr": "Archyt.Amph.",
+"works": {}
+},
+{
+"name": "Archytas Tarentinus",
+"desc": "Philosophus",
+"abbr": "Archyt.",
+"works": {}
+},
+{
+"name": "Aretaeus",
+"desc": "Medicus",
+"abbr": "Aret.",
+"works": {}
+},
+{
+"name": "Aristaenetus",
+"desc": "Rhetor",
+"abbr": "Aristaenet.",
+"works": {}
+},
+{
+"name": "Aristagoras",
+"desc": "Comicus",
+"abbr": "Aristag.",
+"works": {}
+},
+{
+"name": "Aristagoras",
+"desc": "Historicus",
+"abbr": "Aristag.Hist.",
+"works": {}
+},
+{
+"name": "Aristarchus",
+"desc": "Grammaticus",
+"abbr": "Aristarch.",
+"works": {}
+},
+{
+"name": "Aristarchus Samius",
+"desc": "Astronomus",
+"abbr": "Aristarch.Sam.",
+"works": {}
+},
+{
+"name": "Aristarchus",
+"desc": "Tragicus",
+"abbr": "Aristarch.Trag.",
+"works": {}
+},
+{
+"name": "Aristeas",
+"desc": "Epicus",
+"abbr": "Aristeas Epic.",
+"works": {}
+},
+{
+"name": "Aristides",
+"desc": "Rhetor",
+"abbr": "Aristid.",
+"works": {
+"Or.": "Orationes"
+}
+},
+{
+"name": "Aristides Milesius",
+"desc": "Historicus",
+"abbr": "Aristid.Mil.",
+"works": {}
+},
+{
+"name": "Aristides Quintilianus",
+"desc": "Musicus",
+"abbr": "Aristid.Quint.",
+"works": {}
+},
+{
+"name": "Aristippus",
+"desc": "Philosophus",
+"abbr": "Aristipp.",
+"works": {}
+},
+{
+"name": "Aristo Chius",
+"desc": "Stoicus",
+"abbr": "AristoStoic.",
+"works": {}
+},
+{
+"name": "Aristobulus",
+"desc": "Historicus",
+"abbr": "Aristobul.",
+"works": {}
+},
+{
+"name": "Aristocles",
+"desc": "Epigrammaticus",
+"abbr": "Aristocl.",
+"works": {}
+},
+{
+"name": "Aristocles",
+"desc": "Historicus",
+"abbr": "Aristocl.Hist.",
+"works": {}
+},
+{
+"name": "Aristocles",
+"desc": "Philosophus",
+"abbr": "Aristocl.",
+"works": {}
+},
+{
+"name": "Aristodemus",
+"desc": "Historicus",
+"abbr": "Aristodem.",
+"works": {}
+},
+{
+"name": "Aristodicus",
+"desc": "Epigrammaticus",
+"abbr": "Aristodic.",
+"works": {}
+},
+{
+"name": "Aristomenes",
+"desc": "Comicus",
+"abbr": "Aristomen.",
+"works": {}
+},
+{
+"name": "Aristonymus",
+"desc": "Comicus",
+"abbr": "Aristonym.",
+"works": {}
+},
+{
+"name": "Aristonymus",
+"desc": "Gnomologus",
+"abbr": "Aristonym.",
+"works": {}
+},
+{
+"name": "Aristophanes",
+"desc": "Comicus",
+"abbr": "Ar.",
+"works": {
+"Ach.": "Acharnenses",
+"Av.": "Aves",
+"Ec.": "Ecclesiazusae",
+"Eq.": "Equites",
+"Fr.": "Fragmenta",
+"Lys.": "Lysistrata",
+"Nu.": "Nubes",
+"Pl.": "Plutus",
+"Ra.": "Ranae",
+"Th.": "Thesmophoriazusae",
+"V.": "Vespae"
+}
+},
+{
+"name": "Aristophanes Boeotus",
+"desc": "Historicus",
+"abbr": "Aristoph.Boeot.",
+"works": {}
+},
+{
+"name": "Aristophanes Byzantinus",
+"desc": "Philosophus",
+"abbr": "Ar.Byz.",
+"works": {
+"Epit.": "Historiae Animalium Epitome subiunctis Aeliani Timothei aliorumque eclogis"
+}
+},
+{
+"name": "Aristoteles",
+"desc": "Philosophus",
+"abbr": "Arist.",
+"works": {
+"APo.": "Analytica Posteriora",
+"APr.": "Analytica Priora",
+"Aud.": "de Audibilibus",
+"Cael.": "de Caelo",
+"Cat.": "Categoriae",
+"Col.": "de Coloribus",
+"de An.": "de Anima",
+"Div.Somn.": "de Divinatione per Somnia",
+"EE": "Ethica Eudemia",
+"EN": "Ethica Nicomachea",
+"Ep.": "Epistulae, ed.",
+"Fr.": "Fragmenta",
+"GA": "de Generatione Animalium",
+"GC": "de Generatione et Corruptione",
+"HA": "Historia Animalium",
+"IA": "de Incessu Animalium",
+"Insomn.": "de Insomniis",
+"Int.": "de Interpretatione",
+"Juv.": "de Juventute",
+"LI": "de Lineis Insecabilibus",
+"Long.": "de Longaevitate",
+"MA": "de Motu Animalium",
+"MM": "Magna Moralia",
+"Mech.": "Mechanica",
+"Mem.": "de Memoria",
+"Metaph.": "Metaphysica",
+"Mete.": "Meteorologica",
+"Mir.": "Mirabilia",
+"Mu.": "de Mundo",
+"Oec.": "Oeconomica",
+"PA": "de Partibus Animalium",
+"Pepl.": "Peplus (Fr.",
+"Ph.": "Physica",
+"Phgn.": "Physiognomonica",
+"Po.": "Poetica",
+"Pol.": "Politica",
+"Pr.": "Problemata",
+"Resp.": "de Respiratione",
+"Rh.": "Rhetorica",
+"Rh.Al.": "Rhetorica ad Alexandrum",
+"SE": "Sophistici Elenchi",
+"Sens.": "de Sensu",
+"Somn.Vig.": "de Somno et Vigilia",
+"Spir.": "de Spiritu",
+"Top.": "Topica",
+"VV": "de Virtutibus et Vitiis",
+"Vent.": "de Ventis",
+"Xen.": "de Xenophane"
+}
+},
+{
+"name": "Aristoxenus",
+"desc": "Musicus",
+"abbr": "Aristox.",
+"works": {}
+},
+{
+"name": "Arius Didymus",
+"desc": "Doxographus",
+"abbr": "Ar.Did.",
+"works": {}
+},
+{
+"name": "Arrianus",
+"desc": "Historicus",
+"abbr": "Arr.",
+"works": {
+"Alan.": "Expeditio contra Alanos"
+}
+},
+{
+"name": "Artemidorus Daldianus",
+"desc": "Onirocriticus",
+"abbr": "Artem.",
+"works": {}
+},
+{
+"name": "Artemidorus Tarsensis",
+"desc": "Epigrammaticus",
+"abbr": "Artemid.",
+"works": {}
+},
+{
+"name": "Arusianus Messius",
+"desc": "Grammaticus",
+"abbr": "Arus.Mess.",
+"works": {}
+},
+{
+"name": "Ascensio Isaiae",
+"desc": "",
+"abbr": "Ascens.Is.",
+"works": {}
+},
+{
+"name": "Asclepiades",
+"desc": "Epigrammaticus",
+"abbr": "Asclep.",
+"works": {}
+},
+{
+"name": "Asclepiades Junior",
+"desc": "Medicus",
+"abbr": "Asclep.Jun.",
+"works": {}
+},
+{
+"name": "Asclepiades Myrleanus",
+"desc": "Historicus",
+"abbr": "Asclep.Myrl.",
+"works": {}
+},
+{
+"name": "Asclepiades Prusensis",
+"desc": "Medicus",
+"abbr": "Asclep.",
+"works": {}
+},
+{
+"name": "Asclepiades Tragilensis",
+"desc": "Historicus",
+"abbr": "Asclep.Tragil.",
+"works": {}
+},
+{
+"name": "Asclepiodotus",
+"desc": "Tacticus",
+"abbr": "Ascl.",
+"works": {}
+},
+{
+"name": "Asclepius",
+"desc": "Philosophus",
+"abbr": "Ascl.",
+"works": {
+"in Metaph.": "in Aristotelis Metaphysicorum libros"
+}
+},
+{
+"name": "Aspasius",
+"desc": "Philosophus",
+"abbr": "Asp.",
+"works": {
+"in EN": "in Ethica Nicomachea commentaria"
+}
+},
+{
+"name": "Astrampsychus",
+"desc": "Onirocriticus",
+"abbr": "Astramps.",
+"works": {
+"Onir.": "Onirocritica",
+"Orac.": "Oracula"
+}
+},
+{
+"name": "Astydamas",
+"desc": "Tragicus",
+"abbr": "Astyd.",
+"works": {}
+},
+{
+"name": "Athenaeus",
+"desc": "Epigrammaticus",
+"abbr": "Ath.",
+"works": {}
+},
+{
+"name": "Athenaeus",
+"desc": "Grammaticus",
+"abbr": "Ath.",
+"works": {
+"Epit.": "Epitome"
+}
+},
+{
+"name": "Athenaeus",
+"desc": "Mechanicus",
+"abbr": "Ath.Mech.",
+"works": {}
+},
+{
+"name": "Athenaeus",
+"desc": "Medicus",
+"abbr": "Ath.Med.",
+"works": {}
+},
+{
+"name": "Athenodorus Tarsensis",
+"desc": "Historicus",
+"abbr": "Athenodor.Tars.",
+"works": {}
+},
+{
+"name": "Atilius Fortunatianus",
+"desc": "Grammaticus Latinus",
+"abbr": "Atil.Fort.",
+"works": {}
+},
+{
+"name": "Attalus",
+"desc": "Grammaticus",
+"abbr": "Attal.",
+"works": {}
+},
+{
+"name": "Atticus",
+"desc": "Philosophus",
+"abbr": "Attic.",
+"works": {}
+},
+{
+"name": "Ausonius",
+"desc": "Poeta Latinus",
+"abbr": "Aus.",
+"works": {
+"Ep.": "Epistulae",
+"Epigr.": "Epigrammata",
+"Idyll.": "Idyllia"
+}
+},
+{
+"name": "Autocrates",
+"desc": "Comicus",
+"abbr": "Autocr.",
+"works": {}
+},
+{
+"name": "Autolycus",
+"desc": "Astronomus",
+"abbr": "Autol.",
+"works": {}
+},
+{
+"name": "Automedon",
+"desc": "Epigrammaticus",
+"abbr": "Autom.",
+"works": {}
+},
+{
+"name": "Axionicus",
+"desc": "Comicus",
+"abbr": "Axionic.",
+"works": {}
+},
+{
+"name": "Axiopistus",
+"desc": "Poeta Ethicus",
+"abbr": "Axiop.",
+"works": {}
+},
+{
+"name": "Babrius",
+"desc": "Fabularum Scriptor",
+"abbr": "Babr.",
+"works": {}
+},
+{
+"name": "Bacchius",
+"desc": "Musicus",
+"abbr": "Bacch.",
+"works": {}
+},
+{
+"name": "Bacchylides",
+"desc": "Lyricus",
+"abbr": "B.",
+"works": {}
+},
+{
+"name": "Balbilla",
+"desc": "Lyrica",
+"abbr": "Balbill.",
+"works": {}
+},
+{
+"name": "Barbucallos",
+"desc": "Epigrammaticus",
+"abbr": "Barb.",
+"works": {}
+},
+{
+"name": "Bassus, Lollius",
+"desc": "Epigrammaticus",
+"abbr": "Bass.",
+"works": {}
+},
+{
+"name": "Bato Sinopensis",
+"desc": "Historicus",
+"abbr": "Bato Sinop.",
+"works": {}
+},
+{
+"name": "Batrachomyomachia",
+"desc": "",
+"abbr": "Batr.",
+"works": {}
+},
+{
+"name": "Berosus",
+"desc": "Historicus",
+"abbr": "Beros.",
+"works": {}
+},
+{
+"name": "Besantinus",
+"desc": "Epigrammaticus",
+"abbr": "Besant.",
+"works": {
+"Ara": "AP"
+}
+},
+{
+"name": "Blaesus",
+"desc": "Comicus",
+"abbr": "Blaes.",
+"works": {}
+},
+{
+"name": "Boethus",
+"desc": "Epigrammaticus",
+"abbr": "Boeth.",
+"works": {}
+},
+{
+"name": "Boethus Sidonius",
+"desc": "Stoicus",
+"abbr": "Boeth.Stoic.",
+"works": {}
+},
+{
+"name": "Brutus",
+"desc": "Epistolographus",
+"abbr": "Brut.",
+"works": {
+"Ep.": "Epistula"
+}
+},
+{
+"name": "Butherus",
+"desc": "Philosophus",
+"abbr": "Buther.",
+"works": {}
+},
+{
+"name": "Caelius Aurelianus",
+"desc": "Medicus",
+"abbr": "Cael.Aur.",
+"works": {
+"CP": "Celeres Passiones",
+"TP": "Tardae Passiones"
+}
+},
+{
+"name": "Callias",
+"desc": "Epigrammaticus",
+"abbr": "Call.",
+"works": {}
+},
+{
+"name": "Callias",
+"desc": "Comicus",
+"abbr": "Call.Com.",
+"works": {}
+},
+{
+"name": "Callias",
+"desc": "Historicus",
+"abbr": "Call.Hist.",
+"works": {}
+},
+{
+"name": "Callicratidas",
+"desc": "Philosophus",
+"abbr": "Callicrat.",
+"works": {}
+},
+{
+"name": "Callimachus",
+"desc": "Epicus",
+"abbr": "Call.",
+"works": {
+"Aet.": "Aetia",
+"Ap.": "Hymnus in Apollinem",
+"Cer.": "Hymnus in Cererem",
+"Del.": "Hymnus in Delum",
+"Dian.": "Hymnus in Dianam",
+"Epigr.": "Epigrammata",
+"Fr.": "Fragmenta",
+"Fr.anon.": "Fragmenta anonyma",
+"Hec.": "Hecale",
+"Iamb.": "Iambi",
+"Jov.": "Hymnus in Jovem",
+"Lav.Pall.": "Lavacrum Palladis",
+"Sos.": "Sosibii Victoria"
+}
+},
+{
+"name": "Callinicus",
+"desc": "Rhetor",
+"abbr": "Callinic.Rh.",
+"works": {}
+},
+{
+"name": "Callinus",
+"desc": "Epicus",
+"abbr": "Callin.",
+"works": {}
+},
+{
+"name": "Callistratus",
+"desc": "Historicus",
+"abbr": "Callistr.Hist.",
+"works": {}
+},
+{
+"name": "Callistratus",
+"desc": "Sophista",
+"abbr": "Callistr.",
+"works": {
+"Stat.": "Statuarum descriptiones"
+}
+},
+{
+"name": "Callixinus",
+"desc": "Historicus",
+"abbr": "Callix.",
+"works": {}
+},
+{
+"name": "Cantharus",
+"desc": "Comicus",
+"abbr": "Canthar.",
+"works": {}
+},
+{
+"name": "Carcinus",
+"desc": "Tragicus",
+"abbr": "Carc.",
+"works": {}
+},
+{
+"name": "Carmen Aureum",
+"desc": "",
+"abbr": "Carm.Aur.",
+"works": {}
+},
+{
+"name": "Carmina Popularia",
+"desc": "",
+"abbr": "Carm.Pop.",
+"works": {}
+},
+{
+"name": "Carneiscus",
+"desc": "Philosophus",
+"abbr": "Carneisc.",
+"works": {}
+},
+{
+"name": "Carphyllides",
+"desc": "Epigrammaticus",
+"abbr": "Carph.",
+"works": {}
+},
+{
+"name": "Carystius",
+"desc": "Historicus",
+"abbr": "Caryst.",
+"works": {}
+},
+{
+"name": "Cassius",
+"desc": "Medicus",
+"abbr": "Cass.",
+"works": {}
+},
+{
+"name": "Cassius Felix",
+"desc": "Medicus",
+"abbr": "Cass.Fel.",
+"works": {}
+},
+{
+"name": "Catalogus Codicum Astrologorum",
+"desc": "",
+"abbr": "Cat.Cod.Astr.",
+"works": {}
+},
+{
+"name": "Cebes",
+"desc": "Philosophus",
+"abbr": "Ceb.",
+"works": {}
+},
+{
+"name": "Celsus",
+"desc": "Medicus",
+"abbr": "Cels.",
+"works": {}
+},
+{
+"name": "Celsus",
+"desc": "Philosophus",
+"abbr": "Cels.",
+"works": {}
+},
+{
+"name": "Cephisodorus",
+"desc": "Comicus",
+"abbr": "Cephisod.",
+"works": {}
+},
+{
+"name": "Cercidas",
+"desc": "Iambographus",
+"abbr": "Cerc.",
+"works": {}
+},
+{
+"name": "Cercopes",
+"desc": "",
+"abbr": "Cercop.",
+"works": {}
+},
+{
+"name": "Cerealius",
+"desc": "Epigrammaticus",
+"abbr": "Cereal.",
+"works": {}
+},
+{
+"name": "Certamen Homeri et Hesiodi",
+"desc": "",
+"abbr": "Certamen",
+"works": {}
+},
+{
+"name": "Chaeremon",
+"desc": "Historicus",
+"abbr": "Chaerem.Hist.",
+"works": {}
+},
+{
+"name": "Chaeremon",
+"desc": "Tragicus",
+"abbr": "Chaerem.",
+"works": {}
+},
+{
+"name": "Chamaeleon",
+"desc": "Grammaticus",
+"abbr": "Chamael.",
+"works": {}
+},
+{
+"name": "Characteres Epistolici",
+"desc": "",
+"abbr": "Epist.Charact.",
+"works": {}
+},
+{
+"name": "Chares",
+"desc": "Iambographus",
+"abbr": "Chares Iamb.",
+"works": {}
+},
+{
+"name": "Chares",
+"desc": "Tragicus",
+"abbr": "Chares Trag.",
+"works": {}
+},
+{
+"name": "Chariclides",
+"desc": "Comicus",
+"abbr": "Chariclid.",
+"works": {}
+},
+{
+"name": "Charisius",
+"desc": "Grammaticus Latinus",
+"abbr": "Charis.",
+"works": {}
+},
+{
+"name": "Charixenes",
+"desc": "Medicus",
+"abbr": "Charixen.",
+"works": {}
+},
+{
+"name": "Charondas",
+"desc": "Philosophus",
+"abbr": "Charond.",
+"works": {}
+},
+{
+"name": "Chionides",
+"desc": "Comicus",
+"abbr": "Chionid.",
+"works": {}
+},
+{
+"name": "Choerilus",
+"desc": "Epicus",
+"abbr": "Choeril.",
+"works": {}
+},
+{
+"name": "Choerilus",
+"desc": "Tragicus",
+"abbr": "Choeril.Trag.",
+"works": {}
+},
+{
+"name": "Choeroboscus",
+"desc": "Grammaticus",
+"abbr": "Choerob.",
+"works": {}
+},
+{
+"name": "Choricius",
+"desc": "Rhetor",
+"abbr": "Chor.",
+"works": {}
+},
+{
+"name": "Chrysippus",
+"desc": "Stoicus",
+"abbr": "Chrysipp.Stoic.",
+"works": {}
+},
+{
+"name": "Chrysippus Tyanensis",
+"desc": "Rei Coquinariae Scriptor",
+"abbr": "Chrysipp. Tyan.",
+"works": {}
+},
+{
+"name": "Cicero, M. Tullius",
+"desc": "Orator et Philosophus",
+"abbr": "Cic.",
+"works": {
+"Acad.": "Academica",
+"Att.": "Epistulae ad Atticum",
+"Brut.": "Brutus.",
+"Fam.": "Epistulae ad Familiares",
+"Fin.": "de Finibus",
+"ND": "de Natura Deorum",
+"Off.": "de Officiis",
+"Orat.": "Oralor",
+"QF": "Epistulae ad Quintum Fratrem",
+"Top.": "Topica",
+"Tusc.": "Tusculanae Disputationes"
+}
+},
+{
+"name": "Claudianus",
+"desc": "Epigrammaticus",
+"abbr": "Claudian.",
+"works": {}
+},
+{
+"name": "Claudius Iolaus",
+"desc": "Historicus",
+"abbr": "Claud.Iol.",
+"works": {}
+},
+{
+"name": "Cleaenetus",
+"desc": "Tragicus",
+"abbr": "Cleaenet.",
+"works": {}
+},
+{
+"name": "Cleanthes",
+"desc": "Stoicus",
+"abbr": "Cleanth.Stoic.",
+"works": {}
+},
+{
+"name": "Clearchus",
+"desc": "Comicus",
+"abbr": "Clearch.Com.",
+"works": {}
+},
+{
+"name": "Clearchus",
+"desc": "Historicus",
+"abbr": "Clearch.",
+"works": {}
+},
+{
+"name": "Clemens Alexandrinus",
+"desc": "Theologus",
+"abbr": "Clem.Al.",
+"works": {
+"Paed.": "Paedagogus",
+"Protr.": "Protrepticus",
+"Strom.": "Stromateis"
+}
+},
+{
+"name": "Cleobulus",
+"desc": "Lyricus",
+"abbr": "Cleobul.",
+"works": {}
+},
+{
+"name": "Cleomedes",
+"desc": "Astronomus",
+"abbr": "Cleom.",
+"works": {}
+},
+{
+"name": "Cleon Siculus",
+"desc": "Lyricus",
+"abbr": "Cleon Sic.",
+"works": {}
+},
+{
+"name": "Cleonides",
+"desc": "Musicus",
+"abbr": "Cleonid.",
+"works": {
+"Harm.": "Introductio Harmonica"
+}
+},
+{
+"name": "Cleostratus",
+"desc": "Poeta Philosophus",
+"abbr": "Cleostrat.",
+"works": {}
+},
+{
+"name": "Clidemus (vel Clitodemus",
+"desc": ") Historicus",
+"abbr": "Clidem. vel Clitodem.",
+"works": {}
+},
+{
+"name": "Clinias",
+"desc": "Philosophus",
+"abbr": "Clin.",
+"works": {}
+},
+{
+"name": "Clitarchus",
+"desc": "Gnomologus",
+"abbr": "Clitarch.",
+"works": {}
+},
+{
+"name": "Clitarchus",
+"desc": "Historicus",
+"abbr": "Clitarch.",
+"works": {}
+},
+{
+"name": "Clitomachus",
+"desc": "Philosophus",
+"abbr": "Clitom.",
+"works": {}
+},
+{
+"name": "Codex Justinianus",
+"desc": "",
+"abbr": "Cod.Just.",
+"works": {}
+},
+{
+"name": "Codex Theodosianus",
+"desc": "",
+"abbr": "Cod.Theod.",
+"works": {}
+},
+{
+"name": "Colotes",
+"desc": "Philosophus",
+"abbr": "Colot.",
+"works": {}
+},
+{
+"name": "Coluthus",
+"desc": "Epicus",
+"abbr": "Coluth.",
+"works": {}
+},
+{
+"name": "Comica Adespota",
+"desc": "",
+"abbr": "Com.Adesp.",
+"works": {}
+},
+{
+"name": "Corinna",
+"desc": "Lyrica",
+"abbr": "Corinn.",
+"works": {}
+},
+{
+"name": "Cornelius Longus",
+"desc": "Epigrammaticus",
+"abbr": "Corn.Long.",
+"works": {}
+},
+{
+"name": "Cornutus",
+"desc": "Philosophus",
+"abbr": "Corn.",
+"works": {}
+},
+{
+"name": "Corpus Hermeticum",
+"desc": "",
+"abbr": "Corp.Herm.",
+"works": {}
+},
+{
+"name": "Craterus",
+"desc": "Historicus",
+"abbr": "Crater.",
+"works": {}
+},
+{
+"name": "Crates",
+"desc": "Comicus",
+"abbr": "Crates Com.",
+"works": {}
+},
+{
+"name": "Crates",
+"desc": "Historicus",
+"abbr": "Crates Hist.",
+"works": {}
+},
+{
+"name": "Crates Thebanus",
+"desc": "Poeta Philosophus",
+"abbr": "Crates Theb.",
+"works": {
+"Ep.": "Epistulae"
+}
+},
+{
+"name": "Cratinus",
+"desc": "Comicus",
+"abbr": "Cratin.",
+"works": {}
+},
+{
+"name": "Cratinus Junior",
+"desc": "Comicus",
+"abbr": "Cratin.Jun.",
+"works": {}
+},
+{
+"name": "Cratippus",
+"desc": "Historicus",
+"abbr": "Cratipp.",
+"works": {}
+},
+{
+"name": "Crinagoras",
+"desc": "Epigrammaticus",
+"abbr": "Crin.",
+"works": {}
+},
+{
+"name": "Critias",
+"desc": "Philosophus, Tragicus, Elegiacus",
+"abbr": "Critias",
+"works": {}
+},
+{
+"name": "Crito",
+"desc": "Comicus",
+"abbr": "Crito Com.",
+"works": {}
+},
+{
+"name": "Crobylus",
+"desc": "Comicus",
+"abbr": "Crobyl.",
+"works": {}
+},
+{
+"name": "Ctesias",
+"desc": "Historicus",
+"abbr": "Ctes.",
+"works": {}
+},
+{
+"name": "Cyllenius",
+"desc": "Epigrammaticus",
+"abbr": "Cyllen.",
+"works": {}
+},
+{
+"name": "Cyranus",
+"desc": "",
+"abbr": "Cyran.",
+"works": {}
+},
+{
+"name": "Cypria",
+"desc": "",
+"abbr": "Cypr.",
+"works": {}
+},
+{
+"name": "Cyrilli Glossarium",
+"desc": "",
+"abbr": "Cyr.",
+"works": {}
+},
+{
+"name": "Cyrillus",
+"desc": "Epigrammaticus",
+"abbr": "Cyrill.",
+"works": {}
+},
+{
+"name": "Damagetus",
+"desc": "Epigrammaticus",
+"abbr": "Damag.",
+"works": {}
+},
+{
+"name": "Damascius",
+"desc": "Philosophus",
+"abbr": "Dam.",
+"works": {
+"Isid.": "Vita Isidori",
+"Pr.": "de Principiis"
+}
+},
+{
+"name": "Damianus",
+"desc": "Opticus",
+"abbr": "Damian.",
+"works": {
+"Opt.": "Optica"
+}
+},
+{
+"name": "Damocharis",
+"desc": "Epigrammaticus",
+"abbr": "Damoch.",
+"works": {}
+},
+{
+"name": "Damocrates",
+"desc": "Poeta Medicus",
+"abbr": "Damocr.",
+"works": {}
+},
+{
+"name": "Damocritus",
+"desc": "Historicus",
+"abbr": "Damocrit.",
+"works": {}
+},
+{
+"name": "Damostratus",
+"desc": "Epigrammaticus",
+"abbr": "Damostr.",
+"works": {}
+},
+{
+"name": "Damoxenus",
+"desc": "Comicus",
+"abbr": "Damox.",
+"works": {}
+},
+{
+"name": "Deiochus",
+"desc": "Historicus",
+"abbr": "Deioch.",
+"works": {}
+},
+{
+"name": "Demades",
+"desc": "Orator",
+"abbr": "Demad.",
+"works": {
+"Fr.": "Fragmenta"
+}
+},
+{
+"name": "Demetrius",
+"desc": "Astrologus",
+"abbr": "Demetr.",
+"works": {}
+},
+{
+"name": "Demetrius",
+"desc": "Comicus Novae Comoediae",
+"abbr": "Demetr.Com.Nov.",
+"works": {}
+},
+{
+"name": "Demetrius",
+"desc": "Comicus Veteris Comoediae",
+"abbr": "Demetr.Com.Vet.",
+"works": {}
+},
+{
+"name": "Demetrius Apamensis",
+"desc": "Medicus",
+"abbr": "Demetr.Apam.",
+"works": {}
+},
+{
+"name": "Demetrius Lacon",
+"desc": "Philosophus",
+"abbr": "Demetr.Lac.",
+"works": {}
+},
+{
+"name": "Demetrius Phalereus",
+"desc": "Rhetor",
+"abbr": "Demetr.",
+"works": {
+"Eloc.": "Demetrius on Style"
+}
+},
+{
+"name": "Demetrius Phalereus",
+"desc": "Historicus",
+"abbr": "Dem.Phal.",
+"works": {}
+},
+{
+"name": "Demetrius Troezenius",
+"desc": "Poeta Philosophus",
+"abbr": "Demetr.Troez.",
+"works": {}
+},
+{
+"name": "Demochares",
+"desc": "Historicus",
+"abbr": "Democh.",
+"works": {}
+},
+{
+"name": "Democritus",
+"desc": "Epigrammaticus",
+"abbr": "Democr.",
+"works": {}
+},
+{
+"name": "Democritus",
+"desc": "Philosophus",
+"abbr": "Democr.",
+"works": {}
+},
+{
+"name": "Democritus Ephesius",
+"desc": "Historicus",
+"abbr": "Democr.Eph.",
+"works": {}
+},
+{
+"name": "Demodocus",
+"desc": "Lyricus",
+"abbr": "Demod.",
+"works": {}
+},
+{
+"name": "Demonicus",
+"desc": "Comicus",
+"abbr": "Demonic.",
+"works": {}
+},
+{
+"name": "Demophilus",
+"desc": "Gnomologus",
+"abbr": "Demoph.",
+"works": {
+"Sent.": "Sententiae",
+"Sim.": "Similitudines"
+}
+},
+{
+"name": "Demosthenes",
+"desc": "Orator",
+"abbr": "D.",
+"works": {
+"Ep.": "Epistulae",
+"Prooem.": "Prooemia"
+}
+},
+{
+"name": "Demosthenes Bithynus",
+"desc": "Epicus",
+"abbr": "Dem.Bith.",
+"works": {}
+},
+{
+"name": "Demosthenes Ophthalmicus",
+"desc": "Medicus",
+"abbr": "Dem.Ophth.",
+"works": {}
+},
+{
+"name": "Dercylus",
+"desc": "Historicus",
+"abbr": "Dercyl.",
+"works": {}
+},
+{
+"name": "Dexippus",
+"desc": "Historicus",
+"abbr": "Dexipp.",
+"works": {}
+},
+{
+"name": "Dexippus",
+"desc": "Philosophus",
+"abbr": "Dexipp.",
+"works": {
+"in Cat.": "in Aristotelis Categorias commentarium"
+}
+},
+{
+"name": "Diagoras",
+"desc": "Lyricus",
+"abbr": "Diagor.",
+"works": {}
+},
+{
+"name": "Dialexeis",
+"desc": "",
+"abbr": "Dialex.",
+"works": {}
+},
+{
+"name": "Dicaearchus",
+"desc": "Geographus",
+"abbr": "Dicaearch.",
+"works": {}
+},
+{
+"name": "Dicaearchus",
+"desc": "Historicus",
+"abbr": "Dicaearch.Hist.",
+"works": {}
+},
+{
+"name": "Dicaeogenes",
+"desc": "Tragicus",
+"abbr": "Dicaeog.",
+"works": {}
+},
+{
+"name": "Didymus",
+"desc": "Grammaticus",
+"abbr": "Did.",
+"works": {
+"in D.": "Commentary on Demosthenes"
+}
+},
+{
+"name": "Dieuches",
+"desc": "Medicus",
+"abbr": "Dieuch.",
+"works": {}
+},
+{
+"name": "Dieuchidas",
+"desc": "Historicus",
+"abbr": "Dieuchid.",
+"works": {}
+},
+{
+"name": "Digesta",
+"desc": "",
+"abbr": "Dig.",
+"works": {}
+},
+{
+"name": "Dinarchus",
+"desc": "Orator",
+"abbr": "Din.",
+"works": {
+"Fr.": "Fragmenta"
+}
+},
+{
+"name": "Dinolochus",
+"desc": "Comicus",
+"abbr": "Dinol.",
+"works": {}
+},
+{
+"name": "Dio Cassius",
+"desc": "Historicus",
+"abbr": "D.C.",
+"works": {}
+},
+{
+"name": "Dio Chrysostomus",
+"desc": "Sophista",
+"abbr": "D.Chr.",
+"works": {}
+},
+{
+"name": "Diocles",
+"desc": "Epigrammaticus",
+"abbr": "Diocl.",
+"works": {}
+},
+{
+"name": "Diocles",
+"desc": "Comicus",
+"abbr": "Diocl.Com.",
+"works": {}
+},
+{
+"name": "Diocles",
+"desc": "Medicus",
+"abbr": "Diocl.Fr.",
+"works": {}
+},
+{
+"name": "Diodorus",
+"desc": "Comicus",
+"abbr": "Diod.Com.",
+"works": {}
+},
+{
+"name": "Diodorus",
+"desc": "Epigrammaticus",
+"abbr": "Diod.",
+"works": {}
+},
+{
+"name": "Diodorus",
+"desc": "Rhetor",
+"abbr": "Diod.Rh.",
+"works": {}
+},
+{
+"name": "Diodorus Atheniensis",
+"desc": "Periegeta",
+"abbr": "Diod.Ath.",
+"works": {}
+},
+{
+"name": "Diodorus Siculus",
+"desc": "Historicus",
+"abbr": "D.S.",
+"works": {}
+},
+{
+"name": "Diodorus Tarsensis",
+"desc": "Epigrammaticus",
+"abbr": "Diod.Tars.",
+"works": {}
+},
+{
+"name": "Diogenes Apolloniates",
+"desc": "Philosophus",
+"abbr": "Diog.Apoll.",
+"works": {}
+},
+{
+"name": "Diogenes Atheniensis",
+"desc": "Tragicus",
+"abbr": "Diog.Ath.",
+"works": {}
+},
+{
+"name": "Diogenes Babylonius",
+"desc": "Stoicus",
+"abbr": "Diog.Bab.Stoic.",
+"works": {}
+},
+{
+"name": "Diogenes Cynicus",
+"desc": "Philosophus",
+"abbr": "Diog.",
+"works": {
+"Ep.": "Epistulae"
+}
+},
+{
+"name": "Diogenes Laertius",
+"desc": "",
+"abbr": "D.L.",
+"works": {}
+},
+{
+"name": "Diogenes Oenoandensis",
+"desc": "Epicureus",
+"abbr": "Diog.Oen.",
+"works": {}
+},
+{
+"name": "Diogenes Sinopensis",
+"desc": "Tragicus",
+"abbr": "Diog.Sinop.",
+"works": {}
+},
+{
+"name": "Diogenianus",
+"desc": "Paroemiographus",
+"abbr": "Diogenian.",
+"works": {}
+},
+{
+"name": "Diogenianus Epicureus",
+"desc": "",
+"abbr": "Diogenian.Epicur.",
+"works": {}
+},
+{
+"name": "Diomedes",
+"desc": "Grammaticus",
+"abbr": "Diom.",
+"works": {}
+},
+{
+"name": "Dionysius",
+"desc": "Comicus",
+"abbr": "Dionys.Com.",
+"works": {}
+},
+{
+"name": "Dionysius",
+"desc": "Epigrammaticus",
+"abbr": "Dionys.",
+"works": {}
+},
+{
+"name": "Dionysius",
+"desc": "Rerum Naturalium Scriptor",
+"abbr": "Dionys.",
+"works": {
+"Av.": "de Avibus"
+}
+},
+{
+"name": "Dionysius",
+"desc": "Tragicus",
+"abbr": "Dionys.Trag.",
+"works": {}
+},
+{
+"name": "Dionysius Byzantius",
+"desc": "Geographus",
+"abbr": "Dion.Byz.",
+"works": {}
+},
+{
+"name": "Dionysius Calliphontis filius",
+"desc": "Geographus",
+"abbr": "Dion.Calliph.",
+"works": {}
+},
+{
+"name": "Dionysius Chalcus",
+"desc": "Elegiacus",
+"abbr": "Dionys.Eleg.",
+"works": {}
+},
+{
+"name": "Dionysius Halicarnassensis",
+"desc": "",
+"abbr": "D.H.",
+"works": {
+"Amm.": "Epistula ad Ammaeum",
+"Comp.": "de Compositione Verborum",
+"Dem.": "de Demosthene",
+"Din.": "de Dinarcho",
+"Is.": "de Isaeo",
+"Isoc.": "de Isocrate",
+"Lys.": "de Lysia",
+"Orat.Vett.": "de Oratoribus Veteribus",
+"Pomp.": "Epistula ad Pompeium",
+"Rh.": "Ars Rhetorica",
+"Th.": "de Thucydide"
+}
+},
+{
+"name": "Dionysius Heracleota",
+"desc": "Stoicus",
+"abbr": "Dionys.Stoic.",
+"works": {}
+},
+{
+"name": "Dionysius Minor",
+"desc": "Elegiacus",
+"abbr": "Dionys.Minor",
+"works": {}
+},
+{
+"name": "Dionysius Periegeta",
+"desc": "",
+"abbr": "D.P.",
+"works": {}
+},
+{
+"name": "Dionysius Samius",
+"desc": "Historicus",
+"abbr": "Dionys.Sam.",
+"works": {}
+},
+{
+"name": "Dionysius Thrax",
+"desc": "Grammaticus",
+"abbr": "D.T.",
+"works": {}
+},
+{
+"name": "Diophanes",
+"desc": "Epigrammaticus",
+"abbr": "Diophan.",
+"works": {}
+},
+{
+"name": "Diophantus",
+"desc": "Mathematicus",
+"abbr": "Dioph.",
+"works": {}
+},
+{
+"name": "Dioscorides",
+"desc": "Epigrammaticus",
+"abbr": "Diosc.",
+"works": {}
+},
+{
+"name": "Dioscorides",
+"desc": "Historicus",
+"abbr": "Diosc.Hist.",
+"works": {}
+},
+{
+"name": "Dioscorides (Dioscurides)",
+"desc": "Medicus",
+"abbr": "Dsc.",
+"works": {
+"Alex.": "Alexipharmaca; Ther. = Theriaca;"
+}
+},
+{
+"name": "Dioscorides Glossator",
+"desc": "",
+"abbr": "Diosc.Gloss.",
+"works": {}
+},
+{
+"name": "Diotimus",
+"desc": "Epigrammaticus",
+"abbr": "Diotim.",
+"works": {}
+},
+{
+"name": "Diotogenes",
+"desc": "Philosophus",
+"abbr": "Diotog.",
+"works": {}
+},
+{
+"name": "Dioxippus",
+"desc": "Comicus",
+"abbr": "Diox.",
+"works": {}
+},
+{
+"name": "Diphilus",
+"desc": "Comicus",
+"abbr": "Diph.",
+"works": {}
+},
+{
+"name": "Diphilus Siphnius",
+"desc": "Rerum Naturalium Scriptor",
+"abbr": "Diph.Siph.",
+"works": {}
+},
+{
+"name": "Diyllus",
+"desc": "Historicus",
+"abbr": "Diyll.",
+"works": {}
+},
+{
+"name": "Donatus, Aelius",
+"desc": "Grammaticus Latinus",
+"abbr": "Donat.",
+"works": {}
+},
+{
+"name": "Dorotheus",
+"desc": "Astrologus",
+"abbr": "Doroth.",
+"works": {}
+},
+{
+"name": "Dosiadas",
+"desc": "Epigrammaticus",
+"abbr": "Dosiad.",
+"works": {
+"Ara": "AP"
+}
+},
+{
+"name": "Dosiades",
+"desc": "Historicus",
+"abbr": "Dosiad.Hist.",
+"works": {}
+},
+{
+"name": "Dositheus",
+"desc": "Grammaticus Latinus",
+"abbr": "Dosith.",
+"works": {}
+},
+{
+"name": "Ecphantides",
+"desc": "Comicus",
+"abbr": "Ecphantid.",
+"works": {}
+},
+{
+"name": "Ecphantus",
+"desc": "Pythagoreus",
+"abbr": "Ecphant.",
+"works": {}
+},
+{
+"name": "Elegiaca Alexandrina Adespota",
+"desc": "",
+"abbr": "Eleg.Alex.Adesp.",
+"works": {}
+},
+{
+"name": "Empedocles",
+"desc": "Poeta Philosophus",
+"abbr": "Emp.",
+"works": {
+"Sphaer.": "Sphaera"
+}
+},
+{
+"name": "Enoch",
+"desc": "Judaeus",
+"abbr": "1Enoch",
+"works": {}
+},
+{
+"name": "Ephippus",
+"desc": "Comicus",
+"abbr": "Ephipp.",
+"works": {}
+},
+{
+"name": "Ephorus",
+"desc": "Historicus",
+"abbr": "Ephor.",
+"works": {}
+},
+{
+"name": "Epica Alexandrina Adespota",
+"desc": "",
+"abbr": "Epic.Alex.Adesp.",
+"works": {}
+},
+{
+"name": "Epicharmus",
+"desc": "Comicus",
+"abbr": "Epich.",
+"works": {}
+},
+{
+"name": "Epicrates",
+"desc": "Comicus",
+"abbr": "Epicr.",
+"works": {}
+},
+{
+"name": "Epictetus",
+"desc": "Philosophus",
+"abbr": "Epict.",
+"works": {
+"Ench.": "Enchiridion",
+"Fr.": "Fragmenta",
+"Gnom.": "Gnomologium"
+}
+},
+{
+"name": "Epicurus",
+"desc": "Philosophus",
+"abbr": "Epicur.",
+"works": {
+"Dial.": "Dialogus",
+"Ep.": "Epistulae",
+"Fr.": "Fragmenta",
+"Nat.": "De rerum natura",
+"Sent.": "Sententiae",
+"Sent.Vat.": "Gnomologium Vaticanum"
+}
+},
+{
+"name": "Epigenes",
+"desc": "Comicus",
+"abbr": "Epig.",
+"works": {}
+},
+{
+"name": "Epigonus",
+"desc": "Epigrammaticus",
+"abbr": "Epig.",
+"works": {}
+},
+{
+"name": "Epilycus",
+"desc": "Comicus",
+"abbr": "Epil.",
+"works": {}
+},
+{
+"name": "Epimenides",
+"desc": "Philosophus",
+"abbr": "Epimenid.",
+"works": {}
+},
+{
+"name": "Epinicus",
+"desc": "Comicus",
+"abbr": "Epin.",
+"works": {}
+},
+{
+"name": "Erasistratus",
+"desc": "Medicus",
+"abbr": "Erasistr.",
+"works": {}
+},
+{
+"name": "Eratosthenes",
+"desc": "Epicus",
+"abbr": "Eratosth.",
+"works": {}
+},
+{
+"name": "Eratosthenes Scholasticus",
+"desc": "Epigrammaticus",
+"abbr": "Eratosth.",
+"works": {}
+},
+{
+"name": "Erinna",
+"desc": "Lyrica",
+"abbr": "Erinn.",
+"works": {}
+},
+{
+"name": "Eriphus",
+"desc": "Comicus",
+"abbr": "Eriph.",
+"works": {}
+},
+{
+"name": "Erotianus",
+"desc": "Grammaticus",
+"abbr": "Erot.",
+"works": {}
+},
+{
+"name": "Erycius",
+"desc": "Epigrammaticus",
+"abbr": "Eryc.",
+"works": {}
+},
+{
+"name": "Etruscus",
+"desc": "Epigrammaticus",
+"abbr": "Etrusc.",
+"works": {}
+},
+{
+"name": "Etymologicum Genuinum",
+"desc": "",
+"abbr": "Et.Gen.",
+"works": {}
+},
+{
+"name": "Etymologicum Gudianum",
+"desc": "",
+"abbr": "Et.Gud.",
+"works": {}
+},
+{
+"name": "Etymologicum Magnum",
+"desc": "",
+"abbr": "EM",
+"works": {}
+},
+{
+"name": "Euangelus",
+"desc": "Comicus",
+"abbr": "Euang.",
+"works": {}
+},
+{
+"name": "Eubulides",
+"desc": "Comicus",
+"abbr": "Eubulid.",
+"works": {}
+},
+{
+"name": "Eubulus",
+"desc": "Comicus",
+"abbr": "Eub.",
+"works": {}
+},
+{
+"name": "Euclides",
+"desc": "Geometra",
+"abbr": "Euc.",
+"works": {
+"Dat.": "Data",
+"Fr.": "Fragmenta",
+"Opt.": "Optica",
+"Phaen.": "Phaenomena",
+"Sect.Can.": "Sectio Canonis"
+}
+},
+{
+"name": "Eucrates",
+"desc": "Historicus",
+"abbr": "Eucrat.",
+"works": {}
+},
+{
+"name": "Eudemus",
+"desc": "Philosophus",
+"abbr": "Eudem.",
+"works": {}
+},
+{
+"name": "Eudoxus",
+"desc": "Astronomus",
+"abbr": "Eudox.",
+"works": {
+"Ars": "Ars astronomica"
+}
+},
+{
+"name": "Eudoxus",
+"desc": "Comicus",
+"abbr": "Eudox.Com.",
+"works": {}
+},
+{
+"name": "Eumelus",
+"desc": "Epicus",
+"abbr": "Eumel.",
+"works": {}
+},
+{
+"name": "Eunapius",
+"desc": "Historicus",
+"abbr": "Eun.",
+"works": {
+"Hist.": "Fragmenta Historica",
+"VS": "Vitae Sophistarum"
+}
+},
+{
+"name": "Eunicus",
+"desc": "Comicus",
+"abbr": "Eunic.",
+"works": {}
+},
+{
+"name": "Euodus",
+"desc": "Epigrammaticus",
+"abbr": "Euod.",
+"works": {}
+},
+{
+"name": "Euphorio",
+"desc": "Epicus",
+"abbr": "Euph.",
+"works": {
+"Fr.Hist.": "Fragmenta Historica"
+}
+},
+{
+"name": "Euphronius",
+"desc": "Lyricus",
+"abbr": "Euphron.",
+"works": {}
+},
+{
+"name": "Eupolis",
+"desc": "Comicus",
+"abbr": "Eup.",
+"works": {}
+},
+{
+"name": "Euripides",
+"desc": "Tragicus",
+"abbr": "E.",
+"works": {
+"Alc.": "Alcestis",
+"Andr.": "Andromache",
+"*Antiop.": "Antiope",
+"*Archel.": "Archelaus",
+"Ba.": "Bacchae",
+"*Cret.": "Cretes",
+"Cyc.": "Cyclops",
+"El.": "Electra",
+"Ep.": "Epistulae",
+"Epigr.": "Epigrammata",
+"Fr.": "Fragmenta",
+"HF": "Hercules Furens",
+"Hec.": "Hecuba",
+"Hel.": "Helena",
+"Heracl.": "Heraclidae",
+"Hipp.": "Hippolytus",
+"Hyps.": "Hypsipyle",
+"IA": "Iphigenia Aulidensis",
+"IT": "Iphigenia Taurica",
+"Med.": "Medea",
+"*Melanipp.Capt.": "Melanippe Captiva",
+"*Melanipp.Sap.": "Melanippe Sapiens",
+"*Oen.": "Oeneus",
+"Or.": "Orestes",
+"Ph.": "Phoenissae",
+"*Phaëth.": "Phaëthon",
+"*Pirith.": "Pirithous",
+"Rh.": "Rhesus",
+"*Sthen.": "Stheneboea",
+"Supp.": "Supplices",
+"Tr.": "Troades"
+}
+},
+{
+"name": "Euryphamus",
+"desc": "Pythagoreus",
+"abbr": "Euryph.",
+"works": {}
+},
+{
+"name": "Eusebius",
+"desc": "Historicus",
+"abbr": "Eus.Hist.",
+"works": {}
+},
+{
+"name": "Eusebius Caesariensis",
+"desc": "Scriptor Ecclesiasticus",
+"abbr": "Eus.",
+"works": {
+"DE": "Demonstratio Evangelica",
+"PE": "Praeparatio Evangelica"
+}
+},
+{
+"name": "Eusebius Myndius",
+"desc": "Philosophus",
+"abbr": "Eus.Mynd.",
+"works": {}
+},
+{
+"name": "Eustathius",
+"desc": "Episcopus Thessalonicensis",
+"abbr": "Eust.",
+"works": {}
+},
+{
+"name": "Eustathius Epiphaniensis",
+"desc": "Historicus",
+"abbr": "Eust.Epiph.",
+"works": {}
+},
+{
+"name": "Eustratius",
+"desc": "Philosophus",
+"abbr": "Eustr.",
+"works": {
+"in APo.": "in Analyticorum Posteriorum librum secundum commentarium"
+}
+},
+{
+"name": "Euthycles",
+"desc": "Comicus",
+"abbr": "Euthycl.",
+"works": {}
+},
+{
+"name": "Eutocius",
+"desc": "Mathematicus",
+"abbr": "Eutoc.",
+"works": {}
+},
+{
+"name": "Eutolmius",
+"desc": "Epigrammaticus",
+"abbr": "Eutolm.",
+"works": {}
+},
+{
+"name": "Eutychianus",
+"desc": "Historicus",
+"abbr": "Eutych.",
+"works": {}
+},
+{
+"name": "Evenus",
+"desc": "Elegiacus",
+"abbr": "Even.",
+"works": {}
+},
+{
+"name": "Ezekiel",
+"desc": "Poeta Judaeus",
+"abbr": "Ezek.",
+"works": {
+"Exag.": "Exagoge"
+}
+},
+{
+"name": "Favorinus",
+"desc": "Historicus",
+"abbr": "Favorin.",
+"works": {}
+},
+{
+"name": "Favorinus",
+"desc": "Philosophus",
+"abbr": "Favorin.",
+"works": {}
+},
+{
+"name": "Festus",
+"desc": "Grammaticus Latinus",
+"abbr": "Fest.",
+"works": {}
+},
+{
+"name": "Firmicus Maternus",
+"desc": "Astrologus",
+"abbr": "Firm.",
+"works": {}
+},
+{
+"name": "Fortunatianus",
+"desc": "Rhetor",
+"abbr": "Fortunat.Rh.",
+"works": {}
+},
+{
+"name": "Gabrielius",
+"desc": "Epigrammaticus",
+"abbr": "Gabriel.",
+"works": {}
+},
+{
+"name": "Gaetulicus, Cn. Lentulus",
+"desc": "Epigrammaticus",
+"abbr": "Gaet.",
+"works": {}
+},
+{
+"name": "Galenus",
+"desc": "Medicus",
+"abbr": "Gal.",
+"works": {}
+},
+{
+"name": "Gaudentius",
+"desc": "Musicus",
+"abbr": "Gaud.Harm.",
+"works": {}
+},
+{
+"name": "Gellius, Aulus",
+"desc": "Grammaticus Latinus",
+"abbr": "Gell.",
+"works": {}
+},
+{
+"name": "Geminus",
+"desc": "Astronomicus",
+"abbr": "Gem.",
+"works": {
+"Calend.": "Calendarium"
+}
+},
+{
+"name": "Geoponica",
+"desc": "",
+"abbr": "Gp.",
+"works": {}
+},
+{
+"name": "Germanicus Caesar",
+"desc": "Epigrammaticus",
+"abbr": "Germ.",
+"works": {}
+},
+{
+"name": "Glaucus Atheniensis",
+"desc": "Epigrammaticus",
+"abbr": "Glauc.",
+"works": {}
+},
+{
+"name": "Glaucus Nicopolitanus",
+"desc": "Epigrammaticus",
+"abbr": "Glauc.",
+"works": {}
+},
+{
+"name": "Glossaria",
+"desc": "",
+"abbr": "Gloss.",
+"works": {}
+},
+{
+"name": "Gorgias",
+"desc": "Rhetor et Sophista",
+"abbr": "Gorg.",
+"works": {
+"Hel., Pal.": "Helena, Palamedes"
+}
+},
+{
+"name": "Gregorius Corinthius",
+"desc": "Grammaticus",
+"abbr": "Greg.Cor.",
+"works": {}
+},
+{
+"name": "Gregorius Cyprius",
+"desc": "Paroemiographus",
+"abbr": "Greg.Cypr.",
+"works": {}
+},
+{
+"name": "Hadrianus",
+"desc": "Rhetor",
+"abbr": "Hadr.Rh.",
+"works": {}
+},
+{
+"name": "Hadrianus Imperator",
+"desc": "Epigrammaticus",
+"abbr": "Hadr.",
+"works": {}
+},
+{
+"name": "Harmodius",
+"desc": "Historicus",
+"abbr": "Harmod.",
+"works": {}
+},
+{
+"name": "Harpocratio",
+"desc": "Grammaticus",
+"abbr": "Harp.",
+"works": {}
+},
+{
+"name": "Harpocratio",
+"desc": "Medicus et Astrologus",
+"abbr": "Harp.Astr.",
+"works": {}
+},
+{
+"name": "Hecataeus Abderita",
+"desc": "Historicus",
+"abbr": "Hecat.Abd.",
+"works": {}
+},
+{
+"name": "Hecataeus Milesius",
+"desc": "Historicus",
+"abbr": "Hecat.",
+"works": {}
+},
+{
+"name": "Hedylus",
+"desc": "Epigrammaticus",
+"abbr": "Hedyl.",
+"works": {}
+},
+{
+"name": "Hegemon",
+"desc": "Comicus et Parodus",
+"abbr": "Hegem.",
+"works": {}
+},
+{
+"name": "Hegesander",
+"desc": "Historicus",
+"abbr": "Hegesand.",
+"works": {}
+},
+{
+"name": "Hegesianax",
+"desc": "Epicus",
+"abbr": "Hegesian.",
+"works": {}
+},
+{
+"name": "Hegesippus",
+"desc": "Comicus",
+"abbr": "Hegesipp.Com.",
+"works": {}
+},
+{
+"name": "Hegesippus",
+"desc": "Epigrammaticus",
+"abbr": "Hegesipp.",
+"works": {}
+},
+{
+"name": "Heliodorus",
+"desc": "Scriptor Eroticus",
+"abbr": "Hld.",
+"works": {}
+},
+{
+"name": "Heliodorus",
+"desc": "Medicus",
+"abbr": "Heliod.",
+"works": {}
+},
+{
+"name": "Heliodorus",
+"desc": "Periegeta",
+"abbr": "Heliod.Hist.",
+"works": {}
+},
+{
+"name": "Heliodorus",
+"desc": "Philosophus",
+"abbr": "Heliod.",
+"works": {
+"in EN": "in Ethica Nicomachea paraphrasis"
+}
+},
+{
+"name": "Helladius",
+"desc": "Epigrammaticus",
+"abbr": "Hellad.",
+"works": {}
+},
+{
+"name": "Helladius",
+"desc": "",
+"abbr": "Hellad.",
+"works": {}
+},
+{
+"name": "Hellanicus",
+"desc": "Historicus",
+"abbr": "Hellanic.",
+"works": {}
+},
+{
+"name": "Hellenica Oxyrhynchia",
+"desc": "",
+"abbr": "Hell.Oxy.",
+"works": {}
+},
+{
+"name": "Hemerologium Florentinum",
+"desc": "",
+"abbr": "Hemerolog.Flor.",
+"works": {}
+},
+{
+"name": "Heniochus",
+"desc": "Comicus",
+"abbr": "Henioch.",
+"works": {}
+},
+{
+"name": "Hephaestio",
+"desc": "Astrologus",
+"abbr": "Heph.Astr.",
+"works": {}
+},
+{
+"name": "Hephaestio",
+"desc": "Grammaticus",
+"abbr": "Heph.",
+"works": {}
+},
+{
+"name": "Heraclas",
+"desc": "Medicus",
+"abbr": "Heracl.",
+"works": {}
+},
+{
+"name": "Heraclides",
+"desc": "Comicus",
+"abbr": "Heraclid.Com.",
+"works": {}
+},
+{
+"name": "Heraclides",
+"desc": "Historicus",
+"abbr": "Heraclid.",
+"works": {}
+},
+{
+"name": "Heraclides Cumaeus",
+"desc": "Historicus",
+"abbr": "Heraclid.Cum.",
+"works": {}
+},
+{
+"name": "Heraclides Lembus",
+"desc": "Historicus",
+"abbr": "Heraclid.Lemb.",
+"works": {}
+},
+{
+"name": "Heraclides Ponticus",
+"desc": "Historicus",
+"abbr": "Heraclid.Pont.",
+"works": {}
+},
+{
+"name": "Heraclides Sinopensis",
+"desc": "Epigrammaticus",
+"abbr": "Heraclid.Sinop.",
+"works": {}
+},
+{
+"name": "Heraclides Tarentinus",
+"desc": "Medicus",
+"abbr": "Heraclid.",
+"works": {}
+},
+{
+"name": "Heraclitus",
+"desc": "",
+"abbr": "Heraclit.",
+"works": {
+"All.": "Allegoriae = Quaestiones Homericae"
+}
+},
+{
+"name": "Heraclitus",
+"desc": "Epigrammaticus",
+"abbr": "Heraclit.",
+"works": {}
+},
+{
+"name": "Heraclitus",
+"desc": "Paradoxographus",
+"abbr": "Heraclit.",
+"works": {
+"Incred.": "de incredibilibus"
+}
+},
+{
+"name": "Heraclitus",
+"desc": "Philosophus",
+"abbr": "Heraclit.",
+"works": {
+"Ep.": "Epistulae"
+}
+},
+{
+"name": "Herillus Carthaginiensis",
+"desc": "Stoicus",
+"abbr": "Herill.Stoic.",
+"works": {}
+},
+{
+"name": "Hermes Trismegistus",
+"desc": "",
+"abbr": "Herm.",
+"works": {}
+},
+{
+"name": "Hermesianax",
+"desc": "Elegiacus",
+"abbr": "Hermesian.",
+"works": {}
+},
+{
+"name": "Hermias",
+"desc": "Historicus",
+"abbr": "Herm.Hist.",
+"works": {}
+},
+{
+"name": "Hermias",
+"desc": "Iambographus",
+"abbr": "Herm.Iamb.",
+"works": {}
+},
+{
+"name": "Hermias Alexandrinus",
+"desc": "Philosophus",
+"abbr": "Herm.",
+"works": {
+"in Phdr.": "in Platonis Phaedrum scholia"
+}
+},
+{
+"name": "Hermippus",
+"desc": "Comicus",
+"abbr": "Hermipp.",
+"works": {
+"Iamb.": "Fragmenta Iamborum"
+}
+},
+{
+"name": "Hermippus",
+"desc": "Historicus",
+"abbr": "Hermipp.Hist.",
+"works": {}
+},
+{
+"name": "Hermocles",
+"desc": "Lyricus",
+"abbr": "Hermocl.",
+"works": {}
+},
+{
+"name": "Hermocreon",
+"desc": "Epigrammaticus",
+"abbr": "Hermocr.",
+"works": {}
+},
+{
+"name": "Hermodorus",
+"desc": "Epigrammaticus",
+"abbr": "Hermod.",
+"works": {}
+},
+{
+"name": "Hermogenes",
+"desc": "Rhetor",
+"abbr": "Hermog.",
+"works": {
+"Aut.": "Automatopoetica",
+"Bel.": "Belopoeica",
+"*Deff.": "Definitiones",
+"Dioptr.": "Dioptra",
+"*Geep.": "Liber Geeponicus",
+"*Geom.": "Geometrica",
+"*Mens.": "Mensurae",
+"Metr.": "Metrica",
+"Spir.": "(Spiritalia) Pneumatica",
+"*Stereom.": "Stereometrica"
+}
+},
+{
+"name": "Herodas",
+"desc": "Mimographus",
+"abbr": "Herod.",
+"works": {}
+},
+{
+"name": "Herodianus",
+"desc": "Grammaticus",
+"abbr": "Hdn.",
+"works": {
+"Epim.": "Partitiones",
+"Philet.": "Philetaerus",
+"Vers.": "de Versibus"
+}
+},
+{
+"name": "Herodianus",
+"desc": "Historicus",
+"abbr": "Hdn.",
+"works": {}
+},
+{
+"name": "Herodianus",
+"desc": "Rhetor",
+"abbr": "Hdn.",
+"works": {
+"Fig.": "de Figuris"
+}
+},
+{
+"name": "Herodorus",
+"desc": "Historicus",
+"abbr": "Herodor.",
+"works": {}
+},
+{
+"name": "Herodotus",
+"desc": "Historicus",
+"abbr": "Hdt.",
+"works": {
+"Vit.Hom.": "Vita Homeri"
+}
+},
+{
+"name": "Herodotus",
+"desc": "Medicus",
+"abbr": "Herod.Med.",
+"works": {}
+},
+{
+"name": "Herophilus",
+"desc": "Medicus",
+"abbr": "Herophil.",
+"works": {}
+},
+{
+"name": "Hesiodus",
+"desc": "Epicus",
+"abbr": "Hes.",
+"works": {
+"Fr.": "Fragmenta",
+"Op.": "Opera et Dies",
+"Sc.": "Scutum Herculis",
+"Th.": "Theogonia"
+}
+},
+{
+"name": "Hesychius Milesius",
+"desc": "Historicus",
+"abbr": "Hsch.Mil.",
+"works": {}
+},
+{
+"name": "Hesychius",
+"desc": "Lexicographus",
+"abbr": "Hsch.",
+"works": {}
+},
+{
+"name": "Hicesius",
+"desc": "Medicus",
+"abbr": "Hices.",
+"works": {}
+},
+{
+"name": "Hierocles",
+"desc": "Facetiarum Scriptor",
+"abbr": "Hierocl.",
+"works": {}
+},
+{
+"name": "Hierocles",
+"desc": "Historicus",
+"abbr": "Hierocl.Hist.",
+"works": {}
+},
+{
+"name": "Hierocles Platonicus",
+"desc": "Philosophus",
+"abbr": "Hierocl.",
+"works": {
+"in CA": "in Carmen Aureum",
+"Prov.": "de providentia"
+}
+},
+{
+"name": "Hierocles Stoicus",
+"desc": "Philosophus",
+"abbr": "Hierocl.",
+"works": {}
+},
+{
+"name": "Hieronymus Cardianus",
+"desc": "Historicus",
+"abbr": "Hieronym.Hist.",
+"works": {}
+},
+{
+"name": "Himerius",
+"desc": "Sophista",
+"abbr": "Him.",
+"works": {
+"Ecl.": "Eclogae",
+"Or.": "Orationes"
+}
+},
+{
+"name": "Hipparchus",
+"desc": "Astronomicus",
+"abbr": "Hipparch.",
+"works": {}
+},
+{
+"name": "Hipparchus",
+"desc": "Comicus",
+"abbr": "Hipparch.Com.",
+"works": {}
+},
+{
+"name": "Hipparchus",
+"desc": "Philosophus Pythagoreus",
+"abbr": "Hipparch.",
+"works": {}
+},
+{
+"name": "Hippias Erythraeus",
+"desc": "Historicus",
+"abbr": "Hippias Erythr.",
+"works": {}
+},
+{
+"name": "Hippiatrica",
+"desc": "",
+"abbr": "Hippiatr.",
+"works": {}
+},
+{
+"name": "Hippocrates",
+"desc": "Medicus",
+"abbr": "Hp.",
+"works": {}
+},
+{
+"name": "Hippodamus",
+"desc": "Pythagoreus",
+"abbr": "Hippod.",
+"works": {}
+},
+{
+"name": "Hippolytus",
+"desc": "Scriptor Ecclesiasticus",
+"abbr": "Hippol.",
+"works": {
+"Haer.": "Refutatio Omnium Haeresium"
+}
+},
+{
+"name": "Hipponax",
+"desc": "Iambographus",
+"abbr": "Hippon.",
+"works": {}
+},
+{
+"name": "Historiae Augustae Scriptores",
+"desc": "",
+"abbr": "Hist.Aug.",
+"works": {}
+},
+{
+"name": "Homerus",
+"desc": "Epicus",
+"abbr": "Hom.",
+"works": {
+"Epigr.": "Epigrammata"
+}
+},
+{
+"name": "Honestus",
+"desc": "Epigrammaticus",
+"abbr": "Honest.",
+"works": {}
+},
+{
+"name": "Horapollo",
+"desc": "",
+"abbr": "Horap.",
+"works": {}
+},
+{
+"name": "Hymni Homerici",
+"desc": "",
+"abbr": "h.Hom.",
+"works": {}
+},
+{
+"name": "Hymni Magici",
+"desc": "",
+"abbr": "Hymn.Mag.",
+"works": {}
+},
+{
+"name": "Hymnus ad Idaeos Dactylos",
+"desc": "",
+"abbr": "Hymn.Id.Dact.",
+"works": {}
+},
+{
+"name": "Hymnus ad Isim",
+"desc": "",
+"abbr": "Hymn.Is.",
+"works": {}
+},
+{
+"name": "Hymnus Curetum",
+"desc": "",
+"abbr": "Hymn.Curet.",
+"works": {}
+},
+{
+"name": "Hyperides",
+"desc": "Orator",
+"abbr": "Hyp.",
+"works": {
+"Ath.": "adv. Athenogenem",
+"Dem.": "adv. Demosthenem",
+"Epit.": "Epitaphius",
+"Eux.": "pro Euxenippo",
+"Fr.": "Fragmenta",
+"Lyc.": "pro Lycophrone",
+"Phil.": "adv. Philippum"
+}
+},
+{
+"name": "Hypsicles",
+"desc": "Astronomus",
+"abbr": "Hypsicl.",
+"works": {}
+},
+{
+"name": "Iamblichus",
+"desc": "Philosophus",
+"abbr": "Iamb.",
+"works": {
+"Comm.Math.": "de communi mathematica scientia",
+"in Nic.": "in Nicomachi arithmeticam introductionem",
+"Myst.": "de Mysteriis",
+"Protr.": "Protrepticus",
+"VP": "de vita Pythagorica"
+}
+},
+{
+"name": "Iamblichus",
+"desc": "Scriptor Eroticus",
+"abbr": "Iamb.Bab.",
+"works": {}
+},
+{
+"name": "Ibycus",
+"desc": "Lyricus",
+"abbr": "Ibyc.",
+"works": {
+"Oxy.": "POxy."
+}
+},
+{
+"name": "Ilias",
+"desc": "",
+"abbr": "Il.",
+"works": {}
+},
+{
+"name": "Ilias Parva",
+"desc": "",
+"abbr": "Il.Parv.",
+"works": {}
+},
+{
+"name": "Iliu Persis",
+"desc": "",
+"abbr": "Il.Pers.",
+"works": {}
+},
+{
+"name": "Irenaeus",
+"desc": "Epigrammaticus",
+"abbr": "Iren.",
+"works": {}
+},
+{
+"name": "Isaeus",
+"desc": "Orator",
+"abbr": "Is.",
+"works": {}
+},
+{
+"name": "Isidorus",
+"desc": "Tragicus",
+"abbr": "Isid.Trag.",
+"works": {}
+},
+{
+"name": "Isidorus Aegeates",
+"desc": "Epigrammaticus",
+"abbr": "Isid.Aeg.",
+"works": {}
+},
+{
+"name": "Isidorus Characenus",
+"desc": "Geographus",
+"abbr": "Isid.Char.",
+"works": {}
+},
+{
+"name": "Isidorus Hispalensis",
+"desc": "Grammaticus",
+"abbr": "Isid.",
+"works": {
+"Etym.": "Etymologiae"
+}
+},
+{
+"name": "Isidorus Scholasticus",
+"desc": "Epigrammaticus",
+"abbr": "Isid.",
+"works": {}
+},
+{
+"name": "Isigonus",
+"desc": "Paradoxographus",
+"abbr": "Isig.",
+"works": {}
+},
+{
+"name": "Isocrates",
+"desc": "Orator",
+"abbr": "Isoc.",
+"works": {
+"Ep.": "Epistulae"
+}
+},
+{
+"name": "Isyllus",
+"desc": "Lyricus",
+"abbr": "Isyll.",
+"works": {}
+},
+{
+"name": "Joannes Alexandrinus",
+"desc": "Grammaticus",
+"abbr": "Jo.Alex. vel Jo.Gramm.",
+"works": {}
+},
+{
+"name": "Joannes Diaconus",
+"desc": "Grammaticus",
+"abbr": "Jo.Diac.",
+"works": {}
+},
+{
+"name": "Joannes Gazaeus",
+"desc": "",
+"abbr": "Jo.Gaz.",
+"works": {}
+},
+{
+"name": "Josephus",
+"desc": "Historicus",
+"abbr": "J.",
+"works": {
+"AJ": "Antiquitates Judaicae",
+"Ap.": "contra Apionem",
+"BJ": "Bellum Judaicum",
+"Vit.": "Vita"
+}
+},
+{
+"name": "Julianus Imperator",
+"desc": "",
+"abbr": "Jul.",
+"works": {
+"ad Ath.": "Epistula ad Athenienses",
+"ad Them.": "Epistula ad Themistium",
+"Caes.": "Caesares",
+"Ep.": "Epistulae",
+"Gal.": "contra Galilaeos",
+"Mis.": "Misopogon",
+"Or.": "Orationes"
+}
+},
+{
+"name": "Julianus Aegyptius",
+"desc": "Epigrammaticus",
+"abbr": "Jul. vel Jul.Aegypt.",
+"works": {}
+},
+{
+"name": "Julianus Laodicensis",
+"desc": "Astrologus",
+"abbr": "Jul.Laod.",
+"works": {}
+},
+{
+"name": "Juncus",
+"desc": "Philosophus",
+"abbr": "Junc.",
+"works": {}
+},
+{
+"name": "Justinianus",
+"desc": "Imperator",
+"abbr": "Just.",
+"works": {}
+},
+{
+"name": "Juvenalis, D. Junius",
+"desc": "Poeta Latinus",
+"abbr": "Juv.",
+"works": {}
+},
+{
+"name": "Lamprocles",
+"desc": "Lyricus",
+"abbr": "Lamprocl.",
+"works": {}
+},
+{
+"name": "Leo Philosophus",
+"desc": "Epigrammaticus",
+"abbr": "Leo Phil.",
+"works": {}
+},
+{
+"name": "Leonidas",
+"desc": "Epigrammaticus",
+"abbr": "Leon.",
+"works": {}
+},
+{
+"name": "Leonidas",
+"desc": "Medicus",
+"abbr": "Leonid.",
+"works": {}
+},
+{
+"name": "Leonidas Alexandrinus",
+"desc": "Epigrammaticus",
+"abbr": "Leon.",
+"works": {}
+},
+{
+"name": "Leontius",
+"desc": "Epigrammaticus",
+"abbr": "Leont.",
+"works": {}
+},
+{
+"name": "Leontius",
+"desc": "Mathematicus",
+"abbr": "Leont. in Arat.",
+"works": {}
+},
+{
+"name": "Lesbonax",
+"desc": "Grammaticus",
+"abbr": "Lesb.Gramm.",
+"works": {}
+},
+{
+"name": "Lesbonax",
+"desc": "Rhetor",
+"abbr": "Lesb.Rh.",
+"works": {}
+},
+{
+"name": "Leucippus",
+"desc": "Philosophus",
+"abbr": "Leucipp.",
+"works": {}
+},
+{
+"name": "Lexicon Messanense",
+"desc": "",
+"abbr": "Lex.Mess.",
+"works": {}
+},
+{
+"name": "Lexicon Rhetoricum",
+"desc": "",
+"abbr": "Lex.Rhet.",
+"works": {}
+},
+{
+"name": "Lexicon Rhetoricum Cantabrigiense",
+"desc": "",
+"abbr": "Lex.Rhet.Cant.",
+"works": {}
+},
+{
+"name": "Lexicon Sabbaiticum",
+"desc": "",
+"abbr": "Lex.Sabb.",
+"works": {}
+},
+{
+"name": "Lexicon de Spiritu",
+"desc": "",
+"abbr": "Lex. de Spir.",
+"works": {}
+},
+{
+"name": "Lexicon Vindobonense",
+"desc": "",
+"abbr": "Lex.Vind.",
+"works": {}
+},
+{
+"name": "Libanius",
+"desc": "Sophista",
+"abbr": "Lib.",
+"works": {
+"Arg.D.": "Argumenta Orationum Demosthenicarum",
+"Chr.": "Chriae",
+"Comp.": "Comparationes",
+"Conf.": "Confirmationes",
+"Decl.": "Declamationes",
+"Def.Leg.": "Defensio Legis",
+"Descr.": "Descriptiones",
+"Enc.": "Encomia",
+"Ep.": "Epistulae",
+"Eth.": "Ethopoeiae",
+"Fab.": "Fabulae",
+"Loc.": "Loci Communes",
+"Narr.": "Narrationes",
+"Or.": "Orationes",
+"Ref.": "Refutationes",
+"Sent.": "Sententiae",
+"Thes.": "Theses",
+"Vit.": "Vituperationes"
+}
+},
+{
+"name": "Licymnius",
+"desc": "Lyricus",
+"abbr": "Licymn.",
+"works": {}
+},
+{
+"name": "Limenius",
+"desc": "Lyricus",
+"abbr": "Limen.",
+"works": {}
+},
+{
+"name": "Lollius Bassus",
+"desc": "Epigrammaticus",
+"abbr": "Loll.",
+"works": {}
+},
+{
+"name": "Longinus",
+"desc": "Rhetor",
+"abbr": "Longin.",
+"works": {
+"Fr.": "Fragmenta",
+"Proll.Heph.": "Prolegomena ad Hephaestionis Euchiridion",
+"Rh.": "Ars Rhetorica"
+}
+},
+{
+"name": "Lucianus",
+"desc": "",
+"abbr": "Luc.",
+"works": {
+"Abd.": "Abdicatus",
+"Alex.": "Alexander",
+"Am.": "Amores",
+"Anach.": "Anacharsis",
+"Apol.": "Apologia",
+"Asin.": "Asinus",
+"Astr.": "de Astrologia",
+"Bacch.": "Bacchus",
+"Bis Acc.": "Bis Accusatus",
+"Cal.": "Calumniae non temere credendum",
+"Cat.": "Cataplus",
+"Charid.": "Charidemus",
+"Cont.": "Contemplantes",
+"Cyn.": "Cynicus",
+"DDeor.": "Dialogi Deorum",
+"DMar.": "Dialogi Marini",
+"DMeretr.": "Dialogi Meretricii",
+"DMort.": "Dialogi Mortuorum",
+"Dem.Enc.": "Demosthenis Encomium",
+"Demon.": "Demonax",
+"Deor.Conc.": "Deorum Concilium",
+"Dips.": "Dipsades",
+"Dom.": "de Domo",
+"Electr.": "Electrum",
+"Ep.Sat.": "Epistulae Saturnales",
+"Eun.": "Eunuchus",
+"Fug.": "Fugitivi",
+"Gall.": "Gallus",
+"Halc.": "Halcyon",
+"Harm.": "Harmonides",
+"Herc.": "Hercules",
+"Herm.": "Hermotimus",
+"Herod.": "Herodotus",
+"Hes.": "Hesiodus",
+"Hipp.": "Hippias",
+"Hist.Conscr.": "Quomoao historia conscribenda sit",
+"Icar.": "Icaromenippus",
+"Im.": "Imagines",
+"Ind.": "adversus Indoctum",
+"JConf.": "Juppiter Confutatus",
+"JTr.": "Juppiter Tragoedus",
+"Jud.Voc.": "Judicium Vocalium",
+"Laps.": "pro Lapsu inter Salutandum",
+"Lex.": "Lexiphanes",
+"Luct.": "de Luctu",
+"Macr.": "Macrobii",
+"Merc.Cond.": "de Mercede Conductis",
+"Musc.Enc.": "Muscae Encomium",
+"Nav.": "Navigium",
+"Nec.": "Necyomantia",
+"Ner.": "Nero",
+"Nigr.": "Nigrinus",
+"Ocyp.": "Ocypus",
+"Par.": "de Parasito",
+"Patr.Enc.": "Patriae Encomium",
+"Peregr.": "de Morte Peregrini",
+"Phal.": "Phalaris",
+"Philopatr.": "Philopatris",
+"Philops.": "Philopseudes",
+"Pisc.": "Piscator",
+"Pr.Im.": "pro Imaginibus",
+"ProMerc.Cond.": "pro Mercede Conductis",
+"Prom.": "Prometheus",
+"Prom.Es": "Prometheus es in verbis",
+"Pseudol.": "Pseudologista",
+"Rh.Pr.": "Rhetorum praeceptor",
+"Sacr.": "de Sacrificiis",
+"Salt.": "de Saltatione",
+"Sat.": "Saturnalia",
+"Scyth.": "Scytha",
+"Sol.": "Soloecista",
+"Somn.": "Somnium sive Vita Luciani",
+"Symp.": "Symposium",
+"Syr.D.": "de Syria Dea",
+"Tim.": "Timon",
+"Tox.": "Toxaris",
+"Trag.": "Tragodopodagra",
+"Tyr.": "Tyrannicida",
+"VH": "Verae Historiae",
+"Vit.Auct.": "Vitarum Auctio",
+"Zeux.": "Zeuxis"
+}
+},
+{
+"name": "Lucillius",
+"desc": "Epigrammaticus",
+"abbr": "Lucill.",
+"works": {}
+},
+{
+"name": "Lycophron",
+"desc": "Tragicus",
+"abbr": "Lyc.",
+"works": {
+"Fr.": "Fragmenta Tragica"
+}
+},
+{
+"name": "Lycophronides",
+"desc": "Lyricus",
+"abbr": "Lycophronid.",
+"works": {}
+},
+{
+"name": "Lycurgus",
+"desc": "Orator",
+"abbr": "Lycurg.",
+"works": {}
+},
+{
+"name": "Lydus, Joannes Laurentius",
+"desc": "Historicus",
+"abbr": "Lyd.",
+"works": {}
+},
+{
+"name": "Lynceus",
+"desc": "Comicus",
+"abbr": "Lync.",
+"works": {}
+},
+{
+"name": "Lyrica Adespota",
+"desc": "",
+"abbr": "Lyr.Adesp.",
+"works": {}
+},
+{
+"name": "Lyrica Alexandrina Adespota",
+"desc": "",
+"abbr": "Lyr.Alex.Adesp.",
+"works": {}
+},
+{
+"name": "Lysias",
+"desc": "Orator",
+"abbr": "Lys.",
+"works": {}
+},
+{
+"name": "Lysimachides",
+"desc": "Historicus",
+"abbr": "Lysimachid.",
+"works": {}
+},
+{
+"name": "Lysimachus",
+"desc": "Historicus",
+"abbr": "Lysim.",
+"works": {}
+},
+{
+"name": "Lysippus",
+"desc": "Comicus",
+"abbr": "Lysipp.",
+"works": {}
+},
+{
+"name": "Macarius",
+"desc": "Paroemiographus",
+"abbr": "Macar.",
+"works": {}
+},
+{
+"name": "Macedonius",
+"desc": "Epigrammaticus",
+"abbr": "Maced.",
+"works": {}
+},
+{
+"name": "Macedonius",
+"desc": "Lyricus",
+"abbr": "Maced.",
+"works": {}
+},
+{
+"name": "Macedonius Thessalonicensis",
+"desc": "Epigrammaticus",
+"abbr": "Maced.",
+"works": {}
+},
+{
+"name": "Macrobius",
+"desc": "Grammaticus",
+"abbr": "Macr.",
+"works": {
+"Exc.": "Excerpta Grammatica",
+"Sat.": "Saturnalia"
+}
+},
+{
+"name": "Maecius",
+"desc": "Epigrammaticus",
+"abbr": "Maec.",
+"works": {}
+},
+{
+"name": "Magnes",
+"desc": "Comicus",
+"abbr": "Magn.",
+"works": {}
+},
+{
+"name": "Magnus",
+"desc": "Historicus",
+"abbr": "Magnus Hist.",
+"works": {}
+},
+{
+"name": "Maiistas",
+"desc": "Epicus",
+"abbr": "Maiist.",
+"works": {}
+},
+{
+"name": "Malchus",
+"desc": "Historicus",
+"abbr": "Malch.",
+"works": {}
+},
+{
+"name": "Mamercus",
+"desc": "Elegiacus",
+"abbr": "Mamerc.",
+"works": {}
+},
+{
+"name": "Manetho",
+"desc": "Astrologus",
+"abbr": "Man.",
+"works": {}
+},
+{
+"name": "Manetho",
+"desc": "Historicus",
+"abbr": "Man.Hist.",
+"works": {}
+},
+{
+"name": "Mantissa Proverbiorum",
+"desc": "",
+"abbr": "Mantiss.Prov.",
+"works": {}
+},
+{
+"name": "Marcellinus",
+"desc": "Biographus",
+"abbr": "Marcellin.",
+"works": {}
+},
+{
+"name": "Marcellinus",
+"desc": "Medicus",
+"abbr": "Marcellin.",
+"works": {
+"Puls.": "de Pulsibus"
+}
+},
+{
+"name": "Marcellus Sidetes",
+"desc": "Poeta Medicus",
+"abbr": "Marc.Sid.",
+"works": {}
+},
+{
+"name": "Marcianus",
+"desc": "Geographus",
+"abbr": "Marcian.",
+"works": {}
+},
+{
+"name": "Marcus Antoninus",
+"desc": "Imperator",
+"abbr": "M.Ant.",
+"works": {}
+},
+{
+"name": "Marcus Argentarius",
+"desc": "Epigrammaticus",
+"abbr": "Marc.Arg.",
+"works": {}
+},
+{
+"name": "Maria",
+"desc": "Alchemista",
+"abbr": "Maria Alch.",
+"works": {}
+},
+{
+"name": "Marianus",
+"desc": "Epigrammaticus",
+"abbr": "Marian.",
+"works": {}
+},
+{
+"name": "Marinus",
+"desc": "Biographus",
+"abbr": "Marin.",
+"works": {
+"Procl.": "Vita Procli"
+}
+},
+{
+"name": "Marius Victorinus",
+"desc": "Grammaticus Latinus",
+"abbr": "Mar.Vict.",
+"works": {}
+},
+{
+"name": "Martialis",
+"desc": "Epigrammaticus Latinus",
+"abbr": "Mart.",
+"works": {}
+},
+{
+"name": "Martianus Capella",
+"desc": "Grammaticus Latinus",
+"abbr": "Mart.Cap.",
+"works": {}
+},
+{
+"name": "Maximus",
+"desc": "Astrologus",
+"abbr": "Max.",
+"works": {
+"Epit.": "Epitome"
+}
+},
+{
+"name": "Maximus Tyrius",
+"desc": "Sophista",
+"abbr": "Max.Tyr.",
+"works": {}
+},
+{
+"name": "Megasthenes",
+"desc": "Historicus",
+"abbr": "Megasth.",
+"works": {}
+},
+{
+"name": "Melampus",
+"desc": "Scriptor de divinatione",
+"abbr": "Melamp.",
+"works": {}
+},
+{
+"name": "Melanippides",
+"desc": "Lyricus",
+"abbr": "Melanipp.",
+"works": {}
+},
+{
+"name": "Melanthius",
+"desc": "Historicus",
+"abbr": "Melanth.Hist.",
+"works": {}
+},
+{
+"name": "Melanthius",
+"desc": "Tragicus",
+"abbr": "Melanth.Trag.",
+"works": {}
+},
+{
+"name": "Meleager",
+"desc": "Epigrammaticus",
+"abbr": "Mel.",
+"works": {}
+},
+{
+"name": "Melissus",
+"desc": "Philosophus",
+"abbr": "Meliss.",
+"works": {}
+},
+{
+"name": "Memnon",
+"desc": "Historicus",
+"abbr": "Memn.",
+"works": {}
+},
+{
+"name": "Menaechmus",
+"desc": "Historicus",
+"abbr": "Menaechm.",
+"works": {}
+},
+{
+"name": "Menander",
+"desc": "Comicus",
+"abbr": "Men.",
+"works": {
+"Inc.": "Fabula incerta"
+}
+},
+{
+"name": "Menander",
+"desc": "Rhetor",
+"abbr": "Men.Rh.",
+"works": {}
+},
+{
+"name": "Menander Ephesius",
+"desc": "Historicus",
+"abbr": "Men.Eph.",
+"works": {}
+},
+{
+"name": "Menander Protector",
+"desc": "Historicus",
+"abbr": "Men.Prot.",
+"works": {}
+},
+{
+"name": "Menecles Barcaeus",
+"desc": "Historicus",
+"abbr": "Menecl.",
+"works": {}
+},
+{
+"name": "Menecrates",
+"desc": "Comicus",
+"abbr": "Menecr.",
+"works": {}
+},
+{
+"name": "Menecrates Ephesius",
+"desc": "Poeta Philosophus",
+"abbr": "Menecr.Eph.",
+"works": {}
+},
+{
+"name": "Menecrates Xanthius",
+"desc": "Historicus",
+"abbr": "Menecr.Xanth.",
+"works": {}
+},
+{
+"name": "Menemachus",
+"desc": "Medicus",
+"abbr": "Menemach.",
+"works": {}
+},
+{
+"name": "Menesthenes",
+"desc": "Historicus",
+"abbr": "Menesth.",
+"works": {}
+},
+{
+"name": "Menippus",
+"desc": "Epistolographus",
+"abbr": "Menipp.",
+"works": {}
+},
+{
+"name": "Menodotus Samius",
+"desc": "Historicus",
+"abbr": "Menodot.",
+"works": {}
+},
+{
+"name": "Mesomedes",
+"desc": "Lyricus",
+"abbr": "Mesom.",
+"works": {
+"Mus.": "Hymnus in Musam",
+"Nem.": "Hymnus in Nemesin",
+"Sol.": "Hymnus in Solem"
+}
+},
+{
+"name": "Metagenes",
+"desc": "Comicus",
+"abbr": "Metag.",
+"works": {}
+},
+{
+"name": "Metrodorus",
+"desc": "Epigrammaticus",
+"abbr": "Metrod.",
+"works": {}
+},
+{
+"name": "Metrodorus",
+"desc": "Philosophus",
+"abbr": "Metrod.",
+"works": {}
+},
+{
+"name": "Metrodorus Chius",
+"desc": "Philosophus",
+"abbr": "Metrod.Chius",
+"works": {}
+},
+{
+"name": "Metrodorus Scepsius",
+"desc": "Historicus",
+"abbr": "Metrod.Sceps.",
+"works": {}
+},
+{
+"name": "Michael Ephesius",
+"desc": "Philosophus",
+"abbr": "Mich.",
+"works": {
+"in EN": "in Ethica Nicomachea commentarium",
+"in PA": "in libros de Partibus Animalium, de Animalium Motione, de Animalium Incessu commentaria",
+"in PN": "in Parva Naturalia commentaria"
+}
+},
+{
+"name": "Mimnermus",
+"desc": "Lyricus",
+"abbr": "Mimn.",
+"works": {}
+},
+{
+"name": "Mimnermus",
+"desc": "Tragicus",
+"abbr": "Mimn.Trag.",
+"works": {}
+},
+{
+"name": "Minucianus",
+"desc": "Rhetor",
+"abbr": "Minuc.",
+"works": {}
+},
+{
+"name": "Mithradates",
+"desc": "Epistolographus",
+"abbr": "Mithr.",
+"works": {}
+},
+{
+"name": "Mnasalcas",
+"desc": "Epigrammaticus",
+"abbr": "Mnasalc.",
+"works": {}
+},
+{
+"name": "Mnesimachus",
+"desc": "Comicus",
+"abbr": "Mnesim.",
+"works": {}
+},
+{
+"name": "Mnesitheus Atheniensis",
+"desc": "Medicus",
+"abbr": "Mnesith.Ath.",
+"works": {}
+},
+{
+"name": "Mnesitheus Cyzicenus",
+"desc": "Medicus",
+"abbr": "Mnesith.Cyz.",
+"works": {}
+},
+{
+"name": "Moeris",
+"desc": "Grammaticus",
+"abbr": "Moer.",
+"works": {}
+},
+{
+"name": "Moschio",
+"desc": "Tragicus",
+"abbr": "MoschioTrag.",
+"works": {}
+},
+{
+"name": "Moschus",
+"desc": "Bucolicus",
+"abbr": "Mosch.",
+"works": {}
+},
+{
+"name": "Mucius Scaevola",
+"desc": "Epigrammaticus",
+"abbr": "Muc.Scaev.",
+"works": {}
+},
+{
+"name": "Mundus Munatius",
+"desc": "Epigrammaticus",
+"abbr": "Mund.",
+"works": {}
+},
+{
+"name": "Musaeus",
+"desc": "Epicus",
+"abbr": "Musae.",
+"works": {}
+},
+{
+"name": "Musaeus",
+"desc": "Philosophus",
+"abbr": "Musae.",
+"works": {}
+},
+{
+"name": "Musicius",
+"desc": "Epigrammaticus",
+"abbr": "Music.",
+"works": {}
+},
+{
+"name": "Musonius",
+"desc": "Philosophus",
+"abbr": "Muson.",
+"works": {
+"Ep.": "Epistula"
+}
+},
+{
+"name": "Myrinus",
+"desc": "Epigrammaticus",
+"abbr": "Myrin.",
+"works": {}
+},
+{
+"name": "Myrsilus",
+"desc": "Historicus",
+"abbr": "Myrsil.",
+"works": {}
+},
+{
+"name": "Myrtilus",
+"desc": "Comicus",
+"abbr": "Myrtil.",
+"works": {}
+},
+{
+"name": "Naumachius",
+"desc": "Epicus",
+"abbr": "Naumach.",
+"works": {}
+},
+{
+"name": "Nausicrates",
+"desc": "Comicus",
+"abbr": "Nausicr.",
+"works": {}
+},
+{
+"name": "Nausiphanes",
+"desc": "Philosophus",
+"abbr": "Nausiph.",
+"works": {}
+},
+{
+"name": "Neanthes",
+"desc": "Historicus",
+"abbr": "Neanth.",
+"works": {}
+},
+{
+"name": "Nearchus",
+"desc": "Historicus",
+"abbr": "Nearch.",
+"works": {}
+},
+{
+"name": "Nechepso",
+"desc": "Astrologus",
+"abbr": "Nech.",
+"works": {}
+},
+{
+"name": "Neophron",
+"desc": "Tragicus",
+"abbr": "Neophr.",
+"works": {}
+},
+{
+"name": "Neoptolemus",
+"desc": "Epicus",
+"abbr": "Neoptol.",
+"works": {}
+},
+{
+"name": "Nicaenetus",
+"desc": "Epicus",
+"abbr": "Nicaenet.",
+"works": {}
+},
+{
+"name": "Nicander",
+"desc": "Epicus",
+"abbr": "Nic.",
+"works": {
+"Al.": "Alexipharmaca",
+"Th.": "Theriaca"
+}
+},
+{
+"name": "Nicarchus",
+"desc": "Epigrammaticus",
+"abbr": "Nicarch.",
+"works": {}
+},
+{
+"name": "Nicias",
+"desc": "Epigrammaticus",
+"abbr": "Nic.",
+"works": {}
+},
+{
+"name": "Nicochares",
+"desc": "Comicus",
+"abbr": "Nicoch.",
+"works": {}
+},
+{
+"name": "Nicocles",
+"desc": "Historicus",
+"abbr": "Nicocl.",
+"works": {}
+},
+{
+"name": "Nicodemus",
+"desc": "Epigrammaticus",
+"abbr": "Nicod.",
+"works": {}
+},
+{
+"name": "Nicolaus",
+"desc": "Comicus",
+"abbr": "Nicol.Com.",
+"works": {}
+},
+{
+"name": "Nicolaus",
+"desc": "Rhetor",
+"abbr": "Nicol.",
+"works": {
+"Prog.": "Progymnasmata"
+}
+},
+{
+"name": "Nicolaus Damascenus",
+"desc": "Historicus",
+"abbr": "Nic.Dam.",
+"works": {
+"Vit.Caes.": "Vita Caesaris"
+}
+},
+{
+"name": "Nicomachus",
+"desc": "Comicus",
+"abbr": "Nicom.Com.",
+"works": {}
+},
+{
+"name": "Nicomachus",
+"desc": "Tragicus",
+"abbr": "Nicom.Trag.",
+"works": {}
+},
+{
+"name": "Nicomachus Gerasenus",
+"desc": "Mathematicus",
+"abbr": "Nicom.",
+"works": {
+"Ar.": "Arithmetica Introductio",
+"Harm.": "Harmonicum Enchiridium",
+"Exc.": "Excerpta"
+}
+},
+{
+"name": "Nicostratus",
+"desc": "Comicus",
+"abbr": "Nicostr.Com.",
+"works": {}
+},
+{
+"name": "Nicostratus",
+"desc": "Philosophus",
+"abbr": "Nicostr.",
+"works": {}
+},
+{
+"name": "Nonnus",
+"desc": "Epicus",
+"abbr": "Nonn.",
+"works": {
+"D.": "Dionysiaca"
+}
+},
+{
+"name": "Nossis",
+"desc": "Epigrammatica",
+"abbr": "Noss.",
+"works": {}
+},
+{
+"name": "Novum Testamentum",
+"desc": "Ed. A. Souter, Oxford 1910.",
+"abbr": "Act.Ap.",
+"works": {}
+},
+{
+"name": "Numenius Apamensis",
+"desc": "Platonicus",
+"abbr": "Numen.",
+"works": {}
+},
+{
+"name": "Numenius Heracleota",
+"desc": "Poeta Didacticus",
+"abbr": "Numen.",
+"works": {}
+},
+{
+"name": "Nymphodorus",
+"desc": "Historicus",
+"abbr": "Nymphod.",
+"works": {}
+},
+{
+"name": "Ocellus Lucanus",
+"desc": "Philosophus",
+"abbr": "Ocell.",
+"works": {}
+},
+{
+"name": "Odyssea",
+"desc": "",
+"abbr": "Od.",
+"works": {}
+},
+{
+"name": "Oenomaus",
+"desc": "Philosophus",
+"abbr": "Oenom.",
+"works": {}
+},
+{
+"name": "Olympiodorus",
+"desc": "Alchemista",
+"abbr": "Olymp.Alch.",
+"works": {}
+},
+{
+"name": "Olympiodorus",
+"desc": "Historicus",
+"abbr": "Olymp.Hist.",
+"works": {}
+},
+{
+"name": "Olympiodorus",
+"desc": "Philosophus",
+"abbr": "Olymp.",
+"works": {
+"in Alc.": "in Platonis Alcibiadem commentarii",
+"in Cat.": "in Categorias commentarium",
+"in Grg.": "in Platonis Gorgiam commentaria",
+"in Mete.": "in Aristotelis Meteora commentaria",
+"in Phd.": "in Platonis Phaedonem commentaria",
+"in Phlb.": "in Platonis Philebum scholia",
+"Proll.": "Prolegomena"
+}
+},
+{
+"name": "Onatas",
+"desc": "",
+"abbr": "Onat.",
+"works": {}
+},
+{
+"name": "Onosander (Onasander)",
+"desc": "Tacticus",
+"abbr": "Onos.",
+"works": {}
+},
+{
+"name": "Ophelio",
+"desc": "Comicus",
+"abbr": "Ophel.",
+"works": {}
+},
+{
+"name": "Oppianus Anazarbensis",
+"desc": "Epicus",
+"abbr": "Opp.",
+"works": {
+"H.": "Halieutica"
+}
+},
+{
+"name": "Oppianus Apamensis",
+"desc": "Epicus",
+"abbr": "Opp.",
+"works": {
+"C.": "Cynegetica",
+"Ix.": "Ixeutica"
+}
+},
+{
+"name": "Oracula Chaldaica",
+"desc": "",
+"abbr": "Orac.Chald.",
+"works": {}
+},
+{
+"name": "Oribasius",
+"desc": "Medicus",
+"abbr": "Orib.",
+"works": {
+"Eup.": "Euporista",
+"Fr.": "Fragmenta",
+"inc.": "liber incertus",
+"Syn.": "Synopsis",
+"Cels.": "contra Celsum"
+}
+},
+{
+"name": "Orphica",
+"desc": "",
+"abbr": "Orph.",
+"works": {
+"A.": "Argonautica",
+"H.": "Hymni",
+"L.": "Lithica"
+}
+},
+{
+"name": "Paean Delphicus",
+"desc": "",
+"abbr": "Pae.Delph.",
+"works": {}
+},
+{
+"name": "Paean Erythraeus",
+"desc": "",
+"abbr": "Pae.Erythr.",
+"works": {}
+},
+{
+"name": "Palaephatus",
+"desc": "Paradoxographus",
+"abbr": "Palaeph.",
+"works": {}
+},
+{
+"name": "Palchus",
+"desc": "Astrologus",
+"abbr": "Palch.",
+"works": {}
+},
+{
+"name": "Palladas",
+"desc": "Epigrammaticus",
+"abbr": "Pall.",
+"works": {}
+},
+{
+"name": "Palladius",
+"desc": "Medicus",
+"abbr": "Pall.",
+"works": {
+"in Hp.": "in Hippocratem",
+"in Hp.Fract.": "in librum Hippocratis de fracturis"
+}
+},
+{
+"name": "Pamphilus",
+"desc": "Epigrammaticus",
+"abbr": "Pamphil.",
+"works": {}
+},
+{
+"name": "Pamphilus",
+"desc": "Medicus",
+"abbr": "Pamphil.",
+"works": {}
+},
+{
+"name": "Pancrates",
+"desc": "Epicus",
+"abbr": "Pancrat.",
+"works": {
+"Oxy.": "POxy."
+}
+},
+{
+"name": "Pancrates",
+"desc": "Epigrammaticus",
+"abbr": "Pancrat.",
+"works": {}
+},
+{
+"name": "Panyasis",
+"desc": "Epicus",
+"abbr": "Panyas.",
+"works": {}
+},
+{
+"name": "Pappus",
+"desc": "Mathematicus",
+"abbr": "Papp.",
+"works": {}
+},
+{
+"name": "Parmenides",
+"desc": "Poeta Philosophus",
+"abbr": "Parm.",
+"works": {}
+},
+{
+"name": "Parmenio",
+"desc": "Epigrammaticus",
+"abbr": "Parmen.",
+"works": {}
+},
+{
+"name": "Parrhasius",
+"desc": "Elegiacus",
+"abbr": "Parrhas.",
+"works": {}
+},
+{
+"name": "Parthenius",
+"desc": "Mythographus",
+"abbr": "Parth.",
+"works": {}
+},
+{
+"name": "Patrocles Thurius",
+"desc": "Tragicus",
+"abbr": "Patrocl.",
+"works": {}
+},
+{
+"name": "Paulus Aegineta",
+"desc": "Medicus",
+"abbr": "Paul.Aeg.",
+"works": {}
+},
+{
+"name": "Paulus Alexandrinus",
+"desc": "Astrologus",
+"abbr": "Paul.Al.",
+"works": {}
+},
+{
+"name": "Paulus Silentiarius",
+"desc": "Epigrammaticus",
+"abbr": "Paul.Sil.",
+"works": {}
+},
+{
+"name": "Pausanias",
+"desc": "Periegeta",
+"abbr": "Paus.",
+"works": {}
+},
+{
+"name": "Pausanias Damascenus",
+"desc": "Historicus",
+"abbr": "Paus.Dam.",
+"works": {}
+},
+{
+"name": "Pausanias Grammaticus",
+"desc": "",
+"abbr": "Paus.Gr.",
+"works": {}
+},
+{
+"name": "Pediasimus",
+"desc": "",
+"abbr": "Pediasim.",
+"works": {}
+},
+{
+"name": "Pelagius",
+"desc": "Alchemista",
+"abbr": "Pelag.Alch.",
+"works": {}
+},
+{
+"name": "Pempelus",
+"desc": "Philosophus",
+"abbr": "Pempel.",
+"works": {}
+},
+{
+"name": "Perictione",
+"desc": "Philosophus",
+"abbr": "Perict.",
+"works": {}
+},
+{
+"name": "Periplus Maris Rubri",
+"desc": "",
+"abbr": "Peripl.M.Rubr.",
+"works": {}
+},
+{
+"name": "Persaeus Citieus",
+"desc": "Stoicus",
+"abbr": "Pers.Stoic.",
+"works": {}
+},
+{
+"name": "Perses",
+"desc": "Epigrammaticus",
+"abbr": "Pers.",
+"works": {}
+},
+{
+"name": "Persius",
+"desc": "Poeta Latinus",
+"abbr": "Pers.",
+"works": {}
+},
+{
+"name": "Petosiris",
+"desc": "Astrologus",
+"abbr": "Petos.",
+"works": {}
+},
+{
+"name": "Petronius",
+"desc": "",
+"abbr": "Petron.",
+"works": {}
+},
+{
+"name": "Petrus Patricius",
+"desc": "Historicus",
+"abbr": "Petr.Patr.",
+"works": {}
+},
+{
+"name": "Phaedimus",
+"desc": "Epigrammaticus",
+"abbr": "Phaedim.",
+"works": {}
+},
+{
+"name": "Phaënnus",
+"desc": "Epigrammaticus",
+"abbr": "Phaënn.",
+"works": {}
+},
+{
+"name": "Phaestus",
+"desc": "Epicus",
+"abbr": "Phaest.",
+"works": {}
+},
+{
+"name": "Phalaecus",
+"desc": "Epigrammaticus",
+"abbr": "Phal.",
+"works": {}
+},
+{
+"name": "Phalaris",
+"desc": "Epistolographus",
+"abbr": "Phalar.",
+"works": {
+"Ep.": "Epistulae"
+}
+},
+{
+"name": "Phanias",
+"desc": "Epigrammaticus",
+"abbr": "Phan.",
+"works": {}
+},
+{
+"name": "Phanias",
+"desc": "Historicus",
+"abbr": "Phan.Hist.",
+"works": {}
+},
+{
+"name": "Phanocles",
+"desc": "Elegiacus",
+"abbr": "Phanocl.",
+"works": {}
+},
+{
+"name": "Phanodemus",
+"desc": "Historicus",
+"abbr": "Phanod.",
+"works": {}
+},
+{
+"name": "Pherecrates",
+"desc": "Comicus",
+"abbr": "Pherecr.",
+"works": {}
+},
+{
+"name": "Pherecydes Lerius",
+"desc": "Historicus",
+"abbr": "Pherecyd.",
+"works": {}
+},
+{
+"name": "Pherecydes Syrius",
+"desc": "Philosophus",
+"abbr": "Pherecyd.Syr.",
+"works": {}
+},
+{
+"name": "Philagrius",
+"desc": "Medicus",
+"abbr": "Philagr.",
+"works": {}
+},
+{
+"name": "Philemo",
+"desc": "Comicus",
+"abbr": "Philem.",
+"works": {}
+},
+{
+"name": "Philemo Junior",
+"desc": "Comicus",
+"abbr": "Philem.Jun.",
+"works": {}
+},
+{
+"name": "Philetaerus",
+"desc": "Comicus",
+"abbr": "Philetaer.",
+"works": {}
+},
+{
+"name": "Philetas (vel Philitas",
+"desc": ") Elegiacus",
+"abbr": "Philet.",
+"works": {}
+},
+{
+"name": "Philippides",
+"desc": "Comicus",
+"abbr": "Philippid.",
+"works": {}
+},
+{
+"name": "Philippus",
+"desc": "Comicus",
+"abbr": "Philipp.Com.",
+"works": {}
+},
+{
+"name": "Philippus",
+"desc": "Epigrammaticus",
+"abbr": "Phil.",
+"works": {}
+},
+{
+"name": "Philiscus",
+"desc": "Comicus",
+"abbr": "Philisc.Com.",
+"works": {}
+},
+{
+"name": "Philiscus",
+"desc": "Tragicus",
+"abbr": "Philisc.Trag.",
+"works": {}
+},
+{
+"name": "Philistus",
+"desc": "Historicus",
+"abbr": "Philist.",
+"works": {}
+},
+{
+"name": "Philo",
+"desc": "Epicus",
+"abbr": "Ph.Epic.",
+"works": {}
+},
+{
+"name": "Philo",
+"desc": "Mechanicus",
+"abbr": "Ph.",
+"works": {
+"Bel.": "(Belopoeica) Excerpte aus Philons Mechanik"
+}
+},
+{
+"name": "Philo Byblius",
+"desc": "Historicus",
+"abbr": "Ph.Bybl.",
+"works": {}
+},
+{
+"name": "Philo Byzantius",
+"desc": "Paradoxographus",
+"abbr": "Ph.Byz.",
+"works": {
+"Mir.": "de Septem Miraculis"
+}
+},
+{
+"name": "Philo Judaeus",
+"desc": "",
+"abbr": "Ph.",
+"works": {
+"Fr.": "Fragmenta"
+}
+},
+{
+"name": "Philo Tarsensis",
+"desc": "Medicus",
+"abbr": "Ph.Tars.",
+"works": {}
+},
+{
+"name": "Philochorus",
+"desc": "Historicus",
+"abbr": "Philoch.",
+"works": {}
+},
+{
+"name": "Philocles",
+"desc": "Tragicus",
+"abbr": "Philocl.",
+"works": {}
+},
+{
+"name": "Philodamus Scarpheus",
+"desc": "Lyricus",
+"abbr": "Philod.Scarph.",
+"works": {}
+},
+{
+"name": "Philodemus",
+"desc": "Philosophus",
+"abbr": "Phld.",
+"works": {
+"Acad.Ind.": "Academicorum Index",
+"Herc.": "Herculanensia Volumina, Collectio altera",
+"Ind.Sto.": "Stóicorum Index Herculanensis"
+}
+},
+{
+"name": "Philodemus Gadarensis",
+"desc": "Epigrammaticus",
+"abbr": "Phld.",
+"works": {}
+},
+{
+"name": "Philolaus",
+"desc": "Philosophus",
+"abbr": "Philol.",
+"works": {}
+},
+{
+"name": "Philomnestus",
+"desc": "Historicus",
+"abbr": "Philomnest.",
+"works": {}
+},
+{
+"name": "Philonides",
+"desc": "Comicus",
+"abbr": "Philonid.",
+"works": {}
+},
+{
+"name": "Philoponus, Joannes",
+"desc": "Philosophus",
+"abbr": "Phlp.",
+"works": {
+"in APo.": "in Aristotelis Analytica Posteriora commentaria",
+"in APr.": "in Aristotelis Analytica Priora commentaria",
+"in Cat.": "Philoponi (olim Ammonii) in Aristotelis Categorias commentarium",
+"in de An.": "in Aristotelis de Anima libros commentaria",
+"in GA": "Philoponi (Michaelis Ephesii) in libros de Generatione Animalium commentaria",
+"in GC": "in Aristotelis libros de Generatione et Corruptione commentaria",
+"in Mete.": "in Aristotelis Meteorologicorum librum primum commentarium"
+}
+},
+{
+"name": "Philostephanus",
+"desc": "Comicus",
+"abbr": "Philosteph.Com.",
+"works": {}
+},
+{
+"name": "Philostephanus",
+"desc": "Historicus",
+"abbr": "Philosteph.Hist.",
+"works": {}
+},
+{
+"name": "Philostratus",
+"desc": "Sophista",
+"abbr": "Philostr.",
+"works": {
+"Ep.": "Epistulae",
+"Her.": "Heroicus",
+"VA": "Vita Apollonii",
+"VS": "Vitae Sophistarum"
+}
+},
+{
+"name": "Philostratus Junior",
+"desc": "Sophista",
+"abbr": "Philostr.Jun.",
+"works": {
+"Im.": "Imagines"
+}
+},
+{
+"name": "Philoxenus",
+"desc": "Epigrammaticus",
+"abbr": "Philox.",
+"works": {}
+},
+{
+"name": "Philoxenus",
+"desc": "Grammaticus",
+"abbr": "Philox.Gramm.",
+"works": {}
+},
+{
+"name": "Philoxenus",
+"desc": "Lyricus",
+"abbr": "Philox.",
+"works": {}
+},
+{
+"name": "Philumenus",
+"desc": "Medicus",
+"abbr": "Philum.",
+"works": {
+"Ven.": "de Venenatis Animalibus"
+}
+},
+{
+"name": "Philyllius",
+"desc": "Comicus",
+"abbr": "Philyll.",
+"works": {}
+},
+{
+"name": "Phintys",
+"desc": "Pythagoreus",
+"abbr": "Phint.",
+"works": {}
+},
+{
+"name": "Phlegon Trallianus",
+"desc": "Paradoxographus",
+"abbr": "Phleg.",
+"works": {
+"Mir.": "Miracula",
+"Macr.": "Macrobii",
+"Olymp.": "Olympiades"
+}
+},
+{
+"name": "Phocylides",
+"desc": "Lyricus",
+"abbr": "Phoc.",
+"works": {}
+},
+{
+"name": "Phoebammon",
+"desc": "Rhetor",
+"abbr": "Phoeb.",
+"works": {
+"Fig.": "de Figuris"
+}
+},
+{
+"name": "Phoenicides",
+"desc": "Comicus",
+"abbr": "Phoenicid.",
+"works": {}
+},
+{
+"name": "Phoenix",
+"desc": "Iambographus",
+"abbr": "Phoen.",
+"works": {}
+},
+{
+"name": "Photius",
+"desc": "Lexicographus, etc.",
+"abbr": "Phot.",
+"works": {
+"Bibl.": "Bibliotheca"
+}
+},
+{
+"name": "Phrynichus",
+"desc": "Atticista",
+"abbr": "Phryn.",
+"works": {
+"PS": "Praeparatio Sophistica"
+}
+},
+{
+"name": "Phrynichus",
+"desc": "Comicus",
+"abbr": "Phryn.Com.",
+"works": {}
+},
+{
+"name": "Phrynichus",
+"desc": "Tragicus",
+"abbr": "Phryn.Trag.",
+"works": {}
+},
+{
+"name": "Phylarchus",
+"desc": "Historicus",
+"abbr": "Phylarch.",
+"works": {}
+},
+{
+"name": "Phylotimus",
+"desc": "Medicus",
+"abbr": "Phylotim.",
+"works": {}
+},
+{
+"name": "Pindarus",
+"desc": "Lyricus",
+"abbr": "Pi.",
+"works": {
+"O., P., N., I.": "Olympian, Pythian, Nemean, Isthmian Odes;",
+"Fr.": "Fragmenta."
+}
+},
+{
+"name": "Pisander",
+"desc": "Epicus",
+"abbr": "Pisand.",
+"works": {}
+},
+{
+"name": "Pittacus",
+"desc": "Lyricus",
+"abbr": "Pittac.",
+"works": {}
+},
+{
+"name": "Placita Philosophorum",
+"desc": "",
+"abbr": "Placit.",
+"works": {}
+},
+{
+"name": "Plato",
+"desc": "Comicus",
+"abbr": "Pl. Com.",
+"works": {}
+},
+{
+"name": "Plato",
+"desc": "Philosophus",
+"abbr": "Pl.",
+"works": {
+"Alc.": "Alcibiades",
+"Amat.": "Amatores",
+"Ap.": "Apologia",
+"Ax.": "Axiochus",
+"Chrm.": "Charmides",
+"Clit.": "Clitopho",
+"Cra.": "Cratylus",
+"Cri.": "Crito",
+"Criti.": "Critias",
+"Def.": "Definitiones",
+"Demod.": "Demodocus",
+"Ep.": "Epistulae",
+"Epigr.": "Epigrammata",
+"Epin.": "Epinomis",
+"Erx.": "Eryxias",
+"Euthd.": "Euthydemus",
+"Euthphr.": "Euthyphro",
+"Grg.": "Gorgias",
+"Hipparch.": "Hipparchus",
+"Hp.Ma., Mi.": "Hippias Major, Minor",
+"Just.": "De Justo",
+"La.": "Laches",
+"Lg.": "Leges",
+"Ly.": "Lysis",
+"Men.": "Meno",
+"Min.": "Minos",
+"Mx.": "Menexenus",
+"Phd.": "Phaedo",
+"Phdr.": "Phaedrus",
+"Phlb.": "Philebus",
+"Plt.": "Politicus",
+"Prm.": "Parmenides",
+"Prt.": "Protagoras",
+"R.": "Respublica",
+"Sis.": "Sisyphus",
+"Smp.": "Symposium",
+"Sph.": "Sophista",
+"Thg.": "Theages",
+"Tht.": "Theaetetus",
+"Ti.": "Timaeus",
+"Virt.": "De Virtute"
+}
+},
+{
+"name": "Plato Junior",
+"desc": "Epigrammaticus",
+"abbr": "Pl.Jun.",
+"works": {}
+},
+{
+"name": "Platonius",
+"desc": "Grammaticus",
+"abbr": "Platon.",
+"works": {}
+},
+{
+"name": "Plautus",
+"desc": "Comicus Latinus",
+"abbr": "Plaut.",
+"works": {}
+},
+{
+"name": "Plinius",
+"desc": "Rerum Naturalium Scriptor",
+"abbr": "Plin.",
+"works": {
+"HN": "Historia Naturalis"
+}
+},
+{
+"name": "Plotinus",
+"desc": "Philosophus",
+"abbr": "Plot.",
+"works": {}
+},
+{
+"name": "Plutarchus",
+"desc": "Biographus et Philosophus",
+"abbr": "Plu.",
+"works": {
+"Aem.": "Aemilius Paulus",
+"Ages.": "Agesilaus",
+"Alc.": "Alcibiades",
+"Alex.": "Alexander",
+"Ant.": "Antonius",
+"Arat.": "Aratus",
+"Arist.": "Aristides",
+"Art.": "Artoxerxes",
+"Brut.": "Brutus",
+"CG": "C. Gracchus",
+"Caes.": "Caesar",
+"Cam.": "Camillus",
+"Cat. Ma., Mi.": "Cato Major, Minor",
+"Cic.": "Cicero",
+"Cim.": "Cimon",
+"Cleom.": "Cleomenes",
+"Comp.": "Comparatio",
+"Cor.": "Coriolanus",
+"Crass.": "Crassus",
+"Daed.": "de Daedalʼs Plataeensibus",
+"Dem.": "Demosthenes",
+"Demetr.": "Demetrius",
+"Eum.": "Eumenes",
+"Fab.": "Fabius Maximus",
+"Flam.": "Flamininus",
+"Fr.": "Fragmenta",
+"Galb.": "Galba",
+"in Hes.": "Commentarii in Hesiodum",
+"Lib.": "de Libidine et Aegritudine",
+"Luc.": "Lucullus",
+"Lyc.": "Lycurgus",
+"Lys.": "Lysander",
+"Mar.": "Marius",
+"Marc.": "Marcellus",
+"Metr.": "de Metris",
+"Nic.": "Nicias",
+"Nob.": "pro Nobilitate",
+"Num.": "Numa",
+"Oth.": "Otho",
+"Pel.": "Pelopidas",
+"Per.": "Pericles",
+"Phil.": "Philopoemen",
+"Phoc.": "Phocion",
+"Pomp.": "Pompeius",
+"Prov.": "Proverbia",
+"Publ.": "Publicola",
+"Pyrrh.": "Pyrrhus",
+"Rom.": "Romulus",
+"Sert.": "Sertorius",
+"Sol.": "Solon",
+"Sull.": "Sulla",
+"TG": "Tiberius Gracchus",
+"Them.": "Themistocles",
+"Thes.": "Theseus",
+"Tim.": "Timoleon"
+}
+},
+{
+"name": "Polemo",
+"desc": "Historicus",
+"abbr": "Polem.Hist.",
+"works": {}
+},
+{
+"name": "Polemo",
+"desc": "Physiognomonicus",
+"abbr": "Polem.Phgn.",
+"works": {}
+},
+{
+"name": "Polemo Sophista",
+"desc": "",
+"abbr": "Polem.",
+"works": {
+"Call.": "Callimachus",
+"Cyn.": "Cynegirus"
+}
+},
+{
+"name": "Poliochus",
+"desc": "Comicus",
+"abbr": "Polioch.",
+"works": {}
+},
+{
+"name": "Pollianus",
+"desc": "Epigrammaticus",
+"abbr": "Poll.",
+"works": {}
+},
+{
+"name": "Pollux",
+"desc": "Grammaticus",
+"abbr": "Poll.",
+"works": {}
+},
+{
+"name": "Polyaenus",
+"desc": "Historicus",
+"abbr": "Polyaen.",
+"works": {}
+},
+{
+"name": "Polyaenus, Julius",
+"desc": "Epigrammaticus",
+"abbr": "Polyaen.",
+"works": {}
+},
+{
+"name": "Polybius",
+"desc": "Historicus",
+"abbr": "Plb.",
+"works": {
+"Fr.": "Fragmenta"
+}
+},
+{
+"name": "Polybius Sardianus",
+"desc": "Rhetor",
+"abbr": "Plb.Rh.",
+"works": {}
+},
+{
+"name": "Polycharmus",
+"desc": "Historicus",
+"abbr": "Polycharm.",
+"works": {}
+},
+{
+"name": "Polyclitus",
+"desc": "Philosophus",
+"abbr": "Polyclit.",
+"works": {}
+},
+{
+"name": "Polycrates",
+"desc": "Historicus",
+"abbr": "Polycr.",
+"works": {}
+},
+{
+"name": "Polystratus",
+"desc": "Epicureus",
+"abbr": "Polystr.",
+"works": {}
+},
+{
+"name": "Polystratus",
+"desc": "Epigrammaticus",
+"abbr": "Polystr.",
+"works": {}
+},
+{
+"name": "Polyzelus",
+"desc": "Comicus",
+"abbr": "Polyzel.",
+"works": {}
+},
+{
+"name": "Pompeius",
+"desc": "Epigrammaticus",
+"abbr": "Pomp.",
+"works": {}
+},
+{
+"name": "Pompeius Macer",
+"desc": "Tragicus",
+"abbr": "Pomp.Mac.",
+"works": {}
+},
+{
+"name": "Porphyrius Tyrius",
+"desc": "Philosophus",
+"abbr": "Porph.",
+"works": {
+"Abst.": "de Abstinentia",
+"Antr.": "de Antro Nympharum",
+"Chr.": "adversus Christianos",
+"Fr.Hist.": "Fragmenta Historica",
+"Gaur.": "ad Gaurum"
+}
+},
+{
+"name": "Posidippus",
+"desc": "Comicus",
+"abbr": "Posidipp.",
+"works": {}
+},
+{
+"name": "Posidippus",
+"desc": "Epigrammaticus",
+"abbr": "Posidipp.",
+"works": {}
+},
+{
+"name": "Posidonius",
+"desc": "Historicus",
+"abbr": "Posidon.",
+"works": {}
+},
+{
+"name": "Posidonius",
+"desc": "Medicus",
+"abbr": "Posidon.",
+"works": {}
+},
+{
+"name": "Pratinas",
+"desc": "Lyricus et Tragicus",
+"abbr": "Pratin.",
+"works": {}
+},
+{
+"name": "Praxagoras",
+"desc": "Historicus",
+"abbr": "Praxag.",
+"works": {}
+},
+{
+"name": "Praxilla",
+"desc": "Lyrica",
+"abbr": "Praxill.",
+"works": {}
+},
+{
+"name": "Priscianus",
+"desc": "Grammaticus",
+"abbr": "Priscian.",
+"works": {
+"Inst.": "Institutio"
+}
+},
+{
+"name": "Priscianus Lydus",
+"desc": "Philosophus",
+"abbr": "Prisc.Lyd.",
+"works": {}
+},
+{
+"name": "Priscus",
+"desc": "Historicus",
+"abbr": "Prisc.",
+"works": {}
+},
+{
+"name": "Proclus",
+"desc": "Philosophus",
+"abbr": "Procl.",
+"works": {
+"Chr.": "Chrestomathia",
+"H.": "Hymni",
+"Hyp.": "Hypotyposis astronomicarum positionum",
+"in Alc.": "in Platonis Alcibiadem",
+"in Cra.": "in Platonis Cratylum commentaria",
+"in Euc.": "in primum Euclidis librum commentarius",
+"in Prm.": "in Platonis Parmenidem commentarii",
+"in R.": "in Platonis Rempublicam commentarii",
+"in Ti.": "in Platonis Timaeum commentarii",
+"Inst": "Institutio Theologica",
+"Inst.Phys.": "Institutio Physica",
+"Par.Ptol.": "Paraphrasis Ptolemaei Tetrabiblou"
+}
+},
+{
+"name": "Procopius Caesariensis",
+"desc": "Historicus",
+"abbr": "Procop.",
+"works": {
+"Aed.": "de Aedificiis",
+"Arc.": "Historia Arcana",
+"Goth.": "de Bello Gothico",
+"Pers.": "de Bello Persico",
+"Vand.": "de Bello Vandalico"
+}
+},
+{
+"name": "Procopius Gazaeus",
+"desc": "Rhetor",
+"abbr": "Procop.Gaz.",
+"works": {
+"Ep.": "Epistulae",
+"Pan.": "Panegyricus in Anastasium"
+}
+},
+{
+"name": "Prodicus",
+"desc": "Philosophus",
+"abbr": "Prodic.",
+"works": {}
+},
+{
+"name": "Promathidas",
+"desc": "Historicus",
+"abbr": "Promathid.",
+"works": {}
+},
+{
+"name": "Protagoras",
+"desc": "Philosophus",
+"abbr": "Protag.",
+"works": {}
+},
+{
+"name": "Protagoridas",
+"desc": "Historicus",
+"abbr": "Protagorid.",
+"works": {}
+},
+{
+"name": "Proxenus",
+"desc": "Historicus",
+"abbr": "Proxen.",
+"works": {}
+},
+{
+"name": "Psalms of Solomon",
+"desc": "",
+"abbr": "Psalm.Solom.",
+"works": {}
+},
+{
+"name": "Pseudo-Callisthenes",
+"desc": "Historicus",
+"abbr": "Ps.-Callisth.",
+"works": {}
+},
+{
+"name": "Pseudo-Phocylidea",
+"desc": "",
+"abbr": "Ps.-Phoc.",
+"works": {}
+},
+{
+"name": "Ptolemaeus",
+"desc": "Epigrammaticus",
+"abbr": "Ptol.",
+"works": {}
+},
+{
+"name": "Ptolemaeus",
+"desc": "Mathematicus",
+"abbr": "Ptol.",
+"works": {
+"*Alm.": "Almagest = Syntaxis Mathematica",
+"Calend.": "Calendarium",
+"*Fr.": "Fragmenta",
+"Geog.": "Geographia",
+"Harm.": "Harmonica",
+"*Inscr.Can.": "Inscriptio Canobi",
+"*Planisph.": "Planisphaerium",
+"Tetr.": "Tetrabiblos"
+}
+},
+{
+"name": "Ptolemaeus Ascalonita",
+"desc": "",
+"abbr": "Ptol.Ascal.",
+"works": {}
+},
+{
+"name": "Ptolemaeus Chennos",
+"desc": "",
+"abbr": "Ptol.Chenn.",
+"works": {}
+},
+{
+"name": "Ptolemaeus Euergetes II",
+"desc": "Historicus",
+"abbr": "Ptol.Euerg.",
+"works": {}
+},
+{
+"name": "Ptolemaeus Megalopolitanus",
+"desc": "Historicus",
+"abbr": "Ptol.Megalop.",
+"works": {}
+},
+{
+"name": "Pythaenetus",
+"desc": "Historicus",
+"abbr": "Pythaen.",
+"works": {}
+},
+{
+"name": "Pythagoras",
+"desc": "Philosophus",
+"abbr": "Pythag.",
+"works": {}
+},
+{
+"name": "Pythagorae et Pythagoreorum Epistulae",
+"desc": "",
+"abbr": "Pythag. Ep.",
+"works": {}
+},
+{
+"name": "Pythocles",
+"desc": "Historicus",
+"abbr": "Pythocl.",
+"works": {}
+},
+{
+"name": "Quintilianus",
+"desc": "Rhetor Latinus",
+"abbr": "Quint.",
+"works": {
+"Inst.": "Institutio Oratoria"
+}
+},
+{
+"name": "Quintus Smyrnaeus",
+"desc": "Epicus",
+"abbr": "Q.S.",
+"works": {}
+},
+{
+"name": "Rhetores Graeci",
+"desc": "",
+"abbr": "Rh.",
+"works": {}
+},
+{
+"name": "Rhetorius",
+"desc": "Astrologus",
+"abbr": "Rhetor.",
+"works": {}
+},
+{
+"name": "Rhianus",
+"desc": "Epicus",
+"abbr": "Rhian.",
+"works": {}
+},
+{
+"name": "Rhinthon",
+"desc": "Comicus",
+"abbr": "Rhinth.",
+"works": {}
+},
+{
+"name": "Rufinus",
+"desc": "Epigrammaticus",
+"abbr": "Rufin.",
+"works": {}
+},
+{
+"name": "Rufus",
+"desc": "Medicus",
+"abbr": "Ruf.",
+"works": {
+"Ren.Ves.": "de renum et vesicae affectionibus",
+"Sat.Gon.": "de satyriasmo et gonorrhoea",
+"Syn.Puls.": "synopsis de pulsibus"
+}
+},
+{
+"name": "Rufus",
+"desc": "Rhetor",
+"abbr": "Ruf.Rh.",
+"works": {}
+},
+{
+"name": "Rutilius Lupus",
+"desc": "Rhetor",
+"abbr": "Rutil.",
+"works": {}
+},
+{
+"name": "Sabinus, Tullius",
+"desc": "Epigrammaticus",
+"abbr": "Tull.Sab.",
+"works": {}
+},
+{
+"name": "Sacerdos, Marius Plotius",
+"desc": "Grammaticus Latinus",
+"abbr": "Sacerd.",
+"works": {}
+},
+{
+"name": "Sallustius",
+"desc": "Philosophus",
+"abbr": "Sallust.",
+"works": {}
+},
+{
+"name": "Sannyrio",
+"desc": "Comicus",
+"abbr": "Sannyr.",
+"works": {}
+},
+{
+"name": "Sappho",
+"desc": "Lyrica",
+"abbr": "Sapph.",
+"works": {}
+},
+{
+"name": "Satyrus",
+"desc": "Epigrammaticus",
+"abbr": "Satyr.",
+"works": {}
+},
+{
+"name": "Satyrus",
+"desc": "Historicus",
+"abbr": "Satyr.",
+"works": {
+"Vit.Eur.": "Vita Euripidis, POxy."
+}
+},
+{
+"name": "Scolia",
+"desc": "",
+"abbr": "Scol.",
+"works": {}
+},
+{
+"name": "Scylax",
+"desc": "Geographus",
+"abbr": "Scyl.",
+"works": {}
+},
+{
+"name": "Scymnus",
+"desc": "Geographus",
+"abbr": "Scymn.",
+"works": {}
+},
+{
+"name": "Scythinus",
+"desc": "Epigrammaticus",
+"abbr": "Scythin.",
+"works": {}
+},
+{
+"name": "Scythinus Teius",
+"desc": "Poeta Philosophus",
+"abbr": "Scythin.",
+"works": {}
+},
+{
+"name": "Secundus",
+"desc": "Gnomologus",
+"abbr": "Secund.",
+"works": {
+"Sent.": "Sententiae"
+}
+},
+{
+"name": "Seleucus",
+"desc": "Grammaticus et Historicus",
+"abbr": "Seleuc.",
+"works": {}
+},
+{
+"name": "Seleucus",
+"desc": "Lyricus",
+"abbr": "Seleuc.Lyr.",
+"works": {}
+},
+{
+"name": "Semonides",
+"desc": "Iambographus",
+"abbr": "Semon.",
+"works": {}
+},
+{
+"name": "Serenus",
+"desc": "Geometra",
+"abbr": "Seren.",
+"works": {
+"Sect.Con.": "Sectio Coni",
+"Sect.Cyl.": "Sectio Cylindri"
+}
+},
+{
+"name": "Serenus",
+"desc": "Gnomologus",
+"abbr": "Seren.",
+"works": {}
+},
+{
+"name": "Servius",
+"desc": "Grammaticus Latinus",
+"abbr": "Serv.",
+"works": {}
+},
+{
+"name": "Severus",
+"desc": "Medicus",
+"abbr": "Sever.",
+"works": {
+"Clyst.": "de Clysteribus"
+}
+},
+{
+"name": "Severus",
+"desc": "Philosophus",
+"abbr": "Sever.",
+"works": {}
+},
+{
+"name": "Sextus",
+"desc": "Pythagoreus",
+"abbr": "Sext.",
+"works": {
+"Sent.": "Sententiae"
+}
+},
+{
+"name": "Sextus Empiricus",
+"desc": "Philosophus",
+"abbr": "S.E.",
+"works": {
+"M.": "adversus Mathematicos"
+}
+},
+{
+"name": "Silenus",
+"desc": "Historicus",
+"abbr": "Silen.",
+"works": {}
+},
+{
+"name": "Simmias (vel Simias",
+"desc": ") Elegiacus",
+"abbr": "Simm.",
+"works": {}
+},
+{
+"name": "Simonides",
+"desc": "Lyricus",
+"abbr": "Simon.",
+"works": {}
+},
+{
+"name": "Simplicius",
+"desc": "Philosophus",
+"abbr": "Simp.",
+"works": {
+"in Cael.": "in Aristotelis de Caelo commentaria",
+"in Cat.": "in Aristotelis Categorias commentarium",
+"in de An.": "in libros Aristotelis de Anima commentaria",
+"in Epict.": "in Epictetum commentaria",
+"in Ph.": "in Aristotelis Physica commentaria"
+}
+},
+{
+"name": "Simylus",
+"desc": "Comicus",
+"abbr": "Simyl.",
+"works": {}
+},
+{
+"name": "Socrates Argivus",
+"desc": "Historicus",
+"abbr": "Socr.Arg.",
+"works": {}
+},
+{
+"name": "Socrates Cous",
+"desc": "Historicus",
+"abbr": "Socr.Cous",
+"works": {}
+},
+{
+"name": "Socrates Rhodius",
+"desc": "Historicus",
+"abbr": "Socr.Rhod.",
+"works": {}
+},
+{
+"name": "Socratis et Socraticorum Epistulae",
+"desc": "",
+"abbr": "Socr.",
+"works": {}
+},
+{
+"name": "Solon",
+"desc": "Lyricus",
+"abbr": "Sol.",
+"works": {}
+},
+{
+"name": "Sopater",
+"desc": "Comicus",
+"abbr": "Sopat.",
+"works": {}
+},
+{
+"name": "Sopater",
+"desc": "Gnomologus",
+"abbr": "Sopat.",
+"works": {}
+},
+{
+"name": "Sopater",
+"desc": "Rhetor",
+"abbr": "Sopat.Rh.",
+"works": {}
+},
+{
+"name": "Sophilus",
+"desc": "Comicus",
+"abbr": "Sophil.",
+"works": {}
+},
+{
+"name": "Sophocles",
+"desc": "Tragicus",
+"abbr": "S.",
+"works": {
+"Aj.": "Ajax",
+"Ant.": "Antigone",
+"El.": "Electra",
+"Eleg.": "Elegiae",
+"Fr.": "Fragmenta",
+"OC": "Oedipus Coloneus",
+"OT": "Oedipus Tyrannus",
+"Ph.": "Philoctetes",
+"Tr.": "Trachiniae"
+}
+},
+{
+"name": "Sophonias",
+"desc": "Philosophus",
+"abbr": "Sophon",
+"works": {
+"in de An.": "in libros Aristotelis de Anima paraphrasis"
+}
+},
+{
+"name": "Sophron",
+"desc": "Comicus",
+"abbr": "Sophr.",
+"works": {}
+},
+{
+"name": "Soranus",
+"desc": "Medicus",
+"abbr": "Sor.",
+"works": {
+"Fasc.": "de fasciis",
+"Fract.": "de signis fracturarum"
+}
+},
+{
+"name": "Sosibius",
+"desc": "Historicus",
+"abbr": "Sosib.",
+"works": {}
+},
+{
+"name": "Sosicrates",
+"desc": "Comicus",
+"abbr": "Sosicr.",
+"works": {}
+},
+{
+"name": "Sosicrates",
+"desc": "Historicus",
+"abbr": "Sosicr.Hist.",
+"works": {}
+},
+{
+"name": "Sosicrates Rhodius",
+"desc": "Historicus",
+"abbr": "Sosicr.Rhod.",
+"works": {}
+},
+{
+"name": "Sosipater",
+"desc": "Comicus",
+"abbr": "Sosip.",
+"works": {}
+},
+{
+"name": "Sosiphanes",
+"desc": "Tragicus",
+"abbr": "Sosiph.",
+"works": {}
+},
+{
+"name": "Sositheus",
+"desc": "Tragicus",
+"abbr": "Sosith.",
+"works": {}
+},
+{
+"name": "Sostratus",
+"desc": "Historicus",
+"abbr": "Sostrat.",
+"works": {}
+},
+{
+"name": "Sosylus",
+"desc": "Historicus",
+"abbr": "Sosyl.",
+"works": {}
+},
+{
+"name": "Sotades",
+"desc": "Comicus",
+"abbr": "Sotad.Com.",
+"works": {}
+},
+{
+"name": "Sotades",
+"desc": "Lyricus",
+"abbr": "Sotad.",
+"works": {}
+},
+{
+"name": "Speusippus",
+"desc": "Philosophus",
+"abbr": "Speus.",
+"works": {}
+},
+{
+"name": "Sphaerus",
+"desc": "Historicus",
+"abbr": "Sphaer.Hist.",
+"works": {}
+},
+{
+"name": "Sphaerus",
+"desc": "Stoicus",
+"abbr": "Sphaer.Stoic.",
+"works": {}
+},
+{
+"name": "Stadiasmus sive Periplus Maris Magni",
+"desc": "",
+"abbr": "Stad.",
+"works": {}
+},
+{
+"name": "Staphylus",
+"desc": "Historicus",
+"abbr": "Staphyl.",
+"works": {}
+},
+{
+"name": "Statyllius Flaccus",
+"desc": "Epigrammaticus",
+"abbr": "Stat.Flacc.",
+"works": {}
+},
+{
+"name": "Stephanus",
+"desc": "Comicus",
+"abbr": "Steph.Com.",
+"works": {}
+},
+{
+"name": "Stephanus",
+"desc": "Medicus",
+"abbr": "Steph.",
+"works": {
+"in Gal., in Hp.": "in Galenum, in Hippocratem"
+}
+},
+{
+"name": "Stephanus",
+"desc": "Philosophus",
+"abbr": "Steph.",
+"works": {
+"in Int.": "in librum Aristotelis de Interpretatione commentarium",
+"in Rh.": "in Artem Rhetoricam commentaria"
+}
+},
+{
+"name": "Stephanus Byzantius",
+"desc": "",
+"abbr": "St.Byz.",
+"works": {}
+},
+{
+"name": "Stesichorus",
+"desc": "Lyricus",
+"abbr": "Stesich.",
+"works": {}
+},
+{
+"name": "Stesimbrotus",
+"desc": "Historicus",
+"abbr": "Stesimbr.",
+"works": {}
+},
+{
+"name": "Sthenidas",
+"desc": "Philosophus",
+"abbr": "Sthenid.",
+"works": {}
+},
+{
+"name": "Stobaeus, Joannes",
+"desc": "",
+"abbr": "Stob.",
+"works": {
+"App.": "Appendix"
+}
+},
+{
+"name": "Stoicorum Veterum Fragmenta",
+"desc": "",
+"abbr": "Stoic.",
+"works": {}
+},
+{
+"name": "Strabo",
+"desc": "Geographus",
+"abbr": "Str.",
+"works": {
+"Chr.": "Chrestomathiae"
+}
+},
+{
+"name": "Strato",
+"desc": "Comicus",
+"abbr": "Strato Com.",
+"works": {}
+},
+{
+"name": "Strato",
+"desc": "Epigrammaticus",
+"abbr": "Strat.",
+"works": {}
+},
+{
+"name": "Strattis",
+"desc": "Comicus",
+"abbr": "Stratt.",
+"works": {}
+},
+{
+"name": "Suetonius",
+"desc": "Grammaticus et Historicus Latinus",
+"abbr": "Suet.",
+"works": {}
+},
+{
+"name": "Suidas",
+"desc": "Lexicographus",
+"abbr": "Suid.",
+"works": {}
+},
+{
+"name": "Sulpicius Maximus",
+"desc": "Epicus",
+"abbr": "Sulp.Max.",
+"works": {}
+},
+{
+"name": "Susario",
+"desc": "Comicus",
+"abbr": "Sus.",
+"works": {}
+},
+{
+"name": "Symmachus",
+"desc": "Interpres Veteris Testamenti",
+"abbr": "Sm.",
+"works": {}
+},
+{
+"name": "Synesius",
+"desc": "Alchemista",
+"abbr": "Syn.Alch.",
+"works": {}
+},
+{
+"name": "Syrianus",
+"desc": "Philosophus et Rhetor",
+"abbr": "Syrian.",
+"works": {
+"in Hermog.": "in Hermogenem commentaria",
+"in Metaph.": "in Metaphysica commentaria"
+}
+},
+{
+"name": "Teleclides",
+"desc": "Comicus",
+"abbr": "Telecl.",
+"works": {}
+},
+{
+"name": "Telesilla",
+"desc": "Lyrica",
+"abbr": "Telesill.",
+"works": {}
+},
+{
+"name": "Telestes",
+"desc": "Lyricus",
+"abbr": "Telest.",
+"works": {}
+},
+{
+"name": "Terentianus Maurus",
+"desc": "Grammaticus Latinus",
+"abbr": "Ter.Maur.",
+"works": {}
+},
+{
+"name": "Terentius Scaurus",
+"desc": "Grammaticus Latinus",
+"abbr": "Ter.Scaur.",
+"works": {}
+},
+{
+"name": "Terpander",
+"desc": "Lyricus",
+"abbr": "Terp.",
+"works": {}
+},
+{
+"name": "Thales",
+"desc": "Philosophus",
+"abbr": "Thal.",
+"works": {}
+},
+{
+"name": "Theaetetus",
+"desc": "Epigrammaticus",
+"abbr": "Theaet.",
+"works": {}
+},
+{
+"name": "Theagenes",
+"desc": "Historicus",
+"abbr": "Theagen.",
+"works": {}
+},
+{
+"name": "Theages",
+"desc": "Philosophus",
+"abbr": "Theag.",
+"works": {}
+},
+{
+"name": "Themiso",
+"desc": "Historicus",
+"abbr": "Themiso Hist.",
+"works": {}
+},
+{
+"name": "Themistius",
+"desc": "Sophista",
+"abbr": "Them.",
+"works": {
+"in APo.": "Aristotelis Analyticorum Posteriorum paraphrasis",
+"in APr.": "in Aristotelis Analyticorum Priorum librum I paraphrasis",
+"in de An.": "inlibros Aristotelis de Anima paraphrasis",
+"in Ph.": "in Aristotelis Physica paraphrasis",
+"in PN": "Themistii (Sophoniae) in Parva Naturalia commentarium",
+"Or.": "Orationes"
+}
+},
+{
+"name": "Themistocles",
+"desc": "Epistolographus",
+"abbr": "Themist.",
+"works": {
+"Ep.": "Epistulae"
+}
+},
+{
+"name": "Theocles",
+"desc": "Lyricus",
+"abbr": "Theocl.",
+"works": {}
+},
+{
+"name": "Theocritus",
+"desc": "Poeta Bucolicus",
+"abbr": "Theoc.",
+"works": {
+"Beren.": "Coma Berenices",
+"Ep.": "Epigrammata"
+}
+},
+{
+"name": "Theodectes",
+"desc": "Tragicus",
+"abbr": "Theodect.",
+"works": {}
+},
+{
+"name": "Theodoridas",
+"desc": "Epigrammaticus",
+"abbr": "Theodorid.",
+"works": {}
+},
+{
+"name": "Theodorus",
+"desc": "Epigrammaticus",
+"abbr": "Theod.",
+"works": {}
+},
+{
+"name": "Theodosius Alexandrinus",
+"desc": "Grammaticus",
+"abbr": "Theodos.",
+"works": {
+"Can.": "Canones"
+}
+},
+{
+"name": "Theodotion",
+"desc": "Interpres Veteris Testamenti",
+"abbr": "Thd.",
+"works": {}
+},
+{
+"name": "Theognetus",
+"desc": "Comicus",
+"abbr": "Theognet.",
+"works": {}
+},
+{
+"name": "Theognis",
+"desc": "Elegiacus",
+"abbr": "Thgn.",
+"works": {}
+},
+{
+"name": "Theognis",
+"desc": "Tragicus",
+"abbr": "Thgn.Trag.",
+"works": {}
+},
+{
+"name": "Theognis Rhodius",
+"desc": "Historicus",
+"abbr": "Thgn.Hist.",
+"works": {}
+},
+{
+"name": "Theognostus",
+"desc": "Grammaticus",
+"abbr": "Theognost.",
+"works": {
+"Can.": "Canones"
+}
+},
+{
+"name": "Theologumena Arithmeticae",
+"desc": "",
+"abbr": "Theol.Ar.",
+"works": {}
+},
+{
+"name": "Theolytus",
+"desc": "Epicus",
+"abbr": "Theolyt.",
+"works": {}
+},
+{
+"name": "Theon Gymnasiarcha",
+"desc": "Medicus",
+"abbr": "Theon Gymn.",
+"works": {}
+},
+{
+"name": "Theon Smyrnaeus",
+"desc": "Philosophus",
+"abbr": "Theo Sm.",
+"works": {
+"in Ptol.": "in Ptolemaeum"
+}
+},
+{
+"name": "Theophanes",
+"desc": "Epigrammaticus",
+"abbr": "Theoph.",
+"works": {}
+},
+{
+"name": "Theophilus",
+"desc": "Comicus",
+"abbr": "Theophil.",
+"works": {}
+},
+{
+"name": "Theophrastus",
+"desc": "Philosophus",
+"abbr": "Thphr.",
+"works": {
+"CP": "de Causis Plantarum",
+"Char.": "Characteres",
+"Fr.": "Fragmenta",
+"HP": "Historia Plantarum",
+"Ign.": "de Igne",
+"Lap.": "de Lapidibus",
+"Lass.": "de Lassitudine",
+"Metaph.": "Metaphysica",
+"Od.": "de Odoribus",
+"Sens.": "de Sensu",
+"Sign.": "de Signis Tempestatum",
+"Sud.": "de Sudore",
+"Vent.": "de Ventis",
+"Vert.": "de Vertigine"
+}
+},
+{
+"name": "Theopompus",
+"desc": "Comicus",
+"abbr": "Theopomp.Com.",
+"works": {}
+},
+{
+"name": "Theopompus",
+"desc": "Historicus",
+"abbr": "Theopomp.Hist.",
+"works": {}
+},
+{
+"name": "Theopompus Colophonius",
+"desc": "Epicus",
+"abbr": "Theopomp.Coloph.",
+"works": {}
+},
+{
+"name": "Thomas",
+"desc": "Epigrammaticus",
+"abbr": "Thom.",
+"works": {}
+},
+{
+"name": "Thomas Magister",
+"desc": "Grammaticus",
+"abbr": "Thom.Mag.",
+"works": {}
+},
+{
+"name": "Thrasymachus",
+"desc": "",
+"abbr": "Thrasym.",
+"works": {}
+},
+{
+"name": "Thucydides",
+"desc": "Historicus",
+"abbr": "Th.",
+"works": {}
+},
+{
+"name": "Thugenides",
+"desc": "Comicus",
+"abbr": "Thugen.",
+"works": {}
+},
+{
+"name": "Thyillus",
+"desc": "Epigrammaticus",
+"abbr": "Thyill.",
+"works": {}
+},
+{
+"name": "Thymocles",
+"desc": "Epigrammaticus",
+"abbr": "Thymocl.",
+"works": {}
+},
+{
+"name": "Tiberius",
+"desc": "Rhetor",
+"abbr": "Tib.",
+"works": {
+"Fig.": "de Figuris"
+}
+},
+{
+"name": "Tiberius Illustrius",
+"desc": "Epigrammaticus",
+"abbr": "Tib.Ill.",
+"works": {}
+},
+{
+"name": "Timaeus",
+"desc": "Grammaticus",
+"abbr": "Tim.",
+"works": {
+"Lex.": "Lexicon Platonicum"
+}
+},
+{
+"name": "Timaeus",
+"desc": "Historicus",
+"abbr": "Timae.",
+"works": {}
+},
+{
+"name": "Timaeus Locrus",
+"desc": "Philosophus",
+"abbr": "Ti.Locr.",
+"works": {}
+},
+{
+"name": "Timagenes",
+"desc": "Historicus",
+"abbr": "Timag.",
+"works": {}
+},
+{
+"name": "Timocles",
+"desc": "Comicus",
+"abbr": "Timocl.",
+"works": {}
+},
+{
+"name": "Timocreon",
+"desc": "Lyricus",
+"abbr": "Timocr.",
+"works": {}
+},
+{
+"name": "Timostratus",
+"desc": "Comicus",
+"abbr": "Timostr.",
+"works": {}
+},
+{
+"name": "Timotheus",
+"desc": "Comicus",
+"abbr": "Tim.Com.",
+"works": {}
+},
+{
+"name": "Timotheus",
+"desc": "Lyricus",
+"abbr": "Tim.",
+"works": {
+"Fr.": "Fragmenta",
+"Pers.": "Persae"
+}
+},
+{
+"name": "Timotheus Gazaeus",
+"desc": "Philosophus",
+"abbr": "Tim.Gaz.",
+"works": {}
+},
+{
+"name": "Titanomachia",
+"desc": "",
+"abbr": "Titanomach.",
+"works": {}
+},
+{
+"name": "Tragica Adespota",
+"desc": "",
+"abbr": "Trag.Adesp.",
+"works": {}
+},
+{
+"name": "Trophilus",
+"desc": "",
+"abbr": "Trophil.",
+"works": {}
+},
+{
+"name": "Tryphiodorus",
+"desc": "Epicus",
+"abbr": "Tryph.",
+"works": {}
+},
+{
+"name": "Tullius Flaccus",
+"desc": "Epigrammaticus",
+"abbr": "Tull.Flacc.",
+"works": {}
+},
+{
+"name": "Tullius Geminus",
+"desc": "Epigrammaticus",
+"abbr": "Tull.Gem.",
+"works": {}
+},
+{
+"name": "Tullius Laurea",
+"desc": "Epigrammaticus.",
+"abbr": "Tull.Laur.",
+"works": {}
+},
+{
+"name": "Tymnes",
+"desc": "Epigrammaticus",
+"abbr": "Tymn.",
+"works": {}
+},
+{
+"name": "Tyrtaeus",
+"desc": "Elegiacus",
+"abbr": "Tyrt.",
+"works": {}
+},
+{
+"name": "Tzetzes, Joannes",
+"desc": "Grammaticus",
+"abbr": "Tz.",
+"works": {
+"H.": "Historiarum variarum chiliades",
+"Proll.Com.": "Prolegomena de Comoedia Graeca"
+}
+},
+{
+"name": "Ulpianus",
+"desc": "Grammaticus",
+"abbr": "Ulp.",
+"works": {}
+},
+{
+"name": "Uranius",
+"desc": "Historicus",
+"abbr": "Uran.",
+"works": {}
+},
+{
+"name": "Velius Longus",
+"desc": "Grammaticus Latinus",
+"abbr": "Vel.Long.",
+"works": {}
+},
+{
+"name": "Vettius Valens",
+"desc": "Astrologus",
+"abbr": "Vett.Val.",
+"works": {}
+},
+{
+"name": "Vetus Testamentum Graece redditum",
+"desc": "",
+"abbr": "LXX",
+"works": {
+"Am.": "Amos",
+"Ba.": "Baruch",
+"Ca.": "Canticles",
+"Da.": "Daniel",
+"De.": "Deuteronomy",
+"Ec.": "Ecclesiastes",
+"Ep.Je.": "Epistle of Jeremiah",
+"Es.": "Esther",
+"Ex.": "Exodus",
+"Ez.": "Ezekiel",
+"Ge.": "Genesis",
+"Hb.": "Habakkuk",
+"Hg.": "Haggai",
+"Ho.": "Hosea",
+"Is.": "Isaiah",
+"Jb.": "Job",
+"Jd.": "Judges",
+"Je": "Jeremiah",
+"Jl.": "Joel",
+"Jn.": "Jonah",
+"Jo.": "Joshua",
+"Ju.": "Judith",
+"La.": "Lamentations",
+"Le.": "Leviticus",
+"Ma.": "Malachi",
+"Mi.": "Micah",
+"Na.": "Nahum",
+"Ne.": "Nehemian",
+"Nu.": "Numbers",
+"Ob.": "Obadiah",
+"Pr.": "Proverbs",
+"Prec.Man.": "Prayer of Manasses",
+"Ps.": "Psalms",
+"Ru.": "Ruth",
+"Si.": "Ecclesiasticus (Siracides)",
+"Su.": "Susanna",
+"To.": "Tobit",
+"Wi.": "Wisdom of Solomon",
+"Za.": "Zechariah",
+"Ze.": "Zephaniah"
+}
+},
+{
+"name": "Vita Philonidis Epicurei",
+"desc": "",
+"abbr": "Vit.Philonid.",
+"works": {}
+},
+{
+"name": "Vitae Homeri",
+"desc": "",
+"abbr": "Vit.Hom.",
+"works": {}
+},
+{
+"name": "Vitruvius",
+"desc": "Scriptor de Architectura Latinus",
+"abbr": "Vitr.",
+"works": {}
+},
+{
+"name": "Xanthus",
+"desc": "Historicus",
+"abbr": "Xanth.",
+"works": {}
+},
+{
+"name": "Xenagoras",
+"desc": "Historicus",
+"abbr": "Xenag.",
+"works": {}
+},
+{
+"name": "Xenarchus",
+"desc": "Comicus",
+"abbr": "Xenarch.",
+"works": {}
+},
+{
+"name": "Xenocles",
+"desc": "Tragicus",
+"abbr": "Xenocl.",
+"works": {}
+},
+{
+"name": "Xenocrates",
+"desc": "Medicus (apud Oribasium)",
+"abbr": "Xenocr.",
+"works": {}
+},
+{
+"name": "Xenophanes",
+"desc": "Poeta Philosophus",
+"abbr": "Xenoph.",
+"works": {}
+},
+{
+"name": "Xenophon",
+"desc": "Historicus",
+"abbr": "X.",
+"works": {
+"Ages.": "Agesilaus",
+"An.": "Anabasis",
+"Ap.": "Apologia Socratis",
+"Ath.": "Respublica Atheniensium",
+"Cyn.": "Cynegeticus",
+"Cyr.": "Institutio Cyri (Cyropaedia)",
+"Ep.": "Epistulae",
+"Eq.": "de Equitandi ratione",
+"Eq.Mag.": "de Equitum magistro",
+"HG": "Historia Graeca (Hellenica)",
+"Hier.": "Hiero",
+"Lac.": "Respublica Lacedaemoniorum",
+"Mem.": "Memorabilia",
+"Oec.": "Oeconomicus",
+"Smp.": "Symposium",
+"Vect.": "de Vectigalibus"
+}
+},
+{
+"name": "Xenophon Ephesius",
+"desc": "Scriptor Eroticus",
+"abbr": "X.Eph.",
+"works": {}
+},
+{
+"name": "Zaleucus",
+"desc": "",
+"abbr": "Zaleuc.",
+"works": {}
+},
+{
+"name": "Zelotus",
+"desc": "Epigrammaticus",
+"abbr": "Zelot.",
+"works": {}
+},
+{
+"name": "Zeno Citieus",
+"desc": "Stoicus",
+"abbr": "ZenoStoic.",
+"works": {}
+},
+{
+"name": "Zeno Eleaticus",
+"desc": "Philosophus",
+"abbr": "Zeno Eleat.",
+"works": {}
+},
+{
+"name": "Zeno Tarsensis",
+"desc": "Stoicus",
+"abbr": "Zeno Tars.Stoic.",
+"works": {}
+},
+{
+"name": "Zenobius",
+"desc": "Paroemiographus",
+"abbr": "Zen.",
+"works": {}
+},
+{
+"name": "Zenodotus",
+"desc": "Grammaticus",
+"abbr": "Zenod.",
+"works": {}
+},
+{
+"name": "Zonaeus",
+"desc": "Rhetor",
+"abbr": "Zonae.",
+"works": {
+"Fig.": "de Figuris"
+}
+},
+{
+"name": "Zonaras",
+"desc": "Lexicographus",
+"abbr": "Zonar.",
+"works": {}
+},
+{
+"name": "Zonas",
+"desc": "Epigrammaticus",
+"abbr": "Zon.",
+"works": {}
+},
+{
+"name": "Zopyrus",
+"desc": "Historicus",
+"abbr": "Zopyr.Hist.",
+"works": {}
+},
+{
+"name": "Zopyrus",
+"desc": "Medicus",
+"abbr": "Zopyr.",
+"works": {}
+},
+{
+"name": "Zosimus",
+"desc": "Alchemista",
+"abbr": "Zos.Alch.",
+"works": {}
+},
+{
+"name": "Zosimus",
+"desc": "Epigrammaticus",
+"abbr": "Zos.",
+"works": {}
+},
+{
+"name": "Zosimus",
+"desc": "Historicus",
+"abbr": "Zos.",
+"works": {}
+}
+]

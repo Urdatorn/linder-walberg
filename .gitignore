@@ -8,3 +8,6 @@ dict/src/LinderWalberg.xml
 dict/src/objects/
 dict/src/*.dictionary
 dist/
+locorum/lsj_abbr*.html
+locorum/matches.jsonl
+locorum/examples_all.json

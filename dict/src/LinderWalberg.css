@@ -110,3 +110,17 @@ div.front p.note { font-size: 0.9em; color: var(--muted); }
 table.abbrs { border-collapse: collapse; }
 table.abbrs td { padding: 1px 12px 1px 0; vertical-align: top; }
 table.abbrs td.abbr-col { font-style: italic; white-space: nowrap; }
+
+/* Index locorum */
+div.loc-author {
+    margin: 14px 0 3px 0;
+    padding-top: 4px;
+    border-top: 1px solid var(--rule);
+}
+span.loc-name { font-weight: 700; font-variant: small-caps; letter-spacing: 0.03em; font-size: 1.08em; }
+span.loc-desc { font-style: italic; color: var(--muted); }
+span.loc-abbr { color: var(--muted); }
+div.loc-work { margin: 5px 0 1px 0.6em; font-style: italic; }
+span.loc-wabbr { font-weight: 600; font-style: normal; }
+div.locus { margin: 1px 0 1px 1.4em; text-indent: -0.8em; padding-left: 0.8em; }
+span.loc-page { color: var(--muted); font-size: 0.85em; }
