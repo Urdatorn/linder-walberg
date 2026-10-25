@@ -2,7 +2,7 @@
   <img src="docs/screenshots.png" alt="The web app: the 1862 title page, and the entry Mörker" width="640">
 </p>
 
-# Svenskt-grekiskt lexikon
+# Linder och Walberg: _Svenskt-grekiskt lexikon_
 
 > _Nyttan, eller rättare nödvändigheten, af Grekiska Skriföfningar har under de sednare åren äfven hos oss blifvit allmänt insedd och erkänd._
 >
