@@ -19,20 +19,12 @@ Ordboken tillgängliggörs härmed i ett antal olika format. För det första s�
 
 För den som är intresserad av att fortsätta förbättra OCR-modeller för antik grekiska så tillgängliggörs bilder och alignad text på [Hugging Face](https://huggingface.co/datasets/Urdatorn/linder-walberg). 
 
-## Metod
+## Fördelar med denna utgåva
 
-Varje sida finns i två lager, som är alignade remsa för remsa:
-
-- **diplomatiskt**: det som står tryckt på sidan, bokstav för bokstav, med accenter, spiritus och
-  sättarens tryckfel;
-- **rättat**: samma text med de redaktionella rättelserna införda, hämtade ur tre källor:
-  - bokens egen *Tryckfel*-förteckning;
-  - tryckfel som upptäcktes vid korrekturläsningen;
-  - rättelser av accenter, spiritus och stavning i grekiskan, där de formella reglerna eller den
-    belagda korpusen av grekiska former inte lämnar något tvivel.
-
-Stavningen från 1862 behålls (*hvar*, *af*, *qvinna*), men sökningen hittar även moderna stavningar.
-Bokens förkortningar förklaras där de förekommer, utifrån dess egen förteckning på s. 540.
+- Stavningen från 1862 behålls (*hvar*, *af*, *qvinna*), men sökningen **hittar även moderna stavningar**.
+- **Baklängessökning** på grekiska termer ger svenska lemma som innehåller dem.
+- Bokens **förkortningar förklaras** där de förekommer, även de som inte inkluderas i dess egen förteckning på s. 540.
+- De av Linder och Walbergs exempelfraser som förekommer i klassiska källtexter har samlats i en _index locorum_. 
 
 ## Så gjordes utgåvan
 
