@@ -241,7 +241,7 @@
   "works": [
    {
     "abbr": "",
-    "title": "",
+    "title": "Historiae",
     "loci": [
      {
       "greek": "ἡ (τοῦ βίου) καταστροφή",
@@ -278,25 +278,7 @@
   "works": [
    {
     "abbr": "Soph.",
-    "title": "",
-    "loci": [
-     {
-      "greek": "ἡ τοῦ λέγειν δύναμις",
-      "cites": [
-       "2.10"
-      ],
-      "entries": [
-       {
-        "headword": "Talförhet",
-        "page": "0444"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "",
+    "title": "De sophistis",
     "loci": [
      {
       "greek": "ἡ τοῦ λέγειν δύναμις",
@@ -307,6 +289,18 @@
        {
         "headword": "Talförhet",
         "page": "0444"
+       }
+      ]
+     },
+     {
+      "greek": "τοῖς καιροῖς χρῆσθαι",
+      "cites": [
+       "34"
+      ],
+      "entries": [
+       {
+        "headword": "Framme",
+        "page": "0106"
        }
       ]
      }
@@ -460,7 +454,7 @@
   "works": [
    {
     "abbr": "Diff.",
-    "title": "",
+    "title": "De adfinium vocabulorum differentia",
     "loci": [
      {
       "greek": "ἐπιστήμῃ τε καὶ ἐμπειρίᾳ",
@@ -522,7 +516,7 @@
   "works": [
    {
     "abbr": "Mith.",
-    "title": "",
+    "title": "Mithridatica",
     "loci": [
      {
       "greek": "ἔτη ἔχων πέντε",
@@ -546,62 +540,8 @@
   "abbr": "Aristid.",
   "works": [
    {
-    "abbr": "",
-    "title": "Orationes 13",
-    "loci": [
-     {
-      "greek": "ἐξαγαγεῖν ἐκ τοῦ δεσμωτηρίου",
-      "cites": [
-       "158"
-      ],
-      "entries": [
-       {
-        "headword": "Fängelse",
-        "page": "0117"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "Orationes 14",
-    "loci": [
-     {
-      "greek": "ὅσον τόξευμα ἐξικνεῖται",
-      "cites": [
-       "202"
-      ],
-      "entries": [
-       {
-        "headword": "Båghåll",
-        "page": "0064"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "Orationes 37",
-    "loci": [
-     {
-      "greek": "πρὸς ἡδονὴν λέγειν τινί",
-      "cites": [
-       "466"
-      ],
-      "entries": [
-       {
-        "headword": "Behag",
-        "page": "0034"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "Orationes 45",
+    "abbr": "Or.",
+    "title": "Orationes",
     "loci": [
      {
       "greek": "ἡ τῶν λόγων δύναμις",
@@ -614,18 +554,25 @@
         "page": "0520"
        }
       ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "Orationes 46",
-    "loci": [
+     },
+     {
+      "greek": "καταστῆναι εἰς τὴν ἀρχήν",
+      "cites": [
+       "57"
+      ],
+      "entries": [
+       {
+        "headword": "Herravälde",
+        "page": "0170"
+       }
+      ]
+     },
      {
       "greek": "πρὸς ἡδονὴν λέγειν τινί",
       "cites": [
        "121",
-       "273"
+       "273",
+       "466"
       ],
       "entries": [
        {
@@ -633,13 +580,31 @@
         "page": "0034"
        }
       ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "Orationes 48",
-    "loci": [
+     },
+     {
+      "greek": "ἐξαγαγεῖν ἐκ τοῦ δεσμωτηρίου",
+      "cites": [
+       "158"
+      ],
+      "entries": [
+       {
+        "headword": "Fängelse",
+        "page": "0117"
+       }
+      ]
+     },
+     {
+      "greek": "ὅσον τόξευμα ἐξικνεῖται",
+      "cites": [
+       "202"
+      ],
+      "entries": [
+       {
+        "headword": "Båghåll",
+        "page": "0064"
+       }
+      ]
+     },
      {
       "greek": "ὁ τῆς σελήνης κύκλος",
       "cites": [
@@ -651,13 +616,7 @@
         "page": "0290"
        }
       ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "Orationes 49",
-    "loci": [
+     },
      {
       "greek": "ὁ τῶν λόγων κόσμος",
       "cites": [
@@ -669,13 +628,7 @@
         "page": "0346"
        }
       ]
-     }
-    ]
-   },
-   {
-    "abbr": "",
-    "title": "Orationes 50",
-    "loci": [
+     },
      {
       "greek": "μένειν ἐν τῇ τάξει",
       "cites": [
@@ -691,26 +644,8 @@
     ]
    },
    {
-    "abbr": "",
-    "title": "Orationes 9",
-    "loci": [
-     {
-      "greek": "καταστῆναι εἰς τὴν ἀρχήν",
-      "cites": [
-       "57"
-      ],
-      "entries": [
-       {
-        "headword": "Herravälde",
-        "page": "0170"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "abbr": "Rh.",
-    "title": "",
+    "title": "Ars rhetorica",
     "loci": [
      {
       "greek": "ὅπλα ἐν ταῖς χερσὶν ἔχων",
@@ -863,7 +798,7 @@
   "works": [
    {
     "abbr": "Ath.",
-    "title": "",
+    "title": "Atheniensium respublica",
     "loci": [
      {
       "greek": "δύνασθαι τῷ σώματι",
@@ -1165,7 +1100,7 @@
   "works": [
    {
     "abbr": "An.",
-    "title": "",
+    "title": "Anabasis Alexandri",
     "loci": [
      {
       "greek": "ἐν νῷ ἔχειν τι",
@@ -1304,7 +1239,7 @@
   "works": [
    {
     "abbr": "",
-    "title": "Deipnosophistae",
+    "title": "",
     "loci": [
      {
       "greek": "περὶ τὸν Διόνυσον τεχνῖται",
@@ -1402,13 +1337,13 @@
   "works": [
    {
     "abbr": "",
-    "title": "",
+    "title": "De Ortibus et Occasibus",
     "loci": [
      {
       "greek": "ἅμα τῷ ἡλίῳ δύνοντι",
       "cites": [
-       "1.definitiones.4",
-       "1.definitiones.5"
+       "1 def. 4",
+       "1 def. 5"
       ],
       "entries": [
        {
@@ -2074,7 +2009,7 @@
      {
       "greek": "ἔρδοι τις ἣν ἕκαστος εἰδείη τέχνην",
       "cites": [
-       "pref.a"
+       "praef. a"
       ],
       "entries": [
        {
@@ -2117,8 +2052,8 @@
   "abbr": "D.H.",
   "works": [
    {
-    "abbr": "",
-    "title": "Ad Ammaeum",
+    "abbr": "Amm.",
+    "title": "Epistula ad Ammaeum",
     "loci": [
      {
       "greek": "ἄρχειν τοῦ πολέμου",
@@ -2284,7 +2219,7 @@
    },
    {
     "abbr": "Sent.",
-    "title": "",
+    "title": "Sententiae",
     "loci": [
      {
       "greek": "πολλὰ χρήματα κτήσασθαι",
@@ -2447,7 +2382,7 @@
   "works": [
    {
     "abbr": "in EN",
-    "title": "",
+    "title": "In Ethica Nicomachea commentaria",
     "loci": [
      {
       "greek": "ῥοπὴν ἔχειν πρός τι",
@@ -2520,7 +2455,7 @@
   "works": [
    {
     "abbr": "Anim.Pass.",
-    "title": "",
+    "title": "De propriorum animi cuiuslibet affectuum dignotione et curatione",
     "loci": [
      {
       "greek": "τὰ πρὸς εὐδαιμονίαν ἄγοντα",
@@ -2838,8 +2773,8 @@
   "abbr": "Gorg.",
   "works": [
    {
-    "abbr": "",
-    "title": "Defense of Palamedes",
+    "abbr": "Pal.",
+    "title": "Palamedes",
     "loci": [
      {
       "greek": "πείσας ἢ βιασάμενος",
@@ -2949,7 +2884,7 @@
   "works": [
    {
     "abbr": "Id.",
-    "title": "",
+    "title": "De ideis",
     "loci": [
      {
       "greek": "πρὸς τὸν ὑπάρχοντα καιρόν",
@@ -2979,7 +2914,7 @@
    },
    {
     "abbr": "Prog.",
-    "title": "",
+    "title": "Progymnasmata",
     "loci": [
      {
       "greek": "διὰ φροντίδος εἶναι",
@@ -3114,7 +3049,7 @@
   "works": [
    {
     "abbr": "Epid.",
-    "title": "",
+    "title": "Epidemiae",
     "loci": [
      {
       "greek": "τινός πρὸς (ἡλίου) δυσμάς",
@@ -3132,7 +3067,7 @@
    },
    {
     "abbr": "Fract.",
-    "title": "",
+    "title": "De fracturis",
     "loci": [
      {
       "greek": "ὡς δεῖ, χρή",
@@ -3150,7 +3085,7 @@
    },
    {
     "abbr": "Loc.Hom.",
-    "title": "",
+    "title": "De locis in homine",
     "loci": [
      {
       "greek": "τῇ τύχῃ διδόναι",
@@ -3168,7 +3103,7 @@
    },
    {
     "abbr": "Mul.",
-    "title": "",
+    "title": "De mulierum affectibus",
     "loci": [
      {
       "greek": "καλῶς ἔχειν (τὸ σῶμα)",
@@ -3711,8 +3646,8 @@
     ]
    },
    {
-    "abbr": "",
-    "title": "To the Cynic Heracleios",
+    "abbr": "Or. 7",
+    "title": "Ad Heraclium cynicum",
     "loci": [
      {
       "greek": "εἰσάγειν εἰς τὸ θέατρον",
@@ -4115,7 +4050,7 @@
     ]
    },
    {
-    "abbr": "",
+    "abbr": "Phal.",
     "title": "Phalaris",
     "loci": [
      {
@@ -4330,7 +4265,7 @@
   "works": [
    {
     "abbr": "",
-    "title": "",
+    "title": "Διαίρεσις τῶν ἐπιδεικτικῶν",
     "loci": [
      {
       "greek": "πρὸ ἡλίου ἀνίσχοντος",
@@ -4599,8 +4534,8 @@
   "abbr": "Phlp.",
   "works": [
    {
-    "abbr": "",
-    "title": "In Aristotelis Analytica Posteriora Commentaria",
+    "abbr": "in APo.",
+    "title": "in Aristotelis Analytica Posteriora commentaria",
     "loci": [
      {
       "greek": "οἱ νῦν ὄντες ἄνθρωποι",
@@ -4658,7 +4593,7 @@
    },
    {
     "abbr": "in Ph.",
-    "title": "",
+    "title": "In Physicorum libros commentaria",
     "loci": [
      {
       "greek": "τὸ ὄν, ὑπάρχον",
@@ -4707,8 +4642,8 @@
   "abbr": "Pl.",
   "works": [
    {
-    "abbr": "",
-    "title": "Alcibiades 1",
+    "abbr": "Alc.",
+    "title": "Alcibiades",
     "loci": [
      {
       "greek": "ἰέναι ἐπὶ τὰ τῆς πόλεως",
@@ -4949,7 +4884,7 @@
    },
    {
     "abbr": "Hp.Ma.",
-    "title": "",
+    "title": "Hippias maior",
     "loci": [
      {
       "greek": "ὡς ἐγὼ μνήμης ἔχω",
@@ -4967,7 +4902,7 @@
    },
    {
     "abbr": "Hp.Mi.",
-    "title": "",
+    "title": "Hippias minor",
     "loci": [
      {
       "greek": "ἆρ' ἄν τί μοι χαρίσαιο τοιόνδε μή μου καταγελᾶν",
@@ -5616,7 +5551,7 @@
    },
    {
     "abbr": "Cat.Mi.",
-    "title": "",
+    "title": "Cato minor",
     "loci": [
      {
       "greek": "πράττειν τὰ τῆς πόλεως",
@@ -5674,7 +5609,7 @@
    },
    {
     "abbr": "Comp.Alc.Cor.",
-    "title": "",
+    "title": "Comparatio Alcibiadis et Coriolani",
     "loci": [
      {
       "greek": "πρὸς χάριν ὁμιλεῖν τινι",
@@ -6476,7 +6411,41 @@
   "works": [
    {
     "abbr": "",
-    "title": "",
+    "title": "Geographiae Chrestomathia",
+    "loci": [
+     {
+      "greek": "τὰ ἄκρα τοῦ ὄρους",
+      "cites": [
+       "6.29"
+      ],
+      "entries": [
+       {
+        "headword": "Bergsrygg",
+        "page": "0039"
+       }
+      ]
+     },
+     {
+      "greek": "ἐπωνυμίαν ἔχειν ἀπό τινος",
+      "cites": [
+       "13.24"
+      ],
+      "entries": [
+       {
+        "headword": "Benämna",
+        "page": "0038"
+       },
+       {
+        "headword": "Kalla",
+        "page": "0206"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "abbr": "",
+    "title": "Geography",
     "loci": [
      {
       "greek": "ἡ ἐπιφάνεια τοῦ ὕδατος",
@@ -6493,8 +6462,7 @@
      {
       "greek": "τὰ ἄκρα τοῦ ὄρους",
       "cites": [
-       "6.2.8",
-       "6.29"
+       "6.2.8"
       ],
       "entries": [
        {
@@ -6524,22 +6492,6 @@
        {
         "headword": "Sjölägenhet",
         "page": "0392"
-       }
-      ]
-     },
-     {
-      "greek": "ἐπωνυμίαν ἔχειν ἀπό τινος",
-      "cites": [
-       "13.24"
-      ],
-      "entries": [
-       {
-        "headword": "Benämna",
-        "page": "0038"
-       },
-       {
-        "headword": "Kalla",
-        "page": "0206"
        }
       ]
      }

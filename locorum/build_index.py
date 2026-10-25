@@ -25,6 +25,7 @@ structure. Authors and works are named as in LSJ
 from __future__ import annotations
 
 import collections
+import functools
 import json
 import re
 import sys
@@ -107,6 +108,11 @@ class LSJ:
 def lsj_cite(author: dict, w: str, full: str, cite: str) -> tuple[str, str, str]:
     """Editions' own section names in LSJ's form."""
     cite = re.sub(r"ross_section_(\d+)", r"\1", cite)               # Arist. Pol.: section numbers
+    # named parts within the numbering: "1.definitiones.4" -> "1 def. 4"
+    for name, short in (("definitiones", "def."), ("definitio", "def."), ("propositiones", "prop."),
+                        ("propositio", "prop."), ("praefatio", "praef."), ("praef", "praef."), ("pref", "praef.")):
+        cite = re.sub(rf"(^|\.){name}(\.|$)", lambda m: (" " if m.group(1) else "") + short + (" " if m.group(2) else ""), cite)
+    cite = cite.strip()
     if author["abbr"] == "Arist." and w == "APr." and cite.startswith("posteriora."):
         w, full, cite = "APo.", author["works"].get("APo.", "Analytica Posteriora"), cite[len("posteriora."):]
     elif author["abbr"] == "Arist." and cite.startswith("priora."):
@@ -127,6 +133,31 @@ def _titles() -> dict:
 
 
 TITLES = _titles()
+# editions catalogued under their own id rather than the TLG work's
+WORK_IDS = {"tlg0610.perseus002": "Soph."}
+
+
+@functools.lru_cache(maxsize=None)
+def works_in_tei(group: str) -> int:
+    from passages import TEI
+    return len({p.parent.name for repo in ("canonical-greekLit", "First1KGreek")
+                for p in (TEI / repo / "data" / group).glob("*/*grc*.xml")})
+
+
+def _work_titles() -> tuple[dict, dict]:
+    """Full titles for works LSJ's list names only by abbreviation, and LSJ-style
+    names for works LSJ does not cite (locorum/work_titles.tsv)."""
+    by_abbr, by_catalogue = {}, {}
+    for r in (HERE / "work_titles.tsv").read_text(encoding="utf-8").splitlines()[1:]:
+        author, work, title, catalogue = (r.split("\t") + [""])[:4]
+        if catalogue:
+            by_catalogue[(author, catalogue)] = (work, title)
+        else:
+            by_abbr[(author, work)] = (work, title)
+    return by_abbr, by_catalogue
+
+
+WORK_TITLES, CATALOGUE_TITLES = _work_titles()
 ISOCRATES = {"panegyricus": 4, "evagoras": 9, "archidamus": 6, "antidosis": 15, "to philip": 5, "panathenaicus": 12,
              "to demonicus": 1, "to nicocles": 2, "nicocles or the cyprians": 3, "areopagiticus": 7,
              "on the peace": 8, "helen": 10, "busiris": 11, "against the sophists": 13, "plataicus": 14,
@@ -230,12 +261,30 @@ def main() -> None:
             elif author["abbr"] in NUMBERED:
                 # LSJ cites the speech by number; its Latin title says which it is
                 w, full = speech(author["abbr"], int(work.split(".")[1][3:]), names.cts(group, work.split(".")[1])[1])
-            elif sum(x.startswith(group + ".") for x in lsj.tlg_work) <= 1:
+            elif work in WORK_IDS:
+                w, full = WORK_IDS[work], ""                    # an edition under its own id (Alcid. Soph.)
+                full = author["works"].get(w, "")
+            elif works_in_tei(group) <= 1:
                 w, full = "", ""                               # one work (Th.): cited without title
             else:
-                w, full = "", names.cts(group, work.split(".")[1])[1] or ""   # not cited in LSJ: catalogue title
+                # not cited by TLG number in LSJ: LSJ's abbreviation if its title matches the
+                # catalogue's, else the catalogue's title
+                title = names.cts(group, work.split(".")[1])[1] or ""
+                w, full = lsj.work(author, None, title)
+                if not w:
+                    w, full = "", title
             w, full, cite = lsj_cite(author, w, full, cite)
+            w, full = WORK_TITLES.get((author["abbr"], w), (w, full)) if not full else \
+                CATALOGUE_TITLES.get((author["abbr"], full), (w, full))
             by_author[(author["name"], author["desc"], author["abbr"])][(w, full)].add(cite)
+        # one passage found in two editions: drop the unidentified copy, and a citation
+        # that only prefixes another's ("2.10" in a combined file beside "10")
+        for akey, works in by_author.items():
+            named = {c for (w, f), cs in works.items() if w or f for c in cs}
+            if named and ("", "") in works and works[("", "")] <= named | {c.split(".")[-1] for c in named}:
+                del works[("", "")]
+            for wkey, cs in works.items():
+                works[wkey] = {c for c in cs if not any(o != c and c.endswith("." + o) for o in cs)}
         n_authors = len(by_author) + len(others)
         n_works = sum(len(v) for v in by_author.values())
         if not by_author:
