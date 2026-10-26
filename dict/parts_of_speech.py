@@ -108,8 +108,10 @@ def main() -> None:
     lemmas, participles = index["lemmas"], index["participles"]
     modern = load_modern()
     rows = []
-    for n, line in enumerate((HERE.parent / "text/corrected/entries.jsonl").read_text(encoding="utf-8").splitlines()):
-        e = json.loads(line)
+    entries = [json.loads(l) for l in (HERE.parent / "text/corrected/entries.jsonl").read_text(encoding="utf-8").splitlines()]
+    # numbered as compile_entries numbers them, without the letter headings
+    entries = [e for e in entries if not re.fullmatch(r"[A-ZÅÄÖ][.)]?", e["text"].strip())]
+    for n, e in enumerate(entries):
         head, rest = headword_of(e["text"])
         forms = index_forms(head, rest)
         title = re.sub(r"\(([^)]*)\)", "", head).strip()

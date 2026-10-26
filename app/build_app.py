@@ -12,6 +12,7 @@ entries as the Dictionary.app edition (dict/build_xml.compile_entries).
 
 from __future__ import annotations
 
+import csv
 import hashlib
 import json
 import re
@@ -68,10 +69,15 @@ def main() -> None:
         by_letter.setdefault(f"{ord(k[0][0]):x}", []).append(k)
     for code, ks in by_letter.items():
         (DIST / f"data/k/{code}.json").write_text(json.dumps(ks, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-    # daily words: entries with some substance (Greek and a sense or two), stable order
+    # daily words: entries with Greek whose word is rare in Swedish today (dict/frequency.tsv:
+    # Zipf under 2.5, under 0.3 in a million words; under 2.0 for the shorter entries) and is a
+    # word of its own (in SALDO, or not at all), not a compound of common ones ("Byxband")
+    method = {r["id"]: r["method"] for r in csv.DictReader((ROOT / "dict/parts_of_speech.tsv").open(encoding="utf-8"), delimiter="\t")}
+    zipf = {r["id"]: float(r["zipf"]) for r in csv.DictReader((ROOT / "dict/frequency.tsv").open(encoding="utf-8"), delimiter="\t")}
     daily = [i for i, r in enumerate(records)
-             if r["id"].startswith("lw_") and r["id"][3:].isdigit() and len(r["html"]) > 900
-             and re.search(r'class="gk"', r["html"])]
+             if re.fullmatch(r"lw_\d+", r["id"]) and len(r["html"]) > 400 and 'class="gk"' in r["html"]
+             and zipf.get(r["id"], 9) < (2.5 if len(r["html"]) > 900 else 2.0)
+             and method.get(r["id"]) in ("saldo", "none", "override")]
     special = {k: index[k] for k in ("front_matter", "lw_preface", "lw_abbr", "lw_locorum", "lw_partes", "lw_linder", "lw_walberg")
                if k in index}
     entries = sum(1 for r in records if re.fullmatch(r"lw_\d+", r["id"]))      # the dictionary's own articles

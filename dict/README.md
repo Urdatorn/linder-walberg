@@ -33,3 +33,9 @@ abbreviations, mostly built on the list's stems: *smnsättning* (smn = samman), 
 (hvilken), *hd* (hvad). They get the same note as the listed abbreviations; the
 *Förkortningar* page shows the book's list alone. "hr" as the first part of a word
 (hrifrån, hrandra) is expanded by rule in `build_xml.py`.
+
+`parts_of_speech.tsv` (from `parts_of_speech.py`, with SALDO's morphology) gives each
+headword its part of speech, for the *Partes orationis* pages. `frequency.tsv` (from
+`frequency.py`, with [wordfreq](https://github.com/rspeer/wordfreq)'s Swedish data) gives
+how common each headword is in modern spelling today; the web app takes its *Dagens ord*
+from the rare ones.
