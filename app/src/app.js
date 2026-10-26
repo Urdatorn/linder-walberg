@@ -109,7 +109,14 @@ async function showSearch(query) {
   setBar("search");
   if (q.value !== query) q.value = query;
   if (!query.trim()) {
-    view.innerHTML = `<div class="front-page"><img src="${v("front.png")}" alt="Svenskt-grekiskt lexikon, utgifvet af C. W. Linder och C. A. Walberg"></div>`;
+    // an easter egg: the authors' names on the title page open their biographies
+    // (areas in per cent of front.png: the name and the line under it)
+    const s = meta.special;
+    view.innerHTML = `<div class="front-page"><div class="title-page">
+      <img src="${v("front.png")}" alt="Svenskt-grekiskt lexikon, utgifvet af C. W. Linder och C. A. Walberg">
+      <a href="#e/${s.lw_linder}" aria-label="Carl Wilhelm Linder" style="left:33.8%;top:59.6%;width:36.2%;height:13.9%"></a>
+      <a href="#e/${s.lw_walberg}" aria-label="Carl August Walberg" style="left:32.8%;top:85.4%;width:36.6%;height:14.6%"></a>
+    </div></div>`;
     return;
   }
   const token = ++searchToken;

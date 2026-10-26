@@ -23,3 +23,50 @@ page	printed_page	column	line	entry	printed	corrected	source	status	note
 0252	248			Lit	sätta stor l. till ngu	sätta stor l. till ngn	proofreading	accepted	ngu for ngn (någon), as printed; confirmed by the editor
 0263	259			Läskdryck	gifva ngu en l.	gifva ngn en l.	proofreading	accepted	ngu for ngn (någon), as printed; confirmed by the editor
 0355	351			Reda	taga r. på ngu	taga r. på ngn	proofreading	accepted	ngu for ngn (någon), as printed; confirmed by the editor
+0005	1			Af	står äfv. vid vv, i hka partitivbegreppet	står äfv. vid vv., i hka partitivbegreppet	proofreading	accepted	full stop missing after the abbreviation vv
+0013	9			Afstängning	eg. (ss	eg. (ss.	proofreading	accepted	full stop missing after the abbreviation ss
+0020	16			Ankar(e)	ἀγκυρῶν σαλεύειν l ἀποσαλεύειν.	ἀγκυρῶν σαλεύειν l. ἀποσαλεύειν.	proofreading	accepted	full stop missing after the abbreviation l
+0022	18			Anrättning	Anrättning, a) ss handling,	Anrättning, a) ss. handling,	proofreading	accepted	full stop missing after the abbreviation ss
+0062	58			Bröst	f. sitt b. (ss tecken till	f. sitt b. (ss. tecken till	proofreading	accepted	full stop missing after the abbreviation ss
+0062	58			Bröst	θηλάζειν. 3) fig., ss säte f.	θηλάζειν. 3) fig., ss. säte f.	proofreading	accepted	full stop missing after the abbreviation ss
+0062	58			Bud	ὁμολογία τιμῆς, ἡ (ss handling).	ὁμολογία τιμῆς, ἡ (ss. handling).	proofreading	accepted	full stop missing after the abbreviation ss
+0062	58			Buk	Buk, 1) ss kroppsdel,	Buk, 1) ss. kroppsdel,	proofreading	accepted	full stop missing after the abbreviation ss
+0078	74			Dumhet	2) concr., gm adj, (m. ἔργον	2) concr., gm adj., (m. ἔργον	proofreading	accepted	full stop missing after the abbreviation adj
+0093	89			Fara	i f., ἄγειν l καθιστάναι	i f., ἄγειν l. καθιστάναι	proofreading	accepted	full stop missing after the abbreviation l
+0103	99			Fordra	rättvist) m. acc. o inf.: f.	rättvist) m. acc. o. inf.: f.	proofreading	accepted	full stop missing after the abbreviation o
+0106	102			Framlysa	διαφαίνεσθαι (eg. o. oeg). ἐκ-, διαπρέπειν	διαφαίνεσθαι (eg. o. oeg.). ἐκ-, διαπρέπειν	proofreading	accepted	full stop missing after the abbreviation oeg
+0120	116			För	För (adj). se Stark,	För (adj.). se Stark,	proofreading	accepted	full stop missing after the abbreviation adj
+0147	143			Gerningsman	δράσας. ὁ πράξας l ποιήσας.	δράσας. ὁ πράξας l. ποιήσας.	proofreading	accepted	full stop missing after the abbreviation l
+0172	168			Hjelpa	ἀρήγειν τινί (mer poet). ἀκεῖσθαί	ἀρήγειν τινί (mer poet.). ἀκεῖσθαί	proofreading	accepted	full stop missing after the abbreviation poet
+0173	169			Hjord	större boskap, äfv oeg. om	större boskap, äfv. oeg. om	proofreading	accepted	full stop missing after the abbreviation äfv
+0176	172			Hufvudsats	θέσις (i gramm. bet). κεφάλαιον.	θέσις (i gramm. bet.). κεφάλαιον.	proofreading	accepted	full stop missing after the abbreviation bet
+0189	185			Ibland	εἰς m. acc (vid	εἰς m. acc. (vid	proofreading	accepted	full stop missing after the abbreviation acc
+0190	186			Ifrån	morgonen, ἐξ ἑωθινοῦ l ἕω.: i.	morgonen, ἐξ ἑωθινοῦ l. ἕω.: i.	proofreading	accepted	full stop missing after the abbreviation l
+0249	245			Ligga	ὑποπεπτωκέναι τινί (Sedn). προκυλινδεῖσθαί	ὑποπεπτωκέναι τινί (Sedn.). προκυλινδεῖσθαί	proofreading	accepted	full stop missing after the abbreviation Sedn
+0257	253			Lustig	σκώπτειν τινά l τὶ. παίζειν	σκώπτειν τινά l. τὶ. παίζειν	proofreading	accepted	full stop missing after the abbreviation l
+0288	284			Mån	σπουδάζειν περί τι l περί, ὑπέρ	σπουδάζειν περί τι l. περί, ὑπέρ	proofreading	accepted	full stop missing after the abbreviation l
+0301	297			Nyck	αὐτῷ γίγνεται l ὅ τι ἂν	αὐτῷ γίγνεται l. ὅ τι ἂν	proofreading	accepted	full stop missing after the abbreviation l
+0302	298			Nå	n., men etc,	n., men etc.,	proofreading	accepted	full stop missing after the abbreviation etc
+0304	300			När	πηνίκα (dir. o indir).	πηνίκα (dir. o. indir.).	proofreading	accepted	full stops missing after the abbreviations o and indir
+0304	300			Nära	πλησίον, ἐγγύς (m. gen). ὁμοῦ (m.	πλησίον, ἐγγύς (m. gen.). ὁμοῦ (m.	proofreading	accepted	full stop missing after the abbreviation gen
+0306	302			O	φεῦ, αἶ (ofta m gen. t.	φεῦ, αἶ (ofta m. gen. t.	proofreading	accepted	full stop missing after the abbreviation m
+0308	304			Obekant	ögonen fallande äfv oberömd).	ögonen fallande äfv. oberömd).	proofreading	accepted	full stop missing after the abbreviation äfv
+0311	307			Oerfaren	(oöfvad). ξένος, 3 (Sedn).: vara	(oöfvad). ξένος, 3 (Sedn.).: vara	proofreading	accepted	full stop missing after the abbreviation Sedn
+0323	319			Onödigtvis	οὐδὲν δέον (acc. absol). μάτην.	οὐδὲν δέον (acc. absol.). μάτην.	proofreading	accepted	full stop missing after the abbreviation absol
+0328	324			Ostrafflighet	ὁσιότης, ἡ. o. gm adj	ὁσιότης, ἡ. o. gm adj.	proofreading	accepted	full stop missing after the abbreviation adj
+0332	328			Oändlig	πλῆθος, μέγεθος, etc).: o:t mycket,	πλῆθος, μέγεθος, etc.).: o:t mycket,	proofreading	accepted	full stop missing after the abbreviation etc
+0341	337			Pocka	δι' ἀπειλῶν l θρασυνόμενον	δι' ἀπειλῶν l. θρασυνόμενον	proofreading	accepted	full stop missing after the abbreviation l
+0347	343			Pund	närmare = 2 Sv lispund;	närmare = 2 Sv. lispund;	proofreading	accepted	full stop missing after the abbreviation Sv
+0363	359			Rojalist	βασιλίζειν (Sedn).	βασιλίζειν (Sedn.).	proofreading	accepted	full stop missing after the abbreviation Sedn
+0455	451			Tillstånd	διατεθῆναι (m adv). καταστῆναι,	διατεθῆναι (m. adv.). καταστῆναι,	proofreading	accepted	full stops missing after the abbreviations m and adv
+0488	484			Uppsyningsman	anförtrodt ngt). äfv gm part.,	anförtrodt ngt). äfv. gm part.,	proofreading	accepted	full stop missing after the abbreviation äfv
+0490	486			Ursinnig	λυσσαλέος, 3. Sedn). jfr Vansinnig.:	λυσσαλέος, 3. Sedn.). jfr Vansinnig.:	proofreading	accepted	full stop missing after the abbreviation Sedn
+0500	496			Utöfver	Utöfver, ἐκτός m gen. vanl.	Utöfver, ἐκτός m. gen. vanl.	proofreading	accepted	full stop missing after the abbreviation m
+0501	497			Val	ἐπιτρέπειν, προτιθέναι l προβάλλειν	ἐπιτρέπειν, προτιθέναι l. προβάλλειν	proofreading	accepted	full stop missing after the abbreviation l
+0502	498			Vansinnig	μανίαν ἐμβάλλειν l ἐμποιεῖν	μανίαν ἐμβάλλειν l. ἐμποιεῖν	proofreading	accepted	full stop missing after the abbreviation l
+0507	503			Verksamhet	πραγματεία, ἡ. o. gm adj, se Föreg.:	πραγματεία, ἡ. o. gm adj., se Föreg.:	proofreading	accepted	full stop missing after the abbreviation adj
+0507	503			Verld	τὰ ἐν τῇ γῇ l ἐπὶ τῆς	τὰ ἐν τῇ γῇ l. ἐπὶ τῆς	proofreading	accepted	full stop missing after the abbreviation l
+0519	515			Väl	ποτέ (enklit).:	ποτέ (enklit.).:	proofreading	accepted	full stop missing after the abbreviation enklit
+0531	527			Än	ngn gång παρά l πρός m.	ngn gång παρά l. πρός m.	proofreading	accepted	full stop missing after the abbreviation l
+0532	528			Ätande	Ätande, 1) ss handling,	Ätande, 1) ss. handling,	proofreading	accepted	full stop missing after the abbreviation ss
+0538	534			Ök	(ὄνος), ὁ (äfv. oeg).	(ὄνος), ὁ (äfv. oeg.).	proofreading	accepted	full stop missing after the abbreviation oeg
