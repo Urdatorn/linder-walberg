@@ -226,6 +226,11 @@ function showAbout() {
       <li><a href="#e/${s.lw_linder}">Carl Wilhelm Linder</a></li>
       <li><a href="#e/${s.lw_walberg}">Carl August Walberg</a></li>
     </ul>
+    <p class="list-head">Register</p>
+    <ul class="links">
+      <li><a href="#loci">Index locorum <span>citaten och deras källor</span></a></li>
+      <li><a href="#e/${s.lw_partes}">Partes orationis <span>orden efter ordklass</span></a></li>
+    </ul>
     ${syncSection()}
     <p class="list-head">Källor och data</p>
     <ul class="links">
@@ -235,7 +240,7 @@ function showAbout() {
       <li><a href="https://albinthorncleland.com" target="_blank" rel="noopener">Albin Thörn Cleland <span>albinthorncleland.com</span></a></li>
     </ul>
     <p class="small">Utgåva och app: Albin Thörn Cleland. Sidbilderna kommer från Project Runeberg.
-    Grekiskan är satt i GFS Porson (Greek Font Society), svenskan i Gentium Book Plus (SIL). ${meta.count - 6} artiklar.</p>
+    Grekiskan är satt i GFS Porson (Greek Font Society), svenskan i Gentium Book Plus (SIL). ${meta.entries.toLocaleString("sv-SE")} artiklar.</p>
   </div>`;
 }
 

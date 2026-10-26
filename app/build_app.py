@@ -72,9 +72,10 @@ def main() -> None:
     daily = [i for i, r in enumerate(records)
              if r["id"].startswith("lw_") and r["id"][3:].isdigit() and len(r["html"]) > 900
              and re.search(r'class="gk"', r["html"])]
-    special = {k: index[k] for k in ("front_matter", "lw_preface", "lw_abbr", "lw_locorum", "lw_linder", "lw_walberg")
+    special = {k: index[k] for k in ("front_matter", "lw_preface", "lw_abbr", "lw_locorum", "lw_partes", "lw_linder", "lw_walberg")
                if k in index}
-    meta = {"count": len(records), "chunk": CHUNK, "titles": [r["title"] for r in records],
+    entries = sum(1 for r in records if re.fullmatch(r"lw_\d+", r["id"]))      # the dictionary's own articles
+    meta = {"count": len(records), "entries": entries, "chunk": CHUNK, "titles": [r["title"] for r in records],
             "daily": daily, "special": special}
     (DIST / "data/meta.json").write_text(json.dumps(meta, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 

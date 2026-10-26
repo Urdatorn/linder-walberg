@@ -369,7 +369,7 @@ def compile_entries(entries_path: Path, pages: Path, with_greek: bool = True) ->
     for eid, head, rest, e in parsed:
         where.setdefault((fold(head), e["page"]), eid)
         where.setdefault((fold(re.sub(r"\(([^)]*)\)", "", head)), e["page"]), eid)
-    return out + front_matter(pages) + index_locorum(where) + author_entries()
+    return out + front_matter(pages) + index_locorum(where) + partes_orationis(out) + author_entries()
 
 
 def write_apple(records: list[dict], path: Path) -> None:
@@ -438,6 +438,54 @@ def index_locorum(where: dict[tuple[str, str], str]) -> list[dict]:
              "html": f'<h1 class="hw">Index locorum</h1>\n<div class="loci">{keep_spaces("".join(parts))}</div>\n'}]
 
 
+def partes_orationis(records: list[dict]) -> list[dict]:
+    """The Partes orationis: the headwords by part of speech (parts_of_speech.tsv,
+    from SALDO), for browsing, say, the prepositions. One page for the index and
+    one for each part of speech that is itself a headword of the dictionary; a
+    headword of several entries (homographs) links to a search that shows them all."""
+    path = HERE / "parts_of_speech.tsv"
+    if not path.exists():
+        return []
+    classes: dict[str, set[str]] = {}
+    for line in path.read_text(encoding="utf-8").splitlines()[1:]:
+        _, head, _, cls, _ = line.split("\t")
+        for c in filter(None, cls.split(",")):
+            classes.setdefault(c, set()).add(head)
+    ids: dict[str, list[str]] = {}
+    for r in records:
+        ids.setdefault(r["title"], []).append(r["id"])
+    own = {t: v[0] for t, v in ids.items()}          # the class's own entry, "Preposition"
+    esc = html.escape
+
+    def link(t: str) -> str:
+        if len(ids.get(t, [])) == 1:
+            return f'<a class="xref" href="x-dictionary:r:{ids[t][0]}">{esc(t)}</a>'
+        return f'<a class="xref" href="x-dictionary:d:{esc(t, quote=True)}">{esc(t)}</a>'
+
+    pages, rows = [], []
+    for c in sorted(classes, key=fold):
+        heads = [r["title"] for r in records if r["title"] in classes[c]]
+        heads = list(dict.fromkeys(heads))                 # the book's order, each word once
+        pid = "lw_partes_" + fold(c)
+        groups, parts = {}, []
+        for t in heads:
+            groups.setdefault(t[:1].upper(), []).append(t)
+        for letter, ts in groups.items():
+            parts.append(f'<div class="partes-letter">{esc(letter)}</div>'
+                         f'<div class="partes-words">{" · ".join(link(t) for t in ts)}</div>')
+        see = f'<p class="partes-see">Se <a class="xref" href="x-dictionary:r:{own[c]}">{esc(c)}</a>.</p>' if c in own else ""
+        pages.append({"id": pid, "title": f"Partes orationis: {c}",
+                      "keys": [(f"Partes orationis: {c}", f"Partes orationis: {c}")],
+                      "html": f'<h1 class="hw">{esc(c)}</h1>\n<p class="partes-sub">Partes orationis · {len(heads)} ord</p>'
+                              f'{see}<div class="partes">{keep_spaces("".join(parts))}</div>\n'})
+        rows.append(f'<div class="partes-class"><a class="xref" href="x-dictionary:r:{pid}">{esc(c)}</a>'
+                    f'<span class="partes-count"> {len(heads)}</span></div>')
+    index = {"id": "lw_partes", "title": "Partes orationis",
+             "keys": [("Partes orationis", "Partes orationis"), ("Ordklasser", "Partes orationis")],
+             "html": f'<h1 class="hw">Partes orationis</h1>\n<div class="partes-index">{keep_spaces("".join(rows))}</div>\n'}
+    return [index] + pages
+
+
 def author_entries() -> list[dict]:
     """The two authors, from their articles in Svenskt biografiskt handlexikon
     (1906; dict/authors.json, transcribed from the scans at Project Runeberg),
@@ -484,8 +532,9 @@ def front_matter(pages: Path) -> list[dict]:
          "html": '<h1 class="hw">Svenskt-grekiskt lexikon</h1>\n'
                  '<div class="front"><p class="byline">af <a href="x-dictionary:r:lw_linder">C. W. Linder</a> och <a href="x-dictionary:r:lw_walberg">C. A. Walberg</a>. Upsala 1862.</p>'
                  '<p>Uppslag på svenska ord; grekiska ord söks fram till de svenska artiklar som återger dem. '
-                 'Se <a href="x-dictionary:r:lw_preface">Förord</a>, <a href="x-dictionary:r:lw_abbr">Förkortningar</a> '
-                 'och <a href="x-dictionary:r:lw_locorum">Index locorum</a>.</p>'
+                 'Se <a href="x-dictionary:r:lw_preface">Förord</a>, <a href="x-dictionary:r:lw_abbr">Förkortningar</a>, '
+                 '<a href="x-dictionary:r:lw_locorum">Index locorum</a> och '
+                 '<a href="x-dictionary:r:lw_partes">Partes orationis</a>.</p>'
                  '<p class="note">Texten är korrekturläst mot sidbilderna; tryckfel är rättade enligt bokens '
                  'tryckfelsförteckning och en formell granskning av grekiskan. Ordet efter * saknar auktoritet hos de '
                  'gamle författarne.</p></div>\n'},

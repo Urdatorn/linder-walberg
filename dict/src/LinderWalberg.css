@@ -128,3 +128,10 @@ span.loc-cite { font-variant-numeric: tabular-nums; color: var(--num); margin-ri
 h3.bio-head { font-size: 1em; margin: 12px 0 4px 0; color: var(--muted); }
 img.portrait { float: left; width: 110px; height: auto; margin: 4px 14px 6px 0; border: 1px solid var(--rule); }
 div.bio::after { content: ""; display: block; clear: both; }
+
+/* Partes orationis */
+div.partes-class { padding: 3px 0; font-size: 1.05em; }
+span.partes-count, p.partes-sub { color: var(--muted); font-size: 0.9em; }
+p.partes-sub { margin: -4px 0 6px; }
+div.partes-letter { font-weight: 600; margin: 12px 0 2px; color: var(--muted); }
+div.partes-words { line-height: 1.7; }
