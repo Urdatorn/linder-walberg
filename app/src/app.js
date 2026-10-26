@@ -82,7 +82,7 @@ function toggleFav(n) {
 
 // ---------------------------------------------------------------- recently read (on this phone)
 
-// headword keys (as favourites), the latest first
+// headword keys (as favourites), the latest first, at most twenty
 const RECENT = "lw-senaste";
 function recent() {
   try { return (JSON.parse(localStorage.getItem(RECENT)) || []).filter((k) => meta.byFavKey.has(k)).map((k) => meta.byFavKey.get(k)); }
