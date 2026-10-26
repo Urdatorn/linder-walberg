@@ -76,7 +76,18 @@ def load_abbreviations() -> tuple[dict[str, str], set[str]]:
     for line in (HERE / "contractions.tsv").read_text(encoding="utf-8").splitlines()[1:]:
         form, full = line.split("\t")
         expand.setdefault(form, full)
+    # a plural by the doubled last letter: adjj. o. advv., partt., bett. (betydelser), föregg.
+    for a, full in list(expand.items()):
+        m = re.fullmatch(r"[^\W\d]+([^\W\d])\.", a)
+        if m and (plural := a[:-1] + m.group(1) + ".") not in expand:
+            expand[plural] = PLURALS.get(full, full + " (pl.)")
+            if a in grammatical:
+                grammatical.add(plural)
     return expand, grammatical
+
+
+PLURALS = {"adjectivum": "adjectiva", "adverbium": "adverbia", "participium": "participia",
+           "nomen, nominativus": "nomina", "betydelse": "betydelser", "föregående": "föregående", "præposition": "præpositioner"}
 
 
 ABBR, GRAMMATICAL = load_abbreviations()
