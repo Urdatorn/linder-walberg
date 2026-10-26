@@ -22,6 +22,7 @@ import re
 from pathlib import Path
 
 CONTINUES = "~ "
+RUNNING_HEAD = re.compile(r"(\d+\s+)?[A-ZÅÄÖ][\wåäöÅÄÖ\- ]*?\s*—\s*[A-ZÅÄÖ][\wåäöÅÄÖ\- ]*\.(\s+\d+)?|\d+")
 
 
 def join(prev: str, cont: str) -> str:
@@ -62,6 +63,10 @@ def main() -> None:
                 else:
                     paras.append(text)
                 if first <= page <= last and f"{page}_{n:02d}" not in args.not_entries.split(","):
+                    # a running head the proofreading left ("Loppgräs — Lugn.", "Lusta—Lycksalig.",
+                    # "253") or a sheet signature ("42"): not part of any entry
+                    if RUNNING_HEAD.fullmatch(text):
+                        continue
                     # a stray page number at the head of a paragraph ("253 τινι")
                     text = re.sub(rf"^{int(page) - 4}\s+(?=\S)", "", text)
                     # every entry opens with a capitalised headword: anything else

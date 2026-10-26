@@ -103,9 +103,13 @@ HVAR_REST = {"m.": "med", "ifr.": "ifrån", "igm": "igenom", "gm": "genom", "kn"
 
 def headword_of(text: str) -> tuple[str, str]:
     """The headword and the rest of the entry."""
-    # the headword ends at its comma, or at a stop the printer set in its place
-    # before the Greek ("Hufvudsats. ἡ πρώτη θέσις")
-    m = re.match(rf"([^,;:(]+?(?:\([^)]{{1,4}}\)[^,;:(]*)?)(,\s*|\.\s+(?=[{GREEK}(])|\s+(?=[{GREEK}])|\s+(?=se\s)|\s*(?=\()|$)", text)
+    # the headword ends at its comma, or at a stop the printer set in its place, or
+    # with neither: before the Greek ("Hufvudsats. ἡ πρώτη θέσις", "Valspråk.σύμβολον"),
+    # a sense number ("Nämna. 1) namngifva", "Afse 1) syfta på"), a reference
+    # ("Vettig. se Förståndig.", "Förfalskare gm part.") or a derivative's ending
+    # ("Vanskaplig. -het", but "Skrynka l. -kla" is one headword)
+    m = re.match(rf"([^,;:(]+?(?:\([^)]{{1,4}}\)[^,;:(]*)?)(,\s*|\.\s*(?=[{GREEK}(])|\s+(?=[{GREEK}])"
+                 r"|\.?\s+(?=\d+\)|[sS]e\s|gm\s)|(?<!\sl)\.\s+(?=-\w)|\s*(?=\()|$)", text)
     if not m:
         return text.split(" ", 1)[0], text.split(" ", 1)[1] if " " in text else ""
     return m.group(1).strip(), text[m.end():]
