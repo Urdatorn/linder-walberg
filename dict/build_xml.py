@@ -82,6 +82,8 @@ def load_abbreviations() -> tuple[dict[str, str], set[str]]:
 ABBR, GRAMMATICAL = load_abbreviations()
 # longest first, so "t. ex." wins over "t."; each must stand as a word
 ABBR_RE = re.compile(r"(?<![\w.])(" + "|".join(re.escape(a) for a in sorted(ABBR, key=len, reverse=True)) + r")(?![\w])")
+# abbreviations of more than one word ("f. öfr.", "d. o.", "o. s. v."): before the headword's initial
+MULTI = "|".join(re.escape(a) for a in sorted((a for a in ABBR if " " in a), key=len, reverse=True))
 # "hr" (hvar, p. 540) as the first part of a word: hrifrån, hrandra, hrje; the rest may be
 # abbreviated in its turn: hrm. (hvarmed), hrigm (hvarigenom), hrifr., hrkn (hvarken)
 HVAR_RE = r"(?<![\w.])hr(?P<hvar>m\.|ifr\.|[a-zåäö]+)(?![\w])"
@@ -163,7 +165,7 @@ class Renderer:
         out, pos = [], 0
         for m in GREEK_RUN.finditer(text):
             run = m.group(0).rstrip(" (")          # an opening bracket after Greek starts Swedish
-            out.append(self.swedish(text[pos:m.start()], head))
+            out.append(self.swedish(text[pos:m.start()], head, greek_after=True))
             out.append(self.greek(run))
             pos = m.start() + len(run)
         out.append(self.swedish(text[pos:], head))
@@ -174,7 +176,7 @@ class Renderer:
         body = re.sub(r",(\s*)([23])$", r',\1<span class="term">\2</span>', body)
         return f'<span class="gk">{body}</span>'
 
-    def swedish(self, text: str, head: str) -> str:
+    def swedish(self, text: str, head: str, greek_after: bool = False) -> str:
         if not text:
             return ""
         initial = head[:1].lower()
@@ -187,25 +189,41 @@ class Renderer:
             parts.append(self.words(m.group(1), head, initial))
             parts.append(", ".join(self.link(w) for w in m.group(2).split(", ")))
             pos = m.end()
-        parts.append(self.words(text[pos:], head, initial))
+        parts.append(self.words(text[pos:], head, initial, greek_after))
         return "".join(parts)
 
-    def words(self, text: str, head: str, initial: str) -> str:
+    def words(self, text: str, head: str, initial: str, greek_after: bool = False) -> str:
+        """Abbreviations and the headword's initial in Swedish text. Within an entry the
+        initial stands for the headword ("Val: anställa v." is val, not verbum), unless
+        it joins Greek words ("διδόναι l. ἐπιτρέπειν": eller) or comes before a grammatical
+        abbreviation ("m. gen.": med)."""
         out, pos = [], 0
-        token = re.compile(HVAR_RE + "|" + ABBR_RE.pattern
-                           + (rf"|(?<![\w.])({re.escape(initial)}(?::[a-zåäö]+\.?|\.))(?![\w])" if initial.isalpha() else ""))
+        parts = [HVAR_RE, rf"(?<![\w.])(?P<multi>{MULTI})(?![\w])"]
+        if initial.isalpha():
+            parts.append(rf"(?<![\w.])(?P<init>{re.escape(initial)}(?::[a-zåäö]+\.?|\.))(?![\w])")
+        parts.append(r"(?<![\w.])(?P<abbr>" + ABBR_RE.pattern[len(r"(?<![\w.])("):])
+        token = re.compile("|".join(parts))
+
+        def abbr(a: str) -> str:
+            cls = "abbr gram" if a in GRAMMATICAL else "abbr"
+            return f'<span class="{cls}" title="{html.escape(ABBR[a])}">{html.escape(a)}</span>'
+
         for m in token.finditer(text):
             out.append(html.escape(text[pos:m.start()]))
             if m.group("hvar"):
                 full = "hvar" + HVAR_REST.get(m.group("hvar"), m.group("hvar"))
                 out.append(f'<span class="abbr" title="{full}">{html.escape(m.group(0))}</span>')
-            elif m.group(2):                        # group 1 is hvar's
-                a = m.group(2)
-                cls = "abbr gram" if a in GRAMMATICAL else "abbr"
-                out.append(f'<span class="{cls}" title="{html.escape(ABBR[a])}">{html.escape(a)}</span>')
+            elif m.group("multi"):
+                out.append(abbr(m.group("multi")))
+            elif m.group("init"):
+                a, tail = m.group("init"), text[m.end():]
+                nxt = re.match(r"\s*([\wåäö]+\.)", tail)
+                general = a in ABBR and ((greek_after and not tail.strip())
+                                         or (nxt is not None and nxt.group(1) in GRAMMATICAL))
+                out.append(abbr(a) if general else
+                           f'<span class="hw-abbr" title="{html.escape(head)}">{html.escape(a)}</span>')
             else:
-                # the headword's initial standing for the headword: "göra a.", "ö:na"
-                out.append(f'<span class="hw-abbr" title="{html.escape(head)}">{html.escape(m.group(3))}</span>')
+                out.append(abbr(m.group("abbr")))
             pos = m.end()
         out.append(html.escape(text[pos:]))
         return "".join(out)
