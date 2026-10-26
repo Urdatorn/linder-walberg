@@ -107,9 +107,10 @@ def headword_of(text: str) -> tuple[str, str]:
     # with neither: before the Greek ("Hufvudsats. ἡ πρώτη θέσις", "Valspråk.σύμβολον"),
     # a sense number ("Nämna. 1) namngifva", "Afse 1) syfta på"), a reference
     # ("Vettig. se Förståndig.", "Förfalskare gm part.") or a derivative's ending
-    # ("Vanskaplig. -het", but "Skrynka l. -kla" is one headword)
+    # ("Vanskaplig. -het", but "Skrynka l. -kla" is one headword); the note
+    # "Anm." under C is a headword of its own
     m = re.match(rf"([^,;:(]+?(?:\([^)]{{1,4}}\)[^,;:(]*)?)(,\s*|\.\s*(?=[{GREEK}(])|\s+(?=[{GREEK}])"
-                 r"|\.?\s+(?=\d+\)|[sS]e\s|gm\s)|(?<!\sl)\.\s+(?=-\w)|\s*(?=\()|$)", text)
+                 r"|\.?\s+(?=\d+\)|[sS]e\s|gm\s)|(?<!\sl)\.\s+(?=-\w)|(?<=^Anm\.)\s+|\s*(?=\()|$)", text)
     if not m:
         return text.split(" ", 1)[0], text.split(" ", 1)[1] if " " in text else ""
     return m.group(1).strip(), text[m.end():]
