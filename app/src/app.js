@@ -307,13 +307,19 @@ q.addEventListener("input", () => {
 q.addEventListener("focus", () => {
   if (!q.value && !browsing && recent().length) { browsing = true; showSearch(""); }
 });
+// opening a result leaves an empty search behind it in the history, so that going
+// back from the entry finds the recent entries and not the old query
+function leaveSearch() {
+  if (location.hash.startsWith("#s/")) history.replaceState(null, "", location.pathname);
+}
 q.addEventListener("keydown", (e) => {
   if (e.key === "Enter") {
     q.blur();
     const first = view.querySelector(".results a");
-    if (first) location.hash = first.getAttribute("href");
+    if (first) { leaveSearch(); location.hash = first.getAttribute("href"); }
   }
 });
+view.addEventListener("click", (e) => { if (e.target.closest(".results a")) leaveSearch(); });
 $("#back").addEventListener("click", () => (history.length > 1 ? history.back() : (location.hash = "")));
 $("#star").addEventListener("click", (e) => {
   const n = Number(e.currentTarget.dataset.n);
