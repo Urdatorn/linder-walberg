@@ -154,13 +154,25 @@ function showRecent(seen) {
   const item = (n, cls = "") => `<li><a href="#e/${n}"${cls}><span class="key">${esc(meta.titles[n])}</span></a></li>`;
   let html = `<h2 class="list-head">Senaste</h2><ul class="results">${seen.slice(0, 8).map((n) => item(n)).join("")}</ul>`;
   const last = seen[0];
-  if (last < meta.entries) {           // the book's own entries, not the front matter or the indexes
-    const from = Math.max(0, last - 3), to = Math.min(meta.entries, last + 11);
-    const near = [];
-    for (let n = from; n < to; n++) near.push(item(n, n === last ? ' class="here" aria-current="true"' : ""));
-    html += `<h2 class="list-head">I närheten</h2><ul class="results">${near.join("")}</ul>`;
-  }
+  const near = last < meta.entries;    // the book's own entries, not the front matter or the indexes
+  if (near) html += `<h2 class="list-head">I närheten</h2><ul class="results" id="near"></ul><div id="near-end"></div>`;
   view.innerHTML = `<div class="recent">${html}</div>`;
+  if (!near) return;
+  // the book onwards from the latest entry, more as the list is scrolled to its end
+  const list = $("#near"), end = $("#near-end");
+  let next = Math.max(0, last - 3);
+  const more = () => {
+    const to = Math.min(meta.entries, next + 40), out = [];
+    for (; next < to; next++) out.push(item(next, next === last ? ' class="here" aria-current="true"' : ""));
+    list.insertAdjacentHTML("beforeend", out.join(""));
+    if (next >= meta.entries) observer.disconnect();
+  };
+  const observer = new IntersectionObserver((es) => {
+    if (!end.isConnected) return observer.disconnect();           // the view has changed
+    if (es[0].isIntersecting) more();
+  }, { rootMargin: "600px 0px" });
+  more();
+  observer.observe(end);
 }
 
 // ---------------------------------------------------------------- pages
