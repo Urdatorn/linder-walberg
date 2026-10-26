@@ -80,6 +80,23 @@ function toggleFav(n) {
   return on;
 }
 
+// ---------------------------------------------------------------- recently read (on this phone)
+
+// headword keys (as favourites), the latest first
+const RECENT = "lw-senaste";
+function recent() {
+  try { return (JSON.parse(localStorage.getItem(RECENT)) || []).filter((k) => meta.byFavKey.has(k)).map((k) => meta.byFavKey.get(k)); }
+  catch { return []; }
+}
+function remember(n) {
+  const k = meta.favKey[n];
+  try { localStorage.setItem(RECENT, JSON.stringify([k, ...recent().map((m) => meta.favKey[m]).filter((x) => x !== k)].slice(0, 20))); }
+  catch { /* private mode */ }
+}
+// once an entry has been read or the search field touched, an empty search shows the
+// recent entries and the latest one's neighbours in the book instead of the title page
+let browsing = false;
+
 // ---------------------------------------------------------------- search
 
 function lowerBound(arr, x) {
@@ -109,6 +126,8 @@ async function showSearch(query) {
   setBar("search");
   if (q.value !== query) q.value = query;
   if (!query.trim()) {
+    const seen = recent();
+    if (browsing && seen.length) { showRecent(seen); return; }
     // an easter egg: the authors' names on the title page open their biographies
     // (areas in per cent of front.png: the name and the line under it)
     const s = meta.special;
@@ -129,6 +148,19 @@ async function showSearch(query) {
     const to = h.key === title ? "" : `<span class="to">${esc(title)}</span>`;
     return `<li><a href="#e/${h.n}"><span class="key${h.greek ? " greek" : ""}">${esc(h.key)}</span>${to}</a></li>`;
   }).join("")}</ul>`;
+}
+
+function showRecent(seen) {
+  const item = (n, cls = "") => `<li><a href="#e/${n}"${cls}><span class="key">${esc(meta.titles[n])}</span></a></li>`;
+  let html = `<h2 class="list-head">Senaste</h2><ul class="results">${seen.slice(0, 8).map((n) => item(n)).join("")}</ul>`;
+  const last = seen[0];
+  if (last < meta.entries) {           // the book's own entries, not the front matter or the indexes
+    const from = Math.max(0, last - 3), to = Math.min(meta.entries, last + 11);
+    const near = [];
+    for (let n = from; n < to; n++) near.push(item(n, n === last ? ' class="here" aria-current="true"' : ""));
+    html += `<h2 class="list-head">I närheten</h2><ul class="results">${near.join("")}</ul>`;
+  }
+  view.innerHTML = `<div class="recent">${html}</div>`;
 }
 
 // ---------------------------------------------------------------- pages
@@ -152,6 +184,8 @@ async function showEntry(n, { label = "" } = {}) {
   if (html === undefined) { view.innerHTML = `<p class="empty">Artikeln finns inte.</p>`; return; }
   setBar("entry", "", n);
   view.innerHTML = `<article class="entry-page">${label}${html}</article>`;
+  remember(n);
+  browsing = true;
 }
 
 async function showDay() {
@@ -269,6 +303,10 @@ q.addEventListener("input", () => {
   history.replaceState(null, "", target === "#" ? location.pathname : target);
   showSearch(q.value);
 });
+// tapping into the empty field brings up the recent entries
+q.addEventListener("focus", () => {
+  if (!q.value && !browsing && recent().length) { browsing = true; showSearch(""); }
+});
 q.addEventListener("keydown", (e) => {
   if (e.key === "Enter") {
     q.blur();
@@ -283,9 +321,10 @@ $("#star").addEventListener("click", (e) => {
   e.currentTarget.setAttribute("aria-pressed", String(on));
   e.currentTarget.setAttribute("aria-label", on ? "Ta bort från favoriter" : "Lägg till i favoriter");
 });
-// the search tab clears the search and opens the front page
+// the search tab clears the search; tapped again on the recent entries, it opens the title page
 document.querySelector('#tabs a[data-tab="sok"]').addEventListener("click", (e) => {
   e.preventDefault();
+  if (!q.value && view.querySelector(".recent")) browsing = false;
   history.pushState(null, "", location.pathname);
   q.value = "";
   route();

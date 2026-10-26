@@ -97,6 +97,8 @@ body {
 .results .key.greek { font-family: var(--gk); color: var(--greek); }
 .results .to { color: var(--tab); font-size: 15px; }
 .results .to::before { content: "→ "; }
+.recent .list-head:first-child { margin-top: 6px; }
+.results a.here .key { color: var(--active); }
 .empty { color: var(--tab); font: 15px/1.5 var(--ui); text-align: center; padding: 40px 10px; }
 
 /* an entry */
