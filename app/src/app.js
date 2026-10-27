@@ -109,7 +109,11 @@ function lowerBound(arr, x) {
   return lo;
 }
 
-function search(keys, query, limit = 80) {
+const collator = new Intl.Collator("sv");
+
+// every key starting with the query: exact matches first, then Swedish before Greek,
+// then shorter keys
+function search(keys, query) {
   const f = fold(query);
   if (!f) return [];
   const out = [], seen = new Set();
@@ -118,11 +122,22 @@ function search(keys, query, limit = 80) {
     if (seen.has(n)) continue;
     seen.add(n);
     out.push({ key, n, exact: fk === f, greek: isGreek(key) });
-    if (out.length >= limit * 4) break;
   }
-  // exact matches first, then Swedish before Greek, then shorter keys
-  out.sort((a, b) => (b.exact - a.exact) || (a.greek - b.greek) || (a.key.length - b.key.length) || a.key.localeCompare(b.key, "sv"));
-  return out.slice(0, limit);
+  out.sort((a, b) => (b.exact - a.exact) || (a.greek - b.greek) || (a.key.length - b.key.length) || collator.compare(a.key, b.key));
+  return out;
+}
+
+// a list that grows as it is scrolled towards its end: more() adds the next batch
+// and answers false when there is nothing left
+function endless(end, more) {
+  const fill = () => {
+    while (end.isConnected && end.getBoundingClientRect().top < window.innerHeight + 600) if (!more()) return false;
+    return end.isConnected;
+  };
+  const observer = new IntersectionObserver((es) => {
+    if (!end.isConnected || (es[0].isIntersecting && !fill())) observer.disconnect();
+  }, { rootMargin: "600px 0px" });
+  if (more() && fill()) observer.observe(end);
 }
 
 let searchToken = 0;
@@ -145,12 +160,34 @@ async function showSearch(query) {
   const keys = await loadKeys(fold(query) || " ");
   if (token !== searchToken) return;
   const hits = search(keys, query);
-  if (!hits.length) { view.innerHTML = `<p class="empty">Inga träffar på ”${esc(query)}”.</p>`; return; }
-  view.innerHTML = `<ul class="results">${hits.map((h) => {
+  const hit = (h) => {
     const title = meta.titles[h.n];
     const to = h.key === title ? "" : `<span class="to">${esc(title)}</span>`;
     return `<li><a href="#e/${h.n}"><span class="key${h.greek ? " greek" : ""}">${esc(h.key)}</span>${to}</a></li>`;
-  }).join("")}</ul>`;
+  };
+  const entry = (n) => `<li><a href="#e/${n}"><span class="key">${esc(meta.titles[n])}</span></a></li>`;
+  view.innerHTML = (hits.length ? `<ul class="results" id="hits"></ul>` : `<p class="empty">Inga träffar på ”${esc(query)}”.</p>`)
+    + `<div id="hits-end"></div>`;
+  // the matches, then (for a Swedish word) the book on from where the word would stand
+  const shown = new Set(hits.map((h) => h.n));
+  let k = 0, next = null;
+  endless($("#hits-end"), () => {
+    if (k < hits.length) {
+      $("#hits").insertAdjacentHTML("beforeend", hits.slice(k, k + 40).map(hit).join(""));
+      k += 40;
+      return true;
+    }
+    if (isGreek(query)) return false;
+    if (next === null) {
+      next = 0;
+      while (next < meta.entries && collator.compare(meta.titles[next], query) < 0) next++;
+      $("#hits-end").insertAdjacentHTML("beforebegin", `<h2 class="list-head">Vidare i lexikonet</h2><ul class="results" id="onwards"></ul>`);
+    }
+    const out = [];
+    for (; next < meta.entries && out.length < 40; next++) if (!shown.has(next)) out.push(entry(next));
+    $("#onwards").insertAdjacentHTML("beforeend", out.join(""));
+    return next < meta.entries;
+  });
 }
 
 // the recent entries, and the book from the latest of them on (from its start when
@@ -164,20 +201,14 @@ function showRecent(seen) {
   view.innerHTML = `<div class="recent">${html}</div>`;
   if (!near) return;
   // the book onwards from the latest entry, more as the list is scrolled to its end
-  const list = $("#near"), end = $("#near-end");
+  const list = $("#near");
   let next = Math.max(0, last - 3);
-  const more = () => {
+  endless($("#near-end"), () => {
     const to = Math.min(meta.entries, next + 40), out = [];
     for (; next < to; next++) out.push(item(next, next === last ? ' class="here" aria-current="true"' : ""));
     list.insertAdjacentHTML("beforeend", out.join(""));
-    if (next >= meta.entries) observer.disconnect();
-  };
-  const observer = new IntersectionObserver((es) => {
-    if (!end.isConnected) return observer.disconnect();           // the view has changed
-    if (es[0].isIntersecting) more();
-  }, { rootMargin: "600px 0px" });
-  more();
-  observer.observe(end);
+    return next < meta.entries;
+  });
 }
 
 // ---------------------------------------------------------------- pages
@@ -319,6 +350,7 @@ async function route() {
 q.addEventListener("input", () => {
   const target = q.value ? "#s/" + encodeURIComponent(q.value) : "#";
   history.replaceState(null, "", target === "#" ? location.pathname : target);
+  window.scrollTo(0, 0);                 // a new query's list starts at its top
   showSearch(q.value);
 });
 // tapping into the empty field brings up the recent entries and the book around them
