@@ -1,0 +1,466 @@
+// Svenskt-grekiskt lexikon (Linder & Walberg 1862) as a web app.
+// Views by location.hash: "" or #s/<query> search, #e/<n> an entry,
+// #fav favourites, #dag the day's word, #partes the Partes orationis (a tab),
+// #loci the Index locorum (under Om), #om about.
+"use strict";
+
+const $ = (s) => document.querySelector(s);
+// the build's version (index.html loads app.js?v=…): asked of every data file, so that a
+// cache in front of the site (Cloudflare keeps .js and .json for hours) never mixes builds
+const VERSION = new URL(document.currentScript.src).searchParams.get("v") || "";
+const v = (url) => VERSION ? `${url}?v=${VERSION}` : url;
+const view = $("#view"), q = $("#q");
+let meta = null;
+const keyFiles = new Map();
+const chunks = new Map();
+
+// ---------------------------------------------------------------- data
+
+async function json(url) {
+  const r = await fetch(v(url));
+  if (!r.ok) throw new Error(url + " " + r.status);
+  return r.json();
+}
+async function loadMeta() {
+  if (!meta) {
+    meta = await json("data/meta.json");
+    // a favourite is kept by its headword (and its number among homographs), which stays
+    // the same when the dictionary is rebuilt; entry numbers may not
+    const seen = new Map();
+    meta.favKey = meta.titles.map((t) => { const k = (seen.get(t) || 0) + 1; seen.set(t, k); return k > 1 ? `${t}#${k}` : t; });
+    meta.byFavKey = new Map(meta.favKey.map((k, n) => [k, n]));
+  }
+  return meta;
+}
+// the search index, one file per first letter of the folded key
+async function loadKeys(f) {
+  const code = f.codePointAt(0).toString(16);
+  if (!keyFiles.has(code)) keyFiles.set(code, json(`data/k/${code}.json`).catch(() => []));
+  return keyFiles.get(code);
+}
+async function entryHtml(n) {
+  const c = Math.floor(n / meta.chunk);
+  if (!chunks.has(c)) chunks.set(c, json(`data/e/${String(c).padStart(2, "0")}.json`));
+  return (await chunks.get(c))[String(n)];
+}
+
+// lower case, no accents or breathings, final sigma as sigma: as the index was built
+// but å, ä and ö, letters of their own in Swedish, are kept (as build_app.py folds)
+function fold(s) {
+  return s.toLowerCase().normalize("NFD")
+    .replace(/([ao])([\u030a\u0308])|[\u0300-\u036f]/g, (m, base, mark) => base ? (base + mark).normalize("NFC") : "")
+    .replace(/ς/g, "σ").replace(/’/g, "'").trim();
+}
+const isGreek = (s) => /[Ͱ-Ͽἀ-῿]/.test(s);
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+
+// ---------------------------------------------------------------- favourites (on this phone)
+
+// {headword key: {on, at}}: removals are kept (on: false) so that they reach other devices (sync.js)
+const FAV = "lw-favoriter-2", OLD_FAV = "lw-favoriter";
+function favStore() { try { return JSON.parse(localStorage.getItem(FAV)) || {}; } catch { return {}; } }
+function setFavStore(items) { try { localStorage.setItem(FAV, JSON.stringify(items)); } catch { /* private mode */ } }
+function migrateFavs() {          // the first version kept a list of entry numbers
+  try {
+    const old = JSON.parse(localStorage.getItem(OLD_FAV));
+    if (!Array.isArray(old)) return;
+    const items = favStore(), now = Date.now();
+    old.forEach((n, i) => { const k = meta.favKey[n]; if (k && !items[k]) items[k] = { on: true, at: now - i }; });
+    setFavStore(items);
+    localStorage.removeItem(OLD_FAV);
+  } catch { /* nothing to move */ }
+}
+// favourites as entry numbers, the latest first
+function favs() {
+  return Object.entries(favStore()).filter(([k, v]) => v.on && meta.byFavKey.has(k))
+    .sort((a, b) => b[1].at - a[1].at).map(([k]) => meta.byFavKey.get(k));
+}
+function isFav(n) { const v = favStore()[meta.favKey[n]]; return !!(v && v.on); }
+function toggleFav(n) {
+  const items = favStore(), on = !isFav(n);
+  items[meta.favKey[n]] = { on, at: Date.now() };
+  setFavStore(items);
+  Sync.schedule();
+  return on;
+}
+
+// ---------------------------------------------------------------- recently read (on this phone)
+
+// headword keys (as favourites), the latest first, at most twenty
+const RECENT = "lw-senaste";
+function recent() {
+  try { return (JSON.parse(localStorage.getItem(RECENT)) || []).filter((k) => meta.byFavKey.has(k)).map((k) => meta.byFavKey.get(k)); }
+  catch { return []; }
+}
+function remember(n) {
+  const k = meta.favKey[n];
+  try { localStorage.setItem(RECENT, JSON.stringify([k, ...recent().map((m) => meta.favKey[m]).filter((x) => x !== k)].slice(0, 20))); }
+  catch { /* private mode */ }
+}
+// once an entry has been read or the search field touched, an empty search shows the
+// recent entries and the latest one's neighbours in the book instead of the title page
+let browsing = false;
+
+// ---------------------------------------------------------------- search
+
+function lowerBound(arr, x) {
+  let lo = 0, hi = arr.length;
+  while (lo < hi) { const mid = (lo + hi) >> 1; if (arr[mid][0] < x) lo = mid + 1; else hi = mid; }
+  return lo;
+}
+
+const collator = new Intl.Collator("sv");
+
+// every key starting with the query: exact matches first, then Swedish before Greek,
+// then shorter keys
+function search(keys, query) {
+  const f = fold(query);
+  if (!f) return [];
+  const out = [], seen = new Set();
+  for (let i = lowerBound(keys, f); i < keys.length && keys[i][0].startsWith(f); i++) {
+    const [fk, key, n] = keys[i];
+    if (seen.has(n)) continue;
+    seen.add(n);
+    out.push({ key, n, exact: fk === f, greek: isGreek(key) });
+  }
+  out.sort((a, b) => (b.exact - a.exact) || (a.greek - b.greek) || (a.key.length - b.key.length) || collator.compare(a.key, b.key));
+  return out;
+}
+
+// a list that grows as it is scrolled towards its end: more() adds the next batch
+// and answers false when there is nothing left
+function endless(end, more) {
+  const fill = () => {
+    while (end.isConnected && end.getBoundingClientRect().top < window.innerHeight + 600) if (!more()) return false;
+    return end.isConnected;
+  };
+  const observer = new IntersectionObserver((es) => {
+    if (!end.isConnected || (es[0].isIntersecting && !fill())) observer.disconnect();
+  }, { rootMargin: "600px 0px" });
+  if (more() && fill()) observer.observe(end);
+}
+
+let searchToken = 0;
+async function showSearch(query) {
+  setBar("search");
+  if (q.value !== query) q.value = query;
+  if (!query.trim()) {
+    if (browsing) { showRecent(recent()); return; }
+    // an easter egg: the authors' names on the title page open their biographies
+    // (areas in per cent of front.png: the name and the line under it)
+    const s = meta.special;
+    view.innerHTML = `<div class="front-page"><div class="title-page">
+      <img src="${v("front.png")}" alt="Svenskt-grekiskt lexikon, utgifvet af C. W. Linder och C. A. Walberg">
+      <a href="#e/${s.lw_linder}" aria-label="Carl Wilhelm Linder" style="left:33.8%;top:59.6%;width:36.2%;height:13.9%"></a>
+      <a href="#e/${s.lw_walberg}" aria-label="Carl August Walberg" style="left:32.8%;top:85.4%;width:36.6%;height:14.6%"></a>
+    </div></div>`;
+    return;
+  }
+  const token = ++searchToken;
+  const keys = await loadKeys(fold(query) || " ");
+  if (token !== searchToken) return;
+  const hits = search(keys, query);
+  const hit = (h) => {
+    const title = meta.titles[h.n];
+    const to = h.key === title ? "" : `<span class="to">${esc(title)}</span>`;
+    return `<li><a href="#e/${h.n}"><span class="key${h.greek ? " greek" : ""}">${esc(h.key)}</span>${to}</a></li>`;
+  };
+  const entry = (n) => `<li><a href="#e/${n}"><span class="key">${esc(meta.titles[n])}</span></a></li>`;
+  view.innerHTML = (hits.length ? `<ul class="results" id="hits"></ul>` : `<p class="empty">Inga träffar på ”${esc(query)}”.</p>`)
+    + `<div id="hits-end"></div>`;
+  // the matches, then (for a Swedish word) the book on from where the word would stand
+  const shown = new Set(hits.map((h) => h.n));
+  let k = 0, next = null;
+  endless($("#hits-end"), () => {
+    if (k < hits.length) {
+      $("#hits").insertAdjacentHTML("beforeend", hits.slice(k, k + 40).map(hit).join(""));
+      k += 40;
+      return true;
+    }
+    if (isGreek(query)) return false;
+    if (next === null) {
+      next = 0;
+      while (next < meta.entries && collator.compare(meta.titles[next], query) < 0) next++;
+      $("#hits-end").insertAdjacentHTML("beforebegin", `<h2 class="list-head">Vidare i lexikonet</h2><ul class="results" id="onwards"></ul>`);
+    }
+    const out = [];
+    for (; next < meta.entries && out.length < 40; next++) if (!shown.has(next)) out.push(entry(next));
+    $("#onwards").insertAdjacentHTML("beforeend", out.join(""));
+    return next < meta.entries;
+  });
+}
+
+// the recent entries, and the book from the latest of them on (from its start when
+// nothing has been read yet)
+function showRecent(seen) {
+  const item = (n, cls = "") => `<li><a href="#e/${n}"${cls}><span class="key">${esc(meta.titles[n])}</span></a></li>`;
+  let html = seen.length ? `<h2 class="list-head">Senaste</h2><ul class="results">${seen.slice(0, 8).map((n) => item(n)).join("")}</ul>` : "";
+  const last = seen.length ? seen[0] : -1;
+  const near = last < meta.entries;    // the book's own entries, not the front matter or the indexes
+  if (near) html += `<h2 class="list-head">I närheten</h2><ul class="results" id="near"></ul><div id="near-end"></div>`;
+  view.innerHTML = `<div class="recent">${html}</div>`;
+  if (!near) return;
+  // the book onwards from the latest entry, more as the list is scrolled to its end
+  const list = $("#near");
+  let next = Math.max(0, last - 3);
+  endless($("#near-end"), () => {
+    const to = Math.min(meta.entries, next + 40), out = [];
+    for (; next < to; next++) out.push(item(next, next === last ? ' class="here" aria-current="true"' : ""));
+    list.insertAdjacentHTML("beforeend", out.join(""));
+    return next < meta.entries;
+  });
+}
+
+// ---------------------------------------------------------------- pages
+
+function setBar(mode, title = "", n = null) {
+  $("#search-row").hidden = mode !== "search";
+  $("#title-row").hidden = mode === "search";
+  $("#back").hidden = mode !== "entry";
+  $("#bar-title").textContent = title;
+  const star = $("#star");
+  star.hidden = n === null;
+  if (n !== null) {
+    star.dataset.n = n;
+    star.setAttribute("aria-pressed", String(isFav(n)));
+    star.setAttribute("aria-label", isFav(n) ? "Ta bort från favoriter" : "Lägg till i favoriter");
+  }
+}
+
+async function showEntry(n, { label = "" } = {}) {
+  const html = await entryHtml(n);
+  if (html === undefined) { view.innerHTML = `<p class="empty">Artikeln finns inte.</p>`; return; }
+  setBar("entry", "", n);
+  view.innerHTML = `<article class="entry-page">${label}${html}</article>`;
+  remember(n);
+  browsing = true;
+}
+
+async function showDay() {
+  const d = new Date();
+  const day = Math.floor((Date.UTC(d.getFullYear(), d.getMonth(), d.getDate())) / 864e5);
+  // the candidates come shuffled (build_app.py): one a day, the same for everyone
+  const n = meta.daily[day % meta.daily.length];
+  const date = d.toLocaleDateString("sv-SE", { day: "numeric", month: "long" });
+  await showEntry(n, { label: `<p class="day-label">Dagens ord · ${esc(date)}</p>` });
+  $("#back").hidden = true;
+}
+
+// one line on the state of the sync, shown only to those who signed in
+function syncLine() {
+  if (!Sync.user()) return "";
+  const s = Sync.status(), who = esc(Sync.user());
+  const text = {
+    syncing: `Synkar med ${who} på Hugging Face …`,
+    ok: `Synkade med ${who} på Hugging Face ${s.at ? new Date(s.at).toLocaleTimeString("sv-SE", { hour: "2-digit", minute: "2-digit" }) : ""}`,
+    offline: "Ingen anslutning – synkar när du är online igen.",
+    expired: `Inloggningen har gått ut. <a href="#om">Logga in igen</a>`,
+    error: `Kunde inte synka med Hugging Face.`,
+  }[s.state] || `Synkas med ${who} på Hugging Face`;
+  return `<p class="sync-line">${text}</p>`;
+}
+
+function showFavs() {
+  setBar("list", "Favoriter");
+  const list = favs();
+  view.innerHTML = syncLine() + (list.length
+    ? `<ul class="results">${list.map((n) => `<li><a href="#e/${n}"><span class="key">${esc(meta.titles[n] || "")}</span></a></li>`).join("")}</ul>`
+    : `<p class="empty">Inga favoriter ännu.<br>Tryck på stjärnan i en artikel för att spara den här.</p>`);
+}
+
+// the sign-in rows under Om; nothing at all where sign-in is not available (outside the Space)
+function syncSection() {
+  if (!Sync.available()) return "";
+  const user = Sync.user();
+  if (!user) return `<p class="list-head">Synkronisering</p>
+    <ul class="links"><li><a href="#" id="hf-login">Logga in med Hugging Face</a></li></ul>
+    <p class="small">Valfritt. Favoriterna sparas då i ett privat dataset på ditt Hugging Face-konto och följer med
+    mellan dator och telefon. Appen kommer bara åt det datasetet.</p>`;
+  const expired = Sync.status().state === "expired";
+  return `<p class="list-head">Synkronisering</p>
+    <ul class="links">
+      ${expired ? `<li><a href="#" id="hf-login">Logga in igen <span>${esc(user)}</span></a></li>` : `<li><a href="#fav">Favoriterna synkas <span>${esc(user)}</span></a></li>`}
+      <li><a href="#" id="hf-logout">Logga ut <span>favoriterna finns kvar här</span></a></li>
+    </ul>`;
+}
+
+// an index of the dictionary's own as a page of its own: no back, no star
+async function showIndex(n) {
+  await showEntry(n);
+  $("#back").hidden = true;
+  $("#star").hidden = true;
+}
+function setTitle(t) { $("#bar-title").textContent = t; }
+
+function showAbout() {
+  setBar("list", "Om");
+  const s = meta.special;
+  view.innerHTML = `<div class="about">
+    <h1 class="hw">Svenskt-grekiskt lexikon</h1>
+    <p>C. W. Linder och C. A. Walberg, <i>Svenskt-grekiskt lexikon</i>, Upsala 1862. Texten är tolkad ur sidbilderna,
+    korrekturläst mot dem och rättad efter bokens tryckfelsförteckning och en granskning av grekiskan.
+    Κῦδος till Johan Winge som ursprungligen digitaliserade boken i januari 2013 och gjorde en första ansats
+    till OCR-tolkning i oktober samma år.</p>
+    <p class="list-head">I boken</p>
+    <ul class="links">
+      <li><a href="#e/${s.lw_preface}">Förord</a></li>
+      <li><a href="#e/${s.lw_abbr}">Förkortningar</a></li>
+      <li><a href="#e/${s.lw_linder}">Carl Wilhelm Linder</a></li>
+      <li><a href="#e/${s.lw_walberg}">Carl August Walberg</a></li>
+    </ul>
+    <p class="list-head">Register</p>
+    <ul class="links">
+      <li><a href="#loci">Index locorum <span>citaten och deras källor</span></a></li>
+      <li><a href="#e/${s.lw_rara}">Index raritatis <span>orden efter hur sällsynta de är i dag</span></a></li>
+    </ul>
+    ${syncSection()}
+    <p class="list-head">Källor och data</p>
+    <ul class="links">
+      <li><a href="https://github.com/Urdatorn/linder-walberg" target="_blank" rel="noopener">Källkod <span>GitHub</span></a></li>
+      <li><a href="https://huggingface.co/datasets/Urdatorn/linder-walberg" target="_blank" rel="noopener">Ny OCR-data <span>Hugging Face</span></a></li>
+      <li><a href="https://runeberg.org/svegrek/" target="_blank" rel="noopener">Första elektroniska utgåvan <span>Project Runeberg</span></a></li>
+      <li><a href="https://albinthorncleland.com" target="_blank" rel="noopener">Albin Thörn Cleland <span>albinthorncleland.com</span></a></li>
+    </ul>
+    <p class="small">Utgåva och app: Albin Thörn Cleland. Sidbilderna kommer från Project Runeberg.
+    Grekiskan är satt i GFS Porson (Greek Font Society), svenskan i Gentium Book Plus (SIL). ${meta.entries.toLocaleString("sv-SE")} artiklar.</p>
+  </div>`;
+}
+
+// ---------------------------------------------------------------- routing
+
+async function route() {
+  await loadMeta();
+  const h = decodeURIComponent(location.hash.slice(1));
+  const tab = h.startsWith("e/") ? null : h === "fav" ? "fav" : h === "dag" ? "dag" : h === "partes" ? "partes" : h === "om" || h === "loci" ? "om" : "sok";
+  if (tab) document.querySelectorAll("#tabs a").forEach((a) => a.setAttribute("aria-current", a.dataset.tab === tab ? "page" : "false"));
+  try {
+    if (h.startsWith("e/")) await showEntry(Number(h.slice(2)));
+    else if (h === "fav") showFavs();
+    else if (h === "dag") await showDay();
+    else if (h === "partes") await showIndex(meta.special.lw_partes);
+    else if (h === "loci") await showIndex(meta.special.lw_locorum);
+    else if (h === "om") showAbout();
+    else await showSearch(h.startsWith("s/") ? h.slice(2) : "");
+  } catch (e) {
+    view.innerHTML = `<p class="empty">Det gick inte att läsa in sidan. Kontrollera anslutningen och försök igen.</p>`;
+  }
+  if (!h.startsWith("s/") && h !== "") window.scrollTo(0, 0);
+}
+
+q.addEventListener("input", () => {
+  const target = q.value ? "#s/" + encodeURIComponent(q.value) : "#";
+  history.replaceState(null, "", target === "#" ? location.pathname : target);
+  window.scrollTo(0, 0);                 // a new query's list starts at its top
+  showSearch(q.value);
+});
+// tapping into the empty field brings up the recent entries and the book around them
+q.addEventListener("focus", () => {
+  if (!q.value && !browsing) { browsing = true; showSearch(""); }
+});
+// opening a result leaves an empty search behind it in the history, so that going
+// back from the entry finds the recent entries and not the old query
+function leaveSearch() {
+  if (location.hash.startsWith("#s/")) history.replaceState(null, "", location.pathname);
+}
+q.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") {
+    q.blur();
+    const first = view.querySelector(".results a");
+    if (first) { leaveSearch(); location.hash = first.getAttribute("href"); }
+  }
+});
+view.addEventListener("click", (e) => { if (e.target.closest(".results a")) leaveSearch(); });
+$("#back").addEventListener("click", () => (history.length > 1 ? history.back() : (location.hash = "")));
+$("#star").addEventListener("click", (e) => {
+  const n = Number(e.currentTarget.dataset.n);
+  const on = toggleFav(n);
+  e.currentTarget.setAttribute("aria-pressed", String(on));
+  e.currentTarget.setAttribute("aria-label", on ? "Ta bort från favoriter" : "Lägg till i favoriter");
+});
+// the search tab clears the search; tapped again on the recent entries, it opens the title page
+document.querySelector('#tabs a[data-tab="sok"]').addEventListener("click", (e) => {
+  e.preventDefault();
+  if (!q.value && view.querySelector(".recent")) browsing = false;
+  history.pushState(null, "", location.pathname);
+  q.value = "";
+  route();
+});
+// the bars' real heights (safe areas, text size), for centring the title page between them
+function measureBars() {
+  const root = document.documentElement.style;
+  root.setProperty("--bar-bottom", $("#bar").getBoundingClientRect().bottom + "px");
+  root.setProperty("--tabs-height", (window.innerHeight - $("#tabs").getBoundingClientRect().top) + "px");
+}
+new ResizeObserver(measureBars).observe($("#bar"));
+new ResizeObserver(measureBars).observe($("#tabs"));
+window.addEventListener("resize", measureBars);
+measureBars();
+window.addEventListener("hashchange", route);
+// a note for what has one (an abbreviation's full form, the headword behind its initial),
+// shown on a tap, since phones have no hover
+const note = document.createElement("div");
+note.id = "note"; note.hidden = true; note.setAttribute("role", "tooltip");
+document.body.append(note);
+function showNote(el) {
+  note.textContent = el.title;
+  note.hidden = false;
+  const r = el.getBoundingClientRect(), w = note.offsetWidth, h = note.offsetHeight;
+  note.style.left = Math.max(8, Math.min(window.innerWidth - w - 8, r.left + r.width / 2 - w / 2)) + "px";
+  note.style.top = (r.top - h - 8 > $("#bar").getBoundingClientRect().bottom ? r.top - h - 8 : r.bottom + 8) + "px";
+}
+const hideNote = () => { note.hidden = true; };
+window.addEventListener("scroll", hideNote, { passive: true });
+window.addEventListener("hashchange", hideNote);
+
+// the Greek word under a tap, whole: letters with their accents, an elision mark inside
+const GREEK_CHAR = /[\p{Script=Greek}\p{M}’'ʼ᾽]/u;
+function greekWordAt(x, y) {
+  let node, off;
+  if (document.caretPositionFromPoint) {
+    const p = document.caretPositionFromPoint(x, y); if (!p) return "";
+    node = p.offsetNode; off = p.offset;
+  } else if (document.caretRangeFromPoint) {
+    const r = document.caretRangeFromPoint(x, y); if (!r) return "";
+    node = r.startContainer; off = r.startOffset;
+  }
+  if (!node || node.nodeType !== Node.TEXT_NODE) return "";
+  const t = node.data;
+  let a = off, b = off;
+  while (a > 0 && GREEK_CHAR.test(t[a - 1])) a--;
+  while (b < t.length && GREEK_CHAR.test(t[b])) b++;
+  return t.slice(a, b).replace(/^['’ʼ᾽]+|['’ʼ᾽]+$/g, "");
+}
+
+view.addEventListener("click", (e) => {
+  const a = e.target.closest("a");
+  if (a && a.id === "hf-login") { e.preventDefault(); Sync.login(); return; }
+  if (a && a.id === "hf-logout") { e.preventDefault(); Sync.logout(); showAbout(); return; }
+  if (a) return;
+  const titled = e.target.closest(".entry-page span[title]");
+  if (titled) { if (note.hidden || note.textContent !== titled.title) showNote(titled); else hideNote(); return; }
+  hideNote();
+  // a Greek word: search for it
+  if (e.target.closest(".entry-page .gk")) {
+    const word = greekWordAt(e.clientX, e.clientY);
+    if (word && /\p{Script=Greek}/u.test(word)) location.hash = "#s/" + encodeURIComponent(word);
+  }
+});
+Sync.onStatus(() => {
+  const h = location.hash;
+  if (h === "#fav") showFavs();
+  if (h === "#om") showAbout();
+});
+(async () => {
+  try { await loadMeta(); migrateFavs(); } catch { /* route() reports it */ }
+  await Sync.init({
+    get: favStore, set: setFavStore,
+    changed: () => {           // favourites arrived from another device
+      const star = $("#star");
+      if (!star.hidden) star.setAttribute("aria-pressed", String(isFav(Number(star.dataset.n))));
+      if (location.hash === "#fav") showFavs();
+    },
+  });
+  route();
+})();
+
+if ("serviceWorker" in navigator) navigator.serviceWorker.register(v("sw.js")).catch(() => {});
