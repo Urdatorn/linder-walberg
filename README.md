@@ -37,10 +37,6 @@ Gå först till sidan [Releases](https://github.com/Urdatorn/linder-walberg/rele
 
 **MDict.** Packa upp och öppna eller importera `LinderWalberg.mdx` tillsammans med `LinderWalberg.mdd`, som bär stilmallen. Båda filerna ska ligga i samma mapp.
 
-## Sökning
-
-Sök på svenska, med 1862 års stavning eller modern stavning (*hvarifrån* eller *varifrån*), eller på grekiska, med eller utan accenter: ett grekiskt ord leder till de svenska artiklar som återger det.
-
 ## Så gjordes utgåvan
 
 | steg | var | |
