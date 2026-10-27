@@ -204,8 +204,8 @@ async function showEntry(n, { label = "" } = {}) {
 async function showDay() {
   const d = new Date();
   const day = Math.floor((Date.UTC(d.getFullYear(), d.getMonth(), d.getDate())) / 864e5);
-  // a fixed shuffle of the candidates, one a day, the same for everyone
-  const n = meta.daily[(day * 7919) % meta.daily.length];
+  // the candidates come shuffled (build_app.py): one a day, the same for everyone
+  const n = meta.daily[day % meta.daily.length];
   const date = d.toLocaleDateString("sv-SE", { day: "numeric", month: "long" });
   await showEntry(n, { label: `<p class="day-label">Dagens ord · ${esc(date)}</p>` });
   $("#back").hidden = true;
