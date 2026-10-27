@@ -1,7 +1,9 @@
 """The background of the macOS disk image (make dmg in dict/src): the lexicon on the
-left, an arrow, the Dictionaries folder on the right, and what to do, in Swedish.
+left and, beside it, how to install it, in Swedish. A link to the dictionaries folder
+cannot go in the image: each user has their own (~/Library/Dictionaries), and
+/Library/Dictionaries need not exist; Ordbok's File menu opens the user's own.
 Writes dict/src/dmg/background.png and background@2x.png (Finder window 640x400;
-the icons sit at (160, 205) and (480, 205), as the Makefile places them):
+the icon sits at (150, 215), as the Makefile places it):
 
     python dict/dmg_background.py
 """
@@ -37,12 +39,18 @@ def draw(scale: int) -> Image.Image:
     text = font("gentium-normal-400-latin.woff2", s(17))
     d.text((s(320), s(52)), "Svenskt-grekiskt lexikon", font=title, fill=INK, anchor="mm")
     d.text((s(320), s(82)), "Linder & Walberg 1862", font=text, fill=FAINT, anchor="mm")
-    # the arrow between the two icons
-    y = s(205)
-    d.line((s(250), y, s(380), y), fill=RED, width=s(4))
-    d.polygon([(s(392), y), (s(374), y - s(11)), (s(374), y + s(11))], fill=RED)
-    d.text((s(320), s(318)), "Dra lexikonet till mappen Dictionaries.", font=text, fill=INK, anchor="mm")
-    d.text((s(320), s(346)), "Öppna sedan programmet Ordbok och välj lexikonet där.", font=text, fill=FAINT, anchor="mm")
+    steps = ["Öppna programmet Ordbok.",
+             "Välj Arkiv › Öppna mappen Ordböcker.",
+             "Dra lexikonet härifrån till den mappen.",
+             "Starta om Ordbok och kryssa i lexikonet",
+             "under Ordbok › Inställningar."]
+    num = font("gentium-normal-700-latin.woff2", s(17))
+    y = s(150)
+    for k, line in enumerate(steps):
+        if k < 4:
+            d.text((s(282), y), f"{k + 1}.", font=num, fill=RED, anchor="ra")
+        d.text((s(292), y), line, font=text, fill=INK, anchor="la")
+        y += s(30) if k < 3 else s(24)
     return im
 
 

@@ -39,22 +39,23 @@ release: all
 	ditto -c -k --keepParent $(DICT_NAME).dictionary ../../dist/$(DICT_NAME)-macOS.zip
 	@echo "Written: dist/$(DICT_NAME)-macOS.zip"
 
-# for those who would rather drag than type: the lexicon and a link to /Library/Dictionaries
-# (Finder asks for the password), over a background that says what to do
-# (dmg/background.png, from ../dmg_background.py). create-dmg (brew install create-dmg)
-# lays out the window; without it the image holds the same two items, unarranged.
+# for those who would rather drag than type: the lexicon, with the web app's LW as its
+# icon, over a background that says how to install it (dmg/background.png, from
+# ../dmg_background.py). No link to a dictionaries folder: each user has their own
+# (~/Library/Dictionaries), which Ordbok's File menu opens. create-dmg (brew install
+# create-dmg) lays out the window; without it the image holds the lexicon alone.
+ICON = $(CURDIR)/../../app/src/icons/icon-512.png
 dmg: all
 	rm -rf dmg-root dmg-background.tiff ../../dist/$(DICT_NAME)-macOS.dmg
 	mkdir -p dmg-root ../../dist
 	cp -R $(DICT_NAME).dictionary dmg-root/
-	ln -s /Library/Dictionaries dmg-root/Dictionaries
+	osascript -l JavaScript -e 'ObjC.import("AppKit"); $$.NSWorkspace.sharedWorkspace.setIconForFileOptions($$.NSImage.alloc.initWithContentsOfFile("$(ICON)"), "$(CURDIR)/dmg-root/$(DICT_NAME).dictionary", 0)'
 	if command -v create-dmg >/dev/null; then \
 	    tiffutil -cathidpicheck dmg/background.png dmg/background@2x.png -out dmg-background.tiff && \
 	    create-dmg --volname "Svenskt-grekiskt lexikon" --background dmg-background.tiff \
 	        --window-size 640 400 --icon-size 128 --text-size 13 \
-	        --icon $(DICT_NAME).dictionary 160 205 --hide-extension $(DICT_NAME).dictionary \
-	        --icon Dictionaries 480 205 --no-internet-enable \
-	        ../../dist/$(DICT_NAME)-macOS.dmg dmg-root; \
+	        --icon $(DICT_NAME).dictionary 150 215 --hide-extension $(DICT_NAME).dictionary \
+	        --no-internet-enable ../../dist/$(DICT_NAME)-macOS.dmg dmg-root; \
 	else \
 	    hdiutil create -volname "Svenskt-grekiskt lexikon" -srcfolder dmg-root -format UDZO \
 	        ../../dist/$(DICT_NAME)-macOS.dmg; \
