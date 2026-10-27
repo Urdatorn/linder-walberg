@@ -33,6 +33,7 @@ Swedish spellings (dict/modern_spelling.tsv), so "avbryta" finds Afbryta.
 from __future__ import annotations
 
 import argparse
+import collections
 import html
 import json
 import re
@@ -388,7 +389,9 @@ def compile_entries(entries_path: Path, pages: Path, with_greek: bool = True) ->
     for eid, head, rest, e in parsed:
         where.setdefault((fold(head), e["page"]), eid)
         where.setdefault((fold(re.sub(r"\(([^)]*)\)", "", head)), e["page"]), eid)
-    return out + front_matter(pages) + index_locorum(where) + partes_orationis(out) + index_raritatis(out) + author_entries()
+    abbr_pages, abbr_links = abbreviation_pages(out)
+    return (out + front_matter(pages, abbr_links) + index_locorum(where) + partes_orationis(out)
+            + index_raritatis(out) + abbr_pages + author_entries())
 
 
 def write_apple(records: list[dict], path: Path) -> None:
@@ -595,8 +598,55 @@ def author_entries() -> list[dict]:
     return out
 
 
-def front_matter(pages: Path) -> list[dict]:
-    """The title page, preface and list of abbreviations as entries of their own."""
+def abbreviation_pages(records: list[dict]) -> tuple[list[dict], dict[str, tuple[str, int]]]:
+    """For each abbreviation in the book's list, a page of the entries that use it
+    (in any of its forms, its plural by the doubled letter too: adj. and adjj.), as
+    the renderer marked it; a headword's initial standing for the headword is not
+    counted. Returns the pages and, by the list's abbreviation, its page and count."""
+    uses: dict[str, list[int]] = {}
+    for n, r in enumerate(records):
+        if not re.fullmatch(r"lw_\d+", r["id"]):
+            continue
+        for a in dict.fromkeys(html.unescape(m).strip() for m in re.findall(r'<span class="abbr(?: gram)?" title="[^"]*">([^<]+)</span>', r["html"])):
+            uses.setdefault(a, []).append(n)
+    count = collections.Counter(r["title"] for r in records)
+    nth: dict[int, int] = {}
+    seen: collections.Counter = collections.Counter()
+    for n, r in enumerate(records):
+        seen[r["title"]] += 1
+        nth[n] = seen[r["title"]]
+    esc = html.escape
+
+    def link(n: int) -> str:
+        t = records[n]["title"]
+        sup = f"<sup>{nth[n]}</sup>" if count[t] > 1 else ""
+        return f'<a class="xref" href="x-dictionary:r:{records[n]["id"]}">{esc(t)}{sup}</a>'
+
+    pages, links = [], {}
+    rows = [l.split("\t") for l in (HERE / "abbreviations.tsv").read_text(encoding="utf-8").splitlines()[1:]]
+    for k, (abbr, expansion, _) in enumerate(rows):
+        forms = [f.strip() for f in re.split(r",\s+(?=[^\s,]+\.?$)|,\s+", abbr) if f.strip()]
+        forms += [f[:-1] + f[-2] + "." for f in forms if re.fullmatch(r"[^\W\d]{2,}\.", f)]
+        entries = sorted({n for f in forms for n in uses.get(f, [])})
+        if not entries:
+            continue
+        pid = f"lw_abbr_{k:03d}"
+        groups: dict[str, list[int]] = {}
+        for n in entries:
+            groups.setdefault(records[n]["title"][:1].upper(), []).append(n)
+        body = "".join(f'<div class="partes-letter">{esc(letter)}</div>'
+                       f'<div class="partes-words">{" · ".join(link(n) for n in ns)}</div>' for letter, ns in groups.items())
+        pages.append({"id": pid, "title": f"Förkortning: {abbr}", "keys": [(f"Förkortning: {abbr}", f"Förkortning: {abbr}")],
+                      "html": f'<h1 class="hw">{esc(abbr)}</h1>\n<p class="partes-sub">{esc(expansion)} · i {len(entries)} {"artikel" if len(entries) == 1 else "artiklar"} · '
+                              f'<a class="xref" href="x-dictionary:r:lw_abbr">Förkortningar</a></p>'
+                              f'<div class="partes">{keep_spaces(body)}</div>\n'})
+        links[abbr] = (pid, len(entries))
+    return pages, links
+
+
+def front_matter(pages: Path, abbr_links: dict[str, tuple[str, int]] | None = None) -> list[dict]:
+    """The title page, preface and list of abbreviations as entries of their own;
+    each abbreviation links to the page of the entries that use it (abbreviation_pages)."""
     def paras(p: str) -> str:
         text = (pages / f"{p}.txt").read_text(encoding="utf-8") if (pages / f"{p}.txt").exists() else ""
         return "".join(f"<p>{html.escape(x.strip())}</p>" for x in text.split("\n\n") if x.strip())
@@ -607,9 +657,16 @@ def front_matter(pages: Path) -> list[dict]:
     # the authors, in the division of the letters and in the signature, link to their entries
     preface = re.sub(r"\b((?:C\. W\. )?Linder)\b", r'<a href="x-dictionary:r:lw_linder">\1</a>', preface)
     preface = re.sub(r"\b((?:C\. A\. )?Walberg)\b", r'<a href="x-dictionary:r:lw_walberg">\1</a>', preface)
-    rows = "".join(
-        f'<tr><td class="abbr-col">{html.escape(a)}</td><td>{html.escape(x)}</td></tr>'
-        for a, x, _ in (l.split("\t") for l in (HERE / "abbreviations.tsv").read_text(encoding="utf-8").splitlines()[1:]))
+    abbr_links = abbr_links or {}
+
+    def row(a: str, x: str) -> str:
+        if a not in abbr_links:
+            return f'<tr><td class="abbr-col">{html.escape(a)}</td><td>{html.escape(x)}</td><td></td></tr>'
+        pid, n = abbr_links[a]
+        return (f'<tr><td class="abbr-col"><a class="xref" href="x-dictionary:r:{pid}">{html.escape(a)}</a></td>'
+                f'<td>{html.escape(x)}</td><td class="abbr-count">{n}</td></tr>')
+    rows = "".join(row(a, x) for a, x, _ in
+                   (l.split("\t") for l in (HERE / "abbreviations.tsv").read_text(encoding="utf-8").splitlines()[1:]))
     return [
         {"id": "front_matter", "title": "Svenskt-grekiskt lexikon",
          "keys": [("Svenskt-grekiskt lexikon", "Svenskt-grekiskt lexikon"), ("Linder Walberg", "Linder Walberg")],

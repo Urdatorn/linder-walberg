@@ -110,6 +110,7 @@ div.front p.note { font-size: 0.9em; color: var(--muted); }
 table.abbrs { border-collapse: collapse; }
 table.abbrs td { padding: 1px 12px 1px 0; vertical-align: top; }
 table.abbrs td.abbr-col { font-style: italic; white-space: nowrap; }
+table.abbrs td.abbr-count { color: var(--muted); font-size: 0.85em; text-align: right; }
 
 /* Index locorum */
 div.loc-author {
