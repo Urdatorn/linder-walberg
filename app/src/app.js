@@ -1,6 +1,7 @@
 // Svenskt-grekiskt lexikon (Linder & Walberg 1862) as a web app.
 // Views by location.hash: "" or #s/<query> search, #e/<n> an entry,
-// #fav favourites, #dag the day's word, #loci the Index locorum, #om about.
+// #fav favourites, #dag the day's word, #partes the Partes orationis (a tab),
+// #loci the Index locorum (under Om), #om about.
 "use strict";
 
 const $ = (s) => document.querySelector(s);
@@ -248,8 +249,8 @@ function syncSection() {
     </ul>`;
 }
 
-async function showLoci() {
-  const n = meta.special.lw_locorum;
+// an index of the dictionary's own as a page of its own: no back, no star
+async function showIndex(n) {
   await showEntry(n);
   $("#back").hidden = true;
   $("#star").hidden = true;
@@ -275,7 +276,6 @@ function showAbout() {
     <p class="list-head">Register</p>
     <ul class="links">
       <li><a href="#loci">Index locorum <span>citaten och deras källor</span></a></li>
-      <li><a href="#e/${s.lw_partes}">Partes orationis <span>orden efter ordklass</span></a></li>
     </ul>
     ${syncSection()}
     <p class="list-head">Källor och data</p>
@@ -295,13 +295,14 @@ function showAbout() {
 async function route() {
   await loadMeta();
   const h = decodeURIComponent(location.hash.slice(1));
-  const tab = h.startsWith("e/") ? null : h === "fav" ? "fav" : h === "dag" ? "dag" : h === "loci" ? "loci" : h === "om" ? "om" : "sok";
+  const tab = h.startsWith("e/") ? null : h === "fav" ? "fav" : h === "dag" ? "dag" : h === "partes" ? "partes" : h === "om" || h === "loci" ? "om" : "sok";
   if (tab) document.querySelectorAll("#tabs a").forEach((a) => a.setAttribute("aria-current", a.dataset.tab === tab ? "page" : "false"));
   try {
     if (h.startsWith("e/")) await showEntry(Number(h.slice(2)));
     else if (h === "fav") showFavs();
     else if (h === "dag") await showDay();
-    else if (h === "loci") await showLoci();
+    else if (h === "partes") await showIndex(meta.special.lw_partes);
+    else if (h === "loci") await showIndex(meta.special.lw_locorum);
     else if (h === "om") showAbout();
     else await showSearch(h.startsWith("s/") ? h.slice(2) : "");
   } catch (e) {
