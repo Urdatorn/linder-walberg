@@ -41,7 +41,7 @@ def draw(scale: int) -> Image.Image:
     d.text((s(320), s(52)), "Svenskt-grekiskt lexikon", font=title, fill=INK, anchor="mm")
     d.text((s(320), s(82)), "Linder & Walberg 1862", font=text, fill=FAINT, anchor="mm")
     steps = ["Öppna programmet Ordbok.",
-             "Välj Arkiv › Öppna mappen Ordböcker.",
+             "Välj Arkiv › Öppna ordboksmappen.",
              "Dra lexikonet härifrån till den mappen.",
              "Starta om Ordbok och kryssa i lexikonet",
              "under Ordbok › Inställningar."]
