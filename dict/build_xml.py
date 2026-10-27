@@ -189,7 +189,10 @@ class Renderer:
 
     def greek(self, run: str) -> str:
         body = html.escape(run)
-        body = re.sub(r",(\s*)([23])$", r',\1<span class="term">\2</span>', body)
+        # the number of terminations, wherever it stands in the run: "λίχνος, 3. τένθης",
+        # "ἐπίγαμος, 2", and in brackets after a word of a phrase, "ὡραῖος (3) γάμου"
+        body = re.sub(r",(\s*)([23])(?=[.,;\s]|$)", r',\1<span class="term">\2</span>', body)
+        body = re.sub(r"\(([23])\)", r'<span class="term">(\1)</span>', body)
         return f'<span class="gk">{body}</span>'
 
     def swedish(self, text: str, head: str, greek_after: bool = False) -> str:
