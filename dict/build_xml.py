@@ -385,7 +385,7 @@ def compile_entries(entries_path: Path, pages: Path, with_greek: bool = True) ->
     for eid, head, rest, e in parsed:
         where.setdefault((fold(head), e["page"]), eid)
         where.setdefault((fold(re.sub(r"\(([^)]*)\)", "", head)), e["page"]), eid)
-    return out + front_matter(pages) + index_locorum(where) + partes_orationis(out) + author_entries()
+    return out + front_matter(pages) + index_locorum(where) + partes_orationis(out) + index_raritatis(out) + author_entries()
 
 
 def write_apple(records: list[dict], path: Path) -> None:
@@ -502,6 +502,71 @@ def partes_orationis(records: list[dict]) -> list[dict]:
     return [index] + pages
 
 
+# the bands of Index raritatis: Zipf frequency (log10 of occurrences in a thousand
+# million words) from, up to, the band's name and how often its words occur
+RARITY_BANDS = [
+    (1.0, 2.0, "Mycket sällsynta", "färre än 1 gång på 10 miljoner ord"),
+    (2.0, 3.0, "Sällsynta", "1 gång på 1–10 miljoner ord"),
+    (3.0, 4.0, "Mindre vanliga", "1 gång på 100 000 – 1 miljon ord"),
+    (4.0, 5.0, "Vanliga", "1 gång på 10 000 – 100 000 ord"),
+    (5.0, 99.0, "Mycket vanliga", "oftare än 1 gång på 10 000 ord"),
+]
+
+
+def index_raritatis(records: list[dict]) -> list[dict]:
+    """Index raritatis: the headwords by how rare they are in Swedish today
+    (frequency.tsv: wordfreq's Zipf frequency of the modern spelling), the rarest
+    first. The words no longer found at all have a page of their own, by letter;
+    the others one page for each band, in order of frequency."""
+    path = HERE / "frequency.tsv"
+    if not path.exists():
+        return []
+    zipf = {}
+    for line in path.read_text(encoding="utf-8").splitlines()[1:]:
+        eid, _, z = line.split("\t")
+        zipf[eid] = float(z)
+    ids: dict[str, list[str]] = {}
+    for r in records:
+        if r["id"] in zipf:
+            ids.setdefault(r["title"], []).append(r["id"])
+    esc = html.escape
+
+    def link(t: str) -> str:
+        if len(ids[t]) == 1:
+            return f'<a class="xref" href="x-dictionary:r:{ids[t][0]}">{esc(t)}</a>'
+        return f'<a class="xref" href="x-dictionary:d:{esc(t, quote=True)}">{esc(t)}</a>'
+
+    z = {t: zipf[v[0]] for t, v in ids.items()}            # homographs share their spelling
+    unknown = [t for t in ids if z[t] == 0]                 # the book's order
+    bands = [("lw_rara_0", "Okända i dagens svenska", "saknas i ordfrekvenserna", unknown)]
+    for lo, hi, name, how in RARITY_BANDS:
+        ts = sorted((t for t in ids if lo <= z[t] < hi), key=lambda t: (z[t], fold(t)))
+        bands.append((f"lw_rara_{int(lo)}", name, how, ts))
+    pages, rows = [], []
+    for pid, name, how, ts in bands:
+        if pid == "lw_rara_0":
+            groups: dict[str, list[str]] = {}
+            for t in ts:
+                groups.setdefault(t[:1].upper(), []).append(t)
+            body = "".join(f'<div class="partes-letter">{esc(letter)}</div>'
+                           f'<div class="partes-words">{" · ".join(link(t) for t in g)}</div>' for letter, g in groups.items())
+        else:
+            body = f'<div class="partes-words">{" · ".join(link(t) for t in ts)}</div>'
+        pages.append({"id": pid, "title": f"Index raritatis: {name}",
+                      "keys": [(f"Index raritatis: {name}", f"Index raritatis: {name}")],
+                      "html": f'<h1 class="hw">{esc(name)}</h1>\n<p class="partes-sub">Index raritatis · {len(ts)} ord, '
+                              f'{esc(how)}</p><div class="partes">{keep_spaces(body)}</div>\n'})
+        rows.append(f'<div class="partes-class"><a class="xref" href="x-dictionary:r:{pid}">{esc(name)}</a>'
+                    f'<span class="partes-count"> {len(ts)}</span><div class="partes-how">{esc(how)}</div></div>')
+    intro = ('<p class="partes-sub">Uppslagsorden efter hur sällsynta de är i dagens svenska, de sällsyntaste först: '
+             'deras moderna stavning räknad i <a href="https://github.com/rspeer/wordfreq">wordfreq</a>s '
+             'svenska ordfrekvenser (Wikipedia, undertexter, nyheter, webben).</p>')
+    index = {"id": "lw_rara", "title": "Index raritatis",
+             "keys": [("Index raritatis", "Index raritatis"), ("Sällsynta ord", "Index raritatis")],
+             "html": f'<h1 class="hw">Index raritatis</h1>\n{intro}<div class="partes-index">{keep_spaces("".join(rows))}</div>\n'}
+    return [index] + pages
+
+
 def author_entries() -> list[dict]:
     """The two authors, from their articles in Svenskt biografiskt handlexikon
     (1906; dict/authors.json, transcribed from the scans at Project Runeberg),
@@ -549,8 +614,9 @@ def front_matter(pages: Path) -> list[dict]:
                  '<div class="front"><p class="byline">af <a href="x-dictionary:r:lw_linder">C. W. Linder</a> och <a href="x-dictionary:r:lw_walberg">C. A. Walberg</a>. Upsala 1862.</p>'
                  '<p>Uppslag på svenska ord; grekiska ord söks fram till de svenska artiklar som återger dem. '
                  'Se <a href="x-dictionary:r:lw_preface">Förord</a>, <a href="x-dictionary:r:lw_abbr">Förkortningar</a>, '
-                 '<a href="x-dictionary:r:lw_locorum">Index locorum</a> och '
-                 '<a href="x-dictionary:r:lw_partes">Partes orationis</a>.</p>'
+                 '<a href="x-dictionary:r:lw_locorum">Index locorum</a>, '
+                 '<a href="x-dictionary:r:lw_partes">Partes orationis</a> och '
+                 '<a href="x-dictionary:r:lw_rara">Index raritatis</a>.</p>'
                  '<p class="note">Texten är korrekturläst mot sidbilderna; tryckfel är rättade enligt bokens '
                  'tryckfelsförteckning och en formell granskning av grekiskan. Ordet efter * saknar auktoritet hos de '
                  'gamle författarne.</p></div>\n'},

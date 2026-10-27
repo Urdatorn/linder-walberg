@@ -77,7 +77,7 @@ def main() -> None:
     zipf = {r["id"]: float(r["zipf"]) for r in csv.DictReader((ROOT / "dict/frequency.tsv").open(encoding="utf-8"), delimiter="\t")}
     daily = [i for i, r in enumerate(records) if re.fullmatch(r"lw_\d+", r["id"]) and zipf.get(r["id"], 9) < 2.5]
     random.Random(1862).shuffle(daily)
-    special = {k: index[k] for k in ("front_matter", "lw_preface", "lw_abbr", "lw_locorum", "lw_partes", "lw_linder", "lw_walberg")
+    special = {k: index[k] for k in ("front_matter", "lw_preface", "lw_abbr", "lw_locorum", "lw_partes", "lw_rara", "lw_linder", "lw_walberg")
                if k in index}
     entries = sum(1 for r in records if re.fullmatch(r"lw_\d+", r["id"]))      # the dictionary's own articles
     meta = {"count": len(records), "entries": entries, "chunk": CHUNK, "titles": [r["title"] for r in records],

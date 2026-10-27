@@ -276,6 +276,7 @@ function showAbout() {
     <p class="list-head">Register</p>
     <ul class="links">
       <li><a href="#loci">Index locorum <span>citaten och deras källor</span></a></li>
+      <li><a href="#e/${s.lw_rara}">Index raritatis <span>orden efter hur sällsynta de är i dag</span></a></li>
     </ul>
     ${syncSection()}
     <p class="list-head">Källor och data</p>
