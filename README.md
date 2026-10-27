@@ -29,6 +29,8 @@ För den som är intresserad av att fortsätta förbättra OCR-modeller för ant
 
 ## Installation
 
+Gå först till sidan [Releases](https://github.com/Urdatorn/linder-walberg/releases).
+
 **Mac.** Öppna `LinderWalberg-macOS.dmg`. Öppna sedan appen Ordbok, välj Arkiv › Öppna ordboksmappen och dra lexikonet från skivavbildens fönster till den mappen. Starta om Ordbok, välj Ordbok › Inställningar och kryssa i *Svenskt-grekiskt lexikon*. (Med zip-arkivet: packa upp det och dra `LinderWalberg.dictionary` till samma mapp.)
 
 **StarDict.** Packa upp och lägg mappen `LinderWalberg` i programmets ordboksmapp (i GoldenDict: Redigera › Ordböcker › Källor › Filer).
