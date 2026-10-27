@@ -113,8 +113,10 @@ mechanical fixes; `misprint`: reported by the proofreaders; `diacritic`,
    450 dpi by an AI agent (Claude), word by word and accent by accent, with
    hints from a lexicon check of the Greek. On the five pages that have a
    human-verified reference (0005–0009) the character error rate fell from
-   1.86% (raw OCR) to 1.03% (cleaned) to 0.14% (proofread); doubtful readings
-   on those pages were settled against a physical copy.
+   1.86% (raw OCR) to 1.03% (cleaned) to 0.14% (proofread, in one pass). The
+   reference is Runeberg's proofread text of those pages, corrected against
+   the scans and, where the scans left a reading in doubt, against a physical
+   copy, before any of the OCR was proofread.
 4. **Corrections**: formal checks of the Greek (breathings, accents, the grave
    rule, accent position, attestation in a 6.5-million-form Ancient Greek
    corpus and in LSJ) and the proofreaders' misprint reports gave the
