@@ -18,7 +18,8 @@ from PIL import Image, ImageDraw, ImageFont
 
 HERE = Path(__file__).resolve().parent
 FONTS = HERE.parent / "app/src/fonts"
-PAPER, INK, FAINT, RED = "#f6f2e9", "#2b2620", "#7a7166", "#9b1c1c"
+# PAPER a shade darker than the icon's own paper (#f6f2e9), so that the icon reads as one
+PAPER, INK, FAINT, RED = "#e6dcc6", "#2b2620", "#7a7166", "#9b1c1c"
 
 
 def font(name: str, size: int) -> ImageFont.FreeTypeFont:
