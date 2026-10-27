@@ -45,8 +45,11 @@ async function entryHtml(n) {
 }
 
 // lower case, no accents or breathings, final sigma as sigma: as the index was built
+// but å, ä and ö, letters of their own in Swedish, are kept (as build_app.py folds)
 function fold(s) {
-  return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/ς/g, "σ").replace(/’/g, "'").trim();
+  return s.toLowerCase().normalize("NFD")
+    .replace(/([ao])([\u030a\u0308])|[\u0300-\u036f]/g, (m, base, mark) => base ? (base + mark).normalize("NFC") : "")
+    .replace(/ς/g, "σ").replace(/’/g, "'").trim();
 }
 const isGreek = (s) => /[Ͱ-Ͽἀ-῿]/.test(s);
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
@@ -127,8 +130,7 @@ async function showSearch(query) {
   setBar("search");
   if (q.value !== query) q.value = query;
   if (!query.trim()) {
-    const seen = recent();
-    if (browsing && seen.length) { showRecent(seen); return; }
+    if (browsing) { showRecent(recent()); return; }
     // an easter egg: the authors' names on the title page open their biographies
     // (areas in per cent of front.png: the name and the line under it)
     const s = meta.special;
@@ -151,10 +153,12 @@ async function showSearch(query) {
   }).join("")}</ul>`;
 }
 
+// the recent entries, and the book from the latest of them on (from its start when
+// nothing has been read yet)
 function showRecent(seen) {
   const item = (n, cls = "") => `<li><a href="#e/${n}"${cls}><span class="key">${esc(meta.titles[n])}</span></a></li>`;
-  let html = `<h2 class="list-head">Senaste</h2><ul class="results">${seen.slice(0, 8).map((n) => item(n)).join("")}</ul>`;
-  const last = seen[0];
+  let html = seen.length ? `<h2 class="list-head">Senaste</h2><ul class="results">${seen.slice(0, 8).map((n) => item(n)).join("")}</ul>` : "";
+  const last = seen.length ? seen[0] : -1;
   const near = last < meta.entries;    // the book's own entries, not the front matter or the indexes
   if (near) html += `<h2 class="list-head">I närheten</h2><ul class="results" id="near"></ul><div id="near-end"></div>`;
   view.innerHTML = `<div class="recent">${html}</div>`;
@@ -317,9 +321,9 @@ q.addEventListener("input", () => {
   history.replaceState(null, "", target === "#" ? location.pathname : target);
   showSearch(q.value);
 });
-// tapping into the empty field brings up the recent entries
+// tapping into the empty field brings up the recent entries and the book around them
 q.addEventListener("focus", () => {
-  if (!q.value && !browsing && recent().length) { browsing = true; showSearch(""); }
+  if (!q.value && !browsing) { browsing = true; showSearch(""); }
 });
 // opening a result leaves an empty search behind it in the history, so that going
 // back from the entry finds the recent entries and not the old query

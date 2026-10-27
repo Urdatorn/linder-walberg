@@ -32,9 +32,15 @@ DIST = HERE / "dist"
 
 
 def fold(s: str) -> str:
-    """Search form: lower case, no accents or breathings, ς = σ."""
-    s = "".join(c for c in unicodedata.normalize("NFD", s.lower()) if not unicodedata.combining(c))
-    return s.replace("ς", "σ").replace("’", "'").strip()
+    """Search form: lower case, no accents or breathings, ς = σ; but å, ä and ö, letters
+    of their own in Swedish, are kept (app.js folds the same way)."""
+    out: list[str] = []
+    for c in unicodedata.normalize("NFD", s.lower()):
+        if not unicodedata.combining(c):
+            out.append(c)
+        elif out and out[-1] in "ao" and c in "\u030a\u0308":
+            out[-1] = unicodedata.normalize("NFC", out[-1] + c)
+    return "".join(out).replace("ς", "σ").replace("’", "'").strip()
 
 
 def main() -> None:
