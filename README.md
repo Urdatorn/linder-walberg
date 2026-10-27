@@ -24,21 +24,20 @@ För den som är intresserad av att fortsätta förbättra OCR-modeller för ant
 - Stavningen från 1862 behålls (*hvar*, *af*, *qvinna*), men sökningen **hittar även moderna stavningar**.
 - **Baklängessökning** på grekiska termer ger svenska lemma som innehåller dem.
 - Bokens **förkortningar förklaras** där de förekommer, även de som inte inkluderas i dess egen förteckning på s. 540.
-- De av Linder och Walbergs exempelfraser som förekommer i klassiska källtexter har samlats i en _index locorum_. 
+- De av Linder och Walbergs exempelfraser som förekommer i klassiska källtexter har samlats i en _index locorum_.
+- Sök på `*` för alla ord som ``saknar auktoritet hos de gamle författarne''.
 
-## Mitt exemplar
+## Installation
 
-<p align="center">
-  <img src="docs/mitt-exemplar.jpg" alt="Titelbladet i mitt exemplar, med namnteckning ovanför SVENSKT-GREKISKT" width="640">
-</p>
+**Mac.** Öppna `LinderWalberg-macOS.dmg`. Öppna sedan appen Ordbok, välj Arkiv › Öppna ordboksmappen och dra lexikonet från skivavbildens fönster till den mappen. Starta om Ordbok, välj Ordbok › Inställningar och kryssa i *Svenskt-grekiskt lexikon*. (Med zip-arkivet: packa upp det och dra `LinderWalberg.dictionary` till samma mapp.)
 
-Några korrekturer har jag dubellkollat mot mitt eget fysiska exemplar. Jag köpte Linder och Walberg i en bokaffär i Stockholm när jag läste grekiska A. Den kostade 1300 kr, och var den dyraste boken jag någonsin köpt. Anledningen till det ovanligt höga priset var att den var signerad av Albert Engström. Den föregående ägaren hade på försättsbladet skrivit 
+**StarDict.** Packa upp och lägg mappen `LinderWalberg` i programmets ordboksmapp (i GoldenDict: Redigera › Ordböcker › Källor › Filer).
 
-> Inköpt på auktionen efter Engström
+**MDict.** Packa upp och öppna eller importera `LinderWalberg.mdx` tillsammans med `LinderWalberg.mdd`, som bär stilmallen. Båda filerna ska ligga i samma mapp.
 
-> Den var då obunden och ouppsprättad
+## Sökning
 
-Varför signerade Engström boken men orkade aldrig ens sprätta upp den? Klart är att han hoppade av sin grekiskautbildning i förtid, men det är också klart att han var duktig på grekiska och skrev fina ligaturer, och att han alltså borde ha haft all anledning att öppna Linder och Walberg under sina studier. Vissa mysterier förblir olösta.
+Sök på svenska, med 1862 års stavning eller modern stavning (*hvarifrån* eller *varifrån*), eller på grekiska, med eller utan accenter: ett grekiskt ord leder till de svenska artiklar som återger det.
 
 ## Så gjordes utgåvan
 
