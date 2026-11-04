@@ -2,7 +2,7 @@
 entries as the Dictionary.app edition (dict/build_xml.compile_entries).
 
   app/dist/              the site, ready to serve as static files
-    index.html app.js sync.js app.css sw.js manifest.webmanifest front.png icons/ fonts/ img/ .nojekyll
+    index.html app.js sync.js hits.js app.css sw.js manifest.webmanifest front.png icons/ fonts/ img/ .nojekyll
     data/meta.json       titles of all entries, the daily-word candidates
     data/k/<hex>.json    the search index by first letter: [folded key, key, entry number], sorted
     data/e/NN.json       entry pages, 1000 per file
