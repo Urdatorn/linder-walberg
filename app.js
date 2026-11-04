@@ -323,7 +323,17 @@ function showAbout() {
     </ul>
     <p class="small">Utgåva och app: Albin Thörn Cleland. Sidbilderna kommer från Project Runeberg.
     Grekiskan är satt i GFS Porson (Greek Font Society), svenskan i Gentium Book Plus (SIL). ${meta.entries.toLocaleString("sv-SE")} artiklar.</p>
+    <p class="small" id="hits"${hitsText() ? "" : " hidden"}>${hitsText()}</p>
   </div>`;
+}
+
+// the hit counter's line at the foot of Om (hits.js); empty until the numbers have come
+function hitsText() {
+  const n = Hits.visits(), d = Hits.devices();
+  if (n === null) return "";
+  const f = (x) => x.toLocaleString("sv-SE");
+  return `Appen har öppnats ${f(n)} ${n === 1 ? "gång" : "gånger"}`
+    + (d === null ? "" : ` på ${f(d)} ${d === 1 ? "enhet" : "olika enheter"}`) + " sedan november 2026.";
 }
 
 // ---------------------------------------------------------------- routing
@@ -445,11 +455,16 @@ view.addEventListener("click", (e) => {
     if (word && /\p{Script=Greek}/u.test(word)) location.hash = "#s/" + encodeURIComponent(word);
   }
 });
+Hits.onChange(() => {
+  const p = document.getElementById("hits");
+  if (p) { p.textContent = hitsText(); p.hidden = !p.textContent; }
+});
 Sync.onStatus(() => {
   const h = location.hash;
   if (h === "#fav") showFavs();
   if (h === "#om") showAbout();
 });
+Hits.init();
 (async () => {
   try { await loadMeta(); migrateFavs(); } catch { /* route() reports it */ }
   await Sync.init({
