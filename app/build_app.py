@@ -6,6 +6,7 @@ entries as the Dictionary.app edition (dict/build_xml.compile_entries).
     data/meta.json       titles of all entries, the daily-word candidates
     data/k/<hex>.json    the search index by first letter: [folded key, key, entry number], sorted
     data/e/NN.json       entry pages, 1000 per file
+    ord/ register/ sitemap.xml page.css   every entry as a plain page, for search engines (build_pages.py)
 
     python app/build_app.py
 """
@@ -26,6 +27,7 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
 sys.path.insert(0, str(ROOT / "dict"))
 from build_xml import compile_entries  # noqa: E402
+import build_pages  # noqa: E402
 
 CHUNK = 1000
 DIST = HERE / "dist"
@@ -56,8 +58,9 @@ def main() -> None:
     if DIST.exists():
         shutil.rmtree(DIST)
     (DIST / "data/e").mkdir(parents=True)
+    htmls = [relink(r["html"]) for r in records]
     for i in range(0, len(records), CHUNK):
-        chunk = {str(j): relink(records[j]["html"]) for j in range(i, min(i + CHUNK, len(records)))}
+        chunk = {str(j): htmls[j] for j in range(i, min(i + CHUNK, len(records)))}
         (DIST / f"data/e/{i // CHUNK:02d}.json").write_text(json.dumps(chunk, ensure_ascii=False, separators=(",", ":")),
                                                             encoding="utf-8")
     keys = []
@@ -97,6 +100,9 @@ def main() -> None:
     css = (ROOT / "dict/src/LinderWalberg.css").read_text(encoding="utf-8")
     (DIST / "dictionary.css").write_text(css, encoding="utf-8")
     files = sorted(str(p.relative_to(DIST)) for p in DIST.rglob("*") if p.is_file() and p.name != "sw.js")
+    # the plain pages for search engines, outside the app: not cached for offline, not in its version
+    is_entry = [bool(re.fullmatch(r"lw_\d+", r["id"])) for r in records]
+    pages = build_pages.write(DIST, records, htmls, build_pages.slugs_for(records), is_entry)
     digest = hashlib.sha256()
     for f in files:
         digest.update(f.encode() + b"\0" + (DIST / f).read_bytes())
@@ -110,7 +116,7 @@ def main() -> None:
                                 encoding="utf-8")
     size = sum((DIST / f).stat().st_size for f in files)
     print(f"{len(records)} entries, {len(keys)} search keys, {len(daily)} daily words; "
-          f"{len(files)} files, {size / 2**20:.1f} MB -> {DIST}")
+          f"{len(files)} files, {size / 2**20:.1f} MB -> {DIST}; {len(pages)} pages for search engines")
 
 
 if __name__ == "__main__":

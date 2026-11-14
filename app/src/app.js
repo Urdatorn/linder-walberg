@@ -312,6 +312,7 @@ function showAbout() {
     <ul class="links">
       <li><a href="#loci">Index locorum <span>citaten och deras källor</span></a></li>
       <li><a href="#e/${s.lw_rara}">Index raritatis <span>orden efter hur sällsynta de är i dag</span></a></li>
+      <li><a href="register/">Alla ord <span>i bokstavsordning, som vanliga webbsidor</span></a></li>
     </ul>
     ${syncSection()}
     <p class="list-head">Källor och data</p>

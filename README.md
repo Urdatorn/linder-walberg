@@ -57,9 +57,13 @@ sina porträtt.
 ```sh
 python dict/build_xml.py           # the Dictionary.app source; then `make install` in dict/src on a Mac
 python dict/build_other.py         # StarDict and MDict
-app/deploy.sh                      # build the web app and publish it (GitHub Pages, branch gh-pages)
+app/deploy.sh                      # build the web app and publish it by hand (GitHub Pages, branch gh-pages)
 python hf/build_dataset.py         # the Hugging Face dataset
 ```
+
+Every push to `master` builds and publishes the web app by itself
+([`.github/workflows/pages.yml`](.github/workflows/pages.yml)). Besides the app, the build writes every entry
+as a plain page (`ord/<uppslagsord>/`), a register by letter and a sitemap, so that search engines can find them.
 
 ## Acknowledgments
 

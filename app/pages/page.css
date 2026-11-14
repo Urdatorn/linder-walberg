@@ -1,0 +1,59 @@
+/* The plain pages beside the app (build_pages.py): one entry, or a register, on the
+   app's parchment, around the dictionary's own stylesheet (dictionary.css). */
+
+:root {
+    --page: #f6f2e9;
+    --line: #ddd5c4;
+    --tab: #7c776d;
+    --active: #9b1c1c;
+    --field: #ebe5d8;
+    --sv: "GFS Porson", "Gentium", "Iowan Old Style", "Palatino", Georgia, serif;
+    --gk: "GFS Porson", "Gentium", "Palatino", "Times New Roman", serif;
+    --ui: -apple-system, "SF Pro Text", "Helvetica Neue", system-ui, sans-serif;
+    color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --page: #17160f;
+        --line: #3a372d;
+        --tab: #8f897c;
+        --active: #f08b8b;
+        --field: #2a281f;
+        color-scheme: dark;
+    }
+}
+
+html { -webkit-text-size-adjust: 100%; }
+body {
+    margin: 0 auto; max-width: 680px; padding: 0 16px 32px;
+    background: var(--page); color: var(--ink);
+    font: 17px/1.5 var(--sv);
+}
+a { color: var(--link); }
+
+header { padding: 14px 0 10px; border-bottom: 0.5px solid var(--line); }
+header .home { display: block; margin-bottom: 10px; color: var(--ink); text-decoration: none; font-size: 20px; }
+header .home span { color: var(--tab); font: 14px var(--ui); margin-left: 6px; white-space: nowrap; }
+header input {
+    box-sizing: border-box; width: 100%; padding: 9px 12px;
+    border: 0; border-radius: 10px; background: var(--field); color: var(--ink);
+    font: 16px var(--ui);
+}
+
+main { padding: 8px 0 4px; }
+main h1.hw { margin-top: 12px; }
+main h2 { font: 600 13px var(--ui); letter-spacing: 0.06em; text-transform: uppercase; color: var(--tab); margin: 22px 0 6px; }
+
+.prevnext { display: flex; justify-content: space-between; gap: 12px; padding: 12px 0; border-top: 0.5px solid var(--line); }
+.prevnext a { text-decoration: none; }
+.prevnext a[rel=next] { margin-left: auto; text-align: right; }
+
+footer { color: var(--tab); font: 13px/1.5 var(--ui); }
+footer .open { font-size: 15px; }
+
+.letters { display: flex; flex-wrap: wrap; gap: 4px 10px; margin: 10px 0 14px; font: 16px var(--ui); }
+.letters a { text-decoration: none; }
+.letters a[aria-current] { color: var(--active); font-weight: 600; }
+.words { list-style: none; padding: 0; margin: 0; columns: 2 12em; column-gap: 24px; }
+.words li { padding: 3px 0; break-inside: avoid; }
+.words a { text-decoration: none; }

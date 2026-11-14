@@ -1,0 +1,45 @@
+# Build the web app on every push to master and publish it at
+# https://albinthorncleland.com/linder-walberg/ (GitHub Pages serves the branch gh-pages).
+# The build goes on top of gh-pages as a new commit, so earlier builds stay in its history.
+name: Publish the web app
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-web-app
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Build
+        run: python app/build_app.py
+
+      - name: Commit the build to gh-pages
+        run: |
+          git fetch --depth=1 origin gh-pages
+          git worktree add --detach "$RUNNER_TEMP/pages" FETCH_HEAD
+          cd "$RUNNER_TEMP/pages"
+          git rm -rq --ignore-unmatch .
+          cp -r "$GITHUB_WORKSPACE/app/dist/." .
+          git add -A
+          if git diff --cached --quiet; then
+            echo "The site is unchanged."
+            exit 0
+          fi
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -q -m "Build from ${GITHUB_SHA::7}"
+          git push origin HEAD:gh-pages
