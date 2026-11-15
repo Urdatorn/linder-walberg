@@ -647,10 +647,17 @@ def abbreviation_pages(records: list[dict]) -> tuple[list[dict], dict[str, tuple
 def front_matter(pages: Path, abbr_links: dict[str, tuple[str, int]] | None = None) -> list[dict]:
     """The title page, preface and list of abbreviations as entries of their own;
     each abbreviation links to the page of the entries that use it (abbreviation_pages)."""
-    def paras(p: str) -> str:
-        text = (pages / f"{p}.txt").read_text(encoding="utf-8") if (pages / f"{p}.txt").exists() else ""
+    def read(p: str) -> str:
+        return (pages / f"{p}.txt").read_text(encoding="utf-8").strip() if (pages / f"{p}.txt").exists() else ""
+
+    def paras(text: str) -> str:
         return "".join(f"<p>{html.escape(x.strip())}</p>" for x in text.split("\n\n") if x.strip())
-    preface = paras("0003") + paras("0004")
+    # the preface runs over two pages; a word divided at the page break ("van-" / "ligen") is made whole
+    p3, p4 = read("0003"), read("0004")
+    if re.search(r"\w-$", p3) and re.match(r"[a-zåäö]", p4):
+        preface = paras(p3[:-1] + p4)
+    else:
+        preface = paras(p3 + "\n\n" + p4)
     preface = re.sub(r"^<p>Förord\.</p>", "", preface)        # the page's own heading: the entry has one
     # word endings cited as such, in italics as in print
     preface = preface.replace("på -ande (-ing) och -are ej", "på <i>-ande</i> (<i>-ing</i>) och <i>-are</i> ej")
